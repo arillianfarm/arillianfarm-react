@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "name": "Baked eggs and Asparagus",
+      "pub_date": "8/9/24",
+      "header_pic": "aspar5.png",
+      "servings": "1-2 servings",
+      "summary": "INGREDIENTS: A handful of fresh asparagus, 1-2 tbsp of butter, 2 eggs, 1 tsp fresh ground pepper, 1 clove of garlic, 1 tsp soy sauce, 1 tbsp olive oil. INSTRUCTIONS: (1) Trim asparagus and mince the garlic (2)  On you cutting board, mix together garlic, oil, soy sauce and pepper and roll the asparagus through the oil mixture until coated. (4) Layer asparagus across a baking dish and crack two eggs over the top (5) Mix butter with the remaining oil and garlic mix and dab on top of eggs (6) Airfry at 385F for about 10 min --or until eggs and asparagus are cooked as desired.",
+      "ingredients": [
+        "A handful of fresh asparagus",
+        "1-2 tbsp of butter",
+        "2 eggs",
+        "1 tsp fresh ground pepper",
+        "1 clove of garlic",
+        "1 tsp soy sauce",
+        "1 tbsp olive oil"
+      ],
+      "steps": [{
+        "pic": "aspar1.png",
+        "instruction":"Trim the asparagus and mince the garlic "
+      },
+        {
+          "pic": "aspar2.png",
+          "instruction":" On you cutting board, mix together garlic, oil, soy sauce and pepper and roll the asparagus through the oil mixture until coated."
+        },{
+          "pic": "aspar4.png",
+          "instruction": "Layer asparagus across a baking dish and crack two eggs over the top of the asparagus then mix butter with the remaining oil and garlic mix and dab on top of eggs"
+        },{
+          "pic": "asparDone.png",
+          "instruction": "Airfry at 385F for about 10 min --or until eggs and asparagus are cooked as desired."
+        }],
+      "notes": "Great light meal for any time of day"}
+  ]
+}
