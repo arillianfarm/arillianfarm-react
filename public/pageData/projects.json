@@ -1,0 +1,92 @@
+{
+  "data": [
+    {
+      "name": "Catio",
+      "pub_date": "8/9/24",
+      "header_pic": "catioDone.png",
+      "categories": ["construction", "pets", "tempe"],
+      "about": "Last year, my best friend and her girlfriend along with their three cats moved into one of the units in the two rental houses I own on a 9000 sq ft lot in Tempe, AZ. I wanted to make sure their cats had space to get fresh air and get away from each other if needed (as they blended their cat families) —and I love woodworking, so I decided to build a catio for them.",
+      "tools": [
+        "Cordless hammer/ impact drill (we use a Black and Decker Matrix drill which has a bunch of interchangeable tool heads. We used the impact head for the vast majority of the screws, but we switched to the hammer head to drill into and ).",
+        "Air Compressor with Staple gun attachment",
+        "Tin snips",
+        "Level",
+        "Square angle",
+        "Tape measure",
+        "Pencil or Pen",
+        "Electric miter saw"
+      ],
+      "materials": [
+        "2.5 inch deck screws: 1 box",
+        "Construction staples: 1 box",
+        "2-D L brackets",
+        "Concrete Drill Bits (it took us two bits to make three pilot holes in the block wall we anchored to)",
+        "Concrete Screws: 3-4 screws per anchor point",
+        "Gate hinges (set of 2)",
+        "Pressure Treated Lumber: approx 10 2x4x8s and 10 2x6x8s",
+        "Wire Mesh: We used two rolls of '“'Fencer Wire 3 ft. x 50 ft. 16-Gauge Welded Wire Fence with Mesh 2 in. x 3 in'. If I did it over again, I would use a smaller mesh, but so far it's been keeping the cats in and whatever else out.  (I read that 16 gauge was recommended to make sure cats can’t break the wire with claws or teeth)."
+      ],
+      "materials_pics": [
+        {
+          "name": "2-D L Brackets",
+          "pic": "2dl.png"
+        },{
+          "name": "3-D L Brackets",
+          "pic": "3dl.png"
+        }
+      ],
+      "slides_only": false,
+      "phases": [
+        {
+          "pic": "catioA.png",
+          "label": "Planning",
+          "paragraphs": [{
+            "text": "Planning: I was very excited to see the cats reaction to the catio, so as soon as my friend signed her lease, I completely rushed everything.I did a google search for “enclosed porch catio”, got some results that looked like what I had been envisioning, skimmed through a couple blogs and articles, grabbed the dimensions of the back patio off of the house’s blueprints (from when I had this house built a couple years back) and I made a really rough sketch of a design that sort of mimicked some of the things I had seen other people do… and then I went to home depot and bought a bunch of hardware based on my initial whim."
+          }]
+        },
+        {
+          "pic": "catioB.png",
+          "label": "Build a frame",
+          "paragraphs": [{
+            "text": "First, using metal L braces, 2.5” deck screws, and pressure treated 2x4(x8)s and 2x6(x8) (that I had left over from a couple previous projects) we built a wood frame that outlined the patio windows and sliding door.  (note we used the impact drill head for building the frame… the only time we used the hammer attachment was to anchor to a masonry wall of the house)."
+          }]
+        },
+        {
+          "pic": "catioC.png",
+          "label": "Make frame into stable boxes",
+          "paragraphs": [{
+            "text": "Using the initial frame as a template, we built a matching frame for the outside panel of the catio and then cut 2x4s/2x6s to span the depth of the catio enclosure. Using deck screws, we fastened the overhead boards across the top of the two frame panels."
+          }]
+        },
+        {
+          "pic": "catioD.png",
+          "label": "Add a gate",
+          "paragraphs": [{
+            "text": "Once we had the outer frame together, we made a simple a entry gate with a height and width 2” smaller than the surrounding frame. I had wanted to keep the whole structure “floating” so it could easily be removed if my friend moved out and a new tenant did not want the catio, but every time we opened the gate, the whole structure moved, so we anchored the gate-side of the catio frame to a masonry wall of the house using a (3d) L bracket and concrete screws."
+          }]
+        },
+        {
+          "pic": "catioAlmostDone.png",
+          "label": "Enclose the frame",
+          "paragraphs": [{
+            "text": "To enclose the catio, we stretched rolls of fencer wire across the outside of the frame, pulling it taut and pinning the wire mesh in place with heavy duty 14mm staples as we unrolled it across the frame. We ended up just short of wire for the longest side, so we used a bit of regular chicken wire across the top corner)"
+          }]
+        },
+        {
+          "pic": "catioE.png",
+          "label": "Build the cat lounge",
+          "paragraphs": [{
+            "text": "We used a bunch of tongue and groove ceiling board, 2x4s and 2x6 scraps to make a bench, a small staircase and a perch for the cats and then I stapled scraps of carpet on to make it more comfy for them."
+          }]
+        },
+        {
+          "pic": "catioDone.png",
+          "label": "Enjoy",
+          "paragraphs": [{
+            "text": "It’s been about a year since initial construction and so far the cats and cat moms indicate that its been working out purrrfectly."
+          }]
+        }
+      ]
+    }
+  ]
+}
