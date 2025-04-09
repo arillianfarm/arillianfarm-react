@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { titleCaps, getIframeSrcForYouTube, calculateAlbumContainerSize } from '../utils';
 import './VideoView.css'; // Optional CSS
+import AlbumHeader from './AlbumHeader';
+
 
 const VideoView = () => {
     const [videos, setVideos] = useState([]);
@@ -26,6 +28,16 @@ const VideoView = () => {
                 setLoading(false);
             }
         };
+
+        const albumCovers = [
+            {name: "new", thumbnail:"assets/headerPictures/android-chrome-192x192.png"},
+            {name: "chickens", thumbnail:"assets/favicons/android-chrome-192x192.png"},
+            {name: "dogs", thumbnail:"assets/faviconsXena/android-chrome-192x192.png"},
+            {name: "gardens", hide_video_view: true, thumbnail:"assets/faviconsArtichoke/android-chrome-192x192.png"},
+            {name: "goats", thumbnail:"assets/faviconsTotesMcGoats/android-chrome-192x192.png"},
+            {name: "sky", hide_video_view: true, thumbnail:"assets/android-chrome-192x192.png"},
+            {name: "wildlife", thumbnail:"assets/pictures/android-chrome-192x192.png"}
+        ];
 
         fetchVideos();
 
@@ -66,9 +78,7 @@ const VideoView = () => {
             <div className="row text-center">
                 <div className="col-xs-12">
                     <h4 className="text-white">Video Albums</h4>
-                    {/* You might create separate components for AlbumHeader if needed */}
-                    <div className="ml-5 big-hide">{/* <AlbumHeader albumType="videos" /> */}</div>
-                    <div className="ml-5 small-hide">{/* <AlbumHeader albumType="videos" /> */}</div>
+                    < AlbumHeader albumType="videos"/>
                 </div>
             </div>
             <hr />
