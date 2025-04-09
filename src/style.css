@@ -1,0 +1,194 @@
+.invisible {
+    visibility: hidden;
+}
+
+body{
+    background:#192226 !important;
+}
+
+.border2px {
+      border:2px solid white;
+}
+
+.navbar-inverse{
+    background:#222B31 !important;
+    border-bottom:4px solid #f4933e !important;
+}
+
+.navbar-brand{
+    font:12px Lato !important;
+    text-transform:uppercase;
+    color:#FFF !important;
+    letter-spacing:2px;
+    margin-top:2px;
+    margin-bottom:10px;
+}
+
+.nav {
+    margin-bottom:0px;
+    position:absolute;
+    width:0%;
+    height:100%;
+    top:0px;
+    left:0px;
+}
+
+.nav li{
+    position:relative;
+}
+.viewrow {
+    padding-top:1em;
+}
+
+.x-scroller {
+    /*width: 500px;*/
+    /*height: 100px;*/
+    white-space: nowrap;
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+.x-scroller div {
+    /*width: 24.5%;*/
+    /*background-color: #eee;*/
+    float: none;
+    /*height: 90%;*/
+    margin: 0 0.25%;
+    display: inline-block;
+    zoom: 1;
+}
+
+.navbar-inverse .navbar-toggle{
+    border:none;
+}
+
+.navbar-collapse{
+    box-shadow:none !important;
+    border:none !important;
+}
+
+.navbar-inverse .navbar-toggle:hover{
+    background:transparent !important;
+}
+
+.navbar-inverse .navbar-toggle:focus{
+    background:transparent !important;
+}
+
+.navbar-inverse .navbar-toggle:active{
+    background:transparent !important;
+}
+
+.icon-bar{
+    background:#a3bfc6 !important;
+}
+.card-header{
+    background:#f4933e;
+}
+
+.cursPoint{
+    cursor: pointer;
+}
+
+.blog-header{
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+div.scrollmenu {
+    background-color: #33333;
+    overflow: auto;
+    white-space: nowrap;
+    border-bottom:4px solid #f4933e !important;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font:500 11px Lato;
+    letter-spacing:2px;
+    padding:16px !important;
+    color:#FFF !important;
+    text-transform:uppercase;
+    position:relative;
+    z-index:1000;
+}
+
+div.scrollmenu {
+    background-color: #33333;
+    overflow: auto;
+    white-space: nowrap;
+    border-bottom:4px solid #f4933e !important;
+}
+
+.br20{
+    border-radius: 20px;
+}
+
+.bb2 {
+    border-bottom: 2px solid white;
+}
+
+.video-box {
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.highlighted {
+    border: 3px solid yellow;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#the-canvas {
+    border: 1px solid black;
+    direction: ltr;
+}
+
+@media (max-width: 767px) {
+    .nav{
+        padding-bottom:20px;
+
+}
+    .nav a{
+        padding:12px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav{
+        padding-bottom:20px;
+    }
+    /*.navbar-nav {*/
+    /*    overflow-x:scroll;*/
+    /*}*/
+    .small-hide{
+        display: none;
+    }
+    img {
+        width:100%;
+        height:auto;
+    }
+    img.small-round {
+        border-radius:15px;
+        height:10em;
+    }
+}
+
+@media (min-width: 480px) {
+    /*iframe {*/
+    /*    width:100%;*/
+    /*    height:auto;*/
+    /*}*/
+    .fixed-right {
+        margin-left: 52em !important;
+    }
+    .big-hide{
+        display: none;
+    }
+}
