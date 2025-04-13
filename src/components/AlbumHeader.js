@@ -1,7 +1,49 @@
 import React from 'react';
 import { titleCaps } from '../utils';
 
-const AlbumHeader = ({ albumCovers, currentAlbum, albumType, goToAlbum }) => {
+// Assuming albumCovers and goToAlbum are defined elsewhere and accessible
+// (e.g., in a context, a shared utility, or directly within the parent components)
+
+const albumCovers = [
+    { name: "new", thumbnail:"assets/headerPictures/android-chrome-192x192.png" },
+    { name: "chickens", thumbnail:"assets/favicons/android-chrome-192x192.png" },
+    { name: "dogs", thumbnail:"assets/faviconsXena/android-chrome-192x192.png" },
+    { name: "gardens", hide_video_view: true, thumbnail:"assets/faviconsArtichoke/android-chrome-192x192.png" },
+    { name: "goats", thumbnail:"assets/faviconsTotesMcGoats/android-chrome-192x192.png" },
+    { name: "sky", hide_video_view: true, thumbnail:"assets/android-chrome-192x192.png" },
+    { name: "wildlife", thumbnail:"assets/pictures/android-chrome-192x192.png" }
+];
+
+let currentAlbum
+
+ const goToAlbum = function(albumName, albumType){
+    console.log("move this function to util and pass it in or something")
+//     // $rootScope.data.loading = true;
+//     // $timeout(function(){
+//         let albumNameTemp = albumName.toLowerCase();
+//         let filteredList = [];
+//         let currentAlbum = albumName.toLowerCase();
+//         switch (albumType){
+//             case 'videos':
+//                 filteredList = $scope.videosRaw.filter((item)=>item.albums?.indexOf(albumNameTemp)>-1);
+//                 $rootScope.data.videos = filteredList;
+//                 break;
+//             case 'pictures':
+//                 filteredList = $scope.picturesRaw.filter((item)=>item.albums?.indexOf(albumNameTemp)>-1);
+//                 $rootScope.data.pictures = filteredList;
+//                 break;
+//             default:
+//                 break;
+//         }
+//         $rootScope.data.loading = false;
+//     // },10);
+ };
+
+// Assuming goToAlbum is a function defined elsewhere that takes albumName and albumType
+// (you'll need to adapt your Angular 1 function to React's state management)
+// const goToAlbum = (albumName, albumType) => { ... };
+
+const AlbumHeader = ({ currentAlbum, albumType = 'videos' }) => {
     return (
         <>
             <div className="row text-center small-hide">
@@ -19,7 +61,7 @@ const AlbumHeader = ({ albumCovers, currentAlbum, albumType, goToAlbum }) => {
                             }`}
                             onClick={() => goToAlbum(album.name, albumType)}
                             style={{ padding: '10px' }}
-                            hidden={albumType === 'videos' && album.hide_video_view}
+                            hidden={albumType !== 'pictures' && album.hide_video_view}
                         >
               <span>
                 <img className="br20" src={album.thumbnail} height="100em" alt={album.name} />
@@ -39,7 +81,7 @@ const AlbumHeader = ({ albumCovers, currentAlbum, albumType, goToAlbum }) => {
                             }`}
                             onClick={() => goToAlbum(album.name, albumType)}
                             style={{ padding: '10px' }}
-                            hidden={albumType === 'videos' && album.hide_video_view}
+                            hidden={albumType !== 'pictures' && album.hide_video_view}
                         >
               <span>
                 {currentAlbum && (

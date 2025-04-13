@@ -29,16 +29,6 @@ const VideoView = () => {
             }
         };
 
-        const albumCovers = [
-            {name: "new", thumbnail:"assets/headerPictures/android-chrome-192x192.png"},
-            {name: "chickens", thumbnail:"assets/favicons/android-chrome-192x192.png"},
-            {name: "dogs", thumbnail:"assets/faviconsXena/android-chrome-192x192.png"},
-            {name: "gardens", hide_video_view: true, thumbnail:"assets/faviconsArtichoke/android-chrome-192x192.png"},
-            {name: "goats", thumbnail:"assets/faviconsTotesMcGoats/android-chrome-192x192.png"},
-            {name: "sky", hide_video_view: true, thumbnail:"assets/android-chrome-192x192.png"},
-            {name: "wildlife", thumbnail:"assets/pictures/android-chrome-192x192.png"}
-        ];
-
         fetchVideos();
 
         const handleResize = () => {
@@ -78,7 +68,7 @@ const VideoView = () => {
             <div className="row text-center">
                 <div className="col-xs-12">
                     <h4 className="text-white">Video Albums</h4>
-                    < AlbumHeader albumType="videos"/>
+                    < AlbumHeader albumType="videos" />
                 </div>
             </div>
             <hr />
