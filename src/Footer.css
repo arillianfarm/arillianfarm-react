@@ -1,0 +1,37 @@
+/* Footer.css */
+
+.main-footer {
+    background-color: #282A2B; /* Approximate dark background */
+    color: #DCDDDE; /* Approximate light text color */
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8em; /* Smaller font size */
+}
+
+.main-footer a {
+    color: #DCDDDE;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.main-footer a:hover {
+    text-decoration: underline; /* Basic hover effect for links */
+}
+
+.main-footer p {
+    margin-bottom: 5px; /* Spacing between paragraphs */
+}
+
+.main-footer p:last-child {
+    margin-bottom: 0; /* Remove bottom margin from the last paragraph */
+}
+
+.privacy-policy-page{
+    color:white;
+    margin: 2em;
+}
+
+.legal-header{
+    text-align:center;
+    margin-bottom: .5em;
+}
