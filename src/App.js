@@ -6,6 +6,7 @@ import ProjectView from './components/ProjectView';
 import BlogView from './components/BlogView';
 import BooksView from './components/BooksView';
 import AboutView from './components/AboutView';
+import PicturesView from './components/PicturesView';
 import TopNav from './components/TopNav';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -26,6 +27,7 @@ function App() {
                     <Route path="/blog" element={<BlogView />} />
                     <Route path="/about" element={<AboutView />} />
                     <Route path="/books" element={<BooksView />} />
+                    <Route path="/pictures" element={<PicturesView />} />
                     <Route path="/privacy-policy" element={<PrivacyPolicy />} />
                     <Route path="/terms-of-service" element={<TermsOfService />} />
                     <Route path="/" element={<VideoView />} />
