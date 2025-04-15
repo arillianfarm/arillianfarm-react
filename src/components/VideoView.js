@@ -68,7 +68,7 @@ const VideoView = () => {
             <div className="row text-center">
                 <div className="col-xs-12">
                     <h4 className="text-white">Video Albums</h4>
-                    < AlbumHeader albumType="videos" />
+                    < AlbumHeader albumType="pictures" />
                 </div>
             </div>
             <hr />

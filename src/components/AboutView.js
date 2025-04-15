@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../About.css';
-import Thumbnails from './ThumbNails';
+import ThumbNails from './ThumbNails';
 
 
 function AboutView() {
