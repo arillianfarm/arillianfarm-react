@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../About.css';
 import ThumbNails from './ThumbNails';
+import HeaderPic from './HeaderPic';
 
 
 function AboutView() {
@@ -9,8 +10,7 @@ function AboutView() {
         <div className="container br20 border2px text-white text-justified">
             <div className="row">
                 <div className="col-xs-12 text-center">
-                    {/* Replace pic-banner directive with an image or component */}
-                    <img src="/images/about-banner.jpg" alt="Arillian Farm Banner" className="about-banner" />
+                    < HeaderPic/>
                 </div>
                 <div className="col-xs-12 text-center">
                     <h1>Arillian Farm</h1>
@@ -22,7 +22,7 @@ function AboutView() {
                 </div>
             </div>
             <div className="row">
-                <div className="col-xs-12 col-lg-9 col-lg-offset-1">
+                <div className="col-xs-12 col-lg-9">
                     <h4>
                         Welcome friend! If you’re into farmy, DIY, quirkiness, then you're in the right spot!
                     </h4>

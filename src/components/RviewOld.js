@@ -99,13 +99,13 @@ const RecipeIngredients = ({ ingredients, servings, headerPic, isSmallView }) =>
                     <ul>
                         {ingredients && ingredients.map((ingredient, index) => (
                             <li key={index}>
-                                <h4 className="text-muted">{ingredient}</h4>
+                                <h4 className="text-white">{ingredient}</h4>
                             </li>
                         ))}
                     </ul>
                     {servings && (
                         <ul>
-                            <div className="text-muted mt-2">(makes: {servings})</div>
+                            <div className="text-white mt-2">(makes: {servings})</div>
                         </ul>
                     )}
                 </div>
@@ -118,7 +118,7 @@ const RecipeIngredients = ({ ingredients, servings, headerPic, isSmallView }) =>
 const RecipeSteps = ({ steps, isSmallView }) => {
     return (
         <div className="col-xs-12 col-lg-6" style={{ overflowY: 'auto' }}>
-            <ol style={{ fontWeight: 'bold' }} className="text-muted">
+            <ol style={{ fontWeight: 'bold' }} className="text-white">
                 {steps && steps.map((step, index) => (
                     <li key={index}>
                         <h4>{step.instruction}</h4>

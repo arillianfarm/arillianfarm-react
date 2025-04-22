@@ -1,44 +1,65 @@
 /* TopNav.css */
 
 .main-header {
-    background-color: #282A2B;
-    padding: 10px 0;
-    text-align: center;
+    background-color: #282A2B; /* Example dark background */
+    color: #DCDDDE; /* Example light text color */
+    padding: 10px 0; /* Adjust vertical padding as needed */
+    width: 100%; /* Full width on all views by default */
+}
+
+.main-nav {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    padding: 0 15px; /* Add some horizontal padding for the scrollable area */
 }
 
 .main-nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+    white-space: nowrap; /* Prevent items from wrapping */
+    display: flex; /* Arrange items in a row */
+    align-items: center; /* Vertically align items in the nav */
 }
 
-.main-nav a {
+.main-nav ul li {
+    margin: 0 15px; /* Adjust horizontal spacing between links */
+}
+
+.main-nav ul li:first-child {
+    margin-left: 0; /* Remove left margin for the first item */
+}
+
+.main-nav ul li:last-child {
+    margin-right: 0; /* Remove right margin for the last item */
+}
+
+.main-nav ul li a {
     color: #DCDDDE;
     text-decoration: none;
-    padding: 8px 12px;
-    border-radius: 5px;
+    font-weight: bold; /* Example styling */
+    padding: 8px 12px; /* Adjust link padding */
+    border-radius: 5px; /* Optional: rounded corners */
 }
 
-.main-nav a.active,
-.main-nav a:hover {
-    background-color: #FFA500;
-    color: #181A1B;
+.main-nav ul li a.active {
+    color: #FFD700; /* Example active link color */
 }
 
-/* Style for the external MERCH link */
-.main-nav a.merch-link {
-    /* Apply the same basic styles as other links */
-    color: #DCDDDE;
-    text-decoration: none;
-    padding: 8px 12px;
-    border-radius: 5px;
-}
+/* Media query for larger screens (e.g., desktop) */
+@media (min-width: 768px) { /* Adjust breakpoint as needed */
+    .main-nav {
+        overflow-x: visible; /* Disable horizontal scrolling on larger screens */
+        display: flex; /* Arrange items in a row */
+        justify-content: center; /* Center the links horizontally */
+        padding: 0; /* Remove extra padding on larger screens */
+    }
 
-.main-nav a.merch-link:hover {
-    /* Apply the same hover effect */
-    background-color: #FFA500;
-    color: #181A1B;
+    .main-nav ul {
+        margin: 0; /* Reset margin */
+    }
+
+    .main-nav ul li {
+        margin: 0 20px; /* Adjust spacing on larger screens */
+    }
 }

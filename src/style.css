@@ -150,6 +150,18 @@ div.scrollmenu {
     direction: ltr;
 }
 
+.album-header-inner.small-hide > div { /* Target the inner div */
+    display: flex;
+    justify-content: center; /* Center the inline-flex items horizontally */
+    /* might need to adjust max-width on this inner div if it's too wide */
+}
+
+.album-header-inner.big-hide > div.x-scroller { /* Target the x-scroller div */
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    /* The x-scroller likely handles horizontal overflow, so centering within its flex context works */
+}
+
 @media (max-width: 767px) {
     .nav{
         padding-bottom:20px;

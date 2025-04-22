@@ -19,7 +19,7 @@ function App() {
     return (
         <BrowserRouter>
             <TopNav />
-            <div className="content-wrapper"> {/* Optional wrapper for main content */}
+            <div className="content-wrapper">
                 <Routes>
                     <Route path="/recipes" element={<RecipesView />} />
                     <Route path="/videos" element={<VideoView />} />
