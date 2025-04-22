@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { titleCaps, getIframeSrcForYouTube, calculateAlbumContainerSize } from '../utils';
-import './VideoView.css'; // Optional CSS
+import './VideoView.css';
 import AlbumHeader from './AlbumHeader';
 
 
@@ -68,7 +68,7 @@ const VideoView = () => {
             <div className="row text-center">
                 <div className="col-xs-12">
                     <h4 className="text-white">Video Albums</h4>
-                    < AlbumHeader albumType="pictures" />
+                    < AlbumHeader albumType="videos" />
                 </div>
             </div>
             <hr />

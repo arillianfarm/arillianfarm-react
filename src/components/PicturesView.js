@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import { titleCaps, getIframeSrcForYouTube, calculateAlbumContainerSize } from '../utils';
+import { calculateAlbumContainerSize } from '../utils';
 import AlbumHeader from './AlbumHeader';
 
 const PicturesView = () => {
@@ -78,6 +78,8 @@ if (error) {
                             >
                                 <a href={`https://imgur.com/${pic.imagur_id}`}></a>
                             </blockquote>
+                        <script async src="//s.imgur.com/min/embed.js" charSet="utf-8"></script>
+
                     </div>
                 ))}
             </div>

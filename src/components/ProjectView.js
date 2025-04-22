@@ -96,11 +96,10 @@ const ProjectView = () => {
                     </div>
                     {item.about && (
                         <div className="col-xs-12 mt-3">
-                            <h4 className="text-muted">{item.about}</h4>
+                            <h4 className="text-white">{item.about}</h4>
                         </div>
                     )}
-                    {/* ... You'll need to render tools, materials, phases etc. here based on your HTML ... */}
-                    <div>{JSON.stringify(item)}</div> {/* Temporary display of all data */}
+                    <div>{JSON.stringify(item)}</div>
                 </div>
             </div>
         );
