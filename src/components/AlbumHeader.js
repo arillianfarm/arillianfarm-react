@@ -20,8 +20,8 @@ const AlbumHeader = ({ currentAlbum, albumType = 'videos' }) => {
         <div className="container">
             <div className="row text-center small-hide">
                 <div
-                    className={`col-xs-12 col-lg-8 ${
-                        albumType === 'videos' ? 'col-lg-offset-2' : 'col-lg-offset-1'
+                    className={`mx-auto ${
+                        albumType === 'videos' ? 'col-lg-6' : 'col-lg-9'
                     }`}
                     style={{ display: 'flex' }}
                 >
@@ -43,16 +43,15 @@ const AlbumHeader = ({ currentAlbum, albumType = 'videos' }) => {
                     ))}
                 </div>
             </div>
-            <div className="row text-center big-hide album-header-inner"> {/* Added class */}
-                <div className="col-xs-12 x-scroller" style={{ display: 'flex', justifyContent: 'center' }}> {/* Added inline styles */}
+            <div className="row text-center big-hide album-header-inner">
+                <div className="col-xs-12 x-scroller" style={{ display: 'flex', justifyContent: 'center' }}>
                     {albumCovers.map((album, index) => (
                         <div
-                            key={index}
+                            key={album.name}
                             className={`text-center cursPoint ${
                                 album.name === currentAlbum ? 'highlighted' : ''
                             }`}
                             onClick={() => goToAlbum(album.name, albumType)}
-                            style={{ padding: '10px' }}
                             hidden={albumType !== 'pictures' && album.hide_video_view}
                         >
                       <span>

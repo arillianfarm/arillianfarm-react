@@ -22,31 +22,31 @@ function AboutView() {
                 </div>
             </div>
             <div className="row">
-                <div className="col-xs-12 col-lg-9">
+                <div className="col-xs-12 col-lg-9 mx-auto">
                     <h4>
                         Welcome friend! If you’re into farmy, DIY, quirkiness, then you're in the right spot!
                     </h4>
                 </div>
             </div>
             <div className="row">
-                <div className="col-xs-12 col-lg-9 col-lg-offset-1">
+                <div className="col-xs-12 col-lg-9 mx-auto">
                     <h5>
                         Arillian = Arthur + Jillian (A mashup of my boyfriend’s and my names).
                     </h5>
                 </div>
-                <div className="col-xs-12 col-lg-9 col-lg-offset-1">
+                <div className="col-xs-12 col-lg-9 mx-auto">
                     <h5>
                         Arillian Farm is the (self-labeled) micro-farm in our backyard… which is to say, we have a bunch of raised garden beds, a small flock of chickens, a couple (wether) goats, three dogs and a lil pond with a few hundred mosquito fish on about a third of an acre in Mesa, AZ.
                     </h5>
                 </div>
-                <div className="col-xs-12 col-lg-9 col-lg-offset-1">
+                <div className="col-xs-12 col-lg-9 mx-auto">
                     <h4>
                         Our Backyard is my home-gym, salad bar, animal sanctuary and Personal HG TV Channel
                     </h4>
                 </div>
             </div>
             <div className="row">
-                <div className="col-xs-12 col-lg-9 col-lg-offset-1">
+                <div className="col-xs-12 col-lg-9 mx-auto">
                     <h5>
                         <p>
                             When it’s too hot to tinker around outdoors, I spend a lot of time writing humorous and/or thought-provoking{' '}
@@ -57,10 +57,10 @@ function AboutView() {
                         </p>
                     </h5>
                 </div>
-                <div className="col-xs-12 col-lg-9 col-lg-offset-1">
+                <div className="col-xs-12 col-lg-9 mx-auto">
                     <h3>Arthur is my high-tech, hottie, handyman, hero.</h3>
                 </div>
-                <div className="col-xs-12 col-lg-9 col-lg-offset-1 mb-2">
+                <div className="col-xs-12 col-lg-9 mx-auto mb-2">
                     <h5>
                         He’s an electrical engineer who loves to “work on things” –especially cars, audio and lighting and especially audio and lighting for cars.
                     </h5>
@@ -90,7 +90,7 @@ function AboutView() {
                         </a>
                     </h4>
                 </div>
-                <div className="col-xs-12 col-lg-9 col-lg-offset-1 mb-5">
+                <div className="col-xs-12 col-lg-9 mx-auto mb-5">
                     <b className="mb-5">
                         As of 9-10-24 we have some extra seeds for the fall.{' '}
                         <a href="mailto:arillianfarm@gmail.com">Email</a> if you would like me to mail some.
