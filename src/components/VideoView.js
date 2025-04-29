@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from 'react';
-import { titleCaps, getIframeSrcForYouTube, calculateAlbumContainerSize } from '../utils';
-import './VideoView.css';
+import React, { useEffect, useState } from 'react';
 import AlbumHeader from './AlbumHeader';
-
+import {calculateAlbumContainerSize, getIframeSrcForYouTube, titleCaps, applyAlbumFilter } from '../utils';
 
 const VideoView = () => {
     const [videos, setVideos] = useState([]);
+    const [isSmallView, setIsSmallView] = useState(window.innerWidth <= 600); // Adjust breakpoint
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
-    const [smallView, setSmallView] = useState(window.innerWidth <= 600);
+    const [selectedAlbum, setSelectedAlbum] = useState('new');
+    const [albumContent, setAlbumContent] = useState([]);
 
     useEffect(() => {
         const fetchVideos = async () => {
@@ -20,7 +20,8 @@ const VideoView = () => {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 const data = await response.json();
-                setVideos(data.data); // Assuming your JSON has a "videos" array
+                setVideos(data.data);
+                setAlbumContent(applyAlbumFilter(data.data, 'new'));
             } catch (e) {
                 setError(e);
                 console.error("Error fetching videos:", e);
@@ -30,11 +31,9 @@ const VideoView = () => {
         };
 
         fetchVideos();
-
         const handleResize = () => {
-            setSmallView(window.innerWidth <= 600);
+            setIsSmallView(window.innerWidth <= 600);
         };
-
         window.addEventListener('resize', handleResize);
 
         return () => {
@@ -44,66 +43,68 @@ const VideoView = () => {
 
     useEffect(() => {
         const handleResize = () => {
-            setSmallView(window.innerWidth <= 600);
+            setIsSmallView(window.innerWidth <= 600);
         };
         window.addEventListener('resize', handleResize);
         return () => window.removeEventListener('resize', handleResize);
     }, []);
 
-    const containerStyle = {
-        maxWidth: calculateAlbumContainerSize(smallView),
+    const handleAlbumSelect = (album) => {
+        console.log(`album clicked ${album}`)
+        setSelectedAlbum(album);
+        setAlbumContent(applyAlbumFilter(videos, album));
     };
 
     if (loading) {
-        return <div className="container text-center text-white br20">Loading video albums...</div>;
+        return <div>Loading videos...</div>;
     }
 
     if (error) {
-        return <div className="container text-center text-white br20">Error loading video albums: {error.message}</div>;
+        return <div>Error loading videos: {error.message}</div>;
     }
 
     return (
-
-        <div className="container text-center mb-3 br20 border2px text-white" style={{ maxWidth: calculateAlbumContainerSize() }}>
+        <div className="video-view">
             <div className="row text-center">
                 <div className="col-xs-12">
                     <h4 className="text-white">Video Albums</h4>
-                    < AlbumHeader albumType="videos" />
+                    <AlbumHeader
+                        albumType="videos"
+                        unfilteredList={videos}
+                        onAlbumSelect={handleAlbumSelect}
+                        currentAlbum={selectedAlbum}
+                    />
                 </div>
             </div>
             <hr />
-            <div className="row">
-                {videos.map((video, index) => (
-                    <div className="col-xs-12 mb-3" style={{ height: '45em' }} key={index}>
-                        <div className="row">
-                            <div className="col-xs-12">
-                                <a
-                                    className="text-white"
-                                    href={getIframeSrcForYouTube(video.youtubeID)}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    {titleCaps(video.title)}
-                                    <i className="fa fa-external-link"></i>
-                                </a>
-                            </div>
-                        </div>
+            <div className="row text-center">
+                {albumContent.map((video, index) => (
+                    <div key={index} className="col-xs-12 mb-5">
                         <div className="col-xs-12">
-                            <iframe
-                                className="video-box"
-                                height={smallView ? '300' : '500'}
-                                width={smallView ? '300' : '500'}
-                                src={getIframeSrcForYouTube(video.youtubeID)}
-                                title={video.title}
-                                allowFullScreen
-                            ></iframe>
+                            <a
+                                className="text-white"
+                                href={getIframeSrcForYouTube(video.youtubeID)}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                {titleCaps(video.title)}
+                                <i className="fa fa-external-link"></i>
+                                <div className="col-xs-12">
+                                    <iframe
+                                        className="video-box"
+                                        height={isSmallView ? '300' : '500'}
+                                        width={isSmallView ? '300' : '500'}
+                                        src={getIframeSrcForYouTube(video.youtubeID)}
+                                        title={video.title}
+                                        allowFullScreen
+                                    ></iframe>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 ))}
             </div>
         </div>
-
-
     );
 };
 

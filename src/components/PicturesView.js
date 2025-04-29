@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import { calculateAlbumContainerSize } from '../utils';
+import { calculateAlbumContainerSize, getIframeSrcForYouTube, titleCaps, applyAlbumFilter } from '../utils';
 import AlbumHeader from './AlbumHeader';
 
 const PicturesView = () => {
@@ -7,6 +7,9 @@ const PicturesView = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const [smallView, setSmallView] = useState(window.innerWidth <= 600);
+    const [selectedAlbum, setSelectedAlbum] = useState('new');
+    const [albumContent, setAlbumContent] = useState([]);
+
     useEffect(() => {
         const fetchPics = async () => {
             setLoading(true);
@@ -18,6 +21,7 @@ const PicturesView = () => {
                 }
                 const data = await response.json();
                 setPics(data.data);
+                setAlbumContent(applyAlbumFilter(data.data, 'new'));
             } catch (e) {
                 setError(e);
                 console.error("Error fetching pics:", e);
@@ -46,6 +50,12 @@ useEffect(() => {
     return () => window.removeEventListener('resize', handleResize);
 }, []);
 
+    const handleAlbumSelect = (album) => {
+        console.log(`album clicked ${album}`)
+        setSelectedAlbum(album);
+        setAlbumContent(applyAlbumFilter(pics, album));
+    };
+
 const containerStyle = {
     maxWidth: calculateAlbumContainerSize(smallView),
 };
@@ -63,23 +73,20 @@ if (error) {
             <div className="row text-center">
                 <div className="col-xs-12">
                     <h4 className="text-white">Picture Albums</h4>
-                    < AlbumHeader albumType="pictures" />
+                    < AlbumHeader
+                        albumType="pictures"
+                        unfilteredList={pics}
+                        onAlbumSelect={handleAlbumSelect}
+                        currentAlbum={selectedAlbum}
+                    />
                 </div>
             </div>
             <hr />
             <div className="row text-center">
-                {pics.map((pic, index) => (
+                {albumContent.map((pic, index) => (
                     <div key={index} className="col-xs-12 mb-5">
                         <h4 className="text-white">{pic.caption}</h4>
-                            <blockquote
-                                className="imgur-embed-pub"
-                                lang="en"
-                                data-id={pic.imagur_id}
-                            >
-                                <a href={`https://imgur.com/${pic.imagur_id}`}></a>
-                            </blockquote>
-                        <script async src="//s.imgur.com/min/embed.js" charSet="utf-8"></script>
-
+                        <img className="br20" src={`https://i.imgur.com/${pic.imagur_id}.png`} alt={`${pic.name}`} style={{ maxWidth: '500px', height: 'auto' }} />
                     </div>
                 ))}
             </div>

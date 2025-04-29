@@ -1,32 +1,64 @@
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom'; // Assuming you're using React Router
+import { Link } from 'react-router-dom'; // Make sure you're importing Link
 
 const ListItem = ({ item, isSelected, onItemClick, titleKey, thumbnailKey, descriptionKey, thumbnailPrefix }) => {
-    const location = useLocation();
+    // No need for useLocation here for generating the link
 
     const handleClick = () => {
         onItemClick(item);
     };
 
-    const assembleHashLink = (currentItem) => {
-        if (!currentItem || !currentItem[titleKey]) return '';
-        const path = location.pathname;
-        const base = window.location.origin + path + '#!';
-        const hash = currentItem[titleKey].toLowerCase().split(' ').join('-').replace("'", "");
-        return `${base}#${hash}`;
-    };
+    // We no longer need assembleHashLink for navigation within the app
+    // The <Link> component will handle the URL generation
 
     const copyToClipboard = (text) => {
         navigator.clipboard.writeText(text)
-            .then(() => console.log('Link copied to clipboard'))
+            .then(() => console.log('copied text to clipboard' + text))
             .catch(err => console.error('Failed to copy link: ', err));
     };
 
+    const handleCopyRecipe = (event) => {
+        event.stopPropagation();
+        let recipeText = "";
+        const recipe = item;
+        if (!recipe || !recipe.ingredients || !recipe.steps){
+            return;
+        }
+        let ingredients = "INGREDIENTS: ";
+        let instructions = " INSTRUCTIONS: ";
+        for (let i =0; i< recipe.ingredients.length;i++){
+            let ingredient = recipe.ingredients[i];
+            ingredients += ` ${ingredient}`
+            if (i < (recipe.ingredients.length -1)){
+                ingredients += ",";
+            }
+        }
+        for (let i =0; i< recipe.steps.length;i++){
+            let step = recipe.steps[i];
+            let stepNumber = i+1;
+            instructions += `(${stepNumber}) ${step.instruction}`
+        }
+        const path = `/recipes/${item[titleKey].toLowerCase().split(' ').join('-').replace("'", "")}`;
+        const fullLink = window.location.origin + path;
+        recipeText = `Recipe For ${recipe.name} ${ingredients} ${instructions}  Courtesy of Arillian Farm ${setCopiedLink(event)}`;
+        copyToClipboard(recipeText);
+    };
+
+    const setCopiedLink = (event) => {
+        const path = `/recipes/${item[titleKey].toLowerCase().split(' ').join('-').replace("'", "")}`;
+        const fullLink = window.location.origin + path;
+        return fullLink
+    }
+
     const handleCopyLink = (event) => {
         event.stopPropagation(); // Prevent onItemClick when copying link
-        const link = assembleHashLink(item);
-        copyToClipboard(link);
+        // Construct the correct URL for copying
+        const fullLink = setCopiedLink(event);
+        copyToClipboard(fullLink);
     };
+
+    // Determine the target URL for the Link
+    const linkTo = `/recipes/${item[titleKey].toLowerCase().split(' ').join('-').replace("'", "")}`;
 
     return (
         <div
@@ -36,7 +68,7 @@ const ListItem = ({ item, isSelected, onItemClick, titleKey, thumbnailKey, descr
             <div className="row">
                 <div className="col-xs-12">
                     <h4>
-                        <Link to="#" className="nav-link text-white">{item[titleKey]}</Link>
+                        <Link to={linkTo} className="nav-link text-white">{item[titleKey]}</Link>
                     </h4>
                 </div>
                 <div className="col-lg-12">
@@ -51,10 +83,9 @@ const ListItem = ({ item, isSelected, onItemClick, titleKey, thumbnailKey, descr
                     <div>
                         {descriptionKey && item[descriptionKey] && <p>{typeof descriptionKey === 'function' ? descriptionKey(item) : item[descriptionKey]}</p>}
                         <div className="text-white cursPoint">
-                            {/* Specific action button for Recipes (can be customized later) */}
                             {titleKey === 'name' && (
-                                <button className="btn btn-light btn-xs" onClick={(event) => { event.stopPropagation(); /* Prevent selection */; /* Your recipe specific action */ }}>
-                                    <i className="fa fa-utensils"></i> <b>Recipe</b>
+                                <button className="btn btn-light btn-xs" onClick={handleCopyRecipe}>
+                                    <i className="fa fa-copy"></i> <b>Recipe</b>
                                 </button>
                             )}
                             <button className="btn btn-info btn-xs ml-1" onClick={handleCopyLink}>
