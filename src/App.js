@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import RecipesView from './components/RecipesView';
 import VideoView from './components/VideoView';
 import ProjectView from './components/ProjectView';
@@ -15,13 +15,15 @@ import './style.css';
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfService from "./pages/TermsOfService";
 
+
 function App() {
     return (
         <BrowserRouter>
             <TopNav />
             <div className="content-wrapper">
                 <Routes>
-                    <Route path="/recipes" element={<RecipesView />} />
+                    <Route path="/recipes" element={<RecipesView />}/>
+                    <Route path="/recipes/:recipeId" element={<RecipesView />} />
                     <Route path="/videos" element={<VideoView />} />
                     <Route path="/projects" element={<ProjectView />} />
                     <Route path="/blog" element={<BlogView />} />

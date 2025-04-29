@@ -16,7 +16,14 @@ export const getIframeSrcForYouTube = (youtubeID) => {
 };
 
 export const calculateAlbumContainerSize = (smallView) => {
-    // This logic is based on your Angular HTML using ng-class="{'border2px': !smallView}"
-    // and likely aiming for a smaller width on small screens.
-    return smallView ? '95%' : '100%'; // Or adjust the '100%' to your default desired width
+    return smallView ? '95%' : '100%';
+};
+
+export const applyAlbumFilter = (contentList, albumName) => {
+    let albumList = contentList.filter((item)=>item.albums?.indexOf(albumName)>-1);
+    return albumList;
+};
+
+export const getLatestRecipeSlug = (recipe) => {
+    return recipe.name.toLowerCase().replace(/ /g, '-');
 };

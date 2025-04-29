@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ListItem from './ListItem';
-import { useLocation } from 'react-router-dom';
+import {useLocation, useParams} from 'react-router-dom';
 import { titleCaps, trunc } from '../utils';
 
 // RecipeIngredients Component (keep this for now)
@@ -38,9 +38,6 @@ const RecipeIngredients = ({ ingredients, servings, headerPic, isSmallView }) =>
         </div>
     )};
 
-
-// RecipeSteps Component (keep this for now)
-// RecipeSteps Component
     const RecipeSteps = ({ steps, isSmallView }) => {
         return (
             <div className="col-xs-12 col-lg-6" style={{ overflowY: 'auto' }}>
@@ -137,7 +134,9 @@ const FeaturedRecipe = ({ recipe, assembleAndCopy, isSmallView }) => {
 };
 
 const RecipesView = () => {
+    const { recipeId } = useParams(); // Get the dynamic recipeId from the URL
     const [recipes, setRecipes] = useState([]);
+    const [recipe, setRecipe] = useState(null);
     const [featuredRecipe, setFeaturedRecipe] = useState(null);
     const [isSmallView, setIsSmallView] = useState(window.innerWidth <= 400);
     const [collapseNav, setCollapseNav] = useState(true);
@@ -150,7 +149,8 @@ const RecipesView = () => {
             setLoading(true);
             setError(null);
             try {
-                const response = await fetch('./pageData/recipes.json');
+                // Use an absolute path from the public directory
+                const response = await fetch('/pageData/recipes.json');
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
@@ -165,38 +165,24 @@ const RecipesView = () => {
         };
 
         fetchRecipes();
-
-        const handleResize = () => {
-            setIsSmallView(window.innerWidth <= 400);
-        };
-
-        window.addEventListener('resize', handleResize);
-
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
-    }, []);
+    }, []); // Fetch recipes once on component mount
 
     useEffect(() => {
-        const hash = location.hash;
-        if (hash) {
-            const recipeNameFromHash = hash.substring(2); // Remove '#!' and '#'
-            const foundRecipe = recipes.find(recipe =>
-                recipe.name.toLowerCase().split(' ').join('-').replace("'", "") === recipeNameFromHash
-            );
-            if (foundRecipe) {
-                setFeaturedRecipe(foundRecipe);
-                window.scrollTo(0, 0); // Scroll to top after loading
+        if (!loading && recipes.length > 0) {
+            if (recipeId) {
+                const foundRecipe = recipes.find(recipe =>
+                    recipe.slug === recipeId || recipe.name.toLowerCase().replace(/ /g, '-') === recipeId.toLowerCase()
+                );
+                setFeaturedRecipe(foundRecipe || recipes[0]); // Default to first if slug not found
+            } else {
+                setFeaturedRecipe(recipes[0]); // Set initial featured recipe if no slug in URL
             }
-        } else if (recipes.length > 0 && !featuredRecipe) {
-            setFeaturedRecipe(recipes[0]); // Set initial if no hash
         }
-    }, [location.hash, recipes, featuredRecipe]);
+    }, [loading, recipes, recipeId]);
 
     const handleRecipeClick = (recipe) => {
         setFeaturedRecipe(recipe);
-        // Update URL hash using React Router (if you've set it up)
-        window.location.hash = `!#${recipe.name.toLowerCase().split(' ').join('-').replace("'", "")}`;
+        window.history.pushState({}, '', `/recipes/${recipe.slug || recipe.name.toLowerCase().replace(/ /g, '-')}`);
     };
 
     const assembleAndCopyRecipeSummary = (recipe) => {
