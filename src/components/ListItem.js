@@ -1,15 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Make sure you're importing Link
+import { Link } from 'react-router-dom';
 
 const ListItem = ({ item, isSelected, onItemClick, titleKey, thumbnailKey, descriptionKey, thumbnailPrefix }) => {
-    // No need for useLocation here for generating the link
 
     const handleClick = () => {
         onItemClick(item);
     };
-
-    // We no longer need assembleHashLink for navigation within the app
-    // The <Link> component will handle the URL generation
 
     const copyToClipboard = (text) => {
         navigator.clipboard.writeText(text)
@@ -61,36 +57,38 @@ const ListItem = ({ item, isSelected, onItemClick, titleKey, thumbnailKey, descr
     const linkTo = `/recipes/${item[titleKey].toLowerCase().split(' ').join('-').replace("'", "")}`;
 
     return (
-        <div
-            className={`col-xs-12 border2px br20 m-2 cursPoint ${isSelected ? 'highlighted' : ''}`}
-            onClick={handleClick}
-        >
-            <div className="row">
-                <div className="col-xs-12">
-                    <h4>
-                        <Link to={linkTo} className="nav-link text-white">{item[titleKey]}</Link>
-                    </h4>
-                </div>
-                <div className="col-lg-12">
-                    {thumbnailKey && item[thumbnailKey] && (
-                        <img
-                            className="br20 mb-3 mr-3"
-                            style={{ float: 'left', width: '75px', height: '75px', objectFit: 'cover' }}
-                            src={`${thumbnailPrefix || ''}${item[thumbnailKey]}`}
-                            alt={item[titleKey]}
-                        />
-                    )}
-                    <div>
-                        {descriptionKey && item[descriptionKey] && <p>{typeof descriptionKey === 'function' ? descriptionKey(item) : item[descriptionKey]}</p>}
-                        <div className="text-white cursPoint">
-                            {titleKey === 'name' && (
-                                <button className="btn btn-light btn-xs" onClick={handleCopyRecipe}>
-                                    <i className="fa fa-copy"></i> <b>Recipe</b>
+        <div className="row">
+            <div
+                className={`col-xs-12 border2px br20 m-2 cursPoint ${isSelected ? 'highlighted' : ''}`}
+                onClick={handleClick}
+            >
+                <div className="row">
+                    <div className="col-xs-12">
+                        <h4>
+                            <Link to={linkTo} className="nav-link text-white">{item[titleKey]}</Link>
+                        </h4>
+                    </div>
+                    <div className="col-lg-12">
+                        {thumbnailKey && item[thumbnailKey] && (
+                            <img
+                                className="br20 mb-3 mr-3"
+                                style={{ float: 'left', width: '75px', height: '75px', objectFit: 'cover' }}
+                                src={`${thumbnailPrefix || ''}${item[thumbnailKey]}`}
+                                alt={item[titleKey]}
+                            />
+                        )}
+                        <div className="row">
+                            {descriptionKey && item[descriptionKey] && <p>{typeof descriptionKey === 'function' ? descriptionKey(item) : item[descriptionKey]}</p>}
+                            <div className="col-xs-12 mt-4 text-white cursPoint text-right pull-right button-group">
+                                {thumbnailPrefix === './assets/recipes/' && (
+                                    <button className="btn btn-light btn-xs" onClick={handleCopyRecipe}>
+                                        <i className="fa fa-copy"></i> <b>Recipe</b>
+                                    </button>
+                                )}
+                                <button className="btn btn-info btn-xs ml-1" onClick={handleCopyLink}>
+                                    <i className="fa fa-link"></i> <b>Link</b>
                                 </button>
-                            )}
-                            <button className="btn btn-info btn-xs ml-1" onClick={handleCopyLink}>
-                                <i className="fa fa-link"></i> <b>Link</b>
-                            </button>
+                            </div>
                         </div>
                     </div>
                 </div>
