@@ -98,11 +98,11 @@ const FeaturedRecipe = ({ recipe, assembleAndCopy, isSmallView }) => {
                         <div className="col-lg-4 small-hide mt-3">
                             {recipe.notes && <h5>{titleCaps(recipe.notes)}</h5>}
                         </div>
-                        <div className="col-xs-12 col-lg-4 mt-4 text-white cursPoint text-right pull-right">
+                        <div className="col-xs-12 col-lg-4 mt-4 text-white cursPoint text-right pull-right button-group">
                             <button className="btn btn-light btn-xs" onClick={() => assembleAndCopy(recipe)}>
-                                <i className="fa fa-utensils"></i> <b>Recipe</b>
+                                <i className="fa fa-copy"></i> <b>Recipe</b>
                             </button>
-                            <button className="btn btn-info btn-xs ml-1" onClick={(event) => {
+                            <button className="btn btn-info btn-xs" onClick={(event) => {
                                 event.stopPropagation();
                                 const location = window.location;
                                 const base = location.origin + location.pathname + '#!';
@@ -221,7 +221,6 @@ const RecipesView = () => {
                     <div className="row cursPoint">
                         <div className="col-xs-12">
                             <h3>
-                                <a>All Recipes</a>
                                 {isSmallView && (
                                     <button className="btn btn-large btn-primary" onClick={() => setCollapseNav(!collapseNav)}>
                                         <i className="fa fa-list"></i>

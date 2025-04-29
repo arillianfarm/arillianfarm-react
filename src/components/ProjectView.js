@@ -125,7 +125,6 @@ const ProjectView = () => {
                     <div className="row cursPoint">
                         <div className="col-xs-12">
                             <h3>
-                                <a>All Projects</a>
                                 {isSmallView && (
                                     <button className="btn btn-large btn-primary" onClick={() => setCollapseNav(!collapseNav)}>
                                         <i className="fa fa-list"></i>

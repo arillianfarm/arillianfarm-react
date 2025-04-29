@@ -139,10 +139,34 @@ div.scrollmenu {
 }
 
 .highlighted {
-    border: 3px solid yellow;
+    border: 2px solid yellow;
     border-radius: 20px;
     padding: 5px;
-    margin: 5px;
+    margin: 2px;
+    box-sizing: border-box;
+}
+
+/* Adjust spacing between buttons */
+.featured-recipe button.btn { /* Target all buttons within FeaturedRecipe */
+    margin-left: 5px; /* Add some space to the left */
+    margin-right: 0; /* Ensure no extra right margin */
+    padding: 0.2rem 0.4rem; /* Slightly reduce padding if needed */
+    font-size: 0.8rem; /* Optionally reduce font size */
+}
+
+/* Specifically target the second button */
+.featured-recipe button.btn-info {
+    margin-left: 8px; /* Add a bit more space before the "Link" button */
+}
+
+.button-group button.btn {
+    margin-left: 5px;
+    padding: 0.2rem 0.4rem;
+    font-size: 0.8rem;
+}
+
+.button-group button.btn-info {
+    margin-left: 8px;
 }
 
 #the-canvas {
