@@ -88,7 +88,7 @@ const setCopiedLink = (title) => {
         );
     };
 
-// FeaturedRecipe Component (keep this for now, will be part of renderMainContent)
+// FeaturedRecipe Component ( part of renderMainContent)
 const FeaturedRecipe = ({ recipe, assembleAndCopy, isSmallView }) => {
     if (!recipe) {
         return <div className="col-xs-12 text-white"><h3>Select a Recipe</h3></div>;
@@ -98,13 +98,7 @@ const FeaturedRecipe = ({ recipe, assembleAndCopy, isSmallView }) => {
             <div className="row">
                 <div className="col-xs-12 row text-white">
                     <div className="row">
-                        <div className="col-xs-8 col-lg-4">
-                            <h3>{titleCaps(recipe.name)}</h3>
-                        </div>
-                        <div className="col-lg-4 small-hide mt-3">
-                            {recipe.notes && <h5>{titleCaps(recipe.notes)}</h5>}
-                        </div>
-                        <div className="col-xs-12 col-lg-4 mt-4 text-white cursPoint text-right pull-right button-group">
+                        <div className="col-xs-12 col-lg-4 text-white cursPoint text-center button-group">
                             <button className="btn btn-light btn-xs" onClick={() => assembleAndCopy(recipe)}>
                                 <i className="fa fa-copy"></i> <b>Recipe</b>
                             </button>
@@ -120,6 +114,13 @@ const FeaturedRecipe = ({ recipe, assembleAndCopy, isSmallView }) => {
                                 <i className="fa fa-link"></i> <b>Link</b>
                             </button>
                         </div>
+                        <div className="col-xs-12 col-lg-8 text-center">
+                            <h3>{titleCaps(recipe.name)}</h3>
+                        </div>
+                        <div className="col-xs-12 small-hide">
+                            {recipe.notes && <h5>{titleCaps(recipe.notes)}</h5>}
+                        </div>
+
                         <div className="col-xs-12 bb2 mb-2" style={{ borderBottom: '2px solid white' }}></div>
                     </div>
                 </div>
@@ -244,6 +245,7 @@ const RecipesView = () => {
                                     thumbnailKey="header_pic"
                                     descriptionKey="notes"
                                     thumbnailPrefix="./assets/recipes/"
+                                    pageBase='recipes'
                                 />
                             ))}
                     </div>

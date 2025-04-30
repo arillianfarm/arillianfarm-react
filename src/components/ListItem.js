@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const ListItem = ({ item, isSelected, onItemClick, titleKey, thumbnailKey, descriptionKey, thumbnailPrefix }) => {
+const ListItem = ({ item, isSelected, onItemClick, titleKey, thumbnailKey, descriptionKey, thumbnailPrefix, pageBase }) => {
 
     const handleClick = () => {
         onItemClick(item);
@@ -34,8 +34,6 @@ const ListItem = ({ item, isSelected, onItemClick, titleKey, thumbnailKey, descr
             let stepNumber = i+1;
             instructions += `(${stepNumber}) ${step.instruction}`
         }
-        const path = `/recipes/${item[titleKey].toLowerCase().split(' ').join('-').replace("'", "")}`;
-        const fullLink = window.location.origin + path;
         recipeText = `Recipe For ${recipe.name} ${ingredients} ${instructions}  Courtesy of Arillian Farm ${setCopiedLink(event)}`;
         copyToClipboard(recipeText);
     };
@@ -52,8 +50,8 @@ const ListItem = ({ item, isSelected, onItemClick, titleKey, thumbnailKey, descr
         copyToClipboard(fullLink);
     };
 
-    // Determine the target URL for the Link
-    const linkTo = `/recipes/${item[titleKey].toLowerCase().split(' ').join('-').replace("'", "")}`;
+
+    const linkTo = `/${pageBase}/${item[titleKey].toLowerCase().split(' ').join('-').replace("'", "")}`;
 
     return (
         <div className="row">
