@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { titleCaps, trunc,setCopiedLink, getSlug } from '../utils';
+
 
 const ListItem = ({ item, isSelected, onItemClick, titleKey, thumbnailKey, descriptionKey, thumbnailPrefix, pageBase }) => {
 
@@ -34,24 +36,20 @@ const ListItem = ({ item, isSelected, onItemClick, titleKey, thumbnailKey, descr
             let stepNumber = i+1;
             instructions += `(${stepNumber}) ${step.instruction}`
         }
-        recipeText = `Recipe For ${recipe.name} ${ingredients} ${instructions}  Courtesy of Arillian Farm ${setCopiedLink(event)}`;
+        recipeText = `Recipe For ${recipe.name} ${ingredients} ${instructions}  Courtesy of Arillian Farm ${setCopiedLink('recipes', recipe.name)}`;
         copyToClipboard(recipeText);
     };
 
-    const setCopiedLink = (event) => {
-        const path = `/recipes/${item[titleKey].toLowerCase().split(' ').join('-').replace("'", "")}`;
-        const fullLink = window.location.origin + path;
-        return fullLink
-    }
+
 
     const handleCopyLink = (event) => {
         event.stopPropagation();
-        const fullLink = setCopiedLink(event);
+        const fullLink = setCopiedLink( pageBase, item[titleKey]);
         copyToClipboard(fullLink);
     };
 
 
-    const linkTo = `/${pageBase}/${item[titleKey].toLowerCase().split(' ').join('-').replace("'", "")}`;
+    const linkTo = `/${pageBase}/${getSlug(item[titleKey])}`;
 
     return (
         <div className="row">
@@ -75,14 +73,16 @@ const ListItem = ({ item, isSelected, onItemClick, titleKey, thumbnailKey, descr
                             />
                         )}
                         <div className="row">
-                            {descriptionKey && item[descriptionKey] && <p>{typeof descriptionKey === 'function' ? descriptionKey(item) : item[descriptionKey]}</p>}
-                            <div className="col-xs-12 mt-4 text-white cursPoint text-right pull-right button-group">
-                                {thumbnailPrefix === './assets/recipes/' && (
-                                    <button className="btn btn-light btn-xs" onClick={handleCopyRecipe}>
+                            {descriptionKey && item[descriptionKey] && (
+                                <p>{typeof descriptionKey === 'function' ? descriptionKey(item) : trunc(item[descriptionKey])}</p>
+                            )}
+                            <div className="col-xs-12 mt-4 mb-2 text-white cursPoint text-right pull-right button-group" style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end' }}>
+                                {thumbnailPrefix === '/assets/recipes/' && (
+                                    <button className="btn btn-light btn-xs" style={{ padding: '0.2rem 0.4rem', fontSize: '0.6em' }} onClick={handleCopyRecipe}>
                                         <i className="fa fa-copy"></i> <b>Recipe</b>
                                     </button>
                                 )}
-                                <button className="btn btn-info btn-xs ml-1" onClick={handleCopyLink}>
+                                <button className="btn btn-info btn-xs ml-1" style={{ padding: '0.2rem 0.4rem', fontSize: '0.6em' }} onClick={handleCopyLink}>
                                     <i className="fa fa-link"></i> <b>Link</b>
                                 </button>
                             </div>

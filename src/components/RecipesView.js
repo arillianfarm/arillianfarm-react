@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import ListItem from './ListItem';
 import {useLocation, useParams} from 'react-router-dom';
-import { titleCaps, trunc } from '../utils';
+import { titleCaps, trunc, setCopiedLink, getSlug } from '../utils';
 
-// RecipeIngredients Component (keep this for now)
+
 const RecipeIngredients = ({ ingredients, servings, headerPic, isSmallView }) => {
     return (
         <div className="col-xs-12 col-lg-6 mt-5">
@@ -12,7 +12,7 @@ const RecipeIngredients = ({ ingredients, servings, headerPic, isSmallView }) =>
                     {headerPic && (
                         <img
                             className="br20 m-3"
-                            src={`./assets/recipes/${headerPic}`}
+                            src={`/assets/recipes/${headerPic}`}
                             style={{ height: isSmallView ? 'auto' : '300px', maxWidth: '25em', objectFit: 'cover' }}
                             alt="Recipe Header"
                         />
@@ -48,7 +48,7 @@ const RecipeIngredients = ({ ingredients, servings, headerPic, isSmallView }) =>
                             {step.pic && (
                                 <img
                                     className="br20"
-                                    src={`./assets/recipes/${step.pic}`}
+                                    src={`/assets/recipes/${step.pic}`}
                                     style={{ height: isSmallView ? 'auto' : '150px', objectFit: 'cover' }}
                                     alt={`Step ${index + 1}`}
                                 />
@@ -60,11 +60,11 @@ const RecipeIngredients = ({ ingredients, servings, headerPic, isSmallView }) =>
         );
     };
 
-const setCopiedLink = (title) => {
-    const path = `/recipes/${title.toLowerCase().split(' ').join('-').replace("'", "")}`;
-    const fullLink = window.location.origin + path;
-    return fullLink
-}
+// const setCopiedLink = (title) => {
+//     const path = `/recipes/${title.toLowerCase().split(' ').join('-').replace("'", "")}`;
+//     const fullLink = window.location.origin + path;
+//     return fullLink
+// }
 
 // RelatedRecipes Component
     const RelatedRecipes = ({ relatedRecipes, onRecipeClick }) => {
@@ -106,9 +106,9 @@ const FeaturedRecipe = ({ recipe, assembleAndCopy, isSmallView }) => {
                                 event.stopPropagation();
                                 const location = window.location;
                                 const base = location.origin + location.pathname;
-                                const link = setCopiedLink(recipe.name.toLowerCase().split(' ').join('-').replace("'", ""));
+                                const link = setCopiedLink('recipes' ,recipe.name);
                                 navigator.clipboard.writeText(link)
-                                    .then(() => console.log('Link copied to clipboard'))
+                                    .then(() => console.log('Link copied to clipboard ' + link))
                                     .catch(err => console.error('Failed to copy link: ', err));
                             }}>
                                 <i className="fa fa-link"></i> <b>Link</b>
@@ -177,7 +177,7 @@ const RecipesView = () => {
         if (!loading && recipes.length > 0) {
             if (recipeId) {
                 const foundRecipe = recipes.find(recipe =>
-                    recipe.slug === recipeId || recipe.name.toLowerCase().replace(/ /g, '-') === recipeId.toLowerCase()
+                    recipeId === getSlug(recipe.name)
                 );
                 setFeaturedRecipe(foundRecipe || recipes[0]); // Default to first if slug not found
             } else {
@@ -187,8 +187,9 @@ const RecipesView = () => {
     }, [loading, recipes, recipeId]);
 
     const handleRecipeClick = (recipe) => {
+        let path = `/recipes/${recipe.slug || getSlug(recipe.name)}`;
         setFeaturedRecipe(recipe);
-        window.history.pushState({}, '', `/recipes/${recipe.slug || recipe.name.toLowerCase().replace(/ /g, '-')}`);
+        window.history.pushState({}, '', path);
     };
 
     const assembleAndCopyRecipeSummary = (recipe) => {
@@ -197,7 +198,7 @@ const RecipesView = () => {
         }
         const ingredients = `INGREDIENTS: ${recipe.ingredients.join(', ')}`;
         const instructions = recipe.steps.map((step, index) => `(${index + 1}) ${step.instruction}`).join(' ');
-        const summary = `Recipe For ${recipe.name} ${ingredients} INSTRUCTIONS: ${instructions} Courtesy of Arillian Farm [Link to recipe page: ${setCopiedLink(recipe.name.toLowerCase().split(' ').join('-').replace("'", ""))}]`;
+        const summary = `Recipe For ${recipe.name} ${ingredients} INSTRUCTIONS: ${instructions} Courtesy of Arillian Farm [Link to recipe: ${setCopiedLink('recipes', recipe.name)}]`;
         navigator.clipboard.writeText(summary)
             .then(() => console.log('Recipe summary copied to clipboard'))
             .catch(err => console.error('Failed to copy recipe summary: ', err));
@@ -244,7 +245,7 @@ const RecipesView = () => {
                                     titleKey="name"
                                     thumbnailKey="header_pic"
                                     descriptionKey="notes"
-                                    thumbnailPrefix="./assets/recipes/"
+                                    thumbnailPrefix="/assets/recipes/"
                                     pageBase='recipes'
                                 />
                             ))}
