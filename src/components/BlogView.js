@@ -112,8 +112,6 @@ const BlogView = () => {
                             <h3><a href={item.link} target="_blank" rel="noopener noreferrer">[LINK]</a></h3>
                         </div>
                     )}
-                    {/* ... You'll need to render sections with pics, videos, paragraphs etc. here based on your HTML ... */}
-                    <div>{JSON.stringify(item)}</div> {/* Temporary display of all data */}
                 </div>
             </div>
         );

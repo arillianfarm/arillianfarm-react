@@ -60,7 +60,13 @@ const RecipeIngredients = ({ ingredients, servings, headerPic, isSmallView }) =>
         );
     };
 
-// RelatedRecipes Component (keep this for now)
+const setCopiedLink = (title) => {
+    const path = `/recipes/${title.toLowerCase().split(' ').join('-').replace("'", "")}`;
+    const fullLink = window.location.origin + path;
+    return fullLink
+}
+
+// RelatedRecipes Component
     const RelatedRecipes = ({ relatedRecipes, onRecipeClick }) => {
         if (!relatedRecipes || relatedRecipes.length === 0) {
             return null;
@@ -105,9 +111,8 @@ const FeaturedRecipe = ({ recipe, assembleAndCopy, isSmallView }) => {
                             <button className="btn btn-info btn-xs" onClick={(event) => {
                                 event.stopPropagation();
                                 const location = window.location;
-                                const base = location.origin + location.pathname + '#!';
-                                const hash = recipe.name.toLowerCase().split(' ').join('-').replace("'", "");
-                                const link = `${base}#${hash}`;
+                                const base = location.origin + location.pathname;
+                                const link = setCopiedLink(recipe.name.toLowerCase().split(' ').join('-').replace("'", ""));
                                 navigator.clipboard.writeText(link)
                                     .then(() => console.log('Link copied to clipboard'))
                                     .catch(err => console.error('Failed to copy link: ', err));
@@ -191,7 +196,7 @@ const RecipesView = () => {
         }
         const ingredients = `INGREDIENTS: ${recipe.ingredients.join(', ')}`;
         const instructions = recipe.steps.map((step, index) => `(${index + 1}) ${step.instruction}`).join(' ');
-        const summary = `Recipe For ${recipe.name} ${ingredients} INSTRUCTIONS: ${instructions} Courtesy of Arillian Farm [Link to recipe page: ${window.location.origin + window.location.pathname + '#!#' + recipe.name.toLowerCase().split(' ').join('-').replace("'", "")}]`;
+        const summary = `Recipe For ${recipe.name} ${ingredients} INSTRUCTIONS: ${instructions} Courtesy of Arillian Farm [Link to recipe page: ${setCopiedLink(recipe.name.toLowerCase().split(' ').join('-').replace("'", ""))}]`;
         navigator.clipboard.writeText(summary)
             .then(() => console.log('Recipe summary copied to clipboard'))
             .catch(err => console.error('Failed to copy recipe summary: ', err));

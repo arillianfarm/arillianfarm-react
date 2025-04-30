@@ -47,8 +47,7 @@ const ListItem = ({ item, isSelected, onItemClick, titleKey, thumbnailKey, descr
     }
 
     const handleCopyLink = (event) => {
-        event.stopPropagation(); // Prevent onItemClick when copying link
-        // Construct the correct URL for copying
+        event.stopPropagation();
         const fullLink = setCopiedLink(event);
         copyToClipboard(fullLink);
     };
