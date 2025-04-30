@@ -186,6 +186,30 @@ div.scrollmenu {
     /* The x-scroller likely handles horizontal overflow, so centering within its flex context works */
 }
 
+.blog-image {
+    height: 20em;
+    padding:7px;
+    margin:7px;
+    max-width:800px;
+}
+
+.blog-iframe {
+    height: 20em;
+    padding:7px;
+    margin:7px;
+}
+
+.blogPtext {
+    margin-left: 25px;
+    margin-right: 10px
+}
+
+.blog-date {
+    margin-top: 5px;
+    float: right;
+    font-size: 12pt;
+}
+
 @media (max-width: 767px) {
     .nav{
         padding-bottom:20px;
