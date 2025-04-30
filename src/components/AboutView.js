@@ -50,10 +50,10 @@ function AboutView() {
                     <h5>
                         <p>
                             When it’s too hot to tinker around outdoors, I spend a lot of time writing humorous and/or thought-provoking{' '}
-                            <Link to="/books">books</Link>
+                            <Link to="/books/">books</Link>
                             and{' '}
-                            <Link to="/blog">blog entries</Link>. Recently, I also started cataloging our favorite{' '}
-                            <Link to="/recipes">recipes.</Link>
+                            <Link to="/blog/">blog entries</Link>. Recently, I also started cataloging our favorite{' '}
+                            <Link to="/recipes/">recipes.</Link>
                         </p>
                     </h5>
                 </div>
@@ -65,7 +65,7 @@ function AboutView() {
                         He’s an electrical engineer who loves to “work on things” –especially cars, audio and lighting and especially audio and lighting for cars.
                     </h5>
                     <p>
-                        Sometimes Arthur and I work on <Link to="/projects">DIY projects</Link> together - Like transforming a tough shed into a divided goat and chicken barn, building a catio at my rental property in Tempe, or making a little fishpond / chicken wading pool for our chickens.
+                        Sometimes Arthur and I work on <Link to="/projects/">DIY projects</Link> together - Like transforming a tough shed into a divided goat and chicken barn, building a catio at my rental property in Tempe, or making a little fishpond / chicken wading pool for our chickens.
                     </p>
                     <h4>
                         If you’ve enjoyed wandering through our little corner of the web and want to help support my lumber and hardware habit, click a couple bucks our way on our{' '}

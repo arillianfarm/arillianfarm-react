@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ListItem from './ListItem';
 import {useLocation, useParams} from 'react-router-dom';
-import { calculateAlbumContainerSize, getIframeSrcForYouTube, titleCaps, trunc, applyAlbumFilter } from '../utils';
+import { calculateAlbumContainerSize, getIframeSrcForYouTube, titleCaps, trunc, applyAlbumFilter, setCopiedLink, getSlug } from '../utils';
 
 
 const BlogView = () => {
@@ -19,12 +19,16 @@ const BlogView = () => {
             setLoading(true);
             setError(null);
             try {
-                const response = await fetch('./pageData/blog.json');
+                const response = await fetch('/pageData/blog.json');
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 const data = await response.json();
-                setBlogEntries(data.data); // Assuming your JSON has a "blogEntries" array
+                let entriesWithSummary = data.data.map((entry,i) => {
+                    entry.summary = assembleBlogSummary(entry);
+                    return entry
+                },[])
+                setBlogEntries(entriesWithSummary);
             } catch (e) {
                 setError(e);
                 console.error("Error fetching blog entries:", e);
@@ -34,24 +38,12 @@ const BlogView = () => {
         };
 
         fetchBlogEntries();
-
-        const handleResize = () => {
-            setIsSmallView(window.innerWidth <= 600);
-        };
-
-        window.addEventListener('resize', handleResize);
-
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
     }, []);
 
     useEffect(() => {
         if (!loading && blogEntries.length > 0) {
             if (blogId) {
-                const foundBlog = blogEntries.find(blog =>
-                    blog.slug === blogId || blog.name.toLowerCase().replace(/ /g, '-') === blogId.toLowerCase()
-                );
+                const foundBlog = blogEntries.find(blog => getSlug(blog.entry_subject) === blogId);
                 setFeaturedBlogEntry(foundBlog || blogEntries[0]); // Default to first if slug not found
             } else {
                 setFeaturedBlogEntry(blogEntries[0]); // Set initial featured blog if no slug in URL
@@ -59,31 +51,11 @@ const BlogView = () => {
         }
     }, [loading, blogEntries, blogId]);
 
-    useEffect(() => {
-        const hash = location.path;
-        if (hash) {
-            const blogEntrySubjectFromHash = hash.substring(2).replace(/-/g, ' ').replace(/[^a-zA-Z0-9\s]/g, '').toLowerCase();
-            const foundBlogEntry = blogEntries.find(entry =>
-                entry.entry_subject.toLowerCase().replace(/ /g, '-').replace("'", "") === blogEntrySubjectFromHash
-            );
-            if (foundBlogEntry) {
-                setFeaturedBlogEntry(foundBlogEntry);
-                window.scrollTo(0, 0);
-            }
-        } else if (blogEntries.length > 0 && !featuredBlogEntry) {
-            setFeaturedBlogEntry(blogEntries[0]);
-        }
-    }, [location.hash, blogEntries, featuredBlogEntry]);
-
-
-
 
     const handleBlogEntryClick = (entry) => {
-        let path = `/blog/${entry.entry_subject.toLowerCase().split(' ').join('-').replace("'", "")}`;
+        let path = `/blog/${entry.slug || getSlug(entry.entry_subject)}`;
         setFeaturedBlogEntry(entry);
-        let fullLink = window.location.origin + path;
-        window.history.pushState({},'', `${path}`);
-        return fullLink
+        window.history.pushState({},'', path);
     };
 
     const setCopiedLink = (path) => {
@@ -91,12 +63,12 @@ const BlogView = () => {
         return fullLink
     }
 
-    // const assembleBlogSummary = (item) => {
-    //     if (item.sections && item.sections[0] && item.sections[0].paragraphs && item.sections[0].paragraphs[0]) {
-    //         return trunc(item.sections[0].paragraphs[0].text, 80);
-    //     }
-    //     return '';
-    // };
+    const assembleBlogSummary = (item) => {
+        if (item.sections && item.sections[0] && item.sections[0].paragraphs && item.sections[0].paragraphs[0]) {
+            return trunc(item.sections[0].paragraphs[0].text, 80);
+        }
+        return '';
+    };
 
     const renderMainContent = (entry) => {
         if (!entry) {
@@ -110,9 +82,9 @@ const BlogView = () => {
                             <span className="mx-2">
                                     <button className="btn btn-info btn-xs" onClick={(event) => {
                                         event.stopPropagation();
-                                        const link = setCopiedLink(entry.entry_subject.toLowerCase().split(' ').join('-').replace("'", ""));
+                                        const link = setCopiedLink('blog', entry.entry_subject);
                                         navigator.clipboard.writeText(link)
-                                            .then(() => console.log('Link copied to clipboard' + link))
+                                            .then(() => console.log('Link copied to clipboard ' + link))
                                             .catch(err => console.error('Failed to copy link: ', err));
                                     }}>
                                     <i className="fa fa-link"></i> <b>Link</b>
@@ -136,14 +108,14 @@ const BlogView = () => {
                         <div className="row mb-2 mt-2">
                             <div className="col-xs-12 text-center">
                                 <a href={entry.link} target="_blank" rel="noopener noreferrer">
-                                    <img src={`./assets/blog/${entry.pic_file}`} style={{ height: '20em', marginLeft: '3em' }} alt={entry.entry_subject} />
+                                    <img src={`/assets/blog/${entry.pic_file}`} style={{ height: '20em', marginLeft: '3em' }} alt={entry.entry_subject} />
                                 </a>
                             </div>
                         </div>
                     )}
                     {entry.pic_file && !entry.link && (
                         <div className="col-xs-12 text-center mb-5 mt-5">
-                            <img className="br20" src={`./assets/blog/${entry.pic_file}`} style={{ height: '20em' }} alt={entry.entry_subject} />
+                            <img className="br20" src={`/assets/blog/${entry.pic_file}`} style={{ height: '20em' }} alt={entry.entry_subject} />
                         </div>
                     )}
                     {entry.link && !entry.pic_file && (
@@ -154,7 +126,7 @@ const BlogView = () => {
                     {entry.link && entry.pic_file && (
                         <div className="col-xs-12 text-center mb-5 mt-5">
                             <h3><a href={entry.link} target="_blank" >
-                                <img className="br20" src={`./assets/blog/${entry.pic_file}`} style={{ height: '20em' }} alt={entry.entry_subject} />
+                                <img className="br20" src={`/assets/blog/${entry.pic_file}`} style={{ height: '20em'}} alt={entry.entry_subject} />
                             </a></h3>
                         </div>
                     )}
@@ -165,6 +137,7 @@ const BlogView = () => {
                             <div  key={`section-${index}`}>
                                 {section.pics && (section.pics.map((pic, index) => (
                                     <img
+                                        key={`section-${index}`}
                                         src={`./assets/blog/${pic}`}
                                         style={{ float: `${section.right_side_pic ? 'right' : 'left'}` }}
                                         className="br20 p2 blog-image"
@@ -193,14 +166,14 @@ const BlogView = () => {
                                 {section.paragraphs && section.paragraphs.length && (
                                     <div className="blogPtext">
                                         {section.paragraphs.map((p, index) => (
-                                            <div>
+                                            <div key={`section-${index}`}>
                                                 {p.text && !p.bold && !p.h2 && !p.h3 && !p.h4 && (
                                                     <p>{p.text}</p>
                                                 )}
                                             </div>
                                         ))}
                                         {section.paragraphs.map((p, index) => (
-                                            <div>
+                                            <div key={`section-${index}`}>
                                                 {p.text && p.bold  && (
                                                     <b>{p.text}</b>
                                                 )}
@@ -257,15 +230,16 @@ const BlogView = () => {
                             </h3>
                         </div>
                         {(!collapseNav || !isSmallView) &&
-                            blogEntries.map((entry) => (
+                            blogEntries.map((entry, index) => (
                                 <ListItem
-                                    key={entry.entry_subject}
+                                    key={index}
                                     item={entry}
                                     isSelected={featuredBlogEntry && entry.entry_subject === featuredBlogEntry.entry_subject}
                                     onItemClick={handleBlogEntryClick}
                                     titleKey="entry_subject"
-                                    thumbnailKey="feature_section_1.pic"
-                                    thumbnailPrefix=""
+                                    thumbnailKey="pic_file"
+                                    thumbnailPrefix="/assets/blog/"
+                                    descriptionKey="summary"
                                     pageBase="blog"
                                 />
                             ))}

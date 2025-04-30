@@ -36,7 +36,7 @@ const BooksView = () => {
                 <div className="col-xs-12 col-lg-6 mt-0 mb-2 text-center">
                     <div className="text-justify mb-3" onClick={() => setNextDisplayPage('hyperspear')} style={{ cursor: 'pointer' }}>
                         <a href="https://www.amazon.com/dp/B0DPJBCWYW" target="_blank" rel="noopener noreferrer">
-                            <img src={`./assets/books/${hyperspearDisplayPage}`} style={{ height: '40em', maxWidth: '30em' }} alt="Hyperspear Cover" />
+                            <img src={`/assets/books/${hyperspearDisplayPage}`} style={{ height: '40em', maxWidth: '30em' }} alt="Hyperspear Cover" />
                         </a>
                         <h4 className="text-white">
                             Three unlikely souls. One mysterious supper club -- And obviously-- a multiverse.
@@ -53,7 +53,7 @@ const BooksView = () => {
                 </div>
                 <div className="col-xs-12 col-lg-6 text-justified text-white mb-3" onClick={() => setNextDisplayPage('unfettered')} style={{ cursor: 'pointer' }}>
                     <a href="https://www.amazon.com/unFETTERed-Jillian-Fetter/dp/B00U1IJXPE" target="_blank" rel="noopener noreferrer">
-                        <img src={`./assets/books/${unfetteredDisplayPage}`} style={{ height: '40em', maxWidth: '30em' }} alt="unFETTERed Cover" />
+                        <img src={`/assets/books/${unfetteredDisplayPage}`} style={{ height: '40em', maxWidth: '30em' }} alt="unFETTERed Cover" />
                     </a>
                     <span style={{ height: '10px', display: 'block' }}></span>
                     <h4 className="">If you like puns and self-deprecating humor...</h4>
