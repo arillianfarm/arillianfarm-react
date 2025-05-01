@@ -212,6 +212,9 @@ const ProjectView = () => {
         const path = `/projects/${getSlug(project.name) || projectId}`;
         setFeaturedProject(project);
         window.history.pushState({}, '', path);
+        if (isSmallView) {
+            setCollapseNav(true); // Collapse the navigation on mobile
+        }
     };
 
     const renderMainContent = (item) => {
@@ -230,29 +233,40 @@ const ProjectView = () => {
                     </h6>
                 </div>
                 <h5 className="mb-0">
-                    <div className="row blog-header">
-                        <div className="col-xs-12 col-lg-3">
-                            <span className="mx-2">
-                                <button className="btn btn-info btn-xs" onClick={(event) => {
-                                    event.stopPropagation();
-                                    const link = setCopiedLink('projects', item.name);
-                                    navigator.clipboard.writeText(link)
-                                        .then(() => console.log('Link copied to clipboard ' + link))
-                                        .catch(err => console.error('Failed to copy link: ', err));
-                                }}>
-                                    <i className="fa fa-link"></i> <b>Link</b>
-                                </button>
-                            </span>
-                        </div>
-                        <div className="col-xs-12 col-lg-7 text-center">
+                    <div className="row blog-header align-items-center"> {/* Keep align-items-center */}
+                        <div className="col-xs-12 col-lg-8 text-center"> {/* Adjusted colspan */}
                             <h3>
                                 {titleCaps(item.name)}
                             </h3>
                         </div>
-                        <div className="col-xs-12 col-lg-2">
-                            <span className="blog-date">
-                                <p className="">Posted: {item.pub_date}</p>
-                            </span>
+                        <div className="col-xs-12 col-lg-4 text-right"> {/* Container for button and date on small screens */}
+                            <div className="row align-items-center">
+                                <div className="col-xs-6 text-left" >
+                                    <span className="mx-2 ">
+                                        <button className="btn btn-info btn-xs mb-2" onClick={(event) => {
+                                            event.stopPropagation();
+                                            const link = setCopiedLink('projects', item.name);
+                                            navigator.clipboard.writeText(link)
+                                                .then(() => console.log('Link copied to clipboard ' + link))
+                                                .catch(err => console.error('Failed to copy link: ', err));
+                                        }}>
+                                            <i className="fa fa-link"></i> <b>Link</b>
+                                        </button>
+                                    </span>
+                                </div>
+                                <div className="col-xs-6 text-right" >
+                                        {!isSmallView &&
+                                            <span className="my-0">
+                                                <p className="">Posted: {item.pub_date}</p>
+                                            </span>
+                                        }
+                                        {isSmallView &&
+                                            <span className="blog-date">
+                                                <p className="">Posted: {item.pub_date}</p>
+                                            </span>
+                                        }
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </h5>

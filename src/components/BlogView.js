@@ -53,11 +53,22 @@ const BlogView = () => {
         }
     }, [loading, blogEntries, blogId]);
 
+    useEffect(() => {
+        const handleResize = () => {
+            setIsSmallView(window.innerWidth <= 600);
+        };
+
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
 
     const handleBlogEntryClick = (entry) => {
         let path = `/blog/${entry.slug || getSlug(entry.entry_subject)}`;
         setFeaturedBlogEntry(entry);
         window.history.pushState({},'', path);
+        if (isSmallView) {
+            setCollapseNav(true); // Collapse the navigation on mobile
+        }
     };
 
     const setCopiedLink = (path) => {
@@ -81,6 +92,11 @@ const BlogView = () => {
                 <h5 className="mb-0">
                     <div className="row blog-header">
                         <div className="col-xs-12">
+                            <span className="blog-date">
+                                {entry.entry_date}
+                            </span>
+                        </div>
+                        <div className="col-xs-12">
                             <span className="mx-2">
                                     <button className="btn btn-info btn-xs" onClick={(event) => {
                                         event.stopPropagation();
@@ -94,9 +110,6 @@ const BlogView = () => {
                             </span>
                             <span>
                                 {titleCaps(entry.entry_subject)}
-                            </span>
-                            <span className="blog-date">
-                                {entry.entry_date}
                             </span>
                         </div>
                     </div>
@@ -139,8 +152,8 @@ const BlogView = () => {
                             <div  key={`section-${index}`}>
                                 {section.pics && (section.pics.map((pic, index) => (
                                     <img
-                                        key={`section-${index}`}
-                                        src={`./assets/blog/${pic}`}
+                                        key={`${pic}`}
+                                        src={`/assets/blog/${pic}`}
                                         style={{ float: `${section.right_side_pic ? 'right' : 'left'}` }}
                                         className="br20 p2 blog-image"
                                         />
@@ -151,7 +164,7 @@ const BlogView = () => {
                                             height="300"
                                             width="300"
                                             autoPlay="0"
-                                            style={{float: `${section.right_side_pic ? 'right' : 'left'}`}}
+                                            style={{ float: section.right_side_pic ? 'right' : 'left' }}
                                             src={getIframeSrcForYouTube(section.vid)}>
                                         </iframe>
                                      )}
@@ -168,7 +181,7 @@ const BlogView = () => {
                                 {section.paragraphs && section.paragraphs.length && (
                                     <div className="blogPtext">
                                         {section.paragraphs.map((p, index) => (
-                                            <div key={`section-${index}`}>
+                                            <div key={`p-${index}`}>
                                                 {p.text && !p.bold && !p.h2 && !p.h3 && !p.h4 && (
                                                     <p>{p.text}</p>
                                                 )}
@@ -240,9 +253,9 @@ const BlogView = () => {
                                     onItemClick={handleBlogEntryClick}
                                     titleKey="entry_subject"
                                     thumbnailKey="pic_file"
-                                    thumbnailPrefix="/assets/blog/"
                                     descriptionKey="summary"
                                     pageBase="blog"
+                                    thumbnailPrefix="/assets/blog/"
                                 />
                             ))}
                     </div>

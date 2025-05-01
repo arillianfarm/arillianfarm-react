@@ -187,6 +187,9 @@ const RecipesView = () => {
         let path = `/recipes/${recipe.slug || getSlug(recipe.name)}`;
         setFeaturedRecipe(recipe);
         window.history.pushState({}, '', path);
+        if (isSmallView) {
+            setCollapseNav(true); // Collapse the navigation on mobile
+        }
     };
 
     const assembleAndCopyRecipeSummary = (recipe) => {

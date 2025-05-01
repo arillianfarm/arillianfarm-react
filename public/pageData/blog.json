@@ -26,6 +26,7 @@
       "entry_number": 2,
       "entry_date": "August 16, 2024",
       "entry_subject": "Yes We Kanban!",
+      "pic_file": "kanban1.png",
       "feature_section_1": {
         "caption": "",
         "pic": "assets/blog/kanban1.png"
@@ -64,6 +65,7 @@
       "entry_subject": "A day on Arillian Farm",
       "custom_blog_1": true,
       "featured_blog": false,
+      "pic_file": "chickenFeed.png",
       "feature_section_1": {
         "caption": "Buck Bugggaaak",
         "pic": "assets/blog/chickenFeed.png"
@@ -529,6 +531,7 @@
     {
       "entry_number": 8,
       "entry_date": "Oct 4, 2024",
+      "pic_file": "twofalls.png",
       "entry_subject": "Falling in love with Autumn in the desert!",
       "feature_section_1": {
         "caption": "",
@@ -564,10 +567,12 @@
         ]
       }
       ]
-    },{
+    },
+    {
       "entry_number": 9,
       "entry_date": "Oct 4, 2024",
       "entry_subject": "Fall Planting 2024",
+      "pic_file": "soilDone.png",
       "feature_section_1": {
         "caption": "",
         "pic": "assets/blog/soilDone.png"
@@ -580,12 +585,9 @@
         "caption": "",
         "pic": ""
       },
-      "pic_file": "",
       "sections": [
         {
-        "pics": [],
-          "link": "https://arillianfarm.com/#!/projects#making-garden-soil",
-          "pic_file": "soilDone.png",
+          "pics": ["soilDone.png"],
         "paragraphs": [
           {
             "text": "Aug 20, 2024 - Started Clearing Garden Beds and Making Soil",
@@ -641,7 +643,7 @@
           }
         ]
       },{
-        "pics": ["p919.png","p9192.png","p9193.png","p9194.png"],"right_side_pic": true,
+        "pics": ["p919.png","p9192.png","p9193.png","p9194.png"],
           "right_side_pic": true,
           "paragraphs": [
           {
@@ -691,10 +693,12 @@
         ]
       }
       ]
-    }, {
+    },
+    {
       "entry_number": 10,
       "entry_date": "Nov 1, 2024",
       "entry_subject": "Removing Rats From The Barn/ Chicken Coop ",
+      "pic_file": "rat1.png",
       "feature_section_1": {
         "caption": "",
         "pic": "assets/blog/rat1.png"
@@ -735,10 +739,12 @@
         ]
       }
       ]
-    }, {
+    },
+    {
       "entry_number": 11,
       "entry_date": "Nov 15, 2024",
       "entry_subject": "YouTube-ing",
+      "pic_file": "youtubeA.png",
       "feature_section_1": {
         "caption": "",
         "pic": "assets/blog/youtubeA.png"
@@ -785,6 +791,7 @@
       "entry_number": 12,
       "entry_date": "Dec 6, 2024",
       "entry_subject": "Self Publishing on Amazon",
+      "pic_file": "amazonPub.png",
       "feature_section_1": {
         "caption": "",
         "pic": "assets/blog/amazonPub.png"
@@ -826,6 +833,7 @@
       "entry_number": 13,
       "entry_date": "Jan 3, 2025",
       "entry_subject": "Looking Back at Our Dogs Favorite Toys in 2024",
+      "pic_file": "turtleToy.png",
       "feature_section_1": {
         "caption": "",
         "pic": "assets/blog/turtleToy.png"
@@ -905,6 +913,7 @@
       "entry_number": 14,
       "entry_date": "Jan 17, 2025",
       "entry_subject": "Ten Years of Arillian",
+      "pic_file": "arillian1.png",
       "feature_section_1": {
         "caption": "",
         "pic": "assets/blog/arillian1.png"
@@ -970,6 +979,7 @@
       "entry_number": 15,
       "entry_date": "Jan 31, 2025",
       "entry_subject": "Modding My Way Into Game Writing?",
+      "pic_file": "gemtalk.png",
       "feature_section_1": {
         "caption": "",
         "pic": "assets/blog/gemtalk.png"
@@ -1058,6 +1068,7 @@
       "entry_number": 16,
       "entry_date": "Feb 14, 2025",
       "entry_subject": "Springing Ahead",
+      "pic_file": "spr5.png",
       "feature_section_1": {
         "caption": "",
         "pic": "assets/blog/spr5.png"
@@ -1103,6 +1114,7 @@
       "entry_number": 17,
       "entry_date": "Feb 28, 2025",
       "entry_subject": "I’m Just a Lil Robot Trying to Broadcast My Data",
+      "pic_file": "lilbot.png",
       "feature_section_1": {
         "caption": "",
         "pic": "assets/blog/lilbot.png"
@@ -1181,6 +1193,7 @@
       "entry_number": 18,
       "entry_date": "March 14, 2025",
       "entry_subject": "LARPing in the face of the Apocalypse: Farm Life and AI Anxiety",
+      "pic_file": "cblog.png",
       "feature_section_1": {
         "caption": "",
         "pic": "assets/blog/cblog.png"
@@ -1252,6 +1265,7 @@
       "entry_number": 19,
       "entry_date": "April 4th, 2025",
       "entry_subject": "An Ode to Artichokes",
+      "pic_file": "ablogharvest.png",
       "feature_section_1": {
         "caption": "Artichokes remind me of me, tough, vibrant and good with a side of mayonnaise",
         "pic": "assets/blog/ablogharvest.png"
@@ -1332,6 +1346,7 @@
       "entry_number": 20,
       "entry_date": "April 11th, 2025",
       "entry_subject": "The Linguistic Loop",
+      "pic_file": "hiero.png",
       "feature_section_1": {
         "caption": " Will Words Become Pictures Again?",
         "pic": "assets/blog/hiero.png"
@@ -1387,6 +1402,7 @@
       "entry_date": "April 25th, 2025",
       "featured_blog": true,
       "entry_subject": "Fitness Snacks",
+      "pic_file": "fitsnack1.png",
       "feature_section_1": {
         "caption": "Finding Mindful Moments for Movement",
         "pic": "assets/blog/fitsnack1.png"
