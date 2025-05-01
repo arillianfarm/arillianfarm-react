@@ -1,0 +1,63 @@
+{
+  "data": [
+    {
+      "entry_number": 1,
+      "entry_date": "August 9, 2024",
+      "entry_subject": "Do Folks Even Read Blogs?",
+      "pic_file": "arfarmlogo.png",
+      "feature_section_1": {
+        "caption": "",
+        "pic": "arfarmlogo.png"
+      },
+      "sections": [
+        {"paragraphs":[
+
+          {
+            "bold":false,
+            "text":"I'm developing 'The Arillian Farm brand' to see if I can entice folks to spend a minute or two in our little nook of the web, watch a video or read a thing, then maybe chuckle or smile and throw a couple bucks our way if they enjoyed something. To that end, I've been working on this website for a few days now and I’ve been poking around the internet, checking out sites from authors who have content on the web (do people still say web?)"
+          },
+          {
+            "bold":false,
+            "text": "Everyone seems to have a blog, but I don’t actually believe that people read blogs in this day and age (do people even say day and age still? … is it day and age or day in age?), but even if this blog post goes unread, the more links and content my site has, the better SEO it will have… right? Now I think I’m going to put a task on my Kanban Board to read more about SEO... and about making blog entries that people might want to read."
+          }
+        ]}
+      ]
+    },
+    {
+      "entry_number": 2,
+      "entry_date": "August 16, 2024",
+      "entry_subject": "Yes We Kanban!",
+      "feature_section_1": {
+        "caption": "",
+        "pic": "../assets/blog/arfarmlogo.png"
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
+      "pic_file": "arfarmlogo.png",
+      "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQJC6WFdhJzehXvB2h_5yPAZsoQVBE7aT6oIhu1mrtGZ4G0hfzhyBuynwkqPvYJWYLfytprri2vwEqb/pubhtml",
+      "sections": [{
+        "paragraphs":[
+          {
+            "bold":false,
+            "text": "When I decided (a few weeks ago) to make this site and start putting the Arillian Farm brand out there, I wanted to make (find a free template for) a Kanban board for myself like the one I used to use when someone else was paying me to write software. Instead of moving tasks across columns though, I decided to use Sheet's built-in 'sort' function and I just have a list-selectable status and I generally keep my Sheet sorted by Status (unless there is some other metric I want to look at such as started date or priority) As soon as I started throwing tasks on my Sheet... OMG it felt so good!"
+          }
+        ]
+      },
+        {
+          "paragraphs":[
+            {
+              "bold":false,
+              "text": "Having a place to jot down the millions of things I want to do in my life and break them down into smaller tasks is like lifting thoughts out of my brain and putting them into a Pensive from Harry Potter! Being able to sort and search my dreams and accomplishments from my phone and my laptop is luxury! And oh hot damn the sweet sweet dopamine release when I change the status of a task to finished is almost better than a puff of weed! I've missed Kanbaning. Doing things and keeping track of them, so simple, but so satisfying."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

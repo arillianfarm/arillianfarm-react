@@ -1,0 +1,222 @@
+{
+  "data": [
+    {
+      "name": "Catio",
+      "pub_date": "8/9/24",
+      "header_pic": "arfarmlogo.png",
+      "categories": ["construction", "pets", "tempe"],
+      "about": "Last year, my best friend and her girlfriend along with their three cats moved into one of the units in the two rental houses I own on a 9000 sq ft lot in Tempe, AZ. I wanted to make sure their cats had space to get fresh air and get away from each other if needed (as they blended their cat families) —and I love woodworking, so I decided to build a catio for them.",
+      "tools": [
+        "Cordless hammer/ impact drill (we use a Black and Decker Matrix drill which has a bunch of interchangeable tool heads. We used the impact head for the vast majority of the screws, but we switched to the hammer head to drill into and ).",
+        "Air Compressor with Staple gun attachment",
+        "Tin snips",
+        "Level",
+        "Square angle",
+        "Tape measure",
+        "Pencil or Pen",
+        "Electric miter saw"
+      ],
+      "materials": [
+        "2.5 inch deck screws: 1 box",
+        "Construction staples: 1 box",
+        "2-D L brackets",
+        "Concrete Drill Bits (it took us two bits to make three pilot holes in the block wall we anchored to)",
+        "Concrete Screws: 3-4 screws per anchor point",
+        "Gate hinges (set of 2)",
+        "Pressure Treated Lumber: approx 10 2x4x8s and 10 2x6x8s",
+        "Wire Mesh: We used two rolls of '“'Fencer Wire 3 ft. x 50 ft. 16-Gauge Welded Wire Fence with Mesh 2 in. x 3 in'. If I did it over again, I would use a smaller mesh, but so far it's been keeping the cats in and whatever else out.  (I read that 16 gauge was recommended to make sure cats can’t break the wire with claws or teeth)."
+      ],
+      "materials_pics": [
+        {
+          "name": "2-D L Brackets",
+          "pic": "arfarmlogo.png"
+        },{
+          "name": "3-D L Brackets",
+          "pic": "arfarmlogo.png"
+        }
+      ],
+      "slides_only": false,
+      "phases": [
+        {
+          "pic": "arfarmlogo.png",
+          "label": "Planning",
+          "paragraphs": [{
+            "text": "Planning: I was very excited to see the cats reaction to the catio, so as soon as my friend signed her lease, I completely rushed everything.I did a google search for “enclosed porch catio”, got some results that looked like what I had been envisioning, skimmed through a couple blogs and articles, grabbed the dimensions of the back patio off of the house’s blueprints (from when I had this house built a couple years back) and I made a really rough sketch of a design that sort of mimicked some of the things I had seen other people do… and then I went to home depot and bought a bunch of hardware based on my initial whim."
+          }]
+        },
+        {
+          "pic": "arfarmlogo.png",
+          "label": "Build a frame",
+          "paragraphs": [{
+            "text": "First, using metal L braces, 2.5” deck screws, and pressure treated 2x4(x8)s and 2x6(x8) (that I had left over from a couple previous projects) we built a wood frame that outlined the patio windows and sliding door.  (note we used the impact drill head for building the frame… the only time we used the hammer attachment was to anchor to a masonry wall of the house)."
+          }]
+        },
+        {
+          "pic": "arfarmlogo.png",
+          "label": "Make frame into stable boxes",
+          "paragraphs": [{
+            "text": "Using the initial frame as a template, we built a matching frame for the outside panel of the catio and then cut 2x4s/2x6s to span the depth of the catio enclosure. Using deck screws, we fastened the overhead boards across the top of the two frame panels."
+          }]
+        },
+        {
+          "pic": "arfarmlogo.png",
+          "label": "Add a gate",
+          "paragraphs": [{
+            "text": "Once we had the outer frame together, we made a simple a entry gate with a height and width 2” smaller than the surrounding frame. I had wanted to keep the whole structure “floating” so it could easily be removed if my friend moved out and a new tenant did not want the catio, but every time we opened the gate, the whole structure moved, so we anchored the gate-side of the catio frame to a masonry wall of the house using a (3d) L bracket and concrete screws."
+          }]
+        },
+        {
+          "pic": "arfarmlogo.png",
+          "label": "Enclose the frame",
+          "paragraphs": [{
+            "text": "To enclose the catio, we stretched rolls of fencer wire across the outside of the frame, pulling it taut and pinning the wire mesh in place with heavy duty 14mm staples as we unrolled it across the frame. We ended up just short of wire for the longest side, so we used a bit of regular chicken wire across the top corner)"
+          }]
+        },
+        {
+          "pic": "arfarmlogo.png",
+          "label": "Build the cat lounge",
+          "paragraphs": [{
+            "text": "We used a bunch of tongue and groove ceiling board, 2x4s and 2x6 scraps to make a bench, a small staircase and a perch for the cats and then I stapled scraps of carpet on to make it more comfy for them."
+          }]
+        },
+        {
+          "pic": "arfarmlogo.png",
+          "label": "Enjoy",
+          "paragraphs": [{
+            "text": "It’s been about a year since initial construction and so far the cats and cat moms indicate that its been working out purrrfectly."
+          }]
+        }
+      ]
+    },    {
+      "name": "(Sort of) Making a Straw Hat/ Easter Basket ¯\\_(ツ)_/¯",
+      "pub_date": "4/18/25",
+      "header_pic": "arfarmlogo.png",
+      "about": "Go Against the Grain with Straw Crafting",
+      "categories": ["gardening", "straw"],
+      "tools": [
+        "Construction Scissors"
+      ],
+      "materials": [
+        "Straw",
+        "Twine (From Hay Bales)"
+      ],
+      "phases": [{
+        "pic": "arfarmlogo.png",
+        "paragraphs": [
+          {
+            "text": "Growing and Harvesting Straw Craft Supplies",
+            "h4": true
+          },
+          {
+            "text": "In the winter, I plant wheat and barley to feed to my chickens as treats, so by late spring my garden is full of headless grain stalks."
+          },{
+            "text": "Usually I just cut those stalks up and compost them, but recently, it dawned on me that those stalks might actually be useful --and thus my dream to weave myself a straw pool hat from Arillian straw was born."
+          },{
+            "text": "The idea of making something entirely from home-grown crafting materials, makes my heart flutter, so I asked my go-to AI, Gemini, to explain the process of making a straw-hat from grain stalks and this is how it went..."
+          },
+          {
+            "text": "Gemini, my AI advisor, instructed me to cut my wheat and barley shafts when they were almost completely yellow --with just a little green left in the stalk. I did my best to figure out what that meant and pulled in a pretty good haul of straw."
+          }
+        ]
+      },{
+        "pic": "arfarmlogo.png",
+        "right_side_pic": true,
+        "paragraphs": [
+          {
+            "text": "According to Gemini soaking is the key to successful straw crafting, so I drew a cold bath for my cut straw and left it to soak for 2 hours --until (I decided) it was pliable enough to work without breaking. However, Gemini said it can take upto 24 hours to soften straw for braiding."
+          }
+        ]
+      },{
+        "pic": "arfarmlogo.png",
+        "paragraphs": [
+          {
+            "text": "After it's bath, I wrapped my straw in a damp towel, pulling only a few strands out at a time -- to keep it from drying out while I worked with it."
+          }
+        ]
+      },{
+        "pic": "arfarmlogo.png",
+        "right_side_pic": true,
+        "paragraphs": [
+          {
+            "text": "Weaving a New Path",
+            "h4": true
+          },
+          {
+            "text": "Some straws broke when I went to tie the ends of my braid,so I obviously hadn't soaked the grain stalks long enough. But I was pretty jazzed to make my sun hat, so I picked out the pieces of straw that seemed particularly bendy and stared braiding similar-length strands of straw into short ropes."
+          }
+        ]
+      },{
+        "pic": "arfarmlogo.png",
+        "paragraphs": [
+          {
+            "text": "Frame Job",
+            "h4": true
+          },
+          {
+            "text": "Once I had several straw ropes, I started to make the base of my hat by tying two long, loose pieces of straw together to make an X shape. I then started weaving the braids over-under around the X until I had... something."
+          },{
+            "text": "After a few hours of struggling with my straw, I decided to just get creative and have fun with the process, so I ditched Gemini and went rogue!"
+          }
+        ]
+      },{
+        "pic": "arfarmlogo.png",
+        "right_side_pic": true,
+        "paragraphs": [
+          {
+            "text": "I knew I would need to make the brim jut out from the head part of the hat, so I started weaving straw ropes through the 'base' that I'd formed at the top of the hat."
+          }
+        ]
+      },{
+        "pic": "arfarmlogo.png",
+        "paragraphs": [
+          {
+            "text": "After some more random braiding and weaving, what I ended up with was almost certainly not a hat. Arthur thought it looked like a basket from a history museum..."
+
+          },
+          {
+            "text": "So I decided to Pivot From a Hat to an Easter Basket",
+            "h4": true
+          },{
+            "text": "Easter's coming up, so it almost felt like kismet."
+          }
+        ]
+      },{
+        "pic": "arfarmlogo.png",
+        "right_side_pic": true,
+        "paragraphs": [
+          {
+            "text": "I grabbed some baling twine (that I'd saved from Totes and McGoats hay bales) and started weaving it through the straw sculpture formerly intended as a hat."
+          }
+        ]
+      },{
+        "pic": "arfarmlogo.png",
+        "paragraphs": [
+          {
+            "text": "Eventually I ended up with something that actually resembled an Easter basket."
+          }
+        ]
+      },{
+        "pic": "arfarmlogo.png",
+        "right_side_pic": true,
+        "paragraphs": [
+          {
+            "text": "Mulch Ado About Straw Scraps",
+            "h4": true
+          },
+          {
+            "text": "I had plenty of broken and leftover straw, so I decided to re-invest those scraps back into the garden by using them as mulch and compost!"
+          }
+        ]
+      },{
+        "vid": "4MtIj9GJDTs",
+        "paragraphs": [
+          {
+            "text": "Crafting with Trash: Going against the Grain with Straw Crafts",
+            "h4": true
+          }
+        ]
+      }
+      ]
+    }
+  ]
+}

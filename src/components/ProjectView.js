@@ -181,7 +181,11 @@ const ProjectView = () => {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 const data = await response.json();
-                setProjects(data.data);
+                let projectData = data.data;
+
+                projectData.reverse();
+
+                setProjects(projectData);
             } catch (e) {
                 setError(e);
                 console.error("Error fetching projects:", e);

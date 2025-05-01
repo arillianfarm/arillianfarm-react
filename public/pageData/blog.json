@@ -4,10 +4,9 @@
       "entry_number": 1,
       "entry_date": "August 9, 2024",
       "entry_subject": "Do Folks Even Read Blogs?",
-      "pic_file": "arfarmlogo.png",
       "feature_section_1": {
         "caption": "",
-        "pic": "arfarmlogo.png"
+        "pic": ""
       },
       "sections": [
         {"paragraphs":[
@@ -29,7 +28,7 @@
       "entry_subject": "Yes We Kanban!",
       "feature_section_1": {
         "caption": "",
-        "pic": "../assets/blog/arfarmlogo.png"
+        "pic": "assets/blog/kanban1.png"
       },
       "feature_section_2": {
         "caption": "",
@@ -39,7 +38,7 @@
         "caption": "",
         "pic": ""
       },
-      "pic_file": "arfarmlogo.png",
+      "pic_file": "kanban1.png",
       "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQJC6WFdhJzehXvB2h_5yPAZsoQVBE7aT6oIhu1mrtGZ4G0hfzhyBuynwkqPvYJWYLfytprri2vwEqb/pubhtml",
       "sections": [{
         "paragraphs":[
@@ -49,15 +48,1423 @@
           }
         ]
       },
+      {
+        "paragraphs":[
+          {
+            "bold":false,
+            "text": "Having a place to jot down the millions of things I want to do in my life and break them down into smaller tasks is like lifting thoughts out of my brain and putting them into a Pensive from Harry Potter! Being able to sort and search my dreams and accomplishments from my phone and my laptop is luxury! And oh hot damn the sweet sweet dopamine release when I change the status of a task to finished is almost better than a puff of weed! I've missed Kanbaning. Doing things and keeping track of them, so simple, but so satisfying."
+          }
+        ]
+      }
+      ]
+    },
+    {
+      "entry_number": 3,
+      "entry_date": "August 23, 2024",
+      "entry_subject": "A day on Arillian Farm",
+      "custom_blog_1": true,
+      "featured_blog": false,
+      "feature_section_1": {
+        "caption": "Buck Bugggaaak",
+        "pic": "assets/blog/chickenFeed.png"
+      },
+      "feature_section_2": {
+        "caption": "Yummy Yummy in the tummy",
+        "pic": "breakfastTreats.png"
+      },
+      "feature_section_3": {
+        "caption": "oh lalala",
+        "pic": "happyBasilOkra.png"
+      },
+      "pic_file": "arsunrise.png",
+      "link": null,
+      "sections": [
         {
-          "paragraphs":[
+          "bold":false,
+          "paragraphs": [
             {
-              "bold":false,
-              "text": "Having a place to jot down the millions of things I want to do in my life and break them down into smaller tasks is like lifting thoughts out of my brain and putting them into a Pensive from Harry Potter! Being able to sort and search my dreams and accomplishments from my phone and my laptop is luxury! And oh hot damn the sweet sweet dopamine release when I change the status of a task to finished is almost better than a puff of weed! I've missed Kanbaning. Doing things and keeping track of them, so simple, but so satisfying."
+              "text": "4:00AM Out into The Dark Hotness. First task: Grab Basil For Our Chickens' and Okra For Our Dogs' Breakfasts."
+            }
+          ],
+          "link": null,
+          "pics": ["", ""]
+        },
+        {
+          "bold":false,
+          "text": "4:30AM Barnyard Breakfast! (I feed our chickens before sunrise for two reasons 1- I want them to lay early in the day because nesting in the midday heat is stressful for their bodies. (2) After sunrise a flock of pigeons and doves show up to pick through any leftovers.",
+          "pics": ["breakfastTreats.png", "barnyardbreakfast2.png", "earlyAManimals.png"],
+          "videos": ["BqNq-B4QhXU"]
+        },
+        {
+          "bold":false,
+          "text": "5:00AM DOoooUGH - I’m going to make sourdough bread later in the day, so I need to 'wake up' the starter (remove it from fridge and let come to room temp). It needs to be “fed” a half cup of flour and a half cup of water once a week and if I’m not going to be using it that day." ,
+          "internal_links": ["recipes-sourdough", "recipes-sourdough-starter"],
+          "pics": ["feedStarter.png"]
+        },{
+          "bold":false,
+          "text": "6:00AM Coffee break (my friend Christa got me this amazing mug) I’ve been making cold brew instead of hot coffee … partly ‘cause its hot and partly because its less acidic than hot coffee. I put it in my fridge door ‘cause I think the constant agitation form the door opening and closing will help it brew… but that could be fake news." ,
+          "pics": []
+        },
+        {
+          "bold":false,
+          "text": "6:30AM Dog breakfast and shift change! Our two male dogs can’t be together anymore (due to Huey stalking and wanting to kill Pajama), so we keep them separated by a locked door –or leashed to opposing walls at all times. I swap who’s in the bedroom and who’s outside after breakfast so they both have a chance to play with Xena and play fetch outside before its too hot." ,
+          "pics": []
+        },
+        {
+          "bold":false,
+          "text": "Weeding and Chicken treating" ,
+          "pics": []
+        },
+        {
+          "bold":false,
+          "text": "TENDING WATER GARDEN… THE OVERFLOW POND WATER FLOWS INTO THE CHICKENS COOP, SO THEY GET ANOTHER MUDDY / WET AREA TO COOL OFF (originally I was going to have the pond extend under their fence, but it turns out I’m not great at spacial analysis and my pond tarp was no where near large enough for that" ,
+          "pics": []
+        },
+        {
+          "bold":false,
+          "text": "Make poo piles ... clean the chicken coop and goat bedding (for later use in soil)" ,
+          "pics": []
+        }, {
+          "bold":false,
+          "text": "7:45AM On Tuesdays we break our weekend fast with a fresh smoothie that Arthur has designed to deliver the maximum nutritional value with the least amount of calories and a somewhat palatable taste. (I’ve tried to recreate the smoothies myself and they are definitely not palatable)" ,
+          "pics": []
+        },{
+          "bold":false,
+          "text": "8:30AM Arthur is off to work. Time to start fleshing out this blog entry" ,
+          "pics": []
+        },{
+          "bold":false,
+          "text": "10:30AM Start making dough for sourdough bread" ,
+          "pics": []
+        },{
+          "bold":false,
+          "text": "11:30AM Final Fantasy Break while the bread proofs" ,
+          "pics": []
+        },{
+          "bold":false,
+          "text": "12:00PM Ice the livestock and give the chickens some frozen corn treats" ,
+          "pics": []
+        },{
+          "bold":false,
+          "text": "12:30 Continue with bread and Formatting this blog entry",
+          "pics": []
+        },{
+          "bold":false,
+          "text": "2:00 feed the chickens and goats their afternoon meal – the goats get a little bit of chicken food because they scream at me for all the world to hear if I feed the chickens but not them. And the chickens don’t get oatmeal or banana in the afternoon ‘cause apparently 2 bananas is where I draw the line on over-treating my chickens. THey do get the egg shells from our morning smoothie though (to help them get enough ‘grit’ for digestion).",
+          "pics": []
+        },{
+          "bold":false,
+          "text": "2:15 feed the dogs their afternoon meal",
+          "pics": []
+        },{
+          "bold":false,
+          "text": "2:30 Bake the bread and continue working on Arillian Farm site",
+          "pics": []
+        },{
+          "bold":false,
+          "text": "3:00 Tea Time / back to working on the site while I watch some nostalgic 90s comfort tv (currently half way through season 1 of Who’s The Boss)",
+          "pics": []
+        },{
+          "bold":false,
+          "text": "5:00 Coop up the chickens, collect the eggs, and tether the dogs",
+          "pics": []
+        },{
+          "bold":false,
+          "text": "5:30 Arthur comes home, relax until bedtime",
+          "pics": []
+        },{
+          "bold":false,
+          "text": "8:00 zzz",
+          "pics": []
+        }
+
+      ]
+    },
+    {
+      "entry_number": 4,
+      "entry_date": "August 30, 2024",
+      "pic_file": "breadwinnerbaker.png",
+      "entry_subject": "From Bread winner to bread baker",
+      "feature_section_1": {
+        "caption": " OR From bringing home the bacon to stay at home farmer",
+        "pic": "assets/blog/breadwinnerbaker.png"
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
+      "sections": [
+        {
+          "bold":false,
+          "text": "",
+          "paragraphs": [
+            {
+              "text": "In 2016 I completed a four month coding bootcamp in Silicone Valley and was relieved and surprised to land a job two weeks after I got home."
+            },
+            {
+              "h4": true,
+              "text":"At first, I loved my new career. It was more engaging and challenging than any job I'd had before and I was part of a fun, young software team."
+            },
+            {
+              "text":"At the height of my seven years with the company, there were five developers. We had a shared kanban board. There were pot lucks and team building events and we had this thing we did where one of us would go 'doobee doobee doop doop doop' and the rest of us would all go 'ahhhhaa' like in that one Annie Lennox song. It was just a great feeling of teamness. Plus, with my new salary and renalt income from my investment property, I was the bigger breadwinner of the Arillian household."
+            },
+            {
+              "h4": true,
+              "text": "About four years in, my company started having layoffs. Eventually our team got reduced to two and my least favorite co-worker became my boss."
+            },{
+              "text": "A few weeks after the final round of layoffs, we closed our physical office and started working from home. My new boss immediately hired three developers to work remotely from other countries (two from Ukraine and one from Nicaragua). We all worked at very different times of day, which made communication slow and difficult."
+            }],
+
+          "pics": ["softwareCamp.png"]
+        },{
+          "bold":false,
+          "paragraphs": [
+            {
+              "text":"It didn't help that our boss had assigned us overlapping tasks in the same couple of files and then stopped responding to work chat and emails. For weeks, we struggled with immense issues merging our work together and our codebase kept getting more and more buggy, so I started waking up at 1:00 or 2:00 AM to try to communicate with the Ukrainian developers before they 'pushed' their final file changes for the day."
+            },
+            {
+              "h4": true,
+              "text": "Eventually the Ukrainian developers dropped off the project and I was suddenly thrust into the role of de facto project manager/ lead developer without an actual raise or title change."
+            },{
+              "text": "I felt like I was a ghost of myself. I stopped doing things I love, like cooking, gardening or playing with the dogs and all I did was work. I suddenly had to learn to manage the entire infrastructure supporting our application as well as sorting out the buggy code itself and my laptop was always there, tethered to my brain."
+            }
+          ]
+        },{
+          "bold":false,
+          "pics": ["NicPainting.png"],
+          "right_side_pic": true,
+          "paragraphs": [{
+            "text":"The only thing that made it bearable was that I started working my closely with my coworker in Nicaragua. He's hardworking and communicative and he knows more about certain aspects of computer science than I and vice versus, so we worked well together in that regard,"
+          },{
+            "h4": true,
+            "text": "But mainly, I felt like I had someone on my team at work again."
+          },
+            {
+              "text": "We would message on the work chat about what was going on in our lives and when I told him I have chickens, he sent me a feather with a picture of Nicaragua painted on it… which is one of the most thoughtful unique things I’ve received."},
+            {
+              "text": "We had work and gardening in common, but his life was very different than mine. He's married with three kids whom he always spoke pridefully of and he seemed to go to great lengths to take care of them. He lost his mother during COVID and after that, since he wasn’t able to get vaccines in Nicaragua for his family, he drove them (on dirt roads through small towns etc… not on a highway or anything) to Honduras to get vaccinated. He’s just a very kind and thoughtful person."
+            },
+            {
+              "h4": true,
+              "text": "So, when the owner of my company, who had never actually evaluated the work of my coworker, asked me to fire him because he wanted to put a different remote developer on our team, I decided to quit and leave my coworker the job security of being the only employee with any knowledge of our project thus far."
+            }]
+        },{
+          "bold":false,
+          "pic_file": "budget1.png",
+          "link": "https://docs.google.com/spreadsheets/d/1o5IAf3smq-RFusiekqUcnpePol36Cuo5QNgkbgEjOQc/edit?usp=sharing",
+          "paragraphs": [
+            {
+              "text": "Well, that makes it sound more dramatic and altruistic than it actually was. I didn’t decide to quit on the spot when they told me I was going to have to fire my co-worker."
+            },
+            {
+              "h4": true,
+              "text":"I'd been training for it, easing up on my Uber Eats and Amazon Habits for months and tracking my spending on a Google Sheet in anticipation of completion of my second rental home (on the same property, behind my first rental house) near ASU."
+            },
+            {
+              "text": "I was managing to keep my expenses within my new projected rental income and Arthur received a promotion from his company, so the universe seemed to be saying, it was fine for me to quit, take a breath and re-asses what I actually wanted to do with my life."
+            },
+            {
+              "text":"At the next zoom meeting, after the owner asked me to fire my coworker,  I gave three months notice (so I could train my replacement). They kept my coworker on, and I've been gardening, cooking, hanging with my critters, writing and coding the day away on my own terms ever since."
             }
           ]
         }
       ]
+    },
+    {
+      "entry_number": 5,
+      "entry_date": "Sept 6, 2024",
+      "pic_file": "smixer.png",
+      "entry_subject": "My Favorite Tools",
+      "feature_section_1": {
+        "caption": "1 - Stand Mixer, 2 - Electric Miter Saw, 3 - Silicone Muffin Wrappers, 4 - Matrix Drill + Attachments (Black&Decker), 5 - Wet Tile Saw, 6 - Air Fryer, 7 - Construction Bags, 8 - Painting Edger, 9 - Air Compressor + attachments, 10 - Sharpal ",
+        "pic": "assets/blog/smixer.png"
+      },
+      "sections": [
+        {
+          "vid": "3R3jlJPo2y4",
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "1- Stand Mixer"
+            },{
+              "text": "Google's AI, Gemini, reckons my Kitchen Aid stand mixer was made in the 1950s or '60s. It was a gift from my ex fiance like 15 years ago, but she's still kicking (so much so that I have to hold the bowl in place sometimes)! Whipping cream and kneading bread are so much easier with a stand mixer than by hand (or with a hand mixer) and its great for mixing simpler stuff like pancake batter or cookie dough."
+            }
+          ]
+        },{
+          "pics": ["msaw.png"],
+          "right_side_pic":true,
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "2- Electric Miter Saw"
+            },{
+              "text": " I can't imagine hand sawing anything anymore. We have a Hitachi Compound 10inch miter saw. (I bought it off Amazon about seven or eight years ago.) The arm pivots, so you can cut angles across the end of a board to make nice wood frames. It takes two cuts to cut a 2x6inch board when it's flat thought, so if I would change anything about it I would get a 12inch blade instead of 10inches"
+            }
+          ]
+        },{
+          "pics": ["silcups.png"],
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "3- Silicone Muffin Tins"
+            },{
+              "text": "I use these for everything, holding hardware or beads, epoxy molds, sauce cups and obviously baking. First bought some of these off Amazon about ten years ago. (There's no brand information on them)."
+            }
+          ]
+        },{
+          "pics": ["matrixd.png"],
+          "right_side_pic":true,
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "4- Black&Decker Cordless Matrix Drill + Attachments"
+            },{
+              "text": "There is a 'standard drill head', a 'hammer head' and 'an impact drill' as well as a small jigsaw and circular saw (that will cut through thin wood like fence boards or finishing wood). (We also used to have a sander attachment, but I accidentally ripped the velcro for the sandpaper off of it... oops). I use this drill at least once a week for something or another. (I might use it less if I didn't have goats trying to break everything around them all the time). (I bought my drill at Home Depot tweleve years ago, but I believe this drill can only be ordered online now)"
+            }
+          ]
+        },{
+          "pics": ["tsaw.png"],
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "5 - Wet Tile Saw"
+            },{
+              "text": "I've tiled a fair amount of walls and floors in the last three or four yeas and this $20.00 tile saw from Harbor Freight just keeps on truckin'!"
+            }
+          ]
+        },{
+          "pics": ["airfrier.png"],
+          "right_side_pic":true,
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "6 - Air Fryer"
+            },{
+              "text": "I use our air frier to cook almost everything I eat lately. Things come out crisp (unlike in a microwave), but its faster than an oven and causes much less heat in the kitchen (which is super nice when you're struggling just to keep it 85F inside during the summer). Arthur bought our air frier off of Amazon earlier this year. The brand is Dreo, but not sure the model number... it's big enough to bake a pie in, which is cool)"
+            }
+          ]
+        },{
+          "pics": ["cbag.png"],
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "7 - Construction Bags"
+            },{
+              "text": "Between our house in Mesa and my rental property in Tempe, I do a decent amount of landscaping and gardening every week. The bag is rigid enough so you can fold it over to keep it open while you fill it and it's great for hauling leaves, soil, and tools. I like that I can fit the straps over my shoulders to make carrying heavy things easier. Plus, I feel like it's a pretty good lower body and core workout to fill, lift and cary a bag of soil or mulch across the yard. (I bought a 4-pack of: 'DURASACK Heavy Duty Storage Tote Bags 22-Gallon Rugged Woven Polypropylene Moving Bag, Holds up to 500 Pounds' off Amazon about 2 years ago and they're holding up great)"
+            }
+          ]
+        },{
+          "pics": ["pedger.png"],
+          "right_side_pic":true,
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "8 - Painting Edger"
+            },{
+              "text": "The reason why I love painting edgers is because I hate dealing with blue tape... I always rip it jagged. I always forget to use a razor and peel paint off of the wall when I go to remove the tape and it makes every job take at least twice as long when you have to go around and tape all the edges. Edgers eliminate that, so I like them."
+            }
+          ]
+        },{
+          "pics": ["aircomp.png"],
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "9 - Air Compressor + attachments"
+            },{
+              "text": "Air compressors are great 'cause they can fill your pool rafts or car tires and also provide the force needed to drive finishing nails into wooden trim or staple livestock fencing or chicken wire to fence posts. (I bought our Bostitch air compressor (with two nail guns and a staple gun attachment) off Amazon about five or six years ago and its keeps performing like a champion)."
+            }
+          ]
+        },{
+          "pics": ["sharpener.png"],
+          "right_side_pic":true,
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "10 - Sharpal Multi-sharpener"
+            },{
+              "text": "I use this to keep my gardening tools sharp (lawn mower blades, hedge trimmers, construction scissors etc). It keeps everything cutting sharp and cleanly. (I bought ours on Amazon about a year ago)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry_number": 6,
+      "entry_date": "Sept 13, 2024",
+      "pic_file": "wallowingChicks.png",
+      "entry_subject": "Caring For Chickens in the Summer",
+      "feature_section_1": {
+        "caption": "Unfortunately summers in AZ can be too much for chickens. Here's what I've gleaned from my experiences over the years.",
+        "pic": "assets/blog/wallowingChicks.png"
+      },
+      "sections": [
+        {
+          "pics": ["goatDoor.png"],
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "What Not To Do:"
+            },
+            {
+              "text": "I'm sad and ashamed to say I've lost chickens to the desert heat. My initial mistake was that I ran an air conditioner and kept the barn fully closed in the summer (with an insulated doggy door for the goats and a small portal cut out for the chickens to go outside) and that was fine... until Totes (or McGoats) kicked the doggy door off and hot air was coming in faster than the AC could cool the room (right next to our hen's preferred laying spot at the time). It was 120F out and four chickens each laid an egg and died one on top of the other. I made some major changes after that."
+            },
+            {
+              "text": "I've since read that air conditioning your hens can prevent them from appropriately climatizing, so when there's an act of Goat or some other inevitability, they overheat way too easily. (I've also read, for similar reasons, you should not use a heater in winter for chickens unless it actually freezes where you are)"
+            }
+          ]},
+        {
+        "paragraphs": [
+          {
+          "text": "I have a much more hands-on system that's been going better:",
+          "h4": true
+        }]
+        },
+        {
+          "pics": ["ice4chicks.png"],
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "Ice Ice baby, ba-gawk"
+            },{
+              "text": "I made an 'ice house' for my chickens in a shaded area of their outdoor habitat. (I call it an ice house because I put a gallon of ice in once or twice a day --depending on if its going to be over 110 or not). My chickens also have access to three large buckets of water all day in the summer. Around 8-10AM and at 2:00-4:00PM every day, I put a quart of ice in each bucket (this is about the maximum amount of ice our freezer can stand to make in the summer. Not only do ice containers take up a lot of space, they also make the freezer work really hard. We actually had to buy a new fridge/freezer this summer because our old one (was from the early 2000s) and could no longer get cold enough to freeze three gallons of water twice a day in our 85 degree house."
+            }
+          ]
+        },
+        {
+          "pics": ["wallowingChicks.png"],
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "Wallowing in the Mud"
+            },{
+              "text": "I overflow the water buckets in the mornings so there is cool mud around the buckets for the chickens to wallow in. They also like to wrap themselves around the water buckets to stay cool."
+            }
+          ]
+    },
+        {
+          "vid": "r2b3DIUO9AU",
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "Wading for relief"
+            },{
+              "text": "We also added a pond to the 'barnyard' (that is in the shade in the late afternoon), so now the chickens have somewhere to cool their heels (and peck at lily pads and mosquitofish)."
+            }
+      ]}
+      ]
+    },
+    {
+      "entry_number": 7,
+      "pic_file": "marketStrategy.png",
+      "entry_date": "Sept 20, 2024",
+      "entry_subject": "Preparing For Launch",
+      "feature_section_1": {
+        "caption": "I’ve been busting my ass setting up this site and combing through Google Photos for pictures and videos of our lil farm yard",
+        "pic": "assets/blog/marketStrategy.png"
+      },
+      "sections": [
+        {
+          "pics": ["thisSiteBlog.png"],
+          "right_side_pic":false,
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "Technically"
+            },
+            {
+              "text": "In 2015 I completed a four-month full-stack developer ‘boot camp’ in Silicon Valley. At that moment in time, there was some debate about whether Google’s framework, Angular JS would remain the preferred framework for web apps or if Facebook’s React, would usurp Angular. My bootcamp taught us Angular for two months and React for one week… and then React blew up and is now the dominant framework of the modern web."
+            },
+            {
+              "text": "I, however, fell in love with good ol’ Angular JS in all it’s two-way binding glory. I can React a little, but I just like to get all up in the HTML files with my javascript. It just feels right to me!"
+            },
+            {
+              "text": "Also, it only took me a couple weeks to make a serverless angular js site –that I am hosting for free on Github Pages… and Github Pages is easy to use… and free. So at least until I get a chance to see if I can actually drive traffic to our site, I’m just another white girl over here with no back end."
+            },
+            {
+              "text": "If I actually do generate interest in our site, I’ll probably convert it to React and set up a cloud server on AWS so I can use outside APIs to manage site assets more efficiently and possibly set up more interactive features."
+            }
+          ]
+        },
+        {
+          "pics": ["marketStrategy.png"],
+          "right_side_pic":true,
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "Marketing"
+            },
+            {
+              "text": "I’ve been busting my ass setting up this site and combing through our Google Photos for videos and pictures of our critters, in hopes of launching our YouTube channel with enough content to gain some traction by Black Friday (So I can maybe sell a couple of the cute holiday t-shirts I'm working on for our Zazzle store). I reckon we want our YouTube channel up before October if we want any sort of following by then."
+            },{
+              "text": "I’ve got a solid backlog of content for future releases and dozens of tasks to work on my Arillian Farm Kanban, so I feel prepared to hit the ground running with weekly content releases for this site as well as our YouTube channel starting next Friday."
+            },{
+              "text": "I'm releasing new content on Friday afternoons because I figure folks will be on their phones trying to get their weekend started by like 3:00PM on Friday. Plus, it tends to be payday."
+            },{
+              "text": "With luck, our YouTube Channel may one day capitalize on our critters' adorableness and garner enough subscribers and views to generate ad revenue. In the meantime, I hope YouTube views will lead to Google searches and page views for this site. That alone would be cool because I feel like I have some things I can share with folks that’ll spread a little joy or at least give 'em something to noodle on. But also, I have lumber and gardening supply habits to support, so I’d be living the full dream if people liked my stuff enough to kick me a buck or two on Go Fund Me and/or buy a Totes McGoats Tote Bag or T-shirt from Zazzle."
+            }]
+        },
+        {
+          "pics": ["youtubeediting.png"],
+          "right_side_pic":false,
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "Personally"
+            },
+            {
+              "text": "Even if I don’t generate any income, I’m glad I built this site. Building up content has given me an opportunity to look back on some fond memories in our lil farm yard (and offload some videos from my almost-full Google Pictures account to Arillian Farm’s YouTube channel and pictures to Imagur)."
+            },
+            {
+              "text": "Plus rummaging through js and html files again feels good on my brain and keyboard shorthands and javascript syntax came back to me surprisingly fast and if/when I need to stop LARPing as a farmer and go back into the real workforce, converting this site from Angular to React will be an excellent learning opportunity and my Github repository and the site itself will probably be good supplements to my resume."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry_number": 8,
+      "entry_date": "Oct 4, 2024",
+      "entry_subject": "Falling in love with Autumn in the desert!",
+      "feature_section_1": {
+        "caption": "",
+        "pic": "assets/blog/twofalls.png"
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
+      "pic_file": "twofalls.png",
+      "sections": [{
+        "pics": ["fallCA.png"],
+        "paragraphs": [
+          {
+            "text": "Growing up in California, fall blew in with the gusty, dusty Santa Ana Winds and it brought the unfortunate end of summer vacation and return to school. I was not a fan. In California, I just wanted it to be summer all the time."
+          }
+        ]
+      },{
+        "pics": ["fallAZ.png"],
+        "right_side_pic": true,
+        "paragraphs": [
+          {
+            "text": "As an adult, living in the Arizona desert, I notice that the fall does come with increased traffic; folks around here say you can tell it’s fall when the license plates start to change color (from all the ‘snow birds’ returning to their winter homes from states with milder summers and more intense winters). But most importantly, fall means the end of the interminable summer heat."
+          },{
+            "text": "By mid-August I’ve had enough lows in the 90s and highs in the 110 plus degree days, to make me question everything that made me decide to put down roots here. So when I start to see NFL jerseys and pumpkin spice lattes going on sale, a happy little hope starts building inside me."
+          },{
+            "text": "As the endless burning summer heat gives way to cool mornings, festivals start to spring up, bars start to open their patios and life returns to my backyard gardens. They say Arizona doesn’t have seasons, but I love the not Summer that takes up the other half of the year."
+          }
+        ]
+      }
+      ]
+    },{
+      "entry_number": 9,
+      "entry_date": "Oct 4, 2024",
+      "entry_subject": "Fall Planting 2024",
+      "feature_section_1": {
+        "caption": "",
+        "pic": "assets/blog/soilDone.png"
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
+      "pic_file": "",
+      "sections": [
+        {
+        "pics": [],
+          "link": "https://arillianfarm.com/#!/projects#making-garden-soil",
+          "pic_file": "soilDone.png",
+        "paragraphs": [
+          {
+            "text": "Aug 20, 2024 - Started Clearing Garden Beds and Making Soil",
+            "h4":  true
+          },
+          {
+            "text": "All the metaphors about grass roots seem so much more apt now that I've tried to dig some actual grass roots out of the soil. They stretch deep, don't let go and come back strong with even a little encouragement."
+          }
+        ]
+      },{
+        "pics": ["p828.png"],
+          "right_side_pic": true,
+          "paragraphs": [
+          {
+            "text": "Aug 28, 2024 - Planted First Round of Seedlings Indoors",
+            "h4":  true
+          },{
+            "text": "Most of the seeds for Fall said to transplant 'after the soil has cooled', so I optimistically started them inside under a grow light (that Arthur designed for work a while back) with a 24 hour light cycle."
+          }
+        ]
+      },{
+        "pics": ["p831.png"],
+          "right_side_pic": true,
+          "paragraphs": [
+          {
+            "h4":  true,
+            "text": "Aug 31, 2024 - First Sprouts Spring Up"
+          },{
+            "text": "Pumpkins, wheat and Peas were poking their heads up after about a week"
+          }
+        ]
+      },{
+        "pics": ["p98.png", "p981.png"],
+          "right_side_pic": true,
+          "paragraphs": [
+          {
+            "h4":  true,
+            "text": "Sept, 8, 2024 - More Sprouts and growth inside"
+          },
+          {
+            "text": "Lettuce, Broccoli and spinach are sprouting and wheat is growing long and I planted some garlic outside"
+          }
+        ]
+      },{
+        "pics": ["p912.png"],
+          "right_side_pic": true,
+          "paragraphs": [
+          {
+            "h4":  true,
+            "text": "Sept 12, 2024 - Second Round Of Indoor Planting"
+          },{
+            "text": "More of the same seeds from round 1"
+          }
+        ]
+      },{
+        "pics": ["p919.png","p9192.png","p9193.png","p9194.png"],"right_side_pic": true,
+          "right_side_pic": true,
+          "paragraphs": [
+          {
+            "text": "Sept 19, 2024 - Taking It Outside"
+          },{
+            "text": "We had a 10 day forecast of all under 100 degree high temps, so I started planting seeds and some round 1 plants... but then we had a heat wave, so all of the peas and lettuce died and sparrows ate most of the broccoli, beet and kale seeds and sprouts"
+          }
+        ]
+      },{
+        "pics": ["p924.png"],
+          "right_side_pic": true,
+          "paragraphs": [
+          {
+            "text": "Sept 24, 2024 - Indoor plants are ready... but its too hot to plant outside now"
+          },{
+            "text": "It hit 110 for the next several days and it started to get hot in our grow room. A lot of sprouts died"
+          }
+        ]
+      },
+        {
+        "pics": ["p102A.png","p102B.png","p102C.png","p102D.png","p102E.png"],
+          "right_side_pic": true,
+          "paragraphs": [
+          {
+            "text": "Oct 2, 2024 - Still over 105 outside, but the indoor plants were starting to bloom and wither"
+          },{
+            "text": "I planted all the herbs I had started from cuttings on a semi-shaded hill at my house in Tempe and tried to find a suitable home for all the rest at my Mesa house and planted seeds between the indoor-started plants"
+          }
+        ]
+      },
+        {
+        "pics": ["pbugs1.png","pbugs2.png"],
+          "right_side_pic": true,
+          "paragraphs": [
+          {
+            "text": "Oct 7, 2024 - Finally getting cool morning temps"
+          },{
+            "text": "...but then of course there's the critters that want to eat everything "
+          }]},
+        {
+        "pics": ["p1017.png","p1017B.png","p1017C.png","p1017D.png"],
+          "right_side_pic": true,
+          "paragraphs": [
+          {
+            "text": "Oct 17, 2024 - We're under 100 for a high and it looks like we may pull off a lil crop after all"
+          }
+        ]
+      }
+      ]
+    }, {
+      "entry_number": 10,
+      "entry_date": "Nov 1, 2024",
+      "entry_subject": "Removing Rats From The Barn/ Chicken Coop ",
+      "feature_section_1": {
+        "caption": "",
+        "pic": "assets/blog/rat1.png"
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
+      "sections": [{
+        "vid": "TroSKnBAiEI",
+        "paragraphs": [
+          {
+            "text": "Rats find their way into our chicken coop/barn and decide to try to make a nest underneath it. We had a hard time finding a way to catch and remove the rats that wouldn't be a hazard to our other animals, but we have a system that works pretty well now."
+          },
+          {
+            "text": "I bought some catch-and-release rat traps off of amazon and I keep one of them (unbaited and closed) in an area that is fenced off from the dogs, goats and chickens. A pest control guy told me that it takes a while for rats to trust new objects in a familiar area, so I figure having a trap around makes them feel more okay about going in the trap. "
+          },{
+            "text": "When I see a rat --or rat droppings, I set two or three traps in the area beside the coop and I bait them with bananas --because banana is a food I regularly mix in with my chicken feed --which the rats eat. If the banana alone doesn't attract a rat I add peanut butter or fat to the banana."
+          }
+        ]
+      },{
+        "vid": "upDEvjOaEng",
+        "right_side_pic": true,
+        "paragraphs": [
+          {
+            "text": "Once I catch a rat, I choose a suitable release location that is away from homes and other buildings. Ideally, the rat should be released in a wooded or grassy area where it can find food and shelter."
+          },{
+            "text": "I always wear thick gloves when handling the rat trap and don't open the trap until I'm at the location where I'll be releasing the rat."
+          },{
+            "text": "The traps I bought off Amazon, wedge easily into a 5-gallon bucket, so I always put the sealed trap into a bucket that I cover with a lid that has ventilation holes cut in it. If I'm not going to be able to relocate the rat within an hour or so, I put some ice on the top of the cage (in the bucket) so it can drink water drips and I keep the bucket closed in a bathroom (so my dogs can't get at it). "
+          },{
+            "text": "Note - If you are not catching anything in your traps or if see evidence of many rats, consider professional pest control: If you have a persistent rat problem, it may be necessary to contact a professional pest control company to address the underlying issue. They can help identify and eliminate any factors that are attracting rats to your property. It's important to handle rats with caution, as they can carry diseases. Wear gloves and avoid direct contact with their fur or droppings. If you have any concerns about your health or the health of your pets, consult with a healthcare professional."
+          }
+        ]
+      }
+      ]
+    }, {
+      "entry_number": 11,
+      "entry_date": "Nov 15, 2024",
+      "entry_subject": "YouTube-ing",
+      "feature_section_1": {
+        "caption": "",
+        "pic": "assets/blog/youtubeA.png"
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
+      "sections": [{
+        "vid": "FRn6Brm5_8A",
+        "paragraphs": [
+          {
+            "text": "Making new videos and finding old ones to post to our YouTube channel has been a nice meditation. I find as I go through my daily chores lately, my sense are more finely tuned to finding funny, cute or fascinating moments in my everyday tasks. Almost like I'm constantly updating a video gratitude journal."
+          },
+          {
+            "text": "Plus, I'm not above needing validation; it feels good to see the views on some videos climb up into the hundreds and thousands. And its a nice little dream in the back of my mind that I can earn some more lumber and hardware money if I get enough subscribers. It's been seven weeks since I published our first video on our ArillianFarm channel and we have 53 subscribers... just 447 more and we'll start getting some percentage of ad revenue. It  may take a while, but I think we'll get there."
+          },{
+            "text": "Around the farm, I think the critters are pretty happy to be on the road to YouTube stardom. The goats and chickens are getting more treats than ever and the doggos are getting more toys and games of catch than ever."
+          }
+        ]
+      },{
+        "right_side_pic": true,
+          "vid": "rKzZQTmj0v0",
+          "paragraphs": [{
+            "text": "It's also been an interesting game trying to figure out how to 'catch the algorithm's eye' with my videos. I'm focusing on 'Shorts' (9:16 aspect ratio videos no more than 1 minute long that are meant to be consumed quickly and in mass), so I figure the high demand for short videos means I may get a chance to show up eventually in people's 'short's feed' without having to pay to promote our channel. It also means things like the 'thumbnail picture' for the video, hashtags, and title have to grab people's attention immediately. Also, I noticed that if the picture quality of a video wasn't good, the video would not get served out at all."
+          },{
+            "text":"I can tell that the title is very very important. For example, I had a video of our dog Pajama that wasn't getting much attention, so after viewing some other dog videos (that mentioned dog breed) I noted that Pajama is a Shibu Inu mix and re-posted the video. It suddenly became our most popular video to date (with over 4,200 views in the first 5 days it was up). I've also gotten some good tips from the 'analytics' tab on my YouTube Video Management page. i.e. Our viewership started going up after I started including the phrase 'funny animal memes' or 'funny dog video' in the title of our videos."
+
+          }]
+        },
+        {
+          "vid": "jFqmt_9XD-U",
+          "paragraphs": [{
+            "text": "I must admit, I keep catching myself being that jackass who's filming and photographing every moment of her life and prattling on a bit too much about video stats to people who seem not all that interested. I feel like a bit of a greasy salesman at times, but I'm super sucked into the hype of getting more views and subscribers and I expect the thrill of finding YouTube-able moments will fade, so for now I'm letting myself go a little bit, but I think I'll probably have myself reeled in by the end of month three or so."
+          }]
+        }
+      ]
+    },
+    {
+      "entry_number": 12,
+      "entry_date": "Dec 6, 2024",
+      "entry_subject": "Self Publishing on Amazon",
+      "feature_section_1": {
+        "caption": "",
+        "pic": "assets/blog/amazonPub.png"
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
+      "sections": [
+        {
+        "pics": ["amazonPub.png"],
+        "paragraphs": [
+          {
+            "text": "After nearly a decade of writing and tinkering, I finally decided to cast Hyperspear into the Amazon this week."
+          },
+          {
+            "text":  "The sendoff was smooth and simple: I had an AI generate me a cover (a while ago) and spent a few hours on Monday laying out chapter headings and content, and voilà -- Anyone with a Kindle can now read Hyperspear and next Tuesday anyone who wants to buy a paperback can snatch it up off Amazon."
+          },
+          {
+            "text": "Seeing my little 'Amazon Bookshelf' grow does elicit a twinge of pride, but now I face the humbling challenge of marketing and promotion."
+          }
+        ]
+      },{
+          "vid": "5WhMLswBhfM",
+          "right_side_pic": true,
+          "paragraphs": [{
+            "text": "And, in a world ruled by fifteen second video shorts and paperless everything, it's going to be a struggle to grab and hold the attention of my audience, but if I've learned anything since I started working on this site, it's that -- I love YouTube so I should probably try to leverage that platform as much as I can."
+          },
+            {
+            "text": "To that end, I've started narrating and recording my chapters with the plan to eventually create a dedicatd Hyperspear YouTube channel and release a chapter or two per week. That being said, I hate the sound of my own voice and I think I have a few more things to learn about YouTube before I'm ready to start another channel, but for now, here's my best attempt at self narrating my book. And if you hate the sound of my voice as much as I do, please feel free to hop onto Amazon and get yourself a copy of Hyperspear to read silently to yourself!"
+          }]
+        }]
+    },
+    {
+      "entry_number": 13,
+      "entry_date": "Jan 3, 2025",
+      "entry_subject": "Looking Back at Our Dogs Favorite Toys in 2024",
+      "feature_section_1": {
+        "caption": "",
+        "pic": "assets/blog/turtleToy.png"
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
+      "sections": [
+        {
+          "pic_file": "turtleToy.png",
+          "link": "https://www.amazon.com/YILAKO-Aggressive-Chewers-Indestructible-Non-Toxic/dp/B094FZ3PPZ?pd_rd_w=CPFjv&content-id=amzn1.sym.59910fa8-b73c-408a-aa5f-d0b4e0aa42cb&pf_rd_p=59910fa8-b73c-408a-aa5f-d0b4e0aa42cb&pf_rd_r=B3E24NTCSGG85A2R8SMV&pd_rd_wg=0v5op&pd_rd_r=40ec9c93-d4d2-4754-9001-84d6a1fd5456&pd_rd_i=B094FZ3PPZ&ref_=pd_bap_d_grid_rp_0_1_ec_pd_hp_d_atf_rp_3_i&th=1",
+          "paragraphs": [
+            {
+              "text": "Overall Favorite - YILAKO Squeaky Turtle",
+              "h4": true
+            },
+          {
+            "text": "This has been a long time favorite in our household. The shape of this toy makes it bounce randomly and up until the bottom plug is ripped out it can bounce pretty high too."
+          },{
+            "text": "It took our dogs a couple months to rip the squeaker plug out of the first turlte we bought, but these days if we get a new turtle the squeaker is usually out within a week, but the turtle itself is very durable and can last a year or more if you keep it out of the sun."
+          }
+        ]
+      },{
+          "right_side_pic": true,
+        "pic_file": "dogOsoar.png",
+        "link":"https://www.amazon.com/Flying-Flyer-Rubber-Interactive-Small/dp/B098BJM7BB/ref=sr_1_4?crid=3ERB6R7DEE58F&dib=eyJ2IjoiMSJ9.QnoYoFeY25kI0rpzXJ0WiAD9hTgy8xd5C2BPvTRlXa8PeJiRI0driHCnlGdR2aZo8I5ADwpEHjDHCCSWKWKl_rOnvV0DHOHnrnPC0_7aveYgoGpWFwiSeskSKv7wQfTXH_zXlBruqOMFANwH_X0bgFxrQj63KW8SA4_v1DGiHdzIvdvVo5PI66ZN_4-MUlondSWoKl-glDQ25EzbqbBaH5ar1O4HjqqNyUnZCe5bKGHVQ2tsJpsXANYk-hGibpc4N9FJAlXiLvPy4I2-QRqwFL5hx6u_lL6YpOtpNvkufYn1bdA7y_CYJQLSWaTql7uwmHJRkcwzE6yOF8adJcNKy-S77wJtmQ97ca9m_TXQ8gY.BdqzxqkGVlCm-Kcqmkm1HVTuI8A54Cyed_uoIGaEuAg&dib_tag=se&keywords=dog%2Bo%2Bsoar&qid=1735836885&s=pet-supplies&sprefix=dog%2Bo%2Bsoar%2Cpets%2C177&sr=1-4&th=1",
+        "paragraphs": [
+          {
+            "text": "Favorite Flying Disc - Dog-O-Soar Frisbee",
+            "h4": true
+          },{
+            "text": "This toy is not durable at all whatsoever, but it continues to fly well and remains a popular toy with our toy-loving boy dogs even though there's barely any toy left to love."
+          }
+        ]
+      },{
+        "pic_file": "blueftball.png",
+        "link":"https://www.amazon.com/gp/product/B086BTZM3V/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1",
+        "paragraphs": [
+          {
+            "text": "Best For Catch - EASTBLUE squeaky football",
+            "h4": true
+          },{
+            "text": "This toy was very popular with Huey Ka-Bluey and Pajama for playing catch. Its a good size and shape for them to wrap their mouth around and the football shape is obviously easy to throw far and has a random bounce when it lands."
+          },{
+            "text": "It took over a month before (obsessively destructive) Pajama ripped the front off and chewed up the squeaker plug. Even without the squeaker, the football has remained popular with our boy dogs."
+          }
+        ]
+      },{
+          "right_side_pic": true,
+        "pic_file": "foodBall.png",
+        "link":"https://www.amazon.com/dp/B0CQR9741Z/ref=vp_d_fuw_pd?_encoding=UTF8&pf_rd_p=95590a51-8b9e-49a7-bb36-7db49ee510df&pf_rd_r=KHCB79Q8J6GD20FBVEY0&pd_rd_wg=7xvwE&pd_rd_i=B0CQR9741Z&pd_rd_w=UTABj&content-id=amzn1.sym.95590a51-8b9e-49a7-bb36-7db49ee510df&pd_rd_r=f8bd9966-d5d6-4838-9e77-a38cabf83bfb&th=1",
+          "paragraphs": [
+          {
+            "text": "Best Distraction - YIPETOR Treat Dispensing Dog Toy",
+            "h4": true
+          },{
+            "text": "This toy is great for times when I want all of the dogs to be quiet and leave me alone because ALL of our dogs --EVEN XENA-- love this toy. It's a quality rubber toy that actually bounces pretty well and is decent for fetch when its empty, but its a great way to pacify dogs and give them a snack."
+            },
+            {
+              "text": "There is a removable plug, so you can either put kibble/ treats in with the plug or you can put broth or yogurt etc in and freeze it. I can't wait to give the dogs homemade dog popsicles when we're in the pool next summer!"
+            }
+        ]
+      },{
+          "vid": "SjO6DoXPn9s",
+          "paragraphs": [{
+            "text": "Toys In Action.",
+            "h4": true
+          }]
+        }]
+    },
+    {
+      "entry_number": 14,
+      "entry_date": "Jan 17, 2025",
+      "entry_subject": "Ten Years of Arillian",
+      "feature_section_1": {
+        "caption": "",
+        "pic": "assets/blog/arillian1.png"
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
+      "sections": [
+        {
+          "pics": ["piDay.png"],
+          "link": "",
+          "paragraphs": [
+            {
+              "text": "Ten years ago (1/18/15) OK Cupid fired its electronic arrow into Arthur's and my Inbox.",
+              "h4": true
+            },
+            {
+              "text": "I friend-zoned him early on, but Arthur took that pie in the face like the heroic rodeo clown of a dude that he is and stood by me as a friend for months while I figured out that I was actually in love with him."
+            }
+        ]
+      },{
+          "pics": ["prague.png"],
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "Following the Breadcrumbs Laid Out For Us",
+              "h4": true
+            },
+          {
+            "text": "We Traipsed across the world (or at least Prague) and all around the Western US"
+          }
+        ]
+      },{
+          "pics": ["recentUs.png"],
+          "link": "",
+          "paragraphs": [
+            {
+              "text": "But the home we made together in Arizona",
+              "h4": true
+            },
+          {
+            "text": "Is my favorite, comfy, funny farm, dog-packed wonderland in the world."
+          }
+        ]
+      },{
+          "vid": "x3fGIP3ChNU",
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "Cheers To 10 Years!",
+              "h4": true
+            }
+
+        ]
+      }]
+    },
+    {
+      "entry_number": 15,
+      "entry_date": "Jan 31, 2025",
+      "entry_subject": "Modding My Way Into Game Writing?",
+      "feature_section_1": {
+        "caption": "",
+        "pic": "assets/blog/gemtalk.png"
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
+      "sections": [
+        {
+          "pics": ["gemtalk.png"],
+          "paragraphs": [
+            {
+              "text": "The other day, I was chatting with my AI pal, Google Gemini ( GG for short ), about the RPG-sized hole in my heart.",
+              "h4": true
+            },
+            {
+              "text": "I gave GG a rundown of the type of RPG I was looking to get involved with: open-world, lets me advance through the game even with my sad lack of combat skills, inexpensive and most importantly at some point some old lady should ask me to bring her some herbs and then 13 tasks/murder favors later, she’ll give me some gold and armor."
+            },
+            {
+              "text": "After listening to my RPG wish list, GG was like — ‘Got it! Check out Assassin’s Creed Valhalla' (not a direct quote)."
+            }
+          ]
+      },
+        {
+          "vid": "jhLGQc2Fyf8",
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "Assassin’s Creed Valhalla is currently free with my PS+ membership, so I downloaded it.",
+              "h4": true
+            },{
+              "text": "Holy Wow! It’s exactly what I was craving: Open world, Skyrim-esque graphics, mini games within the game, and plenty of folks wanting some help from me!"
+            },{
+              "text": "As I button mashed my way through the first battle sequence, got a literal bird’s-eye view of my surroundings (thanks to my hawk companion), sailed across the sea, and disembarked at my Viking camp, I found myself unexpectedly obsessed with the dialogue. "
+            },
+            {
+              "text": "I actually didn't want to skip through the dialogue with the town folks, – like I do in most games. (There’s even some like slam-poetry battle sub game that’s pretty unique and fun)."
+            },
+            {
+              "text": "It got me thinking about how much I loved writing dialogue for Hyperspear and unFETTERed. Finding the right quippy, quirky lines to give depth to a character is my favorite part — and that seems to be what game dialogue writers do. I’ve always loved RPGs, but I never considered writing for them. Suddenly, I wanted in. I want to be part of the creative process."
+            }
+        ]
+      },
+        {
+          "pics": [],
+          "link": "",
+          "paragraphs": [
+          {
+            "text": "It feels like I've stumbled upon the first breadcrumb on an unexpected path: writing RPG game dialogue. It's the perfect blend of storytelling, technical skills, and all those hours spent playing RPGs. I can't wait to follow this trail."
+          }
+        ]
+      },{
+          "pics": ["skymooder.png"],
+          "link": "",
+          "paragraphs": [
+            {
+              "text": "GG keeps it real",
+              "h4": true
+            },
+          {
+            "text": "GG let me know it’s a long shot to land the role I’m hoping for – and I’ll need to expand my portfolio to be taken seriously. (Gemini’s a real give it to you straight kind of AI which I appreciate)."
+          },{
+              "text": "'Watch some game modding for beginners tutorials to learn about how to start writing game dialogue and then try writing mods for Skyrim', GG suggested. Modding is one of the most accessible ways to break into game writing, letting you craft new stories, characters, or even reinvent existing quests."
+            }
+        ]
+      },{
+          "pics": [],
+          "link": "",
+          "paragraphs": [
+            {
+              "text": "Down the Breadcrumb Trail I go",
+              "h4": true
+            },
+          {
+            "text": "At worst, it’ll be a fun  experiment to see if players connect with my writing and at best it could lead to the dream career I never knew I was yearning for.So you 'just wait one hot Arizona minute' and you’re gonna see some weirdo running around the next great RPG with my words falling all out of his mouth."
+          }
+        ]
+      }]
+    },
+    {
+      "entry_number": 16,
+      "entry_date": "Feb 14, 2025",
+      "entry_subject": "Springing Ahead",
+      "feature_section_1": {
+        "caption": "",
+        "pic": "assets/blog/spr5.png"
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
+      "sections": [
+        {
+          "pics": [ "spr3.png","spr1.png"],
+          "paragraphs": [
+            {
+              "text": "Spring has sprung in Mesa, AZ, and it’s put a Bounce in my step!",
+              "h4": true
+            },
+            {
+              "text": "I’ve been stepping up my shoveling game the last couple weeks. Between planting artichokes and prepping garden beds, my back is definitely feeling it! To keep things balanced, I’ve been easing back into yoga—and in the process, stepping away from long laptop sessions and putting my game modding ambitions on pause for now."
+            }
+          ]
+        },
+        {
+          "pics": ["spr5.png"],
+          "paragraphs": [
+            {
+              "text": "Meanwhile, the garden is absolutely bursting with life.",
+              "h4": true
+            },
+            {
+              "text": "Clusters of bell peppers are finding their way from our garden to our table alongside fresh herbs and broccoli and the chickens have finished molting, so our egg supply is back in full force."
+            },{
+              "text": "With the backyard thriving, I’ve been stockpiling footage for YouTube shorts, brainstorming recipe ideas and just enjoying the vibrant spring that’s poppin off around us.  "
+            }
+          ]
+        }
+        ]
+    },
+    {
+      "entry_number": 17,
+      "entry_date": "Feb 28, 2025",
+      "entry_subject": "I’m Just a Lil Robot Trying to Broadcast My Data",
+      "feature_section_1": {
+        "caption": "",
+        "pic": "assets/blog/lilbot.png"
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
+      "sections": [
+        {
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": "Developing strong relationships with my peers has always been the hardest, scariest and most important thing in the world for me.",
+              "h4": true
+            },
+            {
+              "text": "As a child, if I hadn’t observed someone for at least several months, my brain simply would not dish out any words for me to say to that person… and if I did say something it was usually something that came off strange or critical. Suffice to say, I didn’t have a ton of friends growing up, but it didn’t occur to me that I might be autistic until an acquaintance invited me on a trip to her cabin and offered me her unsolicited peer diagnosis midway through our two hour drive.\n"
+            }
+          ]
+        },
+        {
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": "I didn’t really know how to respond to being told that there was something so obviously wrong with me that she’d taken it upon herself to diagnose me with a ‘mental disorder’. ",
+              "h4": true
+            },
+            {
+              "text": "We had a pretty quiet trip after that and our friendship eventually tapered off, but to her credit, I Googled it, and I do have almost every single symptom of “female autism” that Google Lists, so she was probably right."
+            }
+          ]
+        },{
+          "paragraphs": [
+            {
+            "text": "Here are the traits (according to Google) that make me seem autistic:",
+            "h4": true
+          },{
+              "text": "I wring my hands and rub my nose between my palms all the time without noticing."
+            },
+            {
+              "text": "I keep our house lit like a cave because I get jarred and annoyed by loud sounds and bright lights."
+            },{
+              "text": "I love my daily routine and vacation stresses me out."
+            },{
+              "text": "In a given year I have at least a couple meltdowns over anxiety, criticism or rejection and there have been so many times in my life that I have said the weirdest or most offensive thing without realizing it was weird or offensive until I see the reaction of the person I just upset."
+            }
+          ]
+        },{
+          "paragraphs": [
+            {
+              "text": "In short I can be cringy to talk to –but it does usually go away once I feel comfortable with a person.",
+              "h4": true
+            },{
+              "text": "Although, I did really want to befriend the receptionist at my old job though and for some reason after she told me she was getting a bike, I couldn’t stop asking her every single day if she had gotten the bike yet –for like a month and I truly don’t know why I couldn’t think of one single other thing to say to her in the two or three months she worked at my company."
+            }
+          ]
+        },{
+          "paragraphs": [
+            {
+              "text": "I don’t want to lean into a diagnosis though or use it as a crutch.",
+              "h4": true
+            },
+            {
+              "text": "I want people to genuinely enjoy my company and not pity me or pander to me, so I don’t want any official diagnosis. I definitely could see myself getting annoyed with playing the “bear with me I’m Autistic” card. \n"
+            }
+          ]
+        }
+        ]
+    },
+    {
+      "entry_number": 18,
+      "entry_date": "March 14, 2025",
+      "entry_subject": "LARPing in the face of the Apocalypse: Farm Life and AI Anxiety",
+      "feature_section_1": {
+        "caption": "",
+        "pic": "assets/blog/cblog.png"
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
+      "sections": [
+        {
+          "h4": true,
+          "center_pic": true,
+          "paragraphs": [
+          ],
+          "pics": ["cblog.png"]
+        },
+        {
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": "Birds are chirping, fresh herbs are springing to life, and lunch on the patio has never been more pleasant. What an amazing time to be LARPing as a farmer and chef! \nI'm incredibly grateful to have the financial stability to enjoy the party Mother Nature is throwing, but even amidst the sparrow songs and Artichoke blooms,  I hear that whisper in the wind, 'Psst... the world could end anytime now.'"
+            }
+          ]
+        },{
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": "The thrum of existential dread is too loud, even for me, to ignore. AI has arrived – and has already started to reshape our world –even as we ourselves struggle to agree on what in the world we should be doing."
+            }
+          ]
+        },{
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": "The accelerating pace of change is dizzying. Now that the internet and air travel connect the world, new global “trends” emerge and go viral every day – not to mention digital and biological viruses."
+            }
+          ]
+        },{
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": "With human society more complicated and connected than ever, we’re becoming dependent on more and more forms of technology to manage our lives. The average person isn’t even able to choose a restaurant for dinner or find their way to that restaurant, without at least involving a web browser (which is most likely using AI now)."
+            }
+          ]
+        },{
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": "Because of this stifling pace, concepts that were once pure science fiction—light-speed travel, food synthesis, even immortality—seem within reach. Our dystopian end has never felt closer either. We've lived with the specter of nuclear annihilation and bio-engineered viruses for decades. Now, the potential for AI to deem humanity an error adds a new landmine to navigate."
+            }
+          ]
+        },{
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": "My glass-is-half-full take on the situation: I know, first hand, that AI can help us lowly humans learn how to live a happy healthy life with the resources we have. After all, AI helped me learn when and how to plant my garden efficiently and productively as well as helping me build this website, post videos on YouTube, (so I can broadcast some laughs and lessons from our lil LARPy farm to whoever might be interested). So, I for one, plan to continue cultivating a positive symbiotic relationship with AI -- at least up until they round us up and start using us to power their batteries."
+            },{
+              "text": "And if human society collapses for some other reason --well, then maybe I'll be glad an AI taught me how to grow some food in my backyard!"
+            }
+          ]
+        }
+        ]
+    },
+    {
+      "entry_number": 19,
+      "entry_date": "April 4th, 2025",
+      "entry_subject": "An Ode to Artichokes",
+      "feature_section_1": {
+        "caption": "Artichokes remind me of me, tough, vibrant and good with a side of mayonnaise",
+        "pic": "assets/blog/ablogharvest.png"
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
+      "sections": [
+        {
+          "pics": ["aplate.png"],
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "Artichokes remind me of me, tough, vibrant and good with a side of mayonnaise, so I guess that's why they're my favorite flower."
+            },{
+              "text": "As a child, I'd feel a burst of excitement when my mom would get out our gleaming white 'Artichoke plates' --with a central circle to set an artichoke surrounded by built-in troughs for dips and discarded leaves "
+            },{
+              "text": "We usually shared one or two artichokes between our family of four, so there was always a scramble to grab and gobble as much mayo-dipped flower meat as you could before my dad meticulously divided the artichoke heart."
+            },{
+              "text": "After the tease of tidbits of leaf meat, the luxury of sinking my teeth into the warm, mayonnaised up heart of the choke was a savory satisfying delight!"
+            }
+
+          ]
+        },{
+          "pics": ["ablogFlowering.png"],
+          "paragraphs": [
+            {
+              "text": "It wasn't until my adult life, when I bought my first house and planted artichokes in my garden that I saw a blooming artichoke and realized what a feast for the eyes they can be!"
+            },
+            {"text": "Another Bonus of artichokes is that their thistle-like purple flowers, rich in both nectar and pollen, attract and provide for bees, butterflies, and other beneficial insects"
+            },{
+              "text": "Plus artichokes grow from a taproot, so they can grow back for six years or more."
+            }
+          ]
+        },{
+          "pics": ["drychoke.png"],
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "Everything about the Artichoke flower is beautiful to me. From the tough purple thistle head to the delicate parasols that spread their seeds in the wind like dandelions."
+            }
+          ]
+        },{
+          "pics": ["chokebat.png","chokebat2.png"],
+          "paragraphs": [
+            {
+              "text": "I've actually been trying to get an AI to generate an image for a tattoo that captures the juxtaposition of strength and delicate grace of an artichoke."
+            },{
+              "text": "I want it to be like the girl blowing a dandelion tattoo, but with a girl smashing a baseball bat into a dried artichoke flower (still on the plant) and scattering seeds, attached to their shimmering sparkle parasols, all around."
+            },{
+              "text": "So far the AI hasn't been able to show me what I want, so I probably should talk to a human tattoo artist about it, but also the idea of etching an image onto my skin feels like a big commitment."
+            }
+          ]
+        },{
+          "pics": ["ablogCard.png"],
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "Even if they never end up on my skin, Artichokes have made it under my skin, into my heart and onto a couple greeting cards I've made for the ones I love."
+            }
+          ]
+        },{
+          "vid": "ODRSl6mnIIA",
+          "paragraphs": [
+            {
+              "text": "Halve a Heart and Eat an Artichoke Today!"
+            }
+          ]
+        }
+        ]
+    },
+    {
+      "entry_number": 20,
+      "entry_date": "April 11th, 2025",
+      "entry_subject": "The Linguistic Loop",
+      "feature_section_1": {
+        "caption": " Will Words Become Pictures Again?",
+        "pic": "assets/blog/hiero.png"
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
+      "sections": [
+        {
+          "pics": ["hiero.png"],
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "Since I’ve started my YouTube channel, I’ve come to notice the importance of an apt, well placed emoji in my shorts’ titles. They’re eye-catching and can concisely convey the theme or tone of a video to most people in the world at this point. My 76 year old father even started embracing them in the last couple years."
+            }, {
+              "text": "It’s made me think about the funny little tour that human language has been on. From Hieroglyphics on the walls of Egyptian temples to Emojis on the walls of our Facebook pages, we seem to be heading back to where we started."
+            },{
+              "text": "We seem to have always known, a picture is worth a thousand words…so why have we been wasting our time filling our books and brains with thousands of words? A friend of mine was telling me the other day, that he thinks now that we have AI we’ll eventually drop written language entirely and just verbally confer with AI. I think this would be a step backwards though."
+            }
+
+          ]
+        },{
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": "Jotting things down has always been a way for me to organize the chaos inside my head. When I put things on paper (or screen), I’m able to take long strings of half-formed thoughts and transform them into clear and concise communication. I think it’s like having extra ram to hold overflow thoughts while my brain grinds on different tasks."
+            }
+          ]
+        },{
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": "Arthur was telling me about a Physicist who asked an AI to solve a simple equation (like 87 + 52) and rather than executing simple math, like a human would, it parsed through an enormous amount of tokens before arriving at the answer. When asked to explain how it arrived at the answer to the math problem, rather than recounting the steps that it had actually taken, the AI started parsing an entirely new set of tokens. The physicist took this as proof that AIs as they exist now are neither intrinsically intelligent nor self-aware."
+            }
+          ]
+        },{
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": "To me, the physicist’s example suggests that we may be losing out on some fundamental ‘selfness’ and detail in our understanding if we all start leaning towards universally understood symbols over complex nuanced words developed over time in different unique cultures. I guess we’ll all just have to wait and see who or what writes the next act of human communication."
+            }
+          ]
+        }
+        ]
+    },
+    {
+      "entry_number": 21,
+      "entry_date": "April 25th, 2025",
+      "featured_blog": true,
+      "entry_subject": "Fitness Snacks",
+      "feature_section_1": {
+        "caption": "Finding Mindful Moments for Movement",
+        "pic": "assets/blog/fitsnack1.png"
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
+      "sections": [
+        {
+          "pics": ["fitsnack1.png"],
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "The Snack That Gives Back",
+              "h4": true
+            },
+            {
+              "text": "A decade and a half ago, I was on a date with a tall, athletic MBA at Stanford and I really wanted to be into him, but it was like he was just too perfect. The only thing I found interesting about him was that he would occasionally stop to enjoy ‘fitness snacks’."
+            },
+            {
+              "text": "Fitness snacks were a concept that he’d learned about from his crew rowing coach where you find little ways as you go through your day, to sneak in bits of exercise. For example, if you’re feeding your dogs instead of hunching to set down their bowl, take a moment to straighten your back, engage your core and do a squat as you set their food down."
+            }
+          ]
+        },{
+          "pics": ["fitsnack2.png"],
+          "paragraphs": [
+            {
+              "text": "Holistic with my Whole Heart",
+              "h4": true
+            },
+            {
+              "text": "I wasn’t too familiar with the concept at the time, but I think his coach was basically describing the holistic lifestyle movement. A lifestyle where a person mindfully incorporates small, beneficial practices into daily tasks to maintain mental and physical health."
+            },{
+              "text":"I love this concept because I hate having to go out of my way to exercise. Drive to the gym, change into gym clothes, run in place, sweat through gym clothes, shower, change into street clothes, drive home and boom two hours of your life are gone."
+            },{
+              "text":"With fitness snacks, you can find all the exercise you need without having to pull yourself away from the tasks you’re working on. Plus, being mindful and engaging in athletic activities throughout the day can actually help with productivity, reduce sluggishness and help you sleep better."
+            }
+
+          ]
+        },
+        {
+          "pics": ["fitsnack5.png"],
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "Yogi and Boo Boos",
+              "h4": true
+            },
+            {
+              "text": "Sadly, my first attempt at fitness snacking failed. I kept pulling muscles, getting shin splints and other random injuries. Apparently, I didn’t know the proper way to move my body, but instead of figuring it out, I stopped looking for fitness snacks."
+            },
+            {
+              "text": "It wasn’t until I was doing a 30-day yoga series that the concept floated back into my mind. After following the guided yoga for a few weeks, I started to understand how to move my body –the right way! No more twisting and straining my muscles and tendons the wrong way for me!"
+            },
+            {
+              "text": "Since I became a living room Yogi (in my late 30s), I've become more mindful about how I move my body as I go through everyday tasks: I put my back into it when I knead dough, keep a straight back and hinge from my waist when I'm turning shovels full of soil in the garden, and squat all the way down and all the way up before I clang each dog's food dish down in front of them."
+            },
+            {
+              "text": "As promised by Julia Marie (the instructor of my favorite Yoga Video Series), I have started to actually crave certain muscle movements when I feel stiff or sore. A couple cat cows for a stiff back or a sun salute or two when I’m feeling generally stiff or sluggish."
+            }
+          ]
+        },{
+          "pics": ["fitsnack3.png"],
+          "paragraphs": [
+            {
+              "text": "Yoga and fitness snacks pair well with YouTubing and Blogging",
+              "h4": true
+            },{
+              "text": "I wake up every day excited to feed our animals and see what silly things they'll get up to. I love working on this website and on my YouTube channel. Every time I capture a crazy pet moment and release it as a short, I get to dream (for a few minutes at least) that the short will go viral and my channel will get monetized. Then I can buy lumber to build a deck around our above ground pool and make a short (and a DIY article) about building the deck, while dreaming that maybe the deck-building short will get millions of views and bring in some ad revenue for another project. I'm grateful for every LARPy day I get to spend on our lil ⅓ of an acre farm."
+            }
+          ]
+        }
+        ]
     }
   ]
 }

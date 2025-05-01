@@ -28,6 +28,8 @@ const BlogView = () => {
                     entry.summary = assembleBlogSummary(entry);
                     return entry
                 },[])
+                // Reverse the array to have the newest items at the beginning
+                entriesWithSummary.reverse();
                 setBlogEntries(entriesWithSummary);
             } catch (e) {
                 setError(e);
@@ -148,7 +150,7 @@ const BlogView = () => {
                                             className="video-box blog-iframe"
                                             height="300"
                                             width="300"
-                                            autoplay="0"
+                                            autoPlay="0"
                                             style={{float: `${section.right_side_pic ? 'right' : 'left'}`}}
                                             src={getIframeSrcForYouTube(section.vid)}>
                                         </iframe>

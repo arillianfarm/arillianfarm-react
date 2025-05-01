@@ -1,0 +1,17 @@
+{
+  "data": [
+    {
+      "title": "Cook a Meal Together",
+      "description": "Go Grocery Shopping and Make a dish together",
+      "materials": [],
+      "price": 0,
+      "Bonus": "Make up a new recipe"
+    },{
+      "title": "Good Will Game Night",
+      "description": "Go to Goowill (or whatever your local thrift store is) and find a new boardgame or video game to play together",
+      "materials": [],
+      "Bonus": "buy random things to make up your own game and then play it",
+      "price": 0
+    }
+  ]
+}

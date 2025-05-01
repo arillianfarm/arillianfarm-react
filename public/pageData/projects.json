@@ -1,96 +1,2019 @@
 {
   "data": [
-    {
-      "name": "Catio",
-      "pub_date": "8/9/24",
-      "header_pic": "arfarmlogo.png",
-      "categories": ["construction", "pets", "tempe"],
-      "about": "Last year, my best friend and her girlfriend along with their three cats moved into one of the units in the two rental houses I own on a 9000 sq ft lot in Tempe, AZ. I wanted to make sure their cats had space to get fresh air and get away from each other if needed (as they blended their cat families) —and I love woodworking, so I decided to build a catio for them.",
+  {
+    "name": "Catio",
+    "pub_date": "8/9/24",
+    "header_pic": "catioDone.png",
+    "categories": ["construction", "pets", "tempe"],
+    "about": "Last year, my best friend and her girlfriend along with their three cats moved into one of the units in the two rental houses I own on a 9000 sq ft lot in Tempe, AZ. I wanted to make sure their cats had space to get fresh air and get away from each other if needed (as they blended their cat families) —and I love woodworking, so I decided to build a catio for them.",
+    "tools": [
+      "Cordless hammer/ impact drill (we use a Black and Decker Matrix drill which has a bunch of interchangeable tool heads. We used the impact head for the vast majority of the screws, but we switched to the hammer head to drill into and ).",
+      "Air Compressor with Staple gun attachment",
+      "Tin snips",
+      "Level",
+      "Square angle",
+      "Tape measure",
+      "Pencil or Pen",
+      "Electric miter saw"
+    ],
+    "materials": [
+      "2.5 inch deck screws: 1 box",
+      "Construction staples: 1 box",
+      "2-D L brackets",
+      "Concrete Drill Bits (it took us two bits to make three pilot holes in the block wall we anchored to)",
+      "Concrete Screws: 3-4 screws per anchor point",
+      "Gate hinges (set of 2)",
+      "Pressure Treated Lumber: approx 10 2x4x8s and 10 2x6x8s",
+      "Wire Mesh: We used two rolls of '“'Fencer Wire 3 ft. x 50 ft. 16-Gauge Welded Wire Fence with Mesh 2 in. x 3 in'. If I did it over again, I would use a smaller mesh, but so far it's been keeping the cats in and whatever else out.  (I read that 16 gauge was recommended to make sure cats can’t break the wire with claws or teeth)."
+    ],
+    "materials_pics": [
+      {
+        "name": "2-D L Brackets",
+        "pic": "2dl.png"
+      },{
+        "name": "3-D L Brackets",
+        "pic": "3dl.png"
+      }
+    ],
+    "slides_only": false,
+    "phases": [
+      {
+        "pic": "catioA.png",
+        "label": "Planning",
+        "paragraphs": [{
+          "text": "Planning: I was very excited to see the cats reaction to the catio, so as soon as my friend signed her lease, I completely rushed everything.I did a google search for “enclosed porch catio”, got some results that looked like what I had been envisioning, skimmed through a couple blogs and articles, grabbed the dimensions of the back patio off of the house’s blueprints (from when I had this house built a couple years back) and I made a really rough sketch of a design that sort of mimicked some of the things I had seen other people do… and then I went to home depot and bought a bunch of hardware based on my initial whim."
+        }]
+      },
+      {
+        "pic": "catioB.png",
+        "label": "Build a frame",
+        "paragraphs": [{
+          "text": "First, using metal L braces, 2.5” deck screws, and pressure treated 2x4(x8)s and 2x6(x8) (that I had left over from a couple previous projects) we built a wood frame that outlined the patio windows and sliding door.  (note we used the impact drill head for building the frame… the only time we used the hammer attachment was to anchor to a masonry wall of the house)."
+        }]
+      },
+      {
+        "pic": "catioC.png",
+        "label": "Make frame into stable boxes",
+        "paragraphs": [{
+          "text": "Using the initial frame as a template, we built a matching frame for the outside panel of the catio and then cut 2x4s/2x6s to span the depth of the catio enclosure. Using deck screws, we fastened the overhead boards across the top of the two frame panels."
+        }]
+      },
+      {
+        "pic": "catioD.png",
+        "label": "Add a gate",
+        "paragraphs": [{
+          "text": "Once we had the outer frame together, we made a simple a entry gate with a height and width 2” smaller than the surrounding frame. I had wanted to keep the whole structure “floating” so it could easily be removed if my friend moved out and a new tenant did not want the catio, but every time we opened the gate, the whole structure moved, so we anchored the gate-side of the catio frame to a masonry wall of the house using a (3d) L bracket and concrete screws."
+        }]
+      },
+      {
+        "pic": "catioAlmostDone.png",
+        "label": "Enclose the frame",
+        "paragraphs": [{
+          "text": "To enclose the catio, we stretched rolls of fencer wire across the outside of the frame, pulling it taut and pinning the wire mesh in place with heavy duty 14mm staples as we unrolled it across the frame. We ended up just short of wire for the longest side, so we used a bit of regular chicken wire across the top corner)"
+        }]
+      },
+      {
+        "pic": "catioE.png",
+        "label": "Build the cat lounge",
+        "paragraphs": [{
+          "text": "We used a bunch of tongue and groove ceiling board, 2x4s and 2x6 scraps to make a bench, a small staircase and a perch for the cats and then I stapled scraps of carpet on to make it more comfy for them."
+        }]
+      },
+      {
+        "pic": "catioDone.png",
+        "label": "Enjoy",
+        "paragraphs": [{
+          "text": "It’s been about a year since initial construction and so far the cats and cat moms indicate that its been working out purrrfectly."
+        }]
+      }
+    ]
+  },
+  {
+      "name": "Making Garden soil",
+      "header_pic": "soil3.png",
+      "pub_date": "8/16/24",
+      "featured": false,
+      "categories": ["garden"],
+      "about": "It's a dirty business",
       "tools": [
-        "Cordless hammer/ impact drill (we use a Black and Decker Matrix drill which has a bunch of interchangeable tool heads. We used the impact head for the vast majority of the screws, but we switched to the hammer head to drill into and ).",
-        "Air Compressor with Staple gun attachment",
-        "Tin snips",
-        "Level",
-        "Square angle",
-        "Tape measure",
-        "Pencil or Pen",
-        "Electric miter saw"
+        "shovel",
+        "reusable construction bags (optional)",
+        "gloves",
+        "n95 mask"
       ],
       "materials": [
-        "2.5 inch deck screws: 1 box",
-        "Construction staples: 1 box",
-        "2-D L brackets",
-        "Concrete Drill Bits (it took us two bits to make three pilot holes in the block wall we anchored to)",
-        "Concrete Screws: 3-4 screws per anchor point",
-        "Gate hinges (set of 2)",
-        "Pressure Treated Lumber: approx 10 2x4x8s and 10 2x6x8s",
-        "Wire Mesh: We used two rolls of '“'Fencer Wire 3 ft. x 50 ft. 16-Gauge Welded Wire Fence with Mesh 2 in. x 3 in'. If I did it over again, I would use a smaller mesh, but so far it's been keeping the cats in and whatever else out.  (I read that 16 gauge was recommended to make sure cats can’t break the wire with claws or teeth)."
+        "compost",
+        "sand",
+        "livestock mulch",
+        "Ammend",
+        "perlite"
       ],
-      "materials_pics": [
+      "slides_only": true,
+      "phases": [
         {
-          "name": "2-D L Brackets",
-          "pic": "arfarmlogo.png"
-        },{
-          "name": "3-D L Brackets",
-          "pic": "arfarmlogo.png"
-        }
-      ],
+          "pic": "soil1.png",
+          "label": "Gather materials",
+          "paragraphs": [
+            {
+              "text": "Gather the materials you will be using and dump them out in a mound."
+            }
+          ]},{
+          "pic": "",
+          "label": "Mix soil components",
+          "vid": "W2j1wN6xMMk",
+          "paragraphs": [
+            {
+              "text": "Stir materials together like you're folding egg whites into batter."
+            }
+          ]},{
+          "pic": "soilDone.png",
+          "label": "Disperse and Use Soil in Garden Beds or for Potting",
+          "paragraphs": [
+            {
+              "text": "Mix soil into garden beds or use in pots etc."
+            }
+          ]}
+      ]
+    },
+  {
+    "name": "Raised Garden Beds",
+    "pub_date": "8/23/24",
+    "header_pic": "rbTurnsoil.png",
+    "featured": false,
+    "categories": ["garden"],
+    "about": "Concrete planter wall blocks make setting up decent looking garden beds easy",
+    "tools": [
+      "pickaxe",
+      "shovel",
+      "hand roto-tiller (optional)",
+      "rake",
+      "gloves",
+      "mask"
+    ],
+    "materials": [
+      "2 4 ft x6 inch pieces of lumber (can be 4inch thick or just fence boards.) Note- if you wish for the walls to be more than 1 block high, multiply supplies accordingly.",
+      "4 Oldcastle (or other brand) planter wall blocks",
+      "soil",
+      "rebar (optional)",
+      "livestock fence or chicken wire (optional)",
+      "perlite (optional)",
+      "compost (optional)"
+    ],
+    "slides_only": true,
+    "phases": [
+      {
+        "label": "Prep and Planning",
+        "pic": "rb2.png",
+        "paragraphs": [
+          {
+            "text": "Gather materials and pick a location for the garden bed that's out of the flow of traffic in the yard, but with good sun exposure. If necessary cut lumber to fit to the desired size for the garden bed."
+          }
+        ]},
+      {
+        "label": "Setup the Perimeter walls",
+        "pic": "rb3.png",
+        "paragraphs": [
+          {
+            "text": "Scrape a level path between the corner blocks for each edge of the garden."
+          }]
+      },{
+        "label": "Remove Loose Dirt and Debris from Garden Bed",
+        "pic": "rb5.png",
+        "paragraphs": [
+          {
+            "text": "When 3 side walls are placed, rake out any loose gravel or dirt from within the perimeter of the bed."
+          }]
+      },{
+        "label": "Loosen Existing Dirt",
+        "pic": "rb6.png",
+        "paragraphs": [
+          {
+            "text":  "Using the pickax, shovel and/or hand tiller, loosen the soil 3-6 inches below the bottom level of the garden walls."
+          }]
+      },{
+        "label": "Soak Overnight if Necessary",
+        "pic": "rb7.png",
+        "paragraphs": [
+          {
+            "text":  "It may be necessary to soak the bed overnight and come back to work with the damp soil the next day."
+          }]
+      },{
+        "label": "Fill with Soil",
+        "pic": "gbed6.png",
+        "paragraphs": [
+          {
+            "text":  "After the bed is dug down, add garden soil, perlite and compost and shovel/rake to mix with the loose dirt and you should be ready for planting!"
+          },{
+            "text": "Note - The corner blocks have a hole in the middle so you can secure them in place with rebar. Also, if your pets or local wildlife seem to be getting after your seeds or sprouts, you can use chicken wire or livestock fencing to make a simple cage to help protect your plantlings."
+          }
+        ]
+      }
+    ]
+  },
+  {
+      "name": "Growing Basil From Cuttings",
+      "pub_date": "8/30/24",
+      "header_pic": "basil5.png",
+      "featured": false,
+      "categories": ["plants","garden", "grow light"],
+      "about": "Use cuttings from Pho or from a larger basil plant to grow a new clone",
+      "tools": ["box cutter (optional)", "rooting hormone (optional)", "grow light (optional)"],
+      "materials": ["basil cuttings", "jar", "small pot", "potting soil"],
       "slides_only": false,
       "phases": [
         {
-          "pic": "arfarmlogo.png",
-          "label": "Planning",
+          "pic": "basil1.png",
+          "label": "Selecting Cuttings",
+          "paragraphs": [
+            {
+              "text": " Take green, non-flowering, healthy basil cuttings from 'nodes' (areas where a branches branch off), as close to the bottom the plant as possible (roots from the bottom of the plant root faster). -- or you can also use cuttings from Pho."}
+          ]
+        },
+        {
+          "pic": "basilB.png",
+          "label": "Cut at 45 degree angle",
           "paragraphs": [{
-            "text": "Planning: I was very excited to see the cats reaction to the catio, so as soon as my friend signed her lease, I completely rushed everything.I did a google search for “enclosed porch catio”, got some results that looked like what I had been envisioning, skimmed through a couple blogs and articles, grabbed the dimensions of the back patio off of the house’s blueprints (from when I had this house built a couple years back) and I made a really rough sketch of a design that sort of mimicked some of the things I had seen other people do… and then I went to home depot and bought a bunch of hardware based on my initial whim."
+            "text": "If the root does not come off cleanly at the node (at about a 45 degree angle)."
           }]
         },
         {
-          "pic": "arfarmlogo.png",
-          "label": "Build a frame",
+          "pic": "basilC.png",
+          "label": "To speed-up rooting",
           "paragraphs": [{
-            "text": "First, using metal L braces, 2.5” deck screws, and pressure treated 2x4(x8)s and 2x6(x8) (that I had left over from a couple previous projects) we built a wood frame that outlined the patio windows and sliding door.  (note we used the impact drill head for building the frame… the only time we used the hammer attachment was to anchor to a masonry wall of the house)."
+            "text": "You can dip the cutting in water then in rooting powder (follow manufacturors instructions for safe handling and disposal of rooting powder!)."
           }]
         },
         {
-          "pic": "arfarmlogo.png",
-          "label": "Make frame into stable boxes",
+          "pic": "basil2.png",
+          "label": "Set In Well Lit Area",
           "paragraphs": [{
-            "text": "Using the initial frame as a template, we built a matching frame for the outside panel of the catio and then cut 2x4s/2x6s to span the depth of the catio enclosure. Using deck screws, we fastened the overhead boards across the top of the two frame panels."
+            "text": "Set cutting(s) in a jar that is about 1/4 -1/2 full of water try to keep the leaves out of the water (by draping them over the edge of the jar) and place in a window or under a florescent light or 'grow light'. It should take about 3-10 days for roots to develop. (Note - you can clone other herbs and other herb-like plants in a similar way)"
           }]
         },
         {
-          "pic": "arfarmlogo.png",
-          "label": "Add a gate",
+          "vid": "t31lLR2nUzk",
+          "label": "Transplant to soil",
           "paragraphs": [{
-            "text": "Once we had the outer frame together, we made a simple a entry gate with a height and width 2” smaller than the surrounding frame. I had wanted to keep the whole structure “floating” so it could easily be removed if my friend moved out and a new tenant did not want the catio, but every time we opened the gate, the whole structure moved, so we anchored the gate-side of the catio frame to a masonry wall of the house using a (3d) L bracket and concrete screws."
-          }]
-        },
-        {
-          "pic": "arfarmlogo.png",
-          "label": "Enclose the frame",
-          "paragraphs": [{
-            "text": "To enclose the catio, we stretched rolls of fencer wire across the outside of the frame, pulling it taut and pinning the wire mesh in place with heavy duty 14mm staples as we unrolled it across the frame. We ended up just short of wire for the longest side, so we used a bit of regular chicken wire across the top corner)"
-          }]
-        },
-        {
-          "pic": "arfarmlogo.png",
-          "label": "Build the cat lounge",
-          "paragraphs": [{
-            "text": "We used a bunch of tongue and groove ceiling board, 2x4s and 2x6 scraps to make a bench, a small staircase and a perch for the cats and then I stapled scraps of carpet on to make it more comfy for them."
-          }]
-        },
-        {
-          "pic": "arfarmlogo.png",
-          "label": "Enjoy",
-          "paragraphs": [{
-            "text": "It’s been about a year since initial construction and so far the cats and cat moms indicate that its been working out purrrfectly."
+            "text": "Once the basil has sprouted roots, transplant to a small pot, by holding the plantling suspended in a small pot and alternating between shaking dirt and pouring water around the roots of the plantling until the pot is filled with wet soil. When the plant is at least 6 inches tall, and has a hearty stem and vibrant leaves, Transfer to the garden or a larger (as long as it's not too cold outside. Also, if you have a hydroponic setup instead of soil, the rooted cutting can be placed in a 'net pot' filled with clay beads or perelite and introduced into your hydroponic garden)."
           }]
         }
       ]
-    },    {
+    },
+  {
+    "name": "Water Garden / Mosquito Fish pond",
+    "header_pic": "pondPopulated.png",
+    "pub_date": "9/6/24",
+    "featured": false,
+    "categories": ["garden"],
+    "about": "Its tough to get chickens through the hot Arizona summers, so we made a pond for ours.",
+    "tools": [
+      "shovel",
+      "rake",
+      "hand tiller",
+      "pickax",
+      "hose"
+    ],
+    "materials": [
+      "pond liner",
+      "cardboard",
+      "waterfall pump",
+      "waterfall trough",
+      "water pump tubing",
+      "river rocks",
+      "pea gravel",
+      "underwater soil bag",
+      "underwater soil mix",
+      "water lily rhizome"
+    ],
+    "slides_only": true,
+    "phases": [
+      {
+        "pic": "pond1.png",
+        "label": "Find 'The Spot'",
+        "paragraphs": [{
+          "text": "Find a source of river rocks and a suitable place for the pond. (Somewhere near an outlet for the waterfall pump and near a garden hose, but with no buried pipes or electrical conduit underneath it and ideally the pond should be in partial shade). Once you've found the spot, limber up, 'cause making a pond is like a month long, full body fitness bootcamp."
+        }]
+      },{
+        "pic": "dig1.png",
+        "label": "Start Digging, Soak Hole and Repeat",
+        "paragraphs": [{
+          "text": "Dig... and soak...and dig"
+        }]},{
+        "pic": "pond5.png",
+        "label": "Carve out shelves",
+        "paragraphs": [{
+          "text": "Eventually you'll want to start carving a shelf or two around the perimeter of the pond --to set river rocks and planter baskets which will hold the pond liner in place --and to allow for chickens to wade in the shallows. (The angle of the shelves should be no more than 90 degrees --if it's sloping down, everything you try to set on it will fall off once you put the tarp down)."
+        }]
+      },{
+        "pic": "pond6.png",
+        "label": "Line pond the pond hole",
+        "paragraphs": [{
+          "text": "To create a clay-like layer under the pond liner, line the pond hole with pieces of cardboard, soak and stomp down the cardboard so that it fits the shape of the pond and then put down the pond liner (I forgot to take a pic of the pond liner. I also dug a deeper ditch than my pond liner could accommodate so I had to dam up part of my hole at the last minute, but it's been holding fine for almost a year now.)"
+        }]
+      },{
+        "pic": "pond7.png",
+        "label": "Place river rocks, fill with water and hope for no leaks",
+        "paragraphs": [{
+          "text": "Put the pond liner over the wet cardboard and set large river rocks on it to hold the pond liner in place around the contours of the shelves you dug."
+        }]
+      },
+      {
+        "vid": "r2b3DIUO9AU",
+        "label": "Populate the pond",
+        "paragraphs": [{
+          "text": "I bought a dozen 'mosquito fish' from a seller on Amazon and I had a couple hundred fish within about three months of filling the pond. I also bought a water lily rhizome, a pond plant basket and soil from Amazon and planted the water lily in the deepest part of the pond away from the pump and waterfall. Note - chickens eat certain types of water lilies."
+        }]},
+      {
+          "pic": "pondPopulated.png",
+          "label": "Maintenance",
+          "paragraphs": [{
+            "text": "I have a leak somewhere in the upper level of my pond, so I put about a bathtub worth of water in each morning. (As it happens, the water draining and fresh water filling also helps to flush out hot water, fish waste and other murk in the water). I also, use my hose to spray the algae on the top of the water to one side, skim it off, and scoop out as much blown-in hay as I can from the shallows of the pond every morning to try to keep the nitrogen and amonia levels suitable for fish and plants."
+          }
+        ]
+      }]
+  },
+  {
+      "name":  "Subway Tile",
+      "pub_date": "9/13/24",
+      "header_pic": "subsDone.png",
+      "featured": false,
+      "categories": ["construction", "finishing work"],
+      "about": "While doing finishing work at my Tempe house, I found a pretty good/time-consuming way to nicely set subway tile.",
+      "tools": [
+        "n95 mask (wear when mixing thinset and grout)",
+        "trowel (for thinset)",
+        "float (for grouting)",
+        "5 gallon buckets for mixing and sponging (at least 2)",
+        "drill with mixing attachment (or extra gloves for hand mixing)",
+        "sponges",
+        "t-square",
+        "tape measure",
+        "flathead screw driver to clean grout lines",
+        "tile saw (preferably electric wet saw)",
+        "something to measure water",
+        "shop vac (to keep things tidy as you go)",
+        "dust cloths to wipe down when done with thinset / grout phases"
+      ],
+      "materials": [
+        "disposable gloves (lots)",
+        "subway tiles",
+        "tile spacers",
+        "mosaic tile backing",
+        "parchment paper (to put between sheets of tiles after gluing to mesh.",
+        "tile paste (to glue to backing)",
+        "thinset",
+        "grout (natural gray)",
+        "grout sealer"
+      ],
+      "materials_pics": [
+        {
+          "name": "Tile Mesh",
+          "pic": "meshForSubTiles.png"
+        }
+      ],
+      "phases": [
+        {
+          "pic": "tileStrips.png",
+          "paragraphs": [{
+            "text": "To make sure my tiles were inline, I used spacers and a t-square (with a ruler) to set and glue tiles on sheets of mosaic mesh (in a tessellating pattern where the end of one row of tiles was offset by 50% from the previous and following row). Pro-tip Gluing tiles is actually a pretty relaxing activity to keep your hands busy while you're streaming your favorite whatever."
+          }]
+        },{
+          "pic": "tilesHighlights.png",
+          "paragraphs": [
+            {
+              "text": "Following the manufacture's instructions to get ratio of dry thinset to water, I used my hand to mix the water with the thinset in a 5 gallon bucket (and then got a new glove when I was done. A drill with a mixing attachment also works well as long as you keep the drill attachment clean). After troweling thin set over a small section, I placed preset sheets of tiles on the wall (such that one sheet interlocked with the next, checking to keep them level across the wall before starting another row on top)."
+            }
+          ]
+        },{
+          "pic": "subBath3.png",
+          "paragraphs": [
+            {
+              "text": "I left any areas where tiles needed to be cut for edges, corners, etc open until I had set all the full mesh tile sections I could and then came back and measured and cut tiles to fill in the gaps."
+            }
+          ]
+        },{
+          "pic": "subBath4.png",
+          "paragraphs": [
+            {
+              "text": "Once all the tiles were cut and set, I grouted. Note- do not mix too much grout at once especially in a hot room. It gets hard to work with fast."
+            }
+          ]
+        },{
+          "pic": "subsDone.png",
+          "paragraphs": [
+            {
+              "text": "A few days after finishing each room, I sealed all the grout."
+
+            }
+          ]
+        }
+      ]
+    },
+  {
+    "name":  "Dealing with Ceilings",
+    "pub_date": "9/20/24",
+    "header_pic": "cielStart.png",
+    "featured": false,
+    "categories": ["construction", "finishing work"],
+    "about": "Thermal expansion being what it is, drywall ceilings don't seem to do well in Arizona, so Arthur and I did a couple of 'surprise upgrades' to the patio ceiling at our house in Mesa (where we now have a two-tone exposed beam ceiling) and the front patio of my rental house in Tempe (which now has a tongue and groove wood ceiling). In addition to those unaticipated upgrades, we also finished the ceiling in the main room of the new 'additional dwelling unit' at my rental property by installing a 'ship lap' ceiling.",
+    "tools": [
+      "FOR TWO-TONE EXPOSED BEAM CEILING",
+      "pry-bar",
+      "hammer with nail puller",
+      "electric sander",
+      "electric miter saw",
+      "FOR WOOD PLANK CEILING",
+      "drill -with circular bit large enough to drill out for lights (if necessary)",
+      "air-compressor with nail gun attachment",
+      "'punch' to tap in any nails that don't go all the way",
+      "a vehicle long enough to transport ceiling boards"
+    ],
+    "materials": [
+      "n-95 masks (wear when demoing sanding, and painting the ceiling)",
+      "gloves",
+      "sand paper",
+      "paint, deck sealer or urethane",
+      "paint rollers",
+      "blue tape or edger (for paint/ stain)",
+      "finishing nails",
+      "tongue-and-groove or ship-lap wood planks",
+      "quarter round or other finishing wood"
+    ],
+    "slides_only": true,
+    "phases": [
+      {
+        "pic": "tempPatDon.png",
+        "paragraphs": [
+          {
+            "h4": true,
+            "text": "The first ceiling to crack was the front patio of my original rental house."
+          },
+          {
+            "text": "When we started to pull down the cracked drywall (with a pry bar), we were surprised to find that the front patio shared the same attic as the house, so a bunch of insulation came down during the demo phase."
+          },
+          {
+            "text": "Once we got it cleaned up, we found that if we cut our 10 ft by 6 in boards in half, we could basically just lay them from the frame of the house across to the frame of the patio, so we cleaned and sanded the frames and glued each, then nailed each board in place (with an air compressor-powered nail gun and 18 gauge nails), snugging one into the next and pre-drilling for lights (and wiring the lights up) as we went along. (Note - Arthur is good with electricity, so it was easy enough for him to disconnect and reconnect the lights while we worked, but I myself, wouldn't attempt the lights alone)."
+          },
+          {
+            "text": "Once all the ceiling boards were grooved together, we framed the ceiling from the bottom with pine baseboards. which we nailed in place (same nails and gun as used for the ceiling boards)"
+          },
+          {
+            "text": "To protect the wood, I applied three coats of Deck Sealer with a paint roller."
+          }
+        ]
+      },{
+        "pic": "tempCeilStart.png",
+        "paragraphs": [
+          {
+            "h4": true,
+            "text": "Shortly after we finished the patio of my original rental unit, it was our turn to borrow my contractor's scaffolding in my second rental house and finish the new ceiling."
+          },{
+            "text": "My contractor advised us to use 12 ft x 8 in ship lap boards pinned to the ceiling joists with 18 gauge nails. Ship lap had a very similar look to tongue and groove, but was actually much cheaper and easier to work with (except for the fact that we were working with much longer heavier boards when we did ship lap). My contractor also recommended that we randomly vary the length of the starting board in each row use 'quarter round' to finish the edges, so that's what we did."
+          }
+        ]
+      },{
+        "pic": "tempCeilArt.png",
+        "paragraphs": [
+          {
+            "text": "Since this ceiling was much larger than the patio, we couldn't just lay the beams across a frame, for most of the boards, I had to walk up a ladder with one end of a board while Arthur climbed up the scaffolding and we both had to awkwardly hold it in place handing the nail gun back and forth until it was held in place. PRO TIP - All boards must be cut such that they start and end at a ceiling joist (otheriwse the ends will droop)!"
+          }
+        ]
+      },{
+        "pic": "tempeCeilSealed.png",
+        "paragraphs": [
+          {
+            "text": "I brushed on two coats of polyurethane to protect the wood."
+          }
+        ]
+      },{
+        "pic": "mesaRoof3.png",
+        "paragraphs": [
+          {
+            "h4": true,
+            "text": "A couple summers after the tempe drywall ceiling cracked, the ceiling of our house in mesa cracked... and fell"
+          },{
+            "text": "So my friend and I grabbed hammers and crow bars and ripped the rest of the drywall and nails down."
+          },{
+            "text": "I sanded each ceiling joist with an electric sander --and n95 mask was really important here because there was mold and mildew on some beams."
+          }
+        ]
+      },{
+        "pic": "mesaCielDone.png",
+        "paragraphs": [
+          {
+            "text": "I decided to paint the beams brown to match the trim of our house and the underside of the roof planks white, to give a cottagey two-tone effect."
+          }
+        ]
+      }
+    ]
+  },
+    {
+      "name": "Wood Tile Floors",
+      "pub_date": "9/27/24",
+      "header_pic": "tilingdirty.png",
+      "about": "Wear your grubbies, tiling is messy business!",
+      "featured": false,
+      "categories": ["construction"],
+      "tools": [
+        "5 gallon buckets for mixing and sponging (at least 2)",
+        "trowel (for thinset)",
+        "float (for grouting)",
+        "sponges",
+        "t-square (with ruler)",
+        "tape measure",
+        "drill with mixing attachment  (or extra gloves for hand mixing)",
+        "something to measure water (to hydrate thinset and grout)",
+        "flathead screw driver to clean grout lines",
+        "tile saw (preferably electric wet saw)",
+        "shop vac (to keep things tidy as you go)",
+        "dust clothes to wipe down when done with thinset / grout phases"
+      ],
+      "materials": [
+        "n95 mask (wear when mixing thinset and grout)",
+        "disposable gloves (lots)",
+        "wood-style floor tiles (Glenwood Cherry 7 in. x 20 in. Ceramic Floor and Wall Tile)",
+        "tile spacers (3/8 inch)",
+        "thin set",
+        "grout (coffee bean color)",
+        "grout sealer"
+      ],
+      "phases": [
+        {
+          "pic": "startingLiv.png",
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "Getting Started"
+            },
+            {
+              "text": "Before mixing the thinset, I did a test layout of the first few tiles of the the first three rows in each room, starting with the first tile in the corner nearest the door (and flowing in the direction you walk after entering the door). To determine the placement of the first tile in the second row, I measured 50% of the length of the tile + half the width of the grout spacer (10.1875 inches total in my case). I used a t-square to line the start of the third row up with the corner tile. And then I went back to the first row and across again, setting tile spacers around the borders of each tile as I went along. "
+            },{
+              "text": "Once I was happy with the start of my first rows, I followed the manufacture's instructions to get the ratio of dry thinset to water and I used my hand to mix them in a 5 gallon bucket (then got a new glove when I was done). A drill with a mixing attachment also works well as long as you keep the drill attachment clean."
+            }
+          ]
+        },{
+          "pic": "startingBed.png",
+
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "setting tiles"
+            },
+            {
+              "text": "When the thinset was ready, I picked up one tile at a time, starting in the corner, and using a thinset-trowel, I spread thinset directly on to the back of each tile before carefully setting it back into place. I found it easiest to keep my rows straight when I went three at a time, always keeping my first row half a tile ahead of the next row until the end of the row, and then I would start three rows coming back from the opposite wall. Since there is a limited time to work with the thinset (before it hardens), I left the partial tile spaces open (at the end of every other row), deciding to do all the cutting and setting of partial tiles after all the full tiles were set."
+            }
+
+          ]
+        },{
+          "pic": "grouty.png",
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "grouting"
+            },
+            {
+              "text": "When I did our bedroom, I decided to grout half the room at a time (so I could move furniture onto the bare section while I tiled half the room and then move the furniture onto the grouted tiles before starting the second half of the room.) Grouting was rougher on my hands than thinsetting, so when I did the living room, I decided to just move furniture around as I went and grout after all the tiles for the whole room were set (before destroying my fingertips and cuticles with grout)."
+            }
+          ]
+        },{
+          "pic": "dogDone.png",
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "Sealing grout"
+            },
+            {
+              "text": "After waiting the recommended time for the grout to cure, I sponged on two coats of grout sealer along all grout lines."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Built-in Storage Bench",
+      "pub_date": "10/4/24",
+      "header_pic": "sBenchDone.png",
+      "about": "We needed some extra long term storage and also more seating at our dining table, so installing a storage bench/ window seat in our Bay Window was a quick, easy solution!",
+      "featured": false,
+      "categories": ["construction", "storage"],
+      "tools": [
+        "tape measure",
+        "pencil",
+        "electric miter saw (that can pivot to cut a beveled angle)",
+        "level",
+        "drill",
+        "pocket hole drill kit",
+        "circular saw or table saw",
+        "nail gun"
+      ],
+      "tool_pics": [
+        {
+          "name": "Pocket Hole Drill Kit",
+          "pic": "pocketHoleDrillKit.png"
+        }
+      ],
+      "materials": [
+        "pine 2x4s",
+        "1-2 sheets of plywood",
+        "trim wood",
+        "wood glue",
+        "hinges",
+        "3 inch pocket screws",
+        "3 inch deck or construction screws",
+        "16 gauge finishing nails",
+        "paint"
+      ],
+      "phases": [
+        {
+          "pic": "kitchenWindowStart.png",
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "Measure Space and Build Frame"
+            },
+            {
+              "text": "We used an electric miter saw to cut 2 x4s to frame the bench, leaving the bottom front portion of the frame floating (because we didn’t want to measure the floor). For the back of the frame, to create a shelf for the back of the bench top, we mounted beveled 2x4s flush against the wall, (using a level to check they were flat, before) drilling into the wood that frames the window –this required us to pivot the blade of my saw and do a bevel cut on the end of the frame pieces."
+            },
+            {
+              "h4": true,
+              "text": "Note - To measure the angles (for the non-square) walls below our window, you can use a protractor or digital angle finder if you have one or you can use a tape measure, (an AI) and trigonometry to calculate the angles."
+            }
+          ]
+        },{
+          "pic": "sBenchFrame.png",
+
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "Build Supports For The Bench"
+            },
+            {
+              "text": "We used wood glue and a pocket hole drilling kit to make four 90 degree braces that we mounted with pocket screws to the bottom and back frame (these braces now hold the front frame board in place)."
+            }
+
+          ]
+        },{
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "Cut And Attach Plywood For Bench Top and Front"
+            },
+            {
+              "text": "Using a circular saw, we cut plywood into two triangles (for the sides of the top besides the hinged lid), a narrow rectangle to mount against the back of the storage bench –where the backside of the hinges mount and a larger rectangle for the portion of the benchtop that lifts to access storage. Using wood glue and an air-compressor with a finishing nail gun, we attached the front of the storage bench, the two side triangles and the small back rectangle to the wood frame with 16 gauge nails."
+            }
+          ]
+        },{
+          "pic": "sBenchPainted.png",
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "Attach finishing wood and Paint"
+            },
+            {
+              "text": "We had left over quarter round trim form another project, so we used quarter round on the top of the bench to cover up nails etc. We didn’t have enough quarter round to do the front, so I used an L-shaped finishing wood I had from a different project to trim the front of the bench. (It would have been better off with ‘quarter round’ though because I’m always stepping on the bottom of the L when I open or close the blinds behind the bench now)."
+            },
+            {
+              "text": "Note - We painted before we attached the hinges to save from getting paint all over the hinges.\n"
+            }
+          ]
+        },{
+          "pic": "sBenchOpen.png",
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "Attach Hinges"
+            },
+            {
+              "text": "We bought the longest hinges we could find to give as much support as possible for the heavy plywood lid of the bench. It’s been holding up well for several years now"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pipe Furniture",
+      "pub_date": "10/11/24",
+      "header_pic": "pipeFurnitureDone.png",
+      "about": "I knew I wanted to use iron pipes to do open shelves in my new rental unit, so I bought a lot of pipes and had plenty left over to make some fun furniture pieces for our house too",
+      "featured": false,
+      "categories": ["furniture"],
+      "tools": [
+        "pipe wrench",
+        "level"
+      ],
+      "materials": [
+        "pipes",
+        "painters tape",
+        "wood (for shelves/table tops)",
+        "pipe brackets (to mount wood)",
+        "stain (for wood)",
+        "clear rus-o-leum or similar to prevent pipes rusting",
+        "2-part epoxy (to glue pipe joints)",
+        "mixing vessels (e.g. cups) for epoxy",
+        "stirring stick for epoxy",
+        "construction screws (if mounting to a floor or wall)"
+      ],
+      "phases": [
+        {
+          "pic": "pipeFurn1.png",
+          "paragraphs": [
+            {"text": "Planning",
+              "h4": true
+            },
+            {
+              "text": "I didn't start with any particular plan for any of the pipe furniture I built. I basically just looked (online) at what other people were doing with them and tried to copy other folks designs for the most part, but I modified things a bit to fit my space and needs."
+            },{
+              "text": "For joints where three or four pipes meet, I found having a 1 or 2 inch pipe was helpful to enable me to let a thread or two out on one side or another to make things symmetrical."
+            }
+          ]
+        },{
+          "pic": "pipeFurn2.png",
+          "paragraphs": [
+            {"text": "Rough Assembly",
+              "h4": true
+            },
+            {
+              "text": "Once you have an idea of your design, assemble it in 'one-dimensional chunks' "
+            },
+            {
+              "text": "It's important not to over tighten anything until you're certain you have finalized your design... keep a pipe wrench handy in case you do over-tighten though."
+            }
+          ]
+        },{
+          "pic": "pipeFurnitureDone.png",
+          "paragraphs": [
+            {"text": "Finishing",
+              "h4": true
+            },
+            {
+              "text": "I sprayed all of the furniture with a coat of clear rustoleum after I assembled them"
+            },
+            {
+              "text": "For one of my free-standing pieces where I was worried about loose joints, I used a two-part epoxy resin to hold the joints together -- once I had a rough assembly I was happy with, I unscrewed each pipe from each joint, dipped it in epoxy and screwed it back in place, the epoxy has been holding for a few years. The rest of my freestanding pieces are just screwed together and coated with rustoleum."
+            },
+            {
+              "text": "For the open-face kitchen cabinets, I used a flange to attach the shelves to the wall. (We had thought about putting some type of gasket between the tile wall and the flange, but we ended up just drilling through the tile and mounting without any protective backing and has been holding up fine for three years now)"
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Concreting Over Corian or Laminate Counter Tops",
+      "pub_date": "10/25/24",
+      "header_pic": "kitchenAB.png",
+      "about": "Four years ago, I re-did our bathroom (Corian) counters and sink this way and they've been holding up great so I decided to give it a try in the kitchen too",
+      "featured": false,
+      "categories": ["finishing work"],
+      "tools": [
+        "Paint Can Opener or Screw Driver (To Pry Lids Off Sealer)",
+        "electric drill",
+        "drill bit with stirer (optional)",
+        "drill bit with wire brush (optional)",
+        "electric sander (optional)",
+        "microfiber dust clothes",
+        "finishing trowel (metal trowel with smooth edges)"
+      ],
+      "materials": [
+        "N95 masks",
+        "Disposable painters gloves",
+        "Sandpaper (80 grit, 150-180 grit and 220-240 grit)",
+        "Paint rollers (dense foam rollers for cabinets)",
+        "Underlayment Floor Patch (I used Henry Feather Finish 549)",
+        "2-part Food Grade Countertop Sealer (I used Matte Finish Surecrete 327)",
+        "Lots of mixing vessels (e.g. four 1/2 - 1 gallon buckets for floor patch and 8-10 plastic cups for sealer )",
+        "Stirring sticks (if you aren't using a drill attachment to stir)"
+      ],
+      "phases": [
+        {
+          "pic": "kitchStart.png",
+          "paragraphs": [
+            {
+              "text": "               .",
+              "h4": true
+            },{
+              "text": "               .",
+              "h4": true
+            },{
+              "text": "               .",
+              "h4": true
+            },{
+              "text": "               .",
+              "h4": true
+            },{
+              "text": "               .",
+              "h4": true
+            },{
+              "text": "               .",
+              "h4": true
+            },
+          {
+            "text": "Prep -",
+              "h4": true
+            },
+            {
+              "text": "ALWAYS WEAR A MASK WHEN SANDING!"
+            },{
+              "text": "Using an electric sander --starting with 80 grit --or an electric drill with a wire brush attached, scuff up the surface you will be concreting over."
+            },{
+              "text": "Wipe dust off from initial sanding and then re-sand with a finer grit (150 -180 grit)."
+            }
+          ]
+        },{
+          "pic": "kitchencoat1B.png",
+          "right_side_pic": true,
+          "paragraphs": [
+            {"text": "Apply Concrete Underlayment",
+              "h4": true
+            },
+            {
+              "text": "ALWAYS WEAR A MASK WHEN MIXING CONCRETE!"
+            },
+            {
+              "text": "Follow manufactures' instructions for mixing (it dries fast so start with a small amount)"
+            },
+            {
+              "text": "Using a finishing trowel, smooth a very thin layer of concrete underlayment across the surface of the counter (its okay if the counter still shows through in spots)"
+            },
+            {
+              "text": "Wait for initial coat to dry and then apply a second thin coat and then a third thin coat of underlayment"
+            },
+            {
+              "text": "When the third coat of underlayment is dry, gently sand the surface with 220-240 grit sandpaper and then wipe down with a microfiber cloth"
+            }
+          ]
+        },{
+          "pic": "kitchenCoatedB.png",
+          "paragraphs": [
+            {"text": "Seal Countertop",
+              "h4": true
+            },
+            {
+              "text": "PRO TIP - Keep at lease 1 extra roller dry and handy to back-roll and absorb excess sealer in any areas where the it's pooling up"
+            },
+            {
+              "text": "Follow manufacturors instructions to dilute and mix the countertop sealer"
+            },
+            {
+              "text": "Using a dense foam roller, liberally apply the first (primer) coat of the sealer. The counter will soak up a lot during this first application and it will seep down into the counter, so try to apply sealer evenly and don't roll to fast or the sealer will splatter and splashes may show through at the end."
+            },
+            {
+              "text": "Let the first coat dry and use a fresh roller to roll on the next coat of sealer. Let that coat dry and then apply the final coat(note -the counter will absorb much less of the sealer for the second coat and very little will get absorbed for the last coat)."
+            }
+
+          ]
+        },{
+          "pic": "kitchenDone2.png",
+          "paragraphs": [
+            {"text": "Wait for the sealer to dry and voilà",
+              "h4": true
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Converting Mini Bike From Gas To Electric",
+      "header_pic": "minibikedone.png",
+      "pub_date": "11/8/24",
+      "categories": ["Vehicles"],
+      "about": "More Zooms With Less Fumes",
+      "tools": [
+        "Electric Drill",
+        "Metal Drill Bit (3/8 inch)",
+        "Socket Set",
+        "Volt Meter",
+        "Square",
+        "Sharpie Pen",
+        "Chain Breaker (Amazon's Choice)",
+        "Channel locks"
+      ],
+      "materials": [
+        "Coleman CC 100 X Mini Bike",
+        "Electric Conversion Kit (48V 1000 W Brushed DC Motor With Gas Accelerator Throttle & Ignition Lock)",
+        "Sprocket for Back Wheel of Bike (65 tooth rear sprocket for Coleman CT100)",
+        "Lithium Battery (48 volt 12,000 mAH)",
+        "Blue Loctite",
+        "JB Quick",
+        "1 Pack of Outdoor Use Zip Ties",
+        "8 inches of 1 inch square tubing cut into two 4 inch halves (for engine spacers)",
+        "scrap metal and a hose clamp to make a battery cradle (L bracket and joist mount for 2x6 lumber)",
+        "hose clamps"
+      ],
+      "phases": [
+        {
+          "pic": "",
+          "label": "",
+          "paragraphs": [
+            {
+              "text": "If You've Talked To Arthur In The Last Six Months or So, Then You Probably Know, That I Stored His Gas-Powered Mini Bike Upside Down When I Was Trying to Get at Something Behind It in The Garage... Anyway, Now It's A Cool Electric Bike, So All's Well That Ends Well"}
+          ]},{
+          "pic": "",
+          "label": "Gather Tools & Materials",
+          "paragraphs": [
+            {
+              "text": "Arthur purchased the Coleman Mini Bike, Electric Conversion Kit, Wheel Sprocket and Lithium Battery and Chain Breaker from Amazon. The rest of the tools and materials can be purchased at Harbor Freight, online or a hardware store."
+            }
+          ]},{
+          "pic": "",
+          "label": "Removing Gas Engine",
+          "vid": "3cnwFuvfkPI",
+          "paragraphs": [
+            {
+              "text": "Using an electric drill with a socket bit, Arthur disconnected the hand throttle and remove the 4 bolts mounting the motor to the frame."
+            }
+          ]},{
+          "vid": "",
+          "label": "Replacing Rear Sprocket",
+          "paragraphs": [
+            {
+              "text": "After removing the existing rear wheel sprocket, Arthur replaced it with a new 65 tooth rear sprocket for Coleman CT100."
+            }
+          ]},{
+          "vid": "1CtRzSbTYzQ",
+          "label": "Positioning Electric Motor",
+          "paragraphs": [
+            {
+              "text": "After lining up the front and rear wheel sprockets, Arthur positioned the electric motor as far forward on the frame as possible."
+            },
+            {
+              "text": "Using a Sharpie, Arthur marked dots on the bike's chassis where the electric motor would mount."},
+            {
+              "text": "He set the electric motor aside and drilled holes in the chassis (then test fit to make sure it mounted appropriately before detaching it and setting it aside again)."
+            },{
+              "text": "Using the holes he just drilled in the chassis as a template, Arthur marked holes on the square tubing, then drill through the square tubing."
+            },{
+              "text": "He mounted the motor, with the spacers fastened in place between the chassis and the motor."
+            }
+          ]},{
+          "vid": "",
+          "label": "Resizing Chain",
+          "paragraphs": [
+            {
+              "text": "Using a chain-breaker, Arthur cut two links out of the mini bike's chain and then reassembled the chain."
+            }
+          ]},{
+          "vid": "",
+          "label": "Mounting the Throttle to Handlebars",
+          "paragraphs": [
+            {
+              "text": "Using the Alan wrench that comes with the electric motor kit, attach the throttle to the handlebar."
+            }
+          ]},{
+          "vid": "",
+          "label": "Attaching Electric Battery to Frame",
+          "paragraphs": [
+            {
+              "text": "Using a hose clamp, a metal L bracket and a metal bracket for 2x6 inch deck joists, Arthur made a cradle for the electric battery."
+            },
+            {
+              "text": "For the kits that Arthur purchased, he had to change out the battery input connector so that it could plug into the battery (which came with a different type of connector)."
+            },
+            {
+              "text": "Arthur also had to reverse the polarity on the output motor connector (because initially the tires went in reverse when the throttle was throttled)."
+            },
+            {
+              "text": "After testing that everything was working, he mounted the motor controller behind the seat using a hose clamp and used zip ties to tidy the wiring so everything was held tightly in place."
+            }
+          ]},{
+          "vid": "Zdz4dymWvV8",
+          "label": "Let's Go!",
+          "paragraphs": [
+          ]
+        }
+      ]
+    },
+    {
+      "name":  "Arillian Christmas Trees",
+      "pub_date": "11/22/24",
+      "header_pic": "xmasTree1.png",
+      "categories": ["recreation"],
+      "about": "Arthur and I try to keep our tree fresh for the holidays.",
+      "tools": [
+        "various"
+      ],
+      "materials": [
+        "various"
+      ],
+      "materials_pics": [
+      ],
+      "phases": [
+        {
+          "pic": "xmasTree1.png",
+          "paragraphs": [{
+            "text": "When Arthur and I lived (in my now rental house) in Tempe, we made a 'Portal' Christmas tree."
+          },{
+            "text": " Arthur used his electrical engineering skills to wire the bottom half of a pre-lit artificial christmas tree to an overhead light fixture with a hula hoop tacked up around the tree bottom. (Arthur also fed a strip of led lights through the hula hoop and wired it to the ceiling)."
+          },{
+            "text": " We hung a second suspended the top half of the tree using fishing wires so that it butted up against our kitchen wall and we tacked a second hula hoop to the wall around that tree."
+          }]
+        },{
+          "right_side_pic": true,
+          "pic": "xmasTree2.png",
+          "paragraphs": [
+            {
+              "text": "The first year we lived in Mesa, I had gotten a major pay bump after starting my first software development job and renting out my Tempe house, and our front-room had high ceilings, so I bought a huge Christmas Tree."
+            }
+          ]
+        },{
+          "pic": "xmasTree3.png",
+          "paragraphs": [
+            {
+              "text": "I was raised on movies where folks go into a forest and cut down their own tree and bring it home and then a chipmonk or something pops our and reaks havoc, so when I found out you could cut trees down in the forest not too far from our house, I got a pass to cut our own tree..."
+            },{
+              "text": " There weren't too many good trees within the tree-chopping area, so we chose a weird one instead."
+            }
+          ]
+        },{
+          "pic": "xmasTree4.png",
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "I wanted another big tree, but I know those are bad for my carbon footprint, so we decided to just decorate a big ladder instead."
+            }
+          ]
+        },{
+          "pic": "xmasTree5.png",
+          "paragraphs": [
+            {
+              "text": "We bought a welder a few years back and decided a good learning project would be to weld a christmas tree out of scrap metal we had around."
+            }
+          ]
+        },{
+          "pic": "xmasTree6.png",
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "The next year I discovered and fell in love with Topo Chico mineral water and wanted to make that part of the tree, so we decided to weld spoons on to the previous year's metal tree and we strung lighs around the spoons then covered them with chico bottles."
+            }
+          ]
+        },{
+          "pic": "xmasTree7.png",
+          "paragraphs": [
+            {
+              "text": "And then we hung a tree net from the ceiling, attached it to the metal tree, lit the topo chico bottles the same way as before and filled the net with balloons."
+            }
+          ]
+        },{
+          "pic": "xmasTree8.png",
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "Last year was supposed to be a throw back to the portal tree, but it didn't turn out very well. It was supposed to be the bottom and top of a tree coming through opposing ports and colliding , but it sort of just looked like the Anaheim A's logo or something."
+            }
+          ]
+        },{
+          "vid": "YiTMXAvekAQ",
+          "paragraphs": [
+            {
+              "text": "This years tree is still a work in-progress, but it will definitely involve a matchbox car track and hopefully at least 1 loop."
+            }
+          ]
+        }
+      ]
+    }, {
+      "name":  "Rube Goldberg Machine X-mas Tree",
+      "pub_date": "12/6/24",
+      "header_pic": "rgTreeStart.png",
+      "categories": ["recreation"],
+      "about": "We Used Arthur's Sons' Toys to Make a Delightfully Inefficient Mechanism to Turn on Our Tree Lights This Year",
+       "tools": ["various"],
+      "materials": [
+        "various"
+      ],
+      "materials_pics": [
+      ],
+      "phases": [
+        {
+          "pic": "rgTreeStart.png",
+          "paragraphs": [
+            {"text": "First, we used a matchbox car set to make a track through our winter village."}
+          ]
+        },{
+          "right_side_pic": true,
+          "pic": "rgTree2.png",
+          "paragraphs": [
+            {"text": "At the end of the track, the matchbox car runs into a bucket with a string tied to the handle, knocking it off a platform."}
+          ]
+        },{
+          "pic": "rgTree3.png",
+          "paragraphs": [
+            {"text": "When the bucket falls, the string around its handle tugs on the end of a binder clip, where a golf ball is tenuously perched. The golf ball then falls down a duct"}
+          ]
+        },{
+          "pic": "rgTree4.png",
+          "right_side_pic": true,
+          "paragraphs": [
+            {"text": "The ball shoots out the bottom of the duct and runs down a series of ramps down around the tree before rolling down a wrapping paper tube."}
+          ]
+        },{
+          "pic": "rgTree5.png",
+          "paragraphs": [
+            {"text": "The wrapping paper tube is taped to another piece of Matchbox car track which has a mechanism to launch a second matchbox car --which has a fishing line duct taped to its roof. The other end of the line is tied to a release lever for a toy Thomas Train. (Arthur drilled a hole in that lever so we could tie the string securly). When the golf ball rolls down the rolling paper tube and down the matchbox track it triggers the Matchbox car to lurch forward, pulling the train release. The Thomas train then goes around the Christmas tree."}
+          ]
+        },{
+          "pic": "rgTree6.png",
+          "right_side_pic": true,
+          "paragraphs": [
+            {"text": "The train track terminates at a small drop off that dumps the train onto the paddle of a mouse trap. When the train runs off the track onto the paddle, the trap flips another matchbox track mechanism that has a bolt taped to it like a hammer head. The heavy bolt falls onto the switch of a power strip"}
+          ]
+        },{
+          "vid": "G4s1u7HVR2I",
+          "paragraphs": [
+            {
+              "text": "and just like that the Christmas Village and Tree are illuminated!."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Carrom Boards",
+      "pub_date": "12/13/24",
+      "header_pic": "carromdone.png",
+      "about": "A fun game table game to play with friends and family and a great way to use some wood scraps",
+      "categories": ["gift ideas"],
+      "tools": [
+        "circular saw",
+        "electric miter saw"
+      ],
+      "materials": [
+        "1/4 sheet of plywood - cut in half",
+        "scrap wood for various obstacles",
+        "1 ft of closet dowel wood",
+        "framing wood (to go around edges of board)",
+        "colored paint pens",
+        "food coloring",
+        "small dowels to use as cue sticks",
+        "pipes (for table frame)",
+        "varnish"
+      ],
+      "phases": [
+        {
+          "pic": "carromA.png",
+          "paragraphs": [
+            {
+              "text": "When my brother and I were in elementary school, there were carrom boards we loved to play with at recess. I thought it would be fun for him to play those games with my nieces, so I recreated a couple of the boards for my brother's Christmas present last year."},
+            {
+              "text": "There were several different stick and puck games, my favorite ones were a maze and a golf game. I didn't remember exactly how the games were played, so I found images of those games online for inspiration. "
+            }
+          ]
+        },
+        {
+          "pic": "carrom1.png",
+          "paragraphs": [
+            {
+              "text": "I had enough leftover plywood (from another project) to make two 2-sided boards, so I decided to recreate the maze game on one board and the golf game on the other and then make up new games to go on the bottom side of each of those game boards (I made a soccer game on one and, just colored circles inside of circles for the other --thinking my brother and neices could make up their own game rules for that board."
+            }, {
+              "text": "I used iron pipes to make a frame to hold the boards and made sure my board designs left a flat space for the table upper supports to slot in."
+            }
+          ]
+        },
+        {
+          "pic": "carrom2.png",
+          "paragraphs": [
+            {
+              "text": "For the soccer game, I used an electric miter saw to cut small pieces of wood which I dyed with food coloring to represent soccer players."
+            }
+          ]
+        },
+        {
+          "pic": "carrom3.png",
+          "paragraphs": [
+            {
+              "text": "For a grassy effect on the golf course and soccer games, I dyed the board green with food coloring."
+            }
+          ]
+        },
+        {
+          "pic": "carrom6.png",
+          "paragraphs": [
+            {
+              "text": "Then I drew soccer lines on with a white paint pen and ruler (and used the inner circle of a roll of painters tape to trace circles and semi-circles for round features)."
+            }]
+        },
+        {
+          "pic": "carrom7.png",
+          "paragraphs": [
+            {
+              "text": "I glued the dyed wood pieces onto the board with wood glue."
+            }]
+        },
+        {
+          "pic": "carrom8.png",
+          "paragraphs": [
+            {
+              "text": "I added a piece of trim around the edge to allow for bank shots and to keep the wooden game puck from constantly flying off the table."
+            }]},
+        {
+          "pic": "carrom4.png",
+          "paragraphs": [
+            {
+              "text": "For the 'golf course', I glued down cut pieces as obstacles and used paint pens to mark the 'holes' and add additional obstacles. I made wooden pucks by sawing discs off the ends of a closet dowel I had and I died those with food coloring as well."
+            }
+          ]
+        },
+            {
+          "pic": "carrom9.png",
+          "paragraphs": [
+            {
+              "text": "I bought a pack of 1/2 inch x 12 inch white wood pieces from the trim wood section of Home Depot. Using those, I laid out a small laberynth and glued those in place with wood glue. Then I used paint markers to add shoots and ladder style bonuses and traps to the labrynth"
+            }]},
+            {
+          "pic": "carromD1.png",
+          "paragraphs": [
+            {
+              "text": "After I had all the boards painted and wooden features glued, I varnished each board to protect the paint and help the wooden pucks slide easier"
+            }]},
+            {
+          "pic": "carromD2.png",
+          "paragraphs": [
+            {
+              "text": ""
+            }
+          ]
+        }]},
+    {
+      "name": "Resin and Rock Chess Board",
+      "pub_date": "12/20/24",
+      "header_pic": "chessDone.png",
+      "about": "Epoxy is a fun and versatile medium for crafting",
+      "categories": ["gift ideas"],
+      "tools": [
+        "electric miter saw (to cut wood frame pieces)",
+        "gloves",
+        "silicone molds for chess pieces and board (from Amazon)",
+        "stirring stick (to mix epoxy resin)",
+        "mixing vessels (to combine part A and part B of epoxy resin)"
+      ],
+      "materials": [
+        "quarter round wood trim (for framing the board)",
+        "super glue (to glue frame to board)",
+        "A/B Epoxy resin mix",
+        "stain or finish for wood frame",
+        "dark and light gravel, dried flowers, seeds, etc",
+        "toothpicks (for repositioning floating decor)"
+      ],
+      "phases": [
+        {
+          "pic": "chess2.png",
+          "paragraphs": [
+            {
+              "text": "Find a level workspace, lay down a piece of cardboard, plastic or cloth under the chess board mold and begin laying out stones, seeds etc, in each square of the mold, alternating dark and light in a checkerboard fashion."
+            },{
+              "text": "Pro Tip-  About 70-80% of the board should be epoxy, so don't layer materials too thick inside the mold."
+            }
+          ]
+        },
+        {
+          "pic": "chess2b.png",
+          "paragraphs": [
+            {
+              "text": "When you are satisfied with the board layout, follow instructions on epoxy resin kit to make about 1 cup of resin for the chess board. When fully mixed and activated, pour resin over the gravel etc in your board frame"
+            },
+            {"text":   "Pro-tip: keep a tooth pick handy to help reposition dried flowers or lighter materials that may float up when you pour the epoxy"}
+          ]
+        },
+        {
+          "pic": "chess4.png",
+          "paragraphs": [
+            {
+              "text": "While the board hardens, begin filling the molds for the chess pieces."
+            },
+            {
+              "text": "Pro Tip - Use small bits of material in the molds for the chess pieces so that the gravel won't choke off epoxy from penetrating all the way throughout the mold and remember should be at least 70-80% Epoxy and only 20-30% gravel."
+            }
+          ]
+        },
+        {
+          "pic": "chessDone.png",
+          "paragraphs": [
+            {
+              "text": "Once the board is fully hardened and no longer tacky, miter cut quarter round and use super glue to glue it in place around the board."
+            }
+          ]
+        }]},
+    {
+      "name": "8ft x 8 ft Paver Patio",
+      "pub_date": "1/10/25",
+      "header_pic": "pavPat4.png",
+      "about": "",
+      "categories": ["construction","farm"],
+      "tools": [
+        "Tape measure",
+        "Wood stakes, rebar or similar",
+        "Rope or twine",
+        "Shovel",
+        "Rake",
+        "Level",
+        "2x4 (to screed sand)",
+        "Tamper or compactor",
+        "Push broom"
+      ],
+      "materials": [
+        "8 1/2 cu ft bags of gravel",
+        "10 1/2 cu ft bags of paver sand",
+        "64 1ft x 1ft x 1.5inch paver stones"
+      ],
+      "phases": [
+        {
+          "pic": "pavPat1.png",
+          "paragraphs": [
+            {
+              "text": "Using a tape measure, stake out a 8.6ft x 8.6ft square. Then run rope or twine around the stakes to mark the perimeter of your patio."
+            }
+          ]
+        },
+        {
+          "pic": "",
+          "paragraphs": [
+            {
+              "text": "Use shovel (or preferred digging tool) to dig your patio area down 2 inches. Use a rake to roughly level the patio area."
+            }
+          ]
+        },
+        {
+          "pic": "pavPat2.png",
+          "paragraphs": [
+            {
+              "text": "Distribute bags of gravel around patio area, break the bags open with a shovel (discard bags) and use a shovel to distribute the gravel around the patio area. Use rake to roughly level the gravel, then tamp down until gravel is evenly pact. Place a straight 2x4 on one edge of the gravel and hold a level on top of it screed the patio with the 2x4 until level."
+            }
+          ]
+        },
+        {
+          "pic": "",
+          "paragraphs": [
+            {
+              "text": "Distribute 8 bags of sand around patio area (reserving 2 bags to use as joint sand), break the bags open with a shovel (discard bags) and use a shovel to distribute the sand around the patio area. Use rake to roughly level the sand, then use a 2x4 (and hold a level on top) to 'screed' the sand."
+            }]},
+        {
+          "pic": "pavPat3.png",
+          "paragraphs": [
+            {
+              "text": "Carefully place the pavers on the screeded sand bedin a grid pattern then use tamp to level the paver stones."
+            }
+          ]
+        },
+        {
+          "pic": "pavPat4.png",
+          "paragraphs": [
+            {
+              "text": "Puncture the remaining sand bags and shake evenly over the top of the tamped pavers the, using a push broom, spread the sand around the paver patio until all paving stones are locked in place."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Desktop Zen Garden (with secret storage spot)",
+      "pub_date": "1/24/25",
+      "header_pic": "sandBoxDone.png",
+      "about": "Cute Gift Idea",
+      "categories": ["gift ideas"],
+      "tools": [
+        "Tape Measure",
+        "Electric Miter Saw or Circular Saw",
+        "Pipe cutter (to cut chop stick)",
+        "Chisel or flathead screwdriver",
+        "hammer",
+        "Wood Glue",
+        "Clamps"
+      ],
+      "materials": [
+        "Quarter Round Trim Wood - To Frame Sand",
+        "Square Dowel (1/2 - 1 inch wide) - For Bottom Feet",
+        "Scrap Wood For Base (shelf wood, plywood etc)",
+        "Sand",
+        "Rocks",
+        "Popsicle Sticks",
+        "Wooden Chop Stick",
+        "Wood BBQ skewer"
+      ],
+      "phases": [
+        {
+          "pic": "sandbox1.png",
+          "paragraphs": [
+            {
+              "text": "Using a Tape Measure and an Electric Miter Saw or Circular Saw, Cut an 8-12 inch square or rectangle for the  base. NOTE - If you are making storage underneath the width of the rectangle should be approx the same as the length of a popsicle stick"
+            },{
+              "text": "Measure each side of the quarter round trim wood to have a slight overhang off edge of the base. Cut ends to meet tightly at a 45 degree angle at each corner. Test fit and re-cut any sides if necessary, then glue the bottom to the base and corner seems together with wood glue and clamp in place until dry."
+            },{
+              "text": "While the top portion is drying, cut off two identical pieces from the square dowel --each should be the same length as the base (or slightly less if you're short on dowel)."
+            }
+          ]},{
+          "pic": "sandBox2.png",
+          "paragraphs": [
+            {
+              "text": "For the 'secret storage compartment' (or greeting card holder), Use a Chisel or Flathead Screw Driver and a Hammer to gouge out slots for the popsicle sticks in the square dowels, (each dowel should have three slots carved out directly across from the opposite base side)."
+            },{
+              "text": "After the glue on the top frame is dry, glue one side of the legs in place, then dip the ends of three popsicle sticks in woodglue and fit into the slots you gouged out."
+            },{
+              "text": "Put glue on both sides of the free end of each popsicle stick, then glue the second leg to the base, while fitting each popsicle stick into place"
+            }
+          ]},{
+          "pic": "sandbox3.png",
+          "paragraphs": [
+            {
+              "text": "To make a Rake For The Garden, use a pipe cutter to cut 1-2 inches off the end off of a Wooden Chop Stick and cut three small dowels off of Wooden BBQ Skewer"
+            },{
+              "text": "To make the broom head, use wood glue to glue the small dowels onto the small portion of the chopstick. When the glue on the broomhead is dry, glue it to the longer end of the chopstick."
+            }
+          ]},{
+          "pic": "sandBoxDone.png",
+          "paragraphs": [
+            {
+              "text": "When the glue on the feet is dry, fill with sand, place a few rocks inside and bing bang boom you're in business!"
+            }
+          ]}
+      ]
+    },
+    {
+      "name": "Growing Artichokes From Seed",
+      "pub_date": "2/7/25",
+      "header_pic": "scoutNchokes.png",
+      "about": "Artichokes are Beautiful Delicious Plants that add Flare to any Backyard Garden",
+      "categories": ["gardening"],
+      "tools": [
+        "Scissors",
+        "Shovel",
+        "Gloves",
+        "Optional - Indoor Grow Light"
+      ],
+      "materials": [
+        "Artichoke Seeds",
+        "LaCroix Box",
+        "Tape",
+        "Soil (enough to fill LaCroix Box + extra for planting)"
+      ],
+      "phases": [
+        {
+          "pic": "choke1.png",
+          "paragraphs": [
+            {
+              "text": "I start my seeds in cut-in-half LaCroix boxes filled with dirt"
+            }
+          ]},
+        {
+          "pic": "choke2.png",
+          "paragraphs": [
+            {
+              "text": "I let a few smaller artichokes go to flower every year 1-because they're pretty and 2-so I can gather some seeds to plant for the next year."
+            }
+          ]},{
+          "pic": "choke3.png",
+          "paragraphs": [
+            {
+              "text": "Arthur used to design agricultural grow lights, so I start spring seeds indoors in late December."
+            }
+          ]},{
+          "pic": "choke4.png",
+          "paragraphs": [
+            {
+              "text": "I also started some seeds outside in late October. (I had to cover them with a blanket a couple times because of frost, but they were ready to go into the ground in early Feb)"
+            }
+          ]},{
+          "pic": "choke5.png",
+          "paragraphs": [
+            {
+              "text": "NOTE - The soil should be dry when you plant your artichoke so that it will not fall away when you move it."
+            },
+            {
+              "text": "When ready to plant, I dig a hole that is a little bit deeper and wider than the plant box"
+            }
+          ]},{
+          "pic": "choke6.png",
+          "paragraphs": [
+            {
+              "text": "After setting the plant box in the hole, I rip away the cardboard and then fill in compost around it, leaving a bit of a trench around the plant for watering."
+            }
+          ]},{
+          "pic": "choke7.png",
+          "paragraphs": [
+            {
+              "text": "Soak the newly planted Artichoke with 1-2 gallons of water. Then water in a similar manner 1-2 times per week thereafter"
+            }
+          ]},{
+          "pic": "choke8.png",
+          "paragraphs": [
+            {
+              "text": "NOTE- soaking the artichoke with a couple gallons of water once a week is better than giving it drip water every day. It helps develop a deep tap root so that the Artichoke plant will re-grow and bloom (like a bulb) for several years."
+            }
+          ]},{
+          "vid": "nU0Z_lkOx40",
+          "label": "Getting All Choked Up!",
+          "paragraphs": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Converting a Tough Shed into a Goat/ Chicken Barn",
+      "pub_date": "2/21/25",
+      "header_pic": "coopFullFront.png",
+      "about": "",
+      "categories": [],
+      "tools": [
+        "Electric Drill",
+        "Sawzall",
+        "Electric Miter Saw",
+        "ladder",
+        "staple gun",
+        "air compressor --if required for staple gun"
+      ],
+      "materials": [
+        "Construction Screws",
+        "washers and/or construction staples",
+        "50ft x 4ft roll of livestock fencing",
+        "wood glue",
+        "wood for shelves (particle board, ply wood, fence boards, shelf boards or whatever is available)",
+        "chicken wire",
+        "trim wood / thin strips of wood - to make chicken ladders",
+        "shallow box - for grit pit",
+        "water bowl",
+        "clip on fan",
+        "cinder blocks (optional)",
+        "wood sealer (optional)"
+      ],
+      "phases": [
+        {
+          "pic": "coopFullFront.png",
+          "paragraphs": [
+            {
+              "text": "The Barnyard",
+              "h4": true
+            },
+            {
+              "text": "Our property already had two tough sheds when we moved in, so I decided to turn one into a barn (and the other into a she-shed). Last year we added a pond in front of the 'barn' so that our chickens could have a place to cool their heels in the summers (when temps can be up to 120F)."
+            },{
+              "text": "Since the sheds were near to the North wall of our property, I only had to enclose two small gaps, run some chicken wire overhead between the sheds and the north and west corner of our property and put in a gate in order to create a secure space for them."
+            }
+          ]},{
+          "pic": "coopOut1.png",
+          "paragraphs": [
+            {
+              "text": "Ice House",
+              "h4": true
+            },{
+              "text": "I set up an 'ice house' in an area that is almost always shaded -- between the She Shed and the Barn. If it's over 100F out, I'll bring a few pint of solid ice and stack it in the back of their little outside house. (I also add a pint of ice to each water bucket twice a day in the summer) "
+            }
+          ]},{
+          "pic": "barnPre.png"
+        },{
+          "pic": "coopInFull.png",
+          "paragraphs": [
+            {
+              "text": "Dividing the Barn",
+              "h4": true
+            },{
+              "text": "Using 3inch construction screws, an electric miter saw and about a dozen 2x4s, I built a frame that lined up exactly with the center of the barn's double doors. (Note- I screwed 1-2 ft sections of scrap 2x4s to the floor in certain places both to brace the verticle beams and also to give me more surface to screw/staple into as I enclosed the inner coop."
+            },{
+              "text": "At about chest height, I put a 4inch ledge across the frame (so that I could store misc)."
+            },{
+              "text": "Once the frame was up, I used fence boards and construction screws (with washers) to pin the livestock taut against the bottom frame (from the goat side) -- For the top part I used chicken wire and staples. Eventually I added chicken wire all around the bottom of the barn because the goats were eating the drywall and young chickens were finding their way out at night."
+            }
+          ]},{
+          "pic": "coopOut2in.png",
+          "paragraphs": [
+            {
+              "text": "In Out Access",
+              "h4": true
+            },{
+              "text": "I Used a Sawzall attachment on our drill to cut a hole in the bottom back corner of the 'barn' and used wood glue and strips of wood (that I cut with an electric miter saw) to make a chicken ladder leading up from the outside chicken enclosure to the chicken coop portion of the barn."
+            },{
+              "text": "I originally cut a hole in the goat-side barn door and installed an insulated doggy door for them and ran an in-wall AC unit, but it turned out that it was better to keep the doors open for better airflow and let the goats and chickens all naturally climatize and just gulp down water all day rather than try to cool the shed."
+            },{
+              "text": "To keep the goats from reeking havok, I set ciner blocks on the chicken coop side of the barn dor and stack them in a way that the goats will topple them (or climb into a water bucket) if they try to get into the chicken side. They learned pretty quickly to stop going in there."
+            }
+          ]},{
+          "pic": "nestegg.png",
+          "paragraphs": [
+            {
+              "text": "Nesting Boxes",
+              "h4": true
+            },{
+              "text": "I set up three nesting boxes, one above the back portal and two under chicken ladders -- the one above the back portal is the most popular."
+            }
+          ]},{
+          "pic": "coopFan.png",
+          "paragraphs": [
+            {
+              "text": "Ventilation",
+              "h4": true
+            },{
+              "text": "All the animals are big FANS of ventilation, so besides keeping the door open, I also use clip on fans (clipped to the rafters or set on the middle shelf) to keep air flowing."
+            }
+          ]},{
+          "pic": "coopIn1.png",
+          "paragraphs": [
+            {
+              "text": "Cooping Upwards",
+              "h4": true
+            },{
+              "text": "I had some left over construction materials and some awkward spaces to try to get the chickens up, so I made a pipe ladder and a broken-ikea-bed-slats ladder for them to get to their top story"
+            }
+          ]},
+       {
+          "vid": "y2myFliCKpA",
+          "label": "Cooping Upwards!",
+          "paragraphs": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "She Shed",
+      "pub_date": "3/7/25",
+      "header_pic": "ssbdone2.png",
+      "about": "A lot of Well-Worth-it work went into this cute lil getaway spot",
+      "categories": ["construction"],
+      "tools": [
+        "Gloves",
+        "Tape Measure",
+        "Level",
+        "Electric Miter Saw",
+        "Electric Drill",
+        "Air compressor with finsihing nail gun",
+        "Steel drywall taping knife",
+        "Drywall mud pan",
+        "painting tarps"
+      ],
+      "materials": [
+        "n95 mask",
+        "Sheets of Drywall",
+        "Drywall screws",
+        "Drywall (seam) tape",
+        "Drywall mud",
+        "Thick fabric",
+        "Rolls of Insulation",
+        "Litestone",
+        "Construction Adhesive",
+        "Trim wood",
+        "Drywall texture",
+        "Paint",
+        "Painting Tarps",
+        "Lattice",
+        "Baseboards",
+        "15 gauge finishing nails",
+        "Linoleum Wood Tiles (for floor)",
+        "Adhesion promoter (for floor tiles)",
+        "Ceiling fan",
+        "10 2x4s",
+        "3 4x4s",
+        "plywood",
+        "3 inch construction screws"
+      ],
+      "phases": [
+        {
+          "pic": "ssb2.png",
+          "paragraphs": [
+            {
+              "text": "Insulation and Drywall and Framing",
+              "h4": true
+            },
+            {
+              "text": "The space that became my she-shack was a 20ft x 10 ft TuffShed that already had electricity hooked up, two large sturdy shelves and an AC unit mounted in the wall before we bought our house."
+            },{
+              "text": "To make the space habitable in the summer, we used a staple gun (attached to an air compressor) to install rolls of insulation in the walls and ceiling (stapling the insulation seems to the 2x6 frame of the shed)."
+            },{
+              "text":"Once the insulation was up, Arthur helped me to install sheets of drywall around the room, using an electric drill to screw the drywall into the shed's studs before using a drywall knife, ''tape and mud to tape the drywall seems throughout the room. Once the seems were taped, we sprayed wall texture and then painted the walls."
+            },{
+              "text": "Note - Mask up and wear gloves when working with insulation!"
+            },{
+              "text": "For the ceiling (to cover the insulation), I stapled curtain liner fabric (that I bought at walmart) across the ceiling (stapling along the ceiling fame)"
+            },{
+              "text": "Using the electric miter saw and a nail gun we mounted baseboards and window frames/ window sills."
+            }
+          ]
+        },{
+          "pic": "ssbdone.png",
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "Mezzanine",
+              "h4": true
+            },
+            {
+              "text": "We mounted three 4x4 posts beside the existing shelves and built an additional platfom (using 2x4s and plywood) which we mounted next to the existing top shelf (anchoring the new platform to the shelf with 3 inch construction screws) and that made a nice little Mezzanie for extra storage and an extra sleeping space if needed."
+            },{
+              "text": "Using 2x4s and some plastic lattice, we made a guard rail/frame for the Mezzanine."
+            }
+          ]
+        },{
+          "pic": "ssbdone2.png",
+          "paragraphs": [
+            {
+              "text": "",
+              "h4": true
+            },
+            {
+              "text": "For the floor I rolled on an adhesion promoter before sticking down linolium wood  tiles"
+            }
+          ]
+        },{
+          "pic": "sswalldone.png",
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "Decorative Stone Wall",
+              "h4": true
+            },
+            {
+              "text": "I added a decorative rock wall. Using 'LiteStone' and construction adhesive."
+        },{
+              "text": " I had to lay out a few rows on the floor before glueing them (so I could distribute the rocks in a sort of controlled random way across the wall). "
+            }
+          ]
+        },
+        {
+          "pic": "sshide.png",
+          "paragraphs": [
+            {
+              "text": "Secret Compartments",
+              "h4": true
+            },
+            {
+              "text": "It was pretty expensive and tedious by the time I was done, but it hosts my favorite feature of the whole room -- the secret compartmants where I hide candy for my nieces when they come to visit."
+            }
+          ]
+        },{
+          "pic": "ssparty2.png",
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "From Tea Parties and Sleep-overs With My Nieces"
+            }
+          ]
+        },{
+          "pic": "ssparty3.png",
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "To Monthly Murder Mystery Parties"
+            }
+          ]
+        },
+        {
+          "pic": "ssparty1.png",
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "h4": true,
+              "text": "The work and sweat I shed to make the she shed has cultivated a lot of fun memories over the years!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rain Gutters w/ Water Collection Barrel",
+      "pub_date": "3/21/25",
+      "featured": true,
+      "header_pic": "rbarrel.png",
+      "about": "Don't let all your spring rain go down the drain",
+      "categories": ["construction","gardening"],
+      "tools": [
+        "Gloves",
+        "Tape measure",
+        "Level",
+        "Chalk line",
+        "Drill",
+        "Pencil or marker",
+        "Caulk Gun",
+        "Ladder",
+        "Gloves",
+        "Electric drill",
+        "Construction scissors or a sharp knife"
+      ],
+      "materials": [
+        "Gutter troughs",
+        "Gutter Mounting Clamps",
+        "Gutter End Caps",
+        "Gutter Outlet Tubes (for downspouts)",
+        "Gutter Elbows (for corners)",
+        "Gutter downspouts",
+        "Construction Screws",
+        "Rain gutter caulk",
+        "Outdoor Rubber Trashcan with Lid",
+        "Mosquito Fish (optional)"
+      ],
+      "phases": [
+        {
+          "pic": "",
+          "paragraphs": [
+            {
+              "text": "Planning and Measurement",
+              "h4": true
+            },
+            {
+              "text": "Determine Downspout Locations: Decide where you want your downspouts to be. This will influence the slope of your gutters."
+            },{
+              "text": "Measure the Length: Measure the length of the fascia board where you'll be installing the gutters."
+            },{
+              "text": "Calculate Slope: Gutters need a slight slope (about 1/4 inch per 10 feet) to direct water towards the downspouts."
+            }
+          ]
+        },{
+          "pic": "",
+          "paragraphs": [
+            {
+              "text": "Mark High and Low Points:",
+              "h4": true
+            },
+            {
+              "text": "Start at the highest point (usually the opposite end from the downspout)."
+            },{
+              "text": "Measure down the appropriate slope for the length of the gutter run."
+            },{
+              "text": "Mark the low point (where the downspout outlet will be)."
+            },{
+              "text": "Snap a chalk line between the high and low points you marked on the fascia board. (This will give you a straight line to guide where you should mount gutter brackets)"
+            }
+          ]
+        },{
+          "pic": "",
+          "paragraphs": [
+            {
+              "text": "Mark Gutter Bracket Locations",
+              "h4": true
+            },
+            {
+              "text": "Mark gutter brackets locations along the gutter run: spaced approximately 24 inches apart and at each end of the gutters."
+            }
+          ]
+        },{
+          "pic": "gbend.png",
+          "paragraphs": [
+            {
+              "text": "Installing the Brackets",
+              "h4": true
+            },
+            {
+              "text": "Drill pilot holes at the marked bracket locations (This will prevent the fascia board from splitting)"
+            },
+            {
+              "text": "Ensure the brackets are level and properly aligned as you go, secure the brackets to the fascia board using screws (or gutter nails)"
+            }
+          ]
+        },{
+          "pic": "gutA.png",
+          "paragraphs": [
+            {
+              "text": "Assembling the Gutters",
+              "h4": true
+            },
+            {
+              "text": "Being careful to make clean, straight cuts, cut the gutters to the correct length using a hacksaw or tin snips"
+            },
+            {
+              "text": "Apply rain gutter sealant to the inside of the end caps and attach the end caps to the ends of the gutters"
+            },{
+              "text": "Cut a hole in the gutter at the downspout location and apply sealant to the outlet tube and attach it to the gutter"
+            }
+          ]
+        },{
+          "pic": "gut1.png",
+          "paragraphs": [
+            {
+              "text": "Mounting the Gutters",
+              "h4": true
+            },
+            {
+              "text": "Carefully place the gutters onto the installed brackets, ensure they are securely seated and aligned with the chalk line."
+            },{
+              "text": "Use screws or rivets, secure the gutters to the brackets. (Follow the manufacturer's instructions for your specific gutter system)"
+            },{
+              "text": "If your gutter run has corners, assemble the corner pieces using the rain gutter sealant, and then attach them to the straight gutter pieces."
+            }
+          ]
+        },{
+          "pic": "rbarrel.png",
+          "paragraphs": [
+            {
+              "text": "Installing Downspouts",
+              "h4": true
+            },
+            {
+              "text": "Set a rubber trash can below each downspout location."
+            },{
+              "text": "Secure the downspouts to the house using downspout straps or brackets and terminate the downspout in the can to catch runoff water."
+            }
+          ]
+        },{
+          "pic": "gutT.png",
+          "paragraphs": [
+            {
+              "text": "Seal All Joints",
+              "h4": true
+            },
+            {
+              "text": "Apply rain gutter sealant to all joints and seams to prevent leaks."
+            },{
+              "text": "Pour water into the gutters to test for leaks and ensure proper drainage. Make any necessary adjustments."
+            }
+          ]
+        },{
+          "label": "Mosquito Fish are Friends",
+          "vid": "abmrpxilJ5c",
+          "paragraphs": [
+            {
+              "text": "Add Mosquito Fish to Filled Catchment Barrels",
+              "h4": true
+            },
+            {
+              "text": "When the barrels are full, you can add mosquito fish to control mosquito larva (Note- You should have a pond or tank to store fish in when the barrels are not full so you can move them back and forth as needed during teh rainy season."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cultivating Culinary Artichokes",
+      "pub_date": "4/4/25",
+      "header_pic": "achokebundle.png",
+      "about": "Harness some Farmyard Flower Power",
+      "categories": ["gardening"],
+      "tools": [
+        "Gloves",
+        "Serrated knife",
+        "Garden Scissors"
+      ],
+      "materials": [
+      ],
+      "phases": [{
+        "vid": "nU0Z_lkOx40",
+        "paragraphs": [
+          {
+            "text": "Artichokes the Gift that Keeps Giving",
+            "h4": true
+          },
+          {
+            "text": "Artichokes are sun-bathing beauties, so after the last winter frost, find a spot for seeds or young plants that gets at least 6-8 hours of direct sunshine."
+          },
+          {
+            "text": "NOTE - nobody likes wimpy soggy roots, so mix a nutrient-rich compost or fertilizer into the soil and ensure there is good drainage!"
+          },
+          {
+            "text": "Healthy artichoke plants will establish a taproot that can regrow for six or more years. To develop those healthy roots, start regularly fertilizing and watering the previous year’s artichokes (as well as your new ones) from late winter through mid-late summer."
+          },{
+            "text": "Less frequent, deep watering helps develop the strong taproot artichokes need to pull through. Our punishing Arizona summers make our chokes thirsty, so I flood them with several gallons of water every 2-3 days in the summer, but in the winter and spring here (and all the time when I lived in CA), I flood them once a week."
+          },{
+            "text": "To encourage fresh growth and big blooms, there’ll be some tidying up to do in mid spring. Carefully rip away (or use garden scissors to snip away) any dead or damaged leaves and stems."
+          },{
+            "text": "NOTE - Artichoke flowers are thorny, so you’ll want to glove up!"
+          }
+        ]
+      },{
+        "pic": "achokey.png",
+        "paragraphs": [
+          {
+            "text": "Cultivating Chokes Big Enough to Scrape Flower Meat with Your Teeth",
+            "h4": true
+          },
+          {
+            "text": "If you get choked up at the thought of those hefty-hearted chokes – the kind where you really get to feel the joy of scraping the flower meat off each petal – then this method is for you!"
+          },
+          {
+            "text": "In early spring you have to get cutthroat; cull the weak! Snip off small side branches, leaving only the strongest, most promising few. If little artichokes crowd bigger buds, cut ‘em. The fewer buds there are to soak up the goodness, the better the few buds will be."
+          },{
+            "text": "Timing your harvest(s) is crucial! If you let flowers start to open, the petals may be too tough to eat, but if you want a big artichoke, you must also resist the urge to harvest too soon. When timed right though, your teeth will be gloriously gliding through plump flower meat for days."
+          }
+        ]
+      },{
+          "pic": "smallchoke.png",
+        "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "When More is More:",
+              "h4": true
+            },
+            {
+              "text": "Want a bumper crop of those adorable, tender little artichokes perfect for pickling or adding whole to your favorite pasta, salad, pasta salad, or maybe even a flower bouquet?"
+            },{
+              "text": "Harvest the main, central artichoke first. Then Harvest side shoots when they are still tight and firm, about 2-3 inches in diameter."
+            },{
+              "text": "NOTE -Cut the stems about 2 inches below the artichoke."
+            }
+          ]
+        },{
+          "label": "",
+          "vid": "Ug6_yLQvA0E",
+          "paragraphs": [
+            {
+              "text": "Aim for the table and you may end up with a pocket full of seeds",
+              "h4": true
+            },{
+              "text": "There’s really no way to fail with artichokes – even if you don’t get to them before they start to open, you end up with vibrant, beautiful flowers in your yard!"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "(Sort of) Making a Straw Hat/ Easter Basket ¯\\_(ツ)_/¯",
       "pub_date": "4/18/25",
-      "header_pic": "arfarmlogo.png",
+      "header_pic": "ebasketdone.png",
       "about": "Go Against the Grain with Straw Crafting",
       "categories": ["gardening", "straw"],
       "tools": [
@@ -101,7 +2024,7 @@
         "Twine (From Hay Bales)"
       ],
       "phases": [{
-        "pic": "arfarmlogo.png",
+        "pic": "ebasketcut.png",
         "paragraphs": [
           {
             "text": "Growing and Harvesting Straw Craft Supplies",
@@ -119,7 +2042,7 @@
           }
         ]
       },{
-        "pic": "arfarmlogo.png",
+        "pic": "ebasketsoak.png",
         "right_side_pic": true,
         "paragraphs": [
           {
@@ -127,14 +2050,14 @@
           }
         ]
       },{
-        "pic": "arfarmlogo.png",
+        "pic": "ebasketwrap.png",
         "paragraphs": [
-          {
-            "text": "After it's bath, I wrapped my straw in a damp towel, pulling only a few strands out at a time -- to keep it from drying out while I worked with it."
-          }
+        {
+          "text": "After it's bath, I wrapped my straw in a damp towel, pulling only a few strands out at a time -- to keep it from drying out while I worked with it."
+        }
         ]
       },{
-        "pic": "arfarmlogo.png",
+        "pic": "ebasketbraid.png",
         "right_side_pic": true,
         "paragraphs": [
           {
@@ -146,77 +2069,104 @@
           }
         ]
       },{
-        "pic": "arfarmlogo.png",
-        "paragraphs": [
-          {
-            "text": "Frame Job",
-            "h4": true
-          },
-          {
-            "text": "Once I had several straw ropes, I started to make the base of my hat by tying two long, loose pieces of straw together to make an X shape. I then started weaving the braids over-under around the X until I had... something."
-          },{
-            "text": "After a few hours of struggling with my straw, I decided to just get creative and have fun with the process, so I ditched Gemini and went rogue!"
-          }
-        ]
-      },{
-        "pic": "arfarmlogo.png",
-        "right_side_pic": true,
-        "paragraphs": [
-          {
-            "text": "I knew I would need to make the brim jut out from the head part of the hat, so I started weaving straw ropes through the 'base' that I'd formed at the top of the hat."
-          }
-        ]
-      },{
-        "pic": "arfarmlogo.png",
-        "paragraphs": [
-          {
-            "text": "After some more random braiding and weaving, what I ended up with was almost certainly not a hat. Arthur thought it looked like a basket from a history museum..."
+          "pic": "ebasketframe.png",
+          "paragraphs": [
+            {
+              "text": "Frame Job",
+              "h4": true
+            },
+            {
+              "text": "Once I had several straw ropes, I started to make the base of my hat by tying two long, loose pieces of straw together to make an X shape. I then started weaving the braids over-under around the X until I had... something."
+            },{
+              "text": "After a few hours of struggling with my straw, I decided to just get creative and have fun with the process, so I ditched Gemini and went rogue!"
+            }
+          ]
+        },{
+          "pic": "ebasketshape.png",
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "I knew I would need to make the brim jut out from the head part of the hat, so I started weaving straw ropes through the 'base' that I'd formed at the top of the hat."
+            }
+          ]
+        },{
+          "pic": "ebaskethatfail2.png",
+          "paragraphs": [
+            {
+              "text": "After some more random braiding and weaving, what I ended up with was almost certainly not a hat. Arthur thought it looked like a basket from a history museum..."
 
-          },
-          {
-            "text": "So I decided to Pivot From a Hat to an Easter Basket",
-            "h4": true
-          },{
-            "text": "Easter's coming up, so it almost felt like kismet."
-          }
-        ]
-      },{
-        "pic": "arfarmlogo.png",
-        "right_side_pic": true,
-        "paragraphs": [
-          {
-            "text": "I grabbed some baling twine (that I'd saved from Totes and McGoats hay bales) and started weaving it through the straw sculpture formerly intended as a hat."
-          }
-        ]
-      },{
-        "pic": "arfarmlogo.png",
-        "paragraphs": [
-          {
-            "text": "Eventually I ended up with something that actually resembled an Easter basket."
-          }
-        ]
-      },{
-        "pic": "arfarmlogo.png",
-        "right_side_pic": true,
-        "paragraphs": [
-          {
-            "text": "Mulch Ado About Straw Scraps",
-            "h4": true
-          },
-          {
-            "text": "I had plenty of broken and leftover straw, so I decided to re-invest those scraps back into the garden by using them as mulch and compost!"
-          }
-        ]
-      },{
-        "vid": "4MtIj9GJDTs",
-        "paragraphs": [
-          {
-            "text": "Crafting with Trash: Going against the Grain with Straw Crafts",
-            "h4": true
-          }
-        ]
-      }
+            },
+            {
+              "text": "So I decided to Pivot From a Hat to an Easter Basket",
+              "h4": true
+            },{
+              "text": "Easter's coming up, so it almost felt like kismet."
+            }
+          ]
+        },{
+          "pic": "ebaskethandle.png",
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "I grabbed some baling twine (that I'd saved from Totes and McGoats hay bales) and started weaving it through the straw sculpture formerly intended as a hat."
+            }
+          ]
+        },{
+          "pic": "ebasketdone.png",
+          "paragraphs": [
+            {
+              "text": "Eventually I ended up with something that actually resembled an Easter basket."
+            }
+          ]
+        },{
+          "pic": "ebasketmulch.png",
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "Mulch Ado About Straw Scraps",
+              "h4": true
+            },
+            {
+              "text": "I had plenty of broken and leftover straw, so I decided to re-invest those scraps back into the garden by using them as mulch and compost!"
+            }
+          ]
+        },{
+          "vid": "4MtIj9GJDTs",
+          "paragraphs": [
+            {
+              "text": "Crafting with Trash: Going against the Grain with Straw Crafts",
+              "h4": true
+            }
+          ]
+        }
       ]
+    },
+    {
+      "name": "Let's Broc About Sprouting Broccoli",
+      "pub_date": "4/30/25",
+      "featured": true,
+      "header_pic": "sproccoliDone.png",
+      "about": "Its Like Silly String For Your Sandwich",
+      "categories": ["gardening", "straw"],
+      "tools": [
+        "Clean jar"
+      ],
+      "materials": [
+        "Cheese Cloth",
+        "Broccoli Seeds"
+      ],
+      "phases": [{
+        "pic": "sproccoliDone.png",
+        "paragraphs": [
+          {
+            "text": "Broccoli Seeds Can be More than Just Sparrow Food",
+            "h4": true
+          },
+          {
+            "text": ""
+          }
+        ]
+      }]
     }
   ]
 }

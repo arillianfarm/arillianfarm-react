@@ -60,12 +60,6 @@ const RecipeIngredients = ({ ingredients, servings, headerPic, isSmallView }) =>
         );
     };
 
-// const setCopiedLink = (title) => {
-//     const path = `/recipes/${title.toLowerCase().split(' ').join('-').replace("'", "")}`;
-//     const fullLink = window.location.origin + path;
-//     return fullLink
-// }
-
 // RelatedRecipes Component
     const RelatedRecipes = ({ relatedRecipes, onRecipeClick }) => {
         if (!relatedRecipes || relatedRecipes.length === 0) {
@@ -161,7 +155,10 @@ const RecipesView = () => {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 const data = await response.json();
-                setRecipes(data.data);
+                let recipeData = data.data;
+
+                recipeData.reverse();
+                setRecipes(recipeData);
             } catch (e) {
                 setError(e);
                 console.error("Error fetching recipes:", e);

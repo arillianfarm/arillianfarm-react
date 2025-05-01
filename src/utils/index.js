@@ -12,7 +12,7 @@ export const trunc = (str, length = 50) => {
 
 export const getIframeSrcForYouTube = (youtubeID) => {
     if (!youtubeID) return '';
-    return `https://www.youtube.com/embed/${youtubeID}?autoplay=0`;
+    return `https://www.youtube.com/embed/${youtubeID}?autoPlay=0`;
 };
 
 export const calculateAlbumContainerSize = (smallView) => {

@@ -1,0 +1,65 @@
+{
+  "data": [
+    {
+      "name": "Baked eggs and Asparagus",
+      "pub_date": "8/9/24",
+      "header_pic": "arfarmlogo.png",
+      "servings": "1-2 servings",
+      "summary": "INGREDIENTS: A handful of fresh asparagus, 1-2 tbsp of butter, 2 eggs, 1 tsp fresh ground pepper, 1 clove of garlic, 1 tsp soy sauce, 1 tbsp olive oil. INSTRUCTIONS: (1) Trim asparagus and mince the garlic (2)  On you cutting board, mix together garlic, oil, soy sauce and pepper and roll the asparagus through the oil mixture until coated. (4) Layer asparagus across a baking dish and crack two eggs over the top (5) Mix butter with the remaining oil and garlic mix and dab on top of eggs (6) Airfry at 385F for about 10 min --or until eggs and asparagus are cooked as desired.",
+      "ingredients": [
+        "A handful of fresh asparagus",
+        "1-2 tbsp of butter",
+        "2 eggs",
+        "1 tsp fresh ground pepper",
+        "1 clove of garlic",
+        "1 tsp soy sauce",
+        "1 tbsp olive oil"
+      ],
+      "steps": [{
+        "pic": "arfarmlogo.png",
+        "instruction":"Trim the asparagus and mince the garlic "
+      },
+        {
+          "pic": "arfarmlogo.png",
+          "instruction":" On you cutting board, mix together garlic, oil, soy sauce and pepper and roll the asparagus through the oil mixture until coated."
+        },{
+          "pic": "arfarmlogo.png",
+          "instruction": "Layer asparagus across a baking dish and crack two eggs over the top of the asparagus then mix butter with the remaining oil and garlic mix and dab on top of eggs"
+        },{
+          "pic": "arfarmlogo.png",
+          "instruction": "Airfry at 385F for about 10 min --or until eggs and asparagus are cooked as desired."
+        }],
+      "notes": "Great light meal for any time of day"},
+    {
+      "name": "Arthur's Nutritious Breakfast Smoothie",
+      "pub_date": "8/9/24",
+      "header_pic": "arfarmlogo.png",
+      "servings": "1 serving",
+      "ingredients": [
+        "1 clove of garlic",
+        "2 boiled egg whites",
+        "1/2 cup FROZEN, finely chopped cilantro and celery",
+        "2 Tbsp peanut butter",
+        "heaping handful of dry (5-minute) oatmeal",
+        "heaping handful of FROZEN, chopped kale or spinach",
+        "1/4 cup chopped FROZEN brussels sprouts",
+        "1 tbsp cinnamon",
+        "1 1/4 cup hot coffee or hot water",
+        "2-3 cups (Kroger) frozen 'triple berry blend' ",
+        "1 heaping tsp psyllium husk",
+        "1 heaping tsp dehydrated Lions Mane powder"
+      ],
+      "steps": [{
+        "pic": "arfarmlogo.png",
+        "instruction":"In the mixing cup of a blender (Arthur uses AutoIQ NutriNinja Blender Duo) combine the garlic, boiled eggwhites, cilantro/celery (celery needs to be very well chopped or else blender may be damaged), peanut butter, kale, brussels sprouts, cinnamon and coffee(or hot water). Blend until everything is combined (about 30-40 seconds on most intense blending setting)"
+      },
+        {"pic": "arfarmlogo.png",
+          "instruction":"Fill the blender cup to the top with the the berry blend and then top with Psyllium Husk and Lion's Mane. pulse 2-3 times to mix."
+        },{
+          "pic": "arfarmlogo.png",
+          "instruction":"Drink as quickly as possible. It only gets worse as it gets warmer!"
+        }],
+      "notes": "You'll want a strong blender -- and a strong stomach for this!"
+    }
+  ]
+}

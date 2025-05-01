@@ -3,7 +3,7 @@
     {
       "name": "Baked eggs and Asparagus",
       "pub_date": "8/9/24",
-      "header_pic": "arfarmlogo.png",
+      "header_pic": "aspar5.png",
       "servings": "1-2 servings",
       "summary": "INGREDIENTS: A handful of fresh asparagus, 1-2 tbsp of butter, 2 eggs, 1 tsp fresh ground pepper, 1 clove of garlic, 1 tsp soy sauce, 1 tbsp olive oil. INSTRUCTIONS: (1) Trim asparagus and mince the garlic (2)  On you cutting board, mix together garlic, oil, soy sauce and pepper and roll the asparagus through the oil mixture until coated. (4) Layer asparagus across a baking dish and crack two eggs over the top (5) Mix butter with the remaining oil and garlic mix and dab on top of eggs (6) Airfry at 385F for about 10 min --or until eggs and asparagus are cooked as desired.",
       "ingredients": [
@@ -16,24 +16,24 @@
         "1 tbsp olive oil"
       ],
       "steps": [{
-        "pic": "arfarmlogo.png",
+        "pic": "aspar1.png",
         "instruction":"Trim the asparagus and mince the garlic "
       },
         {
-          "pic": "arfarmlogo.png",
+          "pic": "aspar2.png",
           "instruction":" On you cutting board, mix together garlic, oil, soy sauce and pepper and roll the asparagus through the oil mixture until coated."
         },{
-          "pic": "arfarmlogo.png",
+          "pic": "aspar4.png",
           "instruction": "Layer asparagus across a baking dish and crack two eggs over the top of the asparagus then mix butter with the remaining oil and garlic mix and dab on top of eggs"
         },{
-          "pic": "arfarmlogo.png",
+          "pic": "asparDone.png",
           "instruction": "Airfry at 385F for about 10 min --or until eggs and asparagus are cooked as desired."
         }],
       "notes": "Great light meal for any time of day"},
     {
       "name": "Arthur's Nutritious Breakfast Smoothie",
       "pub_date": "8/9/24",
-      "header_pic": "arfarmlogo.png",
+      "header_pic": "smoothies1.png",
       "servings": "1 serving",
       "ingredients": [
         "1 clove of garlic",
@@ -50,16 +50,1955 @@
         "1 heaping tsp dehydrated Lions Mane powder"
       ],
       "steps": [{
-        "pic": "arfarmlogo.png",
+        "pic": "ninja1.png",
         "instruction":"In the mixing cup of a blender (Arthur uses AutoIQ NutriNinja Blender Duo) combine the garlic, boiled eggwhites, cilantro/celery (celery needs to be very well chopped or else blender may be damaged), peanut butter, kale, brussels sprouts, cinnamon and coffee(or hot water). Blend until everything is combined (about 30-40 seconds on most intense blending setting)"
       },
-        {"pic": "arfarmlogo.png",
+        {"pic": "",
           "instruction":"Fill the blender cup to the top with the the berry blend and then top with Psyllium Husk and Lion's Mane. pulse 2-3 times to mix."
         },{
-          "pic": "arfarmlogo.png",
+          "pic": "smoothiesDone.png",
           "instruction":"Drink as quickly as possible. It only gets worse as it gets warmer!"
         }],
       "notes": "You'll want a strong blender -- and a strong stomach for this!"
+    },
+    {
+      "name": "Air Fried Okra",
+      "pub_date": "8/23/24",
+      "header_pic": "okra6.png",
+      "servings": "1-2 servings",
+      "related_recipes": [],
+      "summary": "INGREDIENTS: 1/4 lb fresh okra - chopped, 1/4 cup flour, 2 tbsp cornmeal, 1/2 tsp garlic powder, 1/4 tsp fresh ground pepper, 1/4 tsp salt, 1/2 cup Plain Greek Yogurt mixed with 2 tbsp water, oil for frying. INSTRUCTIONS: (1) In a shallow bowl, whisk together: flour, cornmeal, garlic powder, pepper and salt. In a separate bowl whisk greek yogurt and water. (2) Fully coat the okra with the yogurt mixture. Then, one at a time or in small batches dredge in the flour mixture and set in baking pan. (3) Drizzle or spray olive oil over okra and shake to coat all sides. Airfry at 385 for 15 minutes --pause halfway to shake. (4) Enjoy with a dipping sauce (such as greek yogurt ranch)",
+      "ingredients": [
+        "1/4 lb fresh okra - chopped",
+        "1/4 cup flour",
+        "2 tbsp cornmeal",
+        "1/2 tsp garlic powder",
+        "1/4 tsp fresh ground pepper",
+        "1/4 tsp salt",
+        "1/2 cup Plain Greek Yogurt mixed with 2 tbsp water",
+        "oil for frying"
+      ],
+      "steps": [{
+        "pic": "okra2.png",
+        "instruction":"In a shallow bowl, whisk together: flour, cornmeal, garlic powder, pepper and salt. In a separate bowl whisk greek yogurt and water."
+      },
+        {
+          "pic": "okra3.png",
+          "instruction":"Fully coat the okra with the yogurt mixture. Then, one at a time or in small batches dredge in the flour mixture and set in baking pan."
+        },{
+          "pic": "okra5.png",
+          "instruction":"Drizzle or spray olive oil over okra and shake to coat all sides. Airfry at 385 for 15 minutes --pause halfway to shake."
+        },{
+          "pic": "okra6.png",
+          "instruction": "Enjoy with a dipping sauce (such as greek yogurt ranch)"
+        }],
+      "notes": "Crisp and Slick"},
+    {
+      "name": "pickled onions",
+      "pub_date": "8/30/24",
+      "header_pic": "pickledonions.png",
+      "servings": "1 jar of pickled onions",
+      "related_recipes": ["creamy avocado, pickled onion wontons"],
+      "summary": "INGREDIENTS: 1 onion, 3/4 cup beet juice, 3/4 cup white vinegar, 1 tsp yellow mustard seed, 1/2 tbsp salt, 3/8 cup white sugar, 1 spring fresh rosemary. INSTRUCTIONS: (1) Slice the onion into thin rings or rainbows (I used a medium yellow onion, but I based this on ingredients from a jar of pickled purple onions so I suspect any bulbous onion is fine). (2) put the onion slices and all other ingredients into a sterile mason jar. (3) seal the jar and shake until all sugar and salt are dissolved (4) leave in fridge for at least three days to marinate",
+      "ingredients": [
+        "1 onion",
+        "3/4 cup beet juice",
+        "3/4 cup white vinegar",
+        "1 tsp yellow mustard seed",
+        "1/2 tbsp salt",
+        "3/8 cup white sugar",
+        "1 spring fresh rosemary"
+      ],
+      "steps": [{
+        "pic": null,
+        "instruction":"Slice the onion into thin rings or rainbows (I used a medium yellow onion, but I based this on ingredients from a jar of pickled purple onions so I suspect any bulbous onion is fine)"
+      },
+        {"pic": null,
+          "instruction":"put the onion slices and all other ingredients into a sterile mason jar"
+        },{
+          "pic": null,
+          "instruction":"seal the jar and shake until all sugar and salt are dissolved"
+        },{
+          "pic": null,
+          "instruction": "leave in fridge for at least three days to marinate"
+        }],
+      "notes": "great on sandwiches, salads or rice"
+    },
+    {
+      "name": "creamy avocado, pickled onion wontons",
+      "pub_date": "8/30/24",
+      "related_recipes": ["pickled onions","Creamy banana walnut wontons"],
+      "header_pic": "wontons6.png",
+      "servings": "1 wonton",
+      "summary": "INGREDIENTS: pinch of pickled onions, 1 wonton wrapper, 3-5 chunks of fresh avocado, a bit of chopped walnut (optional),1 healthy glob of cream cheese, oil (to coat wonton wrapper). INSTRUCTIONS: (1) coat the outside of wonton wrapper with oil then put all ingredients on un-oiled side (2) fold wonton wrapper around filling and put into a muffin tray, silicon muffin cup or directly onto the rack of an air frier (3) set temp to 385 and air fry for 4-6 minutes or until outside is browned",
+      "ingredients": [
+        "pinch of pickled onions",
+        "1 wonton wrapper",
+        "3-5 chunks of fresh avocado",
+        "a bit of chopped walnut (optional)",
+        "1 healthy glob of cream cheese",
+        "oil (to coat wonton wrapper)"
+      ],
+      "steps": [{
+        "pic": "wontons1.png",
+        "instruction":"coat the outside of wonton wrapper with oil then put all ingredients on un-oiled side"
+      },
+        {
+          "instruction":"fold wonton wrapper around filling and put into a muffin tray, silicon muffin cup or directly onto the rack of an air frier"
+        },{
+          "instruction":"set temp to 385 and air fry for 4-6 minutes or until outside is browned"
+        },{
+          "pic": "wontons4.png",
+          "instruction": "let cool and enjoy"
+        }],
+      "notes": "Pairs nicely with your favorite dipping sauces"
+    },
+    {
+      "name": "Sourdough Starter",
+      "pub_date": "9/6/24",
+      "header_pic": "sds1.png",
+      "related_recipes": ["San Francisco Style Sourdough Bread","Traditional Sourdough Bread"],
+      "servings": "1 jar of sourdough starter",
+      "ingredients": [
+        "Flour",
+        "Water"
+      ],
+      "steps": [{
+        "pic": "",
+        "instruction":"[Day 1] (1) In a sterile glass jar combine 1/2 cup flour and 1/2 cup filtered water (2) Stir until combined, forming a thick paste. (3) Cover jar loosely with lid or cheese cloth and set in a warm (approx 75F), draft free location."
+      },
+        {
+          "pic": "",
+          "instruction":"[Days 2-5] (1) Discard half the mixture (2) stir in 1/2 cup flour and 1/2 cup water (3) Cover and set in a warm, draft free location."
+        },{
+          "pic": "",
+          "instruction":"[DAYS 6-7] Increase the frequency to every 12 hours. Discard half the mixture and feed as before. "
+        },{
+          "pic": "",
+          "instruction":"[STORING AND MAINTAINING] The starter is ready when it doubles in size within 4-8 hours after feeding, has a bubbly appearance and smells fermented. Once this is achieved, you may store it in the fridge (loosely covered) and cut back feeding to once every 7-10 days."
+        },{
+          "pic": "",
+          "instruction": "[ACTIVATE BEFORE USE] Your starter should be brought upto room temperature and have a bubbly appearance before using in baking."
+        }],
+      "notes": "Let's Get This Party Starter"},
+    {
+      "name": "San Francisco Style Sourdough Bread",
+      "pub_date": "9/6/24",
+      "related_recipes": ["Sourdough Starter"],
+      "header_pic": "sdoughb.png",
+      "servings": "1 loaf of bread",
+      "summary": "INGREDIENTS: 15g Active Dry Yeast, 8fl oz water (at temp 110F), 6oz Sourdough Starter, 1lb Bread Flour, 15g salt, cornmeal --as needed, egg white -beaten. INSTRUCTIONS: (1) Sprinkle yeast over 2fl oz water and set aside until dissolved and foamy. (2) Add the remaining flour and salt. Knead until the dough is smooth and elastic, approx 10 minutes. (3) ",
+      "ingredients": [
+        "15g (approx 1.5 tbsp) Active Dry Yeast",
+        "8fl oz (approx 1 cup ) water --at temp 110F",
+        "6 oz (approx 3/4 cup) Sourdough Starter",
+        "1 lb (approx 4 cups) Bread Flour",
+        "15g (approx 2.5 tsp) salt",
+        "cornmeal --as needed",
+        "1 egg white -beaten"
+      ],
+      "steps": [{
+        "pic": "sdb1.png",
+        "instruction":"Sprinkle yeast over 2fl oz (approx 1/4 cup) water and set aside until dissolved and foamy."
+      },
+        {
+          "pic": "sdb2.png",
+          "instruction":"In a medium- large bowl (preferably on a stand mixer fitted with a dough hook), mix the sourdough starter with the remaining 6oz (approx 3/4 cup) of water and then add 6oz (approx 1 -1.25 cup) of bread flour."
+        },{
+          "pic": "",
+          "instruction":"Stir until a batter/dough forms, then add yeast mixture. Knead 5 minutes on medium speed."
+        },{
+          "pic": "",
+          "instruction":"Add the remaining flour and the salt. Knead (with stand mixer with dough hook or by hand on a flat surface) until the dough is smooth and elastic, approx 10 minutes."
+        },{
+          "pic": "greasebowl.png",
+          "instruction": "Place the dough in a lightly greased bowl and cover with a damp cloth. Ferment --until doubled-- in a warm place (about 80-90F)"
+        },{
+          "pic": "riseandpunch.png",
+          "instruction": "Punch down the dough and shape it into a round loaf. (or you can divide into 2 smaller loaves) Place the loaf on a greased and cornmeal dusted sheet-pan."
+        },{
+          "pic": "coverandproof.png",
+          "instruction": "Proof the dough in a warm place, covered with a damp cloth, until it has risen to 2 1/2 times its original size (about 45-60  minutes)."
+        },{
+          "pic": "sdb6.png",
+          "instruction": "Brush the risen loaf with the beaten egg white and score the top of the loaf with a sharp knife. (if the knife is dull and doesn't cut deep enough, the bread will rip in weird ugly ways as it rises"
+        },{
+          "pic": "injectsteam.png",
+          "instruction": "Bake at 450F, spraying steam in for the first 4 minutes of baking (to make the crust crustier!)"
+        },{
+          "pic": "sdoughb.png",
+          "instruction": "Reduce to 375F and continue baking until the loaf is well browned, approximately 35-45 minutes (about 30-35 minutes if doing 2 small loaves)."
+        }],
+      "notes": "Great for sandwiches, bruschetta or garlic toast"},
+    {
+      "name": "Caprese Bruscetta",
+      "pub_date": "9/13/24",
+      "header_pic": "brusDone.png",
+      "related_recipes": ["San Francisco Style Sourdough Bread"],
+      "servings": "4 servings",
+      "summary": "INGREDIENTS: 8-10 slices of french italian or sourdough bread, 16-20 grape tomatoes, a handful of fresh basil leaves, 2 tsp balsamic vinegar, 1 tsp fresh ground pepper, 1 tsp soy sauce, 1 tbsp olive oil, 2 oz fresh mozzarella cheese. INSTRUCTIONS: (1) Slice the tomatoes into small discs and slice the basil into thin ribbons (2)In a small bowl combine tomatoes, basil, balsamic, ground pepper and soy sauce. Set aside to marinate. (3) dribble olive oil over sliced bread and toast for 2-4 minutes (to desired crispness) (4) Thinly Slice mozzarella (5)Top the toasted bread with tomato mixture and mozzarella.",
+      "ingredients": [
+        "8-10 slices of french italian or sourdough bread",
+        "16-20 grape tomatoes",
+        "a handful of fresh basil leaves",
+        "1 tbsp balsamic vinegar",
+        "1 tsp fresh ground pepper",
+        "1 tsp soy sauce",
+        "1 tbsp olive oil",
+        "2 oz fresh mozzarella cheese"
+      ],
+      "steps": [{
+        "pic": "brus1.png",
+        "instruction":"Slice the tomatoes into small discs and slice the basil into thin ribbons"
+      },
+        {"pic": "brus2.png",
+          "instruction":"In a small bowl combine tomatoes, basil, balsamic, ground pepper and soy sauce. Set aside to marinate."
+        },{
+          "pic": "brus3.png",
+          "instruction":"Dribble olive oil over sliced bread and toast for 2-4 minutes (to desired crispness)"
+        },{"pic": "",
+          "instruction":"Thinly Slice mozzarella."
+        },{
+          "pic": "brusDone.png",
+          "instruction": "Top the toasted bread with tomato mixture and mozzarella"
+        }],
+      "notes": "The toast with the most!"
+    },
+    {
+      "name": "Potato Salad",
+      "pub_date": "9/20/24",
+      "header_pic": "hueyLovesPotatoeSalad.png",
+      "servings": "4 servings",
+      "ingredients": [
+        "10-12 small yellow potatoes",
+        "5 boiled eggs",
+        "1/2 tsp salt",
+        "1 tbsp mustard",
+        "2 tbsp mayonnaise",
+        "1/4 cup finely diced onions",
+        "2 tbsp chopped spicy pickle chips",
+        "2 tbsp spicy pickle juice"
+      ],
+      "steps": [{
+        "pic": "posalA.png",
+        "instruction":"Add salt to boiling water and boil potatoes for 20 minutes."
+      },{
+        "pic": "poSal2.png",
+        "instruction":"Mix Boiled egg yolks, mayonnaise, mustard, diced pickles, pickle juice and onions."
+      },{
+        "pic": "poSal3.png",
+        "instruction":"Chop Boiled Potatoes and egg-whites to desired chunk sizes and mix with egg yolk mixture."
+      },{
+        "pic": "hueyLovesPotatoeSalad.png",
+        "instruction":"Chill and Enjoy Cold."
+      }],
+      "notes": "Hearty Side for a PicNic or BBQ!"
+    },
+    {
+      "name": "Yogurt-y Walnut Strawberries",
+      "pub_date": "9/20/24",
+      "header_pic": "yostraws.png",
+      "servings": "1-2 servings",
+      "ingredients": [
+        "1-2 cups Sliced Fresh Strawberries",
+        "1/2 cup Plain Greek Yogurt",
+        "1/4 cup chopped walnuts",
+        "1/4 cup brown sugar"
+      ],
+      "steps": [{
+        "pic": "yostraws1.png",
+        "instruction":"Layer sliced strawberries on a plate, top with greek yogurt then sprinkle on walnuts and brown sugar."
+      }],
+      "notes": "Easy Snack or Dessert For A Hot Day!"
+    },
+    {
+      "name": "Creamy banana walnut wontons",
+      "pub_date": "9/27/24",
+      "header_pic": "wontons5.png",
+      "servings": "1 wonton",
+      "related_recipes": ["creamy avocado, pickled onion wontons"],
+      "ingredients": [
+        "a bit of chopped walnut (optional)",
+        "a slice of banana",
+        "1 wonton wrapper",
+        "1 healthy glob of cream cheese",
+        "oil (to coat wonton wrapper)",
+        "a few pinches of brown sugar"
+      ],
+      "steps": [{
+        "pic": "wontons3.png",
+        "instruction":"coat the outside of wonton wrapper with oil then put all ingredients on un-oiled side"
+      },
+        {
+          "instruction":"fold wonton wrapper around filling and put into a muffin tray, silicon muffin cup or directly onto the rack of an air frier"
+        },{
+          "instruction":"set temp to 385 and air fry for 4-6 minutes or until outside is browned"
+        },{
+          "pic": "wontons4.png",
+          "instruction": "let cool and enjoy"
+        }],
+      "notes": "this dish is bananas"},
+    {
+      "name": "Ricotta, Pistacio, Date Bruscetta",
+      "pub_date": "9/27/24",
+      "related_recipes": ["capreses bruscetta"],
+      "header_pic": "hueyBrus.png",
+      "servings": "4 servings",
+      "ingredients": [
+        "1 cup Ricotta Cheese",
+        "1/2 cup shelled salted and roasted pistachios",
+        "1/3 cup dried dates"
+      ],
+      "steps": [{
+        "pic": "brusA.png",
+        "instruction":"chop dates and pistachios"
+      },
+        {"pic": "brusB.png",
+          "instruction":"Stir chopped dates and pistachios into riccotta."
+        },{
+          "pic": "brus3.png",
+          "instruction":"Drizzle olive oil over sliced bread and toast for 2-4 minutes (to desired crispness)"
+        },{
+          "pic": "brusDoneB.png",
+          "instruction": "Top the toasted bread with ricotta mixture."
+        }],
+      "notes": "A Simple Dessert-y Bruscetta"
+    },
+    {
+      "name": "Pickled Beets",
+      "pub_date": "9/27/24",
+      "header_pic": "pickledBeetsDone.png",
+      "related_recipes": ["pickled eggs"],
+      "servings": "1 jar of pickled beets (scale recipe up or down depending on how many beets you're working with)",
+      "ingredients": [
+        "6 small beets boiled and sliced --reserve boiling water to use as 'beet juice' in next step.",
+        "3/4 cup beet juice (from boiling the beets)",
+        "3/4 cup white vinegar (can also use apple cider vinegar)",
+        "1/2 to 3/4 cup granulated sugar",
+        "1/2 tbsp salt",
+        "1/2 tsp mustard seeds",
+        "1 tsp whole black pepper corns"
+      ],
+      "steps": [{
+        "pic": "washB2.png",
+        "instruction":"in a small pot, over low heat bring beet juice, vinegar, sugar and salt to a boil and stir until all sugar is dissolved, then remove from heat."
+      },{
+        "pic": "boilB.png",
+        "instruction":"Put the sliced beets into a sterile jar and pour the beet/vinegar/sugar mixture over then add pepper corns and mustard seed."
+      },{
+        "pic": "pickledBeetsDone.png",
+        "instruction":"Seal jar and let marinate in fridge for at least a week. Serve with salads, charcuterie boards or roasted."
+      }],
+      "notes": "Don't let your fresh beets go stale!"
+    },
+    {
+      "name": "Pickled Eggs",
+      "pub_date": "9/27/24",
+      "related_recipes": ["pickled beets"],
+      "header_pic": "pickledEggsDone.png",
+      "servings": "6 servings",
+      "ingredients": [
+        "1/2 jar pickled beets in brine",
+        "6 boiled and peeled eggs"
+      ],
+      "steps": [{
+        "pic": "peggs1.png",
+        "instruction":"put the boiled eggs in the jar of pickled beets and let marinate for at least a week."
+      }],
+      "notes": "Try 'em, they're good!"
+    },
+    {
+      "name": "Stuffed Bell Pepper",
+      "pub_date": "9/27/24",
+      "related_recipes": ["pickled onions"],
+      "header_pic": "bellpep1.png",
+      "servings": "1 stuffed bell pepper",
+      "ingredients": [
+        "1/4 cup cous cous",
+        "1/2 bouillon cube - dissolved in 1/4 cup hot water",
+        "1 tsp chili powder",
+        "1-2 tbsp of butter",
+        "5-6 cherry tomatoes",
+        "a few slices of (pickled) onions",
+        "1/4 cup kidney beans",
+        "1/4 cup shredded cheese"
+      ],
+      "steps": [{
+        "pic": "bellpep2.png",
+        "instruction":"cut the stem and core out of a bell pepper and add 1/4 cup dry cous cous (quinoa or instant rice could be subbed in as well)"
+      },
+        {
+          "pic": "bellpep3.png",
+          "instruction":"dissolve half of a bouillon cube in 1/4 cup hot water then pour over cous cous in the pepper the stir in chili powder and butter."
+        },{
+          "pic": "bellpep4.png",
+          "instruction": "stuff onion, beans and tomatoes in the pepper and airfry at 385 for 10 minutes"
+        },{
+          "pic": "bellpep5.png",
+          "instruction": "top with cheese and airfry for an additional 8-10 minutes"
+        },{
+          "pic": "bellpep6.png",
+          "instruction": "The bell pepper should be wrinkling and staring to blister and cheese should be melty but not burnt."
+        },{
+          "pic": "bellpepdone.png",
+          "instruction": "slice, mix and enjoy"
+        }],
+      "notes": "pep up your cous cous"},
+    {
+      "name": "Baked egg in a cheese basket",
+      "pub_date": "10/4/24",
+      "header_pic": "becb.png",
+      "servings": "1 egg basket",
+      "ingredients": [
+        "1/4 cup shredded cheese",
+        "1 pad of butter",
+        "1 egg",
+        "salsa (optional)",
+        "Plain Greek Yogurt and/or Sour Cream (optional)",
+        "Chopped Green onions (optional)"
+      ],
+      "steps": [{
+        "pic": "becb1.png",
+        "instruction":"put a pad of butter in a silicone or tin muffin cup then crack an egg on top of it"
+      },
+        {
+          "pic": "becb2.png",
+          "instruction":"sprinkle shredded cheese in a circle on a silicone tray or similar"
+        },{
+          "pic": "becb3.png",
+          "instruction":"microwave the cheese for a few seconds, bake or airfry at 385F for about 2 min --or until cheese is melted"
+        },{
+          "pic": "becb4.png",
+          "instruction": "let the cheese cool and peel if of baking mat, then drape it over the back of a muffin cup, pop the egg and butter muffin cup in the air frier or ove and or bake or airfry (at 385) for another 3-5 minutes --until egg yolk is cooked to desired yolkiness and cheese is crisp, but not burnt"
+        },{
+          "pic": "becb.png",
+          "instruction": "put egg in cheese basket and top with desired toppings"
+        }],
+      "notes": "high fat low carb mmmm"},
+    {
+      "name": "Cheesy Potatovals",
+      "pub_date": "10/4/24",
+      "header_pic": "cheeseFriesDone.png",
+      "servings": "2 servings",
+      "ingredients": [
+        "4-5 small yellow potatoes sliced into 1/2 inch disks",
+        "1-2 green onion stems",
+        "1 tsp fresh ground pepper",
+        "1/2 tsp salt",
+        "1/2 tbsp olive oil",
+        "1/4 cup shredded cheese"
+      ],
+      "steps": [{
+        "pic": "cf2.png",
+        "instruction":"finely chop green onions and mix with oil, pepper and salt on cutting board then coat potatoes with mixture."
+      },{
+        "pic": "cf5.png",
+        "instruction":"Spread in a single layer on the tray of an airfrier and air fry at 385 for 8 minutes."
+      },{
+        "pic": "addCheeseAfter8min.png",
+        "instruction":"Toss potatoes in air frier tray, then sprinkle cheese evenly over the top."
+      },{
+        "pic": "cheeseFriesdone1.png",
+        "instruction":"Air fry for another 5-8 minutes --until potatoes and cheese are desired crispness."
+      },{
+        "pic": "cheeseFriesDone.png",
+        "instruction":"Enjoy with yogurt, ranch and/or BBQ sauce."
+      }],
+      "notes": "A Quick, Easy Snack!"
+    },
+    {
+      "name": "Air Fried Brussels Sprouts",
+      "pub_date": "10/4/24",
+      "header_pic": "BsrpCooked.png",
+      "servings": "6 servings",
+      "ingredients": [
+        "2 1/2 Cups Brussels Sprouts - halved or chopped",
+        "1/4 cup hot water",
+        "1 tsp honey",
+        "1/2 tsp red pepper flakes",
+        "1/2 tsp fresh ground black pepper",
+        "1 tsp soy sauce",
+        "1 tbsp olive oil"
+      ],
+      "steps": [{
+        "pic": "Bspr1.png",
+        "instruction":"In a medium sized microwavable bowl with a cover, dissolve honey in hot water, then mix in: red pepper flakes, black pepper, soy sauce."
+      },{
+        "pic": "BsprMicro.png",
+        "instruction":"Add brussels sprouts and stir to coat, then cover microwave on high for 2:00 minutes."
+      },{
+        "pic": "BsprPrepped.png",
+        "instruction":"Toss with olive oil and pour into a dish that fits in your air frier."
+      },{
+        "pic": "BsrpCooked.png",
+        "instruction":"Airfry at 385F for 7-10 minutes, or until desired crisp-/charred-ness."
+      }],
+      "notes": "Like The Kind They Serve At Trendy Breweries."
+    },
+    {
+      "name": "Spicy Basil, Eggplant",
+      "pub_date": "10/11/24",
+      "header_pic": "teb1.png",
+      "ingredients": [
+        "1 large eggplant sliced into 1/2inch disks",
+        "pinch of salt (for sweating eggplant)",
+        "2 tablespoons olive oil",
+        "1 tablespoon minced garlic",
+        "1/2 tsp red pepper flakes",
+        "1/2 cup thai basil leaves",
+        "1/2 cup hot water",
+        "1/2 bouillon cube",
+        "1 tablespoon soy sauce",
+        "2 tablespoons brown sugar",
+        "1 tablespoon lime juice",
+        "Walnut halves and/or sesame seeds(optional)"],
+      "servings": "2-4 servings",
+      "steps": [{
+        "pic": "teb2.png",
+        "instruction":"Toss the eggplant slices in a bowl with a pinch of salt and let sit for 10-15 minutes."
+      },{
+        "pic": "tebBroth.png",
+        "instruction":"While the eggplant sweats, make a broth mixture in a small mixing bowl by dissolving the 1/2 bouillon cube and 2 tbs sugar in the 1/2 cup hot water. Then mix in red pepper flakes, basil leaves, and lime juice and set aside."
+      },{
+        "pic": "teb3.png",
+        "instruction":"Heat oil in a large skillet over medium heat, and add eggplant slices, coating both sides of each slice with oil then cook for 5-7 minutes --per side-- until browned and softened."
+      },{
+        "pic": "tebSetAside.png",
+        "instruction":"Set aside the eggplant and use the same pan to saute garlic until fragrant (about 30 seconds)."
+      },{
+        "pic": "teb4.png",
+        "instruction":"Pour broth mixture over sauteed garlic and bring to a simmer."
+      },{
+        "pic": "teb5.png",
+        "instruction":"Add eggplant slices back to the pan and toss to coat. (If you have walnut halves and/or or sesame seeds add them now) Simmer for 5-7 minutes (until the sauce has thickened and the eggplant is tender), stirring constantly."
+      },{
+        "pic": "tebServed.png",
+        "instruction":"Serve with rice."
+      }],
+      "notes": "Sweet, Tangy, Spicy!"
+    },
+    {
+      "name": "Stuffed Mushrooms",
+      "pub_date": "10/11/24",
+      "header_pic": "airFryMush.png",
+      "servings": "2-4 servings",
+      "ingredients": [
+        "12-18 Cremini (or other medium sized) mushroom",
+        "1 tsp fresh-ground black pepper",
+        "1/4 cup shredded mozzarella (and/or provolone) cheese",
+        "1/2 cup ricotta cheese",
+        "1/4 cup shredded parmesan cheese",
+        "2 cloves of garlic, minced",
+        "2 tablespoons olive oil"
+      ],
+      "steps": [{
+        "pic": "stufMus1.png",
+        "instruction":"Remove stems from mushrooms, coat with oil and set on the tray of an air-fryer."
+      },{
+        "pic": "stufMus2.png",
+        "instruction":"Mix cheeses, minced garlic and ground pepper in a small bowl."
+      },{
+        "pic": "stufMusStuf.png",
+        "instruction":"Stuff mushrooms with cheese mixture and air fry at 385F for 8-10 minutes."
+      },{
+        "pic": "airFryMush.png",
+        "instruction":"Mushrooms should be starting to wrinkle and cheese is browned, but not charred on top."
+      }],
+      "notes": "Great Appetizer To Share!"
+    },
+    {
+      "name": "Lunchbox Cheesecake",
+      "pub_date": "10/17/24",
+      "header_pic": "lbcc.png",
+      "servings": "1 serving",
+      "related_recipes": [],
+      "ingredients": [
+        "graham cracker",
+        "cream cheese"
+      ],
+      "steps": [{
+        "pic": "lbcc.png",
+        "instruction":"Spread Cream Cheese on a graham cracker"},
+        {
+          "pic": "lbcc2.png",
+          "instruction":"Put another graham cracker on top"},
+        {
+          "pic": "lbcc3.png",
+          "instruction": "Boom! Done! "}
+      ],
+      "notes": "Start To Yum in Sixty Seconds"
+    },
+    {
+      "name": "Banh Mi Sandwich",
+      "pub_date": "10/18/24",
+      "header_pic": "bmdone.png",
+      "servings": "3 sandwiches",
+      "related_recipes": [
+      ],
+      "ingredients": [
+        "1 carrot - grated, shredded or julienned",
+        "1 clove of garlic - pressed or minced",
+        "1/3 of a cucumber - peeled and sliced into ribbons",
+        "10-20 thai basil leaves",
+        "10-20 mint leaves",
+        "20-30 cilantro leaves",
+        "1 4.5 oz block of fried or extra firm tofu - sliced into 1/4 inch thick strips",
+        "1 baguette or 3 sandwich rolls",
+        "1 tsp granulated sugar",
+        "2 tsp of soy sauce --divided",
+        "2 tablespoons of rice vinegar --divided",
+        "1 tsp brown sugar",
+        "1 tsp sesame oil",
+        "1 tablespoon mayonnaise or spicy mayo -- per sandwich",
+        "fresh, sliced jalapenos if desired"
+      ],
+      "steps": [
+        {
+        "pic": "bm3.png",
+        "instruction":"Make Marinade for carrots and cucumber: In a tupperware or jar combine 1 tablespoon rice vinegar, 1 tsp soy sauce and 1 tsp granulated sugar then toss carrots in mixture place sliced cucumber on top and set aside in fridge to marinate."
+      },{
+        "pic": "bm2.png",
+        "instruction":"Make Marinade for Tofu: In a small baking dish, combine garlic, 1 tablespoon rice vinegar, 1 tsp sesame oil, 1 tsp soy sauce and 1 tsp brown sugar. Lay tofu in marinade, flipping each piece over to soak both sides, then set aside to marinate."
+      },{
+        "pic": "",
+        "instruction":"Leave tofu and veggies to marinate for a few minutes to a couple days."
+      },{
+        "pic": "bm4.png",
+        "instruction":"When Ready to assemble sandwich,air Fry Tof (uncovered) for 10 minutes at 385F"
+      },{
+        "pic": "",
+        "instruction":"Toast Bread - If using a baguette, Use a bread-knife to cut off a portion of the baguette (cut to whatever length you want your sandwich to be) and slice the portion in half. Toast sliced bread 1-2 minutes at 385F or until the bread is just starting to crisp on the outside."
+      },{
+        "pic": "bm5.png",
+        "instruction":"Assemble Sandwich - Spread mayo on one side of bread and then pile on the desired amount of all the other ingredients on top."
+      }],
+      "notes": "Its un-baguettable"
+    },
+    {
+      "name": "Air Fried Tofu & Veggie Rice Bowl",
+      "pub_date": "10/24/24",
+      "header_pic": "stairFryDone.png",
+      "servings": "2 servings",
+      "related_recipes": ["pickled onions"],
+      "ingredients": [
+        "1/2 a block of tofu",
+        "1 cup fresh vegetables (e.g. bell pepper, butternut squash and asparagus)",
+        "1/2 a bouillon cube",
+        "2 tsp soysauce",
+        "1 teaspoon fresh ground black pepper",
+        "2 cloves garlic--minced",
+        "1/2 cup hot water",
+        "1/4 cup pickled onions in picking juice",
+        "1 teaspoon sesame oil",
+        "1 tablespoon unsalted butter",
+        "1 cup long-rain rice",
+        "1 cup water",
+        "sesame seeds to top"
+      ],
+      "steps": [{
+        "pic": "",
+        "instruction":"Wrap tofu in paper towels and press between two cutting boards to remove excess moisture."
+      },{
+        "pic": "stairFry1.png",
+        "instruction":"Slice tofu into 1/2inch thick rectangles and roughly chop fresh vegetables and mix together in a baking dish that fits into your air fryer."
+      },{
+        "pic": "",
+        "instruction":"In a small bowl, dissolve bouillon cube in hot water, then stir in: soy sauce, fresh ground pepper, minced garlic, pickled onions and sesame oil."
+      },{
+        "pic": "",
+        "instruction":"Rinse rice and combine with water in a rice cooker (or pot) and cook according to instructions or boil for approx 20 minutes on stove."
+      },{
+        "pic": "stairFryFry.png",
+        "instruction":"Pour bouillon mixture over tofu/vegetable mixture. Cover with foil and air fry at 385 for 12 minutes. Then uncover and air fry for another 2-3 minutes."
+      },{
+        "pic": "stairFryDone.png",
+        "instruction":"Serve with rice."
+      }],
+      "notes": "Easy, Healthy, Filling."
+    },
+    {
+      "name": "Soft Pretzels",
+      "pub_date": "10/25/24",
+      "header_pic": "prezDone.png",
+      "servings": "6 pretzels",
+      "categories": ["breads", "baked goods", "snacks"],
+      "ingredients": [
+        "3/4 cup water (approx 100F)",
+        "10.5 oz instant or active dry yeast (1/2 packet)",
+        "1/2 tsp kosher salt",
+        "1/2 Tbsp light brown sugar",
+        "1/2 Tbsp unsalted butter melted and at room temp",
+        "3/4 cup bread flour",
+        "1 cup all purpose flour",
+        "1/2 cup baking soda",
+        "9 cups water",
+        "salt to top pretzels - optional"
+      ],
+      "steps": [{
+        "pic": "",
+        "instruction":"In the bowl of a stand mixer fitted with a dough hook, mix yeast into warm water and let sit for 1 minute."
+      },{
+        "pic": "prez2.png",
+        "instruction":"Mix salt, brown sugar and melted butter into the yeast mixture."
+      },{
+        "pic": "prez3.png",
+        "instruction":"Slowly (about 1/2 cup at a time) add 3/4 cup of bread flour and 3/4 cup of all purpose flour until dough thickens."
+      },{
+        "pic": "",
+        "instruction":"When dough is thick, add the remaining 1/4 cup all purpose flour and continue to mix until the dough is no longer sticky (add additional flour if needed)."
+      },{
+        "pic": "",
+        "instruction":"Knead the dough 5 minutes after it stops sticking."
+      },{
+        "pic": "prez4.png",
+        "instruction":"Shape dough into a ball, put in a lightly greased bowl and cover with a damp towel and rest for 10 minutes."
+      },{
+        "pic": "",
+        "instruction":"Add 1/2 cup baking soda and 9 cups of water to a large pot and start it towards boiling while you move onto shaping the pretzels."
+      },{
+        "pic": "prez5.png",
+        "instruction":"Punch down the dough and cut the rested dough it into six sections (about 1/3 cup each) and roll each section into a 20inch rope."
+      },{
+        "pic": "prez6.png",
+        "instruction":"Shape the dough into a pretzel shape."
+      },{
+        "pic": "prez8.png",
+        "instruction":"Drop the pretzels into rapidly boiling baking soda bath 1-2 at a time for 20-30 seconds. Flip each after 10-15 seconds (don't overboil or you'll get too much baking soda taste)."
+      },{
+        "pic": "prez10.png",
+        "instruction":"Place the pretzel on a parchment lined baking sheet and airfry at 385 for 8 minutes -- flip over after half way through cooking"
+      },{
+        "pic": "prezDone.png",
+        "instruction":"Baked and cooled pretzels can be frozen for upto 3 months."
+      }],
+      "notes": "Pairs Well With Easy Cheese"
+    },
+    {
+      "name": "Oven-Roasted Pumpkin Seeds",
+      "pub_date": "10/30/24",
+      "header_pic": "punkinSeedsDone.png",
+      "servings": "3-4 servings",
+      "categories": ["snacks"],
+      "related_recipes": [],
+      "ingredients": [
+        "Seeds From A Pumpkin, Rinsed Clean (with no remaining pumpkin guts)",
+        "1/2 Tablespoon Olive Oil",
+        "A couple Shakes Of Salt"
+      ],
+      "steps": [{
+        "pic": "punkinSeeds1.png",
+        "instruction":"toss pumpkin seeds with olive oil until evenly coated, then spread them evenly across the bottom of a pie tin"},
+        {
+          "pic": "punkinSeeds2.png",
+          "instruction":"Air Fry at 385 for 12-15 minutes (until crisp and golden brown) "},
+        {
+          "pic": "punkinSeedsDone.png",
+          "instruction": "Toss with salt"}
+      ],
+      "notes": "Makes Cleaning The Guts Out of a Pumpkin Feel Worth It!"
+    },
+    {
+      "name": "Pasta Dough",
+      "pub_date": "10/31/24",
+      "header_pic": "pdough.png",
+      "categories": ["pasta", "dinner"],
+      "servings": "8-10 oz of dough (approx 3 servings of pasta)",
+      "related_recipes": ["Pumpkin Raviolis in Sweet Butter Sage Sauce"],
+      "ingredients": [
+        "2 Cups Bread Flour or All Purpose Flour",
+        "1/4 tsp Salt",
+        "3 Large Eggs",
+        "1 Tsp Olive Oil"
+      ],
+      "steps": [{
+        "pic": "pumRav1.png",
+        "instruction":"Whisk together salt and flour in a medium-large bowl, then 'make a well' in the flour, crack the eggs and pour the olive oil into the well and whisk the wet ingridents together."
+      },
+        {
+          "instruction": "Using a fork, slowly mix the flour in with the wet ingredients."
+        },
+        {
+          "pic": "pumRav3.png",
+          "instruction": "Once all the flour is mixed in with the wet ingredients, turn onto a lightly floured work surface and knead dough for 8-10 minutes --until smooth and elastic."
+        },
+        {
+          "pic": "pumRav4.png",
+          "instruction": "Wrap Pasta Dough In Plastic and Rest In Fridge For 1/2 hour to 3 days."
+        }
+      ],
+      "notes": "Great For Raviolis, Lasagna noodles, pot stickers or spaghetti"
+    },
+    {
+      "name": "Pumpkin Raviolis in Sweet Butter Sage Sauce",
+      "pub_date": "11/1/24",
+      "header_pic": "pumRavDone.png",
+      "categories": ["pasta", "dinner"],
+      "servings": "3-4 servings",
+      "related_recipes": ["Pasta Dough"],
+      "ingredients": [
+        "8-10 oz pasta dough",
+        "1 Cup Roasted or Canned Pumpkin",
+        "1/4 Cup Grated Parmesan Cheese + extra for baking",
+        "1/4 Cup Grated Mozzarella Cheese",
+        "1/2 Cup Ricotta Cheese",
+        "3/4 tsp Ground Black Pepper --divided",
+        "4 Cloves of Garlic, Minced or Pressed --divided",
+        "1/4 Cup Unsalted Butter",
+        "1/2 Tsp Fresh Sage - Finely Diced (+ extra for baking)",
+        "1 tablespoon light brown sugar",
+        "1/4 cup chopped walnuts"
+      ],
+      "steps": [
+        {
+          "pic": "pumRav5.png",
+          "instruction": "Cheesey Pumpkin Filling - If using Fresh Pumpkin, Clean, Peel and Cut About 1/3 Of A Pie Pumpkin Into 8-12 Chunks and AirFry For 15 Minutes, Wait Until Cooled and Mash With a Whisk or Fork."
+        },
+        {
+          "pic": "pumRav6.png",
+          "instruction": "Mix Ricotta Cheese, Mozzarella, Parmesan, 1/2 Tsp Crushed Black Pepper, 2 Cloves of Minced Garlic, and Pumpkin, then Set Aside in Refrigerator."
+        },
+        {
+          "pic": "pumRav7.png",
+          "instruction": "Rolling & Filling Pasta Dough - When ready to use the dough --if you refrigerated it for more than two hours, set dough out for 30 minutes-- then divide into 3-4 even sections."
+        },
+        {
+          "pic": "pumRav8.png",
+          "instruction": "Roll each section of dough through a pasta maker starting with the rollers at the 1 setting and incrementing then re-roll at the next highest setting until the dough is thin enough to see your hand through the dough (setting 5 or 6). By the time you get to 4 or 5 you may want an extra pair of hands and/or cut the sheets in half as you go."
+        },
+        {
+          "pic": "pumRav10.png",
+          "instruction": "Spoon (1-2 teaspoon) blobs of cold ravioli filling every 1- 2 inches along the sheets of pasta dough, using a brush or your fingers wet the area around each filling-dollop, then fold the dough sheet over, cut a square around each dollop and fold the seems over, pressing them together to seal."
+        },
+        {
+          "pic": "pumRav9.png",
+          "instruction": "If you have extra sheets of pasta separate them with parchment and put them in a freezer bag can freeze for upto 3 months. If you have extra filling it is tasty as a stuffed mushroom filling or on toasted bread."
+        },
+        {
+          "instruction": "Boil Raviolis In Rapidly Boiling Water For 5 Minutes then drain water and set aside."
+        },{
+          "pic": "pumRav11.png",
+          "instruction": "Make Butter Sage Sauce - In a Medium Sized Pan, Melt butter and add 2 cloves of minced garlic, 1/4 tsp crush black pepper, walnuts and sage, saute for 2-3 minutes until nuts and sage are starting to brown then stir in brown sugar until dissolved."
+        },{
+          "pic": "pumRav12.png",
+          "instruction": "Transfer the cooked and drained ravioli to a baking dish and coat with sauce."
+        },{
+          "pic": "pumRavDone.png",
+          "instruction": "Top with shredded parmesan and sage and airfry for 5 Minutes -- until cheese and tops of raviolis start to brown"
+        }
+      ],
+      "notes": "You'll Be Pump-ked For This Deliciousness!"
+    },
+    {
+      "name": "Corn Chowder",
+      "pub_date": "11/7/24",
+      "header_pic": "cchow1.png",
+      "related_recipes": ["San Francisco Style Sourdough Bread"],
+      "servings": "3 servings",
+      "ingredients": [
+        "1 tablespoon unsalted butter",
+        "1 cup diced onion",
+        "1/2 tsp dried or fresh sage",
+        "1/2 tsp dried or fresh thyme &/or rosemary",
+        "1/4 tsp black pepper (freshly ground if possible)",
+        "1 clove of garlic -minced",
+        "2 cups boiling water",
+        "1 bullion cube",
+        "1 bay leaf",
+        "2 cups cubed potatoes (1/4 - 1/2 inch cubes)",
+        "1 rib of celery diced",
+        "1 cup diced carrot &/Or Sweet Potato",
+        "1 cup fresh or frozen corn kernels",
+        "1 tsp honey",
+        "1/4 cup heavy whipping cream"
+      ],
+      "steps": [{
+        "pic": "",
+        "instruction":"In a medium-large soup pot, melt butter over medium heat. Add pepper,sage, rosemary, garlic and onion. Saute until the onion is sweating."
+      },{
+        "pic":"cchow2.png",
+        "instruction": "Add boiling water, bullion cube, bay leaves, potatoes, celery and carrots/sweet potato. Boil (with lid off) for 10 minutes."
+      },{
+        "pic":"",
+        "instruction": "Add honey and frozen corn (which will cool things down a bit), then bring soup back up to a boil."
+      },{
+        "pic":"cchow3.png",
+        "instruction": "When the soup is back to boiling, remove from heat, let cool for 5 minutes, then remove the bay leaf and stir in cream."
+      },{
+        "pic":"cchowdone.png",
+        "instruction": "Enjoy with bread or crackers."
+      }],
+      "notes": "Pairs nicely with cold weather."
+    },
+    {
+      "name": "Fall Forage Wrap",
+      "pub_date": "11/8/24",
+      "header_pic": "ffwrap1.png",
+      "servings": "1-2 servings",
+      "categories": ["snacks", "lunch"],
+      "related_recipes": ["pickled onions"],
+      "ingredients": [
+        "1 sundried tomato or spinach or plain tortilla wrap",
+        "A handful of whatever greens you have on hand (I used kale, broccoli sprouts, basil, beet leaves and lettuce)",
+        "1/4 cup roasted pumpkin",
+        "2 tablespoons chopped walnuts",
+        "2 tablespoons plain greek yogurt",
+        "2 tablespoons hummus",
+        "a pinch of pomegranate seeds",
+        "a pinch of shredded mozzarella cheese",
+        "a pinch of pickled onions"
+      ],
+      "steps": [{
+        "pic": "ffwrap2.png",
+        "instruction":"Spread yogurt and hummus in the center of tortilla/wrap and evenly distribute the rest of the ingredients on top."
+      },
+        {
+          "pic": "ffwraproll.png",
+          "instruction":"Roll up like a fruit roll up or like a burrito --whatever is easiest for you"},
+        {
+          "pic": "ffwrapdone.png",
+          "instruction": "Slice in half and enjoy"}
+      ],
+      "notes": "A Tasty, Healthy Way to Roll"
+    },
+    {
+      "name": "Egg Salad Sandwich",
+      "pub_date": "11/14/24",
+      "header_pic": "eggSalDone.png",
+      "servings": "3-5 Servings",
+      "related_recipes": ["San Francisco Style Sourdough Bread", "pickled onions"],
+      "ingredients": [
+        "6 hard boiled eggs - cooled and peeled",
+        "1/4 cup mayonnaise",
+        "2 tablespoons Sweet pickle relish",
+        "1 tsp mustard",
+        "1/2 tsp soy sauce",
+        "1/4 cup finely diced onion",
+        "1/2 of a rib of celery - finely diced",
+        "Sliced (Sourdough) Bread",
+        "Lettuce or other greens (optional)",
+        "Thinly Sliced Cucumber (optional)",
+        "Pickled Onions (optional)"
+      ],
+      "steps": [{
+        "pic": "eggSal1.png",
+        "instruction":"Slice boiled eggs in half and Remove Yolks and set aside. Chop egg whites into desired chunk size."
+      },{
+        "pic": "eggsal2.png",
+        "instruction":"In a medium or large bowl smash the boiled egg yolks and mix with mayonnaise, mustard, soy sauce, celery and onion, then stir in egg whites."
+      },{
+        "pic": "eggSalDone.png",
+        "instruction":"Toast bread (if desired), scoop egg salad onto bread and add desired toppings."
+      }],
+      "notes": "An Egg-Salant option for lunch"
+    },
+    {
+      "name": "Chilly Day Chili",
+      "header_pic": "chili1.png",
+      "pub_date": "11/15/24",
+      "servings": "3-4 servings",
+      "related_recipes": [],
+      "ingredients": [
+        "1 tsp olive oil",
+        "1/2 bullion cube -smashed into bits",
+        "3/4 cup finely diced onion",
+        "1 tablespoon chili powder",
+        "1 tsp cumin",
+        "1 clove garlic",
+        "2 cups diced sweet potato (diced into 1/4-1/2 inch cubes)",
+        "1 can of red kidney beans 14-15oz",
+        "1 can stewed tomatoes 14-15 oz"
+      ],
+      "steps": [{
+        "pic": "chili2.png",
+        "instruction":"Heat oil in a medium - large pot and add onion, bullion cube, cumin, garlic, diced onions, saute over medium heat until onion is translucent"
+      },{
+        "pic": "chili3.png",
+        "instruction":"Add sweet potatoes and saute another 5 min."
+      },{
+        "pic": "chili4.png",
+        "instruction":"Add tomatoes and kidney beans (including the liquid in the can). Bring to a boil, then simmer over low heat for 20 minutes."
+      },{
+        "pic": "chilidone.png",
+        "instruction":"Enjoy Topped with chopped onions, shredded cheese, plain yogurt and/or sour cream."
+      }],
+      "notes": "Warm Yourself Up With Some Chili When You're Chilly!"
+    },
+    {
+      "name": "Quick Thick Herb Gravy",
+      "header_pic": "gravydone.png",
+      "pub_date": "11/19/24",
+      "servings": "8 (2-tablespoon) servings servings",
+      "related_recipes": ["Holiday Sides Cup Cake Pies"],
+      "ingredients": [
+        "2 tablespoons butter",
+        "2 tablespoons flour",
+        "1 cup broth or 1/2 boiullon cube dissolved in 1 cup boiling water",
+        "1/4 tsp fresh ground black pepper",
+        "1 clove garlic - minced or pressed",
+        "1/4 tsp soy sauce",
+        "1/4 -1/2 tsp fresh rosemary and sage minced"
+      ],
+      "steps": [{
+        "pic": "gravy1.png",
+        "instruction":"make a roux by melting butter in a saucepan and gradually stirring in flour. Combine evenly over medium heat and then slowly pour in broth or water mixture, whisk over medium heat to combine evenly (should be a smooth paste)."
+      },{
+        "pic": "gravy2.png",
+        "instruction":"Add remaining ingredients and simmer for 10-15 minutes. "
+      },{
+        "pic": "gravydone.png",
+        "instruction":"Remove from heat to thicken."
+      }],
+      "notes": "Thick and Quick Just Like all The Best Things"
+    },
+    {
+      "name": "Small Batch Green Bean Casserole",
+      "header_pic": "gbc1.png",
+      "pub_date": "11/21/24",
+      "servings": "About 2 cups (3 servings)",
+      "related_recipes": ["Quick Thick Herb Gravy", "small batch mashed potatoes", "Holiday Sides Cup Cake Pies"],
+      "ingredients": [
+        "1 tablespoons butter",
+        "1/2 cup fried onion strings (divided)",
+        "1/4 tsp black pepper",
+        "1/4 of a yellow onion (diced)",
+        "1 clove garlic (minced)",
+        "4-5 Cremini mushrooms (sliced into 1/2 inch chunks)",
+        "1/4 tsp soy sauce",
+        "1/2 cup broth or 1/4 of a bouillon cube dissolved in 1/2 cup boiling water",
+        "1 cup fresh green beans (chopped into 2-3 inch lengths)",
+        "1/4 cup heavy whipping cream"
+      ],
+      "steps": [
+        {
+        "pic": "gbc2.png",
+        "instruction":"Melt butter in a medium-large sauce pan over medium heat, finely crumble about a tablespoon of fried onion strings and stir into butter until evenly combined, then add diced onions and garlic and saute until onion is translucent."
+      },
+        {
+        "pic": "gbc2b.png",
+        "instruction":"Add mushrooms and continue to saute until mushrooms are sweating. (3-5 minutes)"
+      },
+        {
+        "pic": "gbc3.png",
+        "instruction":"Add soy sauce, broth and green beans. Cover and simmer for 7-10 minutes --until green beans reach desired tenderness."
+      },
+        {
+        "pic": "gbc4.png",
+        "instruction":"Remove from heat and stir in cream."
+      },
+        {
+        "pic": "gbc5.png",
+        "instruction":"Pour into a pie tin (or similar sized baking vessel) and crumble the remaining fried onion strings on top."
+      },
+        {
+        "pic": "gbcDone.png",
+        "instruction":"Air fry at 385 for 3-5 minutes --until mushroom gravy is bubbly and onion strings are browned."
+      }],
+      "notes": "This Dish Will Scratch Your Creamy, Crunchy, Savory, Umami Itch!"
+    },
+    {
+      "name": "Small Batch Mashed Potatoes",
+      "header_pic": "mpotDone.png",
+      "pub_date": "11/20/24",
+      "servings": "2-3 servings",
+      "related_recipes": ["Quick Thick Herb Gravy", "Small Batch Green Bean Casserole", "Holiday Sides Cup Cake Pies"],
+      "ingredients": [
+        "1 tablespoon unsalted butter",
+        "1/4 cup heavy whipping cream",
+        "1 large potato - peeled and chunked",
+        "Pinch of Salt"
+      ],
+      "steps": [
+        {
+        "pic": "mpot1.png",
+        "instruction":"Add sliced potato to a pot of boiling water and boil uncovered at high heat for 10-15 minutes (until potato chunks are tender and easy to pierce with a fork)."
+      },
+        {
+        "pic": "mpotDone.png",
+        "instruction":"Drain potatoes, add a pinch of salt, then use a whisk to whisk in butter then cream."
+      }],
+      "notes": "Serve with Gravy, Plain Yogurt &/Or Butter!"
+    },
+    {
+      "name": "Holiday Sides Cup Cake Pies",
+      "header_pic": "sidePieDone.png",
+      "pub_date": "11/22/24",
+      "servings": "8 servings",
+      "related_recipes": ["Quick Thick Herb Gravy", "Small Batch Green Bean Casserole", "small batch mashed potatoes"],
+      "ingredients": [
+        "9-inch pie crust dough (make fresh or buy rolled/refrigerated crust dough)",
+        "2 cups green bean casserole",
+        "2 cups mashed potatoes",
+        "1/2 cup gravy (optional)",
+        "1/2 cup cranberry sauce (optional)",
+        "1/4 cup fried onion strings",
+        "1/4 cup pomegranate seeds (optional)",
+        "8 pearl onions or cocktail onions"
+      ],
+      "steps": [
+        {
+        "pic": "sidePie2.png",
+        "instruction":"Using a 3.5 inch circle cutter, cut the pie dough into 8 mini crusts -- Save the scraps to make toppings."
+      },
+        {
+        "pic": "sidePieLined.png",
+        "instruction":"Line 8 cupcake cups with the pie crust (either silicone stand alone cups or regular metal cupcake pans lined with paper). Perforate the bottom and sides of the crust with a fork and airfry for 5 minutes at 385F -then set aside to cool."
+      },
+        {
+        "pic": "sidePies3.png",
+        "instruction":"Add 1-2 spoonfuls of green bean casserole to each mini pie shell."
+      },
+        {
+        "pic": "sidePies4.png",
+        "instruction":"On top of green bean casserole, add 1-2 spoonfuls of mashed potatoes."
+      },
+        {
+        "pic": "sidePieB.png",
+        "instruction":"Top cupcakes with additional desired toppings."
+      },
+        {
+        "pic": "sidePieTopped.png",
+        "instruction":"Airfry at 385 for 5-10 minutes (depending if potatoes and green beans are cold to start)."
+      },
+        {
+        "pic": "sidePies7.png",
+        "instruction":"Serve with Gravy and cranberry sauce."
+      }],
+      "notes": "Use Left-Overs From a Holiday Meal or Make From Scratch as a Party Appetizer"
+    },
+    {
+      "name": "Air Fried Veggies with Ricotta Honey Dip",
+      "header_pic": "vricotdone.png",
+      "pub_date": "12/06/24",
+      "servings": "2-3",
+      "related_recipes": [],
+      "ingredients": [
+        "2-3 cups chopped veggies (I use carrots and broccoli florets, but most veggies work)",
+        "1/2 tablespoon olive oil",
+        "1/4 cup ricotta cheese",
+        "1/2 tsp honey"
+      ],
+      "steps": [{
+        "pic": "vricot1.png",
+        "instruction":"Toss Veggies in olive oil and air fry at 385F for 10-15 minutes (depending on desired char and tenderness for the veggies)"
+      },{
+        "pic": "vricot2.png",
+        "instruction":"In a small bowl or cup, using a fork or whisk, stir honey into ricotta."
+      },{
+        "pic": "vricotdone.png",
+        "instruction":"Enjoy as a snack or side dish."
+      }],
+      "notes": "24 carrot yum"
+    },
+    {
+      "name": "Goat Cheese Stuffed Baby Bell Peppers",
+      "header_pic": "gpepdone.png",
+      "pub_date": "12/06/24",
+      "servings": "1",
+      "related_recipes": [],
+      "ingredients": [
+        "5 baby bell peppers (topped and de-seeded)",
+        "2 tablespoons plain goat cheese",
+        "A drizzle of olive (optional)"
+      ],
+      "steps": [{
+        "pic": "gpep1.png",
+        "instruction":"divide goat cheese into 5 equal portions and use spoon to poke a portion into each bell pepper. (optional - drizzle with olive oil)"
+      },{
+        "pic": "gpepdone.png",
+        "instruction":"Air Fry at 385 for 10-15 minutes --until skin is blistered and exposed goat cheese is browned. -- serve when warm, but not hot."
+      }],
+      "notes": "An Easy, Pleasing Appetizer"
+    },
+    {
+      "name": "Rice-oto Pilaf",
+      "header_pic": "riplafDone.png",
+      "pub_date": "12/13/24",
+      "servings": "3-4 servings",
+      "related_recipes": [],
+      "ingredients": [
+        "1 tablespoon of butter",
+        "1 clove of garlic - minced or pressed",
+        "1/4 tsp (freshly) ground black pepper",
+        "1/4-1/2 tsp finely diced fresh sage",
+        "2 cups sliced crimini or portabella mushroom",
+        "5-6 asparagus spears (fresh or frozen) - chopped into 1 inch lengths",
+        "1 cup butternut squash chopped into 1/2inc cubes",
+        "1 cup broth (or 1/2 bullion cube hydrated in 1 cup boiling water)",
+        "1 tsp soy sauce",
+        "1/4 cup chopped walnuts",
+        "1/2 cup shredded parmesan cheese",
+        "2 cups of cooked rice"
+      ],
+      "steps": [{
+        "pic": "riplaf1.png",
+        "instruction":"Melt butter in a large pan over medium heat then add garlic, black pepper and sage - stir fry in butter until garlic is fragrant (about 2 minutes)."
+      },{
+        "pic": "riplaf2.png",
+        "instruction":"Add Mushrooms and continue to saute until mushrooms are sweating (about 5 minutes) Then add asparagus and butternut squash."
+      },{
+        "pic": "riplaf3.png",
+        "instruction":"Saute another 5 minutes, then add broth and soy sauce, turn heat up to high and simmer for 8-10 minutes (until butternut squash is tender)"
+      },{
+        "pic": "riplaf4.png",
+        "instruction":"Remove from heat and stir in parmesan cheese."
+      },{
+        "pic": "riplaf5.png",
+        "instruction":"Stir in rice."
+      },{
+        "pic": "riplafdone.png",
+        "instruction":"Serve hot, a squeeze of lemon juice is nice if you have a fresh lemon handy."
+      }],
+      "notes": "It's like Rice Pilaf and Risotto had a baby!"
+    },
+    {
+      "name": "Ginger Molasses Cookies",
+      "featured": true,
+      "header_pic": "ginCookPre.png",
+      "pub_date": "12/20/24",
+      "servings": "3-4 servings",
+      "related_recipes": [],
+      "ingredients": [
+        "3/4 cup unsalted butter - softened",
+        "1 large egg",
+        "1 1/4 cup granulated sugar - divided",
+        "2 tablespoons fresh grated ginger",
+        "1/4 cup molasses",
+        "2 1/4 cups all-purpose flour",
+        "1 tsp baking soda",
+        "1/2 tsp salt"
+      ],
+      "steps": [{
+        "pic": "",
+        "instruction":"Dry Ingredients - In a medium-large bowl, whisk or mix together flour, baking soda, and salt."
+      },{
+        "pic": "ginCook1.png",
+        "instruction":"Using an electric mixer, in a large bowl, beat butter, 1 cup sugar, and ginger until light and fluffy. Then add in molasses and egg."
+      },{
+        "pic": "ginCookMol.png",
+        "instruction":"Note - If you're low on molasses, set the jar in a mug of hot water before pouring"
+      },
+        {
+        "pic": "ginCook2.png",
+        "instruction":"Using a rubber scraper or spoon, fold in the 'Dry Ingredients' until roughly combined, then cover and chill in the fridge for at least an hour."
+        },{
+        "pic": "",
+        "instruction":"Remove dough from fridge and preheat oven to 350F."
+      },{
+        "pic": "ginCook3.png",
+        "instruction":"Roll 1-2 inch balls of chilled dough in the remaining 1/4 cup of sugar and place 2 inches apart on an un-greased baking tray."
+      },{
+        "pic": "ginCook4.png",
+        "instruction":"Bake for 15 minutes (or until the edges are starting to brown)."
+      },{
+        "pic": "ginCookDone.png",
+        "instruction":"Remove from oven and cool on baking rack."
+      }],
+      "notes": "Raw Ginger Keeps It Fresh!"
+    },
+    {
+      "name": "Pecan Pie",
+      "header_pic": "pecPieDone.png",
+      "pub_date": "1/3/25",
+      "servings": "1 pie or 6-8 mini pies",
+      "related_recipes": [],
+      "ingredients": [
+        "2 large eggs (at room temperature)",
+        "1 cup light brown sugar",
+        "1/2 cup unsalted butter melted and cooled",
+        "1/4 cup white sugar",
+        "1 tsp vanilla extract",
+        "1 cup chopped pecans",
+        "1/2 cup pecan halves",
+        "1 un-baked pie crust (9inches)"
+      ],
+      "steps": [
+        {
+        "pic": "pecPie1.png",
+        "instruction":"Preheat oven to 400F. (If you would like to make mini pies instead of 1 large pie, cut pie dough into (6-8) 3-inch circles and line cupcake or mini pie tins with the dough.)"
+      },{
+          "pic": "",
+          "instruction": "In a large bowl, whisk eggs (until foamy). Add melted butter, brown sugar, white sugar, and flour; whisking continuously until well combined."
+        },{
+        "pic": "pecPie3.png",
+        "instruction": "Whisk in milk and vanilla, then stir in pecans."
+      },{
+        "pic": "pecPieDone2.png",
+        "instruction": "Pour into the pie shell and top with pecan halves."
+
+      },{
+        "pic": "pecPieDone.png",
+        "instruction": "Bake at 400F for 10 minutes, then reduce heat to 350F and bake for another 30-40 minutes (until filling is set). Remove from oven and cool to room temperature before serving."
+      }],
+      "notes": "That Icky Sticky!"
+    },
+    {
+      "name": "Asparagus Mushroom Quiche",
+      "header_pic": "asQuiDone.png",
+      "pub_date": "1/10/25",
+      "servings": "1 pie (serves 4-6)",
+      "related_recipes": [],
+      "ingredients": [
+        "1 un-baked pie crust (9inches)",
+        "2 tablespoons butter",
+        "1/2 cup chopped onion",
+        "1/2 tsp black pepper",
+        "1 cup chopped Asparagus",
+        "1 cup chopped Crimini or Button mushrooms",
+        "4 large eggs (at room temperature)",
+        "1 cup milk",
+        "1 cup grated cheese (cheddar, mozzarella and/or swiss)",
+        "1/4 tsp salt",
+        "6-12 baby bell peppers to decorate top (optional)"
+      ],
+      "steps": [
+        {
+        "pic": "asQui1.png",
+        "instruction":"Pre-bake the pie crust for 5-7 minutes (until starting to brown). NOTE - If you would like to make mini pies instead of 1 large pie, cut pie dough into (6-8) 3-inch circles and line cupcake or mini pie tins with the dough.)"
+      },{
+          "pic": "asQui2.png",
+          "instruction": "In a large skillet, melt butter over medium heat. Add onion and black pepper then cook about 5 minutes (until translucent and fragrant). Add asparagus and mushrooms cook 4-6 minutes more (until asparagus and mushrooms are tender, fragrant and starting to crisp)."
+        },{
+          "pic": "asQui3.png",
+          "instruction": "In a large bowl, whisk together eggs, milk, and salt then Stir in cheddar cheese and sauteed vegetables. (NOTE - you can prepare in advance and store this mixture in the fridge for upto 24 hours)"
+        },{
+          "pic": "asQui4.png",
+          "instruction": "Pour egg mixture into pre-baked pie crust and Bake at 375F for 40-45 minutes (until the center is set and the edges are golden brown)."
+        },{
+          "pic": "asQuiDone.png",
+          "instruction": "Let cool for 10 minutes before serving."
+        }],
+      "notes": "Nice Brunch After the Holidays... when Pie Crusts are On Sale!"
+    },
+    {
+      "name": "Traditional Sourdough Bread",
+      "pub_date": "1/17/25",
+      "related_recipes": ["Sourdough Starter"],
+      "header_pic": "sddone.png",
+      "servings": "1 loaf of bread",
+      "ingredients": [
+        "180g (3/4 cup) Sourdough Starter",
+        "50 g (1/3 cup - heaping) Bread Flour --For Levain",
+        "260 g (2 cup) Bread Flour --For Dough",
+        "180 ml (3/4 cup) water",
+        "7.5g (1 tsp) salt"
+      ],
+      "steps": [
+        {
+          "pic": "sd1.png",
+          "instruction":"To Make The Levain: In the bowl of a stand mixer fitted with a dough hook, knead together the sourdough starter and 50g bread flour at medium speed until thoroughly combined."
+        },
+        {
+          "pic": "",
+          "instruction":"cover the bowl with plastic wrap and let sit 8-10 hours at room temp"
+        },{
+          "pic": "",
+          "instruction":"To Make The Dough: Add 260g bread flour, water and salt to the bowl with the Levain. Mix on low speed (using dough hook) until well combined, then increaes the speed to medium and knead dough for 7-8 minutes (until smooth and elastic)."
+        },{
+          "pic": "",
+          "instruction":"Cover the dough and ferment 2 hours."
+        },{
+          "pic": "sd2.png",
+          "instruction": "Punch the dough down, round it, cover and rest 10 minutes (on countertop or sheet pan)"
+        },{
+          "pic": "",
+          "instruction": "Shape the dough into a plump oval and set on a parchment lined or flour dusted sheet pan and proof for 45-60 minutes (until the loaf should increase about 70 percent in size)"
+        },{
+          "pic": "sddone.png",
+          "instruction": "Score the proofed loaf lengthwise 3-4 times then bake at 425 for 40-45 minutes --injecting steam for the first 3-5 minutes. Crust should be dark brown."
+        }],
+      "notes": "Proof that good things take time."
+    },
+    {
+      "name": "Lemon Meringue Pie",
+      "header_pic": "lemPieDone.png",
+      "pub_date": "1/24/25",
+      "servings": "1 pie or 6-8 mini pies",
+      "related_recipes": [],
+      "ingredients": [
+        "2 cups granulated sugar (1 1/2 cups for filling and 1/2 cup for meringue)",
+        "3 tablespoons corn starch",
+        "1 pinch of salt",
+        "1 1/2 cups cold water",
+        "5 eggs (5 yolks for filling and 5 whites for meringue)",
+        "1/4 cup fresh lemon juice (squeeze 6-8 fresh lemons depending on size)",
+        "1 tablespoon fresh lemon zest (grated from 2-4 lemons)",
+        "1 tablespoon unsalted butter -at room temperature",
+        "1 pie crust -pre baked"
+      ],
+      "steps": [
+        {
+          "pic": "",
+          "instruction": "To prepare pie crust line a pie tin with pie dough or cut pie dough into (6-8) 3-inch circles and line cupcake or mini pie tins with the dough, then air fry for 4-6 minutes at 385 or bake at 400 for 7-10 minutes until starting to brown."
+        },
+        {
+          "pic": "lemPie1.png",
+          "instruction":"In a medium-large pot, stir sugar, corn starch and salt into cold water. Cook over medium heat, stirring constantly until thick and almost clear."
+        },
+        {
+          "pic": "lemPie2.png",
+          "instruction": "Temporarily remove the pot from the burner and in a separate bowl, whisk together approx 1 cup of hot liquid with the egg yolks (to temper the eggs)."
+        },
+        {
+          "pic": "",
+          "instruction": "Whisk the yolk mixture in with the rest of the sugar starch water and return to heat, stirring constantly until thick and smooth."
+
+        },
+        {
+          "pic": "",
+          "instruction": "Stir in the lemon juice and zest then remove from heat and stir in the butter until melted and thoroughly combined."
+
+        },
+        {
+          "pic": "lemPie3.png",
+          "instruction": "Set the filling aside to cool for 3-5 minutes then pour into pre-baked pie-crust"
+        },
+        {
+          "pic": "lemPie4.png",
+          "instruction": "To make the meringue, In a large (chilled) bowl use electric mixer with (chilled) beater attachment, whip the eggwhites until soft peaks form, them slowly add 1/2 cup of white sugar (in small batches with mixer on high speed) until a stiff glossy meringue forms."
+        },
+        {
+          "pic": "lemPie5.png",
+          "instruction": "Using a rubber scraper, glob the meringue over the pie filling and then smooth it into decorative peaks."
+        },
+        {
+          "pic": "lemPieDone.png",
+          "instruction": "Bake at 400 5-8 minutes (until the meringue browns). Let cool then refrigerate to chill filling. Best serve same day as baked."
+        }],
+      "notes": "A nice treat when you're rolling deep in eggs!"
+    },
+    {
+      "name": "Pavlova",
+      "header_pic": "pavDone.png",
+      "pub_date": "1/31/25",
+      "servings": "1 pavlova (4-6 servings)",
+      "related_recipes": [],
+      "ingredients": [
+        "1.5 cups + 1 tablespoon fine casters sugar or table sugar (separated)",
+        "6 egg whites",
+        "1 cup heavy whipping cream",
+        "1/4 tsp vanilla",
+        "2-4 cups sliced strawberries and/or other berries"
+      ],
+      "steps": [
+        {
+          "pic": "",
+          "instruction": "Preheat oven to 245F DO NOT USE AIR FRYER OR CONVECTION SETTING ON OVEN OR PAVLOVA MAY FALL."
+        },{
+          "pic": "finesugar.png",
+          "instruction": "IF YOU ARE USING REGULAR TABLE SUGAR, BLEND IT IN 1/2 CUP BATCHES (PULSING EACH BATCH FOR ABOUT 30 SECONDS) TO MAKE IT MORE LIKE CASTERS SUGAR"
+        }, {
+          "pic": "",
+          "instruction": "Draw a 9 inch circle on a piece of parchment paper and use it to line a baking tray (drawing side down)."
+        }, {
+          "pic": "pav1.png",
+          "instruction": "Using an electric mixer, beat egg whites on medium-high speed, until soft peaks form, then gradually add 1.5 cups of sugar (about 1 tablespoon at a time)."
+        }, {
+          "pic": "pav2.png",
+          "instruction": "Using a rubber spatula, dollup the whipped egg whites in the middle of the circle on the baking sheet, then form the mixture into a high circle."
+        }, {
+          "pic": "",
+          "instruction": "Bake for 80-90 minutes, until shell is firm. Disturb the baking Pavlova as little as possible --- Opening the oven before it is set, can cause it to crack or fall."
+        }, {
+          "pic": "",
+          "instruction": "Turn off oven and allow Pavlova to cool down undisturbed in the oven for 1-2 hours."
+        }, {
+          "pic": "pav3.png",
+          "instruction": "When it is almost cool, use electric mixer to whip the heavy cream, vanilla and remaining 1 tablespoon of sugar until stiff peaks form."
+        }, {
+          "pic": "pavDone.png",
+          "instruction": "Gently spoon whipped cream onto the cooled Pavlova and arrange berries on top."
+        }
+        ],
+      "notes": "A Desert Fit For A Premier Ballerina!"
+    },
+    {
+      "name": "Fresh Rolls",
+      "header_pic": "frolldone2.png",
+      "featured": true,
+      "pub_date": "2/7/25",
+      "servings": "Varies",
+      "related_recipes": [],
+      "ingredients": [
+        "Dehydrated rice paper wrapper",
+        "Fresh Thai Basil Leaves",
+        "Fresh Mint Leaves",
+        "Fresh Cilantro Leaves",
+        "Shredded Lettuce",
+        "Shredded Carrot",
+        "Cucumber sliced into match sticks or spears",
+        "chopped or crushed peanuts",
+        "Avocado",
+        "Fried Tofu",
+        "Rice Vermicelli noodles"
+      ],
+      "steps": [
+        {
+          "pic": "frollpre.png",
+          "instruction": "NOTE - All ingredients are suggestions only, you can sub in or out whatever you want -- except the mint and thai basil... those are what make these rolls pop"
+        },{
+          "pic": "hydratenoodles.png",
+          "instruction": "If you are Using Rice Vermicelli, hydrate it by putting it in a bowl and pouring boiling water on, stire noodles to make sure they are fully submerged then, after 1-2 minutes drain water and set aside."
+        },
+        {
+          "pic": "sRollRinse.png",
+          "instruction": "Follow instructions on rice paper wrappers to hydrate (for mine I just needed to quickly rinse both sides of rice paper wrapper under running water to wet it then gently shake off excess moisture (other warppers may require longer hydration)"
+        },{
+          "pic": "frollr1.png",
+          "instruction": "Lay the rice paper wrapper 'textured-side' down on a plate such that the wrapper is hanging over the edge of the plate by 1-2 inches then, leaving about an inch on the side edges, arrange your fillings on the moistened wrapper --keep in mind, the more fillings you add the more likely your roll will tear, but if you don't have enough or the wrapper get bunched up it will be chewy AF"
+        },{
+          "pic": "frollup.png",
+          "instruction": "Carefully fold each edge, pull taught and stick the edge to the bottof wrapper so that the filling is snug on each side. Then roll like a burrito, keeping filling tucked and tight as you go."
+        },{
+          "pic": "frolldone2.png",
+          "instruction": "Serve with Peanut Sauce, Sweet and Sour or whatever you want to dunk it in"
+        }
+        ],
+      "notes": "Roll W/ The Freshest Wraps in Your Hood!"
+    },
+    {
+      "name": "Fettuccine and Broccoli Alfredo",
+      "header_pic": "alfPre.png",
+      "pub_date": "2/14/25",
+      "servings": "2-3 servings",
+      "related_recipes": ["Pasta Dough"],
+      "ingredients": [
+        "Fettuccine Pasta (or sheets of fresh pasta cut into strips)",
+        "broccoli",
+        "1/4 cup butter (1/2 stick)",
+        "1/2 cup heavy cream (room temperature)",
+        "1/4 cup grated parmesan cheese",
+        "1/4 tsp (fresh ground) black pepper",
+        "1-2 tablespoon pasta water",
+        "fresh parsley"
+      ],
+      "steps": [
+        {
+          "pic": "alfPre.png",
+          "instruction": "To make Alfredo sauce, melt butter in a sauce pan over medium heat and mince or finely chop garlic. Saute the garlic along with black pepper over medium heat until garlic is starting to sizzle and is fragrant."
+        },{
+          "pic": "alf3.png",
+          "instruction": "Remove sauce from heat and let cool for 5 minutes, then whisk in heavy cream."
+        },{
+          "pic": "alf2.png",
+          "instruction": "As the sauce is cooling, Steam broccoli to desired crispness and boil pasta (3-5 minutes for fresh noodles and 11 minutes for dry pasta), reserving 1-2 tablespoons of the 'pasta water' when you drain it."
+        },
+        {
+          "pic": "alf4.png",
+          "instruction": "Return sauce to LOW heat and continue to whisk, gradually sprinkling in parmesan. DO NOT LET THE SAUCE BOIL. Continue to whisk over low heat until parmesan is completely incorporated. If sauce is clumpy or too thick, whisk in 1-2 tablespoons of (reserved) pasta water --until sauce is desired thickness"
+        },
+        {
+          "pic": "alfDone.png",
+          "instruction": "Then top pasta and broccoli with Alfredo Sauce and sprinkle on chopped parsley leaves for a pop of freshness."
+        }
+        ],
+      "notes": "Be Cheesy - Broc the Night Away!"
+    },{
+      "name": "Strawberry Cream Cheese French Toast Bites",
+      "header_pic": "ftdone.png",
+      "pub_date": "2/21/25",
+      "servings": "1 serving",
+      "related_recipes": [],
+      "ingredients": [
+        "1 thick slice of bread",
+        "1 egg",
+        "2 tablespoons heavy cream",
+        "1 tablespoon water",
+        "A drop of vanilla",
+        "A pinch of cinnamon",
+        "1/2 tablepsoon butter",
+        "1 tablespoon cream cheese",
+        "3-4 strawberries"
+      ],
+      "steps": [
+        {
+          "pic": "ft1.png",
+          "instruction": "Whisk together cream, egg, water, vanilla and cinnamon and pour into a shallow dish, slice bread into strips or squares and soak in egg mixture. (Leave each side soaking for 1-2 minutes or until fully saturated)."
+        },
+        {
+          "pic": "ft2.png",
+          "instruction": "Melt butter in a frying pan and cook each side of each bread piece for 2-3 minutes."
+        },
+        {
+          "pic": "ft3.png",
+          "instruction": "Slice strawberries so that there is enough to put at least 1 slice of strawberry on each piece of french toast, then divy up cream cheese and spread a portion on each of the strawberries (to sort of glue them to the french toast bites)."
+        },{
+          "pic": "ftdone2.png",
+          "instruction": "Stick a cream cheesed up strawberry onto each french toast bite and enjoy."
+        }
+
+      ],
+      "notes": "The Toast of The Town"
+    },{
+      "name": "Good Morning, Sunshine Bowl",
+      "header_pic": "goodmorningbowl.png",
+      "pub_date": "2/28/25",
+      "servings": "1 serving",
+      "related_recipes": [],
+      "ingredients": [
+        "1/2 Cup greek yogurt",
+        "1/2 Cup cherry tomatoes",
+        "Fresh Basil",
+        "1/2 Avocado",
+        "1 Mango",
+        "Handful of walnuts",
+        "Fresh Cilantro",
+        "Sesame seeds",
+        "Lime juice",
+        "1 tsp honey"
+      ],
+      "steps": [
+        {
+          "pic": "",
+          "instruction": "Slice tomatoes in half or quarters, finely chop basil and toss with tomatoes."
+        },{
+          "pic": "",
+          "instruction": "Slice Mango and avocado into chunks, toss together with cilantro leaves, walnuts, sesame seeds and lime juice and honey."
+        },{
+          "pic": "goodmorningbowl.png",
+          "instruction": "Plate greek yogurt between the tomato salad and the mango salad and enjoy (note - both the tomato salad and the mango salad taste good with the yogurt but the tomatoes are kind of weird with the mango)"
+        }
+
+      ],
+      "notes": "Start your Day Fresh"
+    },{
+      "name": "Herb Croutons",
+      "header_pic": "croutonsdone.png",
+      "featured": true,
+      "pub_date": "3/7/25",
+      "servings": "Approx 32 oz of croutons",
+      "related_recipes": ["San Francisco Style Sourdough Bread", "Traditional Sourdough Bread"],
+      "ingredients": [
+        "4-6 cups stale bread -cubed",
+        "2 tablespoons finely diced fresh herbs (parsley, sage, garlic, etc)",
+        "1/2 teaspoon ground black pepper",
+        "2 tablespoons olive oil (in a spritz bottle if possible)"
+      ],
+      "steps": [
+        {
+          "pic": "croutons1.png",
+          "instruction": "Spray/ coat breadcrumbs with approx 2 tablespoons of olive oil and toss with fresh herbs in a large bowl."
+        },{
+          "pic": "croutons2.png",
+          "instruction": "Air fry (in batches if necessary) at 385F until crisp and brown: about 5-8 minutes, shaking half way through."
+        },{
+          "pic": "croutonsdone.png",
+          "instruction": "Store in Jars and Enjoy as a Snack or Salad Topper. Save the breadcrumbs as breading or sprinkle on pasta bakes etc."
+        }
+
+      ],
+      "notes": "Nice as a Snack or Salad Topper"
+    },
+    {
+      "name": "Garlic Soy Green Beans",
+      "header_pic": "gbeansdone.png",
+      "pub_date": "3/14/25",
+      "servings": "3-4 Servings",
+      "related_recipes": [],
+      "ingredients": [
+        "3-4 cloves of garlic - crushed or minced",
+        "2 tablespoons unsalted butter",
+        "1 teaspoon soy sauce",
+        "1 lb whole green beans/string beans (stems and strings removed)"
+      ],
+      "steps": [
+        {
+          "pic": "gbeans1.png",
+          "instruction": "Bring a large pot of water to a rapid boil and add green beans. Boil for 3-4 minutes (until beans are just getting tender). Then quickly strain in a colander and rinse with cold water."
+        },{
+          "pic": "gbeans2.png",
+          "instruction": "Set the green beans aside and in a large pan melt butter and saute garlic over medium heat for 3-4 minutes until garlic is fragrant then add the beans and soy sauce."
+        },{
+          "pic": "gbeansdone.png",
+          "instruction": "Continue to cook green beans for 4-5 minutes, stirring constantly until they start to get a slight blister/ char."
+        }
+      ],
+      "notes": "Show Your Savory Side"
+    },
+    {
+      "name": "Air Fried Crispy Tofu",
+      "header_pic": "ftofudone.png",
+      "pub_date": "3/21/25",
+      "servings": "3-4 Servings",
+      "related_recipes": [],
+      "ingredients": [
+        "1 block of Extra Firm Tofu (14-16 oz) ",
+        "1 tsp Soy Sauce",
+        "1 Tablespoon Corn Starch",
+        "1/2 tsp Ground Black Pepper",
+        "1/2 tsp Chili Powder or paprika",
+        "1 Tsp Sesame Oil (or whatever oil you have on hand)"
+      ],
+      "steps": [
+        {
+          "pic": "ftofu1.png",
+          "instruction": "Press tofu to drain excess water. My method is to wrap with a paper towel and put a heavy cookbook on top for 10 minutes, then remove wet paper towel, re-wrap with a dry one, flip the tofu over and put the book on top for another 10 minutes."
+        },{
+          "pic": "ftofu3.png",
+          "instruction": "Cut tofu into approx 1 inch cubes and, in a large mixing bowl, drizzle soy sauce over tofu cubes and mix to coat all cubes."
+        },{
+          "pic": "ftofu4.png",
+          "instruction": "In a separate (small) bowl, whisk together dry ingredients then evenly coat the tofu with the dry ingredients before drizzling or spraying the oil over the coated tofu. Then remix until oil is evenly distributed."
+        },{
+          "pic": "ftofudone.png",
+          "instruction": "Air fry at 385 for 15 minutes and serve with your favorite dipping sauce."
+        },{
+          "pic": "tofuSamDone.png",
+          "instruction": "Note - This tofu is also nice over rice, in a sandwich or burrito"
+        }
+      ],
+      "notes": "A Tofu Treat To Satisfy Vegetarians' McMemories of Nuggets"
+    },
+    {
+      "name": "Eggs in a Basket",
+      "header_pic": "ebdone.png",
+      "pub_date": "3/28/25",
+      "servings": "1 Serving",
+      "related_recipes": ["Traditional Sourdough Bread", "San Francisco Style Sourdough Bread"],
+      "ingredients": [
+        "1 egg",
+        "1 slice of bread",
+        "1/2 tablespoon butter",
+        "sprinkle of shredded cheese"
+      ],
+      "steps": [
+        {
+          "pic": "eb2.png",
+          "instruction": "melt butter in a small pan"
+        },{
+          "pic": "",
+          "instruction": "Make a hole in the middle of a piece of bread, when the butter is hot dip one side of the bread in the butter, then flip over to let the other side soak up the rest of the butter"
+        },{
+          "pic": "eb3.png",
+          "instruction": "Crack egg, so that the yolk lands in the bread hole then swivel the pan to spread the egg white around the bread."
+        },{
+          "pic": "ebcheese.png",
+          "instruction": " Cook for 2-3 minutes, then carefully flip (without breaking the yolk), then cook for 2-3 minutes on the otherside"
+        },{
+          "pic": "ebdone2.png",
+          "instruction": "Sprinkle cheese on top and enjoy (Personally, I like to tear the corners off and dip them in the yolk)"
+        }
+      ],
+      "notes": "An eggcellent way to eat toast and eggs!"
+    },
+    {
+      "name": "Marinated Artichokes",
+      "header_pic": "mchokedone.png",
+      "pub_date": "4/4/25",
+      "servings": "3-4 Servings",
+      "related_recipes": [],
+      "ingredients": [
+        "6-12 medium - very small artichokes",
+        "2 cloves garlic (pressed or minced)",
+        "1/4 cup olive oil",
+        "2 tablespoons lemon juice + extra for soaking raw, sliced artichokes",
+        "1 tsp dried oregano leaves",
+        "1/8 tsp black pepper",
+        "1/8 tsp salt"
+      ],
+      "steps": [
+        {
+          "pic": "",
+          "instruction": "Prep Artichokes: Add lemon juice to a bowl of cold water (to keep prepped raw artichokes from browning)"
+        },{
+          "pic": "",
+          "instruction": "Snap off the tough outer leaves until you reach the tender inner leaves. Trim the stem, leaving about 1 inch."
+        },{
+          "pic": "mchoke1.png",
+          "instruction": "Cut off the top third of the artichoke then cut in half."
+        },{
+          "pic": "mchoke2.png",
+          "instruction": "Use a spoon to scoop out the fuzzy choke in the center."
+        },{
+          "pic": "mchoke3.png",
+          "instruction": "Put prepped artichokes into lemon water (to prevent browning)."
+        },{
+          "pic": "mchoke4.png",
+          "instruction": "Cook Artichokes: Bring a pot of salted water to a boil. Add the artichoke halves and cook until tender, about 15-20 minutes"
+        },{
+          "pic": "",
+          "instruction": "Drain the artichokes and let them cool and cut larger artichoke halves in half (1/4 of full artichoke)."
+        },{
+          "pic": "mchoke6.png",
+          "instruction": " Pull any remaining tough leaves off the cooled artichokes (you can set these aside as a snack to dip in butter, lemon juice or mayonnaise and scrape the leaf pulp with your teeth)."
+        },{
+          "pic": "mchoke7.png",
+          "instruction": "Prepare Marinade: In a jar, shake to combine olive oil, lemon juice, garlic, oregano, salt, and pepper."
+        },{
+          "pic": "",
+          "instruction": "Place the cooked artichoke hearts in the jar of marinade."
+        },{
+          "pic": "",
+          "instruction": "Gently swivel and agitate the jar to coat artichokes"
+        },{
+          "pic": "mchokedone.png",
+          "instruction": "Refrigerate for at least 2 hours, or preferably overnight, to allow the flavors to meld"
+        },{
+          "pic": "mchokepasta.png",
+          "instruction": "Serve the marinated artichokes as an appetizer, toast topper or in pasta (or other) salad. Stays good in refrigerator for upto a week."
+        },{
+          "pic": "",
+          "instruction": "Note- You can swap in or out ingredients for the marinade to better fit your taste -e.g. Add red pepper flakes to give it some heat, use balsamic vinegar instead of lemon juice, Add sliced onions or bell peppers to the marinade(esp good if using the artichokes in pasta salad) or add other herbs and spices, such as thyme, rosemary, or bay leaves."
+        }
+      ],
+      "notes": "Eat Your Heart Out"
+    },
+    {
+      "name": "Ricotta Artichoke GarlicToast",
+      "header_pic": "arictoastDone.png",
+      "pub_date": "4/4/25",
+      "servings": "2-4 Servings",
+      "related_recipes": ["Marinated Artichokes","San Francisco Style Sourdough Bread","Traditional Sourdough Bread"],
+      "ingredients": [
+        "4 Slices of Bread",
+        "1/2 cup ricotta cheese",
+        "1/4 cup shredded mozzarella",
+        "2 cloves of garlic (minced or pressed)",
+        "Marinated Artichokes"
+      ],
+      "steps": [
+        {
+          "pic": "arictoast1.png",
+          "instruction": "Combine ricotta, mozzarella and garlic."
+        },{
+          "pic": "arictoast2.png",
+          "instruction": "Spread ricotta mixture onto bread and top with marinated artichokes."
+        },{
+          "pic": "",
+          "instruction": "Airfry for 7-8 minutes (or bake for 10 minutes then broil for 2 minutes)"
+        }
+      ],
+      "notes": "A Toast to Artichokes"
+    },
+    {
+      "name": "Hash Browns For a Rainy Day",
+      "header_pic": "hbrownC2.png",
+      "pub_date": "4/11/25",
+      "servings": "4-6 Servings",
+      "related_recipes": [],
+      "ingredients": [
+        "6 (old) potatoes",
+        "1 tablespoon chopped green onion (optional)",
+        "1/4 tsp salt",
+        "1/2 tsp (fresh) ground black pepper"
+      ],
+      "steps": [
+        {
+          "pic": "hbrown1.png",
+          "instruction": "If you've got sprouts on some potatoes (that you don't want to plant), why not make 'em into hash browns."
+        },{
+          "pic": "hbrownnubknock.png",
+          "instruction": "IMPORTANT - Rub and/or scrub off any sprouts from the potatoes (the sprouts may contain traces of toxins)."
+        },{
+          "pic": "hbrown2.png",
+          "instruction": "Shred potatoes using a cheese grater, then soak shredded potatoes in a large bowl of water (to leach off excess starch)."
+        },{
+          "pic": "hbrownboil.png",
+          "instruction": "While the potatoes soak, finely slice green onions and bring a large pot of water to a boil."
+        },{
+          "pic": "hbrownpress.png",
+          "instruction": "When the water is boiling, strain the soaking potatoes in a colander (in a sink) and optionally, for crispier hash browns - press with a towel to absorb more starch."
+        },{
+          "pic": "hbrownsoak.png",
+          "instruction": "Prepare an ice bath in your potato-soaking bowl and, then boil the potatoes for 1-2 minutes."
+        },{
+          "pic": "",
+          "instruction": "drain in a colander, then plunge the drained potatoes into your ice bath and then remove, and drain them when they're cool."
+        },{
+          "pic": "",
+          "instruction": "Using a towel, press the moisture out of the potatoes, then use hands to mix in green onion, salt and pepper"
+        },{
+          "pic": "hbrownf1.png",
+          "instruction": "Press the potatoes into a small layer onto a metal baking sheet, loaf pans etc and place into freezer until frozen solid (an hour or so)."
+        },{
+          "pic": "hbronwf3.png",
+          "instruction": "Slide the frozen solid potatoes into freezer bags for storage."
+        },{
+          "pic": "hbrownc1.png",
+          "instruction": "When you're ready to eat 'em, heat them on the rack of an air fryer at 400 for 5 minutes."
+        },{
+          "pic": "hbrowndone1.png",
+          "instruction": "then stir and shake to break up and air fry for another 5 minutes at 400."
+        }
+      ],
+      "notes": "Turn yesterday's potatoes into tomorrow's hash browns"
+    },
+    {
+      "name": "Steamy Cheesy Artichoke Dip",
+      "header_pic": "adipdone.png",
+      "pub_date": "4/18/25",
+      "servings": "1-1.5 cups (3-6 Servings)",
+      "related_recipes": ["Marinated Artichokes","San Francisco Style Sourdough Bread","Traditional Sourdough Bread"],
+      "ingredients": [
+        "(8-10 small artichokes) or 7 oz canned artichokes",
+        "(if working with fresh artichokes) 1/2 -1  tablespoon lemon juice ",
+        "(if working with fresh artichokes) 1/4 tsp salt ",
+        "1/2 cup mayonnaise",
+        "1/2 cup grated parmesan",
+        "1/4 cup grated mozzarella",
+        "1-2 cloves garlic - minced or pressed",
+        "pinch of red pepper flakes (optional)",
+        "1/4 tsp (fresh) ground black pepper",
+        "1-2 tablespoons breadcrumbs (optional)",
+        "Dip-To-Mouth-Vessels (such as chips or crusty bread)"
+      ],
+      "steps": [
+        {
+          "pic": "adip1.png",
+          "instruction": "<----- If Using Fresh Artichokes - Follow instructions from marinated artichoke recipe (on this site) to prep and boil artichoke hearts."
+        },{
+          "pic": "",
+          "instruction": "If Using Canned Artichokes - Drain the canned artichoke hearts well and roughly chop them into smaller, bite-sized pieces."
+        },{
+          "pic": "adip2.png",
+          "instruction": "In a medium bowl, combine the chopped artichoke hearts, mayonnaise, Parmesan cheese, mozzarella cheese, red pepper flakes (if using), salt, pepper and minced garlic."
+        },{
+          "pic": "adip4.png",
+          "instruction": "Spread the mixture evenly in a small baking dish and top with breadcrumbs."
+        },{
+          "pic": "adip5.png",
+          "instruction": "Air fry for 10-15 minutes at 375F, or until the dip is hot, bubbly, and golden brown on top."
+        },{
+          "pic": "adipdone.png",
+          "instruction": "Serve with chips, pita or crusty bread."
+        }
+      ],
+      "notes": "Put Some Heart into Your Dip"
+    },
+    {
+      "name": "Yardfresh Breakfast Burrito",
+      "header_pic": "bburdone.png",
+      "featured": true,
+      "pub_date": "4/25/25",
+      "servings": "2 burritos",
+      "related_recipes": ["Hash Browns For a Rainy Day"],
+      "ingredients": [
+        "1 tablespoon butter",
+        "3-4 eggs",
+        "1 tablespoon chopped green onion",
+        "(fresh) ground black pepper",
+        "1-2 cups frozen hash browns",
+        "1/4 -1/2 cup greek yogurt or sour cream",
+        "1/4-1/2 cup shredded cheese",
+        "1/4 cup grated mozzarella",
+        "2-4 tablespoons green (or red) salsa",
+        "2 flour tortillas"
+      ],
+      "steps": [
+        {
+          "pic": "bbur1.png",
+          "instruction": "Melt butter in a pan and scramble eggs together with pepper and green onion."
+        },{
+          "pic": "bburcheese.png",
+          "instruction": "Optional - To ensure that cheese is melted and help make the tortillas pliable, sprinkle cheese on each tortilla and microwave for 30 seconds."
+        },{
+          "pic": "bburhb.png",
+          "instruction": "Cook Hash browns and place all ingredients (in rows at one end of the tortilla)."
+        },{
+          "pic": "bburroll.png",
+          "instruction": "Roll up and enjoy."
+        }
+      ],
+      "notes": "Elevate Eggs From Hen House to Handheld Helpins of Homemade Goodness"
     }
   ]
 }

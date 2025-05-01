@@ -1,10 +1,1272 @@
 {
-  "data": [
+  "data":  [
+  {
+    "youtubeID": "cz3icswXVF0",
+    "title": "McGoats raids the chicken coop",
+    "albums": ["goats", "animals"],
+    "release_date": "9/27/24"
+  },
+  {
+    "youtubeID": "Uo8EC0U5iCo",
+    "title": "chicks exploring",
+    "albums": ["chickens", "animals"],
+    "release_date": "9/27/24"
+  },{
+      "youtubeID": "bxmE9YXxFmg",
+      "title": "Huey and Xena Love Wrestling",
+      "albums": ["dogs", "animals"],
+      "release_date": "9/27/24"
+    },
+  {
+    "youtubeID": "RrNs9BAL6S0",
+    "title": "Huey Teaching me which toys he likes best.Episode 1 Alligator V Turtle",
+    "albums": ["dogs", "animals"],
+    "release_date": "9/27/24"
+  },
+  {
+    "youtubeID": "Ey92lBEr-Wc",
+    "title": "Butterfly Fresh Out Of Its Cocoon ",
+    "albums": ["wildlife", "animals"],
+    "release_date": "9/27/24"
+  },
+  {
+    "youtubeID": "OIGeXAjvL4E",
+    "title": "Love Birds Snacking on Giant Sunflowers",
+    "albums": ["wildlife", "animals"],
+    "release_date": "9/27/24"
+  },
+  {
+    "youtubeID": "NoNBQklegKo?",
+    "title": "Xena and Pajama Enjoying the Fall Weather!",
+    "albums": ["dogs", "animals"],
+    "release_date": "9/27/24"
+  },{
+    "youtubeID": "WQm9I3alVSg",
+    "title": "Glad someone's Finally Using The Bowflex",
+    "albums": ["dogs", "animals"],
+      "release_date": "9/27/24"
+    },
+  {
+    "youtubeID": "F3LDBVHpgfQ",
+    "title": "Found This Guy Trying To Fish In Our Pond",
+    "albums": ["wildlife", "animals"],
+    "release_date": "9/27/24"
+  },
+  {
+    "youtubeID": "6T75yYz6QAI",
+    "title": "Check out this dirty chick having a dust bath",
+    "albums": ["chickens", "animals"],
+    "release_date": "9/27/24"
+  },
     {
+      "youtubeID": "UqPADTNqGTI",
+      "title": "My Leghorn Fan Club Always Comes Flying To Get Treats",
+      "albums": ["chickens", "animals"],
+      "release_date": "9/27/24"
+    },{
+      "youtubeID": "UkSUFC6aW1I",
+      "title": "Our dogs breathing in that sweet puppy oxytocin the day I found lil muffin wandering in the street",
+      "albums": ["dogs", "animals"],
+      "release_date": "9/27/24"
+    },
+    {
+      "youtubeID": "r2b3DIUO9AU",
+      "title": "Chickens Chillin in The Pond",
+      "albums": ["chickens", "animals"],
+      "release_date": "9/27/24"
+    },
+    {
+      "youtubeID": "NULXjMNcn2w",
+      "title": "Having a Catch With Huey Kabluey",
+      "albums": ["dogs", "animals"],
+      "release_date": "9/27/24"
+    },
+    {
+      "youtubeID": "bherazG8iTY",
+      "title": "Arthur Caught a Big Ol' Scorpion in Our Backyard",
+      "albums": ["wildlife", "animals"],
+      "release_date": "9/27/24"
+    },
+    {
+      "youtubeID": "jFqmt_9XD-U",
+      "title": "I thought the dogos would go crazy for my new hat... zero fux given",
+      "albums": ["dogs", "animals"],
+      "release_date": "9/27/24"
+    },{
+      "youtubeID": "KdIrTX9wcWo",
+      "title": "Totes and McGoats Trying to Find out Who's the GOAT of table dancing!",
+      "albums": ["goats", "animals"],
+      "release_date": "10/4/24"
+    },{
+      "youtubeID": "F5pDR7GzX1Q",
+      "title": "Huey Teaching me which toys he likes best. ChuckIt V Turtle",
+      "albums": ["dogs", "animals"],
+      "release_date": "10/4/24"
+    },
+    {
+      "youtubeID": "iXnVdxRtRo4",
+      "title": "Sammy Struts By McGoats Like He Doesn't See Him Flexing",
+      "albums": ["chickens", "goats", "animals"],
+      "release_date": "10/4/24"
+    },
+    {
+      "youtubeID": "c6EtQUjTA5U",
+      "title": "Thirsty Chicks Having a drink (1 week old Aya and Sammy staying hydrated)",
+      "albums": ["chickens", "animals"],
+      "release_date": "10/4/24"
+    },
+    {
+      "youtubeID": "RoAM89MKXnU",
+      "title": "Bro is GOATED Baby Goats Kids head butting and playing G.O.A.T. of the hill",
+      "albums": ["goats", "animals"],
+      "release_date": "10/4/24"
+    },
+    {
+      "youtubeID": "F5pDR7GzX1Q",
+      "title": "Xena's trying to play with the dogs on the screen",
+      "albums": ["dogs", "animals"],
+      "release_date": "10/4/24"
+    },
+    {
+      "youtubeID": "0HrUwvYM1po",
+      "title": "Huey Ka-Bluey with another amazing catch",
+      "albums": [ "dogs", "animals"],
+      "release_date": "10/4/24"
+    },
+    {
+      "youtubeID": "oRu1Mi0ifZU",
+      "title": "Huey Ka-Bluey catches flying turtles like he's a super Mario Brother",
+      "albums": ["dogs", "animals"],
+      "release_date": "10/11/24"
+    },{
+      "youtubeID": "yKpOoAmH_YU",
+      "title": "Totes takes the stairs",
+      "albums": ["goats", "animals"],
+      "release_date": "10/11/24"
+    },{
+      "youtubeID": "u1fo9vt0S9g",
+      "title": "Will She Or Wont She? Leghorn hen on the fence about flying into our artichoke garden",
+      "albums": ["chickens", "animals"],
+      "release_date": "10/11/24"
+    },
+    {
+      "youtubeID": "vK0z5BSsPTA",
+      "title": "Chickens trying to get around a fence look like me learning to use a look stick for Skyrim!",
+      "albums": ["chickens", "animals"],
+      "release_date": "10/11/24"
+    },{
+      "youtubeID": "aYYD-yaLdIk",
+      "title": "Having a moment of Zen, watching fish in our pond when a Leghorn hops on my back",
+      "albums": ["chickens", "wildlife","animals"],
+      "release_date": "10/11/24"
+    },{
+      "youtubeID": "rj1Q0Erll0Q",
+      "title": "Baby Leghorn, Buff Orpington and Ayam Cemani chicks chirping pecking and running for treats ",
+      "albums": ["chickens", "animals"],
+      "release_date": "10/11/24"
+    },{
+      "youtubeID": "C1dCST6_u04",
+      "title": "Some Chicks Spook Easily",
+      "albums": ["chickens", "animals"],
+      "release_date": "10/11/24"
+    },{
+      "youtubeID": "ji6vqbXgNuo",
+      "title": "Huey Ka-Bluey teaching me which toys he likes better. Episode 4 Green Vs Blue Dog-O-Soar",
+      "albums": ["dogs", "animals"],
+      "release_date": "10/11/24"
+    },{
+      "youtubeID": "kmt63Vby2Qc",
+      "title": "Beep-beep! A desert Roadrunner Checking Our Yard Out",
+      "albums": ["dogs", "animals"],
+      "release_date": "10/11/24"
+    },
+    {
+      "youtubeID": "4aeHP9EQMQE",
+      "title": "Totes and McGoats Playing Chase Games Around Their Picnic Table",
+      "albums": ["goats", "animals"],
+      "release_date": "10/18/24"
+    },
+    {
+      "youtubeID": "T0wBKFZGJMQ",
+      "title": "Where You At Bro? Totes and McGoats Reunite After a Few Seconds Out Of Each Others' Site ",
+      "albums": ["goats", "animals"],
+      "release_date": "10/18/24"
+    },
+    {
+      "youtubeID": "fMMOx86Q3f4",
+      "title": "The paw-ty never stops in our house! Arthur getting our dog pack amped up for some puppy play",
+      "albums": ["dogs", "animals"],
+      "release_date": "10/18/24"
+    },
+    {
+      "youtubeID": "rRB55asFC4o",
+      "title": "When you've got chickens there's no such thing as weeds in your garden! Chickens flock to grass",
+      "albums": ["chickens", "animals"],
+      "release_date": "10/18/24"
+    },
+    {
+      "youtubeID": "8bn9v0e__XA",
+      "title": "Chickens Pumpkin Carving Fail- Act Like They Saw The Headless Horseman Even After I Put Corn Inside",
+      "albums": ["chickens", "animals"],
+      "release_date": "10/18/24"
+    },
+    {
+      "youtubeID": "mIaYRjM3jSY",
+      "title": "Yay Hooray For Pool Filling Day!",
+      "albums": [ "dogs", "animals"],
+      "release_date": "10/18/24"
+    },
+    {
+      "youtubeID": "UVEfGN9W2S0",
+      "title": "Huey Ka-Bluey teaching me which toys he likes better Episode 4: Cabela's Nylon Squeak Duck Vs Turtle",
+      "albums": ["dogs", "animals"],
+      "release_date": "10/18/24"
+    },
+    {
+      "youtubeID": "H35-bN3iuIw",
+      "title": "Chicks Playing Football w/ Pieces Of Corn ... it was all fun and games until I ruined it by talking about it",
+      "albums": [ "chickens", "animals"],
+      "release_date": "10/25/24"
+    },{
+      "youtubeID": "F_aU8k4Fz54",
+      "title": "Funny Dog Videos slow-motion video of Huey Ka-Bluey, catching his flying turtle toy",
+      "albums": [  "dogs", "animals"],
+      "release_date": "10/25/24"
+    },{
+      "youtubeID": "EBDwnJcYUBo",
+      "title": "Huey Ka-Bluey teaching me which toys he likes more Episode 5 Old Turtle New Turtle",
+      "albums": [ "dogs", "animals"],
+      "release_date": "10/25/24"
+    },{
+      "youtubeID": "0YLFGs2w99Q",
+      "title": "Do You Have To Be A Prime Member To Get Packing Materials Airdropped In Your Yard?  #sky-ro-foam",
+      "albums": [],
+      "release_date": "10/25/24"
+    },{
+      "youtubeID": "fKByX2yv89Q",
+      "title": "Baby Goat Kids Get Spooked By Barking Dog And Flee to Higher Ground",
+      "albums": ["goats", "animals"],
+      "release_date": "10/25/24"
+    },{
+      "youtubeID": "AaXOSxsW06I",
+      "title": "Funny Dog Videos - When our dog Pajama plays catch it looks a lot more like he's playing volleyball",
+      "albums": ["dogs", "animals"],
+      "release_date": "11/1/24"
+    },{
+      "youtubeID": "8ZPtwihaH8c",
+      "title": "Funny Dog Videos- Huey Ka-Bluey teaching me which toy he likes Episode 6 Red Turtle V Blue Football",
+      "albums": ["dogs", "animals"],
+      "release_date": "11/1/24"
+    },{
+      "youtubeID": "ilLhEVvADAo",
+      "title": "Funny Animal Videos- Muffin Tries To Befriend Our Goats. Goats R All 'What Even Is That Thing!?'",
+      "albums": ["dogs", "goats","animals"],
+      "release_date": "11/1/24"
+    },{
+      "youtubeID": "r5aw11lJ5-8",
+      "title": "Im Just Gonna Leaf This Here. Funny Goat Videos Totes & McGoats Eating Leaves Compilation",
+      "albums": ["goats","animals"],
+      "release_date": "11/1/24"
+    },{
+      "youtubeID": "H2uxOXKWN5E",
+      "title": "funny farm animal sounds- Broodzilla, our broody Buff Orpington Hen growls and ruffles her feathers",
+      "albums": ["chickens", "animals"],
+      "release_date": "11/1/24"
+    },{
+      "youtubeID": "Q3iw_eSl5uk",
+      "title": "Our leghorn, ayam cemani, and buff orpington chickens competing to be the early bird at breakfast",
+      "albums": ["chickens", "animals"],
+      "release_date": "11/1/24"
+    },{
+      "youtubeID": "dbI4Z-1qw9Y",
+      "title": "Crafting W/ Trash - When Life Hands You Election Mailers, Make Confetti (for election night or NYE)",
+      "albums": [],
+      "release_date": "11/8/24"
+    },{
+      "youtubeID": "2HDlVcWu2Wg",
+      "title": "Funny Dogs Videos - Bella Momma-Dogging Blue Heeler, Huey Ka-Bluey, When He Was an 8 Week Old Puppy",
+      "albums": ["dogs","animals"],
+      "release_date": "11/8/24"
+    },{
+      "youtubeID": "gBjRYLKqxkY",
+      "title": "Poo-Roulette Arthur didn't like the odds his shirt 'd stay unsoiled when our hen hopped on his back",
+      "albums": ["chickens","animals"],
+      "release_date": "11/8/24"
+    },{
+      "youtubeID": "kcImrrgDoIs",
+      "title": "Our baby goat kid, McGoats, bleating and hoping",
+      "albums": ["goats","animals"],
+      "release_date": "11/8/24"
+    },{
+      "youtubeID": "m8Jb2gHqfsU",
+      "title": "In The Clerb We All Fam! Leghorn, Ayam Cemani, Orpington Chicks Eat & Play Together",
+      "albums": ["goats","animals"],
+      "release_date": "11/8/24"
+    },{
+      "youtubeID": "CaBnCh5mByo",
+      "title": "Every Farm Needs a Cat, Ours Snarls - Arthur Peeling Out in His Resurrected 1969 Cougar",
+      "albums": ["wildlife","animals"],
+      "release_date": "11/11/24"
+    },{
+      "youtubeID": "G34pP4mmm68",
+      "title": "Cardinals Fans Dreaming of a Post-Season...",
+      "albums": ["dogs","animals"],
+      "release_date": "11/10/24"
+    },{
+      "youtubeID": "rKzZQTmj0v0",
+      "title": "Pajama snapping at turtles",
+      "albums": ["dogs","animals"],
+      "release_date": "11/9/24"
+    },{
+      "youtubeID": "CR97Ez9tZCU",
+      "title": "Converting Gas Mini Bike to Electric (Coleman CC 100 X) Less Fumes, More Zooms",
+      "albums": ["wildlife","animals"],
+      "release_date": "11/11/24"
+    },{
+      "youtubeID": "kBvGABThPwQ",
+      "title": "Xena's Daily Zoomies Have Blazed a Literal Trail Across Our Backyard",
+      "albums": ["dogs","animals"],
+      "release_date": "11/15/24"
+    },{
+      "youtubeID": "gv91Fu9gvuU",
+      "title": "Goats Playing Putting Green Sumo Wrestling ... who will get GOATed?",
+      "albums": ["goats","animals"],
+      "release_date": "11/15/24"
+    },{
+      "youtubeID": "bFFPrfEQpEo",
+      "title": "Huey Ka-Bluey teaching me which toy he likes more Episode 8 Red Turtle Blue Turtle",
+      "albums": ["dogs","animals"],
+      "release_date": "11/15/24"
+    },{
+      "youtubeID": "RbN2Pnd5yyw",
+      "title": "Cute Silly 2 Week Old Baby Goat Kid, McGoats, Jumping on His Bed(ding) ",
+      "albums": ["goats","animals"],
+      "release_date": "11/15/24"
+    },{
+      "youtubeID": "AWx5ZDUMfoA",
+      "title": "Our Hens Think I'm a Rooster, so They Duck Down For Me To Fiddle Their Feathers",
+      "albums": ["chickens","animals"],
+      "release_date": "11/15/24"
+    },{
+      "youtubeID": "3JwcquSE38s",
+      "title": "Baby Goat Kid, Totes, Zooming Across Barnyard To Go Inside Cute Baby Animal Video",
+      "albums": ["goats","animals"],
+      "release_date": "11/22/24"
+    },{
+      "youtubeID": "9Tp_y7u0-NA",
+      "title": "Huey Ka-Bluey teaching me which toys he likes Ep 9: Turtle w/ new squeaker Vs de-squeakered football",
+      "albums": ["dogs","animals"],
+      "release_date": "11/22/24"
+    },{
+      "youtubeID": "sHADj90w9b8",
+      "title": "FOMO Fo Sho! Shibu Inu Mix, Pajama hears a Squeak Toy in the Other Room ",
+      "albums": ["dogs","animals"],
+      "release_date": "11/22/24"
+    },{
+      "youtubeID": "BhTTsbma4YA",
+      "title": "It caused quite a stir when I fed a Brussels sprout plant to Totes & McGoats (funny farm animals)",
+      "albums": ["goats","animals"],
+      "release_date": "11/22/24"
+    },{
+      "youtubeID": "uXKeZ3oumiI",
+      "title": "When You Just Wanna Crawl Under a Rock and Die But People Won't Leave You Alone",
+      "albums": ["wildlife","animals"],
+      "release_date": "11/22/24"
+    },{
+      "youtubeID": "VSUUxUG-bWU",
+      "title": "Let me get a closer look!",
+      "albums": [ "chickens","animals"],
+      "release_date": "11/22/24"
+    },{
+      "youtubeID": "7ZABKngUFJQ",
+      "title": "Dog Breath Make out Sesh - Xena pushes Huey Ka-Bluey away at 1st, but she wants those puppy kisses",
+      "albums": ["dogs","animals"],
+      "release_date": "11/22/24"
+    },{
+      "youtubeID": "4ylLwsMFAtg",
+      "title": "Boxer, Xena doin da dip with Blue Heeler, Huey Ka-Bluey",
+      "albums": ["dogs","animals"],
+      "release_date": "12/6/24"
+    },{
+      "youtubeID": "JbEip2cHJbY",
+      "title": "Happy Flipping Wednesday! Flipping off Dogs to see how they react w/ Blue Heeler mix, Huey Ka-Bluey",
+      "albums": ["dogs","animals"],
+      "release_date": "12/6/24"
+    },{
+      "youtubeID": "nNXi0XgxzUc",
+      "title": "Happy Flipping Wednesday! Flipping off Dogs to see how they react w/ Shibu Inu Mix, Pajama",
+      "albums": ["dogs","animals"],
+      "release_date": "12/6/24"
+    },{
+      "youtubeID": "Pc9dCu3AO5c",
+      "title": "Huey Ka-Bluey Frisbee Fails Blooper Reel. Funny Dog Videos / Dog Fails",
+      "albums": ["dogs","animals"],
+      "release_date": "12/6/24"
+    },{
+      "youtubeID": "fuRZ1rNL-AU",
+      "title": "Blue Heeler, Huey Ka-Bluey Slow Motion Frisbee Catches",
+      "albums": ["dogs","animals"],
+      "release_date": "12/6/24"
+    },{
+      "youtubeID": "BhTN9a6zEhA",
+      "title": "Clampy The Pigeon Showed Up w/ a Rat Trap On His Foot, Got Pretty Strong Flying Around w/ That Thing",
+      "albums": ["wildlife","animals"],
+      "release_date": "12/6/24"
+    },{
+      "youtubeID": "4FqwCTwmQ_k",
+      "title": "Barnyard Shenanigans - Goats Cuddle Fight While Chickens Peck and Scratch",
+      "albums": ["chickens","goats","animals"],
+      "release_date": "12/6/24"
+    },{
+      "youtubeID": "oycIYPnlrYw",
+      "title": "When ur tryna do ur weekly paw-cast and someone in the background tries to photo bomb",
+      "albums": ["dogs","animals"],
+      "release_date": "12/13/24"
+    },{
+      "youtubeID": "Uh88aOn2EtU",
+      "title": "Happy Flipping Wednesday! Flipping off Dogs to see how they react w/ Boxer Mix, Xena",
+      "albums": ["dogs","animals"],
+      "release_date": "12/13/24"
+    },{
+      "youtubeID": "VDxHYWVF_W4",
+      "title": "Happy Flipping Wednesday! Flipping off pets to see how they react w/ Mosquito fish in our pond",
+      "albums": ["wildlife","animals"],
+      "release_date": "12/13/24"
+    },{
+      "youtubeID": "cyk7B42egJg",
+      "title": "You gotta kick off your shoes if you wanna get a toehold",
+      "albums": ["dogs","animals"],
+      "release_date": "12/13/24"
+    },{
+      "youtubeID": "Wa0psseB2NE",
+      "title": "Huey KaBluey tryna make fetch happen",
+      "albums": ["dogs","animals"],
+      "release_date": "12/13/24"
+    },{
+      "youtubeID": "Vuf_kD8F6cA",
+      "title": "Little Brother Vibes (Blue Heeler Mix, Huey Ka-Bluey Trying to get Shibu Inu Mix, Pajama to play)",
+      "albums": ["dogs","animals"],
+      "release_date": "12/13/24"
+    },{
+      "youtubeID": "gYf1Cx_960U",
+      "title": "Dogs React to Musical Holiday Headband (Funny dog fails)",
+      "albums": ["chickens","goats","animals"],
+      "release_date": "12/13/24"
+    },{
+      "youtubeID": "oIfG2DXW1P8",
+      "title": "When You Can't Agree on How to Raise The Kids (funny animal memes)",
+      "albums": ["chickens","animals"],
+      "release_date": "12/13/24"
+    },{
+      "youtubeID": "XdcEelxs2lY",
+      "title": "Sunflower Seed Encore, Do You Want More? (chicken treats)",
+      "albums": ["chickens","goats","animals"],
+      "release_date": "12/13/24"
+    },{
+      "youtubeID": "IGoDQqD0bpo",
+      "title": "Crafting with trash Ep. 2 - LaCroix Box Origami Cookie Trays for holiday party",
+      "albums": [],
+      "release_date": "12/20/24"
+    },{
+      "youtubeID": "qcscW1OfN9s",
+      "title": "Huey Ka-Bluey wants to make Xena feel his love… Xena does not",
+      "albums": [ "dogs","animals"],
+      "release_date": "12/20/24"
+    },{
+      "youtubeID": "YIQDLHj9SOw",
+      "title": "Happy Flipping Wednesday! Flipping the bird at our birds",
+      "albums": ["chickens","animals"],
+      "release_date": "12/20/24"
+    },{
+      "youtubeID": "_AJWQaJ8K_0",
+      "title": "That one friend who always shows up late for group hangs, misses all the drama",
+      "albums": ["chickens","animals"],
+      "release_date": "12/20/24"
+    },{
+      "youtubeID": "28NQQVUN1GQ",
+      "title": "When you Love Aldi so Much you Just Wanna Live There (funny animals videos)",
+      "albums": ["animals"],
+      "release_date": "12/20/24"
+    },{
+      "youtubeID": "bQ3Jtgg3mxw",
+      "title": "Life’s an uphill climb, so when you find your rock, take the plunge!",
+      "albums": ["dogs","animals"],
+      "release_date": "12/20/24"
+    },{
+      "youtubeID": "R7e78DUL9Q0",
+      "title": "Stay Calm and Chew a Bone! Classic Pajama- Can’t be bothered to Join in Puppy Play",
+      "albums": ["dogs","animals"],
+      "release_date": "12/20/24"
+    },{
+      "youtubeID": "nhcujR9DS9I",
+      "title": "Pajama Smell-O-Brating Patio Dining Weather in AZ",
+      "albums": ["dogs","animals"],
+      "release_date": "12/20/24"
+    },{
+      "youtubeID": "rCatitSkiaA",
+      "title": "Huey Ka-Bluey and Xena Reenacting Lion King “Pinned ya… Pinned ya again” scene",
+      "albums": ["dogs","animals"],
+      "release_date": "12/20/24"
+    },{
+      "youtubeID": "t0bwV9pKCDw",
+      "title": "Letting The Flock Out Of The Coop. Some Chickens More Eager To Go Out Than Others",
+      "albums": ["chickens","animals"],
+      "release_date": "12/20/24"
+    },{
+      "youtubeID": "PlbNmCnbQmY",
+      "title": "Puppy Christmas Morning 2023 - You can see each dog's distinct personality",
+      "albums": ["dogs","animals"],
+      "release_date": "12/20/24"
+    },{
+      "youtubeID": "o9QtXYxprOM",
+      "title": "Xena giving off those pre-teen with a predator head vibes",
+      "albums": ["dogs","animals"],
+      "release_date": "12/21/24"
+    },{
+      "youtubeID": "m-juGzJhqI8",
+      "title": "AZ Cardinals fans dreaming of a post season... Ah the good old plays and that 6-4 record",
+      "albums": ["dogs","animals"],
+      "release_date": "12/22/24"
+    },{
+      "youtubeID": "9i-4veWOvJA",
+      "title": "Huey KaBluey and Xena being all br-usband and si-wifey with each other",
+      "albums": ["dogs","animals"],
+      "release_date": "12/24/24"
+    },{
+      "youtubeID": "xmJe_OilIIY",
+      "title": "Puppy Christmas morning 2024 - Choices Were Made",
+      "albums": ["dogs","animals"],
+      "release_date": "12/25/24"
+    },{
+      "youtubeID": "cU9wyN2k4VE",
+      "title": "A whole year before it’s Christmas again",
+      "albums": ["dogs","animals"],
+      "release_date": "12/26/24"
+    },{
+      "youtubeID": "CpFnQ0u6yiI",
+      "title": "Winner Winner Chicken Dinner Chicks Scurry Around to Get the Best Bits of Food",
+      "albums": ["chickens","animals"],
+      "release_date": "12/27/24"
+    },{
+      "youtubeID": "OHihCXJMbAI",
+      "title": "Huey Ka-Bluey and Xena Practicing Their Synchronized Zoomies Routine",
+      "albums": ["dogs","animals"],
+      "release_date": "12/27/24"
+    },{
+      "youtubeID": "TIsvZVUPTCY",
+      "title": "Pajama snapping at turtles II, revenge of the tooths",
+      "albums": ["dogs","animals"],
+      "release_date": "12/27/24"
+    },{
+      "youtubeID": "h5DPF5wamUQ",
+      "title": "When you accidentally walk into the wrong room at your hotel…",
+      "albums": ["chickens","animals"],
+      "release_date": "12/27/24"
+    },{
+      "youtubeID": "OwXeqhF14Go",
+      "title": "Dirty Birdy Enjoying a Dust Bath Broodzilla, Buff Orpington Hen ",
+      "albums": ["chickens","animals"],
+      "release_date": "12/27/24"
+    },{
+      "youtubeID": "pcuPsfQeXSk",
+      "title": "A Shell-abration of Seeds. Black oil sunflower seed treat break ",
+      "albums": ["chickens","animals"],
+      "release_date": "12/27/24"
+    },{
+      "youtubeID": "TEuMrKvTqZk",
+      "title": "Great horned owl stalking me when I went out to feed our chickens",
+      "albums": ["chickens","animals"],
+      "release_date": "12/27/24"
+    },{
+      "youtubeID": "Yfs7AbcnSVc",
+      "title": "Social Batteries Before the Holidays vs After ",
+      "albums": ["dogs","animals"],
+      "release_date": "12/27/24"
+    },{
+      "youtubeID": "yuj-gidAXWg",
+      "title": "Our Chickens Reestablishing their Pecking Order",
+      "albums": ["chickens","animals"],
+      "release_date": "12/30/24"
+    },{
+      "youtubeID": "4w9smnmRLf8",
+      "title": "Baby goat kids, Totes & McGoats jump around",
+      "albums": ["goats","animals"],
+      "release_date": "12/31/24"
+    },{
+      "youtubeID": "tFN_tqVO1Uo",
+      "title": "Our Chickens React to Lew Sid Fried Rice",
+      "albums": ["chickens","animals"],
+      "release_date": "12/31/24"
+    },{
+      "youtubeID": "cPJUOMH8m6g",
+      "title": "Huey Fights for His Right to Paw-Tay",
+      "albums": ["dogs","animals"],
+      "release_date": "12/31/24"
+    },{
+      "youtubeID": "34PGqadp1yA",
+      "title": "Leghorn, Buff Orpington, Ayam Cemani Chickens Hop Down From Roost for Breki pt1",
+      "albums": ["chickens","animals"],
+      "release_date": "1/3/24"
+    },{
+      "youtubeID": "HNUVzv5em5I",
+      "title": "Leghorn, Buff Orpington, Ayam Cemani Chickens Hop Down From Roost for Breki pt2",
+      "albums": ["chickens","animals"],
+      "release_date": "1/3/24"
+    },{
+      "youtubeID": "78pac6utZeo",
+      "title": "A Game Of Catch To Wear Down Blue Heeler Mix, Huey Ka-Bluey's Endless Energy",
+      "albums": ["dogs","animals"],
+      "release_date": "1/3/24"
+    },{
+      "youtubeID": "YEdyqw-jd4g",
+      "title": "Guess what? Chicken Butt! (A chicken butt is what Totes calls it when he head butts chickens)",
+      "albums": ["chickens", "goats","animals"],
+      "release_date": "1/3/24"
+    },{
+      "youtubeID": "aHprU-WKKew",
+      "title": "Clucking neighbors always peeping over our wall",
+      "albums": ["chickens","animals"],
+      "release_date": "1/3/24"
+    },{
+      "youtubeID": "SjO6DoXPn9s",
+      "title": "Looking Back at our Dogs' favorite toys in 2024",
+      "albums": ["dogs","animals"],
+      "release_date": "1/3/24"
+    },{
+      "youtubeID": "Cn0Azagmph4",
+      "title": "Happy flipping Wednesday! You Goat this!",
+      "albums": ["goats","animals"],
+      "release_date": "1/10/24"
+    },{
+      "youtubeID": "rAgEa6hU2BI",
+      "title": "Pajama subtly raging against the machine",
+      "albums": ["dogs","animals"],
+      "release_date": "1/10/24"
+    },{
+      "youtubeID": "RAOMD_2XqYc",
+      "title": "Critter Visitors - Arizona Wildlife in our Backyard",
+      "albums": ["wildlife","animals"],
+      "release_date": "1/10/24"
+    },{
+      "youtubeID": "_0YM6gTW_2s",
+      "title": "Leaving the Office on Friday Like...",
+      "albums": ["dogs","animals"],
+      "release_date": "1/10/24"
+    },{
+      "youtubeID": "zrIJ0A7J9FQ",
+      "title": "Our Rooster, Strutting Sammy, is a Man and…",
+      "albums": ["chickens","animals"],
+      "release_date": "1/17/24"
+    },{
+      "youtubeID": "bhFAiX0CJyc",
+      "title": "Can You Feel The (Bruv) Love Tonight ",
+      "albums": ["dogs","animals"],
+      "release_date": "1/17/24"
+    },{
+      "youtubeID": "Pw61KjmrFXA",
+      "title": "Arizona Skies Vibes",
+      "albums": ["animals"],
+      "release_date": "1/17/24"
+    },{
+      "youtubeID": "pJSX7chL3vg",
+      "title": "Its a Harsh World Out There!",
+      "albums": ["animals"],
+      "release_date": "1/17/24"
+    },{
+      "youtubeID": "BHL-t4UQyxA",
+      "title": "Happy Flipping Wednesday… Sending Love",
+      "albums": ["animals"],
+      "release_date": "1/17/24"
+    },{
+      "youtubeID": "rAgEa6hU2BI",
+      "title": "Pajama Has Had Too Much Love and Not Enough Discipline",
+      "albums": ["dogs","animals"],
+      "release_date": "1/17/24"
+    },{
+      "youtubeID": "GIVNuuJE4ws",
+      "title": "Huey Ka-Bluey Practicing for Dog Long Jump #sail",
+      "albums": ["dogs","animals"],
+      "release_date": "1/17/24"
+    },{
+      "youtubeID": "Yv4CH8KrH8c",
+      "title": "Blue Heeler mix, Huey Ka-Bluey Back When He Was Brand New",
+      "albums": ["dogs","animals"],
+      "release_date": "1/17/24"
+    },{
+      "youtubeID": "x3fGIP3ChNU",
+      "title": "Cheers to ten years",
+      "albums": ["animals"],
+      "release_date": "1/24/25"
+    },{
+      "youtubeID": "Yv4CH8KrH8c",
+      "title": "Blue Heeler puppy, Huey Ka-Bluey Back When He Was Brand New",
+      "albums": ["dogs","animals"],
+      "release_date": "1/24/25"
+    },{
+      "youtubeID": "8cq_KjInB-c",
+      "title": "Put your phone at your crush’s height (Sounds So Eerie in Slow-Mo)",
+      "albums": ["dogs","animals"],
+      "release_date": "1/24/25"
+    },{
+      "youtubeID": "84ckXy5GFvs",
+      "title": "Hide and Seek Tug-o-War with Xena and Bella",
+      "albums": ["dogs","animals"],
+      "release_date": "1/24/25"
+    },{
+      "youtubeID": "mhLSwsCoTWk",
+      "title": "Boxer mix, Xena Ruffed Around and Found Out",
+      "albums": ["dogs","animals"],
+      "release_date": "1/24/25"
+    },{
+      "youtubeID": "C1lI4UokIIE",
+      "title": "Boxer mix, Xena Handling Her Big Dog Business",
+      "albums": ["dogs","animals"],
+      "release_date": "1/24/25"
+    },{
+      "youtubeID": "WtNQRfvpj-g",
+      "title": "Happy Flipping Wednesday - Just One of Those Days",
+      "albums": ["dogs","animals"],
+      "release_date": "1/24/25"
+    },{
+      "youtubeID": "tXCDXxy4et4",
+      "title": "Chicks 'n Ska - The World is New for These Leghorn & Buff Orpington, Ayam Cemani Chicks",
+      "albums": ["chicks","animals"],
+      "release_date": "1/24/25"
+    },{
+      "youtubeID": "IjSK-AtOvgE",
+      "title": "Emoji Animation- Wylie Dog Drops Curling Puck on Roadrunner",
+      "albums": ["wildlife","animals"],
+      "release_date": "1/24/25"
+    },{
+      "youtubeID": "cDlndLEJFXU",
+      "title": "Bella and Pajama vs the RC Transformer Robot",
+      "albums": ["dogs","animals"],
+      "release_date": "1/24/25"
+    },{
+      "youtubeID": "K6r27ShnayE",
+      "title": "Ayam Cemani Hen, Aya, is too perfect ",
+      "albums": ["chickens","animals"],
+      "release_date": "1/31/25"
+    },{
+      "youtubeID": "s9n1H0XyIHw",
+      "title": "Dog Pack Love Attack",
+      "albums": ["dogs","animals"],
+      "release_date": "1/31/25"
+    },{
+      "youtubeID": "md0x9i7IM0k",
+      "title": "Bear Hat Bonanza- Blue Heeler mix, Huey Ka-Bluey is going on a Bear Hunt",
+      "albums": ["dogs","animals"],
+      "release_date": "1/31/25"
+    },{
+      "youtubeID": "DBQBOpY8ElU",
+      "title": "Meh Monday!",
+      "albums": ["wildlife","animals"],
+      "release_date": "1/31/25"
+    },{
+      "youtubeID": "f7HBggHUWnc",
+      "title": "Huey Ka-Bluey and Xena trying a breathing exercise",
+      "albums": ["dogs","animals"],
+      "release_date": "1/31/25"
+    },{
+      "youtubeID": "Zn2SpMPG6Dg",
+      "title": "Gotta Feed The Dogs in the Mornin",
+      "albums": ["dogs","animals"],
+      "release_date": "1/31/25"
+    },{
+      "youtubeID": "FZJwWKv2CRo",
+      "title": "A Lady Dog’s Perspective on the AFC Conference Championship",
+      "albums": ["dogs","animals"],
+      "release_date": "1/31/25"
+    },{
+      "youtubeID": "xGzwv9OAjAM",
+      "title": "Lately gathering eggs is like",
+      "albums": ["chickens","animals"],
+      "release_date": "1/31/25"
+    },{
+      "youtubeID": "UstCqKvau9c",
+      "title": "Fierce Pigeon Vs SheDevil Hen",
+      "albums": ["chickens","animals"],
+      "release_date": "1/31/25"
+    },{
+      "youtubeID": "9mOW4sTQFGQ",
+      "title": "We've Got Those Sky High Temps, But Oh Those Arizona Skies",
+      "albums": ["wildlife","animals"],
+      "release_date": "2/7/25"
+    },{
+      "youtubeID": "qCB7oyhsNhs",
+      "title": "Here's Looking at You Kid! McGoats Looking at Me Looking at him",
+      "albums": ["goats","animals"],
+      "release_date": "2/7/25"
+    },{
+      "youtubeID": "p4WC5hLLXvU",
+      "title": "Xena Dog Hitting That Gas Pedal like it Owes Her Money",
+      "albums": ["dogs","animals"],
+      "release_date": "2/7/25"
+    },{
+      "youtubeID": "a9GT4VZiwFA",
+      "title": "When you’re here… but you’re trying to pretend you’re not. You Goat this!",
+      "albums": ["goats","animals"],
+      "release_date": "2/7/25"
+    },{
+      "youtubeID": "z8Op_u_ztTQ",
+      "title": "Our Chickens Barely Keep It Together When We Play Barley Keep Away #chickentreats",
+      "albums": ["chickens","animals"],
+      "release_date": "2/7/25"
+    },{
+      "youtubeID": "eFfxGLB4SuE",
+      "title": "Huey Ka-Bluey giving a ruff time to cardinals fans",
+      "albums": ["dogs","animals"],
+      "release_date": "2/7/25"
+    },{
+      "youtubeID": "T_k7HljVoJ4",
+      "title": "Pajama’s a creepy lil weirdo, but we still love him",
+      "albums": ["dogs","animals"],
+      "release_date": "2/7/25"
+    },{
+      "youtubeID": "nU0Z_lkOx40",
+      "title": "Crafting With Trash Ep 3: Starting Artichoke Plants in LaCroix Boxes",
+      "albums": ["wildlife","animals", "diy"],
+      "release_date": "2/7/25"
+    },{
+      "youtubeID": "zHCYx1gUdu0",
+      "title": "Goats, Totes & McGoats Eat Artichokes ‘cause They’ve Got High High Hopes",
+      "albums": ["goats","animals"],
+      "release_date": "2/7/25"
+    },{
+      "youtubeID": "OQlpZs4Rxe8",
+      "title": "Winston and Dolly getting Jiggy to MIB",
+      "albums": ["dogs","animals"],
+      "release_date": "2/7/25"
+    },{
+      "youtubeID": "FWNFQUf_uXI",
+      "title": "Enjoying a gorgeous sunrise with a beautiful friend",
+      "albums": ["wildlife","animals"],
+      "release_date": "2/14/25"
+    },{
+      "youtubeID": "3Nq40RjZD5I",
+      "title": "Meh Monday Tried Filming Huey Ka-Bluey Grabbing My Hat, but he Ripped off My glasses instead -Fail!",
+      "albums": ["dogs","animals"],
+      "release_date": "2/14/25"
+    },{
+      "youtubeID": "kQUHHkRbS6o",
+      "title": "Sometimes you just gotta howl about it (funny dogs shorts)",
+      "albums": ["dogs","animals"],
+      "release_date": "2/14/25"
+    },{
+      "youtubeID": "5REqi0uVrtE",
+      "title": "Hay! Take a barnyard break!",
+      "albums": ["goats","chickens","animals"],
+      "release_date": "2/14/25"
+    },{
+      "youtubeID": "7oiGq3QZmOQ",
+      "title": "Don’t Forget to Boogie on Down this Valentines Day! ",
+      "albums": ["dogs","animals"],
+      "release_date": "2/14/25"
+    },{
+      "youtubeID": "BXddqOY5I2o",
+      "title": "Wait! Scratch that!",
+      "albums": ["goats","animals"],
+      "release_date": "2/14/25"
+    },{
+      "youtubeID": "9ymREJb4Dk0",
+      "title": "My emergency contact ... he's no chicken!",
+      "albums": ["dogs","animals"],
+      "release_date": "2/14/25"
+    },{
+      "youtubeID": "IwWQ0nUuq1I",
+      "title": "Lap up the Love This VDay!  #cupid",
+      "albums": ["dogs","animals"],
+      "release_date": "2/14/25"
+    },{
+      "youtubeID": "1F_NpD_S410",
+      "title": "When you Love Someone So Much You Just Wanna Eat ‘em Up #happyvalentinesday",
+      "albums": ["dogs","animals"],
+      "release_date": "2/14/25"
+    },{
+      "youtubeID": "VtL7Ek3162A",
+      "title": "Flirty bird bath splash battle",
+      "albums": ["dogs","animals"],
+      "release_date": "2/14/25"
+    },{
+      "youtubeID": "qCf0v5cOV60",
+      "title": "Cute Chaos Baby Goat Kids, Totes & McGoats, Raid our Chicken Coop",
+      "albums": ["goats","animals"],
+      "release_date": "2/21/25"
+    },{
+      "youtubeID": "NL9-U9f6urA",
+      "title": "New bandanna vibes",
+      "albums": ["dogs","animals"],
+      "release_date": "2/21/25"
+    },{
+      "youtubeID": "3usVaxhJHGI",
+      "title": "woke up lookin for the broccoli",
+      "albums": ["wildlife","animals"],
+      "release_date": "2/21/25"
+    },{
+      "youtubeID": "TFH0coqUIRo",
+      "title": "Curious Blue Heeler Puppy Huey Ka-Bluey Got His Head Stuck in an Oatmeal Carton ",
+      "albums": ["dogs","animals"],
+      "release_date": "2/21/25"
+    },{
+      "youtubeID": "q2IusPSQAqw",
+      "title": "Huey Ka-Bluey working that back and making that catch",
+      "albums": ["dogs","animals"],
+      "release_date": "2/21/25"
+    },{
+      "youtubeID": "SF1lCOeAv9o",
+      "title": "Chicken Momma Drama -Broodzilla Gonna Brood!",
+      "albums": ["chickens","animals"],
+      "release_date": "2/21/25"
+    },{
+      "youtubeID": "frS9v1RUxe8",
+      "title": "The Dr said to take this Pill You'll Catch Much Better",
+      "albums": ["dogs","animals"],
+      "release_date": "2/21/25"
+    },{
+      "youtubeID": "OA4P5EGAbMY",
+      "title": "Huey Ka-Bluey and Belle Tug-O-War Like They're Going To War",
+      "albums": ["dogs","animals"],
+      "release_date": "2/28/25"
+    },{
+      "youtubeID": "_gv6w5CPOMc",
+      "title": "The Only Good Thing About Living Under a Flight Path",
+      "albums": [],
+      "release_date": "2/28/25"
+    },{
+      "youtubeID": "kVtTGya3eZ8",
+      "title": "Goat Days Sunshine - Totes the Goat Soaks up Sun while our Chickens Dust Bathe ",
+      "albums": ["goats","animals"],
+      "release_date": "2/28/25"
+    },{
+      "youtubeID": "bD8CAEKfgiA",
+      "title": "Meh Monday - When Your Brain Has Its Own Agenda",
+      "albums": ["dogs","animals"],
+      "release_date": "2/28/25"
+    },{
+      "youtubeID": "iELwOGO--7E",
+      "title": "Huey Ka-Bluey Teaching Me Which Toys He Likes Best (Turtle V Gator)",
+      "albums": ["dogs","animals"],
+      "release_date": "2/28/25"
+    },{
+      "youtubeID": "BJEvIC3qkD4",
+      "title": "POV - It’s not even March and you’ve already got Christmas on your mind",
+      "albums": ["goats","animals"],
+      "release_date": "2/28/25"
+    },{
+      "youtubeID": "BJEvIC3qkD4",
+      "title": "POV - It’s not even March and you’ve already got Christmas on your mind",
+      "albums": ["goats","animals"],
+      "release_date": "2/28/25"
+    },{
+      "youtubeID": "vCwsQnMMxvg",
+      "title": "Throwback Thursday - Back in The Day",
+      "albums": ["chickens", "goats","dogs","wildlife","animals"],
+      "release_date": "2/28/25"
+    },{
+      "youtubeID": "6QnlCWRjIPc",
+      "title": "Remember this pre-internet meme loop from when you were a kid?",
+      "albums": ["dogs","animals"],
+      "release_date": "3/7/25"
+    },{
+      "youtubeID": "E2MgNDNlF7c",
+      "title": "Huey Ka-Bluey being Xena’s dog toothbrush",
+      "albums": ["goats","animals"],
+      "release_date": "3/7/25"
+    },{
+      "youtubeID": "rXrqJA4-NC0",
+      "title": "Running amok ruins our hammock - Meh Monday",
+      "albums": ["dogs","animals"],
+      "release_date": "3/7/25"
+    },{
+      "youtubeID": "Uc0QXFAzoBY",
+      "title": "Huey Ka-Bluey Teaching Me Which Toys He Likes Best (Nope Yup)",
+      "albums": ["dogs","animals"],
+      "release_date": "3/7/25"
+    },{
+      "youtubeID": "j0FlluXsGLY",
+      "title": "Does Anyone Else See the Faces Birds Carved in Our Saguaro Cactus?",
+      "albums": [],
+      "release_date": "3/7/25"
+    },{
+      "youtubeID": "hOS0sH3xRLA",
+      "title": "Pajama’s Cross Town Crush, Dolly Really Activates his Almonds",
+      "albums": ["dogs"],
+      "release_date": "3/7/25"
+    },{
+      "youtubeID": "XRimkzAKxM4",
+      "title": "Free snacks = competition + anxiety",
+      "albums": ["wildlife"],
+      "release_date": "3/14/25"
+    },{
+      "youtubeID": "QPcHpMlPsD8",
+      "title": "POV Bringing Treats To The Barnyard",
+      "albums": ["goats", "chickens"],
+      "release_date": "3/14/25"
+    },{
+      "youtubeID": "Th3P3_Bew0A",
+      "title": "Cute Blue Heeler Puppy Barks Will Melt Your Heart",
+      "albums": ["dogs"],
+      "release_date": "3/14/25"
+    },{
+      "youtubeID": "-yxfxC7IZmM",
+      "title": "Pi Day Feasts & Fails - Don't forget to have some pi day pie for 3.14",
+      "albums": ["goats", "chickens", "dogs"],
+      "release_date": "3/14/25"
+    },{
+      "youtubeID": "wMAAt0P78uk",
+      "title": "Huey Ka-Bluey Teaching me Which Toy He Likes Best (this one that one)",
+      "albums": ["dogs"],
+      "release_date": "3/14/25"
+    },{
+      "youtubeID": "CK0ASXCqKLk",
+      "title": "Pajama's a Happy Guy (Who Can't Catch)",
+      "albums": ["dogs"],
+      "release_date": "3/14/25"
+    },{
+      "youtubeID": "olyKxsU8VjU",
+      "title": "Wonky Toe, The Squirrel Who Proved Them Wrong",
+      "albums": ["wildlife"],
+      "release_date": "3/14/25"
+    },{
+      "youtubeID": "OLxEcZg4d3A",
+      "title": "Xena Dog Growing up Playing Ruff",
+      "albums": ["dogs"],
+      "release_date": "3/14/25"
+    },{
+      "youtubeID": "jnwytbQii2k",
+      "title": "Gathering those freshy fresh eggs to make pasta dough",
+      "albums": ["chickens"],
+      "release_date": "3/14/25"
+    },{
+      "youtubeID": "v4wkBPvmpAc",
+      "title": " Go Find Your Pot O' Gold and Dig In!",
+      "albums": [ "wildlife"],
+      "release_date": "3/21/25"
+    },{
+      "youtubeID": "G9Fr-s3cWYo",
+      "title": "Crafting with trash: Frankenstein-ing old dog toys",
+      "albums": ["dogs"],
+      "release_date": "3/21/25"
+    },{
+      "youtubeID": "Pajama Plays Too Ruff For This Tough Dog Toy — Meh Monday",
+      "title": "k-PtZIlezlI",
+      "albums": ["dogs"],
+      "release_date": "3/21/25"
+    },{
+      "youtubeID": "I3tG2t1--yE",
+      "title": "Huey Ka-Bluey teaching me which toys he likes best: Huey Ka-Bluey Vs The Toy Basket",
+      "albums": [ "chickens"],
+      "release_date": "3/21/25"
+    },{
+      "youtubeID": "VwlvqtJIAJE",
+      "title": "Totes, the Goat is Totes Adorbs Bouncing Around our chicken Coop (funny farm animals)",
+      "albums": [ "goats"],
+      "release_date": "3/21/25"
+    },{
+      "youtubeID": "sIkSzkcv380",
+      "title": "Funny Farm Animal Sound Swap",
+      "albums": [ "chickens", "goats", "dogs"],
+      "release_date": "3/21/25"
+    },{
+      "youtubeID": "cA_ygg8K_SY",
+      "title": "POV- Our Dogs Treat our Couch Like a Trampoline Park",
+      "albums": [ "dogs"],
+      "release_date": "3/21/25"
+    },{
+      "youtubeID": "kSp-4Sj7534",
+      "title": "Is Huey Ka-Bluey trying to talk to me or am I hearing things ¯\\_(ツ)_/¯",
+      "albums": ["dogs"],
+      "release_date": "3/28/25"
+    },{
+      "youtubeID": "abmrpxilJ5c",
+      "title": "Mosquito mischief managed! #lifehack",
+      "albums": ["dogs"],
+      "release_date": "3/28/25"
+    },{
+      "youtubeID": "V72U7A4gRTU",
+      "title": "Spring Break when you’re 20 vs when you’re 40",
+      "albums": ["dogs"],
+      "release_date": "3/28/25"
+    },{
+      "youtubeID": "yDW_EEITdR8",
+      "title": "Xena dog is a Playful Player",
+      "albums": ["dogs"],
+      "release_date": "3/28/25"
+    },{
+      "youtubeID": "VbxCavSKQp4",
+      "title": "Huey Ka-Bluey teaching me which toys he likes - Old Frankensteined Toys",
+      "albums": ["dogs"],
+      "release_date": "3/28/25"
+    },{
+      "youtubeID": "vReXfbv0cj4",
+      "title": " Huey Ka-Bluey reacts to seeing himself as a stuffed animal",
+      "albums": ["dogs"],
+      "release_date": "3/28/25"
+    },{
+      "youtubeID": "1UMGH5ivkUE",
+      "title": "Ducking Out When The Friend You Didn’t Invite Shows Up",
+      "albums": ["wildlife"],
+      "release_date": "3/28/25"
+    },{
+      "youtubeID": "D9TiUDQA5RY",
+      "title": "Teenage Dirtbags aka Pullet Chickens  (funny farm animals)",
+      "albums": ["chickens"],
+      "release_date": "3/28/25"
+    },{
+      "youtubeID": "tBz47mO35GU",
+      "title": "Rut Row: Rutting Goats, Totes & McGoats Butt Heads",
+      "albums": ["goats"],
+      "release_date": "3/28/25"
+    },{
+      "youtubeID": "P1SMOgI1tas",
+      "title": "Chicken treats our garden like her personal salad bar - Meh Monday",
+      "albums": ["chickens"],
+      "release_date": "4/4/25"
+    },{
+      "youtubeID": "qnylxFBs2Fs",
+      "title": "Huey Ka-Bluey teaching me which toys he likes better: Bear hat vs squeaky dangler hat",
+      "albums": ["dogs"],
+      "release_date": "4/4/25"
+    },{
+      "youtubeID": "zQMRbifQmmA",
+      "title": "Crafting with Trash - Egg Cartons from Soda Box + cardboard tubes",
+      "albums": [],
+      "release_date": "4/4/25"
+    },{
+      "youtubeID": "4tzj6vTHu0M",
+      "title": "Pajama's Paw-some Catch Skills!",
+      "albums": ["dogs"],
+      "release_date": "4/4/25"
+    },{
+      "youtubeID": "c9iqMBOWB5I",
+      "title": "POV Chicken banana",
+      "albums": ["chickens"],
+      "release_date": "4/4/25"
+    },{
+      "youtubeID": "zEoZnGs89pQ",
+      "title": "Throwback Fursday - Goats, Totes & McGoats Keep it Copacetic",
+      "albums": ["goats"],
+      "release_date": "4/4/25"
+    },{
       "youtubeID": "GNUdbbLV_yI",
       "title": "Totes & McGoats giving off Lady and The Tramp Vibes",
-      "albums": ["new", "goats"],
+      "albums": ["goats"],
       "release_date": "4/4/25"
+    },{
+      "youtubeID": "AnQTpuI3f_c",
+      "title": "Holy Blooming Water Lily, Spashman",
+      "albums": ["wildlife"],
+      "release_date": "4/11/25"
+    },{
+      "youtubeID": "Ug6_yLQvA0E",
+      "title": "All choked up - Pruning Artichokes for quantity VS size of flower heads",
+      "albums": ["wildlife", "diy"],
+      "release_date": "4/11/25"
+    },{
+      "youtubeID": "ODRSl6mnIIA",
+      "title": "Halve a Heart: Marinated Artichokes from Yard to Table",
+      "albums": ["wildlife", "diy", "cooking"],
+      "release_date": "4/11/25"
+    },{
+      "youtubeID": "5GsjLlQ8uQg",
+      "title": "Trying to Leave a Paws-itive Impression After Vet Visit - meh Monday",
+      "albums": ["dogs"],
+      "release_date": "4/11/25"
+    },{
+      "youtubeID": "QH-uwCmJAtE",
+      "title": "Where you at bro? Baby goat twins joyfully reunite after 2 seconds apart",
+      "albums": ["goats"],
+      "release_date": "4/11/25"
+    },{
+      "youtubeID": "Bo-WVRviOqM",
+      "title": "Fish are Friends AND Food - treating our chickens to fresh fish",
+      "albums": ["chickens"],
+      "release_date": "4/11/25"
+    },{
+      "youtubeID": "PBgXLU-i_5Y",
+      "title": "The Pack That Plays Together Stays Together! #siblinggoals",
+      "albums": ["dogs"],
+      "release_date": "4/11/25"
+    },{
+      "youtubeID": "SDBLm2yVx8o",
+      "title": "Big Sister Vibes Happy Siblings day from #xenadog #hueykabluey",
+      "albums": ["dogs"],
+      "release_date": "4/11/25"
+    },{
+      "youtubeID": "d6_Y-YqmM-4",
+      "title": "Animal Sound Mix Around",
+      "albums": ["chickens","goats"],
+      "release_date": "4/11/25"
+    },{
+      "youtubeID": "GLN8JSan00E",
+      "title": "A Happy Found Dog Story #muffindog",
+      "albums": ["dogs"],
+      "release_date": "4/18/25"
+    },{
+      "youtubeID": "0ob6IJw4YEs",
+      "title": "Our Chickens are Fancy. They eat escargot",
+      "albums": ["chickens"],
+      "release_date": "4/18/25"
+    },{
+      "youtubeID": "NZRtZpf1ShM",
+      "title": "Nesting Dove Makes Alarming Discovery About Her New Home - Meh Monday",
+      "albums": ["wildlife"],
+      "release_date": "4/18/25"
+    },{
+      "youtubeID": "33I8hF4ZHBw",
+      "title": "(Poorly Planned) Dog Easter Egg Hunt Chaos",
+      "albums": ["dogs"],
+      "release_date": "4/18/25"
+    },{
+      "youtubeID": "AD3UmKrTSmU",
+      "title": "An Eggstra Cute Photoshoot w/ The Arillian Farm Dogs - Work it Wednesday!",
+      "albums": ["dogs"],
+      "release_date": "4/18/25"
+    },{
+      "youtubeID": "4MtIj9GJDTs",
+      "title": "Going Against the Grain w/ Straw Crafts (crafting with trash)",
+      "albums": ["diy"],
+      "release_date": "4/18/25"
+    },{
+      "youtubeID": "7KOTOChjB4I",
+      "title": "Chickens can be Chicken about Trying New Things",
+      "albums": ["new", "chickens"],
+      "release_date": "4/25/25"
+    },{
+      "youtubeID": "0LWhFAE93JE",
+      "title": "Our Dogs Are Clothes Hounds",
+      "albums": ["new", "dogs"],
+      "release_date": "4/25/25"
+    },{
+      "youtubeID": "eUMdDBEvhqM",
+      "title": "Strutting Birds Workin it on our Wall #workitwednesday",
+      "albums": ["new", "wildlife"],
+      "release_date": "4/25/25"
+    },{
+      "youtubeID": "SLmt8D-UKr4",
+      "title": "Peep peep is the palindrome of springtime & this short’s a palindrome of birds flying in loops",
+      "albums": ["new", "wildlife"],
+      "release_date": "4/25/25"
+    },{
+      "youtubeID": "MZSqNLo6rGE",
+      "title": "We got pigeon problems in our barnyard - Meh Monday",
+      "albums": ["new", "chickens"],
+      "release_date": "4/25/25"
+    },{
+      "youtubeID": "uwcyZ9WK3J0",
+      "title": "Life lessons w/ Huey Ka-Bluey",
+      "albums": ["new", "dogs"],
+      "release_date": "4/25/25"
+    },{
+      "youtubeID": "3scYB3NrLCQ",
+      "title": "Duckhunt Vibes (Classic NES nostalgia)",
+      "albums": ["new", "chickens", "dogs"],
+      "release_date": "4/25/25"
+    },{
+      "youtubeID": "r8DzWIpc_e0",
+      "title": "Making Mini Meringue Magic (mini pavlovas with fresh strawberries)",
+      "albums": ["new", "cooking"],
+      "release_date": "4/25/25"
     }
   ]
 }

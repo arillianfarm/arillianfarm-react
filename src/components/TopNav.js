@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import '../TopNav.css'; // Create a CSS file for TopNav
 
 function TopNav() {
@@ -8,54 +8,54 @@ function TopNav() {
             <nav className="main-nav">
                 <ul>
                     <li>
-                        <Link to="/" className={({ isActive }) => (isActive ? 'active' : '')}>
+                        <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : '')}>
                             ARILLIAN FARM
-                        </Link>
+                        </NavLink>
                     </li>
                     <li>
-                        <Link to="/videos" className={({ isActive }) => (isActive ? 'active' : '')}>
+                        <NavLink to="/videos" className={({ isActive }) => (isActive ? 'active' : '')}>
                             VIDEOS
-                        </Link>
+                        </NavLink>
                     </li>
                     <li>
-                        <Link to="/recipes" className={({ isActive }) => (isActive ? 'active' : '')}>
+                        <NavLink to="/recipes" className={({ isActive }) => (isActive ? 'active' : '')}>
                             RECIPES
-                        </Link>
+                        </NavLink>
                     </li>
                     <li>
-                        <Link to="/pictures" className={({ isActive }) => (isActive ? 'active' : '')}>
+                        <NavLink to="/pictures" className={({ isActive }) => (isActive ? 'active' : '')}>
                             PICTURES
-                        </Link>
+                        </NavLink>
                     </li>
                     <li>
                         <a
                             href="https://www.zazzle.com/collections/fall_2024-119118606070157890"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="merch-link"
+                            className="merch-NavLink"
                         >
                             MERCH
                         </a>
                     </li>
                     <li>
-                        <Link to="/books" className={({ isActive }) => (isActive ? 'active' : '')}>
+                        <NavLink to="/books" className={({ isActive }) => (isActive ? 'active' : '')}>
                             BOOKS
-                        </Link>
+                        </NavLink>
                     </li>
                     <li>
-                        <Link to="/projects" className={({ isActive }) => (isActive ? 'active' : '')}>
+                        <NavLink to="/projects" className={({ isActive }) => (isActive ? 'active' : '')}>
                             DIY PROJECTS
-                        </Link>
+                        </NavLink>
                     </li>
                     <li>
-                        <Link to="/blog" className={({ isActive }) => (isActive ? 'active' : '')}>
+                        <NavLink to="/blog" className={({ isActive }) => (isActive ? 'active' : '')}>
                             BLOG
-                        </Link>
+                        </NavLink>
                     </li>
                     <li>
-                        <Link to="/about" className={({ isActive }) => (isActive ? 'active' : '')}>
+                        <NavLink to="/about" className={({ isActive }) => (isActive ? 'active' : '')}>
                             ABOUT
-                        </Link>
+                        </NavLink>
                     </li>
                 </ul>
             </nav>
