@@ -1230,43 +1230,93 @@
     },{
       "youtubeID": "7KOTOChjB4I",
       "title": "Chickens can be Chicken about Trying New Things",
-      "albums": ["new", "chickens"],
+      "albums": [ "chickens"],
       "release_date": "4/25/25"
     },{
       "youtubeID": "0LWhFAE93JE",
       "title": "Our Dogs Are Clothes Hounds",
-      "albums": ["new", "dogs"],
+      "albums": [ "dogs"],
       "release_date": "4/25/25"
     },{
       "youtubeID": "eUMdDBEvhqM",
       "title": "Strutting Birds Workin it on our Wall #workitwednesday",
-      "albums": ["new", "wildlife"],
+      "albums": [ "wildlife"],
       "release_date": "4/25/25"
     },{
       "youtubeID": "SLmt8D-UKr4",
       "title": "Peep peep is the palindrome of springtime & this short’s a palindrome of birds flying in loops",
-      "albums": ["new", "wildlife"],
+      "albums": [ "wildlife"],
       "release_date": "4/25/25"
     },{
       "youtubeID": "MZSqNLo6rGE",
       "title": "We got pigeon problems in our barnyard - Meh Monday",
-      "albums": ["new", "chickens"],
+      "albums": [ "chickens"],
       "release_date": "4/25/25"
     },{
       "youtubeID": "uwcyZ9WK3J0",
       "title": "Life lessons w/ Huey Ka-Bluey",
-      "albums": ["new", "dogs"],
+      "albums": [ "dogs"],
       "release_date": "4/25/25"
     },{
       "youtubeID": "3scYB3NrLCQ",
       "title": "Duckhunt Vibes (Classic NES nostalgia)",
-      "albums": ["new", "chickens", "dogs"],
+      "albums": [ "chickens", "dogs"],
       "release_date": "4/25/25"
     },{
       "youtubeID": "r8DzWIpc_e0",
       "title": "Making Mini Meringue Magic (mini pavlovas with fresh strawberries)",
-      "albums": ["new", "cooking"],
+      "albums": [ "cooking"],
       "release_date": "4/25/25"
+    },{
+      "youtubeID": "1yUqOxQbH48",
+      "title": "Can’t Fight the Feeling of Pool Season!",
+      "albums": ["new", "dogs"],
+      "release_date": "5/2/25"
+    },{
+      "youtubeID": "Ju16VpSimio",
+      "title": "Huey Ka-Bluey and Xena took a nap…",
+      "albums": ["new", "dogs"],
+      "release_date": "5/2/25"
+    },{
+      "youtubeID": "XZuDZ5OPm6M",
+      "title": "POV - the kind of friends you’d trust your newborn with #friendshipgoals",
+      "albums": ["new", "chickens"],
+      "release_date": "5/2/25"
+    },{
+      "youtubeID": "iuVTqvjQj74",
+      "title": "Eating Roses is a Full Contact Sport for Totes & McGoats - Meh Monday",
+      "albums": ["new", "goats"],
+      "release_date": "5/2/25"
+    },{
+      "youtubeID": "_ZPVkLCslEA",
+      "title": "Mega Fresh Pasta Noodles from Yard-Fresh Eggs",
+      "albums": ["new", "cooking"],
+      "release_date": "5/2/25"
+    },{
+      "youtubeID": "_ZPVkLCslEA",
+      "title": "Mega Fresh Pasta Noodles from Yard-Fresh Eggs",
+      "albums": ["new", "cooking"],
+      "release_date": "5/2/25"
+    },{
+      "youtubeID": "XN8tD2LYDf0",
+      "title": " Huey Ka-Bluey and Xena got Muffin to Say!",
+      "albums": ["new", "dogs"],
+      "release_date": "5/2/25"
+    },{
+      "youtubeID": "zojC0xmuJps",
+      "title": " Arthur Brings his Subwoofer When We Leave our Other Woofers at Home",
+      "albums": ["new", "diy"],
+      "release_date": "5/2/25"
+    },{
+      "youtubeID": "zojC0xmuJps",
+      "title": " Arthur Brings his Subwoofer When We Leave our Other Woofers at Home",
+      "albums": ["new", "diy"],
+      "release_date": "5/2/25"
+    },{
+      "youtubeID": "7KOTOChjB4I",
+      "title": "Chickens can be Chicken about Trying New Things",
+      "albums": ["new", "chickens"],
+      "release_date": "5/2/25"
     }
   ]
 }
