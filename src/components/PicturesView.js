@@ -15,7 +15,8 @@ const PicturesView = () => {
             setLoading(true);
             setError(null);
             try {
-                const response = await fetch('./pageData/pictures.json');
+                const response = await fetch(process.env.PUBLIC_URL + '/pageData/pictures.json');
+                // const response = await fetch('./pageData/pictures.json');
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }

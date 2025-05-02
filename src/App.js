@@ -17,8 +17,10 @@ import TermsOfService from "./pages/TermsOfService";
 
 
 function App() {
+    const basename = process.env.REACT_APP_BASE_URL ? process.env.REACT_APP_BASE_URL : '';
+
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={basename}>
             <TopNav />
             <div className="content-wrapper">
                 <Routes>

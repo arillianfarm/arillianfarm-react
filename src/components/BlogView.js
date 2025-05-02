@@ -19,7 +19,9 @@ const BlogView = () => {
             setLoading(true);
             setError(null);
             try {
-                const response = await fetch('/pageData/blog.json');
+                // const response = await fetch('/pageData/blog.json');
+                const response = await fetch(process.env.PUBLIC_URL + '/pageData/blog.json');
+
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }

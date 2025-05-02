@@ -15,7 +15,8 @@ const VideoView = () => {
             setLoading(true);
             setError(null);
             try {
-                const response = await fetch('./pageData/videos.json');
+
+                const response = await fetch(process.env.PUBLIC_URL + '/pageData/videos.json');
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }

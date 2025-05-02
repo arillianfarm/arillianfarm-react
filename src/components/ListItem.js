@@ -77,7 +77,7 @@ const ListItem = ({ item, isSelected, onItemClick, titleKey, thumbnailKey, descr
                                 <p>{typeof descriptionKey === 'function' ? descriptionKey(item) : trunc(item[descriptionKey])}</p>
                             )}
                             <div className="col-xs-12 mt-4 mb-2 text-white cursPoint text-right pull-right button-group" style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end' }}>
-                                {thumbnailPrefix === '/assets/recipes/' && (
+                                {thumbnailPrefix === 'grecipes/' && (
                                     <button className="btn btn-light btn-xs" style={{ padding: '0.2rem 0.4rem', fontSize: '0.6em' }} onClick={handleCopyRecipe}>
                                         <i className="fa fa-copy"></i> <b>Recipe</b>
                                     </button>

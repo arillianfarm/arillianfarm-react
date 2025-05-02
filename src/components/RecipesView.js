@@ -144,13 +144,18 @@ const RecipesView = () => {
     const [error, setError] = useState(null);
     const location = useLocation();
 
+
+
     useEffect(() => {
         const fetchRecipes = async () => {
             setLoading(true);
             setError(null);
             try {
                 // Use an absolute path from the public directory
-                const response = await fetch('/pageData/recipes.json');
+                // const response = await fetch('./pageData/recipes.json');
+
+                //fix for local env not serving data (after run build)
+                const response = await fetch(process.env.PUBLIC_URL + '/pageData/recipes.json');
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
