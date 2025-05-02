@@ -2142,14 +2142,14 @@
       ]
     },
     {
-      "name": "How to React When Your Angular1 Site Can't Hack it Anymore",
+      "name": "How to *React* When Your AngularJS Site Can't Hack it Anymore",
       "pub_date": "5/2/25",
       "featured": true,
       "header_pic": "react-logo.png",
-      "about": "Taking the Plunge: Our Journey Converting Arillian Farm from Angular to React",
+      "about": "Clasping hands with My Favorite AI, Gemini, I took a Plunge into my codebase and Made it Out the other Side",
       "categories": ["Technical", "Web Development", "React", "Angular"],
       "tools": [
-        "VS Code (or your preferred code editor)",
+        "Webstorm (or your preferred code editor)",
         "Node.js and npm (or yarn)",
         "React Developer Tools (browser extension)",
         "Your Brain (for problem-solving)",
@@ -2165,58 +2165,29 @@
         "pic": "angular-logo.png",
         "paragraphs": [
           {
-            "text": "Laying the Groundwork: Why the Switch?",
+            "text": "Why the Switch?",
             "h4": true
           },
           {
-            "text": "For a while now, the Arillian Farm website has been running on Angular. It served its purpose well, but as the site grew and new features were envisioned, we started considering a shift to React. The vibrant React ecosystem, its component-based architecture, and the promise of potentially better performance for our needs were key factors in this decision."
+            "text": "Arillian Farm, like every software project I've ever worked on was built using AngularJS. I knew when I set-out last year, that it was an outdated framework, but I didn't realize just how painfully old and busted it was until I emailed myself a link to my pasta dough recipe. And was embarassed when I tried to opened it on my phone it took me to our homepage instead of my recipe. At some point, the hot-fix hash-tag workaround that had worked for my sites of yor, couldn't hack it on the modern web."
           },
           {
-            "text": "The thought of a complete rewrite was daunting, to say the least. It felt like we were staring at a mountain of code! That's where my trusty AI companion, Gemini, came into the picture. Instead of a full, immediate switch, we decided to explore a more gradual, DIY conversion – tackling components and views one by one."
+            "text": "The thought of a complete rewrite felt like staring at a blank mountain and being asked to carve a new Mt Rushmore. Fortunately my trusty AI companion, Gemini, swooped to my aid. Gemini fed tasks to me in bite sized pieces and together we re-engineered my clunky angular directives into robust react components. Transforming long ugly `ng-if`s into JSXy conditional renderings until we eventually birthed the beautiful bundle file this site runs off of today."
           }
         ]
       }, {
-        "pic": "react-logo.png",
+        "pic": "react-spin-up.png",
         "right_side_pic": true,
         "paragraphs": [
           {
-            "text": "Setting Up the New Workshop: Our React Environment",
+            "text": "Learning to React",
             "h4": true
           },
           {
-            "text": "The first step was setting up a new React project. We opted for [mention the tool you used, e.g., Create React App] to get a basic project structure up and running quickly. It felt like opening a brand new, well-organized workshop compared to our slightly more... established Angular setup."
+            "text": "The first step, setting up a new React project, was simple. My IDE, Webstorm allowed me to easily spin up a basic react project with a few clicks in the main menu."
           },
           {
-            "text": "With the basic React app in place, the real fun began: figuring out how to port over the functionality and look of our existing Angular components. This wasn't a simple copy-paste job! We had to rethink data flow, component structure, and how to handle things like routing and state management in the React way."
-          }
-        ]
-      }, {
-        "pic": "code-comparison.png",
-        "paragraphs": [
-          {
-            "text": "Translating the Blueprints: Component Conversion",
-            "h4": true
-          },
-          {
-            "text": "One of the early challenges was taking an Angular component and re-imagining it as a React functional component (mostly!). We had to consider things like: How does data get passed around using props? How do we handle user interactions with state using `useState`? What about lifecycle events – in React, that's often `useEffect`."
-          },
-          {
-            "text": "Take our `ProjectView` component, for example (the code you shared!). In Angular, fetching data and displaying it might involve services and component logic tied to the class. In React, we used `useEffect` to handle the initial data fetching and `useState` to manage the projects data and the currently featured project. It was a different way of thinking, but Gemini was incredibly helpful in explaining the React patterns."
-          }
-        ]
-      }, {
-        "pic": "json-data.png",
-        "right_side_pic": true,
-        "paragraphs": [
-          {
-            "text": "The Language of Data: Working with JSON",
-            "h4": true
-          },
-          {
-            "text": "Our content for recipes, projects, and blog posts is stored in JSON files. Thankfully, this part was relatively straightforward to bring over to React. We just needed to ensure the file paths were correct and use React's `fetch` API (or a library like Axios) to read the data into our components."
-          },
-          {
-            "text": "One thing we learned (or re-learned!) was the importance of data sorting. You might have seen us implement `.reverse()` to display the newest items first – a small but crucial detail for user experience!"
+            "text": "After the basic React app was in place, the challenge: how to enhance the functionality of this site without losing the Arillian Farm charm. It was no simple copy-paste job! We had to rethink data flow, component structure, and how to handle things like routing and state management in the React way."
           }
         ]
       }, {
@@ -2227,10 +2198,36 @@
             "h4": true
           },
           {
-            "text": "Navigation is key to any website. In Angular, we had its built-in router. For React, we chose `react-router-dom`. This involved defining our routes, linking components to specific URLs (like our individual project views using `useParams`), and setting up navigation components like our `TopNav` (where we had that little adventure with `<Link>` vs. `<NavLink>`!)."
+            "text": "Navigation is key to any website and Angular's short-comings related to routing were actually the main reason I wanted to convert to React in the first place. In Angular, I used a clunky, opinionated built-in router. For React, Gemini suggested `react-router-dom` which allowed me to link components directly to specific URLs, and leverage pre-built react components like `NavLink`  in the `TopNav` for this site."
           },
           {
-            "text": "Gemini was particularly helpful in explaining the concepts of declarative routing and how to pass parameters through URLs in React Router."
+            "text": "And Greatest of All, Gemini helped me use declarative routing to pass parameters through URLs with React Router."
+          }
+        ]
+      }, {
+        "pic": "code-comparison.png",
+        "paragraphs": [
+          {
+            "text": "Translating the Blueprints: Architecting Components from Controllers and Directives",
+            "h4": true
+          },
+          {
+            "text": "Another challenges was taking my Angular-infused HTML files and one massive js file and re-imagining them as functional React components in tidy little JS files, a task made especially difficult by the fact that I didn't even know what a React Component was until Gemini explained it to me. None the less, Gemini and I forged forward. Talking through topics such as: How React passes data using 'props' or How to leverage `useState` for user interactions and `useEffect` to manage lifecycle events in React."
+          },
+          {
+            "text": "In the Angular version of this `DIY PROJECTS PAGE` for example, logic to fetching and displaying data was scattered through several html and js files and stored globally. In this, React, version, (using `useEffect` and  `useState`) I was able to eliminate scattered and redundant code fragments, consolidating them into a single ProjectView.js file. It took practice to bend my brain to the React way of thinking, but once Gemini helped me see the parallels between Angular and React and I started to pick up on the syntactical nuances, it was full steam ahead."
+          }
+        ]
+      }, {
+        "pic": "json-data.png",
+        "right_side_pic": true,
+        "paragraphs": [
+          {
+            "text": "The Beauty of JSON",
+            "h4": true
+          },
+          {
+            "text": "My professional experience as a web developer helped me to decide to store the content for recipes, projects, and blog posts in JSON files. This allowed me to transfer all of my site data in seconds by simply copying and pasting three files (from the angular version of the site to the react veresion). After that it was easy to pipe the JSON files into their corresponding react components using React's `fetch` API."
           }
         ]
       }, {
@@ -2242,24 +2239,18 @@
             "h4": true
           },
           {
-            "text": "No DIY project is without its hiccups! We definitely encountered our fair share of console warnings (remember the `className` on the `<a>` tag?), unexpected rendering issues, and moments of head-scratching. The React Developer Tools browser extension became our best friend during these times, allowing us to inspect component props, state, and the component tree."
-          },
-          {
-            "text": "And of course, Gemini was always ready to offer suggestions and explain those cryptic error messages!"
+            "text": "No DIY project is without its hiccups! The majority of the 80-100 hours I spent on this platform conversion was on throwing spaghetti at the wall to see what stuck and debugging. Thankfully my coding bestie, Gemini was there to guide me through Chrome Dev tools and the various head-scratching error messages that cropped up in my console."
           }
         ]
       }, {
         "pic": "website-comparison.png",
         "paragraphs": [
           {
-            "text": "The (Ongoing) Transformation: Where We Are Now",
+            "text": "The (Ongoing) Transformation",
             "h4": true
           },
           {
-            "text": "The conversion is still a work in progress, but we've made significant strides. Seeing our familiar Arillian Farm content now being rendered by React components is pretty exciting! It's a testament to the power of breaking down a large task into smaller, manageable DIY steps – and having a helpful AI assistant by your side."
-          },
-          {
-            "text": "Stay tuned for more updates as we continue our journey of bringing the Arillian Farm experience to life with React!"
+            "text": "Now that I've finally Reacted to how out of date my codebase was, I'm excited to bring in new, modern features, like comments and maybe even actual SEO considerations. With a shiny new react architecture and my trusty AI homie, Gemini, the sky's the limit... Gemini even helped me write this DIY entry."
           }
         ]
       }]

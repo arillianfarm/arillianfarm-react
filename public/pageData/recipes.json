@@ -2007,18 +2007,17 @@
       "servings": "2-3 servings",
       "related_recipes": ["Pasta Dough", "Marinated Artichokes"],
       "ingredients": [
-        "About 6-8 ounces frozen homemade angel hair pasta (adjust to your desired serving size)",
+        "About 6-8 ounces angel hair pasta (adjust to your desired serving size)",
         "1 pint (about 2 cups) fresh cherry tomatoes, halved or quartered if large",
-        "1/4 cup fresh basil leaves, roughly chopped or thinly sliced (chiffonade)",
+        "1/4 cup fresh basil leaves, roughly chopped or thinly sliced",
         "2-3 cloves fresh garlic, thinly sliced or minced",
         "2 tablespoons butter",
-        "2 tablespoons olive oil",
         "1-2 tablespoons balsamic vinegar (start with 1 and add more to taste)",
         "1/2 cup boiled or marinated artichoke hearts, quartered or roughly chopped",
         "1/4 cup grated Parmesan cheese, plus more for serving",
         "Salt and freshly ground black pepper to taste",
-        "Optional: A pinch of red pepper flakes for a little heat (if you like)",
-        "Optional: A few shavings of fresh mozzarella for topping (added at the very end)"
+        "Pinch of red pepper flakes (optional)",
+        "Shredded mozzarella for topping (optional)"
       ],
       "steps": [
         {
@@ -2027,7 +2026,7 @@
         },
         {
           "pic": "angelhair_saute_garlic.png",
-          "instruction": "Sauté Garlic: Heat the olive oil and butter in a large skillet or pan over medium heat. Add the sliced or minced garlic and sauté for about 30 seconds to 1 minute, until fragrant (be careful not to burn it)."
+          "instruction": "Sauté Garlic: Heat the butter in a large skillet or pan over medium heat. Add garlic and sauté until fragrant (about 30-60 seconds)."
         },
         {
           "pic": "angelhair_add_tomatoes.png",
@@ -2054,7 +2053,7 @@
           "instruction": "Add Basil and Parmesan: Remove the skillet from the heat and stir in the chopped fresh basil and the grated Parmesan cheese. Toss again to combine."
         },
         {
-          "pic": "angelhair_serve.png",
+          "pic": "angelhair_done.png",
           "instruction": "Serve: Divide the pasta among plates or bowls. Garnish with extra grated Parmesan cheese and, if desired, a few shavings of fresh mozzarella on top. Serve immediately."
         }
       ],
