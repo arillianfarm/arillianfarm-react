@@ -1997,18 +1997,18 @@
           "instruction": "Roll up and enjoy."
         }
       ],
-      "notes": "Elevate Eggs From Hen House to Handheld Helpins of Homemade Goodness"
+      "notes": "Elevate Eggs From Hen House to Handheld Happiness"
     },
     {
       "name": "Choked Up Cherry Tomato Angel Hair Pasta",
-      "header_pic": "angelhair_artichoke_done.png",
+      "header_pic": "angelhair_thaw_pasta.png",
       "featured": true,
       "pub_date": "5/2/25",
       "servings": "2-3 servings",
       "related_recipes": ["Pasta Dough", "Marinated Artichokes"],
       "ingredients": [
-        "About 6-8 ounces angel hair pasta (adjust to your desired serving size)",
-        "1 pint (about 2 cups) fresh cherry tomatoes, halved or quartered if large",
+        "About 6-8 ounces angel hair pasta",
+        "1 pint (about 2 cups) fresh cherry tomatoes, halved or quartered",
         "1/4 cup fresh basil leaves, roughly chopped or thinly sliced",
         "2-3 cloves fresh garlic, thinly sliced or minced",
         "2 tablespoons butter",
@@ -2021,16 +2021,12 @@
       ],
       "steps": [
         {
-          "pic": "angelhair_thaw_pasta.png",
-          "instruction": "Thaw Pasta (Quick Method): While you prepare the sauce, you can quickly thaw your frozen angel hair. You have a few options:\n\nIn boiling water: Add the frozen pasta directly to the boiling water. It will thaw very quickly (within a minute or two). Be careful not to overcook.\nIn a colander under warm water: Place the frozen pasta in a colander and run warm water over it, gently separating the strands with your fingers until thawed.\nLet it sit at room temperature: If you have a little more time, let it sit at room temperature while you prep the other ingredients."
-        },
-        {
           "pic": "angelhair_saute_garlic.png",
           "instruction": "Sauté Garlic: Heat the butter in a large skillet or pan over medium heat. Add garlic and sauté until fragrant (about 30-60 seconds)."
         },
         {
           "pic": "angelhair_add_tomatoes.png",
-          "instruction": "Add Cherry Tomatoes: Add the halved or quartered cherry tomatoes to the skillet. Season with a pinch of salt and black pepper (and red pepper flakes, if using). Cook for 5-7 minutes, stirring occasionally, until the tomatoes begin to soften and release their juices. You can gently press down on some of them with the back of a spoon to help them break down slightly and create a light sauce."
+          "instruction": "Add Cherry Tomatoes: Add the halved or quartered cherry tomatoes to the skillet. Season with a pinch of salt and black pepper (and red pepper flakes, if using). Cook for 5-7 minutes, stirring occasionally, until the tomatoes begin to soften and release their juices. Press tomatoes with the back of a spoon to break them down slightly and create a light sauce."
         },
         {
           "pic": "angelhair_add_artichokes.png",
@@ -2038,26 +2034,26 @@
         },
         {
           "pic": "angelhair_deglaze.png",
-          "instruction": "Deglaze with Balsamic Vinegar: Pour in the balsamic vinegar and stir well, scraping up any browned bits from the bottom of the pan. Let it simmer for about 1 minute, allowing the vinegar to slightly reduce and intensify in flavor."
+          "instruction": "Pour 1 tablespoon balsamic vinegar over sauce and stir well (to deglaze the pan). Let simmer for about 1 minute, allowing the vinegar to slightly reduce and intensify in flavor. Add additional vinegar upto 1 tablespoon if you want more zing"
         },
         {
           "pic": "angelhair_cook_pasta.png",
-          "instruction": "Cook the Pasta: While the tomatoes and artichokes are cooking, cook your thawed angel hair pasta in a pot of salted boiling water until al dente (it will cook very quickly since it's thin and fresh). Drain the pasta, reserving about 1/2 cup of the pasta cooking water."
+          "instruction": "While the tomatoes and artichokes cook, boil angel hair pasta in a pot of lightly salted water to desired tenderness. Drain the pasta, reserving about 1/2 cup of the pasta water."
         },
         {
           "pic": "angelhair_combine.png",
-          "instruction": "Combine Pasta and Sauce: Add the drained pasta directly to the skillet with the tomato and artichoke sauce. Toss gently to coat. If the sauce seems a little thick, add a tablespoon or two of the reserved pasta water to create a smoother consistency."
+          "instruction": "Add drained pasta directly to the skillet with the tomato and artichoke sauce. Toss gently to coat. If the sauce seems a little thick, add a tablespoon or two of the reserved pasta water to create a smoother consistency."
         },
         {
           "pic": "angelhair_add_basil_parm.png",
-          "instruction": "Add Basil and Parmesan: Remove the skillet from the heat and stir in the chopped fresh basil and the grated Parmesan cheese. Toss again to combine."
+          "instruction": "Remove the skillet from the heat and stir in the chopped fresh basil and the grated Parmesan cheese. Toss again to combine."
         },
         {
           "pic": "angelhair_done.png",
-          "instruction": "Serve: Divide the pasta among plates or bowls. Garnish with extra grated Parmesan cheese and, if desired, a few shavings of fresh mozzarella on top. Serve immediately."
+          "instruction": "Garnish with extra grated Parmesan cheese (and/or mozzarella) on top."
         }
       ],
-      "notes": "A light and flavorful pasta dish with a delightful tang and the subtle heartiness of artichokes."
+      "notes": "A light pasta with the delightful tang of tomatoes and heartiness of artichokes."
     }
   ]
 }
