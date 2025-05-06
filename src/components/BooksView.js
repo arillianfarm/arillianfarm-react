@@ -40,7 +40,7 @@ const BooksView = () => {
                         style={{ cursor: 'pointer' }}
                     >
                         <img
-                            src={`/assets/books/${hyperspearDisplayPage}`}
+                            src={`./assets/books/${hyperspearDisplayPage}`}
                             style={{ height: '40em', maxWidth: '30em' }}
                             alt="Hyperspear Cover"
                         />
@@ -67,7 +67,7 @@ const BooksView = () => {
                         style={{ cursor: 'pointer' }}
                     >
                         <img
-                            src={`/assets/books/${unfetteredDisplayPage}`}
+                            src={`./assets/books/${unfetteredDisplayPage}`}
                             style={{ height: '40em', maxWidth: '30em' }}
                             alt="unFETTERed Cover"
                         />

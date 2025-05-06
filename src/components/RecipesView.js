@@ -13,7 +13,7 @@ const RecipeIngredients = ({ ingredients, servings, headerPic, isSmallView }) =>
                     {headerPic && (
                         <img
                             className="br20 m-3"
-                            src={`/assets/recipes/${headerPic}`}
+                            src={`./assets/recipes/${headerPic}`}
                             style={{ height: isSmallView ? 'auto' : '300px', maxWidth: '25em', objectFit: 'cover' }}
                             alt="Recipe Header"
                         />
@@ -49,7 +49,7 @@ const RecipeSteps = ({ steps, isSmallView }) => {
                             {step.pic && (
                                 <img
                                     className="br20"
-                                    src={`/assets/recipes/${step.pic}`}
+                                    src={`./assets/recipes/${step.pic}`}
                                     style={{ height: isSmallView ? 'auto' : '150px', objectFit: 'cover' }}
                                     alt={`Step ${index + 1}`}
                                 />
@@ -236,7 +236,7 @@ const RecipesView = () => {
                                     titleKey="name"
                                     thumbnailKey="header_pic"
                                     descriptionKey="notes"
-                                    thumbnailPrefix="/assets/recipes/"
+                                    thumbnailPrefix="./assets/recipes/"
                                     pageBase='recipes'
                                 />
                             ))}

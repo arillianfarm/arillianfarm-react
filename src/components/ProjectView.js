@@ -27,7 +27,7 @@ const ProjectToolsMaterials = ({ featuredProject }) => {
                             <div key={`toolPic-${index}`} className="col-xs-12 col-lg-4">
                                 <p>{toolPic.name}</p>
                                 <img
-                                    src={`/assets/projects/${toolPic.pic}`}
+                                    src={`./assets/projects/${toolPic.pic}`}
                                     style={{ height: '10em', padding: '10px', float: toolPic.right_side_pic ? 'right' : 'left' }}
                                     className="br20 p2"
                                     alt={toolPic.name}
@@ -41,7 +41,7 @@ const ProjectToolsMaterials = ({ featuredProject }) => {
                                         rel="noopener noreferrer"
                                     >
                                         <img
-                                            src={`/assets/projects/${toolPic.pic}`}
+                                            src={`./assets/projects/${toolPic.pic}`}
                                             style={{ height: '10em', padding: '10px' }}
                                             alt={`${toolPic.name} Link`}
                                         />
@@ -71,7 +71,7 @@ const ProjectToolsMaterials = ({ featuredProject }) => {
                                 <div key={`matPic-${index}`} className="col-xs-12 col-lg-4">
                                     <p>{matPic.name}</p>
                                     <img
-                                        src={`/assets/projects/${matPic.pic}`}
+                                        src={`./assets/projects/${matPic.pic}`}
                                         style={{ height: '10em', padding: '10px', float: matPic.right_side_pic ? 'right' : 'left' }}
                                         className="br20 p2"
                                         alt={matPic.name}
@@ -85,7 +85,7 @@ const ProjectToolsMaterials = ({ featuredProject }) => {
                                             rel="noopener noreferrer"
                                         >
                                             <img
-                                                src={`/assets/projects/${matPic.pic}`}
+                                                src={`./assets/projects/${matPic.pic}`}
                                                 style={{ height: '10em', padding: '10px' }}
                                                 alt={`${matPic.name} Link`}
                                             />
@@ -115,7 +115,7 @@ const ProjectPhases = ({ featuredProject }) => {
                         {section.pic && (
                             <img
                                 style={{ float: section.right_side_pic ? 'right' : 'left', height: '20em', padding: '10px', maxWidth: '55em', marginLeft: '5px' }}
-                                src={`/assets/projects/${section.pic}`}
+                                src={`./assets/projects/${section.pic}`}
                                 className="br20 p2"
                                 alt={section.label || `Phase ${index + 1}`}
                             />
@@ -129,7 +129,7 @@ const ProjectPhases = ({ featuredProject }) => {
                                 rel="noopener noreferrer"
                             >
                                 <img
-                                    src={`/assets/projects/${section.pic}`}
+                                    src={`./assets/projects/${section.pic}`}
                                     style={{ height: '20em', padding: '10px', maxWidth: '55em' }}
                                     alt={`${section.label} Link` || `Phase ${index + 1} Link`}
                                 />
@@ -264,14 +264,14 @@ const ProjectView = () => {
                 <div className="row">
                     <div className="col-xs-12 text-center mb-5 mt-5">
                         {item.header_pic && (
-                            <img className="br20" src={`/assets/projects/${item.header_pic}`} style={{ height: '20em' }} alt={item.name} />
+                            <img className="br20" src={`./assets/projects/${item.header_pic}`} style={{ height: '20em' }} alt={item.name} />
                         )}
                         {item.link && !item.header_pic && (
                             <h3><a href={item.link} target="_blank" rel="noopener noreferrer">[LINK]</a></h3>
                         )}
                         {item.link && item.header_pic && (
                             <a href={item.link} target="_blank" rel="noopener noreferrer">
-                                <img className="br20" src={`/assets/projects/${item.header_pic}`} style={{ height: '20em', marginLeft: '3em' }} alt={item.name} />
+                                <img className="br20" src={`./assets/projects/${item.header_pic}`} style={{ height: '20em', marginLeft: '3em' }} alt={item.name} />
                             </a>
                         )}
                     </div>
@@ -327,7 +327,7 @@ const ProjectView = () => {
                                     thumbnailKey="header_pic"
                                     descriptionKey="about"
                                     pageBase="projects"
-                                    thumbnailPrefix="/assets/projects/"
+                                    thumbnailPrefix="./assets/projects/"
                                 />
                             ))}
                     </div>

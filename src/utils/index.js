@@ -35,7 +35,7 @@ export const getSlug = (unsanitizedField = "") => {
 
 export const setCopiedLink = (viewName, articleName) => {
     const sanitizedArticleName = getSlug(articleName);
-    const path = `/${viewName}/${sanitizedArticleName}`;
+    const path = `/arillianfarm-react/${viewName}/${sanitizedArticleName}`;
     const fullLink = window.location.origin + path;
     return fullLink;
 };
