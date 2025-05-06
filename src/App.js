@@ -16,13 +16,13 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfService from "./pages/TermsOfService";
 
 
-function App() {
+function App({ initialPath }) {
     return (
         <BrowserRouter basename="/arillianfarm-react" >
             <TopNav />
             <div className="content-wrapper">
                 <Routes>
-                    <Route path="/recipes" element={<RecipesView />}/>
+                    <Route path="/recipes" element={<RecipesView />} /> {/* For the base /recipes URL */}
                     <Route path="/recipes/:recipeId" element={<RecipesView />} />
                     <Route path="/videos" element={<VideoView />} />
                     <Route path="/projects" element={<ProjectView />} />
