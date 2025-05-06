@@ -803,7 +803,7 @@
       "header_pic": "pdough.png",
       "categories": ["pasta", "dinner"],
       "servings": "8-10 oz of dough (approx 3 servings of pasta)",
-      "related_recipes": ["Pumpkin Raviolis in Sweet Butter Sage Sauce"],
+      "related_recipes": ["Pumpkin Raviolis in Sweet Butter Sage Sauce","Fettuccine and Broccoli Alfredo","Cheesy Baked Artichoke Mushroom Raviolis"],
       "ingredients": [
         "2 Cups Bread Flour or All Purpose Flour",
         "1/4 tsp Salt",
@@ -2054,6 +2054,76 @@
         }
       ],
       "notes": "A light pasta with the delightful tang of tomatoes and heartiness of artichokes."
+    },
+    {
+      "name": "Cheesy Baked Artichoke Mushroom Raviolis",
+      "pub_date": "5/9/25",
+      "header_pic": "AmravDone.png",
+      "categories": ["pasta", "dinner"],
+      "servings": "3-4 servings",
+      "related_recipes": ["Pasta Dough"],
+      "ingredients": [
+        "2-3 fresh sheets of pasta dough",
+        "1/2 cup chopped crimini or button mushrooms",
+        "1/4 cup chopped artichoke hearts (boiled or steamed)",
+        "1/4 Cup Grated Parmesan Cheese + extra for baking",
+        "1/4 Cup Grated Mozzarella Cheese",
+        "1/2 Cup Ricotta Cheese",
+        "3/4 tsp Ground Black Pepper --divided",
+        "4-6 Cloves of Garlic, Minced or Pressed --divided",
+        "1 Tablespoon Unsalted Butter",
+        "1-2 tablespoon finely chopped (fresh) oregano and/or thyme",
+        "1 lb cheery tomatoes",
+        "1/4 tsp red pepper flakes",
+        "1/4 cup breadcrumbs",
+        "2 tablespoons pasta water (reserved from cooking raviolis)"
+      ],
+      "steps": [
+        {
+          "pic": "Amrav1.png",
+          "instruction": "Cheesey Artichoke Mushroom Filling:"
+        },
+        {
+          "pic": "Amrav2.png",
+          "instruction": "Saute garlic and mushrooms in a medium sized pan until fragrant then add artichoke hearts and saute another 5 minutes. Then set aside to cool."
+        },
+        {
+          "pic": "Amrav2.png",
+          "instruction": "Mix Ricotta Cheese, Mozzarella, Parmesan, 1/2 Tsp Crushed Black Pepper, 2 Cloves of Minced Garlic, cooled artichokes and mushrooms."
+        },
+        {
+          "pic": "Amrav3.png",
+          "instruction": "Rolling & Filling Pasta Dough - When ready to use the dough --if you refrigerated it for more than two hours, set dough out for 30 minutes-- then divide into 2 even sections."
+        },
+        {
+          "pic": "Amrav4.png",
+          "instruction": "Roll each section of dough through a pasta maker starting with the rollers at the 1 setting and incrementing then re-roll at the next highest setting until the dough is thin enough to see your hand through the dough (setting 5 or 6). Cut the sheets in half as they get too long to manage."
+        },
+        {
+          "pic": "Amrav5.png",
+          "instruction": "Spoon (1-2 teaspoon) blobs of ravioli filling every 1- 2 inches along the sheets of pasta dough and slicing the dough between the blobs. Fold the dough sheet over the filling and then fold then ends in, pressing gently to seal."
+        },
+        {
+          "pic": "Amrav6.png",
+          "instruction": "If you have extra sheets of pasta, cut into noodles or separate sheets with parchment and put them in a freezer bag can freeze for upto 3 months (and use for lasagna etc). If you have extra filling it is tasty as a stuffed mushroom filling or on toasted bread."
+        },
+        {
+          "instruction": "Boil Raviolis In Rapidly Boiling Water For 5 Minutes --reserve 2-4 tablespoons of water and drain the rest."
+        },{
+          "pic": "Amrav7.png",
+          "instruction": "Make Tomato Sauce - In a Medium Sized Pan, Melt butter and add 2 cloves of minced garlic, saute until fragrant then add tomatoes, pressing with the back of a spoon to let their juice out. Simmer for about 15 minutes (until a sauce begins to form)"
+        },{
+          "pic": "",
+          "instruction": "Stir in herbs, red pepper flakes, 1/4 tsp black pepper and cook another 5 minutes, then stir in 2 tablespoons pasta water."
+        },{
+          "pic": "Amrav8.png",
+          "instruction": "Transfer cooked and drained raviolis to a baking dish and coat with sauce."
+        },{
+          "pic": "Amrav9.png",
+          "instruction": "Top with shredded parmesan and breadcrumbs and airfry for 5 Minutes -- until cheese and tops of raviolis start to brown"
+        }
+      ],
+      "notes": "Hearty and Delicious!"
     }
   ]
 }

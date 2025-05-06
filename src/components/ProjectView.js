@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import ListItem from './ListItem';
 import {getIframeSrcForYouTube, titleCaps, trunc, setCopiedLink, getSlug } from '../utils';
 import {useLocation, useParams} from 'react-router-dom';
+import projectData from '../pageData/projects.json';
+
 
 const ProjectToolsMaterials = ({ featuredProject }) => {
     if (!featuredProject || (!featuredProject.tools?.length && !featuredProject.materials?.length)) {
@@ -172,29 +174,17 @@ const ProjectView = () => {
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        const fetchProjects = async () => {
-            setLoading(true);
-            setError(null);
-            try {
-                const response = await fetch('/pageData/projects.json');
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-                const data = await response.json();
-                let projectData = data.data;
-
-                projectData.reverse();
-
-                setProjects(projectData);
-            } catch (e) {
-                setError(e);
-                console.error("Error fetching projects:", e);
-            } finally {
-                setLoading(false);
-            }
-        };
-
-        fetchProjects();
+        setLoading(true); // We'll set this to false immediately
+        let projects = projectData.data;
+        try {
+            projects.reverse();
+            setProjects(projects);
+        } catch (e) {
+            setError(e);
+            console.error("Error processing blog entries:", e);
+        } finally {
+            setLoading(false);
+        }
     }, []);
 
     useEffect(() => {

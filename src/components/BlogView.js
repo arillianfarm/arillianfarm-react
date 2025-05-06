@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ListItem from './ListItem';
 import {useLocation, useParams} from 'react-router-dom';
 import { calculateAlbumContainerSize, getIframeSrcForYouTube, titleCaps, trunc, applyAlbumFilter, setCopiedLink, getSlug } from '../utils';
-
+import blogData from '../pageData/blog.json';
 
 const BlogView = () => {
     const { blogId } = useParams(); // Get the dynamic blogId from the URL
@@ -15,40 +15,30 @@ const BlogView = () => {
     const location = useLocation();
 
     useEffect(() => {
-        const fetchBlogEntries = async () => {
-            setLoading(true);
-            setError(null);
-            try {
-                const response = await fetch('/pageData/blog.json');
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-                const data = await response.json();
-                let entriesWithSummary = data.data.map((entry,i) => {
-                    entry.summary = assembleBlogSummary(entry);
-                    return entry
-                },[])
-                // Reverse the array to have the newest items at the beginning
-                entriesWithSummary.reverse();
-                setBlogEntries(entriesWithSummary);
-            } catch (e) {
-                setError(e);
-                console.error("Error fetching blog entries:", e);
-            } finally {
-                setLoading(false);
-            }
-        };
+        setLoading(true); // We'll set this to false immediately
 
-        fetchBlogEntries();
+        try {
+            let entriesWithSummary = blogData.data.map((entry, i) => {
+                entry.summary = assembleBlogSummary(entry);
+                return entry;
+            }, []);
+            entriesWithSummary.reverse();
+            setBlogEntries(entriesWithSummary);
+        } catch (e) {
+            setError(e);
+            console.error("Error processing blog entries:", e);
+        } finally {
+            setLoading(false);
+        }
     }, []);
 
     useEffect(() => {
         if (!loading && blogEntries.length > 0) {
             if (blogId) {
                 const foundBlog = blogEntries.find(blog => getSlug(blog.entry_subject) === blogId);
-                setFeaturedBlogEntry(foundBlog || blogEntries[0]); // Default to first if slug not found
+                setFeaturedBlogEntry(foundBlog || blogEntries[0]);
             } else {
-                setFeaturedBlogEntry(blogEntries[0]); // Set initial featured blog if no slug in URL
+                setFeaturedBlogEntry(blogEntries[0]);
             }
         }
     }, [loading, blogEntries, blogId]);
