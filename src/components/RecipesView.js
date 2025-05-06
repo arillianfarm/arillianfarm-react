@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ListItem from './ListItem';
 import {useLocation, useParams} from 'react-router-dom';
 import { titleCaps, trunc, setCopiedLink, getSlug } from '../utils';
+import data from '../pageData/recipes.json';
 
 
 const RecipeIngredients = ({ ingredients, servings, headerPic, isSmallView }) => {
@@ -38,7 +39,7 @@ const RecipeIngredients = ({ ingredients, servings, headerPic, isSmallView }) =>
         </div>
     )};
 
-    const RecipeSteps = ({ steps, isSmallView }) => {
+const RecipeSteps = ({ steps, isSmallView }) => {
         return (
             <div className="col-xs-12 col-lg-6" style={{ overflowY: 'auto' }}>
                 <ol style={{ fontWeight: 'bold' }} className="text-white">
@@ -145,16 +146,8 @@ const RecipesView = () => {
     const location = useLocation();
 
     useEffect(() => {
-        const fetchRecipes = async () => {
-            setLoading(true);
-            setError(null);
+
             try {
-                // Use an absolute path from the public directory
-                const response = await fetch('/pageData/recipes.json');
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-                const data = await response.json();
                 let recipeData = data.data;
 
                 recipeData.reverse();
@@ -165,10 +158,8 @@ const RecipesView = () => {
             } finally {
                 setLoading(false);
             }
-        };
 
-        fetchRecipes();
-    }, []); // Fetch recipes once on component mount
+    }, []);
 
     useEffect(() => {
         if (!loading && recipes.length > 0) {

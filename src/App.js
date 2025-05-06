@@ -18,7 +18,7 @@ import TermsOfService from "./pages/TermsOfService";
 
 function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter >
             <TopNav />
             <div className="content-wrapper">
                 <Routes>

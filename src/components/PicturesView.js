@@ -1,6 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import { calculateAlbumContainerSize, getIframeSrcForYouTube, titleCaps, applyAlbumFilter } from '../utils';
 import AlbumHeader from './AlbumHeader';
+import data from '../pageData/pictures.json';
+
 
 const PicturesView = () => {
     const [pics, setPics] = useState([]);
@@ -10,16 +12,10 @@ const PicturesView = () => {
     const [selectedAlbum, setSelectedAlbum] = useState('new');
     const [albumContent, setAlbumContent] = useState([]);
 
+
     useEffect(() => {
-        const fetchPics = async () => {
             setLoading(true);
-            setError(null);
             try {
-                const response = await fetch('./pageData/pictures.json');
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-                const data = await response.json();
                 setPics(data.data);
                 setAlbumContent(applyAlbumFilter(data.data, 'new'));
             } catch (e) {
@@ -28,9 +24,7 @@ const PicturesView = () => {
             } finally {
                 setLoading(false);
             }
-        };
 
-        fetchPics();
 
         const handleResize = () => {
             setSmallView(window.innerWidth <= 600);
