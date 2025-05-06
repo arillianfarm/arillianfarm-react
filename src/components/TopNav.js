@@ -9,7 +9,7 @@ function TopNav() {
                 <ul>
                     <li>
                         <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : '')}>
-                            ARILLIAN FARM
+                            ARILLIAN FARM!
                         </NavLink>
                     </li>
                     <li>
