@@ -23,7 +23,7 @@ function HeaderPic() {
                             headerPicFiles.map((pic, index) => (
                                 <div className="col-lg-1 col-sm-3 mx-auto" key={index}>
                                     <img
-                                        src={`/assets/headerPictures/${pic.name}`}
+                                        src={`${process.env.PUBLIC_URL}/assets/headerPictures/${pic.name}`}
                                         className={pic.small_hide ? 'small-hide' : ''}
                                         style={{ width: 'fit-content', height: '9em' }}
                                         alt="" // Add an empty alt attribute for accessibility if the image is decorative

@@ -69,7 +69,7 @@ const ListItem = ({ item, isSelected, onItemClick, titleKey, thumbnailKey, descr
                             <img
                                 className="br20 mb-3 mr-3"
                                 style={{ float: 'left', width: '75px', height: '75px', objectFit: 'cover' }}
-                                src={`${thumbnailPrefix || ''}${item[thumbnailKey]}`}
+                                src={`${process.env.PUBLIC_URL}${thumbnailPrefix || ''}${item[thumbnailKey]}`}
                                 alt={item[titleKey]}
                             />
                         )}
