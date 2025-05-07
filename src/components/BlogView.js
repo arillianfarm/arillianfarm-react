@@ -5,7 +5,6 @@ import { calculateAlbumContainerSize, getIframeSrcForYouTube, titleCaps, trunc, 
 import blogData from '../pageData/blog.json';
 
 const BlogView = () => {
-    const { blogId } = useParams(); // Get the dynamic blogId from the URL
     const [blogEntries, setBlogEntries] = useState([]);
     const [featuredBlogEntry, setFeaturedBlogEntry] = useState(null);
     const [isSmallView, setIsSmallView] = useState(window.innerWidth <= 600); // Adjust breakpoint
@@ -17,6 +16,7 @@ const BlogView = () => {
 
     useEffect(() => {
         setLoading(true);
+        setError(null);
         try {
             let entriesWithSummary = blogData.data.map((entry, i) => {
                 entry.summary = assembleBlogSummary(entry);
@@ -35,6 +35,7 @@ const BlogView = () => {
             } else {
                 setFeaturedBlogEntry(blogEntries[0]);
             }
+            console.log(blogEntries[0]);
             setLoading(false);
         }
     }, [loading]);

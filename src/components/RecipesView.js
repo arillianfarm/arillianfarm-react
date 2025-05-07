@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ListItem from './ListItem';
 import {useLocation, useParams} from 'react-router-dom';
 import { titleCaps, trunc, setCopiedLink, getSlug, getParamFromUrl } from '../utils';
-import data from '../pageData/recipes.json';
+import recipeData from '../pageData/recipes.json';
 
 const RecipeIngredients = ({ ingredients, servings, headerPic, isSmallView }) => {
     return (
@@ -12,7 +12,7 @@ const RecipeIngredients = ({ ingredients, servings, headerPic, isSmallView }) =>
                     {headerPic && (
                         <img
                             className="br20 m-3"
-                            src={`./assets/recipes/${headerPic}`}
+                            src={`${process.env.PUBLIC_URL}/assets/recipes/${headerPic}`}
                             style={{ height: isSmallView ? 'auto' : '300px', maxWidth: '25em', objectFit: 'cover' }}
                             alt="Recipe Header"
                         />
@@ -48,7 +48,7 @@ const RecipeSteps = ({ steps, isSmallView }) => {
                             {step.pic && (
                                 <img
                                     className="br20"
-                                    src={`./assets/recipes/${step.pic}`}
+                                    src={`${process.env.PUBLIC_URL}/assets/recipes/${step.pic}`}
                                     style={{ height: isSmallView ? 'auto' : '150px', objectFit: 'cover' }}
                                     alt={`Step ${index + 1}`}
                                 />
@@ -60,8 +60,7 @@ const RecipeSteps = ({ steps, isSmallView }) => {
         );
     };
 
-// RelatedRecipes Component
-    const RelatedRecipes = ({ relatedRecipes, onRecipeClick }) => {
+const RelatedRecipes = ({ relatedRecipes, onRecipeClick }) => {
         if (!relatedRecipes || relatedRecipes.length === 0) {
             return null;
         }
@@ -82,7 +81,6 @@ const RecipeSteps = ({ steps, isSmallView }) => {
         );
     };
 
-// FeaturedRecipe Component ( part of renderMainContent)
 const FeaturedRecipe = ({ recipe, assembleAndCopy, isSmallView }) => {
     if (!recipe) {
         return <div className="col-xs-12 text-white"><h3>Select a Recipe</h3></div>;
@@ -134,46 +132,37 @@ const FeaturedRecipe = ({ recipe, assembleAndCopy, isSmallView }) => {
 };
 
 const RecipesView = () => {
-    const { recipeId } = useParams(); // Get the dynamic recipeId from the URL
     const [recipes, setRecipes] = useState([]);
-    const [recipe, setRecipe] = useState(null);
     const [featuredRecipe, setFeaturedRecipe] = useState(null);
     const [isSmallView, setIsSmallView] = useState(window.innerWidth <= 400);
     const [collapseNav, setCollapseNav] = useState(true);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const location = useLocation();
-    const isInitialMount = React.useRef(true); // Create a ref
-
+    const [articleId, setArticleId] = useState(null);
+    // const isInitialMount = React.useRef(true); // Create a ref
 
     useEffect(() => {
-        if (isInitialMount.current || recipeId) { // Run only on initial load or when recipeId changes
-            isInitialMount.current = false;
             setLoading(true);
             setError(null);
             try {
-                let recipeData = (data.data).reverse();
-
-                setRecipes(recipeData);
-                console.log("RECIPE ID = " + recipeId);
-                let recId = recipeId || getParamFromUrl(window.location.pathname);
-                if (recId) {
-                    const foundRecipe = recipeData.find(recipe =>
-                        recId === getSlug(recipe.name)
-                    );
-                    setFeaturedRecipe(foundRecipe || recipeData[0]); // Default to first if slug not found
-                } else {
-                    setFeaturedRecipe(recipeData[0]); // Set initial featured recipe if no slug in URL
-                }
+                setRecipes((recipeData.data).reverse());
             } catch (e) {
                 setError(e);
                 console.error("Error fetching recipes:", e);
             } finally {
+                const params = new URLSearchParams(location.search);
+                const idFromQuery = params.get('articleId');
+                if (idFromQuery) {
+                    const foundRecipe = recipes.find(recipe => getSlug(recipe.name) === idFromQuery);
+                    setFeaturedRecipe(foundRecipe || recipes[0]);
+                } else {
+                    setFeaturedRecipe(recipes[0]);
+                }
+                console.log(recipes[0]);
                 setLoading(false);
-
             }
-        }
-    }, [recipeId]);
+    }, [loading]);
 
     const handleRecipeClick = (recipe) => {
         let path = `/recipes/${getSlug(recipe.name)}`;
@@ -237,7 +226,7 @@ const RecipesView = () => {
                                     titleKey="name"
                                     thumbnailKey="header_pic"
                                     descriptionKey="notes"
-                                    thumbnailPrefix="./assets/recipes/"
+                                    thumbnailPrefix="/assets/recipes/"
                                     pageBase='/arillianfarm-react/recipes'
                                 />
                             ))}
