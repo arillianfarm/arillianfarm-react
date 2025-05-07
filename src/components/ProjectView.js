@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ListItem from './ListItem';
-import {getIframeSrcForYouTube, titleCaps, trunc, setCopiedLink, getSlug } from '../utils';
+import {getIframeSrcForYouTube, titleCaps, trunc, setCopiedLink, getSlug, getParamFromUrl} from '../utils';
 import {useLocation, useParams} from 'react-router-dom';
 import projectData from '../pageData/projects.json';
 
@@ -179,24 +179,32 @@ const ProjectView = () => {
         try {
             projects.reverse();
             setProjects(projects);
+            let path = window.location.pathname;
+            let projId = projectId || getParamFromUrl(path);
+            if (projId) {
+                const foundProject = projects.find(p => getSlug(p.name) === projectId);
+                setFeaturedProject(foundProject || projects[0]);
+            } else {
+                setFeaturedProject(projects[0]);
+            }
         } catch (e) {
             setError(e);
             console.error("Error processing blog entries:", e);
         } finally {
             setLoading(false);
         }
-    }, []);
+    }, [projectId]);
 
-    useEffect(() => {
-        if (!loading && projects.length > 0) {
-            if (projectId) {
-                const foundProject = projects.find(p => getSlug(p.name) === projectId);
-                setFeaturedProject(foundProject || projects[0]);
-            } else {
-                setFeaturedProject(projects[0]);
-            }
-        }
-    }, [loading, projects, projectId]);
+    // useEffect(() => {
+    //     if (!loading && projects.length > 0) {
+    //         if (projectId) {
+    //             const foundProject = projects.find(p => getSlug(p.name) === projectId);
+    //             setFeaturedProject(foundProject || projects[0]);
+    //         } else {
+    //             setFeaturedProject(projects[0]);
+    //         }
+    //     }
+    // }, [loading, projects, projectId]);
 
     const handleProjectClick = (project) => {
         const path = `/projects/${getSlug(project.name) || projectId}`;

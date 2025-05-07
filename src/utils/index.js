@@ -24,6 +24,19 @@ export const applyAlbumFilter = (contentList, albumName) => {
     return albumList;
 };
 
+export const getParamFromUrl = (path) => {
+     //path e.g. "/arillianfarm-react/projects/catio"
+    const parts = path.split('/');       // Splits the string into an array: ["", "arillianfarm-react", "projects", "catio"]
+    const projectIdIndex = parts.indexOf('projects') + 1; // Find the index after "projects"
+
+    if (projectIdIndex > 0 && projectIdIndex < parts.length) {
+        return parts[projectIdIndex]; // Returns "catio"
+    }
+
+    return null; // Or handle the case where "projects" isn't found or there's no ID
+}
+
+
 export const getSlug = (unsanitizedField = "") => {
     const sanitizedRecipeName = unsanitizedField
         .toLowerCase()             // Convert to lowercase

@@ -11,7 +11,7 @@ const ListItem = ({ item, isSelected, onItemClick, titleKey, thumbnailKey, descr
 
     const copyToClipboard = (text) => {
         navigator.clipboard.writeText(text)
-            .then(() => console.log('copied text to clipboard' + text))
+            .then(() => console.log('copied text to clipboard ' + text))
             .catch(err => console.error('Failed to copy link: ', err));
     };
 

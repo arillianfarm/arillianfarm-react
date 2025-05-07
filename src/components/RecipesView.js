@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import ListItem from './ListItem';
 import {useLocation, useParams} from 'react-router-dom';
-import { titleCaps, trunc, setCopiedLink, getSlug } from '../utils';
+import { titleCaps, trunc, setCopiedLink, getSlug, getParamFromUrl } from '../utils';
 import data from '../pageData/recipes.json';
-
 
 const RecipeIngredients = ({ ingredients, servings, headerPic, isSmallView }) => {
     return (
@@ -144,38 +143,40 @@ const RecipesView = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const location = useLocation();
+    const isInitialMount = React.useRef(true); // Create a ref
+
 
     useEffect(() => {
-
+        if (isInitialMount.current || recipeId) { // Run only on initial load or when recipeId changes
+            isInitialMount.current = false;
+            setLoading(true);
+            setError(null);
             try {
-                let recipeData = data.data;
+                let recipeData = (data.data).reverse();
 
-                recipeData.reverse();
                 setRecipes(recipeData);
+                console.log("RECIPE ID = " + recipeId);
+                let recId = recipeId || getParamFromUrl(window.location.pathname);
+                if (recId) {
+                    const foundRecipe = recipeData.find(recipe =>
+                        recId === getSlug(recipe.name)
+                    );
+                    setFeaturedRecipe(foundRecipe || recipeData[0]); // Default to first if slug not found
+                } else {
+                    setFeaturedRecipe(recipeData[0]); // Set initial featured recipe if no slug in URL
+                }
             } catch (e) {
                 setError(e);
                 console.error("Error fetching recipes:", e);
             } finally {
                 setLoading(false);
-            }
 
-    }, []);
-
-    useEffect(() => {
-        if (!loading && recipes.length > 0) {
-            if (recipeId) {
-                const foundRecipe = recipes.find(recipe =>
-                    recipeId === getSlug(recipe.name)
-                );
-                setFeaturedRecipe(foundRecipe || recipes[0]); // Default to first if slug not found
-            } else {
-                setFeaturedRecipe(recipes[0]); // Set initial featured recipe if no slug in URL
             }
         }
-    }, [loading, recipes, recipeId]);
+    }, [recipeId]);
 
     const handleRecipeClick = (recipe) => {
-        let path = `/recipes/${recipe.slug || getSlug(recipe.name)}`;
+        let path = `/recipes/${getSlug(recipe.name)}`;
         setFeaturedRecipe(recipe);
         window.history.pushState({}, '', path);
         if (isSmallView) {
