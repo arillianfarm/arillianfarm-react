@@ -4,19 +4,22 @@
     <meta charset="utf-8">
     <title>Arillian Farm</title>
     <script type="text/javascript">
-        // Get the path from the URL that caused the 404
-        var path = window.location.pathname;
+        // Get the full original requested path (pathname + search + hash)
+        var fullPath = window.location.pathname + window.location.search + window.location.hash;
 
-        // Get the base path of your repository (e.g., /arillianfarm-react)
-        // You need to adjust this based on your repository name
-        var repoBasePath = "/arillianfarm-react"; // <-- **MAKE SURE THIS MATCHES YOUR REPO NAME**
+        // Store the full path in sessionStorage
+        sessionStorage.setItem('redirectPath', fullPath);
 
-        // Construct the new URL: base URL + base path + # + original path
-        // This redirects to your app's root and adds the original path as a hash
-        var redirectUrl = window.location.origin + repoBasePath + '/#' + path;
+        // Redirect to the root of your application relative to the origin
+        // This should be your GitHub Pages URL + your repository name
+        var repoBasePath = "/arillianfarm-react"; // <-- **MAKE SURE THIS MATCHES YOUR REPO NAME EXACTLY**
+        var redirectTarget = window.location.origin + repoBasePath + '/'; // Redirect to https://arillianfarm.github.io/arillianfarm-react/
 
-        // Redirect the browser
-        window.location.replace(redirectUrl);
+        console.log("404 Redirect - Storing path:", fullPath); // Add console log here
+        console.log("404 Redirect - Redirecting to:", redirectTarget); // Add console log here
+
+        // Perform the redirect
+        window.location.replace(redirectTarget);
     </script>
 </head>
 <body>
