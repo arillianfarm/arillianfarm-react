@@ -227,7 +227,7 @@ const RecipesView = () => {
                                 )}
                             </h3>
                         </div>
-                        {(!collapseNav || !isSmallView) &&
+                        {(!loading && (!collapseNav || !isSmallView)) &&
                             recipes.map((recipe) => (
                                 <ListItem
                                     key={recipe.name}
@@ -238,7 +238,7 @@ const RecipesView = () => {
                                     thumbnailKey="header_pic"
                                     descriptionKey="notes"
                                     thumbnailPrefix="./assets/recipes/"
-                                    pageBase='recipes'
+                                    pageBase='/arillianfarm-react/recipes'
                                 />
                             ))}
                     </div>

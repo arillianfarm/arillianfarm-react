@@ -52,3 +52,10 @@ export const setCopiedLink = (viewName, articleName) => {
     const fullLink = window.location.origin + path;
     return fullLink;
 };
+
+export const setLinkWithQueryString = (viewName, articleName) => {
+    const sanitizedArticleName = getSlug(articleName);
+    const path = `/arillianfarm-react/${viewName}/?articleId=${sanitizedArticleName}`;
+    const fullLink = window.location.origin + path;
+    return fullLink;
+};

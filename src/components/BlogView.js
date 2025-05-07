@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ListItem from './ListItem';
 import {useLocation, useParams} from 'react-router-dom';
-import { calculateAlbumContainerSize, getIframeSrcForYouTube, titleCaps, trunc, applyAlbumFilter, setCopiedLink, getSlug } from '../utils';
+import { calculateAlbumContainerSize, getIframeSrcForYouTube, titleCaps, trunc, applyAlbumFilter, setCopiedLink, getSlug, setLinkWithQueryString } from '../utils';
 import blogData from '../pageData/blog.json';
 
 const BlogView = () => {
@@ -13,35 +13,42 @@ const BlogView = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const location = useLocation();
+    const [articleId, setArticleId] = useState(null);
 
     useEffect(() => {
-        setLoading(true); // We'll set this to false immediately
-
+        setLoading(true);
         try {
             let entriesWithSummary = blogData.data.map((entry, i) => {
                 entry.summary = assembleBlogSummary(entry);
                 return entry;
             }, []);
-            entriesWithSummary.reverse();
-            setBlogEntries(entriesWithSummary);
+            setBlogEntries(entriesWithSummary.reverse());
         } catch (e) {
             setError(e);
             console.error("Error processing blog entries:", e);
         } finally {
-            setLoading(false);
-        }
-    }, []);
-
-    useEffect(() => {
-        if (!loading && blogEntries.length > 0) {
-            if (blogId) {
-                const foundBlog = blogEntries.find(blog => getSlug(blog.entry_subject) === blogId);
+            const params = new URLSearchParams(location.search);
+            const idFromQuery = params.get('articleId');
+            if (idFromQuery) {
+                const foundBlog = blogEntries.find(blog => getSlug(blog.entry_subject) === idFromQuery);
                 setFeaturedBlogEntry(foundBlog || blogEntries[0]);
             } else {
                 setFeaturedBlogEntry(blogEntries[0]);
             }
+            setLoading(false);
         }
-    }, [loading, blogEntries, blogId]);
+    }, [loading]);
+
+    // useEffect(() => {
+    //     if (!loading && blogEntries.length > 0) {
+    //         if (blogId) {
+    //             const foundBlog = blogEntries.find(blog => getSlug(blog.entry_subject) === blogId);
+    //             setFeaturedBlogEntry(foundBlog || blogEntries[0]);
+    //         } else {
+    //             setFeaturedBlogEntry(blogEntries[0]);
+    //         }
+    //     }
+    // }, [loading, blogEntries, blogId]);
 
     useEffect(() => {
         const handleResize = () => {
@@ -53,7 +60,8 @@ const BlogView = () => {
     }, []);
 
     const handleBlogEntryClick = (entry) => {
-        let path = `/blog/${entry.slug || getSlug(entry.entry_subject)}`;
+        let path = setLinkWithQueryString('blog', entry.entry_subject)
+            // `/blog/${entry.slug || getSlug(entry.entry_subject)}`;
         setFeaturedBlogEntry(entry);
         window.history.pushState({},'', path);
         if (isSmallView) {
@@ -61,10 +69,10 @@ const BlogView = () => {
         }
     };
 
-    const setCopiedLink = (path) => {
-        const fullLink = window.location.origin + path;
-        return fullLink
-    }
+    // const setCopiedLink = (path) => {
+    //     const fullLink = window.location.origin + path;
+    //     return fullLink
+    // }
 
     const assembleBlogSummary = (item) => {
         if (item.sections && item.sections[0] && item.sections[0].paragraphs && item.sections[0].paragraphs[0]) {
@@ -90,9 +98,9 @@ const BlogView = () => {
                             <span className="mx-2">
                                     <button className="btn btn-info btn-xs" onClick={(event) => {
                                         event.stopPropagation();
-                                        const link = setCopiedLink('blog', entry.entry_subject);
+                                        const link = setLinkWithQueryString('blog', entry.entry_subject);
                                         navigator.clipboard.writeText(link)
-                                            .then(() => console.log('Link copied to clipboard ' + link))
+                                            .then(() => console.log('BLOG Link copied to clipboard ' + link))
                                             .catch(err => console.error('Failed to copy link: ', err));
                                     }}>
                                     <i className="fa fa-link"></i> <b>Link</b>
