@@ -1,11 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <title>Arillian Farm</title>
-    <script>
-        sessionStorage.redirect = location.pathname;
-        document.location.href = document.location.origin;
+    <script type="text/javascript">
+        // Get the path from the URL that caused the 404
+        var path = window.location.pathname;
+
+        // Get the base path of your repository (e.g., /arillianfarm-react)
+        // You need to adjust this based on your repository name
+        var repoBasePath = "/arillianfarm-react"; // <-- **MAKE SURE THIS MATCHES YOUR REPO NAME**
+
+        // Construct the new URL: base URL + base path + # + original path
+        // This redirects to your app's root and adds the original path as a hash
+        var redirectUrl = window.location.origin + repoBasePath + '/#' + path;
+
+        // Redirect the browser
+        window.location.replace(redirectUrl);
     </script>
 </head>
 <body>
