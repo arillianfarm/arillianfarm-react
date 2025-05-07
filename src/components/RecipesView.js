@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ListItem from './ListItem';
-import {useLocation, useParams} from 'react-router-dom';
-import { titleCaps, trunc, setCopiedLink, getSlug, getParamFromUrl } from '../utils';
+import {useLocation} from 'react-router-dom';
+import { titleCaps, setCopiedLink, getSlug } from '../utils';
 import recipeData from '../pageData/recipes.json';
 
 const RecipeIngredients = ({ ingredients, servings, headerPic, isSmallView }) => {
@@ -139,37 +139,81 @@ const RecipesView = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const location = useLocation();
-    const [articleId, setArticleId] = useState(null);
+    // const [articleId, setArticleId] = useState(null);
     // const isInitialMount = React.useRef(true); // Create a ref
 
     useEffect(() => {
-            setLoading(true);
-            setError(null);
-            try {
-                setRecipes((recipeData.data).reverse());
+        console.log("RecipesView Effect Triggered based on location.search"); // Debug log to verify trigger
+        setLoading(true); // Start loading state
+
+        try {
+                // setRecipes((recipeData.data).reverse());
+
+            // Process static data: Read and reverse once
+            // Create a copy of the data before reversing to avoid mutating the original import
+            const processedRecipes = [...recipeData.data].reverse();
+            setRecipes(processedRecipes); // Set the recipes state
+
+            const params = new URLSearchParams(location.search);
+            const idFromQuery = params.get('articleId');
+
+            let initialFeaturedRecipe = null;
+            if (idFromQuery) {
+                // Find the recipe by slug from the processed list
+                initialFeaturedRecipe = processedRecipes.find(recipe => getSlug(recipe.name) === idFromQuery);
+                // const foundRecipe = recipes.find(recipe => getSlug(recipe.name) === idFromQuery);
+                // setFeaturedRecipe(foundRecipe || recipes[0]);
+            }
+
+            // Set the featured recipe - default to the first one if no ID or not found
+            setFeaturedRecipe(initialFeaturedRecipe || processedRecipes[0]);
+
+            console.log("Recipes loaded. First item:", processedRecipes[0]); // Log after processing
+            setError(null); // Clear any previous errors
+
             } catch (e) {
                 setError(e);
                 console.error("Error fetching recipes:", e);
+                setRecipes([]); // Clear recipes on error
+                setFeaturedRecipe(null);
             } finally {
-                const params = new URLSearchParams(location.search);
-                const idFromQuery = params.get('articleId');
-                if (idFromQuery) {
-                    const foundRecipe = recipes.find(recipe => getSlug(recipe.name) === idFromQuery);
-                    setFeaturedRecipe(foundRecipe || recipes[0]);
-                } else {
-                    setFeaturedRecipe(recipes[0]);
-                }
-                console.log(recipes[0]);
                 setLoading(false);
             }
-    }, [loading]);
+    }, [location.search]);
+
+    // You might want another effect to handle window resize if isSmallView is needed
+    useEffect(() => {
+        const handleResize = () => {
+            setIsSmallView(window.innerWidth <= 400);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        // Cleanup function to remove the event listener
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []); // Empty dependency array means this effect runs only on mount and cleanup on unmount
+
+    // const handleRecipeClick = (recipe) => {
+    //     let path = `/recipes/${getSlug(recipe.name)}`;
+    //     setFeaturedRecipe(recipe);
+    //     window.history.pushState({}, '', path);
+    //     if (isSmallView) {
+    //         setCollapseNav(true); // Collapse the navigation on mobile
+    //     }
+    // };
 
     const handleRecipeClick = (recipe) => {
-        let path = `/recipes/${getSlug(recipe.name)}`;
-        setFeaturedRecipe(recipe);
-        window.history.pushState({}, '', path);
+        // Update the URL using history.pushState for cleaner URLs without full page reload
+        // This also updates location.search if you structure it that way, triggering the effect
+        // Example if switching back to query params:
+        const newUrl = `${window.location.origin}${location.pathname}?articleId=${getSlug(recipe.name)}`;
+        window.history.pushState({}, '', newUrl);
+
+        // setFeaturedRecipe(recipe); // The useEffect will handle setting featuredRecipe based on the new URL
         if (isSmallView) {
-            setCollapseNav(true); // Collapse the navigation on mobile
+            setCollapseNav(true);
         }
     };
 
@@ -185,6 +229,10 @@ const RecipesView = () => {
             .catch(err => console.error('Failed to copy recipe summary: ', err));
     };
 
+    // const renderMainContent = (item) => (
+    //     <FeaturedRecipe recipe={item} assembleAndCopy={assembleAndCopyRecipeSummary} isSmallView={isSmallView} />
+    // );
+
     const renderMainContent = (item) => (
         <FeaturedRecipe recipe={item} assembleAndCopy={assembleAndCopyRecipeSummary} isSmallView={isSmallView} />
     );
@@ -197,6 +245,7 @@ const RecipesView = () => {
         return <div>Error loading recipes: {error.message}</div>;
     }
 
+    // Once loading is false and no error, render the main layout
     return (
         <div className="container border2px br20 text-white">
             <div className="row">
@@ -227,7 +276,7 @@ const RecipesView = () => {
                                     thumbnailKey="header_pic"
                                     descriptionKey="notes"
                                     thumbnailPrefix="/assets/recipes/"
-                                    pageBase='/arillianfarm-react/recipes'
+                                    pageBase='recipes'
                                 />
                             ))}
                     </div>
