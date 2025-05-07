@@ -34,7 +34,7 @@ function TopNav() {
                             rel="noopener noreferrer"
                             className="merch-NavLink"
                         >
-                            SHOP
+                            MERCH
                         </a>
                     </li>
                     <li>

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ListItem from './ListItem';
 import {useLocation} from 'react-router-dom';
-import { titleCaps, setCopiedLink, getSlug } from '../utils';
+import {titleCaps, setCopiedLink, getSlug, setLinkWithQueryString} from '../utils';
 import recipeData from '../pageData/recipes.json';
 
 const RecipeIngredients = ({ ingredients, servings, headerPic, isSmallView }) => {
@@ -12,7 +12,7 @@ const RecipeIngredients = ({ ingredients, servings, headerPic, isSmallView }) =>
                     {headerPic && (
                         <img
                             className="br20 m-3"
-                            src={`${process.env.PUBLIC_URL}/assets/recipes/${headerPic}`}
+                            src={`${process.env.PUBLIC_URL||""}/assets/recipes/${headerPic}`}
                             style={{ height: isSmallView ? 'auto' : '300px', maxWidth: '25em', objectFit: 'cover' }}
                             alt="Recipe Header"
                         />
@@ -195,25 +195,13 @@ const RecipesView = () => {
         };
     }, []); // Empty dependency array means this effect runs only on mount and cleanup on unmount
 
-    // const handleRecipeClick = (recipe) => {
-    //     let path = `/recipes/${getSlug(recipe.name)}`;
-    //     setFeaturedRecipe(recipe);
-    //     window.history.pushState({}, '', path);
-    //     if (isSmallView) {
-    //         setCollapseNav(true); // Collapse the navigation on mobile
-    //     }
-    // };
-
     const handleRecipeClick = (recipe) => {
-        // Update the URL using history.pushState for cleaner URLs without full page reload
-        // This also updates location.search if you structure it that way, triggering the effect
-        // Example if switching back to query params:
-        const newUrl = `${window.location.origin}${location.pathname}?articleId=${getSlug(recipe.name)}`;
-        window.history.pushState({}, '', newUrl);
-
+        let path = setLinkWithQueryString('blog', recipe.name)
+        window.history.pushState({}, '', path);
         // setFeaturedRecipe(recipe); // The useEffect will handle setting featuredRecipe based on the new URL
+
         if (isSmallView) {
-            setCollapseNav(true);
+            setCollapseNav(true); // Collapse the navigation on mobile
         }
     };
 
