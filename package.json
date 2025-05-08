@@ -23,7 +23,7 @@
   "homepage": "https://arillianfarm.github.io/arillianfarm-react",
   "scripts": {
     "start": "react-scripts start",
-    "build": "cross-env PUBLIC_URL=/arillianfarm-react react-scripts build",
+    "build": "cross-env PUBLIC_URL=/ react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",

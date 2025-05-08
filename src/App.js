@@ -19,7 +19,7 @@ import RedirectHandler from './RedirectHandler';
 function App() {
 
     return (
-        <BrowserRouter basename="/arillianfarm-react" >
+        <BrowserRouter basename="/" >
             <RedirectHandler />
             <TopNav />
             <div className="content-wrapper">
