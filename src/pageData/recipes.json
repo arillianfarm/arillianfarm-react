@@ -2058,7 +2058,7 @@
     {
       "name": "Cheesy Baked Artichoke Mushroom Raviolis",
       "pub_date": "5/9/25",
-      "header_pic": "AmravDone.png",
+      "header_pic": "amravDone.png",
       "categories": ["pasta", "dinner"],
       "servings": "3-4 servings",
       "related_recipes": ["Pasta Dough"],
@@ -2080,11 +2080,11 @@
       ],
       "steps": [
         {
-          "pic": "Amrav1.png",
+          "pic": "",
           "instruction": "Cheesey Artichoke Mushroom Filling:"
         },
         {
-          "pic": "Amrav2.png",
+          "pic": "Amrav1.png",
           "instruction": "Saute garlic and mushrooms in a medium sized pan until fragrant then add artichoke hearts and saute another 5 minutes. Then set aside to cool."
         },
         {
@@ -2092,7 +2092,7 @@
           "instruction": "Mix Ricotta Cheese, Mozzarella, Parmesan, 1/2 Tsp Crushed Black Pepper, 2 Cloves of Minced Garlic, cooled artichokes and mushrooms."
         },
         {
-          "pic": "Amrav3.png",
+          "pic": "",
           "instruction": "Rolling & Filling Pasta Dough - When ready to use the dough --if you refrigerated it for more than two hours, set dough out for 30 minutes-- then divide into 2 even sections."
         },
         {
@@ -2104,7 +2104,7 @@
           "instruction": "Spoon (1-2 teaspoon) blobs of ravioli filling every 1- 2 inches along the sheets of pasta dough and slicing the dough between the blobs. Fold the dough sheet over the filling and then fold then ends in, pressing gently to seal."
         },
         {
-          "pic": "Amrav6.png",
+          "pic": "",
           "instruction": "If you have extra sheets of pasta, cut into noodles or separate sheets with parchment and put them in a freezer bag can freeze for upto 3 months (and use for lasagna etc). If you have extra filling it is tasty as a stuffed mushroom filling or on toasted bread."
         },
         {
@@ -2113,10 +2113,10 @@
           "pic": "Amrav7.png",
           "instruction": "Make Tomato Sauce - In a Medium Sized Pan, Melt butter and add 2 cloves of minced garlic, saute until fragrant then add tomatoes, pressing with the back of a spoon to let their juice out. Simmer for about 15 minutes (until a sauce begins to form)"
         },{
-          "pic": "",
+          "pic": "Amrav8.png",
           "instruction": "Stir in herbs, red pepper flakes, 1/4 tsp black pepper and cook another 5 minutes, then stir in 2 tablespoons pasta water."
         },{
-          "pic": "Amrav8.png",
+          "pic": "",
           "instruction": "Transfer cooked and drained raviolis to a baking dish and coat with sauce."
         },{
           "pic": "Amrav9.png",
