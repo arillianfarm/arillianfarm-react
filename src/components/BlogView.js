@@ -79,9 +79,11 @@ const BlogView = () => {
             return <div className="col-xs-12 text-white"><h3>Select a Blog Entry</h3></div>;
         }
 
+        const blogSlug = getSlug(entry.entry_subject);
+
         // Once loading is false and no error, render the main layout
         return (
-            <div className="col-xs-12 col-lg-9" id={entry.entry_subject.toLowerCase().replace(/ /g, '-')}>
+            <div key={blogSlug} className="col-xs-12 col-lg-9" id={entry.entry_subject.toLowerCase().replace(/ /g, '-')}>
                 <h5 className="mb-0">
                     <div className="row blog-header">
                         <div className="col-xs-12">

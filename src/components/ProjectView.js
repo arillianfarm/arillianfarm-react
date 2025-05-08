@@ -237,6 +237,7 @@ const ProjectView = () => {
         if (!item) {
             return <div className="col-xs-12 text-white"><h3>Select a Project</h3></div>;
         }
+
         if (loading) {
             return <div>Loading Projects...</div>;
         }
@@ -245,10 +246,12 @@ const ProjectView = () => {
             return <div>Error loading projects: {error.message}</div>;
         }
 
+        const projectSlug = getSlug(item.name);
+
         console.log("PROJECT: renderMainContent: Item data looks good, proceeding with rendering details.");
 
         return (
-            <div className="col-xs-12 col-lg-9" id={getSlug(item.name)}>
+            <div key={projectSlug} className="col-xs-12 col-lg-9" id={getSlug(item.name)}>
                 <div className="col-xs-12 mt-3 text-center">
                     <h6 className="text-danger">
                         <b>This is </b>
