@@ -5,6 +5,9 @@ import {titleCaps, setCopiedLink, getSlug, setLinkWithQueryString} from '../util
 import recipeData from '../pageData/recipes.json';
 
 const RecipeIngredients = ({ ingredients, servings, headerPic, isSmallView }) => {
+    if (!ingredients || ingredients.length === 0) {
+        return null;
+    }
     return (
         <div className="col-xs-12 col-lg-6 mt-5">
             <div className="row">
@@ -39,6 +42,9 @@ const RecipeIngredients = ({ ingredients, servings, headerPic, isSmallView }) =>
     )};
 
 const RecipeSteps = ({ steps, isSmallView }) => {
+    if (!steps || steps.length === 0) {
+        return null;
+    }
         return (
             <div className="col-xs-12 col-lg-6" style={{ overflowY: 'auto' }}>
                 <ol style={{ fontWeight: 'bold' }} className="text-white">
@@ -82,9 +88,13 @@ const RelatedRecipes = ({ relatedRecipes, onRecipeClick }) => {
     };
 
 const FeaturedRecipe = ({ recipe, assembleAndCopy, isSmallView }) => {
-    if (!recipe) {
+    console.log("RECIPE renderMainContent called with item:", recipe);
+    if (!recipe || !recipe.name) {
         return <div className="col-xs-12 text-white"><h3>Select a Recipe</h3></div>;
     }
+    console.log("RECIPE: renderMainContent: Item data looks good, proceeding with rendering details.");
+
+
     return (
         <div className="col-xs-12 col-lg-9" id={recipe.name.toLowerCase().replace(/ /g, '-')}>
             <div className="row">
@@ -238,20 +248,23 @@ const RecipesView = () => {
                                 )}
                             </h3>
                         </div>
-                        {(!loading && (!collapseNav || !isSmallView)) &&
-                            recipes.map((recipe) => (
-                                <ListItem
-                                    key={recipe.name}
-                                    item={recipe}
-                                    isSelected={featuredRecipe && recipe.name === featuredRecipe.name}
-                                    onItemClick={handleRecipeClick}
-                                    titleKey="name"
-                                    thumbnailKey="header_pic"
-                                    descriptionKey="notes"
-                                    thumbnailPrefix="/assets/recipes/"
-                                    pageBase='recipes'
-                                />
-                            ))}
+                        <div className="col-xs-12">
+                            {(!loading && !error && recipes && recipes.length && (!collapseNav || !isSmallView)) &&
+                                recipes.map((recipe) => (
+                                    <ListItem
+                                        key={recipe.name}
+                                        item={recipe}
+                                        isSelected={featuredRecipe && recipe.name === featuredRecipe.name}
+                                        onItemClick={handleRecipeClick}
+                                        titleKey="name"
+                                        thumbnailKey="header_pic"
+                                        descriptionKey="notes"
+                                        thumbnailPrefix="/assets/recipes/"
+                                        pageBase='recipes'
+                                    />
+                                ))}
+                        </div>
+
                     </div>
                 </div>
                 <div className="col-xs-12 col-lg-9">

@@ -233,7 +233,7 @@ const ProjectView = () => {
     };
 
     const renderMainContent = (item) => {
-        console.log("renderMainContent rendering with item:", item);
+        console.log("PROJECT: renderMainContent rendering with item:", item);
         if (!item) {
             return <div className="col-xs-12 text-white"><h3>Select a Project</h3></div>;
         }
@@ -244,6 +244,8 @@ const ProjectView = () => {
         if (error) {
             return <div>Error loading projects: {error.message}</div>;
         }
+
+        console.log("PROJECT: renderMainContent: Item data looks good, proceeding with rendering details.");
 
         return (
             <div className="col-xs-12 col-lg-9" id={getSlug(item.name)}>
@@ -350,20 +352,23 @@ const ProjectView = () => {
                                 )}
                             </h3>
                         </div>
-                        {(!loading && (!collapseNav || !isSmallView)) &&
-                            projects.map((project) => (
-                                <ListItem
-                                    key={project.name}
-                                    item={project}
-                                    isSelected={featuredProject && project.name === featuredProject.name}
-                                    onItemClick={handleProjectClick}
-                                    titleKey="name"
-                                    thumbnailKey="header_pic"
-                                    descriptionKey="about"
-                                    thumbnailPrefix="/assets/projects/"
-                                    pageBase="projects"
-                                />
-                            ))}
+
+                        <div className="col-xs-12">
+                            {(projects && projects.length && !loading && !error && (!collapseNav || !isSmallView)) &&
+                                projects.map((project) => (
+                                    <ListItem
+                                        key={project.name}
+                                        item={project}
+                                        isSelected={featuredProject && project.name === featuredProject.name}
+                                        onItemClick={handleProjectClick}
+                                        titleKey="name"
+                                        thumbnailKey="header_pic"
+                                        descriptionKey="about"
+                                        thumbnailPrefix="/assets/projects/"
+                                        pageBase="projects"
+                                    />
+                                ))}
+                        </div>
                     </div>
                 </div>
                 <div className="col-xs-12 col-lg-9">
