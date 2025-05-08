@@ -3,13 +3,13 @@ import { titleCaps, applyAlbumFilter } from '../utils';
 
 
 const albumCovers = [
-    { name: "new", pic:"./assets/headerPictures/android-chrome-192x192.png" },
-    { name: "chickens", pic:"./favicons/android-chrome-192x192.png" },
-    { name: "dogs", pic:"./assets/headerPictures/xena-android-chrome-192x192.png" },
-    { name: "garden", hide_video_view: true, pic:"./assets/headerPictures/arti-android-chrome-192x192.png" },
-    { name: "goats", pic:"./assets/headerPictures/tandmg-android-chrome-192x192.png" },
-    { name: "sky", hide_video_view: true, pic:"./assets/android-chrome-192x192.png" },
-    { name: "wildlife", pic:"./assets/headerPictures/pic-android-chrome-192x192.png" }
+    { name: "new", pic:`${process.env.PUBLIC_URL}/assets/headerPictures/android-chrome-192x192.png` },
+    { name: "chickens", pic:`${process.env.PUBLIC_URL}/favicons/android-chrome-192x192.png` },
+    { name: "dogs", pic:`${process.env.PUBLIC_URL}/assets/headerPictures/xena-android-chrome-192x192.png` },
+    { name: "garden", hide_video_view: true, pic:`${process.env.PUBLIC_URL}/assets/headerPictures/arti-android-chrome-192x192.png` },
+    { name: "goats", pic:`${process.env.PUBLIC_URL}/assets/headerPictures/tandmg-android-chrome-192x192.png` },
+    { name: "sky", hide_video_view: true, pic:`${process.env.PUBLIC_URL}/assets/android-chrome-192x192.png` },
+    { name: "wildlife", pic:`${process.env.PUBLIC_URL}/assets/headerPictures/pic-android-chrome-192x192.png` }
 ];
 
 
