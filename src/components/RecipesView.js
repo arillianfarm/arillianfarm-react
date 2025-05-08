@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ListItem from './ListItem';
-import {useLocation} from 'react-router-dom';
+import {useLocation, useNavigate} from 'react-router-dom';
 import {titleCaps, setCopiedLink, getSlug, setLinkWithQueryString} from '../utils';
 import recipeData from '../pageData/recipes.json';
 
@@ -41,14 +41,14 @@ const RecipeIngredients = ({ ingredients, servings, headerPic, isSmallView }) =>
         </div>
     )};
 
-const RecipeSteps = ({ steps, isSmallView }) => {
-    if (!steps || steps.length === 0) {
+const RecipeSteps = ({ fullRecipe, steps, isSmallView }) => {
+    if (!fullRecipe.steps || fullRecipe.steps.length === 0) {
         return null;
     }
         return (
             <div className="col-xs-12 col-lg-6" style={{ overflowY: 'auto' }}>
                 <ol style={{ fontWeight: 'bold' }} className="text-white">
-                    {steps && steps.map((step, index) => (
+                    {fullRecipe.steps && fullRecipe.steps.map((step, index) => (
                         <li key={`s-${index}`}>
                             <h4>{step.instruction}</h4>
                             {step.pic && (
@@ -79,7 +79,7 @@ const RelatedRecipes = ({ relatedRecipes, onRecipeClick }) => {
                     <h4>Related Recipes</h4>
                 </div>
                 {relatedRecipes.map((rr, index) => (
-                    <div key={`rr-${index}`} className="col-xs-6 col-lg-4 cursPoint" onClick={() => onRecipeClick(rr)}>
+                    <div key={`rr-${index}`} className="col-xs-6 col-lg-4 cursPoint" onClick={() => onRecipeClick(null, rr)}>
                         <a>{titleCaps(rr)}</a>
                     </div>
                 ))}
@@ -87,7 +87,7 @@ const RelatedRecipes = ({ relatedRecipes, onRecipeClick }) => {
         );
     };
 
-const FeaturedRecipe = ({ recipe, assembleAndCopy, isSmallView }) => {
+const FeaturedRecipe = ({ recipe, assembleAndCopy, isSmallView, handleRelatedRecipeClick }) => {
     console.log("RECIPE renderMainContent called with item:", recipe);
     if (!recipe || !recipe.name) {
         return <div className="col-xs-12 text-white"><h3>Select a Recipe</h3></div>;
@@ -134,9 +134,11 @@ const FeaturedRecipe = ({ recipe, assembleAndCopy, isSmallView }) => {
                     headerPic={recipe.header_pic}
                     isSmallView={isSmallView}
                 />
-                <RecipeSteps steps={recipe.steps} isSmallView={isSmallView} />
+                <RecipeSteps fullRecipe={recipe} steps={recipe.steps} isSmallView={isSmallView} />
             </div>
-            <RelatedRecipes relatedRecipes={recipe.related_recipes} onRecipeClick={(name) => {/* Implement set featured recipe */}} />
+            <RelatedRecipes
+                relatedRecipes={recipe.related_recipes}
+                onRecipeClick={handleRelatedRecipeClick} />
         </div>
     );
 };
@@ -149,10 +151,11 @@ const RecipesView = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const location = useLocation();
+    const navigate = useNavigate();
 
     useEffect(() => {
         setLoading(true); // Start loading state
-
+        setFeaturedRecipe(null);
         try {
             // Create a copy of the data before reversing to avoid mutating the original import
             const processedRecipes = [...recipeData.data].reverse();
@@ -195,12 +198,63 @@ const RecipesView = () => {
         };
     }, []); // Empty dependency array means this effect runs only on mount and cleanup on unmount
 
-    const handleRecipeClick = (recipe) => {
-        let path = setLinkWithQueryString('recipes', recipe.name)
-        window.history.pushState({}, '', path);
+
+    const handleRecipeClick = (recipe, name) => {
+        let nameValue = (name || recipe?.name);
+        console.log("RecipesView: handleRecipeClick - Item clicked. NameValue:", nameValue);
+
+        if (nameValue){
+            // setLinkWithQueryString likely returns a full URL for copy/share purposes
+            let fullUrlPath = setLinkWithQueryString('recipes', nameValue);
+            console.log("RecipesView: handleRecipeClick - Generated full URL path:", fullUrlPath); // Log the full URL
+
+            // --- Extract the path needed for navigate ---
+            // Create a URL object to easily parse the full URL
+            const url = new URL(fullUrlPath);
+
+            // The path for navigate should be relative to the BrowserRouter's basename
+            const basename = "/arillianfarm-react"; // This must match your BrowserRouter basename
+
+            let pathForNavigate = url.pathname + url.search + url.hash; // Get the path, search, and hash parts
+
+            // If the path starts with the basename, remove the basename part
+            if (pathForNavigate.startsWith(basename)) {
+                pathForNavigate = pathForNavigate.substring(basename.length);
+            }
+
+            // Ensure pathForNavigate starts with a slash if it became empty after removing basename
+            if (pathForNavigate === "" || !pathForNavigate.startsWith('/')) {
+                pathForNavigate = '/' + pathForNavigate; // Prepend slash if needed
+            }
+            // --- End extraction ---
+
+
+            console.log("RecipesView: handleRecipeClick - Path for navigate:", pathForNavigate); // Log the path being passed to navigate
+
+            // You still need the comparison logic to avoid navigating if already on the same page
+            // The comparison should be based on the *search* part relative to the basename,
+            // as the pathname will likely be the same '/recipes/'
+            const currentSearch = new URLSearchParams(location.search).toString();
+            const expectedNewSearch = new URLSearchParams(url.search).toString(); // Get search from the generated URL
+
+            console.log("RecipesView: handleRecipeClick - Expected new search string (from generated URL):", expectedNewSearch);
+            console.log("RecipesView: handleRecipeClick - Current location.search string:", currentSearch);
+
+
+            if (currentSearch === expectedNewSearch) {
+                console.warn("RecipesView: handleRecipeClick - URL query is ALREADY the same. Not navigating.");
+            } else {
+                console.log("RecipesView: handleRecipeClick - URL query is DIFFERENT. Navigating.");
+                navigate(pathForNavigate); // <-- Pass the correctly extracted relative path to navigate
+                // No need to setFeaturedRecipe here, the useEffect will detect the location.search change and update featuredRecipe
+            }
+
+        } else {
+            console.warn("RecipesView: handleRecipeClick - Called with no valid nameValue.");
+        }
 
         if (isSmallView) {
-            setCollapseNav(true); // Collapse the navigation on mobile
+            setCollapseNav(true);
         }
     };
 
@@ -216,9 +270,28 @@ const RecipesView = () => {
             .catch(err => console.error('Failed to copy recipe summary: ', err));
     };
 
-    const renderMainContent = (item) => (
-        <FeaturedRecipe recipe={item} assembleAndCopy={assembleAndCopyRecipeSummary} isSmallView={isSmallView} />
-    );
+    const renderMainContent = (item) => {
+        console.log("RECIPE renderMainContent called with item:", item);
+        if (!item || !item.name) {
+            console.log("RECIPE: renderMainContent: Item is null/undefined, rendering placeholder.");
+            return <div className="col-xs-12 text-white"><h3>Select a Recipe</h3></div>;
+        }
+        console.log("RECIPE: renderMainContent: Item data looks good, proceeding with rendering details.");
+
+        // Use the recipe's unique slug as the key
+        const recipeSlug = getSlug(item.name);
+
+        return (
+            // Add the key prop here
+            <FeaturedRecipe
+                key={recipeSlug} // <-- Add this key prop
+                recipe={item}
+                handleRelatedRecipeClick={handleRecipeClick}
+                assembleAndCopy={assembleAndCopyRecipeSummary}
+                isSmallView={isSmallView}
+            />
+        );
+    };
 
     if (loading) {
         return <div>Loading recipes...</div>;
