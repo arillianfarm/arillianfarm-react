@@ -25,7 +25,7 @@ const AlbumHeader = ({ currentAlbum, albumType = 'videos' , onAlbumSelect, unfil
                 >
                     {albumCovers.map((album, index) => (
                         <div
-                            key={index}
+                            key={album.name}
                             className={`text-center ml-2 mr-2 cursPoint ${
                                 album.name === currentAlbum ? 'highlighted' : ''
                             }`}
@@ -45,7 +45,7 @@ const AlbumHeader = ({ currentAlbum, albumType = 'videos' , onAlbumSelect, unfil
                 <div className="col-xs-12 x-scroller" style={{ justifyContent: 'center' }}>
                     {albumCovers.map((album, index) => (
                         <div
-                            key={index}
+                            key={album.name}
                             className={`text-center cursPoint ${
                                 album.name === currentAlbum ? 'highlighted' : ''
                             }`}

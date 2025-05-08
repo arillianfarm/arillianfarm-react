@@ -199,6 +199,7 @@ const ProjectView = () => {
             }
 
             setFeaturedProject(initialFeaturedProject || processedProjects[0]);
+            console.log("Featured project state updated:", initialFeaturedProject || processedProjects[0]); // Add this log
             setError(null); // Clear any previous errors
         } catch (e) {
             setError(e);
@@ -232,6 +233,7 @@ const ProjectView = () => {
     };
 
     const renderMainContent = (item) => {
+        console.log("renderMainContent rendering with item:", item);
         if (!item) {
             return <div className="col-xs-12 text-white"><h3>Select a Project</h3></div>;
         }

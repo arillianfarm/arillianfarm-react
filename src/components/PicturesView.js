@@ -78,7 +78,7 @@ if (error) {
             <hr />
             <div className="row text-center">
                 {albumContent.map((pic, index) => (
-                    <div key={index} className="col-xs-12 mb-5">
+                    <div key={`${pic.imagur_id}-${index}`} className="col-xs-12 mb-5">
                         <h4 className="text-white">{pic.caption}</h4>
                         <img className="br20" src={`https://i.imgur.com/${pic.imagur_id}.png`} alt={`${pic.name}`} style={{ maxWidth: '500px', height: 'auto' }} />
                     </div>

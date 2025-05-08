@@ -23,7 +23,7 @@ const RecipeIngredients = ({ ingredients, servings, headerPic, isSmallView }) =>
                 <div className="col-xs-12">
                     <ul>
                         {ingredients && ingredients.map((ingredient, index) => (
-                            <li key={index}>
+                            <li key={`i-${index}`}>
                                 <h4 className="text-white">{ingredient}</h4>
                             </li>
                         ))}
@@ -43,7 +43,7 @@ const RecipeSteps = ({ steps, isSmallView }) => {
             <div className="col-xs-12 col-lg-6" style={{ overflowY: 'auto' }}>
                 <ol style={{ fontWeight: 'bold' }} className="text-white">
                     {steps && steps.map((step, index) => (
-                        <li key={index}>
+                        <li key={`s-${index}`}>
                             <h4>{step.instruction}</h4>
                             {step.pic && (
                                 <img
@@ -73,7 +73,7 @@ const RelatedRecipes = ({ relatedRecipes, onRecipeClick }) => {
                     <h4>Related Recipes</h4>
                 </div>
                 {relatedRecipes.map((rr, index) => (
-                    <div key={index} className="col-xs-6 col-lg-4 cursPoint" onClick={() => onRecipeClick(rr)}>
+                    <div key={`rr-${index}`} className="col-xs-6 col-lg-4 cursPoint" onClick={() => onRecipeClick(rr)}>
                         <a>{titleCaps(rr)}</a>
                     </div>
                 ))}

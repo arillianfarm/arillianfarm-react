@@ -145,7 +145,7 @@ const BlogView = () => {
                             <div  key={`section-${index}`}>
                                 {section.pics && (section.pics.map((pic, index) => (
                                     <img
-                                        key={`${pic}`}
+                                        key={`blog-pic-${pic}`}
                                         src={`${process.env.PUBLIC_URL}/assets/blog/${pic}`}
                                         style={{ float: `${section.right_side_pic ? 'right' : 'left'}` }}
                                         className="br20 p2 blog-image"
@@ -240,7 +240,7 @@ const BlogView = () => {
                         {(!collapseNav || !isSmallView) &&
                             blogEntries.map((entry, index) => (
                                 <ListItem
-                                    key={index}
+                                    key={`e-${index}`}
                                     item={entry}
                                     isSelected={featuredBlogEntry && entry.entry_subject === featuredBlogEntry.entry_subject}
                                     onItemClick={handleBlogEntryClick}

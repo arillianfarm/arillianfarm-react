@@ -21,7 +21,7 @@ function HeaderPic() {
                     <div className="row">
                         {headerPicFiles && headerPicFiles.length > 0 &&
                             headerPicFiles.map((pic, index) => (
-                                <div className="col-lg-1 col-sm-3 mx-auto" key={index}>
+                                <div className="col-lg-1 col-sm-3 mx-auto" key={`${index}-${pic.name}`}>
                                     <img
                                         src={`${process.env.PUBLIC_URL}/assets/headerPictures/${pic.name}`}
                                         className={pic.small_hide ? 'small-hide' : ''}

@@ -72,7 +72,7 @@ const VideoView = () => {
             <hr />
             <div className="row text-center">
                 {albumContent.map((video, index) => (
-                    <div key={index} className="col-xs-12 mb-5">
+                    <div key={`v-${index}`} className="col-xs-12 mb-5">
                         <div className="col-xs-12">
                             <a
                                 className="text-white"
