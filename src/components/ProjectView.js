@@ -1,6 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import ListItem from './ListItem';
-import {getIframeSrcForYouTube, titleCaps, trunc, setCopiedLink, getSlug, getParamFromUrl} from '../utils';
+import {
+    getIframeSrcForYouTube,
+    titleCaps,
+    trunc,
+    setCopiedLink,
+    getSlug,
+    getParamFromUrl,
+    setLinkWithQueryString
+} from '../utils';
 import {useLocation, useParams} from 'react-router-dom';
 import projectData from '../pageData/projects.json';
 
@@ -165,50 +173,58 @@ const ProjectPhases = ({ featuredProject }) => {
 };
 
 const ProjectView = () => {
-    const { projectId } = useParams();
     const [projects, setProjects] = useState([]);
     const [featuredProject, setFeaturedProject] = useState(null);
     const [isSmallView, setIsSmallView] = useState(window.innerWidth <= 600);
     const [collapseNav, setCollapseNav] = useState(true);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
+    const location = useLocation();
 
     useEffect(() => {
         setLoading(true); // We'll set this to false immediately
-        let projects = projectData.data;
         try {
-            projects.reverse();
-            setProjects(projects);
-            let path = window.location.pathname;
-            let projId = projectId || getParamFromUrl(path);
-            if (projId) {
-                const foundProject = projects.find(p => getSlug(p.name) === projectId);
-                setFeaturedProject(foundProject || projects[0]);
-            } else {
-                setFeaturedProject(projects[0]);
+            const processedProjects = [... projectData.data].reverse();
+            setProjects(processedProjects);
+
+            const params = new URLSearchParams(location.search);
+            const idFromQuery = params.get('articleId');
+
+            let initialFeaturedProject = null;
+            if (idFromQuery) {
+                initialFeaturedProject = processedProjects.find(proj =>{
+                    let projName = getSlug(proj.name);
+                    return projName === idFromQuery
+                })
             }
+
+            setFeaturedProject(initialFeaturedProject || processedProjects[0]);
+            setError(null); // Clear any previous errors
         } catch (e) {
             setError(e);
-            console.error("Error processing blog entries:", e);
+            console.error("Error processing projects:", e);
+            setFeaturedProject(null);
+            setProjects([]); // Clear projects on error
         } finally {
             setLoading(false);
         }
-    }, [projectId]);
+    }, [location.search]);
 
-    // useEffect(() => {
-    //     if (!loading && projects.length > 0) {
-    //         if (projectId) {
-    //             const foundProject = projects.find(p => getSlug(p.name) === projectId);
-    //             setFeaturedProject(foundProject || projects[0]);
-    //         } else {
-    //             setFeaturedProject(projects[0]);
-    //         }
-    //     }
-    // }, [loading, projects, projectId]);
+    useEffect(() => {
+        const handleResize = () => {
+            setIsSmallView(window.innerWidth <= 400);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        // Cleanup function to remove the event listener
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []); // Empty dependency array means this effect runs only on mount and cleanup on unmount
 
     const handleProjectClick = (project) => {
-        const path = `/projects/${getSlug(project.name) || projectId}`;
-        setFeaturedProject(project);
+        let path = setLinkWithQueryString('projects', project.name)
         window.history.pushState({}, '', path);
         if (isSmallView) {
             setCollapseNav(true); // Collapse the navigation on mobile
@@ -219,6 +235,14 @@ const ProjectView = () => {
         if (!item) {
             return <div className="col-xs-12 text-white"><h3>Select a Project</h3></div>;
         }
+        if (loading) {
+            return <div>Loading Projects...</div>;
+        }
+
+        if (error) {
+            return <div>Error loading projects: {error.message}</div>;
+        }
+
         return (
             <div className="col-xs-12 col-lg-9" id={getSlug(item.name)}>
                 <div className="col-xs-12 mt-3 text-center">
@@ -324,7 +348,7 @@ const ProjectView = () => {
                                 )}
                             </h3>
                         </div>
-                        {(!collapseNav || !isSmallView) &&
+                        {(!loading && (!collapseNav || !isSmallView)) &&
                             projects.map((project) => (
                                 <ListItem
                                     key={project.name}
@@ -334,8 +358,8 @@ const ProjectView = () => {
                                     titleKey="name"
                                     thumbnailKey="header_pic"
                                     descriptionKey="about"
-                                    pageBase="projects"
                                     thumbnailPrefix="/assets/projects/"
+                                    pageBase="projects"
                                 />
                             ))}
                     </div>

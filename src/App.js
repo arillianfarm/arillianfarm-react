@@ -29,7 +29,8 @@ function App() {
                     <Route path="/recipes/:recipeId" element={<RecipesView />} />
                     <Route path="/projects" element={<ProjectView />} />
                     <Route path="/projects/:projectId" element={<ProjectView />} />
-                    <Route path="/blog/" element={<BlogView />} />
+                    <Route path="/blog" element={<BlogView />} />
+                    <Route path="/blog/:blogId" element={<BlogView />} />
                     <Route path="/about" element={<AboutView />} />
                     <Route path="/books" element={<BooksView />} />
                     <Route path="/pictures" element={<PicturesView />} />

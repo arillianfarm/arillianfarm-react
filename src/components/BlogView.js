@@ -16,29 +16,32 @@ const BlogView = () => {
 
     useEffect(() => {
         setLoading(true);
-        setError(null);
         try {
-            let entriesWithSummary = blogData.data.map((entry, i) => {
+            const entriesWithSummary = [...(blogData.data.map((entry, i) => {
                 entry.summary = assembleBlogSummary(entry);
                 return entry;
-            }, []);
-            setBlogEntries(entriesWithSummary.reverse());
+            }, []).reverse())];
+            setBlogEntries(entriesWithSummary);
+
+            const params = new URLSearchParams(location.search);
+            const idFromQuery = params.get('articleId');
+
+            let initialFeaturedBlog = null;
+            if (idFromQuery) {
+                initialFeaturedBlog = entriesWithSummary.find(blog => getSlug(blog.entry_subject) === idFromQuery);
+            }
+
+            setFeaturedBlogEntry(initialFeaturedBlog || entriesWithSummary[0]);
+            setError(null);
         } catch (e) {
             setError(e);
             console.error("Error processing blog entries:", e);
+            setFeaturedBlogEntry(null);
+            setBlogEntries([]);
         } finally {
-            const params = new URLSearchParams(location.search);
-            const idFromQuery = params.get('articleId');
-            if (idFromQuery) {
-                const foundBlog = blogEntries.find(blog => getSlug(blog.entry_subject) === idFromQuery);
-                setFeaturedBlogEntry(foundBlog || blogEntries[0]);
-            } else {
-                setFeaturedBlogEntry(blogEntries[0]);
-            }
-            console.log(blogEntries[0]);
             setLoading(false);
         }
-    }, [loading]);
+    }, [location.search]);
 
     useEffect(() => {
         const handleResize = () => {
@@ -51,7 +54,7 @@ const BlogView = () => {
 
     const handleBlogEntryClick = (entry) => {
         let path = setLinkWithQueryString('blog', entry.entry_subject)
-        setFeaturedBlogEntry(entry);
+        //setFeaturedBlogEntry(entry);//  The useEffect will handle setting featuredBlog based on the new URL
         window.history.pushState({},'', path);
         if (isSmallView) {
             setCollapseNav(true); // Collapse the navigation on mobile
@@ -66,9 +69,17 @@ const BlogView = () => {
     };
 
     const renderMainContent = (entry) => {
+        if (loading) {
+            return <div>Loading Blog Entries...</div>;
+        }
+        if (error) {
+            return <div>Error loading Blog Entries: {error.message}</div>;
+        }
         if (!entry) {
             return <div className="col-xs-12 text-white"><h3>Select a Blog Entry</h3></div>;
         }
+
+        // Once loading is false and no error, render the main layout
         return (
             <div className="col-xs-12 col-lg-9" id={entry.entry_subject.toLowerCase().replace(/ /g, '-')}>
                 <h5 className="mb-0">

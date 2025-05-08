@@ -139,17 +139,11 @@ const RecipesView = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const location = useLocation();
-    // const [articleId, setArticleId] = useState(null);
-    // const isInitialMount = React.useRef(true); // Create a ref
 
     useEffect(() => {
-        console.log("RecipesView Effect Triggered based on location.search"); // Debug log to verify trigger
         setLoading(true); // Start loading state
 
         try {
-                // setRecipes((recipeData.data).reverse());
-
-            // Process static data: Read and reverse once
             // Create a copy of the data before reversing to avoid mutating the original import
             const processedRecipes = [...recipeData.data].reverse();
             setRecipes(processedRecipes); // Set the recipes state
@@ -161,14 +155,11 @@ const RecipesView = () => {
             if (idFromQuery) {
                 // Find the recipe by slug from the processed list
                 initialFeaturedRecipe = processedRecipes.find(recipe => getSlug(recipe.name) === idFromQuery);
-                // const foundRecipe = recipes.find(recipe => getSlug(recipe.name) === idFromQuery);
-                // setFeaturedRecipe(foundRecipe || recipes[0]);
             }
 
             // Set the featured recipe - default to the first one if no ID or not found
             setFeaturedRecipe(initialFeaturedRecipe || processedRecipes[0]);
 
-            console.log("Recipes loaded. First item:", processedRecipes[0]); // Log after processing
             setError(null); // Clear any previous errors
 
             } catch (e) {
@@ -181,7 +172,6 @@ const RecipesView = () => {
             }
     }, [location.search]);
 
-    // You might want another effect to handle window resize if isSmallView is needed
     useEffect(() => {
         const handleResize = () => {
             setIsSmallView(window.innerWidth <= 400);
@@ -196,9 +186,8 @@ const RecipesView = () => {
     }, []); // Empty dependency array means this effect runs only on mount and cleanup on unmount
 
     const handleRecipeClick = (recipe) => {
-        let path = setLinkWithQueryString('blog', recipe.name)
+        let path = setLinkWithQueryString('recipes', recipe.name)
         window.history.pushState({}, '', path);
-        // setFeaturedRecipe(recipe); // The useEffect will handle setting featuredRecipe based on the new URL
 
         if (isSmallView) {
             setCollapseNav(true); // Collapse the navigation on mobile
@@ -216,10 +205,6 @@ const RecipesView = () => {
             .then(() => console.log('Recipe summary copied to clipboard'))
             .catch(err => console.error('Failed to copy recipe summary: ', err));
     };
-
-    // const renderMainContent = (item) => (
-    //     <FeaturedRecipe recipe={item} assembleAndCopy={assembleAndCopyRecipeSummary} isSmallView={isSmallView} />
-    // );
 
     const renderMainContent = (item) => (
         <FeaturedRecipe recipe={item} assembleAndCopy={assembleAndCopyRecipeSummary} isSmallView={isSmallView} />
