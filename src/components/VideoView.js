@@ -12,49 +12,78 @@ const VideoView = () => {
     const [selectedAlbum, setSelectedAlbum] = useState('new');
     const [albumContent, setAlbumContent] = useState([]);
 
+    // Effect to load data and set initial album content (runs once on mount)
     useEffect(() => {
-            setLoading(true);
-            try {
-                setVideos(data.data);
-                setAlbumContent(applyAlbumFilter(data.data, 'new'));
-            } catch (e) {
-                setError(e);
-                console.error("Error fetching videos:", e);
-            } finally {
-                setLoading(false);
+        // console.log("VideoView: Data loading effect triggered"); // Removed debug log
+        setLoading(true);
+        try {
+            // Assuming data is imported JSON and is correctly structured
+            if (!data || !data.data) {
+                throw new Error("Video data is missing or malformed");
             }
 
+            const processedVideos = data.data;
+            setVideos(processedVideos);
+            setAlbumContent(applyAlbumFilter(processedVideos, 'new'));
+            setError(null); // Clear any previous errors
+
+        } catch (e) {
+            // console.error("VideoView: Error caught during data processing:", e); // Removed debug log
+            // console.error("VideoView: Caught error object:", e); // Removed debug log
+            // console.error("VideoView: Caught error message:", e.message); // Removed debug log
+
+            if (typeof e === 'string') {
+                setError({ message: e });
+            } else if (e instanceof Error) {
+                setError(e);
+            } else if (e && typeof e.message === 'string') {
+                setError({ message: e.message });
+            } else {
+                setError({ message: "An unknown error occurred during data loading." });
+            }
+
+            setVideos([]);
+            setAlbumContent([]);
+
+        } finally {
+            // console.log("VideoView: Data loading effect finished"); // Removed debug log
+            setLoading(false);
+        }
+    }, []); // Empty dependency array - runs only on mount and unmount
+
+
+    // Effect to handle window resize (runs on mount and resize)
+    useEffect(() => {
+        // console.log("VideoView: Resize effect triggered"); // Removed debug log
         const handleResize = () => {
             setIsSmallView(window.innerWidth <= 600);
         };
+
         window.addEventListener('resize', handleResize);
 
         return () => {
+            // console.log("VideoView: Cleaning up resize listener"); // Removed debug log
             window.removeEventListener('resize', handleResize);
         };
-    }, []);
+    }, []); // Empty dependency array - runs only on mount and cleanup on unmount
 
-    useEffect(() => {
-        const handleResize = () => {
-            setIsSmallView(window.innerWidth <= 600);
-        };
-        window.addEventListener('resize', handleResize);
-        return () => window.removeEventListener('resize', handleResize);
-    }, []);
 
     const handleAlbumSelect = (album) => {
-        console.log(`album clicked ${album}`)
+        // console.log(`album clicked ${album}`); // Removed debug log
         setSelectedAlbum(album);
         setAlbumContent(applyAlbumFilter(videos, album));
     };
 
     if (loading) {
-        return <div>Loading videos...</div>;
+        return <div className="container text-center text-white br20">Loading videos...</div>;
     }
 
     if (error) {
-        return <div>Error loading videos: {error.message}</div>;
+        // console.log("VideoView: Rendering error message UI. Error state is:", error); // Removed debug log
+        return <div className="container text-center text-white br20">Error loading videos: {error.message}</div>;
     }
+
+    // console.log("VideoView: Rendering main content. Data for albumContent:", albumContent); // Removed debug log
 
     return (
         <div className="video-view">
@@ -70,32 +99,59 @@ const VideoView = () => {
                 </div>
             </div>
             <hr />
+            {/* Removed the row that contained the subscribe button */}
             <div className="row text-center">
-                {albumContent.map((video, index) => (
-                    <div key={`v-${index}`} className="col-xs-12 mb-5">
-                        <div className="col-xs-12">
-                            <a
-                                className="text-white"
-                                href={getIframeSrcForYouTube(video.youtubeID)}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                {titleCaps(video.title)}
-                                <i className="fa fa-external-link"></i>
+                {/* Add logs inside the map function */}
+                {albumContent.map((video, index) => {
+                    // console.log(`VideoView: Mapping video item at index ${index}:`, video); // Removed debug log
+
+                    // Optional: Add a check here to skip if video or video.youtubeID is missing
+                    if (!video || !video.youtubeID) {
+                        // console.error(`VideoView: Skipping rendering for item at index ${index} due to missing data.`); // Removed debug log
+                        return null; // Don't render this item if essential data is missing
+                    }
+
+                    // Generate iframe src - Assuming getIframeSrcForYouTube is robust
+                    const iframeSrc = getIframeSrcForYouTube(video.youtubeID);
+
+                    // Note: Your <a> tag's href currently also uses getIframeSrcForYouTube.
+                    // This will make clicking the title/icon link open the *embed* URL in a new tab,
+                    // not the standard YouTube *watch* page. If you want to link to the watch page,
+                    // you should construct that URL instead (e.g., `https://www.youtube.com/watch?v=${video.youtubeID}`).
+                    // This might not cause a rendering error, but it's worth noting for correctness.
+                    const watchUrl = `https://www.youtube.com/watch?v=${video.youtubeID}`; // Example watch URL - Replace with your actual watch URL base
+
+                    return (
+                        <div key={`v-${index}`} className="col-xs-12 mb-5"> {/* Unique key */}
+                            <div className="col-xs-12">
+                                <a
+                                    className="text-white"
+                                    href={watchUrl} // Changed href to watchUrl
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    {/* Ensure video.title exists or handle potential undefined */}
+                                    {titleCaps(video.title || 'Untitled Video')}
+                                    <i className="fa fa-external-link"></i>
+                                </a>
                                 <div className="col-xs-12">
                                     <iframe
+                                        key={`iframe-${index}`} // Unique key for iframe
                                         className="video-box"
                                         height={isSmallView ? '300' : '500'}
                                         width={isSmallView ? '300' : '500'}
-                                        src={getIframeSrcForYouTube(video.youtubeID)}
-                                        title={video.title}
+                                        src={iframeSrc} // Use the iframe source (embed URL)
+                                        title={video.title || 'Untitled Video'} // Ensure title exists
                                         allowFullScreen
+                                        // consider adding recommended allow attributes for better compatibility
+                                        // allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        // frameBorder="0" // Explicitly setting frameBorder="0" is good practice
                                     ></iframe>
                                 </div>
-                            </a>
+                            </div>
                         </div>
-                    </div>
-                ))}
+                    );
+                })}
             </div>
         </div>
     );
