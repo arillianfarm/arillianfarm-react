@@ -2021,7 +2021,7 @@
       ],
       "steps": [
         {
-          "pic": "angelhair_saute_garlic.png",
+          "pic": "",
           "instruction": "Sauté Garlic: Heat the butter in a large skillet or pan over medium heat. Add garlic and sauté until fragrant (about 30-60 seconds)."
         },
         {
@@ -2037,19 +2037,19 @@
           "instruction": "Pour 1 tablespoon balsamic vinegar over sauce and stir well (to deglaze the pan). Let simmer for about 1 minute, allowing the vinegar to slightly reduce and intensify in flavor. Add additional vinegar upto 1 tablespoon if you want more zing"
         },
         {
-          "pic": "angelhair_cook_pasta.png",
+          "pic": "",
           "instruction": "While the tomatoes and artichokes cook, boil angel hair pasta in a pot of lightly salted water to desired tenderness. Drain the pasta, reserving about 1/2 cup of the pasta water."
         },
         {
-          "pic": "angelhair_combine.png",
+          "pic": "angelhair_combine1.png",
           "instruction": "Add drained pasta directly to the skillet with the tomato and artichoke sauce. Toss gently to coat. If the sauce seems a little thick, add a tablespoon or two of the reserved pasta water to create a smoother consistency."
         },
         {
-          "pic": "angelhair_add_basil_parm.png",
+          "pic": "",
           "instruction": "Remove the skillet from the heat and stir in the chopped fresh basil and the grated Parmesan cheese. Toss again to combine."
         },
         {
-          "pic": "angelhair_done.png",
+          "pic": "angelhair_combine.png",
           "instruction": "Garnish with extra grated Parmesan cheese (and/or mozzarella) on top."
         }
       ],
