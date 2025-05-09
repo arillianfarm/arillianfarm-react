@@ -176,14 +176,10 @@ const BlogView = () => {
                                 {section.paragraphs && section.paragraphs.length && (
                                     <div className="blogPtext">
                                         {section.paragraphs.map((p, index) => (
-                                            <div key={`p-${index}`}>
+                                            <div key={`section-${index}`}>
                                                 {p.text && !p.bold && !p.h2 && !p.h3 && !p.h4 && (
                                                     <p>{p.text}</p>
                                                 )}
-                                            </div>
-                                        ))}
-                                        {section.paragraphs.map((p, index) => (
-                                            <div key={`section-${index}`}>
                                                 {p.text && p.bold  && (
                                                     <b>{p.text}</b>
                                                 )}

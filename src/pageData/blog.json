@@ -1481,6 +1481,135 @@
           ]
         }
         ]
+    },
+    {
+      "entry_subject": "Clasping hands with My Favorite AI and Leaping into the Now ",
+      "entry_date": "May 2, 2025",
+      "pic_file": "aiHandHold.png",
+      "entry_number": 21,
+      "feature_section_1": {
+        "caption": "Clasping hands with My Favorite AI, Gemini, I took a Plunge into my codebase and Made it Out the other Side",
+        "pic": "assets/blog/aiHandHold.png"
+      },
+      "sections": [
+        {
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": "Gemini, The Most Patient All-Knowing, Gate-Keeping CoWorker a Gal Could Ask For",
+              "h4": true
+            },
+            {
+              "text": "With the help of my trusy AI companion, Gemini, in just a few weeks, I successfully converted this website from Angular JS to React."
+            },
+            {
+              "text": "I'd hoped the process would be something like, I share the contents of each file with Gemini and it spits out a new react version of the file, but it wasn't quite that easy. There was a lot of copy and pasting but the new code had to be stiched together in just the right way."
+            },{
+              "text": "Gemini was able to easily guide me through the process for the most part, but at one point after passing along dozens of screenshots and queries, we realized two things --one of my files was in the wrong directory and although a picture is worth 1000 words to a human, but to an AI (because of the way images are interpreted) words are worth far more than images."
+            }, {
+              "text": "I also learned that Gemini doesn't always present you with the most elegant solution to a problem you pose... you have to cut and paste a lot of console errors before you actually get an elegant solution and/or a hack that works for some reason."
+            }
+          ]
+        },{
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": "Why Go Through The Trouble?",
+              "h4": true
+            },
+            {
+              "text": "Arillianfarm, like every software project I've ever worked on was built using the framework AngularJS. I knew when I set-out last year, that it was an outdated framework, but I didn't realize just how painfully old and busted it was until I emailed myself a link to my pasta dough recipe and was embarassed when I tried to opened it on my phone it took me to our homepage instead of my recipe. At some point, the hot-fix hash-tag workaround that had worked for my sites of yor, couldn't hack it on the modern web."
+            },
+            {
+              "text": "The thought of a complete rewrite felt like staring at a blank mountain and being asked to carve a new Mt Rushmore. Fortunately my trusty AI companion, Gemini, swooped to my aid. Gemini fed tasks to me in bite sized pieces and together we re-engineered my clunky angular directives into robust react components. Transforming long ugly `ng-if`s into JSXy conditional renderings until we eventually birthed the beautiful bundle file this site runs off of today."
+            }
+          ]
+        },
+        {
+          "pics": ["react-spin-up.png"],
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "Learning to React",
+              "h4": true
+            },
+            {
+              "text": "The first step, setting up a new React project, was simple. My IDE, Webstorm allowed me to easily spin up a basic react project with a few clicks in the main menu."
+            },
+            {
+              "text": "After the basic React app was in place, the challenge: how to enhance the functionality of this site without losing the Arillian Farm charm. It was no simple copy-paste job! We had to rethink data flow, component structure, and how to handle things like routing and state management in the React way."
+            }
+          ]
+        },
+        {
+          "pics": ["routing-diagram.png"],
+          "paragraphs": [
+            {
+              "text": "Mapping the Roads: Setting Up Routing with `react-router-dom`",
+              "h4": true
+            },
+            {
+              "text": "Navigation is key to any website and Angular's short-comings related to routing were actually the main reason I wanted to convert to React in the first place. In Angular, I used a clunky, opinionated built-in router. For React, Gemini suggested `react-router-dom` which allowed me to link components directly to specific URLs, and leverage pre-built react components like `NavLink` in the `TopNav` for this site."
+            },
+            {
+              "text": "And Greatest of All, Gemini helped me use declarative routing to pass parameters through URLs with React Router."
+            }
+          ]
+        },
+        {
+          "pics": ["code-comparison.png"],
+          "paragraphs": [
+            {
+              "text": "Translating the Blueprints: Architecting Components from Controllers and Directives",
+              "h4": true
+            },
+            {
+              "text": "Another challenges was taking my Angular-infused HTML files and one massive js file and re-imagining them as functional React components in tidy little JS files, a task made especially difficult by the fact that I didn't even know what a React Component was until Gemini explained it to me. None the less, Gemini and I forged forward. Talking through topics such as: How React passes data using 'props' or How to leverage `useState` for user interactions and `useEffect` to manage lifecycle events in React."
+            },
+            {
+              "text": "In the Angular version of this `DIY PROJECTS PAGE` for example, logic to fetching and displaying data was scattered through several html and js files and stored globally. In this, React, version, (using `useEffect` and `useState`) I was able to eliminate scattered and redundant code fragments, consolidating them into a single ProjectView.js file. It took practice to bend my brain to the React way of thinking, but once Gemini helped me see the parallels between Angular and React and I started to pick up on the syntactical nuances, it was full steam ahead."
+            }
+          ]
+        },
+        {
+          "pics": ["json-data.png"],
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "The Beauty of JSON",
+              "h4": true
+            },
+            {
+              "text": "My professional experience as a web developer helped me to decide to store the content for recipes, projects, and blog posts in JSON files. This allowed me to transfer all of my site data in seconds by simply copying and pasting three files (from the angular version of the site to the react veresion). After that it was easy to pipe the JSON files into their corresponding react components using React's `Workspace` API."
+            }
+          ]
+        },
+        {
+          "pics": ["browser-devtools.png"],
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "Debugging Adventures: The Browser as Our Lab",
+              "h4": true
+            },
+            {
+              "text": "No DIY project is without its hiccups! The majority of the 80-100 hours I spent on this platform conversion was on throwing spaghetti at the wall to see what stuck and debugging. Thankfully my coding bestie, Gemini was there to guide me through Chrome Dev tools and the various head-scratching error messages that cropped up in my console."
+            }
+          ]
+        },
+        {
+          "pics": ["website-comparison.png"],
+          "paragraphs": [
+            {
+              "text": "Onward and Upward",
+              "h4": true
+            },
+            {
+              "text": "Now that I've finally Reacted to how out of date my codebase was, I'm excited to bring in new, modern features, like comments and maybe even actual SEO considerations. With a shiny new react architecture and my trusty AI homie, Gemini, the sky's the limit... Gemini even helped me write this DIY entry."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -2142,118 +2142,110 @@
       ]
     },
     {
-      "name": "How to *React* When Your AngularJS Site Can't Hack it Anymore",
-      "pub_date": "5/2/25",
-      "featured": true,
-      "header_pic": "react-logo.png",
-      "about": "Clasping hands with My Favorite AI, Gemini, I took a Plunge into my codebase and Made it Out the other Side",
-      "categories": ["Technical", "Web Development", "React", "Angular"],
+      "name": "DIY Seed Bouquet from Kitchen Garden Trimmings",
+      "pub_date": "May 9, 2025",
+      "header_pic": "seed-bouquet-done.png",
+      "about": "Turn bolted garden greens into next year's harvest with a beautiful seed bouquet.",
+      "categories": ["Gardening", "Seed Saving", "DIY"],
       "tools": [
-        "Webstorm (or your preferred code editor)",
-        "Node.js and npm (or yarn)",
-        "React Developer Tools (browser extension)",
-        "Your Brain (for problem-solving)",
-        "Gemini (AI Assistant)"
+        "Sharp Scissors or Pruners",
+        "Rubber Bands or Twine"
       ],
       "materials": [
-        "Your existing Angular codebase",
-        "A fresh React project (created with Create React App, Vite, etc.)",
-        "Patience (lots of it!)",
-        "Coffee (or your preferred debugging fuel)"
+        "Bolted Kitchen Garden Plants (Green Onion, Broccoli, Parsley, Cilantro, Spinach, Celery, Basil, etc.)"
       ],
-      "phases": [{
-        "pic": "angular-logo.png",
-        "paragraphs": [
-          {
-            "text": "Why the Switch?",
-            "h4": true
-          },
-          {
-            "text": "Arillian Farm, like every software project I've ever worked on was built using AngularJS. I knew when I set-out last year, that it was an outdated framework, but I didn't realize just how painfully old and busted it was until I emailed myself a link to my pasta dough recipe. And was embarassed when I tried to opened it on my phone it took me to our homepage instead of my recipe. At some point, the hot-fix hash-tag workaround that had worked for my sites of yor, couldn't hack it on the modern web."
-          },
-          {
-            "text": "The thought of a complete rewrite felt like staring at a blank mountain and being asked to carve a new Mt Rushmore. Fortunately my trusty AI companion, Gemini, swooped to my aid. Gemini fed tasks to me in bite sized pieces and together we re-engineered my clunky angular directives into robust react components. Transforming long ugly `ng-if`s into JSXy conditional renderings until we eventually birthed the beautiful bundle file this site runs off of today."
-          }
-        ]
-      }, {
-        "pic": "react-spin-up.png",
-        "right_side_pic": true,
-        "paragraphs": [
-          {
-            "text": "Learning to React",
-            "h4": true
-          },
-          {
-            "text": "The first step, setting up a new React project, was simple. My IDE, Webstorm allowed me to easily spin up a basic react project with a few clicks in the main menu."
-          },
-          {
-            "text": "After the basic React app was in place, the challenge: how to enhance the functionality of this site without losing the Arillian Farm charm. It was no simple copy-paste job! We had to rethink data flow, component structure, and how to handle things like routing and state management in the React way."
-          }
-        ]
-      }, {
-        "pic": "routing-diagram.png",
-        "paragraphs": [
-          {
-            "text": "Mapping the Roads: Setting Up Routing with `react-router-dom`",
-            "h4": true
-          },
-          {
-            "text": "Navigation is key to any website and Angular's short-comings related to routing were actually the main reason I wanted to convert to React in the first place. In Angular, I used a clunky, opinionated built-in router. For React, Gemini suggested `react-router-dom` which allowed me to link components directly to specific URLs, and leverage pre-built react components like `NavLink`  in the `TopNav` for this site."
-          },
-          {
-            "text": "And Greatest of All, Gemini helped me use declarative routing to pass parameters through URLs with React Router."
-          }
-        ]
-      }, {
-        "pic": "code-comparison.png",
-        "paragraphs": [
-          {
-            "text": "Translating the Blueprints: Architecting Components from Controllers and Directives",
-            "h4": true
-          },
-          {
-            "text": "Another challenges was taking my Angular-infused HTML files and one massive js file and re-imagining them as functional React components in tidy little JS files, a task made especially difficult by the fact that I didn't even know what a React Component was until Gemini explained it to me. None the less, Gemini and I forged forward. Talking through topics such as: How React passes data using 'props' or How to leverage `useState` for user interactions and `useEffect` to manage lifecycle events in React."
-          },
-          {
-            "text": "In the Angular version of this `DIY PROJECTS PAGE` for example, logic to fetching and displaying data was scattered through several html and js files and stored globally. In this, React, version, (using `useEffect` and  `useState`) I was able to eliminate scattered and redundant code fragments, consolidating them into a single ProjectView.js file. It took practice to bend my brain to the React way of thinking, but once Gemini helped me see the parallels between Angular and React and I started to pick up on the syntactical nuances, it was full steam ahead."
-          }
-        ]
-      }, {
-        "pic": "json-data.png",
-        "right_side_pic": true,
-        "paragraphs": [
-          {
-            "text": "The Beauty of JSON",
-            "h4": true
-          },
-          {
-            "text": "My professional experience as a web developer helped me to decide to store the content for recipes, projects, and blog posts in JSON files. This allowed me to transfer all of my site data in seconds by simply copying and pasting three files (from the angular version of the site to the react veresion). After that it was easy to pipe the JSON files into their corresponding react components using React's `fetch` API."
-          }
-        ]
-      }, {
-        "pic": "browser-devtools.png",
-        "right_side_pic": true,
-        "paragraphs": [
-          {
-            "text": "Debugging Adventures: The Browser as Our Lab",
-            "h4": true
-          },
-          {
-            "text": "No DIY project is without its hiccups! The majority of the 80-100 hours I spent on this platform conversion was on throwing spaghetti at the wall to see what stuck and debugging. Thankfully my coding bestie, Gemini was there to guide me through Chrome Dev tools and the various head-scratching error messages that cropped up in my console."
-          }
-        ]
-      }, {
-        "pic": "website-comparison.png",
-        "paragraphs": [
-          {
-            "text": "The (Ongoing) Transformation",
-            "h4": true
-          },
-          {
-            "text": "Now that I've finally Reacted to how out of date my codebase was, I'm excited to bring in new, modern features, like comments and maybe even actual SEO considerations. With a shiny new react architecture and my trusty AI homie, Gemini, the sky's the limit... Gemini even helped me write this DIY entry."
-          }
-        ]
-      }]
+      "phases": [
+        {
+          "label": "Timing the Harvest",
+          "pic": "seeds-forming.png",
+          "paragraphs": [
+            {
+              "text": "Seed saving starts with patience!",
+              "h4": true
+            },{
+              "text": "You need to let your plants go past their edible stage and 'bolt' – sending up a flower stalk. Once the flowers have been pollinated, seeds will begin to form and mature on the plant. Wait until the seed heads or pods are dry and brown on the stalk before harvesting."
+            },{
+              "text": "Timing is critical for saving seeds from plants in your kitchen garden.If possible, you'll want to wait until the seed heads or pods have dried and turned brown or grey on the plant before cutting. If you harvest too early, the seeds won't be mature enough to sprout, but in my situation where I need to get what I can before the sparrows get in, I try to harvest as soon as plump green seeds become visible."
+            }
+
+          ]
+        },
+        {
+          "pic": "snipped-plants.png",
+          "paragraphs": [
+            {
+              "text": "Taking Cuttings From Common Plants",
+              "h4": true
+            },
+            {
+              "text": "Use sharp scissors or pruners for clean cuts that don't damage the plant or scatter seeds."
+            },
+            {
+              "text": "- **Green Onion:** Let the plant send up its tall, round flower stalk and develop a round cluster of small white flowers. Once the flowers fade and dry, small black seeds will form. Cut the stalk below the dried seed head when it's brown and brittle."
+            },
+            {
+              "text": "- **Broccoli:** If you let broccoli go to seed, the main head or side shoots will bolt, producing yellow flowers. These will develop into long, thin seed pods. Wait until the pods are completely dry and brittle, turning light brown or tan. Cut the stalks below the dried pods."
+            },
+            {
+              "text": "- **Parsley:** Parsley bolts produce umbrella-like flower heads. The seeds are tiny and brown when dry. Cut the dried flower stalks below the seed heads."
+            },
+            {
+              "text": "- **Cilantro:** Cilantro bolts quickly in warm weather, producing delicate white or pink flowers that develop into small, round coriander seeds. Wait until the seeds are dry and brown on the plant. Cut the stalks below the seed clusters."
+            },
+            {
+              "text": "- **Big Leaf Spinach:** Spinach bolts and sends up a tall stalk with inconspicuous flowers that produce small, hard seeds along the stem. Wait until the seeds are dry and hard before cutting sections of the stalk."
+            },
+            {
+              "text": "- **Celery:** Celery bolts in its second year, producing large, umbrella-like flower heads similar to parsley. The seeds are very small. Wait until the flower heads are completely dry and the seeds are brown before cutting the stalks."
+            },
+            {
+              "text": "- **Basil:** While often pruned to prevent flowering for culinary use, you can let basil flower to collect seeds. The small flowers develop into seed heads containing tiny black seeds. Wait until the seed heads are completely dry and brittle before cutting the stalks."
+            }
+          ]
+        },
+        {
+          "label": "Bundling and Drying",
+          "pic": "bouquet-drying.png",
+          "paragraphs": [
+            {
+              "text": "Bundling the dried stalks .",
+              "h4": true
+            },
+            {
+              "text": ". You can group similar types of seeds or mix them for a varied bouquet.",
+              "text": "Bundle the dried stalks together, grouping them by type or mixing them for a diverse collection."
+            },
+            {
+              "text": "Arrange the trimmings inot a bouquet, grouped by plant species or whatever makes your taco pop. Secure the bundle with a rubber band or twine near the cut ends."
+            },
+            {
+              "text": "Hang the bundles upside down in a cool, dry, and well-ventilated location away from direct sunlight. Placing a paper bag loosely around the drying seed heads can help catch any seeds that fall."
+            },
+            {
+              "text": "Allow the bouquets to hang undisturbed for several weeks until the stalks and seed heads are completely dry and brittle. "
+            }
+          ]
+        },
+        {
+          "label": "Seed Saving or Display",
+          "pic": "seed-bouquet-done.png",
+          "paragraphs": [
+            {
+              "text": "Once completely dry, your seed bouquet is ready!",
+              "h4": true
+            },
+            {
+              "text": "You can keep the bouquet as a decoration until next spring."
+            },
+            {
+              "text": "When you're ready to plant next spring, gently shake the dried seed heads over your prepared garden beds or into a container to release the mature seeds."
+            },
+            {
+              "text": "Store any collected seeds in a cool, dry place in labeled envelopes or containers."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

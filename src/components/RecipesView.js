@@ -88,11 +88,9 @@ const RelatedRecipes = ({ relatedRecipes, onRecipeClick }) => {
     };
 
 const FeaturedRecipe = ({ recipe, assembleAndCopy, isSmallView, handleRelatedRecipeClick }) => {
-    console.log("RECIPE renderMainContent called with item:", recipe);
     if (!recipe || !recipe.name) {
         return <div className="col-xs-12 text-white"><h3>Select a Recipe</h3></div>;
     }
-    console.log("RECIPE: renderMainContent: Item data looks good, proceeding with rendering details.");
 
 
     return (
@@ -201,12 +199,10 @@ const RecipesView = () => {
 
     const handleRecipeClick = (recipe, name) => {
         let nameValue = (name || recipe?.name);
-        console.log("RecipesView: handleRecipeClick - Item clicked. NameValue:", nameValue);
 
         if (nameValue){
             // setLinkWithQueryString likely returns a full URL for copy/share purposes
             let fullUrlPath = setLinkWithQueryString('recipes', nameValue);
-            console.log("RecipesView: handleRecipeClick - Generated full URL path:", fullUrlPath); // Log the full URL
 
             // --- Extract the path needed for navigate ---
             // Create a URL object to easily parse the full URL
@@ -229,7 +225,6 @@ const RecipesView = () => {
             // --- End extraction ---
 
 
-            console.log("RecipesView: handleRecipeClick - Path for navigate:", pathForNavigate); // Log the path being passed to navigate
 
             // You still need the comparison logic to avoid navigating if already on the same page
             // The comparison should be based on the *search* part relative to the basename,
@@ -237,14 +232,9 @@ const RecipesView = () => {
             const currentSearch = new URLSearchParams(location.search).toString();
             const expectedNewSearch = new URLSearchParams(url.search).toString(); // Get search from the generated URL
 
-            console.log("RecipesView: handleRecipeClick - Expected new search string (from generated URL):", expectedNewSearch);
-            console.log("RecipesView: handleRecipeClick - Current location.search string:", currentSearch);
-
-
             if (currentSearch === expectedNewSearch) {
                 console.warn("RecipesView: handleRecipeClick - URL query is ALREADY the same. Not navigating.");
             } else {
-                console.log("RecipesView: handleRecipeClick - URL query is DIFFERENT. Navigating.");
                 navigate(pathForNavigate); // <-- Pass the correctly extracted relative path to navigate
                 // No need to setFeaturedRecipe here, the useEffect will detect the location.search change and update featuredRecipe
             }
@@ -271,12 +261,9 @@ const RecipesView = () => {
     };
 
     const renderMainContent = (item) => {
-        console.log("RECIPE renderMainContent called with item:", item);
         if (!item || !item.name) {
-            console.log("RECIPE: renderMainContent: Item is null/undefined, rendering placeholder.");
             return <div className="col-xs-12 text-white"><h3>Select a Recipe</h3></div>;
         }
-        console.log("RECIPE: renderMainContent: Item data looks good, proceeding with rendering details.");
 
         // Use the recipe's unique slug as the key
         const recipeSlug = getSlug(item.name);
