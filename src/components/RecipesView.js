@@ -213,7 +213,7 @@ const RecipesView = () => {
             const url = new URL(fullUrlPath);
 
             // The path for navigate should be relative to the BrowserRouter's basename
-            const basename = "/arillianfarm-react"; // This must match your BrowserRouter basename
+            const basename = "/"; // This must match your BrowserRouter basename
 
             let pathForNavigate = url.pathname + url.search + url.hash; // Get the path, search, and hash parts
 

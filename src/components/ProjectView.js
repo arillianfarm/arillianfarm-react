@@ -6,7 +6,6 @@ import {
     trunc,
     setCopiedLink,
     getSlug,
-    getParamFromUrl,
     setLinkWithQueryString
 } from '../utils';
 import {useLocation, useParams} from 'react-router-dom';

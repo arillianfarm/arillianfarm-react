@@ -11,7 +11,7 @@ function RedirectHandler() {
             // Use navigate to go to the stored path
             // Be careful with the path structure here depending on your BrowserRouter basename
             // You might need to strip the repo base path from redirectPath
-            const repoBasePath = "/arillianfarm-react"; // Needs to match the 404.html
+            const repoBasePath = "/"; // Needs to match the 404.html
 
             // Ensure the path we navigate to is relative to the BrowserRouter's basename
             let internalPath = redirectPath;

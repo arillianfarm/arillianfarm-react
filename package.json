@@ -20,7 +20,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://arillianfarm.github.io/arillianfarm-react",
+  "homepage": "https://arillianfarm.com/",
   "scripts": {
     "start": "react-scripts start",
     "build": "cross-env PUBLIC_URL=/ react-scripts build",
