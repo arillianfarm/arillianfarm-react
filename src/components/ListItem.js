@@ -36,7 +36,7 @@ const ListItem = ({ item, isSelected, onItemClick, titleKey, thumbnailKey, descr
             let stepNumber = i+1;
             instructions += `(${stepNumber}) ${step.instruction}`
         }
-        recipeText = `Recipe For ${recipe.name} ${ingredients} ${instructions}  Courtesy of Arillian Farm ${setCopiedLink('recipes', recipe.name)}`;
+        recipeText = `Recipe For ${recipe.name} ${ingredients} ${instructions}  Courtesy of Arillian Farm ${setLinkWithQueryString('recipes', recipe.name)}`;
         copyToClipboard(recipeText);
     };
 

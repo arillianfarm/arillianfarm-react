@@ -273,7 +273,7 @@ const ProjectView = () => {
                                     <span className="mx-2 ">
                                         <button className="btn btn-info btn-xs mb-2" onClick={(event) => {
                                             event.stopPropagation();
-                                            const link = setCopiedLink('projects', item.name);
+                                            const link = setLinkWithQueryString('projects', item.name);
                                             navigator.clipboard.writeText(link)
                                                 .then(() => console.log('Link copied to clipboard ' + link))
                                                 .catch(err => console.error('Failed to copy link: ', err));

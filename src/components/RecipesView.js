@@ -108,7 +108,7 @@ const FeaturedRecipe = ({ recipe, assembleAndCopy, isSmallView, handleRelatedRec
                                 event.stopPropagation();
                                 const location = window.location;
                                 const base = location.origin + location.pathname;
-                                const link = setCopiedLink('recipes' ,recipe.name);
+                                const link = setLinkWithQueryString('recipes' ,recipe.name);
                                 navigator.clipboard.writeText(link)
                                     .then(() => console.log('Link copied to clipboard ' + link))
                                     .catch(err => console.error('Failed to copy link: ', err));
@@ -264,7 +264,7 @@ const RecipesView = () => {
         }
         const ingredients = `INGREDIENTS: ${recipe.ingredients.join(', ')}`;
         const instructions = recipe.steps.map((step, index) => `(${index + 1}) ${step.instruction}`).join(' ');
-        const summary = `Recipe For ${recipe.name} ${ingredients} INSTRUCTIONS: ${instructions} Courtesy of Arillian Farm [Link to recipe: ${setCopiedLink('recipes', recipe.name)}]`;
+        const summary = `Recipe For ${recipe.name} ${ingredients} INSTRUCTIONS: ${instructions} Courtesy of Arillian Farm [Link to recipe: ${setLinkWithQueryString('recipes', recipe.name)}]`;
         navigator.clipboard.writeText(summary)
             .then(() => console.log('Recipe summary copied to clipboard'))
             .catch(err => console.error('Failed to copy recipe summary: ', err));
