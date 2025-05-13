@@ -1325,48 +1325,73 @@
     },{
       "youtubeID": "LqN0ma8HC48",
       "title": "Leaping into another dimension &/or a backyard pool",
-      "albums": ["new", "wildlife"],
+      "albums": ["wildlife"],
       "release_date": "5/9/25"
     },{
       "youtubeID": "xvtZfsdVGyg",
       "title": "Xena Dog is a bundle of Cutthroat and Cuddles",
-      "albums": ["new", "dogs"],
+      "albums": ["dogs"],
       "release_date": "5/9/25"
     },{
       "youtubeID": "UC46xr-I5Uo",
       "title": "Give New Life to Old Potatoes",
-      "albums": ["new", "garden", "diy"],
+      "albums": ["garden", "diy"],
       "release_date": "5/9/25"
     },{
       "youtubeID": "ZzlmPWs1yuA",
       "title": "Make Crispy Hash Browns from Soft Potatoes!",
-      "albums": ["new", "cooking"],
+      "albums": ["cooking"],
       "release_date": "5/9/25"
     },{
       "youtubeID": "HNwQd1qaBPc",
       "title": "Having a Taco Toss with our Doggos",
-      "albums": ["new", "dogs"],
+      "albums": ["dogs"],
       "release_date": "5/9/25"
     },{
       "youtubeID": "XpQYNoiCj6k",
       "title": "When You Just Want Some Privacy - Meh Monday",
-      "albums": ["new", "chickens"],
+      "albums": ["chickens"],
       "release_date": "5/9/25"
     },{
       "youtubeID": "AcYzX17gsN0",
       "title": "Huey Ka-Bluey and Xena are Each Others’ Comfort Animal",
-      "albums": ["new", "dogs"],
+      "albums": ["dogs"],
       "release_date": "5/9/25"
     },{
       "youtubeID": "nSvKTS0rkzc",
       "title": "When you go on vacation without your dogs... Throwback fursday",
-      "albums": ["new", "dogs"],
+      "albums": ["dogs"],
       "release_date": "5/9/25"
     },{
       "youtubeID": "zdED90lfNlo",
       "title": "Making a Seed Bouquet that Smells like Salad Dressing, Next Year’s Garden",
-      "albums": ["new", "diy", "gardening"],
+      "albums": ["diy", "gardening"],
       "release_date": "5/9/25"
+    },{
+      "youtubeID": "seTcj-TweCw",
+      "title": "POV - You got the Last Slice, but Your Siblings are Vultures - Meh Monday",
+      "albums": ["new", "chickens"],
+      "release_date": "5/16/25"
+    },{
+      "youtubeID": "VJmOlIPh3Hs",
+      "title": "Huey Ka-Bluey Boppin it Through Life Like…",
+      "albums": ["new", "dogs"],
+      "release_date": "5/16/25"
+    },{
+      "youtubeID": "oxm-HBZMrEo",
+      "title": "You Goat This in the Bag!",
+      "albums": ["new", "goats"],
+      "release_date": "5/16/25"
+    },{
+      "youtubeID": "jE59quOD4hw",
+      "title": "Xena and Huey Ka-Bluey Stick Together like Birds of a Feather",
+      "albums": ["new", "dogs"],
+      "release_date": "5/16/25"
+    },{
+      "youtubeID": "",
+      "title": "",
+      "albums": ["new"],
+      "release_date": "5/16/25"
     }
   ]
 }
