@@ -3,10 +3,20 @@ import { Link } from 'react-router-dom';
 import '../About.css';
 import ThumbNails from './ThumbNails';
 import HeaderPic from './HeaderPic';
+import { Helmet } from 'react-helmet-async';
 
 
 function AboutView() {
+    const pageTitle =  "We're always cooking up some fun at our little Funny Farm - Arillian Farm";
+    const pageDescription = 'Browse delicious recipes, watch cute youtube shorts of our critters and maybe learn a thing or two at Arillian Farm.';
+
     return (
+        <>
+            <Helmet>
+                <title>{pageTitle}</title>
+                <meta name="description" content={pageDescription} />
+                {/* add other meta tags here too */}
+            </Helmet>
         <div className="container br20 border2px text-white text-justified">
             <div className="row">
                 <div className="col-xs-12 text-center">
@@ -105,6 +115,7 @@ function AboutView() {
                 </div>
             </div>
         </div>
+    </>
     );
 }
 

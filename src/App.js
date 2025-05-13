@@ -15,10 +15,13 @@ import './style.css';
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfService from "./pages/TermsOfService";
 import RedirectHandler from './RedirectHandler';
+import { HelmetProvider } from 'react-helmet-async';
+
 
 function App() {
 
     return (
+        <HelmetProvider>
         <BrowserRouter basename="/" >
             <RedirectHandler />
             <TopNav />
@@ -41,6 +44,7 @@ function App() {
             </div>
             <Footer />
         </BrowserRouter>
+    </HelmetProvider>
     );
 }
 

@@ -34,13 +34,6 @@ export const getSlug = (unsanitizedField = "") => {
     return sanitizedRecipeName;
 };
 
-export const setCopiedLink = (viewName, articleName) => {
-    const sanitizedArticleName = getSlug(articleName);
-    const path = `/${viewName}/${sanitizedArticleName}`;
-    const fullLink = window.location.origin + path;
-    return fullLink;
-};
-
 export const setLinkWithQueryString = (viewName, articleName) => {
     const sanitizedArticleName = getSlug(articleName);
     const path = `/${viewName}/?articleId=${sanitizedArticleName}`;

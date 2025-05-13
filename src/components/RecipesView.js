@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import ListItem from './ListItem';
 import {useLocation, useNavigate} from 'react-router-dom';
-import {titleCaps, setCopiedLink, getSlug, setLinkWithQueryString} from '../utils';
+import {titleCaps,  getSlug, setLinkWithQueryString} from '../utils';
+import { Helmet } from 'react-helmet-async';
 import recipeData from '../pageData/recipes.json';
 
 const RecipeIngredients = ({ ingredients, servings, headerPic, isSmallView }) => {
@@ -151,6 +152,7 @@ const RecipesView = () => {
     const location = useLocation();
     const navigate = useNavigate();
 
+
     useEffect(() => {
         setLoading(true); // Start loading state
         setFeaturedRecipe(null);
@@ -267,16 +269,25 @@ const RecipesView = () => {
 
         // Use the recipe's unique slug as the key
         const recipeSlug = getSlug(item.name);
+        const pageTitle = item && item.name ? `${item.name} - Arillian Farm Fresh Recipes` : 'A Fresh Recipe From Arillian Farm';
+        const pageDescription = item && item.notes ? item.notes : 'Browse delicious recipes and more at Arillian Farm.';
+
 
         return (
-            // Add the key prop here
+        <>
+            <Helmet>
+                <title>{pageTitle}</title>
+                <meta name="description" content={pageDescription} />
+                {/* add other meta tags here too */}
+            </Helmet>
             <FeaturedRecipe
-                key={recipeSlug} // <-- Add this key prop
+                key={recipeSlug}
                 recipe={item}
                 handleRelatedRecipeClick={handleRecipeClick}
                 assembleAndCopy={assembleAndCopyRecipeSummary}
                 isSmallView={isSmallView}
             />
+        </>
         );
     };
 

@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import ListItem from './ListItem';
 import {useLocation, useParams} from 'react-router-dom';
-import { calculateAlbumContainerSize, getIframeSrcForYouTube, titleCaps, trunc, applyAlbumFilter, setCopiedLink, getSlug, setLinkWithQueryString } from '../utils';
+import { calculateAlbumContainerSize, getIframeSrcForYouTube, titleCaps, trunc, applyAlbumFilter, getSlug, setLinkWithQueryString } from '../utils';
 import blogData from '../pageData/blog.json';
+import { Helmet } from 'react-helmet-async';
+
 
 const BlogView = () => {
     const [blogEntries, setBlogEntries] = useState([]);
@@ -13,6 +15,7 @@ const BlogView = () => {
     const [error, setError] = useState(null);
     const location = useLocation();
     const [articleId, setArticleId] = useState(null);
+
 
     useEffect(() => {
         setLoading(true);
@@ -30,6 +33,7 @@ const BlogView = () => {
             if (idFromQuery) {
                 initialFeaturedBlog = entriesWithSummary.find(blog => getSlug(blog.entry_subject) === idFromQuery);
             }
+
 
             setFeaturedBlogEntry(initialFeaturedBlog || entriesWithSummary[0]);
             setError(null);
@@ -80,9 +84,19 @@ const BlogView = () => {
         }
 
         const blogSlug = getSlug(entry.entry_subject);
+        const pageTitle = entry && entry.entry_subject ? `${entry.entry_subject} -The Arillian Farm Blog` : 'Keep Up With The Funny Farm In Our Backyard at Arillian Farm';
+        const pageDescription = entry && entry.feature_section_1 && entry.feature_section_1.caption ?entry.feature_section_1.caption : 'A Blog About Suburban Farming, YouTubing and The Funny Farm In Our Own BackYard at Arillian Farm.';
+
+
 
         // Once loading is false and no error, render the main layout
         return (
+        <>
+                <Helmet>
+                    <title>{pageTitle}</title>
+                    <meta name="description" content={pageDescription} />
+                    {/* add other meta tags here too */}
+                </Helmet>
             <div key={blogSlug} className="col-xs-12 col-lg-9" id={entry.entry_subject.toLowerCase().replace(/ /g, '-')}>
                 <h5 className="mb-0">
                     <div className="row blog-header">
@@ -205,7 +219,9 @@ const BlogView = () => {
                     </div>
                 </div>
             </div>
+    </>
         );
+
     };
 
     if (loading) {

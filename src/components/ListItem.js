@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {titleCaps, trunc, setCopiedLink, getSlug, setLinkWithQueryString} from '../utils';
+import {titleCaps, trunc, getSlug, setLinkWithQueryString} from '../utils';
 
 
 const ListItem = ({ item, isSelected, onItemClick, titleKey, thumbnailKey, descriptionKey, thumbnailPrefix, pageBase }) => {
@@ -44,7 +44,6 @@ const ListItem = ({ item, isSelected, onItemClick, titleKey, thumbnailKey, descr
 
     const handleCopyLink = (event) => {
         event.stopPropagation();
-        // const fullLink = setCopiedLink( pageBase, item[titleKey]);
         const fullLink = setLinkWithQueryString( pageBase, item[titleKey]);
         copyToClipboard(fullLink);
     };

@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import { calculateAlbumContainerSize, getIframeSrcForYouTube, titleCaps, applyAlbumFilter } from '../utils';
 import AlbumHeader from './AlbumHeader';
 import data from '../pageData/pictures.json';
+import { Helmet } from 'react-helmet-async';
 
 
 const PicturesView = () => {
@@ -62,7 +63,16 @@ if (error) {
     return <div className="container text-center text-white br20">Error loading video albums: {error.message}</div>;
 }
 
+    const pageTitle =  "Arillian Farm - We Run A Funny Farm in Our Backyard and it's An Eggcellent Place to Be";
+    const pageDescription = 'Check out all the cute fur and feather friends, vegetable gardens, and beautiful scenes at Arillian Farm.';
+
     return (
+    <>
+        <Helmet>
+            <title>{pageTitle}</title>
+            <meta name="description" content={pageDescription} />
+            {/* add other meta tags here too */}
+        </Helmet>
         <div className="pictures-view">
             <div className="row text-center">
                 <div className="col-xs-12">
@@ -85,6 +95,7 @@ if (error) {
                 ))}
             </div>
         </div>
+    </>
     );
 }
 

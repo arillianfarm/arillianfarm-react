@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { titleCaps } from '../utils'; // Assuming you have titleCaps in your utils
+import {Helmet, HelmetProvider} from 'react-helmet-async';
+
 
 const BooksView = () => {
     const data = {
@@ -25,7 +27,16 @@ const BooksView = () => {
         console.log(`Set next display page for ${book}`);
     };
 
+    const pageTitle = 'Author and Farm LARPer Jillian Fetter Invites you to enter the Hyperspear and or get unFETTERed with her';
+    const pageDescription = 'If you like litRPG check out Hyperspear and if youre a fan of quarter life crisis memoirs you might like unFETTERed by Jillian Fetter';
+
     return (
+    <>
+            <Helmet>
+                <title>{pageTitle}</title>
+                <meta name="description" content={pageDescription} />
+                {/* add other meta tags here too */}
+            </Helmet>
         <div className="container border2px br20 mb-5 pb-5">
             <div className="row">
                 <div className="col-xs-12">
@@ -84,6 +95,7 @@ const BooksView = () => {
                 <div className="col-lg-2 col-xs-12"></div>
             </div>
         </div>
+    </>
     );
 };
 

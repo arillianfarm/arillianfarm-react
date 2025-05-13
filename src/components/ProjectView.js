@@ -4,12 +4,12 @@ import {
     getIframeSrcForYouTube,
     titleCaps,
     trunc,
-    setCopiedLink,
     getSlug,
     setLinkWithQueryString
 } from '../utils';
 import {useLocation, useParams} from 'react-router-dom';
 import projectData from '../pageData/projects.json';
+import { Helmet } from 'react-helmet-async';
 
 
 const ProjectToolsMaterials = ({ featuredProject }) => {
@@ -244,8 +244,17 @@ const ProjectView = () => {
         }
 
         const projectSlug = getSlug(item.name);
+        const pageTitle = item && item.name ? `${item.name} - Arillian Farm DIY Projects` : 'See What We Are Working on in The Funny Farm In Our Backyard at Arillian Farm';
+        const pageDescription = item && item.about && item.about ? item.about : 'From Catios to Raised Garden Beds or Epoxy Resin Gift Ideas We Get Up to It All at Arillian Farm.';
+
 
         return (
+        <>
+                <Helmet>
+                    <title>{pageTitle}</title>
+                    <meta name="description" content={pageDescription} />
+                    {/* add other meta tags here too */}
+                </Helmet>
             <div key={projectSlug} className="col-xs-12 col-lg-9" id={getSlug(item.name)}>
                 <div className="col-xs-12 mt-3 text-center">
                     <h6 className="text-danger">
@@ -320,6 +329,7 @@ const ProjectView = () => {
                     <ProjectPhases featuredProject={item} />
                 </div>
             </div>
+        </>
         );
     };
 

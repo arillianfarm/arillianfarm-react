@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import AlbumHeader from './AlbumHeader';
 import {calculateAlbumContainerSize, getIframeSrcForYouTube, titleCaps, applyAlbumFilter } from '../utils';
 import data from '../pageData/videos.json';
+import { Helmet } from 'react-helmet-async';
 
 
 const VideoView = () => {
@@ -85,7 +86,16 @@ const VideoView = () => {
 
     // console.log("VideoView: Rendering main content. Data for albumContent:", albumContent); // Removed debug log
 
+    const pageTitle =  "Arillian Farm - We Run A Funny Farm in Our Backyard and it's An Eggcellent Place to Be";
+    const pageDescription = 'Check out cute youtube shorts of our critters, kitchen hacks, recipe ideas and more Arillian Farm.';
+
     return (
+    <>
+        <Helmet>
+            <title>{pageTitle}</title>
+            <meta name="description" content={pageDescription} />
+            {/* add other meta tags here too */}
+        </Helmet>
         <div className="video-view">
             <div className="row text-center">
                 <div className="col-xs-12">
@@ -154,6 +164,7 @@ const VideoView = () => {
                 })}
             </div>
         </div>
+    </>
     );
 };
 

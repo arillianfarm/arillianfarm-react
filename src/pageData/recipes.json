@@ -2000,7 +2000,7 @@
       "notes": "Elevate Eggs From Hen House to Handheld Happiness"
     },
     {
-      "name": "Choked Up Cherry Tomato Angel Hair Pasta",
+      "name": "Heart Of Spring Angel Hair Pasta",
       "header_pic": "angelhair_thaw_pasta.png",
       "featured": true,
       "pub_date": "5/2/25",
@@ -2073,7 +2073,7 @@
         "4-6 Cloves of Garlic, Minced or Pressed --divided",
         "1 Tablespoon Unsalted Butter",
         "1-2 tablespoon finely chopped (fresh) oregano and/or thyme",
-        "1 lb cheery tomatoes",
+        "1 lb cherry tomatoes",
         "1/4 tsp red pepper flakes",
         "1/4 cup breadcrumbs",
         "2 tablespoons pasta water (reserved from cooking raviolis)"
@@ -2124,6 +2124,49 @@
         }
       ],
       "notes": "Hearty and Delicious!"
+    },
+    {
+      "name": "Grilled Cheese and Soup French Toast",
+      "pub_date": "5/16/25",
+      "header_pic": "savFrenchTDone.png",
+      "categories": ["dinner", "breakfast"],
+      "servings": "2-4 servings",
+      "related_recipes": ["San Francisco Style Sourdough Bread","Traditional Sourdough Bread"],
+      "ingredients": [
+        "4 Slices of Sourdough bread (or another hearty bread)",
+        "2 large eggs",
+        "1/2 cup Heavy Whipping Cream",
+        "1/2 Cup Grated Parmesan Cheese -divided",
+        "1/4 Cup Grated Mozzarella Cheese",
+        "3/4 tsp Ground Black Pepper --divided",
+        "(optional)1 small sprig fresh rosemary - minced (approx 1/4 tsp) ",
+        "(optional)1 small sprig fresh sage - minced (approx 1/4 tsp) ",
+        "(optional)1/4 tsp minced fresh oregano laves",
+        "1/4 tsp red pepper flakes",
+        "1 Tablespoon Unsalted Butter",
+        "2-4 Cloves of Garlic, Minced or Pressed --divided",
+        "1 Tablespoon Olive Oil",
+        "1-2 cups cherry tomatoes"
+      ],
+      "steps": [
+        {
+          "pic": "",
+          "instruction": ""
+        },{
+          "pic": "",
+          "instruction": ""
+        },{
+          "pic": "",
+          "instruction": ""
+        },{
+          "pic": "",
+          "instruction": ""
+        },{
+          "pic": "",
+          "instruction": ""
+        }
+      ],
+      "notes": "Breakfast for Dinner and Dinner For Breakfast at the Same time"
     }
   ]
 }
