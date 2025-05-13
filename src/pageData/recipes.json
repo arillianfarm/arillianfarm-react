@@ -2142,6 +2142,7 @@
         "(optional)1 small sprig fresh rosemary - minced (approx 1/4 tsp) ",
         "(optional)1 small sprig fresh sage - minced (approx 1/4 tsp) ",
         "(optional)1/4 tsp minced fresh oregano laves",
+        "(optional) fresh basil leaves, sliced or ripped",
         "1/4 tsp red pepper flakes",
         "1 Tablespoon Unsalted Butter",
         "2-4 Cloves of Garlic, Minced or Pressed --divided",
@@ -2150,20 +2151,29 @@
       ],
       "steps": [
         {
-          "pic": "",
-          "instruction": ""
+          "pic": "savFrenchTA.png",
+          "instruction": "Roast The Tomatoes: Add olive oil, 1/4 tsp black pepper, 1-2 cloves minced garlic and tomatoes to a oven safe dish. Press tomatoes with a spoon to release juices and stir to combine with garlic, pepper and olive oil."
+        },{
+          "pic": "savFrenchTB.png",
+          "instruction": " Airfry at 385 for 15 minutes or roast in a pre-heated oven at 400 for 20 minutes."
+        },{
+          "pic": "savFrenchT1.png",
+          "instruction": "Prepare The Batter: In a shallow dish, whisk together eggs and heavy cream.  Stir in1-2 cloves minced garlic, 1/4 cup Parmesan cheese, rosemary, sage, oregano, 1/2 tsp black pepper, and red pepper flakes."
+        },{
+          "pic": "savFrenchT2.png",
+          "instruction": "Prepare Cheese Filling: In a bowl, stir together 1/4 cup Parmesan cheese, 2-3 tablespoons goat cheese, and shredded mozzarella."
+        }, {
+          "pic": "savFrenchT3.png",
+          "instruction": "Soak the Bread: Dip each slice of bread into the egg mixture, allowing it to soak for a few seconds on each side."
         },{
           "pic": "",
-          "instruction": ""
+          "instruction": "Heat butter or olive oil in a large skillet over medium heat. Carefully place the soaked bread slices (in batches if necessary) in the hot skillet. Cook for 3-4 minutes per side, or until golden brown."
         },{
-          "pic": "",
-          "instruction": ""
+          "pic": "savFrenchT4.png",
+          "instruction": "When both sides are cooked through, spread cheese mixture on one piece of french toast and top. Cook another 30 seconds on each side."
         },{
-          "pic": "",
-          "instruction": ""
-        },{
-          "pic": "",
-          "instruction": ""
+          "pic": "savFrenchTC.png",
+          "instruction": "Serve: Stir basil into roasted tomatoes then spread on top of French Toast."
         }
       ],
       "notes": "Breakfast for Dinner and Dinner For Breakfast at the Same time"
