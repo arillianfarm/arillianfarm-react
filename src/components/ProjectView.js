@@ -360,8 +360,6 @@ const ProjectView = () => {
                                 )}
                             </h3>
                         </div>
-
-                        <div className="col-xs-12">
                             {(projects && projects.length && !loading && !error && (!collapseNav || !isSmallView)) &&
                                 projects.map((project) => (
                                     <ListItem
@@ -376,7 +374,6 @@ const ProjectView = () => {
                                         pageBase="projects"
                                     />
                                 ))}
-                        </div>
                     </div>
                 </div>
                 <div className="col-xs-12 col-lg-9">

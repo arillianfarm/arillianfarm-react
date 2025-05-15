@@ -14,9 +14,9 @@ import 'font-awesome/css/font-awesome.min.css';
 import './style.css';
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfService from "./pages/TermsOfService";
+import NotFoundPage from './pages/NotFoundPage';
 import RedirectHandler from './RedirectHandler';
 import { HelmetProvider } from 'react-helmet-async';
-
 
 function App() {
 
@@ -28,7 +28,7 @@ function App() {
             <div className="content-wrapper">
                 <Routes>
                     <Route path="/videos" element={<VideoView />} />
-                    <Route path="/recipes" element={<RecipesView />} /> {/* For the base /recipes URL */}
+                    <Route path="/recipes" element={<RecipesView />} />
                     <Route path="/recipes/:recipeId" element={<RecipesView />} />
                     <Route path="/projects" element={<ProjectView />} />
                     <Route path="/projects/:projectId" element={<ProjectView />} />
@@ -40,6 +40,8 @@ function App() {
                     <Route path="/privacy-policy" element={<PrivacyPolicy />} />
                     <Route path="/terms-of-service" element={<TermsOfService />} />
                     <Route path="/" element={<VideoView />} />
+                    {/* Catch-all route for 404 */}
+                    <Route path="*" element={<NotFoundPage />} />
                 </Routes>
             </div>
             <Footer />

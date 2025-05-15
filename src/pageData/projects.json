@@ -2246,6 +2246,97 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Sprouting Broccoli Micro Greens at Home",
+      "pub_date": "May 13, 2025",
+      "header_pic": "bsproutDone.png",
+      "about": "Broccoli Micro Greens: Nutritious Silly String for Your Sandwich.",
+      "categories": ["Gardening", "Seed Saving", "DIY"],
+      "tools": [
+        "Glass Jar",
+        "Cheese Cloth, Delicates Bag or similar"
+      ],
+      "materials": [
+        "Broccoli Seeds"
+      ],
+      "tools": [
+        "Clean wide-mouth jar",
+        "A sprouting lid or a piece of cheesecloth and a rubber band or a mesh bag",
+        "A bowl or dish to angle the jar for drainage"
+      ],
+      "phases": [
+        {
+          "label": "",
+          "pic": "bsproutPods.png",
+          "paragraphs": [
+            {
+              "text": "Prepare Seeds:",
+              "h4": true
+            },{
+              "text": "Look for seed pods that are swollen and have started to turn yellowish or brownish and dry to the touch. Gently cover sections of the plant with paper bags. (Secure the bags loosely with string or twist ties to allow for air circulation and prevent moisture buildup.) This will hopefully deter critters who want to get after the seeds."
+            },{
+              "text": "Once the seed heads are thoroughly dry, you can extract the seeds by gently crushing the pods over a clean surface or inside a container. You can also rub the dried pods between your hands."
+            },{
+              "text": "To remove the 'chaff' (dried plant material) mixed with the seeds, gather seeds in a jar and gently blow across them, allowing the lighter chaff to be carried away."
+            }
+          ]
+        }, {
+          "label": "",
+          "pic": "bsproutSoak.png",
+          "paragraphs": [
+            {
+              "text": "Soak Seeds:",
+              "h4": true
+            },{
+              "text": "Place 1-2 tablespoons of broccoli seeds in the jar. Cover them with about 2-3 times the amount of cool water. If using a sprouting lid, screw it on. If using cheesecloth, cover the mouth of the jar with a tightly knit canvas bag or delicates bag, or a few layers of cheesecloth and secure it tightly with a rubber band. Soak the seeds for 2-8 hours"
+            }
+          ]
+        },{
+          "label": "",
+          "pic": "bsproutSprout.png",
+          "paragraphs": [
+            {
+              "text": "Rinse and Drain Seeds Until Sprouts Appear:",
+              "h4": true
+            },{
+              "text": "After soaking, drain all the water from the jar thoroughly. If using cheesecloth, tilt the jar upside down and let it drain completely"
+            },{
+              "text": "Rinse the seeds with fresh, cool water 2-3 times a day. To rinse, fill the jar with water, gently swirl the seeds, and then drain the water completely"
+            },{
+              "text": "After each rinse, place the jar upside down at an angle in a bowl or dish in a dimly lit, well-ventilated area. (This allows excess water to drain and provides air circulation.)"
+            },{
+              "text": "Continue rinsing and draining 2 times a day for 2-5 days. You'll see small sprouts (tails) begin to emerge."
+            }
+
+          ]
+        },{
+          "label": "",
+          "pic": "bsproutFinish.png",
+          "paragraphs": [
+            {
+              "text": "Fine Tuning:",
+              "h4": true
+            },{
+              "text": "Greening (Optional) If you prefer slightly more mature sprouts with small leaves, you can expose the jar to indirect sunlight for a day or two once the sprouts have developed. This will allow them to produce chlorophyll and turn green"
+            },{
+              "text":"Final Rinse and Drying: Once the sprouts reach your desired length, and greenness give them a final thorough rinse. Drain them well and then spread them on a clean kitchen towel or paper towel to air dry for a short time."
+            }
+          ]
+        },{
+          "label": "",
+          "vid": "IeZC5QJfRxs",
+          "paragraphs": [
+            {
+              "text": "Refrigerate and Let the Party Begin:",
+              "h4": true
+            },{
+              "text": "Store the finished broccoli sprouts in a clean, airtight container in the refrigerator for up to a week. They taste best when relatively dry."
+            }
+
+          ]
+        }
+      ]
     }
   ]
 }

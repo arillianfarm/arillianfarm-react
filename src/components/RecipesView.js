@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import ListItem from './ListItem';
 import {useLocation, useNavigate} from 'react-router-dom';
-import {titleCaps,  getSlug, setLinkWithQueryString} from '../utils';
+import {titleCaps, getSlug, setLinkWithQueryString, getIframeSrcForYouTube} from '../utils';
 import { Helmet } from 'react-helmet-async';
 import recipeData from '../pageData/recipes.json';
 
-const RecipeIngredients = ({ ingredients, servings, headerPic, isSmallView }) => {
+const RecipeIngredients = ({ ingredients, servings, headerPic, isSmallView, headerVid, headerTitle }) => {
     if (!ingredients || ingredients.length === 0) {
         return null;
     }
@@ -13,13 +13,29 @@ const RecipeIngredients = ({ ingredients, servings, headerPic, isSmallView }) =>
         <div className="col-xs-12 col-lg-6 mt-5">
             <div className="row">
                 <div className="col-xs-12 text-center">
-                    {headerPic && (
+                    {!headerVid && headerPic &&  (
                         <img
                             className="br20 m-3"
                             src={`${process.env.PUBLIC_URL||""}/assets/recipes/${headerPic}`}
                             style={{ height: isSmallView ? 'auto' : '300px', maxWidth: '25em', objectFit: 'cover' }}
                             alt="Recipe Header"
                         />
+                    )}
+                </div>
+                <div className="col-sm-12 text-center">
+                    {headerVid && (
+                        <div className="row text-center ">
+                            <div className="col-sm-12 text-center">
+                                <iframe
+                                    style={{ height: '20em', padding: '10px', maxWidth: '55em' }}
+                                    className="video-box mr-3"
+                                    height="auto"
+                                    autoPlay={false}
+                                    src={getIframeSrcForYouTube(headerVid)}
+                                    title={`${headerTitle} Video`}
+                                />
+                            </div>
+                        </div>
                     )}
                 </div>
             </div>
@@ -51,12 +67,13 @@ const RecipeSteps = ({ fullRecipe, steps, isSmallView }) => {
                 <ol style={{ fontWeight: 'bold' }} className="text-white">
                     {fullRecipe.steps && fullRecipe.steps.map((step, index) => (
                         <li key={`s-${index}`}>
-                            <h4>{step.instruction}</h4>
+                            <h4 className="mb-5">{step.instruction}</h4>
                             {step.pic && (
                                 <img
+
                                     className="br20"
                                     src={`${process.env.PUBLIC_URL}/assets/recipes/${step.pic}`}
-                                    style={{ height: isSmallView ? 'auto' : '150px', objectFit: 'cover' }}
+                                    style={{ height: isSmallView ? 'auto' : '150px',float: step.right_side_pic ? 'right' : 'left', objectFit: 'cover' }}
                                     alt={`Step ${index + 1}`}
                                 />
                             )}
@@ -131,6 +148,8 @@ const FeaturedRecipe = ({ recipe, assembleAndCopy, isSmallView, handleRelatedRec
                     ingredients={recipe.ingredients}
                     servings={recipe.servings}
                     headerPic={recipe.header_pic}
+                    headerTitle={recipe.vid_caption || recipe.name || "Garden Fresh Recipe"}
+                    headerVid={recipe.vid}
                     isSmallView={isSmallView}
                 />
                 <RecipeSteps fullRecipe={recipe} steps={recipe.steps} isSmallView={isSmallView} />
@@ -319,23 +338,20 @@ const RecipesView = () => {
                                 )}
                             </h3>
                         </div>
-                        <div className="col-xs-12">
-                            {(!loading && !error && recipes && recipes.length && (!collapseNav || !isSmallView)) &&
-                                recipes.map((recipe) => (
-                                    <ListItem
-                                        key={recipe.name}
-                                        item={recipe}
-                                        isSelected={featuredRecipe && recipe.name === featuredRecipe.name}
-                                        onItemClick={handleRecipeClick}
-                                        titleKey="name"
-                                        thumbnailKey="header_pic"
-                                        descriptionKey="notes"
-                                        thumbnailPrefix="/assets/recipes/"
-                                        pageBase='recipes'
-                                    />
-                                ))}
-                        </div>
-
+                        {(!loading && !error && recipes && recipes.length && (!collapseNav || !isSmallView)) &&
+                            recipes.map((recipe) => (
+                                <ListItem
+                                    key={recipe.name}
+                                    item={recipe}
+                                    isSelected={featuredRecipe && recipe.name === featuredRecipe.name}
+                                    onItemClick={handleRecipeClick}
+                                    titleKey="name"
+                                    thumbnailKey="header_pic"
+                                    descriptionKey="notes"
+                                    thumbnailPrefix="/assets/recipes/"
+                                    pageBase='recipes'
+                                />
+                            ))}
                     </div>
                 </div>
                 <div className="col-xs-12 col-lg-9">

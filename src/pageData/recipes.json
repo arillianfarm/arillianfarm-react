@@ -801,11 +801,13 @@
       "name": "Pasta Dough",
       "pub_date": "10/31/24",
       "header_pic": "pdough.png",
+      "vid": "_ZPVkLCslEA",
+      "vid_caption": "Make Some Mega Fresh Noodles!",
       "categories": ["pasta", "dinner"],
       "servings": "8-10 oz of dough (approx 3 servings of pasta)",
       "related_recipes": ["Pumpkin Raviolis in Sweet Butter Sage Sauce","Fettuccine and Broccoli Alfredo","Cheesy Baked Artichoke Mushroom Raviolis"],
       "ingredients": [
-        "2 Cups Bread Flour or All Purpose Flour",
+        "1/2 - 2 Cups Bread Flour or All Purpose Flour",
         "1/4 tsp Salt",
         "3 Large Eggs",
         "1 Tsp Olive Oil"
@@ -2128,26 +2130,28 @@
     {
       "name": "Grilled Cheese and Soup French Toast",
       "pub_date": "5/16/25",
+      "vid": "YFpYdl6eGE4",
+      "vid_caption": "",
       "header_pic": "savFrenchTDone.png",
       "categories": ["dinner", "breakfast"],
       "servings": "2-4 servings",
       "related_recipes": ["San Francisco Style Sourdough Bread","Traditional Sourdough Bread"],
       "ingredients": [
         "4 Slices of Sourdough bread (or another hearty bread)",
-        "2 large eggs",
+        "2 Large eggs",
         "1/2 cup Heavy Whipping Cream",
         "1/2 Cup Grated Parmesan Cheese -divided",
         "1/4 Cup Grated Mozzarella Cheese",
         "3/4 tsp Ground Black Pepper --divided",
-        "(optional)1 small sprig fresh rosemary - minced (approx 1/4 tsp) ",
-        "(optional)1 small sprig fresh sage - minced (approx 1/4 tsp) ",
-        "(optional)1/4 tsp minced fresh oregano laves",
-        "(optional) fresh basil leaves, sliced or ripped",
-        "1/4 tsp red pepper flakes",
+        "(optional)1 Small sprig fresh rosemary - minced (approx 1/4 tsp) ",
+        "(optional)1 Small sprig fresh sage - minced (approx 1/4 tsp) ",
+        "(optional)1/4 tsp Minced fresh oregano laves",
+        "(optional) Fresh basil leaves, sliced or ripped",
+        "1/4 Tsp red pepper flakes",
         "1 Tablespoon Unsalted Butter",
         "2-4 Cloves of Garlic, Minced or Pressed --divided",
         "1 Tablespoon Olive Oil",
-        "1-2 cups cherry tomatoes"
+        "1-2 Cups cherry tomatoes"
       ],
       "steps": [
         {
