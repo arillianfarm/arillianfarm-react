@@ -290,12 +290,12 @@ const ProjectView = () => {
                                 <div className="col-xs-6 text-right" >
                                         {!isSmallView &&
                                             <span className="my-0">
-                                                <p className="">Posted: {item.pub_date}</p>
+                                                <p className="">{item.pub_date}</p>
                                             </span>
                                         }
                                         {isSmallView &&
                                             <span className="blog-date">
-                                                <p className="">Posted: {item.pub_date}</p>
+                                                <p className="">{item.pub_date}</p>
                                             </span>
                                         }
                                 </div>

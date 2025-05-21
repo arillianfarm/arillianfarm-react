@@ -1370,28 +1370,59 @@
     },{
       "youtubeID": "seTcj-TweCw",
       "title": "POV - You got the Last Slice, but Your Siblings are Vultures - Meh Monday",
-      "albums": ["new", "chickens"],
+      "albums": ["chickens"],
       "release_date": "5/16/25"
     },{
       "youtubeID": "VJmOlIPh3Hs",
       "title": "Huey Ka-Bluey Boppin it Through Life Like…",
-      "albums": ["new", "dogs"],
+      "albums": ["dogs"],
       "release_date": "5/16/25"
     },{
       "youtubeID": "oxm-HBZMrEo",
       "title": "You Goat This in the Bag!",
-      "albums": ["new", "goats"],
+      "albums": ["goats"],
       "release_date": "5/16/25"
     },{
       "youtubeID": "y_GRR3vcCCg",
       "title": "Birds of a feather flock together, but goats head-butt",
-      "albums": ["new", "chickens"],
+      "albums": ["chickens"],
       "release_date": "5/16/25"
     },{
       "youtubeID": "YFpYdl6eGE4",
       "title": "Grilled Cheese & Tomato Soup French Toast",
-      "albums": ["new", "cooking"],
+      "albums": ["cooking"],
       "release_date": "5/16/25"
+    },
+    {
+      "youtubeID": "RApqQNrdqR8",
+      "title": " Pajama’s Catch Skills Turned up to the Max",
+      "albums": ["new", "dogs"],
+      "release_date": "5/23/25"
+    },{
+      "youtubeID": "-UkBiu4Vnc4",
+      "title": "When Life Hands You Roses, Make Rose Water!",
+      "albums": ["new", "gardening", "cooking"],
+      "release_date": "5/23/25"
+    },{
+      "youtubeID": "s02JeP6c9KY",
+      "title": "\uD83D\uDC36\uD83E\uDD29 \uD83E\uDEE0POV- you want it so bad you can taste it... then you totally choke - \uD83D\uDE11 Meh Monday",
+      "albums": ["new", "dogs"],
+      "release_date": "5/23/25"
+    },{
+      "youtubeID": "VhaaW1BlFfU",
+      "title": "\uD83D\uDC00❤️\u200D\uD83E\uDE79\uD83D\uDED6 Escaping the Rat Race - a Tiny Tail of Rehoming Baby Rodents",
+      "albums": ["new", "wildlife"],
+      "release_date": "5/23/25"
+    },{
+      "youtubeID": "5Has3b-4LcQ",
+      "title": "\uD83E\uDD2B\uD83D\uDC36it’s Oh So Quiet Until…",
+      "albums": ["new", "dogs"],
+      "release_date": "5/23/25"
+    },{
+      "youtubeID": "ebUKGc5PaMk",
+      "title": "\uD83E\uDD66\uD83C\uDF89\uD83E\uDD6A Broccoli Micro Greens: Nutritious Silly String for Your Sandwiches",
+      "albums": ["new", "cooking", "gardening"],
+      "release_date": "5/23/25"
     }
   ]
 }
