@@ -132,14 +132,14 @@ const BlogView = () => {
                         <div className="row mb-2 mt-2">
                             <div className="col-xs-12 text-center">
                                 <a href={entry.link} target="_blank" rel="noopener noreferrer">
-                                    <img src={`${process.env.PUBLIC_URL}/assets/blog/${entry.pic_file}`} style={{ height: '20em', marginLeft: '3em' }} alt={entry.entry_subject} />
+                                    <img src={`${process.env.PUBLIC_URL}/assets/blog/${entry.pic_file}`} style={{ height: '10em', marginLeft: '3em' }} alt={entry.entry_subject} />
                                 </a>
                             </div>
                         </div>
                     )}
                     {entry.pic_file && !entry.link && (
                         <div className="col-xs-12 text-center mb-5 mt-5">
-                            <img className="br20" src={`${process.env.PUBLIC_URL}/assets/blog/${entry.pic_file}`} style={{ height: '20em' }} alt={entry.entry_subject} />
+                            <img className="br20" src={`${process.env.PUBLIC_URL}/assets/blog/${entry.pic_file}`} style={{ height: '10em' }} alt={entry.entry_subject} />
                         </div>
                     )}
                     {entry.link && !entry.pic_file && (
@@ -150,7 +150,7 @@ const BlogView = () => {
                     {entry.link && entry.pic_file && (
                         <div className="col-xs-12 text-center mb-5 mt-5">
                             <h3><a href={entry.link} target="_blank" >
-                                <img className="br20" src={`${process.env.PUBLIC_URL}/assets/blog/${entry.pic_file}`} style={{ height: '20em'}} alt={entry.entry_subject} />
+                                <img className="br20" src={`${process.env.PUBLIC_URL}/assets/blog/${entry.pic_file}`} style={{ height: '10em'}} alt={entry.entry_subject} />
                             </a></h3>
                         </div>
                     )}
@@ -178,12 +178,12 @@ const BlogView = () => {
                                         </iframe>
                                      )}
                                 {section.link && section.pic_file && (
-                                        <a className="ml-5" style={{'float':section.right_side_pic ? 'right': 'left'}}
-                                            href="{getIframeSrc(section.link)}"
+                                    <a className="ml-5" style={{float: section.right_side_pic ? 'right': 'left'}}
+                                            href={section.link}
                                            target="_blank">
                                             <img
                                                 src={`${process.env.PUBLIC_URL}/assets/blog/${section.pic_file}`}
-                                                style="height: 20em; padding:10px;"/>
+                                                style={{height: '10em', padding:'10px'}}/>
                                         </a>
 
                                     )}

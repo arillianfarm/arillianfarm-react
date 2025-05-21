@@ -89,97 +89,176 @@
             }
           ],
           "link": null,
-          "pics": ["", ""]
+          "pics": ["arsunrise.png"]
         },
         {
           "bold":false,
-          "text": "4:30AM Barnyard Breakfast! (I feed our chickens before sunrise for two reasons 1- I want them to lay early in the day because nesting in the midday heat is stressful for their bodies. (2) After sunrise a flock of pigeons and doves show up to pick through any leftovers.",
           "pics": ["breakfastTreats.png", "barnyardbreakfast2.png", "earlyAManimals.png"],
-          "videos": ["BqNq-B4QhXU"]
+          "paragraphs": [
+            {
+              "text": "4:30AM Barnyard Breakfast! (I feed our chickens before sunrise for two reasons 1- I want them to lay early in the day because nesting in the midday heat is stressful for their bodies. (2) After sunrise a flock of pigeons and doves show up to pick through any leftovers."
+            }
+          ],
+          "vid": "BqNq-B4QhXU"
         },
         {
           "bold":false,
-          "text": "5:00AM DOoooUGH - I’m going to make sourdough bread later in the day, so I need to 'wake up' the starter (remove it from fridge and let come to room temp). It needs to be “fed” a half cup of flour and a half cup of water once a week and if I’m not going to be using it that day." ,
+          "paragraphs": [
+            {
+              "text": "5:00AM DOoooUGH - I’m going to make sourdough bread later in the day, so I need to 'wake up' the starter (remove it from fridge and let come to room temp). It needs to be “fed” a half cup of flour and a half cup of water once a week and if I’m not going to be using it that day."
+            }
+          ],
           "internal_links": ["recipes-sourdough", "recipes-sourdough-starter"],
           "pics": ["feedStarter.png"]
         },{
           "bold":false,
-          "text": "6:00AM Coffee break (my friend Christa got me this amazing mug) I’ve been making cold brew instead of hot coffee … partly ‘cause its hot and partly because its less acidic than hot coffee. I put it in my fridge door ‘cause I think the constant agitation form the door opening and closing will help it brew… but that could be fake news." ,
+          "paragraphs": [
+            {
+              "text": "6:00AM Coffee break (my friend Christa got me this amazing mug) I’ve been making cold brew instead of hot coffee … partly ‘cause its hot and partly because its less acidic than hot coffee. I put it in my fridge door ‘cause I think the constant agitation form the door opening and closing will help it brew… but that could be fake news."
+            }
+          ],
           "pics": []
         },
         {
           "bold":false,
-          "text": "6:30AM Dog breakfast and shift change! Our two male dogs can’t be together anymore (due to Huey stalking and wanting to kill Pajama), so we keep them separated by a locked door –or leashed to opposing walls at all times. I swap who’s in the bedroom and who’s outside after breakfast so they both have a chance to play with Xena and play fetch outside before its too hot." ,
+          "paragraphs": [
+            {
+              "text": "6:30AM Dog breakfast and shift change! Our two male dogs can’t be together anymore (due to Huey stalking and wanting to kill Pajama), so we keep them separated by a locked door –or leashed to opposing walls at all times. I swap who’s in the bedroom and who’s outside after breakfast so they both have a chance to play with Xena and play fetch outside before its too hot."
+            }
+          ],
           "pics": []
         },
         {
           "bold":false,
-          "text": "Weeding and Chicken treating" ,
+          "paragraphs": [
+            {
+              "text": "Weeding and Chicken treating"
+            }
+          ],
           "pics": []
         },
         {
           "bold":false,
-          "text": "TENDING WATER GARDEN… THE OVERFLOW POND WATER FLOWS INTO THE CHICKENS COOP, SO THEY GET ANOTHER MUDDY / WET AREA TO COOL OFF (originally I was going to have the pond extend under their fence, but it turns out I’m not great at spacial analysis and my pond tarp was no where near large enough for that" ,
+          "paragraphs": [
+            {
+              "text": "TENDING WATER GARDEN… THE OVERFLOW POND WATER FLOWS INTO THE CHICKENS COOP, SO THEY GET ANOTHER MUDDY / WET AREA TO COOL OFF (originally I was going to have the pond extend under their fence, but it turns out I’m not great at spacial analysis and my pond tarp was no where near large enough for that"
+            }
+          ],
           "pics": []
         },
         {
           "bold":false,
-          "text": "Make poo piles ... clean the chicken coop and goat bedding (for later use in soil)" ,
+          "paragraphs": [
+            {
+              "text": "Make poo piles ... clean the chicken coop and goat bedding (for later use in soil)"
+            }
+          ],
           "pics": []
         }, {
           "bold":false,
-          "text": "7:45AM On Tuesdays we break our weekend fast with a fresh smoothie that Arthur has designed to deliver the maximum nutritional value with the least amount of calories and a somewhat palatable taste. (I’ve tried to recreate the smoothies myself and they are definitely not palatable)" ,
+          "paragraphs": [
+            {
+              "text": "7:45AM On Tuesdays we break our weekend fast with a fresh smoothie that Arthur has designed to deliver the maximum nutritional value with the least amount of calories and a somewhat palatable taste. (I’ve tried to recreate the smoothies myself and they are definitely not palatable)"
+            }
+          ],
           "pics": []
         },{
           "bold":false,
-          "text": "8:30AM Arthur is off to work. Time to start fleshing out this blog entry" ,
+          "paragraphs": [
+            {
+              "text": "8:30AM Arthur is off to work. Time to start fleshing out this blog entry"
+            }
+          ],
           "pics": []
         },{
           "bold":false,
-          "text": "10:30AM Start making dough for sourdough bread" ,
+          "paragraphs": [
+            {
+              "text": "10:30AM Start making dough for sourdough bread"
+            }
+          ],
           "pics": []
         },{
           "bold":false,
-          "text": "11:30AM Final Fantasy Break while the bread proofs" ,
+          "paragraphs": [
+            {
+              "text": "11:30AM Final Fantasy Break while the bread proofs"
+            }
+          ],
           "pics": []
         },{
           "bold":false,
-          "text": "12:00PM Ice the livestock and give the chickens some frozen corn treats" ,
+          "paragraphs": [
+            {
+              "text": "12:00PM Ice the livestock and give the chickens some frozen corn treats"
+            }
+          ],
           "pics": []
         },{
           "bold":false,
-          "text": "12:30 Continue with bread and Formatting this blog entry",
+          "paragraphs": [
+            {
+              "text": "12:30 Continue with bread and Formatting this blog entry"
+            }
+          ],
           "pics": []
         },{
           "bold":false,
-          "text": "2:00 feed the chickens and goats their afternoon meal – the goats get a little bit of chicken food because they scream at me for all the world to hear if I feed the chickens but not them. And the chickens don’t get oatmeal or banana in the afternoon ‘cause apparently 2 bananas is where I draw the line on over-treating my chickens. THey do get the egg shells from our morning smoothie though (to help them get enough ‘grit’ for digestion).",
+          "paragraphs": [
+            {
+              "text": "2:00 feed the chickens and goats their afternoon meal – the goats get a little bit of chicken food because they scream at me for all the world to hear if I feed the chickens but not them. And the chickens don’t get oatmeal or banana in the afternoon ‘cause apparently 2 bananas is where I draw the line on over-treating my chickens. THey do get the egg shells from our morning smoothie though (to help them get enough ‘grit’ for digestion)."
+            }
+          ],
           "pics": []
         },{
           "bold":false,
-          "text": "2:15 feed the dogs their afternoon meal",
+          "paragraphs": [
+            {
+              "text": "2:15 feed the dogs their afternoon meal"
+            }
+          ],
           "pics": []
         },{
           "bold":false,
-          "text": "2:30 Bake the bread and continue working on Arillian Farm site",
+          "paragraphs": [
+            {
+              "text": "2:30 Bake the bread and continue working on Arillian Farm site"
+            }
+          ],
           "pics": []
         },{
           "bold":false,
-          "text": "3:00 Tea Time / back to working on the site while I watch some nostalgic 90s comfort tv (currently half way through season 1 of Who’s The Boss)",
+          "paragraphs": [
+            {
+              "text": "3:00 Tea Time / back to working on the site while I watch some nostalgic 90s comfort tv (currently half way through season 1 of Who’s The Boss)"
+            }
+          ],
           "pics": []
         },{
           "bold":false,
-          "text": "5:00 Coop up the chickens, collect the eggs, and tether the dogs",
+          "paragraphs": [
+            {
+              "text": "5:00 Coop up the chickens, collect the eggs, and tether the dogs"
+            }
+          ],
           "pics": []
         },{
           "bold":false,
-          "text": "5:30 Arthur comes home, relax until bedtime",
+          "paragraphs": [
+            {
+              "text": "5:30 Arthur comes home, relax until bedtime"
+            }
+          ],
           "pics": []
         },{
           "bold":false,
-          "text": "8:00 zzz",
+          "paragraphs": [
+            {
+              "text": "8:00 zzz"
+            }
+          ],
           "pics": []
         }
-
       ]
     },
     {

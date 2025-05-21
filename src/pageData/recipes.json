@@ -814,10 +814,10 @@
       ],
       "steps": [{
         "pic": "pumRav1.png",
-        "instruction":"Whisk together salt and flour in a medium-large bowl, then 'make a well' in the flour, crack the eggs and pour the olive oil into the well and whisk the wet ingridents together."
+        "instruction":"Whisk together salt and flour in a medium-large bowl, then 'make a well' in the flour, crack the eggs and pour the olive oil into the well and whisk the wet ingredients together."
       },
         {
-          "instruction": "Using a fork, slowly mix the flour in with the wet ingredients."
+          "instruction": "Using a fork, slowly mix the flour in with the wet ingredients. Start with 1.5 cups of flour and add the last 1/2 cup slowly if/as needed."
         },
         {
           "pic": "pumRav3.png",
@@ -1561,36 +1561,37 @@
       "name": "Fettuccine and Broccoli Alfredo",
       "header_pic": "alfPre.png",
       "pub_date": "2/14/25",
-      "servings": "2-3 servings",
+      "servings": "2-4 servings",
       "related_recipes": ["Pasta Dough"],
       "ingredients": [
-        "Fettuccine Pasta (or sheets of fresh pasta cut into strips)",
-        "broccoli",
-        "1/4 cup butter (1/2 stick)",
+        "Fettuccine Pasta (or desired pasta)",
+        "Fresh broccoli",
+        "1-2 tablespoons butter",
+        "2-4 cloves garlic (minced or pressed)",
         "1/2 cup heavy cream (room temperature)",
         "1/4 cup grated parmesan cheese",
-        "1/4 tsp (fresh ground) black pepper",
-        "1-2 tablespoon pasta water",
-        "fresh parsley"
+        "1/4 - 1/2 tsp (fresh ground) black pepper",
+        "0-4 tablespoon pasta water (to set consistency of sauce)",
+        "Fresh parsley (optional)"
       ],
       "steps": [
         {
           "pic": "alfPre.png",
-          "instruction": "To make Alfredo sauce, melt butter in a sauce pan over medium heat and mince or finely chop garlic. Saute the garlic along with black pepper over medium heat until garlic is starting to sizzle and is fragrant."
+          "instruction": "To make Alfredo sauce, melt butter in a sauce pan over medium heat add minced garlic. Saute the garlic along with black pepper over medium heat until garlic is starting to sizzle and is fragrant."
         },{
           "pic": "alf3.png",
-          "instruction": "Remove sauce from heat and let cool for 5 minutes, then whisk in heavy cream."
+          "instruction": "Remove sauce from heat and let cool (for 2 -5 minutes), then whisk in heavy cream."
         },{
           "pic": "alf2.png",
           "instruction": "As the sauce is cooling, Steam broccoli to desired crispness and boil pasta (3-5 minutes for fresh noodles and 11 minutes for dry pasta), reserving 1-2 tablespoons of the 'pasta water' when you drain it."
         },
         {
           "pic": "alf4.png",
-          "instruction": "Return sauce to LOW heat and continue to whisk, gradually sprinkling in parmesan. DO NOT LET THE SAUCE BOIL. Continue to whisk over low heat until parmesan is completely incorporated. If sauce is clumpy or too thick, whisk in 1-2 tablespoons of (reserved) pasta water --until sauce is desired thickness"
+          "instruction": "Return sauce to LOW heat and continue to whisk, gradually sprinkling in parmesan. DO NOT LET THE SAUCE BOIL. Continue to whisk over low heat until parmesan is completely incorporated. If sauce is clumpy or too thick, whisk in 1-4 tablespoons of (reserved) pasta water --until sauce reaches desired consistency."
         },
         {
           "pic": "alfDone.png",
-          "instruction": "Then top pasta and broccoli with Alfredo Sauce and sprinkle on chopped parsley leaves for a pop of freshness."
+          "instruction": "Top pasta and broccoli with Alfredo Sauce and sprinkle on chopped parsley leaves for a pop of freshness."
         }
         ],
       "notes": "Be Cheesy - Broc the Night Away!"
