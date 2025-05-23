@@ -1192,7 +1192,7 @@
     {
       "entry_number": 17,
       "entry_date": "Feb 28, 2025",
-      "entry_subject": "I’m Just a Lil Robot Trying to Broadcast My Data",
+      "entry_subject": "I’m Just a Lil Robot Trying to Broadcast My Data - Navigating an Unofficial Autism Diagnosis",
       "pic_file": "lilbot.png",
       "feature_section_1": {
         "caption": "",
@@ -1215,7 +1215,7 @@
               "h4": true
             },
             {
-              "text": "As a child, if I hadn’t observed someone for at least several months, my brain simply would not dish out any words for me to say to that person… and if I did say something it was usually something that came off strange or critical. Suffice to say, I didn’t have a ton of friends growing up, but it didn’t occur to me that I might be autistic until an acquaintance invited me on a trip to her cabin and offered me her unsolicited peer diagnosis midway through our two hour drive.\n"
+              "text": "As a child, if I hadn’t observed someone for at least several months, my brain simply would not dish out any words for me to say to that person… and if I did say something it was usually something that came off strange or critical like 'your shoes look uncomfortable' Suffice to say, I didn’t have a ton of friends growing up, but it actually didn’t occur to me that I might be autistic until an acquaintance invited me on a trip to her cabin and offered me her unsolicited peer diagnosis midway through our two hour drive."
             }
           ]
         },
@@ -1719,7 +1719,7 @@
           "pics": [],
           "paragraphs": [
             {
-              "text": "The past few weeks have been a whirlwind of digital milestones and unexpected mini-adventures! First off, we finally passed the 1,000 subscriber mark on YouTube! It's a huge milestone for a small farm with big dreams, and it feels incredibly good to have so many of you along for the ride."
+              "text": "The past few weeks have been a whirlwind of digital milestones and unexpected mini-adventures! First off, we finally passed the 1,000 subscriber mark on YouTube! It's a huge milestone for a small farm with a big field of dreams!"
             }
           ]
         },
@@ -1735,9 +1735,9 @@
           "pics": [],
           "paragraphs": [
             {
-              "text": "While I do look at analytics on YouTube to a certain extent, my content creation process mostly goes like this: I’ll see or do something interesting, film it, come up with a short narrative about it, and then run my idea by Gemini. I ask for advice on titles, emojis, relevant keywords, and hashtags for the description (for SEO), and tags to help the 'algorithm' best find my content. It's a collaborative process, helping our little farm stories find the right audience."
+              "text": "While I do look at analytics on YouTube to a certain extent, my content creation process mostly goes like this: I’ll see or do something interesting in our lil farm yard, film it, come up with a short narrative about it, then run my idea by Gemini. I ask for advice on titles, emojis, relevant keywords, and hashtags for the description (for SEO), and tags to help the YouTube 'algorithm' best find my content. It's a collaborative process, helping our little farm stories find the right audience."
             },{
-              "text": "Every day in our lil farmyard is like a treasure hunt for moments to capture and share!"
+              "text": "It makes every day in our lil farmyard like a treasure hunt for moments to capture and share!"
             }
           ]
         },
@@ -1749,13 +1749,15 @@
               "text": "Apparently, You Have to Register Your Site with Google Search Console..."
             },
             {
-              "text": "Gemini let me know that I had to add my site to Google Search Console and Bing Webmaster Tools for its content to be searchable by their web crawlers. Since arillianfarm.com is a Single Page Application (SPA) without its own dedicated backend server, this wasn't as straightforward as just telling Google to 'go fetch.' SPAs typically load their content dynamically using JavaScript, which can be challenging for traditional search engine crawlers that prefer static HTML."
+              "text": "The other day, I was chatting with Gemini about SEO and was surprised with Gemini told me I had to add my site to Google Search Console and Bing Webmaster Tools for the content to be searchable by their web crawlers. Since arillianfarm.com is a Single Page Application (SPA) without its own dedicated backend server, this wasn't as straightforward as just telling Google to 'go fetch.' SPAs typically load their content dynamically using JavaScript, which can be challenging for traditional search engine crawlers that prefer static HTML."
             },
             {
               "text": "To make the site 'crawlable,' I first had to connect it to Prerender.io. This service works by pre-rendering static HTML files of my site's pages. So, when a search engine bot visits a URL, Prerender.io steps in and serves a fully-formed HTML version, ensuring all the page content is readable, even though my live site is a JavaScript-heavy SPA. The free tier gives me 1,000 pre-renders per month, which seems like plenty for now – but if arillianfarm.com blows up, I'll have to figure that out!"
             },
             {
-              "text": "To fully integrate with Prerender.io (since a direct DNS pointer isn't how it usually works for SPAs on static hosts), I also had to set up a CDN (Content Delivery Network) for my site with Cloudflare. Cloudflare sits between my domain and my GitHub Pages site. It acts as a proxy, receiving all incoming traffic. When a search bot comes knocking, Cloudflare's rules redirect that request to Prerender.io. For regular users, Cloudflare simply fetches the content from my GitHub Pages site. My free Cloudflare account seems perfectly fine for this, as long as we don't encounter any massive spam attacks or similar issues. Thanks to Gemini's guidance and quick support from Prerender.io, the site is now discoverable to the major search engines!"
+              "text": "To fully integrate with Prerender.io (since a direct DNS pointer isn't how it usually works for SPAs on static hosts), I also had to set up a CDN (Content Delivery Network) for my site with Cloudflare. Cloudflare sits between my domain and my GitHub Pages site, acting as a proxy, receiving all incoming traffic. When a search bot comes knocking, Cloudflare's rules redirect that request to Prerender.io. For regular users, Cloudflare simply fetches the content from my GitHub Pages site. My free Cloudflare account seems perfectly fine for now, as long as we don't encounter any massive spam attacks or similar issues."
+            },{
+              "text": "So with Gemini's guidance and some quick support from the Prerender.io team, the site is now discoverable to the major search engines!"
             }
           ]
         },
@@ -1769,10 +1771,10 @@
               "h4": true
             },
             {
-              "text": "The one place I did invest (besides buying the arillianfarm.com domain itself) was in Google Ads. The user interface can be, shall we say, *weird* and unintuitive. I leaned on Gemini heavily to walk me through setting up my first ad campaigns. I admit, I felt at times that Gemini was trying to upsell me on ads, but after I explained that my $25.00/month budget was not flexible (I actually quit my subscriptions to Hulu and Disney and reallocated that money), Gemini stopped suggesting I throw more money at everything. We then came up with a tight strategy to keep me on budget."
+              "text": "The one place I can't get away with a free version (besides buying the arillianfarm.com domain itself) is Google Ads. The Goolge Ads user interface can be *weird* and unintuitive. I leaned heavily on Gemini to walk me through setting up my first ad campaign, ad-group and audience. At times that Gemini was trying to upsell me on ads, but after I explained that my $25.00/month budget was not flexible (I actually quit my subscriptions to Hulu and Disney and reallocated that money), Gemini stopped suggesting I throw more money at everything and we came up with a tight strategy to get the arillian farm brand out there without breaking the bank."
             },
             {
-              "text": "This included advertising on 2-3 weekdays (and avoiding more costly weekend ads), excluding devices where people were unlikely to subscribe (like TVs or tablets), and identifying good 'audience segments' and 'interests' for my Ad Groups. Since I had a goal of gaining new subscribers, Gemini walked me through creating a 'data list' of people who'd viewed my YouTube channel in the last 30 days and excluding them from my campaign. The rest was up to Broodzilla our Broody Hen who's Short (and Google Ad) got us 650 new subscribers (in two days for under $25.00)!"
+              "text": "Since my goal was to gain new subscribers, this entailed excluding devices where people were unlikely to subscribe (like TVs or tablets), advertising on 2-3 weekdays (and avoiding more costly weekend ads), and identifying good 'audience segments' and 'interests' for my Ad Groups. Gemini also walked me through creating a 'data list' of people who'd viewed my YouTube channel in the last 30 days and excluding them from my campaign. The rest was up to Broodzilla our Broody Hen who's Short (and Google Ad) got us over six hundred new subscribers in two days for under $25.00!"
             }
 
           ]
@@ -1785,7 +1787,7 @@
               "h4": true
             },
             {
-              "text": "I’m cautiously optimistic that this journey of existing publicly will prove to be more positive (and lucrative!) than negative, even though the internet can sometimes feel like a 'dark forest' full of trolls. For now, I'm catching the wind in my digital sails and collaborating with Gemini to plan for the 'Boss Level' of joining the **YouTube Partnership Program**: achieving **10 million views** on YouTube. Wish me luck on this ambitious goal – every view helps!  \uD83D\uDE80"
+              "text": "The internet can sometimes feel like a 'dark forest' full of trolls, but I’m cautiously optimistic that this journey of existing publicly will prove to be more positive (and lucrative!) than negative. For now, I'm catching the wind in my digital sails and collaborating with Gemini to plan for the 'Boss Level' of joining the **YouTube Partnership Program**: achieving **10 million views** on YouTube. Wish me luck on this ambitious goal – every view helps!  \uD83D\uDE80"
             }
           ]
         }

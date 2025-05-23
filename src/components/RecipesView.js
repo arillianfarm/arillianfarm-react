@@ -58,31 +58,78 @@ const RecipeIngredients = ({ ingredients, servings, headerPic, isSmallView, head
         </div>
     )};
 
+// const RecipeSteps = ({ fullRecipe, steps, isSmallView }) => {
+//     if (!fullRecipe.steps || fullRecipe.steps.length === 0) {
+//         return null;
+//     }
+//         return (
+//             <div className="col-xs-12 col-lg-6" style={{ overflowY: 'auto' }}>
+//                 <ol style={{ fontWeight: 'bold' }} className="text-white">
+//                     {fullRecipe.steps && fullRecipe.steps.map((step, index) => (
+//                         <li key={`s-${index}`}>
+//                             <h4 className="mb-5">{step.instruction}</h4>
+//                             {step.pic && (
+//                                 <img
+//
+//                                     className="br20"
+//                                     src={`${process.env.PUBLIC_URL}/assets/recipes/${step.pic}`}
+//                                     style={{ height: isSmallView ? 'auto' : '150px',float: step.right_side_pic ? 'right' : 'left', objectFit: 'cover' }}
+//                                     alt={`Step ${index + 1}`}
+//                                 />
+//                             )}
+//                         </li>
+//                     ))}
+//                 </ol>
+//             </div>
+//         );
+//     };
+
 const RecipeSteps = ({ fullRecipe, steps, isSmallView }) => {
     if (!fullRecipe.steps || fullRecipe.steps.length === 0) {
         return null;
     }
-        return (
-            <div className="col-xs-12 col-lg-6" style={{ overflowY: 'auto' }}>
-                <ol style={{ fontWeight: 'bold' }} className="text-white">
-                    {fullRecipe.steps && fullRecipe.steps.map((step, index) => (
-                        <li key={`s-${index}`}>
-                            <h4 className="mb-5">{step.instruction}</h4>
-                            {step.pic && (
-                                <img
+    return (
+        <div className="col-xs-12 col-lg-6" style={{ overflowY: 'auto' }}>
+            <ol style={{ fontWeight: 'bold' }} className="text-white">
+                {fullRecipe.steps && fullRecipe.steps.map((step, index) => (
+                    <li
+                        key={`s-${index}`}
+                        style={{
+                            overflow: 'hidden', // Ensures the float is contained within the li
+                            marginBottom: '1.5em', // Consistent spacing between steps
+                            display: 'flex',
+                            flexDirection: 'column'
+                        }}
+                    >
+                        <h4 className="mb-3">{step.instruction}</h4> {/* Adjusted margin for less vertical space */}
+                        {step.pic && (
+                            <img
+                                className="br20"
+                                src={`${process.env.PUBLIC_URL}/assets/recipes/${step.pic}`}
+                                style={{
+                                    // *** KEY CHANGES HERE FOR SQUARE IMAGES ***
+                                    width: isSmallView ? '100%' : '150px', // On small view, full width. On large, fixed 150px.
+                                    height: isSmallView ? 'auto' : '150px', // On small view, height adjusts with width. On large, fixed 150px.
+                                    aspectRatio: '1 / 1', // Forces a 1:1 aspect ratio for the image container
+                                    objectFit: 'cover', // This will now crop to fill the 1:1 square
+                                    // *****************************************
 
-                                    className="br20"
-                                    src={`${process.env.PUBLIC_URL}/assets/recipes/${step.pic}`}
-                                    style={{ height: isSmallView ? 'auto' : '150px',float: step.right_side_pic ? 'right' : 'left', objectFit: 'cover' }}
-                                    alt={`Step ${index + 1}`}
-                                />
-                            )}
-                        </li>
-                    ))}
-                </ol>
-            </div>
-        );
-    };
+                                    float: step.right_side_pic ? 'right' : 'left', // Keep float if desired for text wrapping
+                                    marginLeft: step.right_side_pic ? '1em' : '0',
+                                    marginRight: step.right_side_pic ? '0' : '1em',
+                                    marginBottom: '0.5em',
+                                    display: 'block' // Ensures image behaves as a block, important with floats
+                                }}
+                                alt={`Step ${index + 1}`}
+                            />
+                        )}
+                        <div style={{ clear: 'both' }}></div> {/* Ensures next content starts below floated image */}
+                    </li>
+                ))}
+            </ol>
+        </div>
+    );
+};
 
 const RelatedRecipes = ({ relatedRecipes, onRecipeClick }) => {
         if (!relatedRecipes || relatedRecipes.length === 0) {

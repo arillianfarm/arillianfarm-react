@@ -60,6 +60,36 @@
           "instruction":"Drink as quickly as possible. It only gets worse as it gets warmer!"
         }],
       "notes": "You'll want a strong blender -- and a strong stomach for this!"
+    },
+    {
+      "name": "Veg-Cheesy Lasagna",
+      "pub_date": "5/23/25",
+      "vid": "",
+      "vid_caption": "",
+      "header_pic": "savFrenchTDone.png",
+      "categories": ["dinner"],
+      "servings": "4-6 servings",
+      "related_recipes": ["Pasta Dough"],
+      "ingredients": [
+        "Lasagna noodles",
+        "1/2 Cup Grated Parmesan Cheese -divided",
+        "1/4 Cup Grated Mozzarella Cheese",
+        "3/4 tsp Ground Black Pepper --divided",
+        "(optional)1 Small sprig fresh rosemary - minced (approx 1/4 tsp) ",
+        "(optional) Fresh basil leaves, sliced or ripped",
+        "1/4 Tsp red pepper flakes",
+        "1 Tablespoon Unsalted Butter",
+        "2-4 Cloves of Garlic, Minced or Pressed --divided",
+        "1 Tablespoon Olive Oil",
+        "1-2 Cups cherry tomatoes"
+      ],
+      "steps": [
+        {
+          "pic": "lasag1.png",
+          "instruction": "Roast The Tomatoes: Add olive oil, 1/4 tsp black pepper, 1-2 cloves minced garlic and tomatoes to a oven safe dish. Press tomatoes with a spoon to release juices and stir to combine with garlic, pepper and olive oil."
+        }
+      ],
+      "notes": "Hasta Lasagna Don't Get Any On Ya"
     }
   ]
 }

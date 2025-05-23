@@ -2184,34 +2184,47 @@
       "notes": "Breakfast for Dinner and Dinner For Breakfast at the Same time"
     },
     {
-      "name": "Veg-Cheesy Lasagna",
+      "name": "Bean there Done that Bowl",
       "pub_date": "5/23/25",
       "vid": "",
       "vid_caption": "",
-      "header_pic": "savFrenchTDone.png",
-      "categories": ["dinner"],
-      "servings": "4-6 servings",
-      "related_recipes": ["Pasta Dough"],
+      "header_pic": "tostada-bowl-done.png",
+      "categories": ["salad", "lunch", "dinner"],
+      "servings": "1 serving",
+      "related_recipes": [],
       "ingredients": [
-        "Lasagna noodles",
-        "1/2 Cup Grated Parmesan Cheese -divided",
-        "1/4 Cup Grated Mozzarella Cheese",
-        "3/4 tsp Ground Black Pepper --divided",
-        "(optional)1 Small sprig fresh rosemary - minced (approx 1/4 tsp) ",
-        "(optional) Fresh basil leaves, sliced or ripped",
-        "1/4 Tsp red pepper flakes",
-        "1 Tablespoon Unsalted Butter",
-        "2-4 Cloves of Garlic, Minced or Pressed --divided",
-        "1 Tablespoon Olive Oil",
-        "1-2 Cups cherry tomatoes"
+        "1 flour tortilla",
+        "olive oil (to air fry tortilla)",
+        "1/4 Cup Grated Cheese",
+        "15 oz can of kidney beans (half will be left over)",
+        "(optional) 1/4 bullion cube - to season beans",
+        "(optional) 1/8 - 1/4 tsp Garlic powder - to season beans",
+        "(optional) 1/8 - 1/4 tsp Chili Powder - to season beans",
+        "(optional) 1 Bay Leaf - to season beans",
+        "1/4 cup fresh, roughly chopped tomatoes",
+        "2-3 tablespoons Geek Yogurt or Sour Cream",
+        "1/4 cup Corn Kernels",
+        "1/4 cup chopped yellow or purple onion",
+        "(optional) 1 sliced jalapeno",
+        "1 green onion thinly sliced",
+        "1-2 cups Chopped or shredded lettuce"
       ],
       "steps": [
         {
-          "pic": "lasag1.png",
-          "instruction": "Roast The Tomatoes: Add olive oil, 1/4 tsp black pepper, 1-2 cloves minced garlic and tomatoes to a oven safe dish. Press tomatoes with a spoon to release juices and stir to combine with garlic, pepper and olive oil."
+          "pic": "tostada-bowl-beans.png",
+          "instruction": "Pour beans --along with the liquid from the can into a sauce pan and add bullion, garlic powder, chili powder and bay leaf (as desired). Bring to a simmer and cook over medium uncovered, for 10-15 minutes (to allow flavor to soak into beans)"
+        },{
+          "pic": "tortilla-tostada-bowl.png",
+          "instruction": "While the beans are cooking, spray or drizzle olive oil on a tortilla and sandwich it between two small baking dishes. Air fry at 385 for 3-5 minutes (until shell is crisp)"
+        },{
+          "pic": "tostada-bowl-assembly.png",
+          "instruction": "Make a corn salsa by mixing tomatoes, corn kernels, onion, jalapeno and green onion."
+        },{
+          "pic": "tostada-bowl-done.png",
+          "instruction": "Add beans, corn salsa, yogurt or sour cream, lettuce and shredded cheese to tortilla shell and dig in."
         }
       ],
-      "notes": "Hasta Lasagna Don't Get Any On Ya"
+      "notes": "A healthy filling fiesta for your mouth"
     }
   ]
 }
