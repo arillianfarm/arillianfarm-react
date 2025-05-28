@@ -25,6 +25,49 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Arillian Farm</title>
+    <script type="text/javascript">
+      (function() {
+      // Check if the URL contains a hashbang (#!), which indicates an old Angular URL
+      if (window.location.hash && window.location.hash.startsWith('#!')) {
+      // Extract the path after the hashbang
+      const oldHashPath = window.location.hash.substring(2); // e.g., gets "videos", "main"
+
+      let newPath = ''; // Initialize the target new path
+
+      //Redirect old hashbang paths (from angular version of site) to their corresponding new clean URLs
+      if (oldHashPath === 'videos') {
+      newPath = '/videos'; // Example: Redirect to your new video route
+      } else if (oldHashPath === 'main') {
+      newPath = '/'; // Example: Redirect to your new homepage
+      } else if (oldHashPath === 'recipes'){
+        newPath = '/recipes'
+      } else if (oldHashPath === 'blog'){
+        newPath = '/blog'
+      } else if (oldHashPath === 'projects'){
+        newPath = '/projects'
+      }else if (oldHashPath === 'books'){
+        newPath = '/books'
+      }else if (oldHashPath === 'about'){
+        newPath = '/about'
+      }else if (oldHashPath === 'pictures'){
+        newPath = '/pictures'
+      }
+
+
+
+      // If a new path is found for the old hashbang, perform the redirect
+      if (newPath) {
+      // Use window.location.replace() to prevent adding the old URL to browser history
+      window.location.replace(window.location.origin + newPath);
+      return; // Stop further script execution as we are redirecting
+      }
+      }
+
+      // Your existing 404.html script logic would go here if this were a combined file,
+      // but for hashbangs, this script needs to be in index.html or your main app load.
+      // (Your existing 404.html correctly handles actual 404 file paths.)
+      })();
+    </script>
 
   </head>
   <body>
