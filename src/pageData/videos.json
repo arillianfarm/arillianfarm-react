@@ -1396,43 +1396,68 @@
     {
       "youtubeID": "RApqQNrdqR8",
       "title": " Pajama’s Catch Skills Turned up to the Max",
-      "albums": ["new", "dogs"],
+      "albums": ["dogs"],
       "release_date": "5/23/25"
     },{
       "youtubeID": "-UkBiu4Vnc4",
       "title": "When Life Hands You Roses, Make Rose Water!",
-      "albums": ["new", "gardening", "cooking"],
+      "albums": ["gardening", "cooking"],
       "release_date": "5/23/25"
     },{
       "youtubeID": "s02JeP6c9KY",
       "title": "\uD83D\uDC36\uD83E\uDD29 \uD83E\uDEE0POV- you want it so bad you can taste it... then you totally choke - \uD83D\uDE11 Meh Monday",
-      "albums": ["new", "dogs"],
+      "albums": ["dogs"],
       "release_date": "5/23/25"
     },{
       "youtubeID": "VhaaW1BlFfU",
       "title": "\uD83D\uDC00❤️\u200D\uD83E\uDE79\uD83D\uDED6 Escaping the Rat Race - a Tiny Tail of Rehoming Baby Rodents",
-      "albums": ["new", "wildlife"],
+      "albums": ["wildlife"],
       "release_date": "5/23/25"
     },{
       "youtubeID": "5Has3b-4LcQ",
       "title": "\uD83E\uDD2B\uD83D\uDC36it’s Oh So Quiet Until…",
-      "albums": ["new", "dogs"],
+      "albums": ["dogs"],
       "release_date": "5/23/25"
     },{
       "youtubeID": "XnqMYgX_Dag",
       "title": "\uD83D\uDC14Cold Brood \uD83E\uDD76- a Freeze-Out Fail Leads to a Larger Flock #broodzilla",
-      "albums": ["new", "chickens"],
+      "albums": ["chickens"],
       "release_date": "5/23/25"
     },{
       "youtubeID": "iWMNaOignaU",
       "title": "\uD83D\uDC13❤️\uD83D\uDC23 BroodZilla Meets Her Brood - Giving Newborn Chicks to a Broody Hen to Raise",
-      "albums": ["new", "chickens"],
+      "albums": ["chickens"],
       "release_date": "5/23/25"
     },{
       "youtubeID": "ebUKGc5PaMk",
       "title": "\uD83E\uDD66\uD83C\uDF89\uD83E\uDD6A Broccoli Micro Greens: Nutritious Silly String for Your Sandwiches",
-      "albums": ["new", "cooking", "gardening"],
+      "albums": ["cooking", "gardening"],
       "release_date": "5/23/25"
+    },{
+      "youtubeID": "JEDZ-6Yifn8",
+      "title": "\uD83D\uDE12\uD83D\uDE98\uD83D\uDC23 Broodzilla Rollin’ Through Her Brooding Crate W/ Her New Brood",
+      "albums": ["new", "chickens"],
+      "release_date": "5/30/25"
+    },{
+      "youtubeID": "0gbAkUY9uoA",
+      "title": "\uD83D\uDC13\uD83D\uDCA5\uD83D\uDC10 Guess what, Chicken Butt ?! Totes the Goat Head-Butting at our Hen",
+      "albums": ["new", "chickens", "goats"],
+      "release_date": "5/30/25"
+    },{
+      "youtubeID": "yYOnkHqB0go",
+      "title": "\uD83D\uDC13\uD83D\uDC23\uD83D\uDCE5 Building a DIY Chick Brooder for Our Hen to Raise Chicks- DIY on the Fly",
+      "albums": ["new", "chickens", "diy"],
+      "release_date": "5/30/25"
+    },{
+      "youtubeID": "tBagWAPtwe0",
+      "title": "\uD83D\uDCA9\uD83D\uDE35\u200D\uD83D\uDCAB When the Poo Roulette Wheel Keeps Hitting Your Number - Meh Monday \uD83D\uDE11",
+      "albums": ["new", "dogs"],
+      "release_date": "5/30/25"
+    },{
+      "youtubeID": "0nvq65GYgZU",
+      "title": "\uD83D\uDC36\uD83E\uDEA4Doggo Flip Cup Challenge\uD83D\uDE1D",
+      "albums": ["new", "dogs"],
+      "release_date": "5/30/25"
     }
   ]
 }
