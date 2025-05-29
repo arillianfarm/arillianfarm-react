@@ -1595,7 +1595,8 @@
         }
         ],
       "notes": "Be Cheesy - Broc the Night Away!"
-    },{
+    },
+    {
       "name": "Strawberry Cream Cheese French Toast Bites",
       "header_pic": "ftdone.png",
       "pub_date": "2/21/25",
@@ -1631,7 +1632,8 @@
 
       ],
       "notes": "The Toast of The Town"
-    },{
+    },
+    {
       "name": "Good Morning, Sunshine Bowl",
       "header_pic": "goodmorningbowl.png",
       "pub_date": "2/28/25",
@@ -1663,7 +1665,8 @@
 
       ],
       "notes": "Start your Day Fresh"
-    },{
+    },
+    {
       "name": "Herb Croutons",
       "header_pic": "croutonsdone.png",
       "featured": true,
@@ -2225,6 +2228,58 @@
         }
       ],
       "notes": "A healthy filling fiesta for your mouth"
+    },
+    {
+      "name": "Suit Yourself Mini Air Fryer Lasagnas",
+      "pub_date": "5/30/25",
+      "vid": "",
+      "vid_caption": "",
+      "header_pic": "suit-yourself-lasagna-done.png",
+      "categories": [ "lunch", "dinner", "pasta"],
+      "servings": "4 servings",
+      "related_recipes": ["Pasta Dough"],
+      "ingredients": [
+        "2 cloves garlic pressed or minced",
+        "(optional) 2 cups chopped fresh vegetables (carrot, celery, bell pepper, squash etc)",
+        "(optional) 3-4 cups fresh cherry tomatoes",
+        "(optional) store bought pasta sauce",
+        "1/2 - 2 tsp fresh chopped italian herbs (rosemary, thyme, oregano etc) ",
+        "(optional) 1-2 tsp sugar --if tomatoes are sour",
+        "(optional)1 tablespoon finely chopped basil",
+        "1/2 cup parmesan cheese --divided",
+        "1/2 cup ricotta cheese",
+        "1/4 cup sour cream",
+        "(optional) 1 tablespoon chopped green onion, garlic greens and/or parsley",
+        "1/4 tsp fresh ground pepper",
+        "1-2 tablespoons olive oil",
+        "(optional) 1 tsp balsamic vinegar",
+        "4 Fresh (defrosted) or hydrated pasta sheets",
+        "4 slices deli cheese (provolone, muenster, mozarella, etc)",
+        "Other optional add-ins: ground beef, mushrooms, red pepper etc"
+      ],
+      "steps": [
+        {
+          "pic": "",
+          "instruction": "Feel free to personalize each mini lasagna and get creative with the filling, sauce and cheese topping to suit your taste."
+        },
+        {
+          "pic": "suit-yourself-lasagna-sauce.png",
+          "instruction": "If preparing sauce from scratch, add olive oil to a pie tin (or other air-fryable baking vessel), and add garlic, Italian herbs, vegetables and tomatoes, press tomatoes with a fork to release juices, and drizzle balsamic and or sugar to add zing, sweetness to sauce. Airfry for 15 minutes, then stir, add basil (if desired) and air fry for another 5 minutes."
+        },{
+          "pic": "suit-yourself-lasagna-hack.png",
+          "instruction": "I didn't have enough tomatoes, so I added some store bought sauce to stretch it out."
+        },{
+          "pic": "",
+          "instruction": "To make cheese filling, mix 1/4 cup of parmesan, sour cream, ricotta cheese, black pepper, and minced green onion, garlic tops and/or parsley in a bowl."
+        },{
+          "pic": "suit-yourself-lasagna-assembly.png",
+          "instruction": "Line the bottom of 1-4 small baking dishes with sauce (I used four 5x3 inch mini loaf pans, but you could place rolls side by side in a larger pan or layer like traditional lasagna). Spread a glob of cheese filling on a lasagna noodle, roll it over and put another swipe of filling to seal it, then set in lasagna pan, cover with sauce and top with sliced cheese and a sprinkle of the reserved parmesan. "
+        },{
+          "pic": "suit-yourself-lasagna-done.png",
+          "instruction": "Air fry for 10 minutes at 385 or until bubbly and cheese on top is beginning to brown."
+        }
+      ],
+      "notes": "Fresh, Fast & Flexible Air Fryer Rolls"
     }
   ]
 }
