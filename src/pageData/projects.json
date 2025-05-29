@@ -2337,6 +2337,69 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Building a Brooder for Broodzilla to Raise her Brood",
+      "pub_date": "May 30, 2025",
+      "header_pic": "brooder-done.png",
+      "about": ".",
+      "categories": ["chickens", "construction", "DIY"],
+      "tools": [
+       "Tape Measure",
+        "Miter Saw",
+        "Tin Snips",
+        "Drill w/ Screw driver attachment"
+      ],
+      "materials": [
+        "Construction Fabric",
+        "2x4 and/or scrap wood",
+        "Washers",
+        "Construction Screws",
+        "Front Grate From a Box Fan"
+      ],
+      "tools": [
+        "Clean wide-mouth jar",
+        "A sprouting lid or a piece of cheesecloth and a rubber band or a mesh bag",
+        "A bowl or dish to angle the jar for drainage"
+      ],
+      "phases": [
+        {
+          "label": "",
+          "pic": "brooder-space.png",
+          "paragraphs": [
+            {
+              "text": "Finding The Right Space: Visible to the rest of the flock, but protected from them and big enough to give Broodzilla room to stretch her legs and wings while still accommodating a nest, a grit pit and space food and watering bowls ",
+              "h4": true
+            },{
+              "text": "I was looking at giving chicks to our broody Buff Orpington Hen, Broodzilla, as a solution to her Broodiness and a way to expand our flock without having to be as attentive as when I've raised chicks on my own."
+            },{
+              "text": "Somehow I didn't consider that introducing three-day-old chicks would come with a whole new set of challenges."
+            },{
+              "text": "Fortunately when I went to put the tiny chicks in the 18 square inch laying box Broodzilla had taken over --four feet off the ground, I realized I needed to put our new little fluff balls somehwere a little safer."
+            },{
+              "text": "Fortunately there was a cool spot under the chicken stairs in our barn that suited all our needs and was easy to pen off (with materials I already had on hand) and "
+            }
+          ]
+        },{
+          "label": "",
+          "pic": "brooder-build.png",
+          "paragraphs": [
+            {
+              "text": "Construction:",
+              "h4": true
+            }
+          ]
+        },{
+          "label": "",
+          "vid": "yYOnkHqB0go",
+          "paragraphs": [
+            {
+              "text": "Doing Some DIY on The Fly:",
+              "h4": true
+            }
+          ]
+        }
+      ]
     }
   ]
 }
