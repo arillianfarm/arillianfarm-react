@@ -2339,10 +2339,10 @@
       ]
     },
     {
-      "name": "Building a Brooder for Broodzilla to Raise her Brood",
+      "name": "Quick Build: Making a Temporary Brooder for Broodzilla to Raise her Brood",
       "pub_date": "May 30, 2025",
       "header_pic": "brooder-done.png",
-      "about": ".",
+      "about": "When we surprised Broodzilla with baby chicks, I had to whip up an emergency DIY brooder on the fly! Learn how to build a temporary, safe chick brooder using scrap wood and construction fabric, keeping your new fluff balls cozy and safe from the flock.",
       "categories": ["chickens", "construction", "DIY"],
       "tools": [
        "Tape Measure",
@@ -2357,45 +2357,53 @@
         "Construction Screws",
         "Front Grate From a Box Fan"
       ],
-      "tools": [
-        "Clean wide-mouth jar",
-        "A sprouting lid or a piece of cheesecloth and a rubber band or a mesh bag",
-        "A bowl or dish to angle the jar for drainage"
-      ],
       "phases": [
         {
-          "label": "",
+          "label": "Choosing the Right Spot for Your DIY Brooder",
           "pic": "brooder-space.png",
           "paragraphs": [
             {
-              "text": "Finding The Right Space: Visible to the rest of the flock, but protected from them and big enough to give Broodzilla room to stretch her legs and wings while still accommodating a nest, a grit pit and space food and watering bowls ",
+              "text": "Finding The Right Space:",
               "h4": true
             },{
-              "text": "I was looking at giving chicks to our broody Buff Orpington Hen, Broodzilla, as a solution to her Broodiness and a way to expand our flock without having to be as attentive as when I've raised chicks on my own."
+              "text": "Giving chicks to our broody Buff Orpington Hen, Broodzilla, was meant to be a solution to the problem of her broodiness and a way to expand our flock without having to be as attentive as when I've raised chicks on my own."
             },{
-              "text": "Somehow I didn't consider that introducing three-day-old chicks would come with a whole new set of challenges."
+              "text": "Somehow I didn't consider that introducing baby chicks would come with a whole new set of challenges. The first major hurdle was keeping the chicks and Broodzilla safe from the other (potentially aggressive) hens without alienating them from the flock."
             },{
-              "text": "Fortunately when I went to put the tiny chicks in the 18 square inch laying box Broodzilla had taken over --four feet off the ground, I realized I needed to put our new little fluff balls somehwere a little safer."
+              "text": "When I went to put the tiny chicks in the cramped 18 square inch laying box Broodzilla had taken over --four feet off the ground-- I realized our new little fluff balls needed a bigger, safer space to grow up."
             },{
-              "text": "Fortunately there was a cool spot under the chicken stairs in our barn that suited all our needs and was easy to pen off (with materials I already had on hand) and "
+              "text": "Fortunately there was a cool spot under the chicken stairs in our barn that suited our needs and was easy to pen off --with materials I already had on hand--"
+            },{
+              "text": "The chicks would be visible to the rest of the flock but protected from them. This setup also gave Broodzilla and her brood enough space to stretch their legs and wings, and still have access to a nest box, a grit pit, food, and water."
             }
           ]
         },{
-          "label": "",
-          "pic": "brooder-build.png",
+          "label": "Building our On-the-Fly Chick Brooder",
+          "vid": "cmTR_92VG3w",
           "paragraphs": [
             {
-              "text": "Construction:",
+              "text": "DIY On-the-Fly Building Our Chick Brooder:",
               "h4": true
+            },{
+              "text": "I used construction fabric to enclose the space because its tight weave is perfect for keeping even small chicks contained. For the most part, I was able to pin the fabric directly to the existing coop frame using 1-inch construction screws and washers. For the bottom in a couple of places, I laid down 4x4s, wedging them in place as best I could to provide a secure point for screws. I also cut a 2x4 to frame one side of the 'entry gate'."
+            },{
+              "text": "I re-purposed the grate from a broken box fan as the door, which put a smile on my face 'cause I'm a big fan of resurrect trash! Mounting our 'door' was quick and easy: I just drilled a couple of 2 1/2-inch screws partially into the 2x4s and hung the fan grate on them. Then, a well-placed brick against the bottom held it securely in place."
+            },
+            {
+              "text": "I used the grate from the carcass of a broken box fan as the door, which made me feel good 'cause resurrecting trash warms my heart. To mount the 'door', I just drilled a couple 2 1/2 inch screws *partially* into 2 x 4s and hung the fan grate on them (then pushed a brick against the bottom to hold it in place)."
+            },{
+              "text": "The only real downside of this built-in crate is that it has to be partially dis- and re-assembled every time I clean it, but that just adds a couple extra minutes, so all in all I think we're all happy with the design."
             }
           ]
         },{
-          "label": "",
+          "label": "Broodzilla and Her Brood Settle In",
           "vid": "yYOnkHqB0go",
           "paragraphs": [
             {
-              "text": "Doing Some DIY on The Fly:",
+              "text": "Nesting: Broodzilla and Her Brood Settle In",
               "h4": true
+            }, {
+              "text": "Broodzilla and her brood have been enjoying it ever since. Now the challenge is actually getting her and the chicks to come out and mingle with the rest of the flock. Stay tuned for more on that \uD83E\uDD29"
             }
           ]
         }
