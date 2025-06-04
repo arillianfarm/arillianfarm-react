@@ -4,6 +4,7 @@ import {useLocation, useNavigate} from 'react-router-dom';
 import {titleCaps, getSlug, setLinkWithQueryString, getIframeSrcForYouTube} from '../utils';
 import { Helmet } from 'react-helmet-async';
 import recipeData from '../pageData/recipes.json';
+import Comments from "./Comments";
 
 const RecipeIngredients = ({ ingredients, servings, headerPic, isSmallView, headerVid, headerTitle }) => {
     if (!ingredients || ingredients.length === 0) {
@@ -178,6 +179,15 @@ const FeaturedRecipe = ({ recipe, assembleAndCopy, isSmallView, handleRelatedRec
             <RelatedRecipes
                 relatedRecipes={recipe.related_recipes}
                 onRecipeClick={handleRelatedRecipeClick} />
+            <div className="row">
+                <div className="col-sm-12 mt-3 text-center">
+                    <Comments
+                        article_name={recipe?.name}
+                        article_type="project"
+                        pub_date={recipe?.pub_date}
+                    />
+                </div>
+            </div>
         </div>
     );
 };

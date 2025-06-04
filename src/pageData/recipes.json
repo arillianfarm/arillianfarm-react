@@ -2283,6 +2283,60 @@
         }
       ],
       "notes": "Fresh, Fast & Flexible Air Fryer Rolls"
+    },
+    {
+      "name": "Omelet you finish this - veggie breakfast sandwich",
+      "pub_date": "6/06/25",
+      "vid": "",
+      "vid_caption": "",
+      "header_pic": "omelet-you-finish-this-done.png",
+      "categories": [ "lunch", "breakfast", "eggs" ],
+      "servings": "1 serving",
+      "related_recipes": ["Sourdough bread"],
+      "ingredients": [
+        "1-2 Slices of Bread",
+        "2 Eggs",
+        "1/2 Bell pepper or 3-4 baby bell peppers chopped",
+        "1/4 Yellow onion diced or sliced",
+        "4-5 Cremini or button mushrooms sliced or chopped",
+        "2 Tablespoons butter - divided",
+        "1/2 Cup shredded mozzarella (or preferred) cheese",
+        "1/4 Tsp fresh ground pepper"
+      ],
+      "steps": [
+        {
+          "pic": "",
+          "instruction": "."
+        },{
+          "pic": "",
+          "instruction": "."
+        },{
+          "pic": "",
+          "instruction": "."
+        },{
+          "pic": "",
+          "instruction": "."
+        },{
+          "pic": "",
+          "instruction": "."
+        },{
+          "pic": "",
+          "instruction": "."
+        },{
+          "pic": "",
+          "instruction": "."
+        },{
+          "pic": "",
+          "instruction": "."
+        },{
+          "pic": "",
+          "instruction": "."
+        },{
+          "pic": "",
+          "instruction": "."
+        }
+      ],
+      "notes": "This is a beginner level sandwich for those (like me) who are still working on perfecting the egg fold sandwich"
     }
   ]
 }

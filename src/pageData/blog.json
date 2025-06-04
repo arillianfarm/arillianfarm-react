@@ -483,6 +483,7 @@
         "pic": "assets/blog/wallowingChicks.png"
       },
       "sections": [
+
         {
           "pics": ["goatDoor.png"],
           "paragraphs": [
@@ -498,6 +499,7 @@
             }
           ]},
         {
+        "vid": "xVeBx8Kr_Mc",
         "paragraphs": [
           {
           "text": "I have a much more hands-on system that's been going better:",
@@ -1788,6 +1790,49 @@
             },
             {
               "text": "The internet can sometimes feel like a 'dark forest' full of trolls, but I’m cautiously optimistic that this journey of existing publicly will prove to be more positive (and lucrative!) than negative. For now, I'm catching the wind in my digital sails and collaborating with Gemini to plan for the 'Boss Level' of joining the **YouTube Partnership Program**: achieving **10 million views** on YouTube. Wish me luck on this ambitious goal – every view helps!  \uD83D\uDE80"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry_number": 23,
+      "entry_date": "June 6, 2025",
+      "entry_subject": "Herding Chickens - Raising Chicks in an Indoor Brooder VS having a Broody Hen Raise Chicks",
+      "pic_file": "broodzillas-brood-1.png",
+      "feature_section_1": {
+        "caption": "",
+        "pic": "assets/blog/broodzillas-brood-1.png"
+      },
+      "feature_section_2": {
+        "caption": "",
+        "pic": ""
+      },
+      "feature_section_3": {
+        "caption": "",
+        "pic": ""
+      },
+      "sections": [
+        {
+          "paragraphs": [{
+            "text": "Raising Chicks in the Desert is Clucking Hard!",
+            "h4": true
+          }],
+          "pics": []
+        },
+        {
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": ""
+            }
+          ]
+        },
+        {
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": ""
             }
           ]
         }
