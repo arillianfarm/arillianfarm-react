@@ -1,5 +1,3 @@
-// src/components/Comments.js
-
 import React, { useState, useEffect } from 'react';
 import { db } from '../firebase/firebase'; // Your initialized Firestore instance
 import { collection, addDoc, query, orderBy, onSnapshot, serverTimestamp } from 'firebase/firestore';
@@ -114,15 +112,16 @@ const Comments = ({ article_name, article_type, pub_date }) => {
         setIsLoading(true);
         setError(null);
 
+
         try {
             await addDoc(collection(db, 'comments'), {
                 'article-type': article_type,
                 'article-id': articleId,
                 'comment': newCommentText,
                 'commentator-name': commentatorName,
-                'comment-date': serverTimestamp(),
-                'comment-id': uuidv4(),
-                'user-uid': currentUser.uid,
+                'comment-date': serverTimestamp(), // Firestore server timestamp
+                'comment-id': uuidv4(), // Generate a unique ID for the comment
+                'user-uid': currentUser.uid, // Store the anonymous user's UID
             });
             setNewCommentText('');
             setCommentatorName('');

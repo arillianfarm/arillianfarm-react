@@ -1,0 +1,35 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /comments/{commentId} {
+      // Allow anyone to read all comments
+      allow read: if true;
+
+      // Allow only authenticated users to create new comments
+      allow create: if request.auth != null &&
+                      // Validate 'comment' field length
+                      request.resource.data.comment is string &&
+                      request.resource.data.comment.size() >= 3 &&
+                      request.resource.data.comment.size() <= 500 &&
+                      // Validate 'commentator-name' field length
+                      request.resource.data['commentator-name'] is string &&
+                      request.resource.data['commentator-name'].size() >= 2 &&
+                      request.resource.data['commentator-name'].size() <= 50 &&
+                      // Ensure required fields are present and of the correct type
+                      request.resource.data['article-type'] is string &&
+                      request.resource.data['article-id'] is string &&
+                      request.resource.data['comment-date'] is timestamp &&
+                      request.resource.data['comment-id'] is string &&
+                      request.resource.data['user-uid'] is string;
+
+
+      // Explicitly deny update (edit) and delete operations
+      allow update, delete: if false;
+    }
+
+    // Default rule: deny access to all other documents unless explicitly allowed
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
