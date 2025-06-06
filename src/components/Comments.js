@@ -153,7 +153,7 @@ const Comments = ({ article_name, article_type, pub_date }) => {
 
     return (
         <div className="col-xs-12 comments-section border2px br20 text-white mt-5 mb-5 p-3">
-            <h3 className="text-center mb-4">Comments for "{article_name}"</h3>
+            <h3 className="text-center mb-4">Comments About "{article_name}"</h3>
 
             {error && <div className="alert alert-danger">{error}</div>}
 
