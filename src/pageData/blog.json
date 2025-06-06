@@ -1798,54 +1798,13 @@
     {
       "entry_number": 23,
       "entry_date": "June 6, 2025",
-      "entry_subject": "Herding Chickens - Raising Chicks in an Indoor Brooder VS having a Broody Hen Raise Chicks - the first 3 weeks",
-      "pic_file": "broodzillas-brood-1.png",
-      "feature_section_1": {
-        "caption": "",
-        "pic": "assets/blog/broodzillas-brood-1.png"
-      },
-      "feature_section_2": {
-        "caption": "",
-        "pic": ""
-      },
-      "feature_section_3": {
-        "caption": "",
-        "pic": ""
-      },
-      "sections": [
-        {
-          "paragraphs": [{
-            "text": "Raising Chicks in the Desert is Clucking Hard!",
-            "h4": true
-          }],
-          "pics": []
-        },
-        {
-          "pics": [],
-          "paragraphs": [
-            {
-              "text": ""
-            }
-          ]
-        },
-        {
-          "pics": [],
-          "paragraphs": [
-            {
-              "text": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "entry_number": 24,
-      "entry_date": "June 6, 2025",
       "entry_subject": "Broodzilla and Her Black Star Chicken Brood",
       "main_video_id": "s55bv-mTiI4",
+      "pic_file": "broodzillas-brood.png",
       "feature_section_1": {
         "caption": "Meet Broodzilla and her new family!",
-        "video_id": "s55bv-mTiI4"
+        "video_id": "s55bv-mTiI4",
+        "pic": "assets/blog/broodzillas-brood.png"
       },
       "feature_section_2": {
         "caption": "Growing bigger and bolder each day.",
