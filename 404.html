@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Arillian Farm</title>
+    <script type="text/javascript">
+        // Get the full original requested path (pathname + search + hash)
+        var fullPath = window.location.pathname + window.location.search + window.location.hash;
+
+        // Store the full path in sessionStorage
+        sessionStorage.setItem('redirectPath', fullPath);
+
+        // Redirect to the root of your application relative to the origin
+        // This should be your GitHub Pages URL + your repository name
+        var repoBasePath = "/";
+        var redirectTarget = window.location.origin + repoBasePath;
+
+        console.log("404 Redirect - Storing path:", fullPath); // Add console log here
+        console.log("404 Redirect - Redirecting to:", redirectTarget); // Add console log here
+
+        // Perform the redirect
+        window.location.replace(redirectTarget);
+    </script>
+</head>
+<body>
+</body>
+</html>
