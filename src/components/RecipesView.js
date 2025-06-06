@@ -179,15 +179,15 @@ const FeaturedRecipe = ({ recipe, assembleAndCopy, isSmallView, handleRelatedRec
             <RelatedRecipes
                 relatedRecipes={recipe.related_recipes}
                 onRecipeClick={handleRelatedRecipeClick} />
-            <div className="row">
-                <div className="col-sm-12 mt-3 text-center">
-                    <Comments
-                        article_name={recipe?.name}
-                        article_type="project"
-                        pub_date={recipe?.pub_date}
-                    />
-                </div>
-            </div>
+            {/*<div className="row">*/}
+            {/*    <div className="col-sm-12 mt-3 text-center">*/}
+            {/*        <Comments*/}
+            {/*            article_name={recipe?.name}*/}
+            {/*            article_type="project"*/}
+            {/*            pub_date={recipe?.pub_date}*/}
+            {/*        />*/}
+            {/*    </div>*/}
+            {/*</div>*/}
         </div>
     );
 };

@@ -330,11 +330,11 @@ const ProjectView = () => {
                     <ProjectPhases featuredProject={item} />
                     <hr/>
                     <div className="col-sm-12 mt-3">
-                        <Comments
-                            article_name={featuredProject?.name}
-                            article_type="project"
-                            pub_date={featuredProject?.pub_date}
-                        />
+                        {/*<Comments*/}
+                        {/*    article_name={featuredProject?.name}*/}
+                        {/*    article_type="project"*/}
+                        {/*    pub_date={featuredProject?.pub_date}*/}
+                        {/*/>*/}
                     </div>
                 </div>
             </div>
