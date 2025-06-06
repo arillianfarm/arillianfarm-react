@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { db } from '../firebase/firebase'; // Your initialized Firestore instance
+// Import 'db' and the new 'firebaseInitialized' flag
+import { db, firebaseInitialized } from '../firebase/firebase';
 import { collection, addDoc, query, orderBy, onSnapshot, serverTimestamp } from 'firebase/firestore';
 import { getAuth, signInAnonymously } from "firebase/auth"; // For anonymous sign-in
 import { v4 as uuidv4 } from 'uuid'; // For generating unique IDs
@@ -10,11 +11,11 @@ const Comments = ({ article_name, article_type, pub_date }) => {
     const [newCommentText, setNewCommentText] = useState('');
     const [commentatorName, setCommentatorName] = useState('');
     const [isLoading, setIsLoading] = useState(true);
-    const [error, setError] = useState(null);
+    const [error, setError] = useState(null); // This state will now handle both Firebase init and operation errors
 
     // Validation States
     const [isCommentTooLong, setIsCommentTooLong] = useState(false);
-    const [isNameInvalid, setIsNameInvalid] = useState(false); // Renamed for clarity: isNameInvalid
+    const [isNameInvalid, setIsNameInvalid] = useState(false);
 
     // Constants for character limits
     const MAX_COMMENT_LENGTH = 500;
@@ -28,6 +29,14 @@ const Comments = ({ article_name, article_type, pub_date }) => {
     const articleId = `${article_type}-${pub_date.replace(/\//g, '-')}`;
 
     useEffect(() => {
+        // First, check if Firebase itself initialized successfully
+        if (!firebaseInitialized || !db) {
+            console.warn("Firebase or Firestore not initialized. Comments functionality will be limited.");
+            setError("Comments are currently unavailable. Please try again later.");
+            setIsLoading(false); // Stop loading if Firebase isn't ready
+            return; // Exit early if Firebase isn't ready
+        }
+
         const auth = getAuth();
         signInAnonymously(auth)
             .then(() => {
@@ -36,6 +45,8 @@ const Comments = ({ article_name, article_type, pub_date }) => {
             .catch((err) => {
                 console.error("Anonymous sign-in error:", err);
                 setError("Failed to initialize comments. Please try again.");
+                setIsLoading(false); // Stop loading if sign-in fails
+                return; // Exit if anonymous sign-in fails
             });
 
         if (articleId) {
@@ -48,59 +59,63 @@ const Comments = ({ article_name, article_type, pub_date }) => {
                 orderBy('comment-date', 'desc')
             );
 
-            const unsubscribe = onSnapshot(q, (snapshot) => {
-                const fetchedComments = snapshot.docs.map(doc => ({
-                    id: doc.id,
-                    ...doc.data()
-                }));
-                // Keep client-side filter if you don't use `where` in the query above
-                const filteredComments = fetchedComments.filter(comment => comment['article-id'] === articleId);
-                setComments(filteredComments);
-                setIsLoading(false);
-            }, (err) => {
-                console.error("Error fetching comments:", err);
-                setError("Failed to load comments.");
-                setIsLoading(false);
-            });
+            // Use try...catch for the onSnapshot listener setup itself
+            try {
+                const unsubscribe = onSnapshot(q, (snapshot) => {
+                    const fetchedComments = snapshot.docs.map(doc => ({
+                        id: doc.id,
+                        ...doc.data()
+                    }));
+                    // Keep client-side filter if you don't use `where` in the query above
+                    const filteredComments = fetchedComments.filter(comment => comment['article-id'] === articleId);
+                    setComments(filteredComments);
+                    setIsLoading(false);
+                }, (err) => { // Error callback for onSnapshot
+                    console.error("Error fetching comments from snapshot:", err);
+                    setError("Failed to load comments.");
+                    setIsLoading(false);
+                });
 
-            return () => unsubscribe();
+                return () => unsubscribe();
+            } catch (err) {
+                // This catch handles errors during the setup of the onSnapshot listener, not the data fetch itself
+                console.error("Error setting up comments listener:", err);
+                setError("Failed to initialize comments listener.");
+                setIsLoading(false);
+            }
         }
     }, [articleId]);
 
-    const handleCommentTextChange = (text) => { // InputEmoji passes text directly
-        setNewCommentText(text); // Update the state with the new text
-        if (text.length > MAX_COMMENT_LENGTH) {
-            setIsCommentTooLong(true);
-        } else {
-            setIsCommentTooLong(false);
-        }
+    const handleCommentTextChange = (text) => {
+        setNewCommentText(text);
+        setIsCommentTooLong(text.length > MAX_COMMENT_LENGTH);
     };
 
     const handleCommentatorNameChange = (e) => {
         const value = e.target.value;
         setCommentatorName(value);
-        // Check for validity after updating state
-        if (value.length < MIN_NAME_LENGTH || value.length > MAX_NAME_LENGTH) {
-            setIsNameInvalid(true);
-        } else {
-            setIsNameInvalid(false);
-        }
+        setIsNameInvalid(value.length < MIN_NAME_LENGTH || value.length > MAX_NAME_LENGTH);
     };
 
     const handleSubmitComment = async (e) => {
         e.preventDefault();
 
+        // Check Firebase initialization again before trying to submit
+        if (!firebaseInitialized || !db) {
+            setError("Comments service is unavailable. Please try again later.");
+            return;
+        }
+
         const auth = getAuth();
         const currentUser = auth.currentUser;
 
         if (!currentUser) {
-            setError("You must be signed in to post a comment. Please refresh the page.");
+            setError("You must be signed in to post a comment. Please refresh the page or check your connection.");
             return;
         }
 
-        // Final client-side validation using state validity checks
+        // Final client-side validation
         if (isCommentTooLong || newCommentText.length < MIN_COMMENT_LENGTH) {
-            // These alerts are fallbacks; UI should prevent this state
             alert(`Please ensure your comment is between ${MIN_COMMENT_LENGTH} and ${MAX_COMMENT_LENGTH} characters.`);
             return;
         }
@@ -110,8 +125,7 @@ const Comments = ({ article_name, article_type, pub_date }) => {
         }
 
         setIsLoading(true);
-        setError(null);
-
+        setError(null); // Clear previous errors before trying to submit
 
         try {
             await addDoc(collection(db, 'comments'), {
@@ -119,23 +133,23 @@ const Comments = ({ article_name, article_type, pub_date }) => {
                 'article-id': articleId,
                 'comment': newCommentText,
                 'commentator-name': commentatorName,
-                'comment-date': serverTimestamp(), // Firestore server timestamp
-                'comment-id': uuidv4(), // Generate a unique ID for the comment
-                'user-uid': currentUser.uid, // Store the anonymous user's UID
+                'comment-date': serverTimestamp(),
+                'comment-id': uuidv4(),
+                'user-uid': currentUser.uid,
             });
             setNewCommentText('');
             setCommentatorName('');
-            setIsLoading(false);
         } catch (err) {
             console.error("Error adding comment: ", err);
             setError("Failed to post comment. Please try again.");
-            setIsLoading(false);
+        } finally {
+            setIsLoading(false); // Always set loading to false after attempt
         }
     };
 
     const formatDate = (timestamp) => {
         if (!timestamp) return '';
-        const date = timestamp.toDate ? timestamp.toDate() : new Date(timestamp);
+        const date = timestamp.toDate ? timestamp.toDate() : new Date(timestamp.seconds * 1000); // Handle Firestore Timestamps
         return date.toLocaleDateString('en-US', {
             month: '2-digit',
             day: '2-digit',
@@ -149,7 +163,8 @@ const Comments = ({ article_name, article_type, pub_date }) => {
     // Determine if the submit button should be disabled
     const isSubmitDisabled = isLoading || isCommentTooLong || isNameInvalid ||
         newCommentText.length < MIN_COMMENT_LENGTH ||
-        commentatorName.length < MIN_NAME_LENGTH; // Ensure name is long enough to submit
+        commentatorName.length < MIN_NAME_LENGTH ||
+        !firebaseInitialized; // Disable if Firebase wasn't initialized
 
     return (
         <div className="col-xs-12 comments-section border2px br20 text-white mt-5 mb-5 p-3">
@@ -157,63 +172,65 @@ const Comments = ({ article_name, article_type, pub_date }) => {
 
             {error && <div className="alert alert-danger">{error}</div>}
 
-            <form onSubmit={handleSubmitComment} className="row mb-4">
-                <div className="col-xs-12 col-md-6 mb-3">
-                    <label htmlFor="commentatorName" className="form-label">Your Name/Handle:</label>
-                    <input
-                        type="text"
-                        id="commentatorName"
-                        className={`form-control ${isNameInvalid ? 'is-invalid' : ''}`}
-                        value={commentatorName}
-                        onChange={handleCommentatorNameChange}
-                        placeholder="e.g., FarmFan123"
-                        maxLength={MAX_NAME_LENGTH}
-                        minLength={MIN_NAME_LENGTH}
-                        required
-                    />
-                    {isNameInvalid && (
-                        <div className="invalid-feedback d-block">
-                            Name must be between {MIN_NAME_LENGTH} and {MAX_NAME_LENGTH} characters.
-                        </div>
-                    )}
-                </div>
-                <div className="col-xs-12 col-md-12 mb-3">
-                    <label htmlFor="newCommentText" className="form-label">Your Comment:</label>
-                    <InputEmoji
-                        value={newCommentText}
-                        height={EMOJI_INPUT_HEIGHT}
-                        onChange={handleCommentTextChange} // This handler now receives text directly
-                        cleanOnEnter // Clears input on Enter key press
-                        placeholder="Share your thoughts..."
-                        maxLength={MAX_COMMENT_LENGTH} // InputEmoji has its own maxLength prop
-                        // InputEmoji also accepts custom classNames for styling
-                        // You might need to check react-input-emoji docs for how to apply 'is-invalid' class if it's not straightforward
-                        // For a quick solution, we'll apply it to a wrapping div if needed, or rely on its default styling
-                        // If you need the red border directly on the input, check react-input-emoji's styling props.
-                        // For now, let's keep the character counter and error message logic.
-                        shouldReturn={false} // Prevent Enter key from submitting form (useful if you want Enter to just add a new line)
-                        // This package also has an `inputClass` prop for applying custom classes:
-                        inputClass={isCommentTooLong ? 'form-control is-invalid' : 'form-control'}
-                        // Ensure it takes full width within its container
-                        inputStyle={{ width: '100%', border: isCommentTooLong ? '1px solid #dc3545' : '' }}
-                        // For better integration, set the `inputClass` to match your existing form-control styling
-                        // and add custom border color for invalid state via `inputStyle` or specific CSS rules.
-                    />
-                    <small className="form-text text-white text-right d-block">
-                        {newCommentText.length} / {MAX_COMMENT_LENGTH} characters
-                    </small>
-                    {(isCommentTooLong || newCommentText.length === 0) && ( // Show feedback if too long OR empty
-                        <div className="invalid-feedback d-block">
-                            {newCommentText.length === 0 ? `Comment is required (min ${MIN_COMMENT_LENGTH} characters).` : `Comment is too large (max ${MAX_COMMENT_LENGTH} characters).`}
-                        </div>
-                    )}
-                </div>
-                <div className="col-xs-12 text-center">
-                    <button type="submit" className="btn btn-primary mt-3" disabled={isSubmitDisabled}>
-                        {isLoading ? 'Posting...' : 'Post Comment'}
-                    </button>
-                </div>
-            </form>
+            {/* Conditionally render form if Firebase is initialized */}
+            {firebaseInitialized ? (
+                <form onSubmit={handleSubmitComment} className="row mb-4">
+                    <div className="col-xs-12 col-md-6 mb-3">
+                        <label htmlFor="commentatorName" className="form-label">Your Name/Handle:</label>
+                        <input
+                            type="text"
+                            id="commentatorName"
+                            className={`form-control ${isNameInvalid ? 'is-invalid' : ''}`}
+                            value={commentatorName}
+                            onChange={handleCommentatorNameChange}
+                            placeholder="e.g., FarmFan123"
+                            maxLength={MAX_NAME_LENGTH}
+                            minLength={MIN_NAME_LENGTH}
+                            required
+                        />
+                        {isNameInvalid && (
+                            <div className="invalid-feedback d-block">
+                                Name must be between {MIN_NAME_LENGTH} and {MAX_NAME_LENGTH} characters.
+                            </div>
+                        )}
+                    </div>
+                    <div className="col-xs-12 col-md-12 mb-3">
+                        <label htmlFor="newCommentText" className="form-label">Your Comment:</label>
+                        <InputEmoji
+                            value={newCommentText}
+                            height={EMOJI_INPUT_HEIGHT}
+                            onChange={handleCommentTextChange}
+                            cleanOnEnter
+                            placeholder="Share your thoughts..."
+                            maxLength={MAX_COMMENT_LENGTH}
+                            inputClass={isCommentTooLong ? 'form-control is-invalid' : 'form-control'}
+                            inputStyle={{ width: '100%', border: isCommentTooLong ? '1px solid #dc3545' : '' }}
+                            shouldReturn={false}
+                        />
+                        <small className="form-text text-white text-right d-block">
+                            {newCommentText.length} / {MAX_COMMENT_LENGTH} characters
+                        </small>
+                        {(isCommentTooLong || (newCommentText.length > 0 && newCommentText.length < MIN_COMMENT_LENGTH)) && (
+                            <div className="invalid-feedback d-block">
+                                {newCommentText.length < MIN_COMMENT_LENGTH ? `Comment must be at least ${MIN_COMMENT_LENGTH} characters.` : `Comment is too large (max ${MAX_COMMENT_LENGTH} characters).`}
+                            </div>
+                        )}
+                        {/* Adding message for empty comment only when focused away or trying to submit without content */}
+                        {newCommentText.length === 0 && !isLoading && (
+                            <div className="invalid-feedback d-block">
+                                Comment is required.
+                            </div>
+                        )}
+                    </div>
+                    <div className="col-xs-12 text-center">
+                        <button type="submit" className="btn btn-primary mt-3" disabled={isSubmitDisabled}>
+                            {isLoading ? 'Posting...' : 'Post Comment'}
+                        </button>
+                    </div>
+                </form>
+            ) : (
+                <p className="text-center text-danger">Comments feature is currently unavailable.</p>
+            )}
 
             <hr className="mt-5 mb-4" />
 

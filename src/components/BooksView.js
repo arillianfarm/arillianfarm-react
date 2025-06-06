@@ -95,15 +95,15 @@ const BooksView = () => {
                 </div>
                 <div className="col-lg-2 col-xs-12"></div>
             </div>
-            {/*<div className="row">*/}
-            {/*    <div className="col-sm-12 mt-3">*/}
-            {/*        <Comments*/}
-            {/*            article_name="Hyperspear and unFETTERed"*/}
-            {/*            article_type="book"*/}
-            {/*            pub_date="12-2-2024"*/}
-            {/*        />*/}
-            {/*    </div>*/}
-            {/*</div>*/}
+            <div className="row">
+                <div className="col-sm-12 mt-3">
+                    <Comments
+                        article_name="Hyperspear and unFETTERed"
+                        article_type="book"
+                        pub_date="12-2-2024"
+                    />
+                </div>
+            </div>
         </div>
     </>
     );

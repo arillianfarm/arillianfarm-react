@@ -25,12 +25,11 @@
   "homepage": "https://arillianfarm.com/",
   "scripts": {
     "start": "react-scripts start",
-    "build": "cross-env PUBLIC_URL=/ react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run generate-sitemap && npm run build",
-    "deploy": "gh-pages -d build --no-history",
-    "generate-sitemap": "node scripts/generate-sitemap.js"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
