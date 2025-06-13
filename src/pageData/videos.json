@@ -1461,33 +1461,73 @@
     },{
       "youtubeID": "x9JumcsRE38",
       "title": "\uD83D\uDC10\uD83C\uDF69Totes & McGoats doin doughnuts and throwin a goat side show for doughnut day",
-      "albums": ["new", "goats"],
+      "albums": ["goats"],
       "release_date": "6/06/25"
     },{
       "youtubeID": "yoatlXbSPNo",
       "title": "\uD83D\uDC36\uD83C\uDF7D️\uD83E\uDEE7Dog-On-It Pre-wash Gets Dishes so Fresh and so Clean \uD83E\uDDFC",
-      "albums": ["new", "dogs"],
+      "albums": ["dogs"],
       "release_date": "6/06/25"
     },{
       "youtubeID": "7iEFQLF_j9s",
       "title": "\uD83D\uDC23\uD83E\uDDF2 I can barely catch a chick, but Broodzilla is a Chick Magnet! Meh Monday \uD83D\uDE11",
-      "albums": ["new", "chickens"],
+      "albums": ["chickens"],
       "release_date": "6/06/25"
     },{
       "youtubeID": "Xp4kzri2ScM",
       "title": "\uD83C\uDF45\uD83C\uDF3F\uD83C\uDF5D Garden Fresh Artichoke, Tomato Basil Pasta - from Backyard to Plate",
-      "albums": ["new", "cooking", "gardening"],
+      "albums": ["cooking", "gardening"],
       "release_date": "6/06/25"
     },{
       "youtubeID": "vgY_PDcCF80",
       "title": "\uD83D\uDC23\uD83D\uDC25\uD83D\uDC13Baby Chicks Riding Broodzilla Like a Pony at the Petting Zoo",
-      "albums": ["new", "chickens"],
+      "albums": ["chickens"],
       "release_date": "6/06/25"
     },{
       "youtubeID": "xVeBx8Kr_Mc",
       "title": "\uD83E\uDD75\uD83D\uDC14 AZ Heat Hacks: Keep Your Chickens Cool!",
-      "albums": ["new", "chickens"],
+      "albums": ["chickens"],
       "release_date": "6/06/25"
+    },{
+      "youtubeID": "0UbxlNlZL2E",
+      "title": "\uD83E\uDE9E\uD83D\uDCA5\uD83D\uDC13Broodzilla Fighting w/ the Hen in the Mirror",
+      "albums": ["new", "chickens"],
+      "release_date": "6/13/25"
+    },{
+      "youtubeID": "mBbUO6VEPqA",
+      "title": "\uD83D\uDC25\uD83E\uDD71Feeling Drowsy? Try FOMO\uD83D\uDCA5",
+      "albums": ["new", "chickens"],
+      "release_date": "6/13/25"
+    },{
+      "youtubeID": "XSg9Dyg0LZQ",
+      "title": "\uD83E\uDEF0 \uD83C\uDF45 \uD83C\uDF5ESnappy Spring Garden Smorgasbord",
+      "albums": ["new", "cooking"],
+      "release_date": "6/13/25"
+    },{
+      "youtubeID": "GpeZ-MlqC7Q",
+      "title": "\uD83C\uDF45\uD83E\uDDC4 Making Garden Fresh Mini Lasagnas is a snap! - Backyard to Table",
+      "albums": ["new", "cooking"],
+      "release_date": "6/13/25"
+    },{
+      "youtubeID": "culJFXVT4Hc",
+      "title": "\uD83D\uDC23‼️\uD83D\uDC40 Broodzilla Teaches her Brood About Stranger Danger - Meh Monday \uD83D\uDE11",
+      "albums": ["new", "chickens"],
+      "release_date": "6/13/25"
+    },{
+      "youtubeID": "9uR08vAdyNk",
+      "title": "\uD83C\uDF3B\uD83D\uDC1D Have a bee-utiful day!",
+      "albums": ["new", "wildlife"],
+      "release_date": "6/13/25"
+    },{
+      "youtubeID": "7b3sPOE7TiA",
+      "title": "\uD83D\uDC36❤️Pajama Dog Giving off Boo Thang Vibes",
+      "albums": ["new", "dogs"],
+      "release_date": "6/13/25"
+    },{
+      "youtubeID": "ntDUF0j28aw",
+      "title": "\uD83D\uDC13\uD83E\uDD4A\uD83D\uDC13\uD83D\uDC23 Protective momma hen Broodzilla defends her brood — BTW everyone walked away fine \uD83D\uDE00\uD83D\uDE43\uD83D\uDE00",
+      "albums": ["new", "chickens"],
+      "release_date": "6/13/25"
     }
   ]
 }

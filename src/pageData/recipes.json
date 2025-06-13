@@ -1193,21 +1193,22 @@
     },
     {
       "name": "Goat Cheese Stuffed Baby Bell Peppers",
-      "header_pic": "gpepdone.png",
+      "header_pic": "goat-cheese-stuffed-bell-peppers-2.png",
       "pub_date": "12/06/24",
-      "servings": "1",
+      "servings": "1-2",
+      "vid": "T5prC0cmjmM",
       "related_recipes": [],
       "ingredients": [
-        "5 baby bell peppers (topped and de-seeded)",
-        "2 tablespoons plain goat cheese",
+        "5-10 baby bell peppers",
+        "2-4 tablespoons plain goat cheese",
         "A drizzle of olive (optional)"
       ],
       "steps": [{
-        "pic": "gpep1.png",
-        "instruction":"divide goat cheese into 5 equal portions and use spoon to poke a portion into each bell pepper. (optional - drizzle with olive oil)"
+        "pic": "goat-cheese-stuffed-bell-peppers-3.png",
+        "instruction":"Divide goat cheese into equal portions and use a butter knife or your finger to poke a portion into each bell pepper. (optional - drizzle with olive oil)"
       },{
-        "pic": "gpepdone.png",
-        "instruction":"Air Fry at 385 for 10-15 minutes --until skin is blistered and exposed goat cheese is browned. -- serve when warm, but not hot."
+        "pic": "goat-cheese-stuffed-bell-peppers-done.png",
+        "instruction":"Air Fry at 385F for 7-10 minutes --until skin is blistered and exposed goat cheese is browned. -- serve when warm, but not hot."
       }],
       "notes": "An Easy, Pleasing Appetizer"
     },
@@ -2327,6 +2328,39 @@
         }
       ],
       "notes": "This is for those (like me) who are still working on perfecting the egg fold sandwich, but who appreciate ugly tasty foods"
+    },
+    {
+      "name": "Easy Cheesy Air Fryer Zucchini Bites | Quick Summer Squash Recipe!",
+      "pub_date": "6/12/25",
+      "vid": "yYfMGe_rhDM",
+      "vid_caption": "",
+      "header_pic": "air-fried-cheesy-squash-done.png",
+      "categories": [ "vegetable", "side dish" ],
+      "servings": "2-4 serving",
+      "related_recipes": [],
+      "ingredients": [
+        "2-3 Zucchini and/or summer squash",
+        "1-2 tsp olive oil",
+        "1/4 - 1/2 Cup shredded mozzarella cheese",
+        "Fresh ground black pepper -to taste",
+        "1/8 tsp Paprika",
+        "(optional) Grape (or cherry) Tomatoes halved or quartered"
+      ],
+      "steps": [
+        {
+          "pic": "air-fried-cheesy-squash-3.png",
+          "instruction": "Slice Zucchini (or squash) into rounds or ovals, drizzle or brush oil over them and sprinkle (or toss in a bowl)."
+        },
+        {
+          "pic": "air-fried-cheesy-squash-2.png",
+          "instruction": "Place in a single layer in air fryer and sprinkle cheese, pepper and paprika evenly over the top. Optional - For a pizza-like effect, add a couple sliced grape tomatoes to each zucchini slice."
+        },
+        {
+          "pic": "air-fried-cheesy-squash-done.png",
+          "instruction": "Air fry at 385F for 7 minutes --until cheese is crisp. Pairs nicely with Greek Yogurt for dipping."
+        }
+      ],
+      "notes": "Go from Snacky to Satisfied in minutes!"
     }
   ]
 }
