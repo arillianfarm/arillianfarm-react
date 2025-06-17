@@ -1491,43 +1491,83 @@
     },{
       "youtubeID": "0UbxlNlZL2E",
       "title": "\uD83E\uDE9E\uD83D\uDCA5\uD83D\uDC13Broodzilla Fighting w/ the Hen in the Mirror",
-      "albums": ["new", "chickens"],
+      "albums": ["chickens"],
       "release_date": "6/13/25"
     },{
       "youtubeID": "mBbUO6VEPqA",
       "title": "\uD83D\uDC25\uD83E\uDD71Feeling Drowsy? Try FOMO\uD83D\uDCA5",
-      "albums": ["new", "chickens"],
+      "albums": ["chickens"],
       "release_date": "6/13/25"
     },{
       "youtubeID": "XSg9Dyg0LZQ",
       "title": "\uD83E\uDEF0 \uD83C\uDF45 \uD83C\uDF5ESnappy Spring Garden Smorgasbord",
-      "albums": ["new", "cooking"],
+      "albums": ["cooking"],
       "release_date": "6/13/25"
     },{
       "youtubeID": "GpeZ-MlqC7Q",
       "title": "\uD83C\uDF45\uD83E\uDDC4 Making Garden Fresh Mini Lasagnas is a snap! - Backyard to Table",
-      "albums": ["new", "cooking"],
+      "albums": ["cooking"],
       "release_date": "6/13/25"
     },{
       "youtubeID": "culJFXVT4Hc",
       "title": "\uD83D\uDC23‼️\uD83D\uDC40 Broodzilla Teaches her Brood About Stranger Danger - Meh Monday \uD83D\uDE11",
-      "albums": ["new", "chickens"],
+      "albums": ["chickens"],
       "release_date": "6/13/25"
     },{
       "youtubeID": "9uR08vAdyNk",
       "title": "\uD83C\uDF3B\uD83D\uDC1D Have a bee-utiful day!",
-      "albums": ["new", "wildlife"],
+      "albums": ["wildlife"],
       "release_date": "6/13/25"
     },{
       "youtubeID": "7b3sPOE7TiA",
       "title": "\uD83D\uDC36❤️Pajama Dog Giving off Boo Thang Vibes",
-      "albums": ["new", "dogs"],
+      "albums": ["dogs"],
       "release_date": "6/13/25"
     },{
       "youtubeID": "ntDUF0j28aw",
       "title": "\uD83D\uDC13\uD83E\uDD4A\uD83D\uDC13\uD83D\uDC23 Protective momma hen Broodzilla defends her brood — BTW everyone walked away fine \uD83D\uDE00\uD83D\uDE43\uD83D\uDE00",
-      "albums": ["new", "chickens"],
+      "albums": ["chickens"],
       "release_date": "6/13/25"
+    },{
+      "youtubeID": "",
+      "title": "",
+      "albums": ["new"],
+      "release_date": "6/20/25"
+    },{
+      "youtubeID": "",
+      "title": "",
+      "albums": ["new"],
+      "release_date": "6/20/25"
+    },{
+      "youtubeID": "",
+      "title": "",
+      "albums": ["new"],
+      "release_date": "6/20/25"
+    },{
+      "youtubeID": "",
+      "title": "",
+      "albums": ["new"],
+      "release_date": "6/20/25"
+    },{
+      "youtubeID": "",
+      "title": "",
+      "albums": ["new"],
+      "release_date": "6/20/25"
+    },{
+      "youtubeID": "",
+      "title": "",
+      "albums": ["new"],
+      "release_date": "6/20/25"
+    },{
+      "youtubeID": "",
+      "title": "",
+      "albums": ["new"],
+      "release_date": "6/20/25"
+    },{
+      "youtubeID": "",
+      "title": "",
+      "albums": ["new"],
+      "release_date": "6/20/25"
     }
   ]
 }

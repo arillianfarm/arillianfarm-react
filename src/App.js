@@ -7,6 +7,7 @@ import BlogView from './components/BlogView';
 import BooksView from './components/BooksView';
 import AboutView from './components/AboutView';
 import PicturesView from './components/PicturesView';
+import FarmSitting from './components/FarmSitting';
 import TopNav from './components/TopNav';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -39,6 +40,7 @@ function App() {
                     <Route path="/pictures" element={<PicturesView />} />
                     <Route path="/privacy-policy" element={<PrivacyPolicy />} />
                     <Route path="/terms-of-service" element={<TermsOfService />} />
+                    <Route path="/farm-sitting" element={<FarmSitting />} />
                     <Route path="/" element={<VideoView />} />
                     {/* Catch-all route for 404 */}
                     <Route path="*" element={<NotFoundPage />} />
