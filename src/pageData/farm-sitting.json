@@ -1,66 +1,73 @@
 {
   "4-6am": {
     "Barnyard": {
-      "feed-goats-1-chobani-goat-feed": {
-        "name": "Feed goats 1 chobani of goat feed",
-        "done": false,
-        "link-to-video": "",
-        "clip-start-time": "0",
-        "notes": ""
-      },
       "feed-chickens-1-chobani-chicken-feed-cold-treats": {
-        "name": "Feed chickens 1 chobani of chicken feed + cold treats",
+        "name": "Feed chickens 1 chobani of 'super egg' chicken feed (from she shack) + cold treats (from tin in house fridge)",
         "done": false,
-        "link-to-video": "",
-        "clip-start-time": "1m30s",
-        "notes": ""
+        "link-to-video": "18dK0j6skMM",
+        "notes": "Feed is in She Shack"
       },
       "feed-chicks-1-mug-chick-starter-crumbles-cold-treats": {
-        "name": "Feed chicks 1 mug of chick starter crumbles + cold treats",
+        "name": "Feed chicks 1 mug of 'chick starter crumbles' (from she shack) + cold treats (from tin in house fridge)",
         "done": false,
-        "link-to-video": "",
-        "notes": ""
+        "link-to-video": "18dK0j6skMM",
+        "clip-start-time": "0m17s",
+        "notes": "Feed is in She Shack"
       },
-      "dump-refill-house-side-water-bucket": {
-        "name": "Dump and refill house-side water bucket",
+      "feed-goats-1-chobani-goat-feed": {
+        "name": "Feed goats 1 chobani of goat feed (from she shack) and (optional) a dead plant from the garden",
         "done": false,
-        "link-to-video": "",
-        "notes": ""
-      },
-      "dump-refill-inside-water-bucket": {
-        "name": "Dump and refill inside water bucket",
-        "done": false,
-        "link-to-video": "",
-        "notes": ""
-      },
-      "overflow-ice-house-water-bucket": {
-        "name": "overflow ice-house water bucket",
-        "done": false,
-        "link-to-video": "",
-        "clip-start-time": "",
-        "notes": ""
+        "link-to-video": "18dK0j6skMM",
+        "clip-start-time": "0m11s",
+        "notes": "Feed is in She Shack"
       },
       "uncoop-chickens": {
         "name": "let the chickens out of the coop and wedge the coop door open so that it blocks the afternoon sun from the barn",
         "done": false,
-        "link-to-video": "",
-        "clip-start-time": "",
-        "notes": ""
+        "link-to-video": "18dK0j6skMM",
+        "clip-start-time": "0m44s",
+        "notes": "Use Blue Slide Stairs as Door Stop"
+      },
+      "dump-refill-house-side-water-bucket": {
+        "name": "Dump and refill house-side water bucket",
+        "done": false,
+        "link-to-video": "18dK0j6skMM",
+        "clip-start-time": "1m28s",
+        "notes": "water spigot is on center back of house. Must turn on spigot and timer."
+      },
+      "overflow-ice-house-water-bucket": {
+        "name": "overflow ice-house water bucket",
+        "done": false,
+        "link-to-video": "18dK0j6skMM",
+        "clip-start-time": "1m44s",
+        "notes": "Ice-house is between she-shed and barn under the slanted roof"
       },
       "fill-fish-pond-to-top": {
-        "name": "Fill fish pond (when full, it starts flowing into chicken coop area)",
+        "name": "Fill fish pond ",
         "done": false,
-        "link-to-video": "",
-        "notes": ""
-      },"bring-in-nest-ice": {
+        "link-to-video": "18dK0j6skMM",
+        "clip-start-time": "1m28s",
+        "notes": "when full, it starts flowing into chicken coop area this is okay, but don't overfill too much its bad for the fish"
+      },
+      "dump-refill-inside-water-bucket": {
+        "name": "Dump and refill inside-barn water bucket",
+        "done": false,
+        "link-to-video": "18dK0j6skMM",
+        "clip-start-time": "2m03s",
+        "notes": "water bucket is under bottom shelf of chicken coop"
+      },
+      "bring-in-nest-ice": {
         "name": "Bring in plastic bottles from nests and put in freezer",
         "done": false,
-        "link-to-video": "",
+        "link-to-video": "18dK0j6skMM",
+        "clip-start-time": "1m17s",
         "notes": ""
-      },"bring-in-eggs-if-nec": {
-        "name": "Grab any eggs from nests",
+      },
+      "bring-in-eggs-if-nec": {
+        "name": "Grab any eggs from nests and put inside in fridge or take home",
         "done": false,
-        "link-to-video": "",
+        "link-to-video": "18dK0j6skMM",
+        "clip-start-time": "2m38s",
         "notes": ""
       }
     },
@@ -68,93 +75,127 @@
       "feed-xena-1-3-chobani-dog-food-1-scoop-cold-food": {
         "name": "Feed Xena 1/3 Chobani Dog food + 1 scoop cold food",
         "done": false,
-        "link-to-video": "",
-        "notes": ""
+        "link-to-video": "fqw8fwzQf10",
+        "notes": "Chobani to scoop dog food is on open shelf above kitchen desk. Dog food is in garage in metal can"
       },
       "feed-huey-1-3-chobani-dog-food-1-scoop-cold-food": {
         "name": "Feed Huey 1/3 Chobani Dog food + 1 scoop cold food",
         "done": false,
-        "link-to-video": "",
-        "notes": ""
+        "link-to-video": "fqw8fwzQf10",
+        "notes": "Chobani to scoop dog food is on open shelf above kitchen desk. Dog food is in garage in metal can"
       },
       "feed-pajama-1-3-chobani-dog-food-1-scoop-cold-food": {
         "name": "Feed Pajama 1/3 Chobani Dog food + 1 scoop cold food",
         "done": false,
-        "link-to-video": "",
-        "notes": ""
+        "link-to-video": "fqw8fwzQf10",
+        "notes": "Chobani to scoop dog food is on open shelf above kitchen desk. Dog food is in garage in metal can"
       },
       "give-pajama-3-doggie-dailies": {
         "name": "Give Pajama 3 Doggie Dailies",
         "done": false,
-        "link-to-video": "",
-        "notes": ""
+        "link-to-video": "fqw8fwzQf10",
+        "notes": "Doggie Dalies are above kitchen desk"
       },
       "check-bedroom-water-bowl-full": {
-        "name": "Check that each (of the 2) bedroom water bowl is full",
+        "name": "Check that each (of the 2) bedroom water bowls have water (if low or empty refill)",
         "done": false,
-        "link-to-video": "",
-        "notes": ""
+        "link-to-video": "fqw8fwzQf10",
+        "clip-start-time": "2m16s",
+        "notes": "master bed water bowl is against wall by bedroom door, guest bed water is also against wall by door"
       },
       "let-each-dog-out-go-potty": {
         "name": "Let each dog out to go potty",
         "done": false,
         "link-to-video": "",
-        "notes": ""
+        "notes": "NEVER LET JAMS AND HUEY BE TOGETHER, but Xena can go out or be in a bedroom with either dog"
       }
     },
     "Plants": {
       "run-water-now-10-mins-garage-side-yard-hose": {
-        "name": "run 'water now' 10 mins on garage side yard hose timer",
+        "name": "on side-of-house spigot, press 'water now' 10 mins on garage side yard hose timer",
         "done": false,
-        "link-to-video": "",
-        "notes": ""
+        "link-to-video": "US244hLLlQs",
+        "notes": "If its already hot out let the hose run cool before pressing water now or putting the hose near plants"
       },
       "water-raised-garden-bed-tomatoes-garage-side-yard": {
-        "name": "move garage side yard hose to raised tomato bed and water until floding below ",
+        "name": "move side-of-house hose to raised tomato bed and water until flooding below ",
         "done": false,
-        "link-to-video": "",
+        "link-to-video": "US244hLLlQs",
+        "clip-start-time": "0m10s",
         "notes": ""
       },
       "set-hose-by-pomegranate-bush-run-10-mins": {
-        "name": "set hose by pomegranate bush and run 10 mins",
+        "name": "set side-of-house hose by pomegranate bush and lemon tree and run 10 mins",
         "done": false,
-        "link-to-video": "",
+        "link-to-video": "US244hLLlQs",
+        "clip-start-time": "0m14s",
         "notes": ""
       },
       "set-hose-by-tangerine-tree-run-10-mins": {
-        "name": "set hose by tangerine tree and run 10 mins",
+        "name": "set side-of-house hose by tangerine tree and run 10 mins",
         "done": false,
-        "link-to-video": "",
+        "link-to-video": "US244hLLlQs",
+        "clip-start-time": "0m30s",
         "notes": ""
       },
-      "water-raised-bed-back-door": {
-        "name": "water raised bed by back door",
+      "water-watermelon": {
+        "name": "water watermelon plant",
         "done": false,
-        "link-to-video": "",
+        "link-to-video": "US244hLLlQs",
+        "clip-start-time": "0m35s",
+        "notes": "raised garden bed behind master bedroom"
+      },
+      "water-bell-pep-and-potatoes": {
+        "name": "water Bell Pepper and Potato plants",
+        "done": false,
+        "link-to-video": "US244hLLlQs",
+        "clip-start-time": "0m50s",
+        "notes": "raised garden bed behind master bedroom"
+      },
+      "water-raised-bed-back-door": {
+        "name": "water raised herb garden by back door",
+        "done": false,
+        "link-to-video": "US244hLLlQs",
+        "clip-start-time": "0m59s",
+        "notes": "use main backyard hose -- located at center back of house. Must turn on timer and hose"
+      },
+      "water-bird-bath": {
+        "name": "re-fill bird bath",
+        "done": false,
+        "link-to-video": "US244hLLlQs",
+        "clip-start-time": "0m52s",
         "notes": ""
       },
       "water-potted-plants-back-side-house": {
-        "name": "water potted mint and garlic back side of house",
+        "name": "water potted mint and garlic beside bird bath",
         "done": false,
-        "link-to-video": "",
+        "link-to-video": "US244hLLlQs",
         "notes": ""
       },
       "water-eggplant": {
-        "name": "water eggplant",
+        "name": "water eggplant bed",
         "done": false,
-        "link-to-video": "",
-        "notes": ""
+        "link-to-video": "US244hLLlQs",
+        "notes": "The square bed by the pool"
       },
       "water-grape-plant": {
         "name": "water grape plant",
         "done": false,
-        "link-to-video": "",
-        "notes": ""
+        "link-to-video": "US244hLLlQs",
+        "notes": "in round fence by pole by pool"
       },
       "set-hose-back-garden-bed-10-mins": {
         "name": "set hose in back garden bed 10 mins",
         "done": false,
-        "link-to-video": "",
+        "link-to-video": "US244hLLlQs",
+        "clip-start-time": "1m49s",
+        "notes": "Big rectangle bed with sunflower, squash, grass etc"
+      },
+      "turn-off-hoses": {
+        "name": "Turn off both hose spigots when done watering",
+        "done": false,
+        "link-to-video": "US244hLLlQs",
+        "clip-start-time": "2m28s",
         "notes": ""
       }
     }
@@ -164,113 +205,118 @@
       "add-1-chobani-ice-house-side-water-bucket": {
         "name": "Add 1 chobani of Ice to house-side water bucket",
         "done": false,
-        "link-to-video": "",
+        "link-to-video": "l52NuhQkTeY",
         "notes": ""
       },
-      "add-1-chobani-ice-ice-house-water-bucket": {
-        "name": "Add 1 chobani of Ice to ice-house water bucket",
+      "give-chickens-chicks-frozen-corn-treats": {
+        "name": "Give chickens and chicks frozen corn or fridge treats",
         "done": false,
-        "link-to-video": "",
+        "link-to-video": "l52NuhQkTeY",
         "notes": ""
       },
       "collect-gallon-water-container-ice-house": {
         "name": "Collect gallon of water container from ice-house",
         "done": false,
-        "link-to-video": "",
-        "notes": ""
-      },
-      "add-1-gal-ice-ice-house": {
-        "name": "Add 1 gal ice to ice-house",
-        "done": false,
-        "link-to-video": "",
+        "link-to-video": "l52NuhQkTeY",
         "notes": ""
       },
       "add-24-32-oz-ice-bottle-front-chicken-nest": {
         "name": "Add 24-32 oz ice bottle to front chicken nest",
         "done": false,
-        "link-to-video": "",
+        "clip-start-time": "0m12s",
+        "link-to-video": "l52NuhQkTeY",
         "notes": ""
       },
       "add-24-32-oz-ice-bottle-back-chicken-nest": {
         "name": "Add 24-32 oz ice bottle to back chicken nest",
         "done": false,
-        "link-to-video": "",
+        "link-to-video": "l52NuhQkTeY",
+        "clip-start-time": "0m27s",
         "notes": ""
       },
       "gather-eggs-both nests": {
         "name": "Gather eggs from each nest (the chickens are mostly fine with you reaching under them, but they may growl and nip)",
         "done": false,
-        "link-to-video": "",
+        "link-to-video": "l52NuhQkTeY",
+        "clip-start-time": "0m27s",
         "notes": ""
       },
-      "give-goats-dead-broccoli-plant": {
-        "name": "Give goats a dead broccoli plant",
+      "add-1-chobani-ice-ice-house-water-bucket": {
+        "name": "Add 1 chobani of Ice to ice-house water bucket",
         "done": false,
-        "link-to-video": "",
-        "notes": ""
+        "link-to-video": "l52NuhQkTeY",
+        "notes": "may need to put in house-side water bucket to loosen ice before you can drop it over fence"
       },
-      "give-chickens-chicks-frozen-corn-treats": {
-        "name": "Give chickens and chicks frozen corn treats",
+      "add-1-gal-ice-ice-house": {
+        "name": "Add 1 gal ice to ice-house",
         "done": false,
-        "link-to-video": "",
-        "notes": ""
-      },
-      "re-freeze-ice-house-gallon": {
-        "name": "Re-Freeze ice-house gallon",
-        "done": false,
-        "link-to-video": "",
+        "link-to-video": "l52NuhQkTeY",
+        "clip-start-time": "0m44s",
         "notes": ""
       },
       "re-freeze-2-chobanis-ice": {
         "name": "Re-Freeze 2 Chobani’s of Ice",
         "done": false,
-        "link-to-video": "",
+        "link-to-video": "l52NuhQkTeY",
+        "clip-start-time": "1m09s",
+        "notes": ""
+      },
+      "re-freeze-ice-house-gallon": {
+        "name": "Re-Freeze ice-house gallon",
+        "done": false,
+        "link-to-video": "l52NuhQkTeY",
+        "clip-start-time": "1m50s",
         "notes": ""
       }
     }
   },
   "1-3pm": {
     "Barnyard": {
+      "add-1-chobani-ice-house-side-water-bucket-2": {
+        "name": "Add 1 chobani of Ice to house-side water bucket",
+        "done": false,
+        "link-to-video": "yxOzHe4s70o",
+        "notes": ""
+      },
       "feed-goats-2-handfuls-goat-feed-and-a-broccoli-plant": {
         "name": "Feed goats 2 handfuls of goat feed (1 handful each)",
         "done": false,
-        "link-to-video": "",
+        "link-to-video": "yxOzHe4s70o",
+        "clip-start-time": "0m40s",
         "notes": ""
       },
       "feed-chickens-1-chobani-chicken-feed-cold-treats-2": {
         "name": "Feed chickens 1 chobani of chicken feed + cold treats",
         "done": false,
-        "link-to-video": "",
+        "link-to-video": "yxOzHe4s70o",
+        "clip-start-time": "1m44s",
         "notes": ""
       },
       "feed-chicks-1-mug-chick-starter-crumbles-cold-treats-2": {
         "name": "Feed chicks 1 mug of chick starter crumbles + cold treats",
         "done": false,
-        "link-to-video": "",
-        "notes": ""
-      },
-      "add-1-chobani-ice-house-side-water-bucket-2": {
-        "name": "Add 1 chobani of Ice to house-side water bucket",
-        "done": false,
-        "link-to-video": "",
+        "link-to-video": "yxOzHe4s70o",
         "notes": ""
       },
       "add-1-chobani-ice-inside-water-bucket": {
-        "name": "Add 1 chobani of Ice to inside water bucket",
+        "name": "Add 1 chobani of Ice to inside-barn water bucket",
         "done": false,
-        "link-to-video": "",
+        "link-to-video": "yxOzHe4s70o",
+        "clip-start-time": "2m23s",
         "notes": ""
       },
       "add-1-chobani-ice-ice-house-water-bucket-2": {
         "name": "Add 1 chobani of Ice to ice-house water bucket",
         "done": false,
-        "link-to-video": "",
+        "link-to-video": "yxOzHe4s70o",
+        "clip-start-time": "2m03s",
         "notes": ""
       },
       "re-freeze-3-chobanis-ice": {
         "name": "Re-Freeze 3 Chobani’s of Ice",
         "done": false,
-        "link-to-video": "",
+        "link-to-video": "yxOzHe4s70o",
+        "clip-start-time": "2m56s",
         "notes": ""
       }
     },
@@ -278,25 +324,26 @@
       "feed-xena-1-3-chobani-dog-food-1-scoop-cold-food-2": {
         "name": "Feed Xena 1/3 Chobani Dog food + 1 scoop cold food",
         "done": false,
-        "link-to-video": "",
+        "link-to-video": "fqw8fwzQf10",
         "notes": ""
       },
       "feed-huey-1-3-chobani-dog-food-1-scoop-cold-food-2": {
         "name": "Feed Huey 1/3 Chobani Dog food + 1 scoop cold food",
         "done": false,
-        "link-to-video": "",
+        "link-to-video": "fqw8fwzQf10",
         "notes": ""
       },
       "feed-pajama-1-3-chobani-dog-food-1-scoop-cold-food-2": {
         "name": "Feed Pajama 1/3 Chobani Dog food + 1 scoop cold food",
         "done": false,
-        "link-to-video": "",
+        "link-to-video": "fqw8fwzQf10",
         "notes": ""
       },
       "check-that-water-bowls-in-each-bedroom-are-full": {
         "name": "check that water bowls in each bedroom are full",
         "done": false,
-        "link-to-video": "",
+        "link-to-video": "fqw8fwzQf10",
+        "clip-start-time": "2m16s",
         "notes": ""
       },
       "let-each-dog-out-go-potty-2": {
@@ -309,46 +356,39 @@
   },
   "5-7pm": {
     "Barnyard": {
-      "feed-goats-1-handfuls-goat-feed": {
-        "name": "Feed goats 1 handfuls of goat feed (1/2 handful each)",
-        "done": false,
-        "link-to-video": "",
-        "notes": ""
-      },
-      "feed-chicks-1-mug-chick-starter-crumbles-cold-treats-n": {
-        "name": "Feed chicks 1 mug of chick starter crumbles + cold treats",
-        "done": false,
-        "link-to-video": "",
-        "notes": ""
-      },
-      "feed-chickens-cold-treats-then-bed": {
-        "name": "Feed chickens cold treats inside the coop to get them to go inside (or catch them and put them in if needed)",
-        "done": false,
-        "link-to-video": "",
-        "notes": ""
-      },
-      "overflow-ice-house-water-bucket-2": {
-        "name": "overflow ice-house water bucket",
-        "done": false,
-        "link-to-video": "",
-        "notes": ""
-      },
       "add-1-chobani-ice-inside-water-bucket-2": {
         "name": "Add 1 chobani of Ice to inside water bucket",
         "done": false,
-        "link-to-video": "",
+        "link-to-video": "yxOzHe4s70o",
+        "clip-start-time": "2m23s",
         "notes": ""
       },
       "add-1-chobani-ice-ice-house-water-bucket-3": {
         "name": "Add 1 chobani of Ice to ice-house water bucket",
         "done": false,
-        "link-to-video": "",
+        "link-to-video": "yxOzHe4s70o",
+        "clip-start-time": "2m03s",
+        "notes": ""
+      },
+      "feed-chickens-cold-treats-then-bed": {
+        "name": "Feed chickens and chicks cold treats inside the coop to get them to go inside (or catch them and put them in if needed)",
+        "done": false,
+        "link-to-video": "RAUyKxUOf60",
+        "clip-start-time": "0m53s",
+        "notes": ""
+      },
+      "overflow-ice-house-water-bucket-2": {
+        "name": "overflow ice-house water bucket",
+        "done": false,
+        "link-to-video": "18dK0j6skMM",
+        "clip-start-time": "1m44s",
         "notes": ""
       },
       "re-freeze-3-chobanis-ice-2": {
         "name": "Re-Freeze 2 Chobani’s of Ice",
         "done": false,
-        "link-to-video": "",
+        "link-to-video": "RAUyKxUOf60",
+        "clip-start-time": "1m20s",
         "notes": ""
       }
     }

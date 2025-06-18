@@ -2365,7 +2365,8 @@
     },
     {
       "name": "Air Fryer Santa Fe Style Rice and Beans",
-      "header_pic": "santa-fe-rice-beans-header.png",
+      "vid": "8fbILNXzZww",
+      "header_pic": "santa-fe-rice-beans-serve.png",
       "pub_date": "6/20/25",
       "servings": "3-4 servings",
       "related_recipes": [],
@@ -2377,7 +2378,7 @@
         "1/2 cup frozen corn",
         "½ bell pepper or 3-4 baby bell peppers (any color), thinly sliced",
         "2 green onion tops, thinly sliced",
-        "1/2 cup cherry tomatoes, halved",
+        "1/2 salsa or chopped tomatoes",
         "1 teaspoon paprika",
         "1/2 teaspoon ground cumin",
         "1/2 teaspoon chili powder",
@@ -2385,11 +2386,11 @@
       ],
       "steps": [
         {
-          "pic": "santa-fe-rice-beans-prep.png",
-          "instruction": "In a medium bowl, combine the cooked rice, rinsed kidney beans, 1/4 cup Greek yogurt or sour cream, frozen corn, thinly sliced bell peppers, cherry tomatoes, paprika, cumin, chili powder, salt, and pepper. Gently mix everything together until well combined."
+          "pic": "santa-fe-rice-beans-layer.png",
+          "instruction": "In a medium bowl, combine the cooked rice, rinsed kidney beans, 1/4 cup Greek yogurt or sour cream, frozen corn, bell peppers, paprika, cumin, chili powder, salt, and pepper. Gently mix everything together until well combined."
         },
         {
-          "pic": "santa-fe-rice-beans-layer.png",
+          "pic": "santa-fe-rice-beans-prep.png",
           "instruction": "Spread the seasoned rice and bean mixture evenly in a pie pan or any other air fryer-safe vessel that fits comfortably in your air fryer. Top with shredded cheese."
         },
         {
@@ -2398,7 +2399,7 @@
         },
         {
           "pic": "santa-fe-rice-beans-serve.png",
-          "instruction": "Carefully transfer to serving bowls. Garnish each serving with the thinly sliced green onion tops and an extra dollop of Greek yogurt or sour cream, if desired."
+          "instruction": "Carefully transfer to serving bowls. Garnish each serving with thinly sliced green onion, chopped tomatoes or salsa and an extra dollop of Greek yogurt or sour cream, if desired."
         }
       ],
       "notes": "A quick, hearty, and satisfying meal."

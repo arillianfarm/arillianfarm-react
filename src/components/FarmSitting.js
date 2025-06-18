@@ -6,36 +6,52 @@ import { getAuth, signInAnonymously } from "firebase/auth";
 // Import your comprehensive tasks JSON data
 import FARM_TASKS_DATA from '../pageData/farm-sitting.json';
 
+// Helper function to create YouTube links with optional start times
+const createYouTubeLink = (videoId, startTime) => {
+    if (!videoId) return null; // No video ID, no link
+
+    let url = `https://www.youtube.com/watch?v=${videoId}`;
+
+    // Append start time if it exists and is not an empty string
+    if (startTime && startTime !== "0s" && startTime !== "0m0s") { // Also check for common "zero" values
+        url += `&t=${startTime}`;
+    }
+    return url;
+};
+
 const FarmSitting = () => {
     const daysOfWeek = ['thursday', 'friday', 'saturday', 'sunday'];
 
-    // Memoize the full set of all unique task definitions (name, link, notes)
-    // This will be used as a base for each day's task list in state and Firestore.
+    // Memoize the full set of all unique task definitions (name, link, notes, clip-start-time)
     const allUniqueTaskDefinitions = useMemo(() => {
         const tasks = {};
-        for (const categoryKey in FARM_TASKS_DATA) {
-            for (const timeSlotKey in FARM_TASKS_DATA[categoryKey]) {
-                for (const taskSlug in FARM_TASKS_DATA[categoryKey][timeSlotKey]) {
-                    const taskDetails = FARM_TASKS_DATA[categoryKey][timeSlotKey][taskSlug];
+        for (const timeSlotKey in FARM_TASKS_DATA) { // Loop through time slots
+            const timeSlotData = FARM_TASKS_DATA[timeSlotKey];
+            for (const categoryKey in timeSlotData) { // Loop through categories within time slot
+                const categoryData = timeSlotData[categoryKey];
+                for (const taskSlug in categoryData) { // Loop through tasks within category
+                    const taskDetails = categoryData[taskSlug];
                     // Store the static details for each unique task slug
                     tasks[taskSlug] = {
                         name: taskDetails.name,
-                        "link-to-video": taskDetails["link-to-video"] || "", // Default to empty string if not provided
-                        notes: taskDetails.notes || "" // Default to empty string if not provided
+                        "link-to-video": taskDetails["link-to-video"] || "",
+                        "clip-start-time": taskDetails["clip-start-time"] || "", // Store the clip-start-time
+                        notes: taskDetails.notes || ""
                     };
                 }
             }
         }
         return tasks;
-    }, []); // Empty dependency array means this is calculated once
+    }, []);
 
     // Function to create an initial state for a single day (all tasks done: false)
     const createInitialDayTasks = () => {
         const dayTasks = {};
         for (const taskSlug in allUniqueTaskDefinitions) {
             dayTasks[taskSlug] = {
-                ...allUniqueTaskDefinitions[taskSlug], // Copy static task details
-                done: false // Explicitly set done to false for initialization
+                // When initializing, we only care about the 'done' state for Firestore.
+                // The static task details (name, links, notes) will be merged from allUniqueTaskDefinitions later.
+                done: false
             };
         }
         return dayTasks;
@@ -80,7 +96,7 @@ const FarmSitting = () => {
                 // Create a merged structure that combines the static task definitions
                 // with the 'done' status fetched from Firestore.
                 const mergedData = daysOfWeek.reduce((acc, day) => {
-                    const dayTasksFromFirestore = fetchedData[day] || {}; // Get existing day data from Firestore or empty object
+                    const dayTasksFromFirestore = fetchedData[day] || {};
                     const mergedDayTasks = {};
 
                     for (const taskSlug in allUniqueTaskDefinitions) {
@@ -88,7 +104,7 @@ const FarmSitting = () => {
                         const firestoreTaskState = dayTasksFromFirestore[taskSlug];
 
                         mergedDayTasks[taskSlug] = {
-                            ...initialTaskDef, // Start with name, link, notes from our config
+                            ...initialTaskDef, // Start with name, link, notes, clip-start-time from our config
                             // Overlay 'done' status from Firestore, default to false if not a boolean
                             done: typeof firestoreTaskState?.done === 'boolean' ? firestoreTaskState.done : false
                         };
@@ -122,7 +138,6 @@ const FarmSitting = () => {
         }
         setLoading(true);
         try {
-            // Get the current state of the specific task for the given day
             const currentTaskState = dailyTasks[day]?.[taskSlug];
 
             if (!currentTaskState) {
@@ -132,26 +147,25 @@ const FarmSitting = () => {
                 return;
             }
 
-            // Create an updated task object with the toggled 'done' status
-            const updatedTask = {
-                ...currentTaskState,
-                done: !currentTaskState.done, // Toggle the 'done' property
+            // We only update the 'done' status in Firestore.
+            // The name, link, notes, and clip-start-time are static from the JSON config.
+            const updatedDoneStatus = {
+                done: !currentTaskState.done,
             };
 
-            // Create an updated object for the specific day, replacing the old task with the updated one
             const updatedTasksForDay = {
                 ...dailyTasks[day],
-                [taskSlug]: updatedTask,
+                [taskSlug]: updatedDoneStatus, // Send only the 'done' status for this task
             };
 
-            // Create the full updated dailyTasks object to send to Firestore
             const updatedAllTasks = {
                 ...dailyTasks,
                 [day]: updatedTasksForDay,
             };
 
-            // Send the entire updated structure for the 'tasks' document to Firestore
-            await setDoc(doc(db, "farm-sitting", "tasks"), updatedAllTasks);
+            // Use setDoc to update the document. Firestore will merge based on structure.
+            // This ensures we're only changing the 'done' state for the specific task.
+            await setDoc(doc(db, "farm-sitting", "tasks"), updatedAllTasks, { merge: true });
             setError(null);
         } catch (e) {
             console.error("Error updating task:", e);
@@ -210,43 +224,52 @@ const FarmSitting = () => {
                         </tr>
                         </thead>
                         <tbody>
-                        {/* Iterate over categories (Barnyard, Dogs, Plants) */}
-                        {Object.keys(FARM_TASKS_DATA).map(categoryKey => (
-                            <React.Fragment key={categoryKey}>
+                        {/* Iterate over time slots */}
+                        {Object.keys(FARM_TASKS_DATA).map(timeSlotKey => (
+                            <React.Fragment key={timeSlotKey}>
                                 <tr>
                                     <td colSpan={daysOfWeek.length + 1}>
                                         <h5 className="mb-0 mt-2 text-primary">
-                                            <strong>{categoryKey.toUpperCase()}</strong>
+                                            <strong>{timeSlotKey}</strong> {/* Display the time slot */}
                                         </h5>
                                     </td>
                                 </tr>
-                                {/* Iterate over time slots within each category */}
-                                {Object.keys(FARM_TASKS_DATA[categoryKey]).map(timeSlotKey => (
-                                    <React.Fragment key={`${categoryKey}-${timeSlotKey}`}>
+                                {/* Iterate over categories within each time slot */}
+                                {Object.keys(FARM_TASKS_DATA[timeSlotKey]).map(categoryKey => (
+                                    <React.Fragment key={`${timeSlotKey}-${categoryKey}`}>
                                         <tr>
                                             <td colSpan={daysOfWeek.length + 1}>
                                                 <h6 className="mb-0 mt-2 text-info">
-                                                    <strong>{timeSlotKey}</strong> {/* Display the time slot */}
+                                                    <strong>{categoryKey.toUpperCase()}</strong>
                                                 </h6>
                                             </td>
                                         </tr>
-                                        {/* Iterate over individual tasks within each time slot */}
-                                        {Object.keys(FARM_TASKS_DATA[categoryKey][timeSlotKey]).map(taskSlug => {
-                                            const taskDetails = FARM_TASKS_DATA[categoryKey][timeSlotKey][taskSlug];
+                                        {/* Iterate over individual tasks within each category */}
+                                        {Object.keys(FARM_TASKS_DATA[timeSlotKey][categoryKey]).map(taskSlug => {
+                                            // Get the static task details from our config
+                                            const staticTaskDetails = allUniqueTaskDefinitions[taskSlug];
+                                            if (!staticTaskDetails) {
+                                                console.warn(`Task definition not found for slug: ${taskSlug}`);
+                                                return null; // Skip rendering if definition is missing
+                                            }
+                                            const videoLink = createYouTubeLink(
+                                                staticTaskDetails["link-to-video"],
+                                                staticTaskDetails["clip-start-time"]
+                                            );
                                             return (
                                                 <tr key={taskSlug}>
                                                     <td>
-                                                        {taskDetails.name}
-                                                        {taskDetails["link-to-video"] && (
+                                                        {staticTaskDetails.name}
+                                                        {videoLink && (
                                                             <>
                                                                 <br/>
-                                                                <a href={taskDetails["link-to-video"]} target="_blank" rel="noopener noreferrer">Video Link</a>
+                                                                <a href={videoLink} target="_blank" rel="noopener noreferrer">Video Link</a>
                                                             </>
                                                         )}
-                                                        {taskDetails.notes && (
+                                                        {staticTaskDetails.notes && (
                                                             <>
                                                                 <br/>
-                                                                <small className="text-muted">Notes: {taskDetails.notes}</small>
+                                                                <small className="text-muted">Notes: {staticTaskDetails.notes}</small>
                                                             </>
                                                         )}
                                                     </td>
@@ -254,7 +277,6 @@ const FarmSitting = () => {
                                                         <td key={`${taskSlug}-${day}`} className="text-center">
                                                             <input
                                                                 type="checkbox"
-                                                                // Access the 'done' property for the specific task and day from dailyTasks state
                                                                 checked={dailyTasks[day]?.[taskSlug]?.done || false}
                                                                 onChange={() => toggleTask(day, taskSlug)}
                                                                 disabled={!firebaseInitialized}
@@ -271,7 +293,7 @@ const FarmSitting = () => {
                         </tbody>
                     </table>
                     <p>
-                        Check out more about Arillian Farm on their YouTube channel: <a href="http://www.youtube.com/channel/UC7meaKCW2UsPMQOSeHV5lKQ" target="_blank" rel="noopener noreferrer">Arillian Farm</a>
+                        All Farm Sitting Videos Can be found at: <a href="https://www.youtube.com/playlist?list=PL_Sq2KUIY7_R4mAzZqGhCKnOqkAA659Jd" target="_blank" rel="noopener noreferrer">Farm Sitting Playlist</a>
                     </p>
                 </div>
             )}
