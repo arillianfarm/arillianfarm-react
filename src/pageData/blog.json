@@ -1896,61 +1896,37 @@
     {
       "entry_number": 24,
       "entry_date": "June 20, 2025",
-      "entry_subject": "",
-      "main_video_id": "",
-      "pic_file": "",
+      "entry_subject": "An Arillian Farm Morning: The Dopamine Harvest",
+      "main_video_id": "P5Z8q69Iy_Q",
+      "pic_file": "arillian-morning-chores.png",
       "feature_section_1": {
-        "caption": "",
-        "video_id": "",
-        "pic": ""
+        "caption": "Sunrise chores: where sanity meets serenity (mostly).",
+        "video_id": "YOUR_YOUTUBE_SHORT_ID_HERE",
+        "pic": "assets/blog/arillian-morning-chores.png"
       },
-      "feature_section_2": {
-        "caption": "",
-        "video_id": ""
-      },
-      "feature_section_3": {
-        "caption": "",
-        "video_id": ""
-      },
+      "feature_section_2": null,
+      "feature_section_3": null,
       "sections": [
         {
+          "vid": "P5Z8q69Iy_Q",
           "paragraphs": [
             {
-              "text": "Settling the New Feather Fam into Their Brooder",
+              "text": "Beating the Heat and Chasing Dopamine Hits",
               "h4": true
             },
             {
-              "text": ""
+              "text": "Summer mornings on Arillian Farm start at what most might consider an ungodly hour, usually somewhere between 3:30 and 4:00 AM. But I love those dark early hours! If I don't wander outside and rustle some leaves while the night birds are still chirping, it feels like the day is utterly wasted. Especially since, by noon, the sun has basically melted the world around me and the inside of my brain. (As I write this, it’s 3:00PM, 83°F inside my house and 113°F outside. *pant*)."
+            },
+            {
+              "text": "Some might think I've overcomplicated my morning with all the specific feeding and watering rituals I have for each species of plant and animal on our 'farm' — and they’d probably be right. But there's a delightful feedback loop of tiny joys that comes with all the extra steps. Seeing our pets' eyes light up when a cold treat melts in their mouth is pure bliss — for both of us! Pulling a fresh tomato from the vine and thinking, 'I made food from dirt and water; maybe I *won't* instantly perish in the first wave of a societal collapse?' That’s a powerful motivator."
+            },
+            {
+              "text": "Also, my brain has been bent by years of binging farming video games. All those hours spent meticulously planting digital crops in **Harvest Moon**, or obsessively gathering herbs and crafting supplies in **Skyrim**. (I usually leave the fighty Skyrim stuff to Lydia and my virtual dog to handle.) And now, I've happily gamified my real life chores as well, so I get that sweet hit of dopamine every time I catch a mosquito fish for my chickens or find a new use for rose petals from my garden."
+            },
+            {
+              "text": "It usually takes a couple of hours to work through the blur of clucking chickens, bleating goats, wagging tails, and thirsty plants – but it truly is my favorite part of the day. It’s a quiet, productive start before the world (and the sun) wakes up, offering a little slice of analog joy that perfectly mirrors the digital satisfaction of role-playing as a farmer."
             }
-          ],
-          "vid": ""
-        },
-        {
-          "paragraphs": [
-            {
-              "text": "Flying the Coop",
-              "h4": true
-            },
-            {
-              "text": "In week three, our flock continued to sort out our their pecking order outside and inside the brooder."
-            },
-            {
-              "text": "I started letting the Black Star Chicken Chicks explore outside, and they started to get a little more wind under their wings."
-            },
-            {
-              "text": "By mid-week, I was keeping the brooder cage door open most of the time. (I did close Broodzilla and her brood in for an hour or two at feeding time and overnight.)"
-            },
-            {
-              "text": "It's a first-come, first-serve buffet in our barnyard, though, so I wanted the chickies to learn the importance of getting in the buffet line fast!"
-            },
-            {
-              "text": "Broodzilla was very happy to get out, stretch her legs and her wings, soak up some sunshine, and finally get a nice dust bath after being cooped up with her brood for the last couple weeks."
-            },
-            {
-              "text": "She’s starting to relax, un-brooding, and get back to normal hen stuff, and Chickpea, Garbanzo, and Hummus are finding their places in the pecking order."
-            }
-          ],
-          "vid": "5PZvPjZ5Qu8"
+          ]
         }
       ]
     }
