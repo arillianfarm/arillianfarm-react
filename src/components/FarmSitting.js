@@ -5,6 +5,7 @@ import { getAuth, signInAnonymously } from "firebase/auth";
 
 // Import your comprehensive tasks JSON data
 import FARM_TASKS_DATA from '../pageData/farm-sitting.json';
+import Comments from "./Comments";
 
 // Helper function to create YouTube links with optional start times
 const createYouTubeLink = (videoId, startTime) => {
@@ -62,8 +63,30 @@ const FarmSitting = () => {
         daysOfWeek.reduce((acc, day) => ({ ...acc, [day]: createInitialDayTasks() }), {})
     );
 
+    // State to manage the open/closed status of accordion sections
+    const [openSections, setOpenSections] = useState(() => {
+        const initialState = { generalMisc: true }; // General Misc open by default
+
+        // Initialize all time slots and categories to open by default
+        for (const timeSlotKey in FARM_TASKS_DATA) {
+            initialState[timeSlotKey] = true; // Time slot open
+            for (const categoryKey in FARM_TASKS_DATA[timeSlotKey]) {
+                initialState[`${timeSlotKey}-${categoryKey}`] = true; // Category open
+            }
+        }
+        return initialState;
+    });
+
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
+
+    // Function to toggle the open/closed state of an accordion section
+    const toggleSection = (sectionId) => {
+        setOpenSections(prev => ({
+            ...prev,
+            [sectionId]: !prev[sectionId]
+        }));
+    };
 
     useEffect(() => {
         if (!firebaseInitialized || !db) {
@@ -136,26 +159,25 @@ const FarmSitting = () => {
             setError("Cannot update task: Firebase not initialized.");
             return;
         }
-        setLoading(true);
+        // Removed setLoading(true) from here to prevent potential re-render/scroll issues
         try {
             const currentTaskState = dailyTasks[day]?.[taskSlug];
 
             if (!currentTaskState) {
                 console.warn(`Task ${taskSlug} not found for day ${day}. Cannot toggle.`);
                 setError(`Task "${taskSlug}" not found for "${day}".`);
-                setLoading(false);
                 return;
             }
 
-            // We only update the 'done' status in Firestore.
-            // The name, link, notes, and clip-start-time are static from the JSON config.
             const updatedDoneStatus = {
                 done: !currentTaskState.done,
             };
 
+            // Although we're updating the full 'dailyTasks' object for Firestore,
+            // the onSnapshot listener will be the source of truth for the local state update.
             const updatedTasksForDay = {
                 ...dailyTasks[day],
-                [taskSlug]: updatedDoneStatus, // Send only the 'done' status for this task
+                [taskSlug]: updatedDoneStatus,
             };
 
             const updatedAllTasks = {
@@ -171,7 +193,7 @@ const FarmSitting = () => {
             console.error("Error updating task:", e);
             setError("Failed to update task.");
         } finally {
-            setLoading(false);
+            // Removed setLoading(false) from here to prevent potential re-render/scroll issues
         }
     };
 
@@ -180,31 +202,37 @@ const FarmSitting = () => {
             <h3 className="text-center mb-4">Farm Sitting Care Guide</h3>
             <div className="row">
                 <div className="col-sm-12">
-                    <h4>General Misc:</h4>
+                    {/* General Misc Header */}
+                    <h4 className="cursor-pointer" onClick={() => toggleSection('generalMisc')}>
+                        General Misc: <span className="float-end">{openSections['generalMisc'] ? '▲' : '▼'}</span>
+                    </h4>
                 </div>
-                <div className="col-sm-12">
-                    <div>
-                        <h2 className="text-danger">Alert - Huey and Jams should always be separated by a locked cage
-                            door and/or a locked house door at all times!!!</h2>
-                        <h3>Ways to end a fight: </h3>
-                        <h4>throw their water bowl at them or grab Ice water from freezer and dump it on them</h4>
-                        <h4>Use each dogs collar to temporarily choke each dog, so that they will release their grip and
-                            gasp for air</h4>
-                        <h4>The call I use for them to come for dinner and breakfast is to yell "rinnn daa da din din
-                            din Go in your cates" -- if you yell this, they may stop for a second and you may be able to
-                            get huey to go into his crate</h4>
-                        <h4>last case scenario, I read on the internet if you shove a finger up a dogs ass it will
-                            release its grip on whatever out of surprise</h4>
-                        <h3 className="text-danger">Please Note - the back door is "tricky" You have to be gentle with the handle (and may have to put it back together if it falls off). It doesn't really latch so you need to keep it locked after you close it. I usually just pull and push from the handle of the deadbolt</h3>
+                {/* General Misc Content - Conditionally rendered */}
+                {openSections['generalMisc'] && (
+                    <div className="col-sm-12">
+                        <div>
+                            <h2 className="text-danger">Alert - Huey and Jams should always be separated by a locked cage
+                                door and/or a locked house door at all times!!!</h2>
+                            <h3>Ways to end a fight: </h3>
+                            <h4>throw their water bowl at them or grab Ice water from freezer and dump it on them</h4>
+                            <h4>Use each dogs collar to temporarily choke each dog, so that they will release their grip and
+                                gasp for air</h4>
+                            <h4>The call I use for them to come for dinner and breakfast is to yell "rinnn daa da din din
+                                din Go in your cates" -- if you yell this, they may stop for a second and you may be able to
+                                get huey to go into his crate</h4>
+                            <h4>last case scenario, I read on the internet if you shove a finger up a dogs ass it will
+                                release its grip on whatever out of surprise</h4>
+                            <h3 className="text-danger">Please Note - the back door is "tricky" You have to be gentle with the handle (and may have to put it back together if it falls off). It doesn't really latch so you need to keep it locked after you close it. I usually just pull and push from the handle of the deadbolt</h3>
+                        </div>
+                        <h4>Huey and Xena should be kept in the guest bedroom after you leave.</h4>
+                        <h4>Pajama should be kept in the master bedroom after you leave.</h4>
+                        <h4>Toys are either outside on the lawn or on top of the fridge</h4>
+                        <h4>Dog Bowls should Be Kept Outside on the Bricks By the Patio Bars</h4>
+                        <h4>Chicken Treat Transport Tupperware should Be kept upside down on kitchen Counter</h4>
+                        <h4>Cold Food for Dogs will be in Silver Pot in Fridge, Serving Ladle should be cleaned by dogs and or sink and kept in sink</h4>
+                        <h4>Cold Food for Chickens will be in Covered Tin in the Fridge</h4>
                     </div>
-                    <h4>Huey and Xena should be kept in the guest bedroom after you leave.</h4>
-                    <h4>Pajama should be kept in the master bedroom after you leave.</h4>
-                    <h4>Toys are either outside on the lawn or on top of the fridge</h4>
-                    <h4>Dog Bowls should Be Kept Outside on the Bricks By the Patio Bars</h4>
-                    <h4>Chicken Treat Transport Tupperware should Be kept upside down on kitchen Counter</h4>
-                    <h4>Cold Food for Dogs will be in Silver Pot in Fridge, Serving Ladle should be cleaned by dogs and or sink and kept in sink</h4>
-                    <h4>Cold Food for Chickens will be in Covered Tin in the Fridge</h4>
-                </div>
+                )}
                 <div className="col-sm-12">
 
                 </div>
@@ -228,70 +256,95 @@ const FarmSitting = () => {
                         {Object.keys(FARM_TASKS_DATA).map(timeSlotKey => (
                             <React.Fragment key={timeSlotKey}>
                                 <tr>
-                                    <td colSpan={daysOfWeek.length + 1}>
+                                    <td colSpan={daysOfWeek.length + 1}
+                                        onClick={() => toggleSection(timeSlotKey)}
+                                        className="cursor-pointer">
                                         <h5 className="mb-0 mt-2 text-primary">
                                             <strong>{timeSlotKey}</strong> {/* Display the time slot */}
+                                            <span className="float-end">{openSections[timeSlotKey] ? '▲' : '▼'}</span>
                                         </h5>
                                     </td>
                                 </tr>
-                                {/* Iterate over categories within each time slot */}
-                                {Object.keys(FARM_TASKS_DATA[timeSlotKey]).map(categoryKey => (
-                                    <React.Fragment key={`${timeSlotKey}-${categoryKey}`}>
-                                        <tr>
-                                            <td colSpan={daysOfWeek.length + 1}>
-                                                <h6 className="mb-0 mt-2 text-info">
-                                                    <strong>{categoryKey.toUpperCase()}</strong>
-                                                </h6>
-                                            </td>
-                                        </tr>
-                                        {/* Iterate over individual tasks within each category */}
-                                        {Object.keys(FARM_TASKS_DATA[timeSlotKey][categoryKey]).map(taskSlug => {
-                                            // Get the static task details from our config
-                                            const staticTaskDetails = allUniqueTaskDefinitions[taskSlug];
-                                            if (!staticTaskDetails) {
-                                                console.warn(`Task definition not found for slug: ${taskSlug}`);
-                                                return null; // Skip rendering if definition is missing
-                                            }
-                                            const videoLink = createYouTubeLink(
-                                                staticTaskDetails["link-to-video"],
-                                                staticTaskDetails["clip-start-time"]
-                                            );
-                                            return (
-                                                <tr key={taskSlug}>
-                                                    <td>
-                                                        {staticTaskDetails.name}
-                                                        {videoLink && (
-                                                            <>
-                                                                <br/>
-                                                                <a href={videoLink} target="_blank" rel="noopener noreferrer">Video Link</a>
-                                                            </>
-                                                        )}
-                                                        {staticTaskDetails.notes && (
-                                                            <>
-                                                                <br/>
-                                                                <small className="text-muted">Notes: {staticTaskDetails.notes}</small>
-                                                            </>
-                                                        )}
+                                {/* Time Slot Content - Conditionally rendered */}
+                                {openSections[timeSlotKey] && (
+                                    <React.Fragment>
+                                        {/* Iterate over categories within each time slot */}
+                                        {Object.keys(FARM_TASKS_DATA[timeSlotKey]).map(categoryKey => (
+                                            <React.Fragment key={`${timeSlotKey}-${categoryKey}`}>
+                                                <tr>
+                                                    <td colSpan={daysOfWeek.length + 1}
+                                                        onClick={() => toggleSection(`${timeSlotKey}-${categoryKey}`)}
+                                                        className="cursor-pointer">
+                                                        <h6 className="mb-0 mt-2 text-info">
+                                                            <strong>{categoryKey.toUpperCase()}</strong>
+                                                            <span className="float-end">{openSections[`${timeSlotKey}-${categoryKey}`] ? '▲' : '▼'}</span>
+                                                        </h6>
                                                     </td>
-                                                    {daysOfWeek.map(day => (
-                                                        <td key={`${taskSlug}-${day}`} className="text-center">
-                                                            <input
-                                                                type="checkbox"
-                                                                checked={dailyTasks[day]?.[taskSlug]?.done || false}
-                                                                onChange={() => toggleTask(day, taskSlug)}
-                                                                disabled={!firebaseInitialized}
-                                                            />
-                                                        </td>
-                                                    ))}
                                                 </tr>
-                                            );
-                                        })}
+                                                {/* Category Content - Conditionally rendered */}
+                                                {openSections[`${timeSlotKey}-${categoryKey}`] && (
+                                                    <React.Fragment>
+                                                        {/* Iterate over individual tasks within each category */}
+                                                        {Object.keys(FARM_TASKS_DATA[timeSlotKey][categoryKey]).map(taskSlug => {
+                                                            // Get the static task details from our config
+                                                            const staticTaskDetails = allUniqueTaskDefinitions[taskSlug];
+                                                            if (!staticTaskDetails) {
+                                                                console.warn(`Task definition not found for slug: ${taskSlug}`);
+                                                                return null; // Skip rendering if definition is missing
+                                                            }
+                                                            const videoLink = createYouTubeLink(
+                                                                staticTaskDetails["link-to-video"],
+                                                                staticTaskDetails["clip-start-time"]
+                                                            );
+                                                            return (
+                                                                <tr key={taskSlug}>
+                                                                    <td>
+                                                                        {staticTaskDetails.name}
+                                                                        {videoLink && (
+                                                                            <>
+                                                                                <br/>
+                                                                                <a href={videoLink} target="_blank" rel="noopener noreferrer">Video Link</a>
+                                                                            </>
+                                                                        )}
+                                                                        {staticTaskDetails.notes && (
+                                                                            <>
+                                                                                <br/>
+                                                                                <small className="text-muted">Notes: {staticTaskDetails.notes}</small>
+                                                                            </>
+                                                                        )}
+                                                                    </td>
+                                                                    {daysOfWeek.map(day => (
+                                                                        <td key={`${taskSlug}-${day}`} className="text-center">
+                                                                            <input
+                                                                                type="checkbox"
+                                                                                checked={dailyTasks[day]?.[taskSlug]?.done || false}
+                                                                                onChange={() => toggleTask(day, taskSlug)}
+                                                                                disabled={!firebaseInitialized}
+                                                                            />
+                                                                        </td>
+                                                                    ))}
+                                                                </tr>
+                                                            );
+                                                        })}
+                                                    </React.Fragment>
+                                                )}
+                                            </React.Fragment>
+                                        ))}
                                     </React.Fragment>
-                                ))}
+                                )}
                             </React.Fragment>
                         ))}
                         </tbody>
                     </table>
+                    <div className="row">
+                        <div className="col-sm-12 mt-3 text-center">
+                            <Comments
+                                article_name="farm-sitting"
+                                article_type="farm-sitting"
+                                pub_date="June 20, 2025"
+                            />
+                        </div>
+                    </div>
                     <p>
                         All Farm Sitting Videos Can be found at: <a href="https://www.youtube.com/playlist?list=PL_Sq2KUIY7_R4mAzZqGhCKnOqkAA659Jd" target="_blank" rel="noopener noreferrer">Farm Sitting Playlist</a>
                     </p>
@@ -302,3 +355,4 @@ const FarmSitting = () => {
 };
 
 export default FarmSitting;
+
