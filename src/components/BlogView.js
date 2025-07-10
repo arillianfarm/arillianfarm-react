@@ -215,17 +215,20 @@ const BlogView = () => {
                             </div>
 
                         ) )}
-                        <div className="row">
-                            <hr/>
-                            <div className="col-sm-12 mt-3 text-center">
-                                <Comments
-                                    article_name={featuredBlogEntry?.entry_subject}
-                                    article_type="blog"
-                                    pub_date={featuredBlogEntry?.entry_date}
-                                />
-                            </div>
-                        </div>
 
+
+                    </div>
+                </div>
+            </div>
+            <div className="col-sm-12">
+                <div className="row">
+                    <hr/>
+                    <div className="col-sm-12 mt-3 text-center">
+                        <Comments
+                            article_name={featuredBlogEntry?.entry_subject}
+                            article_type="blog"
+                            pub_date={featuredBlogEntry?.entry_date}
+                        />
                     </div>
                 </div>
             </div>

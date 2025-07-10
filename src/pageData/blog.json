@@ -778,7 +778,7 @@
     {
       "entry_number": 10,
       "entry_date": "Nov 1, 2024",
-      "entry_subject": "Removing Rats From The Barn/ Chicken Coop ",
+      "entry_subject": "Removing Rats From The Barn/ Chicken Coop",
       "pic_file": "rat1.png",
       "feature_section_1": {
         "caption": "",
@@ -1925,6 +1925,83 @@
             },
             {
               "text": "It usually takes a couple of hours to work through the blur of clucking chickens, bleating goats, wagging tails, and thirsty plants – but it truly is my favorite part of the day. It’s a quiet, productive start before the world (and the sun) wakes up, offering a little slice of analog joy that perfectly mirrors the digital satisfaction of role-playing as a farmer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry_number": 25,
+      "entry_date": "July 4, 2025",
+      "entry_subject": "Going Going Back Back to Cali Cali",
+      "main_video_id": "T0eba2PPfxo",
+      "pic_file": "sf-bay-area-skyline-driving-in.png",
+      "feature_section_1": {
+        "caption": "Relive the highlights of our Bay Area adventure!",
+        "video_id": "T0eba2PPfxo",
+        "pic": "assets/blog/sf-trip-highlights-thumbnail.png"
+      },
+      "feature_section_2": null,
+      "feature_section_3": null,
+      "sections": [
+        {
+          "pics": ["redwoods.png"],
+          "paragraphs": [
+            {
+              "text": "Farm LARPing gets exhausting in the desert, and my birthday, in late June, is a perfect excuse to escape the heat! This year for my birthday weekend, Arthur and I flew to my old stomping ground in the **San Francisco Bay Area** to soak up some of that perfect **California weather** and cool our heels by the beach with some warm memories and cold beers."
+            },
+            {
+              "text": "The first stop for our chillaxi taxi was Santa Cruz. The 65 degree mornings \uD83E\uDD76 in this beach town weren’t the only thing giving me goosebumps --the sidewalks were mostly empty and the folks we did pass met our 'good mornings' with silent stares. It was a stark contrast to the lively streets full of ‘let's all be friends' folks I remembered from my visits in the 2010s. But TBH, I was a younger hotter version of myself back then and pretty young girls usually get treated a more pleasantly than middle-aged tourists \uD83E\uDD23 .  The once-bustling **Pacific Avenue in Santa Cruz** was full of empty restaurants and storefronts."
+            },{
+              "text": "Around town, everyone seemed put out by our very existence. We stopped into the busiest cafe on Pacific Avenue for a coffee and there was no line, but we still had to wait several minutes before the barista, who was standing directly in front of us, even looked up to acknowledge we were there. It felt like the city had *bean* through a lot, or maybe everyone was just having trouble finding someone to serve them a much needed jolt of java to wake up."
+            }
+          ]
+        },{
+          "pics":["sf-trip-highlights-thumbnail.png","harbor-breakfast.png"],
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "Despite the seemingly bad time the local residents were having, Arthur and I had a fantastic day! When we checked in to our hotel, The Harbor Inn (where we were literally the only guests for our first night and one of three cars in the lot our second night), we were greeted by Erick, a chill, friendly guy who made us feel much more welcome. Even more fortunately, Harbor Cafe, a top-rated breakfast spot, was literally a hundred yards from our door. The food was so good, we ended up having breakfast there two mornings in a row! And the waitstaff was genuinely the friendliest faces we saw the entire trip – which was a welcome relief."
+            },
+            {
+              "text": "I couldn’t believe such a charming lil hotel was so empty when it was just a five-minute walk from the super cute **Twin Lakes Beach**, complete with a lighthouse, perfect sized waves and restaurants right on the sand. It was a perfect place to get away from the world and all our responsibilities back home."
+            }
+          ]
+        },{
+          "pics": ["sf-bay-area-skyline-driving-in.png", "critical-mass.png"],
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "After two days in Santa Cruz, we drove through the towering redwoods, past Silicon Valley to San Francisco."
+            },
+            {
+              "text": "Shortly after we got into the city, we stumbled upon what seemed to be a bike parade where thousands of bicyclists rode down Market Street, popping wheelies and putting on a show. An AI later clarified that it was probably **Critical Mass**, a monthly, decentralized bike ride that takes over the streets to celebrate **San Francisco cycling** and advocate for bike-friendly cities. As a former **bike commuter in SF** myself, seeing that massive, joyful (and slightly chaotic) two-wheeled takeover felt like a powerful, familiar echo from my past"
+            }
+
+          ]
+        },{
+          "pics": [ "ai-billboard.png", "closed-lobby.png", "bay-bridge-sunrise.png", "pride-floats.png"],
+          "paragraphs": [{
+            "text": "I hadn't realized when I booked the trip, but it was **SF Pride Week** and our hotel was on the **San Francisco Pride** Parade route. When I had lived in SF a decade earlier, you could barely sidle through the rainbow-clad crowds into a bar to get a drink during Pride week, but I wouldn't even have known it was Pride if our hotel didn't send us an email about road closures. I didn’t see a single rainbow flag or Pride banner anywhere in the streets. It was bizarre"
+          },{
+            "text": "The whole city felt strangely quiet and lifeless compared to the bustling, vibrant place I once called home. So many of my favorite restaurants were gone, out of business. The once-thriving **San Francisco food scene** and **Bay Area restaurants** felt a shadow of their former selves. My favorite Burmese restaurant was still open and thriving, but the once chatty, smiling owner was distracted and unfriendly that day. The food was still amazing, but it had been a much more enjoyable meal when it was served with a smile. It felt like the city had gone from being *sparkling wine to stale beer*. But the actual beer was quite good and I didn’t really come to see the city, I came to chill with my homies."
+          },{
+            "text": "We met up with some friends I hadn't seen in ages and spent hours reminiscing over fancy food and beer served in tulip glasses, discussing how much things had changed in the Bay Area and wondering how much change is yet in store now that every billboard in SF is for one **AI platform** or another. The biggest ray of sunshine in our whole trip was my friend's adorable, super smiley 7-month-old daughter. Sometimes its just nice to hang out with folks who are too young to be jaded by the AI revolution. \uD83E\uDD2A"
+          }]
+        },{
+          "right_side_pic": true,
+          "pics": [ "welcome-dogs.png", "welcome-goats.png"],
+          "paragraphs": [
+            {
+              "text": "Somehow this beautiful place (and climate!) that I had once called home suddenly made me homesick for the **sweltering desert**. From a distance all of the chores and obligations I’d wanted to escape felt like the home where I belong. And our fur/feather family gave us a greeting warmer than the 110 temp we flew home to!"
+            }
+          ]
+        },{
+          "right_side_pic": true,
+          "vid": "T0eba2PPfxo",
+          "paragraphs": [
+            {
+              "text": "Checkout the highlights of our Bay Area adventure➡️"
             }
           ]
         }

@@ -2011,7 +2011,7 @@
       ]
     },
     {
-      "name": "(Sort of) Making a Straw Hat/ Easter Basket ¯\\_(ツ)_/¯",
+      "name": "(Sort of) Making a Straw Hat/ Easter Basket",
       "pub_date": "4/18/25",
       "header_pic": "ebasketdone.png",
       "about": "Go Against the Grain with Straw Crafting",
@@ -2528,6 +2528,100 @@
           "paragraphs": [
             {
               "text": "So, don't overthink it—just grab your phone, unleash your creativity, and let your unique brand of wacky shine!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DIY Epoxy Jewelry: Glitter & Natural Objects",
+      "pub_date": "07/11/25",
+      "header_pic": "epoxy_jewelry_phase5_finish_assemble.png",
+      "about": "Preserve some tiny natural treasures and craft sparkling pendants, earrings, and more.",
+      "categories": ["crafts", "jewelry", "gift ideas", "DIY", "epoxy resin"],
+      "tools": [
+        "gloves (nitrile or latex)",
+        "silicone jewelry molds (various shapes like pendants, earrings, rings)",
+        "stirring sticks (plastic or wooden craft sticks)",
+        "mixing cups (silicone or disposable plastic with measurement lines)",
+        "toothpicks or small skewers (for positioning inclusions and popping bubbles)",
+        "heat gun or a long-reach lighter (for removing air bubbles)",
+        "small precision drill (optional, for making holes if molds don't have them)",
+        "jewelry pliers (round nose, flat nose, cutters - for attaching findings)"
+      ],
+      "materials": [
+        "2-part A/B Epoxy resin kit (specifically for jewelry/crafts)",
+        "glitter or sprinkles (various colors and consistencies)",
+        "found natural objects (e.g., tiny dried flowers, small pressed leaves, sand, tiny shells, dried moss, lichen, small pebbles)",
+        "jewelry findings (e.g., jump rings, bails, earring hooks, necklace chains)",
+        "rubbing alcohol (for cleaning tools and molds)",
+        "paper towels or old rags"
+      ],
+      "phases": [
+        {
+          "pic": "epoxy_jewelry_phase1_prep.png",
+          "paragraphs": [
+            {
+              "text": "PREPARE YOUR WORKSPACE: Find a clean, cool, level, and well-ventilated workspace. Lay down a protective covering like parchment paper, silicone mat, or plastic sheeting. Ensure your silicone molds are clean and free of dust or debris."
+            },
+            {
+              "text": "Gather your natural objects and glitter. Make sure any natural items (flowers, leaves) are completely dry. Moisture can cause issues with resin curing and clarity."
+            },
+            {
+              "text": "Pro Tip: Think about your design before you start. Consider layering elements or using different colors of glitter to create depth."
+            }
+          ]
+        },
+        {
+          "pic": "epoxy_jewelry_phase2_mix_pour.png",
+          "paragraphs": [
+            {
+              "text": "Wearing gloves, carefully measure and mix your 2-part epoxy resin according to the manufacturer's instructions. Accuracy is key for proper curing! Stir slowly and thoroughly for the recommended time (usually 2-3 minutes) to avoid introducing too many bubbles."
+            },
+            {
+              "text": "Scrape the sides and bottom of your mixing cup while stirring to ensure both parts are fully incorporated. If your kit recommends a 'double pour' method (mixing in two separate cups), follow that for best results."
+            }
+          ]
+        },
+        {
+          "pic": "epoxy_jewelry_phase3_add_elements.png",
+          "paragraphs": [
+            {
+              "text": "Pour a small amount of the mixed resin into your silicone molds as a base layer. This helps 'set' some of your inclusions and prevents them from sinking entirely if they're heavy."
+            },
+            {
+              "text": "Using toothpicks, carefully arrange your larger natural objects (like dried flowers or leaves) into the resin base layer. You can also sprinkle in some chunky glitter at this stage if desired."
+            },
+            {
+              "text": "If bubbles appear after pouring, gently pass a heat gun (on low setting) or the flame of a lighter quickly over the surface to pop them. Be careful not to scorch the resin or mold."
+            }
+          ]
+        },
+        {
+          "pic": "epoxy_jewelry_phase4_layer_cure.png",
+          "paragraphs": [
+            {
+              "text": "Allow the first layer to partially cure until it's tacky but not fully hard (check your resin's instructions, often 2-4 hours). This prevents objects from floating or sinking too much in the final pour."
+            },
+            {
+              "text": "Once tacky, add your fine glitter and any smaller natural objects. Fill the molds the rest of the way with more mixed resin. Again, use a toothpick to position elements and pop any new bubbles."
+            },
+            {
+              "text": "Cover your molds with a box or lid to protect them from dust while they cure. Let them cure completely for the time specified by your resin manufacturer (usually 12-24 hours, sometimes longer)."
+            }
+          ]
+        },
+        {
+          "pic": "epoxy_jewelry_phase5_finish_assemble.png",
+          "paragraphs": [
+            {
+              "text": "Once fully cured and hard to the touch, carefully demold your resin pieces. They should pop out easily from the flexible silicone molds."
+            },
+            {
+              "text": "Inspect your pieces for any rough edges. You can trim these carefully with small scissors or fine-grit sandpaper. If your molds didn't create holes for findings, use a precision drill to carefully drill small holes."
+            },
+            {
+              "text": "Finally, use your jewelry pliers to attach jump rings, bails, earring hooks, or necklace chains to transform your resin creations into wearable jewelry!"
             }
           ]
         }
