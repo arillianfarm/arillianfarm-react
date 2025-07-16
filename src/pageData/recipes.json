@@ -2491,7 +2491,89 @@
           "instruction": "Serve toasted or soft, with your favorite schmear or as a sandwich. Store (fully cooled) bagels for 1-3 days in a paper bag or slice and individually wrap each bagel and freeze for upto 3 months. (To thaw frozen bagels, loosely in foil, wrap in foil and bake a 350°F for 5-10 minutes.)"
         }
       ],
-      "notes": "A rewarding journey to delicious homemade sourdough egg bagels, perfect for a special breakfast!"
+      "notes": "A Delicous Journey From Starter To Schmear"
+    },
+    {
+      "name": "Air Frier Chili Cornbread Casserole",
+      "header_pic": "chili-cornbread-casserole-done.png",
+      "pub_date": "7/18/25",
+      "servings": "6-8 servings",
+      "vid": "I6_rV6sfYPU",
+      "related_recipes": [],
+      "ingredients": [
+        "1 tbsp olive oil",
+        "2-3 cloves garlic, minced",
+        "1/2 cup chopped yellow onion",
+        "1/2 cup chopped red bell pepper",
+        "1 (15-ounce) can red kidney beans, rinsed and drained",
+        "1 (14.5-ounce) can diced tomatoes",
+        "1 tbsp chili powder blend",
+        "1 tsp ground cumin",
+        "1 tsp dried oregano",
+        "1/2 tsp onion powder",
+        "1/2 cup vegetable broth (or 1/4 of a bouillon cube hydrated in water)",
+        "1/2 tsp smoked paprika (optional)",
+        "Black pepper to taste",
+        "1 cup yellow cornmeal",
+        "1/2 cup all-purpose flour",
+        "1 tbsp sugar",
+        "2 tsp baking powder",
+        "1/2 tsp salt",
+        "1 cup shredded sharp cheddar cheese",
+        "1 (15-ounce) can creamed corn",
+        "1/2 cup full-fat Greek yogurt",
+        "2 large eggs, lightly beaten",
+        "6 tbsp (3/4 stick) unsalted butter, melted and cooled slightly",
+        "1/2 cup canned or fresh chopped jalapeños (adjust to your spice preference)",
+        "Optional: a few thin slices of fresh jalapeño for garnish on top"
+      ],
+      "steps": [
+        {
+          "pic": "",
+          "instruction": "Lightly grease two 9x5 loaf pans -- or line with parchment paper Line with parchment paper (with paper hanging over) if freezing"
+        },
+        {
+          "pic": "chili-base-cooking.png",
+          "instruction": "Heat olive oil in a large skillet or pot over medium heat. Add chopped onion and red bell pepper and cook until softened (about 5 minutes) then add minced garlic and cook until garlic is fragrant (about a minute)."
+        },
+        {
+          "pic": "chili-base-simmering.png",
+          "instruction": "Stir in kidney beans, tomatoes, chili powder, cumin, oregano, onion powder, and smoked paprika (if using). Pour in the vegetable broth. Bring to a simmer, then reduce heat to low and let it gently cook for about 10-15 minutes. Season with salt and pepper to taste."
+        },
+        {
+          "pic": "",
+          "instruction": "In a large mixing bowl, whisk together cornmeal, flour, sugar, baking powder, and salt."
+        },
+        {
+          "pic": "cornbread-wet-and-dry-ingredients.png",
+          "instruction": "In a separate medium bowl,mix creamed corn, greek yogurt, and lightly beaten eggs. Then pour the wet ingredients into the dry ingredients."
+        },
+        {
+          "pic": "cornbread-mixing-cheese-jalapeno.png",
+          "instruction": "Add the melted butter and chopped jalapeños to the cornbread batter feel free to adjust the amount of jalapeños to taste. Stir until combined (don't over mix) then fold in the shredded sharp cheddar cheese."
+        },
+        {
+          "pic": "chili-casserole-assembly.png",
+          "instruction": "Spread the chili evenly in your prepared baking dish(es). Then, carefully spoon the cornbread batter over the top of the bean chili base, covering it completely. Garnish with jalapeño slices for extra heat and flare."
+        },
+        {
+          "pic": "chili-casserole-baking.png",
+          "instruction": "Air fry at 350 for 25-30 minutes, or until the cornbread topping is browned, firm to the touch, and a toothpick inserted into the cornbread comes out clean."
+        },
+        {
+          "pic": "chili-cornbread-casserole-done.png",
+          "instruction": "Let the casserole rest for 5-10 minutes before serving. Optional- serve with a dollop of greek yogurt or sour cream"
+        },
+        {
+          "pic": "chili-casserole-freezing.png",
+          "instruction": "To freeze: If freezing one (or both) of the loaf pan casseroles, allow to cool completely at room temperature, then chill thoroughly in the refrigerator. Once cold, wrap the casserole (either in the pan, or removed from the pan using parchment overhangs) very tightly in at least two layers of plastic wrap, followed by heavy-duty aluminum foil. Label with name and date. Use within 3 months."
+        },
+        {
+          "pic": "chili-casserole-reheating-airfryer-oven.png",
+          "instruction": "To reheat from frozen: Thaw overnight in the refrigerator for best results. Preheat air fryer to 325-350°F or oven to 350°F. Place unwrapped casserole (in a loaf pan or oven-safe dish) and cover loosely with foil. Air fry for 15-25 minutes (if thawed) or 45-75 minutes (if frozen). Oven bake for 25-40 minutes (if thawed) or 1-1.5 hours (if frozen). Remove foil for the last 5-10 minutes to re-crisp topping. Heat until bubbling (and internal temperature reaches 165°F)."
+        }
+      ],
+      "notes": "A bed of bold hearty chili blanketed with cheesy, pillowy cornbread."
     }
   ]
 }

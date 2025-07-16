@@ -1621,23 +1621,48 @@
     },{
       "youtubeID": "T5prC0cmjmM",
       "title": "\uD83E\uDED1\uD83E\uDDC0  Easy Air Fryer Goat Cheese Stuffed Peppers |  You Goat-a Try this Quick Appetizer! \uD83D\uDC10",
-      "albums": ["new", "cooking"],
+      "albums": ["cooking"],
       "release_date": "7/11/25"
     },{
       "youtubeID": "1AY4dRc2U4U",
       "title": "\uD83E\uDEE0\uD83D\uDC14\uD83D\uDC10 AZ Summer Struggles: Our Pets Get It - Meh Monday \uD83D\uDE11",
-      "albums": ["new", "chickens", "goats"],
+      "albums": ["chickens", "goats"],
       "release_date": "7/11/25"
     },{
       "youtubeID": "rELHC9serHI",
       "title": "\uD83C\uDF2A️\uD83C\uDF43\uD83D\uDC10\uD83D\uDE0BWhen Every Windstorm is a Snack Attack!",
-      "albums": ["new", "goats"],
+      "albums": ["goats"],
       "release_date": "7/11/25"
     },{
       "youtubeID": "arKKjBjMKso",
       "title": "\uD83E\uDD70\uD83D\uDC36 P O V - You Found the One who Shakes Your World - Throwback Fursday",
-      "albums": ["new", "dogs"],
+      "albums": ["dogs"],
       "release_date": "7/11/25"
+    },{
+      "youtubeID": "ywNgftxBr24",
+      "title": "\uD83C\uDFA3\uD83D\uDC13Mosquito Fish Feast w/ a Side of Family Ponding!",
+      "albums": ["new", "chickens"],
+      "release_date": "7/18/25"
+    },{
+      "youtubeID": "6kv-UKFQIkc",
+      "title": "\uD83E\uDD5A\uD83E\uDD6F\uD83D\uDCAA\uD83E\uDD24 From Starter to Schmear: Making Egg-celent Sourdough Egg Bagels from Scratch",
+      "albums": ["new", "cooking"],
+      "release_date": "7/18/25"
+    },,{
+      "youtubeID": "hb8ZGAIFk2E",
+      "title": "\uD83E\uDD63⚙️\uD83E\uDD2F Mixer Mishap - Stand Mixer Couldn't Stand Up to My Bagel Dough | Meh Monday \uD83D\uDE11",
+      "albums": ["new", "cooking"],
+      "release_date": "7/18/25"
+    },{
+      "youtubeID": "G1nZ5BLo2wU",
+      "title": "\uD83C\uDF42\uD83D\uDC10\uD83E\uDD2ADry artichoke leaves are like Takis for goats",
+      "albums": ["new", "goats"],
+      "release_date": "7/18/25"
+    },{
+      "youtubeID": "Tamz4Xg_ljs",
+      "title": "\uD83D\uDC36 \uD83E\uDD78 \uD83D\uDCF7 \"Imma Be a Good Boi & Sit Still While my Mom Figures out this Trend\" - Pajama ",
+      "albums": ["new", "dogs"],
+      "release_date": "7/18/25"
     }
   ]
 }

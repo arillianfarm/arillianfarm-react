@@ -90,6 +90,52 @@
         }
       ],
       "notes": "Hasta Lasagna Don't Get Any On Ya"
+    },
+    {
+      "name": "Yeehaw Coleslaw",
+      "header_pic": "yeehaw-coleslaw-hero.png",
+      "pub_date": "7/14/25",
+      "servings": "5-6 cups",
+      "vid": "REMINDER: Add YouTube Short ID here",
+      "related_recipes": ["chili Cornbread Casserole"],
+      "ingredients": [
+        "1 lb cabbage, shredded (about 5-6 cups)",
+        "1/2 cup mayonnaise",
+        "1/4 cup full-fat Greek yogurt",
+        "Juice of 1/2 lemon (approx. 1 standard lemon juice ice cube, thawed)",
+        "1/2 tablespoon prepared horseradish (or to taste)",
+        "1/2 tablespoon granulated sugar (or to taste)",
+        "1/2 tablespoon Dijon mustard",
+        "Salt to taste",
+        "Freshly ground black pepper to taste",
+        "Pinch of smoked paprika (optional)",
+        "1/4 finely minced deseeded jalapeño (optional)",
+        "1/4 cup finely diced red or green bell pepper (optional)",
+        "2 tablespoons fresh chopped cilantro (optional)"
+      ],
+      "steps": [
+        {
+          "pic": "shredded-cabbage.png",
+          "instruction": "Shred the cabbage. For crisper slaw, you can soak the shredded cabbage in cold salted water for about 30 minutes, then drain it very well by squeezing out excess water. This step is optional."
+        },
+        {
+          "pic": "coleslaw-dressing-prep.png",
+          "instruction": "In a medium bowl, whisk together the mayonnaise, full-fat Greek yogurt, lemon juice, prepared horseradish, sugar, Dijon mustard, salt, and pepper until well combined and smooth. Taste and adjust seasonings if needed (more sugar for sweetness, more horseradish for heat, more salt/pepper etc)."
+        },
+        {
+          "pic": "coleslaw-mixing-bowl.png",
+          "instruction": "Add the shredded cabbage (and any optional additions like minced jalapeño, diced bell pepper, or fresh cilantro) to the dressing. Toss thoroughly to coat all the cabbage evenly."
+        },
+        {
+          "pic": "coleslaw-chilling.png",
+          "instruction": "Cover the bowl and refrigerate for at least 1 hour to allow the flavors to meld. Stir again before serving."
+        },
+        {
+          "pic": "yeehaw-coleslaw-final.png",
+          "instruction": "Serve alongside your favorite salty savory main"
+        }
+      ],
+      "notes": "Coleslaw with horseradish kick."
     }
   ]
 }
