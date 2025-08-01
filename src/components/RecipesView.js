@@ -107,25 +107,25 @@ const RecipeSteps = ({ fullRecipe, steps, isSmallView }) => {
 };
 
 const RelatedRecipes = ({ relatedRecipes, onRecipeClick }) => {
-        if (!relatedRecipes || relatedRecipes.length === 0) {
-            return null;
-        }
-        return (
-            <div className="row mb-5">
-                <div className="col-xs-12">
-                    <hr />
-                </div>
-                <div className="col-xs-12">
-                    <h4>Related Recipes</h4>
-                </div>
-                {relatedRecipes.map((rr, index) => (
-                    <div key={`rr-${index}`} className="col-xs-6 col-lg-4 cursPoint" onClick={() => onRecipeClick(null, rr)}>
-                        <a>{titleCaps(rr)}</a>
-                    </div>
-                ))}
+    if (!relatedRecipes || relatedRecipes.length === 0) {
+        return null;
+    }
+    return (
+        <div className="row mb-5">
+            <div className="col-xs-12">
+                <hr />
             </div>
-        );
-    };
+            <div className="col-xs-12">
+                <h4>Related Recipes</h4>
+            </div>
+            {relatedRecipes.map((rr, index) => (
+                <div key={`rr-${index}`} className="col-xs-6 col-lg-4 cursPoint" onClick={() => onRecipeClick(null, rr)}>
+                    <a>{titleCaps(rr)}</a>
+                </div>
+            ))}
+        </div>
+    );
+};
 
 const FeaturedRecipe = ({ recipe, assembleAndCopy, isSmallView, handleRelatedRecipeClick }) => {
     if (!recipe || !recipe.name) {
@@ -196,6 +196,8 @@ const RecipesView = () => {
     const [recipes, setRecipes] = useState([]);
     const [featuredRecipe, setFeaturedRecipe] = useState(null);
     const [isSmallView, setIsSmallView] = useState(window.innerWidth <= 400);
+    // Initialize collapseNav based on whether a recipe ID is provided initially
+    // and if the view is small. Default to true (collapsed).
     const [collapseNav, setCollapseNav] = useState(true);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
@@ -220,24 +222,37 @@ const RecipesView = () => {
                 initialFeaturedRecipe = processedRecipes.find(recipe => getSlug(recipe.name) === idFromQuery);
             }
 
-            // Set the featured recipe - default to the first one if no ID or not found
+            // Set the featured recipe:
+            // 1. If an ID is present and matches, use that recipe.
+            // 2. Otherwise, use the most recent recipe (which is processedRecipes[0] after reverse).
             setFeaturedRecipe(initialFeaturedRecipe || processedRecipes[0]);
+
+            // Always collapse the navigation when the view loads/updates from URL change
+            // This ensures consistent behavior, especially on mobile, where the list
+            // should always start collapsed unless the user expands it.
+            setCollapseNav(true);
+
 
             setError(null); // Clear any previous errors
 
-            } catch (e) {
-                setError(e);
-                console.error("Error fetching recipes:", e);
-                setRecipes([]); // Clear recipes on error
-                setFeaturedRecipe(null);
-            } finally {
-                setLoading(false);
-            }
+        } catch (e) {
+            setError(e);
+            console.error("Error fetching recipes:", e);
+            setRecipes([]); // Clear recipes on error
+            setFeaturedRecipe(null);
+        } finally {
+            setLoading(false);
+        }
     }, [location.search]);
 
     useEffect(() => {
         const handleResize = () => {
-            setIsSmallView(window.innerWidth <= 400);
+            const currentIsSmall = window.innerWidth <= 400;
+            setIsSmallView(currentIsSmall);
+            // If the view becomes large, ensure nav is not collapsed
+            if (!currentIsSmall) {
+                setCollapseNav(false);
+            }
         };
 
         window.addEventListener('resize', handleResize);
@@ -290,13 +305,10 @@ const RecipesView = () => {
                 navigate(pathForNavigate); // <-- Pass the correctly extracted relative path to navigate
                 // No need to setFeaturedRecipe here, the useEffect will detect the location.search change and update featuredRecipe
             }
-
+            // Always collapse the navigation after a recipe is clicked (useful for small views)
+            setCollapseNav(true);
         } else {
             console.warn("RecipesView: handleRecipeClick - Called with no valid nameValue.");
-        }
-
-        if (isSmallView) {
-            setCollapseNav(true);
         }
     };
 
@@ -324,20 +336,20 @@ const RecipesView = () => {
 
 
         return (
-        <>
-            <Helmet>
-                <title>{pageTitle}</title>
-                <meta name="description" content={pageDescription} />
-                {/* add other meta tags here too */}
-            </Helmet>
-            <FeaturedRecipe
-                key={recipeSlug}
-                recipe={item}
-                handleRelatedRecipeClick={handleRecipeClick}
-                assembleAndCopy={assembleAndCopyRecipeSummary}
-                isSmallView={isSmallView}
-            />
-        </>
+            <>
+                <Helmet>
+                    <title>{pageTitle}</title>
+                    <meta name="description" content={pageDescription} />
+                    {/* add other meta tags here too */}
+                </Helmet>
+                <FeaturedRecipe
+                    key={recipeSlug}
+                    recipe={item}
+                    handleRelatedRecipeClick={handleRecipeClick}
+                    assembleAndCopy={assembleAndCopyRecipeSummary}
+                    isSmallView={isSmallView}
+                />
+            </>
         );
     };
 
@@ -362,6 +374,7 @@ const RecipesView = () => {
                     <div className="row cursPoint">
                         <div className="col-xs-12">
                             <h3>
+                                {/* Show the button only on small views */}
                                 {isSmallView && (
                                     <button className="btn btn-large btn-primary" onClick={() => setCollapseNav(!collapseNav)}>
                                         <i className="fa fa-list"></i>
@@ -369,6 +382,7 @@ const RecipesView = () => {
                                 )}
                             </h3>
                         </div>
+                        {/* Render the list only if not collapsed OR if not a small view (i.e., large view) */}
                         {(!loading && !error && recipes && recipes.length && (!collapseNav || !isSmallView)) &&
                             recipes.map((recipe) => (
                                 <ListItem

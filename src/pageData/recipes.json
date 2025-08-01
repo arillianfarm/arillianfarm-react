@@ -2189,6 +2189,41 @@
       "notes": "Breakfast for Dinner and Dinner For Breakfast at the Same time"
     },
     {
+      "name": "Bowl-d & Beautiful Salad Shells",
+      "header_pic": "air-fryer-tostada-shells-hero.png",
+      "pub_date": "5/23/25",
+      "servings": "1 shell",
+      "vid": "",
+      "related_recipes": [],
+      "ingredients": [
+        "1 flour tortilla (small to medium size recommended)",
+        "1/2 tablespoon soft Butter, Olive oil spray or 1/2 teaspoon olive oil"
+      ],
+      "steps": [
+        {
+          "pic": "tostada-shell-oil.png",
+          "instruction": "If using butter, spread evenly across both sides of the tortilla for oil, lightly spray or drizzle one side of a flour tortilla with olive oil. Using your fingers, spread the oil evenly over the surface."
+        },
+        {
+          "pic": "tostada-shell-mold.png",
+          "instruction": "Carefully place the greased-up tortilla in an oven-safe jello mold (or a small, inverted oven-safe bowl/ramekin that will fit in your air fryer). Gently press the tortilla down to form a bowl shape, allowing the edges to drape."
+        },
+        {
+          "pic": "tostada-shell-airfry.png",
+          "instruction": "Place the mold (with tortilla in it) in your air fryer and place another small, slightly heavy oven-safe dish on top of the tortilla to help maintain its shape during air frying."
+        },
+        {
+          "pic": "tostada-shell-crisp.png",
+          "instruction": "Air fry at 385°F for 3-5 minutes, or until the tortilla is golden brown and crisp. Cooking time can vary based on tortilla thickness and air fryer model. Watch carefully to prevent burning!"
+        },
+        {
+          "pic": "air-fryer-tostada-shells-hero.png",
+          "instruction": "Carefully remove the crispy tostada bowl shell from the air fryer and gently lift it off the inner bowl and turn upside down to remove from the mold. Let it cool for a moment before filling."
+        }
+      ],
+      "notes": "You'll be bowled over by this versatile, crispy lil shell!"
+    },
+    {
       "name": "Taco Bout it Bowl",
       "pub_date": "5/23/25",
       "vid": "",
@@ -2196,7 +2231,7 @@
       "header_pic": "tostada-bowl-done.png",
       "categories": ["salad", "lunch", "dinner"],
       "servings": "1 serving",
-      "related_recipes": [],
+      "related_recipes": ["Bowl-d & Beautiful Salad Shells"],
       "ingredients": [
         "1 flour tortilla",
         "olive oil (to air fry tortilla)",
@@ -2372,22 +2407,22 @@
       "related_recipes": [],
       "ingredients": [
         "1 cup cooked rice (preferably day-old, for better crisping)",
-        "1 (15 oz) can kidney beans, rinsed and drained",
+        "1 (15 oz) can black or kidney beans, rinsed and drained",
         "1/2 cup shredded cheese (Taco, Cheddar, Jack, or your preference)",
         "1/4 cup Greek yogurt or sour cream, plus extra for serving",
         "1/2 cup frozen corn",
         "½ bell pepper or 3-4 baby bell peppers (any color), thinly sliced",
-        "2 green onion tops, thinly sliced",
-        "1/2 salsa or chopped tomatoes",
-        "1 teaspoon paprika",
-        "1/2 teaspoon ground cumin",
+        "1/2 teaspoon paprika",
+        "1/4 teaspoon ground cumin",
         "1/2 teaspoon chili powder",
-        "Salt and freshly ground black pepper to taste"
+        "Salt and freshly ground black pepper to taste",
+        "2 green onion tops, thinly sliced",
+        "1/2 cup salsa or chopped tomatoes"
       ],
       "steps": [
         {
           "pic": "santa-fe-rice-beans-layer.png",
-          "instruction": "In a medium bowl, combine the cooked rice, rinsed kidney beans, 1/4 cup Greek yogurt or sour cream, frozen corn, bell peppers, paprika, cumin, chili powder, salt, and pepper. Gently mix everything together until well combined."
+          "instruction": "In a medium bowl, combine the cooked rice, beans, Greek yogurt or sour cream, frozen corn, bell peppers, paprika, cumin, chili powder, salt, and pepper. Gently mix everything together until well combined."
         },
         {
           "pic": "santa-fe-rice-beans-prep.png",
@@ -2395,7 +2430,7 @@
         },
         {
           "pic": "santa-fe-rice-beans-cooked.png",
-          "instruction": "Cook in the air fryer at 385°F (190°C) for 10-12 minutes, or until the cheese is bubbly and golden, and the rice and vegetables are heated through and slightly crisp."
+          "instruction": "Cook in the air fryer at 385°F (190°C) for 10-12 minutes, or until the cheese is bubbly and slightly crisp."
         },
         {
           "pic": "santa-fe-rice-beans-serve.png",
@@ -2570,10 +2605,102 @@
         },
         {
           "pic": "chili-casserole-reheating-airfryer-oven.png",
-          "instruction": "To reheat from frozen: Thaw overnight in the refrigerator for best results. Preheat air fryer to 325-350°F or oven to 350°F. Place unwrapped casserole (in a loaf pan or oven-safe dish) and cover loosely with foil. Air fry for 15-25 minutes (if thawed) or 45-75 minutes (if frozen). Oven bake for 25-40 minutes (if thawed) or 1-1.5 hours (if frozen). Remove foil for the last 5-10 minutes to re-crisp topping. Heat until bubbling (and internal temperature reaches 165°F)."
+          "instruction": "To reheat from frozen: For faster cooking, thaw overnight in the refrigerator. Preheat air fryer to 325°F or oven to 350°F. Place unwrapped casserole (in a loaf pan or oven-safe dish) and cover loosely with foil. Air fry for 25-30 minutes (if thawed) or 45-75 minutes (if frozen). Oven bake for 25-40 minutes (if thawed) or 1-1.5 hours (if frozen). Remove foil for the last 5-10 minutes to re-crisp topping. Heat until bubbling and browned on top."
         }
       ],
       "notes": "A bed of bold hearty chili blanketed with cheesy, pillowy cornbread."
+    },
+    {
+      "name": "Yeehaw Coleslaw",
+      "header_pic": "yeehaw-coleslaw-mixed.png",
+      "pub_date": "7/21/25",
+      "servings": "5-6 cups",
+      "vid": "wSXyx9CNtKk",
+      "related_recipes": ["chili Cornbread Casserole"],
+      "ingredients": [
+        "1 lb cabbage, shredded (about 5-6 cups)",
+        "1/2 cup mayonnaise",
+        "1/4 cup full-fat Greek yogurt",
+        "1.5-2 tablespoons lemon juice",
+        "1/2 tablespoon prepared horseradish (or to taste)",
+        "1/2 tablespoon granulated sugar (or to taste)",
+        "1/2 tablespoon Dijon mustard",
+        "Salt to taste",
+        "Freshly ground black pepper to taste",
+        "1 tablespoon finely minced, de-seeded jalapeño (optional)",
+        "1/4 cup finely diced red bell pepper (optional)"
+      ],
+      "steps": [
+        {
+          "pic": "yeehaw-coleslaw-prep.png",
+          "instruction": "Shred the cabbage (and slice bell pepper and jalapeno if using)."
+        },
+        {
+          "pic": "coleslaw-dressing-prep.png",
+          "instruction": "In a medium bowl, whisk together the mayonnaise, full-fat Greek yogurt, lemon juice, prepared horseradish, sugar, Dijon mustard, salt, and pepper until well combined and smooth. Adjust seasonings to taste (more sugar for sweetness, more horseradish for heat, more salt/pepper etc)."
+        },
+        {
+          "pic": "coleslaw-mixing-bowl.png",
+          "instruction": "Add the shredded cabbage (and any optional additions like minced jalapeño, diced bell pepper) to the dressing. Toss until cabbage is evenly coated."
+        },
+        {
+          "pic": "yeehaw-coleslaw-done.png",
+          "instruction": "Cover the bowl and refrigerate for at least 1 hour to allow the flavors to meld. Stir again before serving alongside your favorite salty savory main."
+        }
+      ],
+      "notes": "A great side-kick for your summer BBQ."
+    },
+    {
+      "name": "You'll Like It Elote Tostada Bowl",
+      "header_pic": "elote-salad-plated.png",
+      "pub_date": "8/1/25",
+      "servings": "3-6 tostada bowls",
+      "vid": "FYvgCJQV8m0",
+      "related_recipes": ["pickled onions","Bowl-d & Beautiful Salad Shells"],
+      "ingredients": [
+        "3-4 ears of fresh corn",
+        "1-2 tablespoon olive oil or butter (for corn)",
+        "1 (15-ounce) can black beans, rinsed and drained",
+        "1/2 - 1 large avocado, diced",
+        "1/2 cup diced red bell pepper",
+        "1/4 cup pickled red onions (drained) OR red onion diced",
+        "2-3 cups chopped romaine lettuce (or your favorite hearty greens) ",
+        "1/4 cup mayonnaise",
+        "1/4 cup plain Greek yogurt (full-fat or 2% recommended)",
+        "1/4 cup crumbled Cotija cheese (or your favorite cheese)",
+        "1 tablespoon fresh lime juice",
+        "1/2 teaspoon chili powder",
+        "1-2 cloves garlic, minced (or 1/4 teaspoon garlic powder)",
+        "Freshly ground black pepper to taste",
+        "1/4 cup chopped fresh cilantro (for garnish)",
+        "Extra crumbled Cotija cheese (for garnish)",
+        "Lime wedges (for garnish)",
+        "Optional: A sprinkle of Tajín or additional chili powder (for garnish)",
+        "Optional: Tostada Bowls"
+      ],
+      "steps": [
+        {
+          "pic": "elote-corn-prep.png",
+          "instruction": "(Optional) Soak corn (in husks) in ice water for 15-30 minutes. Drain and gently peel back husks and silk, butter and season cobs with black pepper, chili powder (and optional tajin). Carefully pull the husks back around the seasoned corn."
+        },
+        {
+          "pic": "elote-corn-airfry.png",
+          "instruction": "Air fry at 385°F for 15-20 minutes, flipping halfway --until tender and the husks are roasted. For more char peel back husks and air fry at 400 for  for the last 3-5 minutes."
+        },
+        {
+          "pic": "elote-dressing-mix.png",
+          "instruction": "In a separate (medium-sized) bowl, whisk together the mayonnaise, Greek yogurt, lime juice, chili powder, garlic (powder), salt, and black pepper and half of the (Cotija) cheese."
+        },
+        {
+          "pic": "elote-corn-kernels.png",
+          "instruction": "Once the corn is no longer too hot to handle, remove the corn husks and cut off the cob. (hold each cob upright, slicing downwards to remove the kernels.) Stir the corn kernels into the dressing, mixing until the corn is well coated. "
+        },
+        {
+          "pic": "elote-salad-plated.png",
+          "instruction": "In a medium - large bowl, mix the chopped romaine lettuce, rinsed black beans, diced red bell pepper, and pickled red onions. To serve, divide the lettuce/veggie mixture evenly in 4-6 (tostada) bowls then spoon the elote mixture generously over the greens. Garnish with the remaining Cotija cheese, fresh cilantro, lime wedges, and optional Tajín."
+        }
+      ],
+      "notes": "The Crisp Corn Salad You've Bean Cojita-ing For!"
     }
   ]
 }

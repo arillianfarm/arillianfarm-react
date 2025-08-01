@@ -2481,10 +2481,12 @@
               "text": "Assembling and editing are important, but the key to viral success (as far as I can tell) is to be **topical**—referencing current events, holidays, or trends—while adding a unique twist to make your content pop."
             },
             {
-              "text": "Including trending audio usually gets my Shorts around 1,000 views. However, all of my 5,000+ viewed Shorts didn't contain music; instead, they had what I'd call an **unexpectedly relatable element of silliness.**"
+              "text": "My most viewed YouTube Short, 'Happy Flipping Wednesday - You Goat This.' In the video, I gave my goats a playful 'flip-off,' and immediately one goat hilariously tried to mount the other. While it certainly gave viewers a chuckle, the main reason it likely succeeded was its **unexpected relatability due to a natural disaster that occurred the night before its release** causing it to suddenly resonated with a wide audience. It hit the right eyeballs at the right moment, proving that sometimes, virality is about landing unique silliness just right."
+            },{
+              "text": "I also find it helpful to describe my content to an AI and ask it to suggest a title and description (with emojis and hashtags), and tags (I use Gemini since its Google-owned like YouTube)."
             },
             {
-              "text": "Take my most viewed YouTube Short, 'Happy Flipping Wednesday - You Goat This.' In the video, I gave my goats a playful 'flip-off,' and immediately one goat hilariously tried to mount the other. While it certainly gave viewers a chuckle, the main reason it likely succeeded was its **unexpected relatability due to a natural disaster that occurred the night of its release** causing it to suddenly resonated with a wide audience. It hit the right eyeballs at the right moment, proving that sometimes, virality is about landing unique silliness just right."
+              "text": "Including trending audio usually gets my Shorts around 1,000 views. However, all of my 5,000+ viewed Shorts didn't contain music; instead, they had what I'd call an **unexpectedly relatable element of silliness.** Also, be aware that the owner of the audio you use in your short is the recipient of any ad revenue."
             }
           ]
         },
@@ -2527,7 +2529,7 @@
           "vid": "6QnlCWRjIPc",
           "paragraphs": [
             {
-              "text": "So, don't overthink it—just grab your phone, unleash your creativity, and let your unique brand of wacky shine!"
+              "text": "So, don't overthink it —just grab your phone, unleash your creativity, and let your unique brand of wacky shine!"
             }
           ]
         }
@@ -2622,6 +2624,46 @@
             },
             {
               "text": "Finally, use your jewelry pliers to attach jump rings, bails, earring hooks, or necklace chains to transform your resin creations into wearable jewelry!"
+            }
+          ]
+        }
+      ]
+    }, {
+      "name": "Making a Cabbage Tetherball for Backyard Chickens",
+      "pub_date": "07/25/25",
+      "header_pic": "hanging_cabbage_tetherball.png",
+      "about": "Preserve some tiny natural treasures and craft sparkling pendants, earrings, and more.",
+      "categories": ["pets"],
+      "tools": [
+        "carabiner clips (optional)"
+      ],
+      "materials": [
+        "a whole fresh cabbage",
+        "an eyelet screw",
+        "twine"
+      ],
+      "phases": [
+        {
+          "pic": "eyelit_screw_for_cabbage_tetherball.png",
+          "paragraphs": [
+            {
+              "text": "Screw an eyelet screw into the core of the cabbage."
+            }
+          ]
+        },
+        {
+          "pic": "hanging_cabbage_tetherball.png",
+          "paragraphs": [
+            {
+              "text": "Thread twine or rope through the eyelet and hang from an overhead beam, table, coop ceiling etc in your chickens coop or barnyard area. Note - If you have a carabiner clip to tie the twine to, it may be easier to hang (instead of tying directly to the the anchor point)"
+            }
+          ]
+        },
+        {
+          "vid": "4FAW_5AvTfM",
+          "paragraphs": [
+            {
+              "text": "Enjoy the Show!"
             }
           ]
         }

@@ -161,23 +161,14 @@ const BlogView = () => {
                         {featuredBlogEntry.sections.map((section, index) => (
                             <div  key={`section-${index}`}>
                                 {section.pics && (section.pics.map((pic, index) => (
-                                    <img
-                                        key={`blog-pic-${pic}`}
-                                        src={`${process.env.PUBLIC_URL}/assets/blog/${pic}`}
-                                        style={{ float: `${section.right_side_pic ? 'right' : 'left'}` }}
-                                        className="br20 p2 blog-image"
-                                        />
+                                    <div key={`blog-pic-${pic}`}>
+                                        <img
+                                            src={`${process.env.PUBLIC_URL}/assets/blog/${pic}`}
+                                            style={{ float: `${section.right_side_pic ? 'right' : 'left'}` }}
+                                            className="br20 p2 blog-image"
+                                            />
+                                    </div>
                                     )))}
-                                    {section.vid && (
-                                        <iframe
-                                            className="video-box blog-iframe"
-                                            height="300"
-                                            width="300"
-                                            autoPlay="0"
-                                            style={{ float: section.right_side_pic ? 'right' : 'left' }}
-                                            src={getIframeSrcForYouTube(section.vid)}>
-                                        </iframe>
-                                     )}
                                 {section.link && section.pic_file && (
                                     <a className="ml-5" style={{float: section.right_side_pic ? 'right': 'left'}}
                                             href={section.link}
@@ -188,6 +179,26 @@ const BlogView = () => {
                                         </a>
 
                                     )}
+                                {section.vid && (
+                                    <div className="row">
+                                        <div className="col-sm-12">
+                                            <iframe
+                                                className="video-box blog-iframe"
+                                                height="300"
+                                                width="300"
+                                                autoPlay="0"
+                                                style={{ float: section.right_side_pic ? 'right' : 'left' }}
+                                                src={getIframeSrcForYouTube(section.vid)}>
+                                            </iframe>
+
+                                        </div>
+                                        <div className="col-sm-12">
+                                            {section.vid_caption && (
+                                                <h5 className="text-white">{section.vid_caption}</h5>
+                                            )}
+                                        </div>
+                                    </div>
+                                )}
                                 {section.paragraphs && section.paragraphs.length && (
                                     <div className="blogPtext">
                                         {section.paragraphs.map((p, index) => (
