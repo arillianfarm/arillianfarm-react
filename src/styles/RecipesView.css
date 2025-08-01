@@ -1,0 +1,55 @@
+/* Base container for RecipesView */
+.recipes-container {
+    display: flex;
+    flex-direction: column; /* Default to column for small screens (mobile-first) */
+    width: 100%;
+    border: 2px solid white; /* Matches border2px */
+    border-radius: 20px; /* Matches br20 */
+    padding: 15px; /* Add some padding */
+    box-sizing: border-box; /* Include padding in element's total width and height */
+}
+
+/* Specific styling for the recipe list column */
+.recipe-list-column {
+    /* No specific flex properties needed here for column layout, will take full width */
+    margin-bottom: 20px; /* Space between list and featured recipe on mobile */
+    /* Maintain border-right for large screens, managed by JS later or Media Query */
+}
+
+/* Specific styling for the featured recipe column */
+.featured-recipe-column {
+    /* No specific flex properties needed here for column layout, will take full width */
+}
+
+/* Media query for larger screens (e.g., desktops, tablets) */
+@media (min-width: 992px) { /* Corresponds to Bootstrap's 'lg' breakpoint */
+    .recipes-container {
+        flex-direction: row; /* Arrange items in a row on larger screens */
+        justify-content: space-between; /* Distribute items with space between them */
+        align-items: flex-start; /* Align items to the top */
+    }
+
+    .recipe-list-column {
+        flex: 0 0 25%; /* Roughly 3/12 width */
+        max-width: 25%; /* Ensure it doesn't grow beyond this */
+        border-right: 2px solid white; /* Add border to the right for larger screens */
+        padding-right: 15px; /* Add padding for content next to border */
+        margin-bottom: 0; /* Remove mobile margin */
+        order: 1; /* Explicitly set order for list on desktop */
+    }
+
+    .featured-recipe-column {
+        flex: 0 0 73%; /* Roughly 9/12 width (leaving space for border and padding) */
+        max-width: 73%;
+        padding-left: 15px; /* Add padding for content next to border */
+        order: 2; /* Explicitly set order for featured recipe on desktop */
+    }
+
+    /* Override for ListItem border on desktop, as the column now has the main border */
+    .recipe-list-column .border2px {
+        border: none !important; /* Remove individual list item borders if they conflict */
+        border-radius: 0 !important;
+        margin: 0 !important;
+        padding: 5px 0; /* Adjust padding as needed */
+    }
+}
