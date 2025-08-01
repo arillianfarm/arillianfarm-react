@@ -6,12 +6,6 @@ import { Helmet } from 'react-helmet-async';
 import recipeData from '../pageData/recipes.json';
 import Comments from "./Comments";
 
-// Import the new CSS file
-import '../styles/RecipesView.css';
-
-// --- RecipeIngredients, RecipeSteps, RelatedRecipes, FeaturedRecipe components (no changes needed) ---
-// (Copy and paste them here from your provided code, they are unchanged)
-
 const RecipeIngredients = ({ ingredients, servings, headerPic, isSmallView, headerVid, headerTitle }) => {
     if (!ingredients || ingredients.length === 0) {
         return null;
@@ -133,11 +127,10 @@ const RelatedRecipes = ({ relatedRecipes, onRecipeClick }) => {
     );
 };
 
-const FeaturedRecipe = ({ recipe, assembleAndCopy, isSmallView, handleRelatedRecipeClick }) => {
+const FeaturedRecipe = ({ recipe, assembleAndCopy, isSmallView, handleRelatedRecipeClick }) => { // Removed setCollapseNav, collapseNav
     if (!recipe || !recipe.name) {
         return <div className="col-sm-12 text-white"><h3>Select a Recipe</h3></div>;
     }
-
 
     return (
         <div className="col-sm-12 col-lg-9" id={recipe.name.toLowerCase().replace(/ /g, '-')}>
@@ -198,11 +191,11 @@ const FeaturedRecipe = ({ recipe, assembleAndCopy, isSmallView, handleRelatedRec
     );
 };
 
-
 const RecipesView = () => {
     const [recipes, setRecipes] = useState([]);
     const [featuredRecipe, setFeaturedRecipe] = useState(null);
     const [isSmallView, setIsSmallView] = useState(window.innerWidth <= 400);
+    // Removed collapseNav state as it's no longer needed for toggling
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const location = useLocation();
@@ -224,6 +217,7 @@ const RecipesView = () => {
             }
 
             setFeaturedRecipe(initialFeaturedRecipe || processedRecipes[0]);
+            // Removed setCollapseNav(true) as there's no more collapse action
             setError(null);
         } catch (e) {
             setError(e);
@@ -238,7 +232,9 @@ const RecipesView = () => {
 
     useEffect(() => {
         const handleResize = () => {
-            setIsSmallView(window.innerWidth <= 400);
+            const currentIsSmall = window.innerWidth <= 400;
+            setIsSmallView(currentIsSmall);
+            // No need to set collapseNav here anymore
         };
 
         window.addEventListener('resize', handleResize);
@@ -274,6 +270,10 @@ const RecipesView = () => {
             } else {
                 navigate(pathForNavigate);
             }
+            // Scroll to the top of the page after the new content is loaded/rendered
+            // This is primarily for mobile where the featured recipe appears below the list.
+            window.scrollTo(0, 0);
+            // Removed setCollapseNav(true) here
         } else {
             console.warn("RecipesView: handleRecipeClick - Called with no valid nameValue.");
         }
@@ -312,6 +312,7 @@ const RecipesView = () => {
                     handleRelatedRecipeClick={handleRecipeClick}
                     assembleAndCopy={assembleAndCopyRecipeSummary}
                     isSmallView={isSmallView}
+                    // Removed setCollapseNav and collapseNav props
                 />
             </>
         );
@@ -325,10 +326,12 @@ const RecipesView = () => {
         return <div>Error loading recipes: {error.message}</div>;
     }
 
-    // Define the recipe list column for ordering
-    const recipeListContent = (
-        <div className="recipe-list-column text-white"> {/* Apply Flexbox class */}
+    // Define the recipe list column for dynamic ordering
+    const recipeListColumn = (
+        <div className={`col-sm-12 ${!isSmallView ? 'col-lg-3' : ''}`}
+             style={{ borderRight: !isSmallView ? '2px solid white' : '' }}>
             <div className="row cursPoint">
+                {/* The list will always render now, no collapse condition */}
                 {(!loading && !error && recipes && recipes.length) &&
                     recipes.map((recipe) => (
                         <ListItem
@@ -347,9 +350,9 @@ const RecipesView = () => {
         </div>
     );
 
-    // Define the featured recipe column for ordering
-    const featuredRecipeContent = (
-        <div className="featured-recipe-column"> {/* Apply Flexbox class */}
+    // Define the featured recipe column for dynamic ordering
+    const featuredRecipeColumn = (
+        <div className={`col-sm-12 ${!isSmallView ? 'col-lg-9' : ''}`}>
             {renderMainContent(featuredRecipe)}
         </div>
     );
@@ -357,16 +360,33 @@ const RecipesView = () => {
     console.log('RecipesView Render - isSmallView:', isSmallView);
 
     return (
-        <div className="recipes-container text-white"> {/* Use the main Flexbox container class */}
-            <div className="row" style={{width: '100%', margin: '0'}}> {/* Full width row for the heading */}
+        <div className="container border2px br20 text-white">
+            <div className="row">
                 <div className="col-sm-12">
                     <h2 className="text-white">Recipes</h2>
                 </div>
             </div>
-            {/* The main content structure will be controlled by Flexbox */}
-            {/* On small screens (default flex-direction: column), featuredRecipeContent will be first */}
-            {featuredRecipeContent}
-            {recipeListContent}
+            <div className="row">
+                {isSmallView ? (
+                    // On small screens, show Featured Recipe first (col-sm-12), then Recipe List (col-sm-12)
+                    <>
+
+                            <div className="col-sm-12">
+                                {featuredRecipeColumn}
+                            </div>
+                            <div className="col-sm-12">
+
+                                 {  recipeListColumn}
+                            </div>
+                    </>
+                ) : (
+                    // On large screens, show Recipe List first (col-lg-3), then Featured Recipe (col-lg-9)
+                    <>
+                        {recipeListColumn}
+                        {featuredRecipeColumn}
+                    </>
+                )}
+            </div>
         </div>
     );
 };
