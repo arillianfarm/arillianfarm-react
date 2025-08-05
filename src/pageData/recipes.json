@@ -2701,6 +2701,47 @@
         }
       ],
       "notes": "The Crisp Corn Salad You've Bean Cojita-ing For!"
+    } ,
+    {
+      "name": "Brunch and Chill Chilaquiles Bowl",
+      "header_pic": "chilaquiles-ingredients.png",
+      "pub_date": "8/8/25",
+      "servings": "2 tostada bowls",
+      "vid": "ADD SHORT LINK HERE",
+      "related_recipes": ["pickled onions","Bowl-d & Beautiful Salad Shells"],
+      "ingredients": [
+        "2 Tostada Bowls (see linked recipe) or thick corn tortilla chips",
+        "2 eggs",
+        "1-2 tablespoons butter",
+        "1 (15-ounce) can black beans, rinsed and drained",
+        "1/4 cup broth or hydrated bullion",
+        "1/4 teaspoon chili powder",
+        "1/4 -1/2 avocado, sliced or diced",
+        "1/4 cup pickled red onions",
+        "1/4 cup crumbled Cotija cheese",
+        "1/4 cup chopped fresh cilantro",
+        "Lime wedges (for garnish)"
+
+      ],
+      "steps": [
+        {
+          "pic": "chilaquiles-prep-beans.png",
+          "instruction": "In a small pot over medium heat stir together black beans, broth and chili powder. bring to a simmer and cook, uncovered for 5-10 minutes."
+        },
+        {
+          "pic": "chilaquiles-fry-eggs.png",
+          "instruction": "While beans are simmering, melt butter over medium heat in a frying (or omlet) pan and fry eggs until yolk has reached your desired consistency."
+        },
+        {
+          "pic": "",
+          "instruction": "Prepare or re-heat tostada bowls or chips (airfry 2-5 minutes at 385)"
+        },
+        {
+          "pic": "chilaquiles-assembled.png",
+          "instruction": "Layer portions of the Beans, pickled onions, cojita cheese, eggs, avocado and cilantro in warm tostada bowls or over thick warm corn chips."
+        }
+      ],
+      "notes": "A chill brunch you can make in a crunch!"
     }
   ]
 }

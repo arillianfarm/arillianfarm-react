@@ -376,11 +376,10 @@ const RecipesView = () => {
                             </div>
                             <div className="col-sm-12">
 
-                                 {  recipeListColumn}
+                                 { recipeListColumn}
                             </div>
                     </>
                 ) : (
-                    // On large screens, show Recipe List first (col-lg-3), then Featured Recipe (col-lg-9)
                     <>
                         {recipeListColumn}
                         {featuredRecipeColumn}
