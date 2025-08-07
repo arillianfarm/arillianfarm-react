@@ -2668,6 +2668,103 @@
           ]
         }
       ]
+    },{
+      "name": "Diary of a Garden Nerd: Planning a Desert Flower & Foodscaped Front Garden for Fall",
+      "pub_date": "08/08/25",
+      "header_pic": "foodscape_garden_layout_plan.png",
+      "about": "We're transforming a bleak front yard into a beautiful and productive desert foodscape for Fall 2025, blending flowers and edibles into a sustainable garden design.",
+      "categories": [
+        "gardening",
+        "DIY",
+        "homesteading",
+        "desert gardening",
+        "foodscaping",
+        "planning"
+      ],
+      "tools": [
+        "Google Sheets (or a similar spreadsheet app)",
+        "free garden layout website (like Gardena)",
+        "gloves",
+        "Pick Axe",
+        "shovels",
+        "rakes",
+        "wheelbarrow",
+        "drip irrigation kit",
+        "level"
+      ],
+      "materials": [
+        "wood chips",
+        "fruit trees",
+        "succulents",
+        "desert flower seeds",
+        "Vegetable seeds",
+        "perennial herb plants",
+        "3-5 gallon pots or buckets",
+        "potting mix",
+        "pavers",
+        "sand"
+      ],
+      "phases": [
+        {
+          "pic": "foodscape_garden_back_garden_success.png",
+          "paragraphs": [
+            {
+              "text": "Step 1 - Visualize your Dream Garden:",
+              "h4": true
+            },
+            {
+              "text": "Carrie, Arthur's ex-wife and I have been cultivating a positive relationship over the last few years while we coordinated on cultivating a culinary garden in the back yard of Arthur's house in Chandler AZ (where she rents a room). We've had some epically fruitful harvests from the back garden, so when Carrie texted me suggesting we work together to transform the scraggly front yard of Arthur's house into a desert flower garden and foodscape, I was immediately excited, started making a shared Google Sheet (spreadsheet) to plan our new gardening adventure."
+            }
+          ]
+        },{
+          "pic": "foodscape_garden_spreadsheets.png",
+          "paragraphs": [
+        {
+          "text": "Step 2 - Unleash Your Inner Garden-Nerd:",
+          "h4": true
+        },
+        {
+          "text": "I created a makeshift Kanban board (on Sheets) for tasks, and Carrie and I worked together to make a spreadsheet with a list of plants we both wanted to include (with details provided by an AI (I used Google Gemini) about when to plant, harvest, cost etc) and then I chatted with an AI about what materials we would need and I put together a materials spreadsheet as well."
+        }
+          ]
+        },{
+          "pic": "foodscape_garden_layout_plan.png",
+          "paragraphs": [
+        {
+          "text": "I do love a good spreadsheet, but plotting a garden diagram made me absolutely giddy. It allowed me to really visualize the space and try out different layouts of plants and pavers and things until I could see a vivid mental picture a beautiful, productive desert food garden. Gemini suggested a few free garden planning websites to design a virtual layout for our foodscape. The one we found easiest to use and share was Gardena's My-Garden Planner."
+        }
+          ]
+        },
+        {
+          "pic": "foodscape_garden_succulents.png",
+          "paragraphs": [
+            {
+              "text": "Step 3 - Brass Taxes: Sourcing and Budgeting",
+              "h4": true
+            },
+            {
+              "text": "We're going to start planting after the summer heat has died down (in mid-late October), so in the last couple weeks, I've been saving seeds from herbs and vegetables in my home garden and setting up a grow space at my house to start those seeds indoors. I've also been gleefully poking around my succulent pots and pulling up succulent 'pups' to start forming a 'cuticle on them' and in anticipation of adding them to our Desert Foodscape."
+            },
+            {
+              "text": "Carrie has a bead on a free 'chip drop' of wood chips to put over her dying lawn. The wood chips will be our base layer, which will help suppress weeds and retain moisture. We're going to request our chip drop for late August or early September so the chips can begin to settle and decompose before planting."
+            },{
+              "text": "We will have to buy some materials from Amazon or Home Depot or wherever  (like drip line, pavers and trees), but the overall cost for the front foodscape should hopefully be within a couple hundred dollars"
+            }
+          ]
+        },
+        {
+          "pic": "foodscape_garden_scraggly_starting_space.png",
+          "paragraphs": [
+            {
+              "text": "Step 4 - Doing What we Kanban to Stay on Track",
+              "h4": true
+            },
+            {
+              "text": "We have a shared vision and a path forward. The next step is to actually move some earth, lay some drip line and pavers, plants some plants and transform this wasteland of a front yard into a beautiful garden."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

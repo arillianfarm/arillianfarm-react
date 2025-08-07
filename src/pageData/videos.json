@@ -1691,28 +1691,53 @@
     },{
       "youtubeID": "mnEbK96i8Y8",
       "title": "\uD83D\uDC36\uD83D\uDCA5\uD83C\uDFC0Dog Reflex Test: The Good, The Bad, & The Snuggler!",
-      "albums": ["new", "dogs"],
+      "albums": ["dogs"],
       "release_date": "8/1/25"
     },{
       "youtubeID": "n5ta_FcbCKw",
       "title": "\uD83D\uDCA8\uD83E\uDD40✨Life is Like a Box of Artichoke Seeds... \uD83C\uDF43",
-      "albums": ["new", "gardening"],
+      "albums": ["gardening"],
       "release_date": "8/1/25"
     },{
       "youtubeID": "MX3M1tVPhDQ",
       "title": "\uD83E\uDEF3 \uD83D\uDC61 When You're Just Waiting for the Other Shoe to Drop | Meh Monday \uD83D\uDE11",
-      "albums": ["new"],
+      "albums": [],
       "release_date": "8/1/25"
     },{
       "youtubeID": "wSXyx9CNtKk",
       "title": "\uD83E\uDD20\uD83E\uDD6C\uD83C\uDF36️ Yeehaw Coleslaw- Hats Off to this Summer BBQ Side Kick!",
-      "albums": ["new", "cooking"],
+      "albums": ["cooking"],
       "release_date": "8/1/25"
     },{
       "youtubeID": "y5F1e-K74x4",
       "title": "\uD83D\uDC14\uD83D\uDCD4\uD83D\uDC23 Diary of a Broody Momma Hen - Broodzilla’s 2 Week Old Chicks",
-      "albums": ["new", "chickens"],
+      "albums": ["chickens"],
       "release_date": "8/1/25"
+    },{
+      "youtubeID": "TQMU9safTko",
+      "title": "\uD83D\uDC14\uD83D\uDCD4\uD83D\uDC23 Diary of a Broody Momma Hen - Broodzilla’s 3 week old chicks",
+      "albums": ["new","chickens"],
+      "release_date": "8/8/25"
+    },{
+      "youtubeID": "GqrFiFt_tmU",
+      "title": "\uD83C\uDF44\uD83E\uDDC0\uD83D\uDC69\u200D\uD83C\uDF73 Cheesy Air Fried Mushroom Caps",
+      "albums": ["new","cooking","dogs"],
+      "release_date": "8/8/25"
+    },{
+      "youtubeID": "Ft-7aKH8w6I",
+      "title": "\uD83E\uDD75 \uD83E\uDDCA \uD83D\uDD27 Summertime Homeowner Struggles - Meh Monday \uD83D\uDE11",
+      "albums": ["new"],
+      "release_date": "8/8/25"
+    },{
+      "youtubeID": "9TDr3r7-T2g",
+      "title": "\uD83D\uDC25➡️⬅️\uD83D\uDC25Couple of Gridlocked Chickens going nowhere \uD83E\uDD23",
+      "albums": ["new", "chickens"],
+      "release_date": "8/8/25"
+    },{
+      "youtubeID": "Pii-fY9HZL0",
+      "title": "\uD83D\uDC36\uD83E\uDD13\uD83E\uDD16 Huey Ka-Bluey Showing Off His Better-than-AI Kinesthetics",
+      "albums": ["new", "dogs"],
+      "release_date": "8/8/25"
     }
   ]
 }

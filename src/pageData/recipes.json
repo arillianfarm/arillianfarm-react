@@ -2707,12 +2707,12 @@
       "header_pic": "chilaquiles-ingredients.png",
       "pub_date": "8/8/25",
       "servings": "2 tostada bowls",
-      "vid": "ADD SHORT LINK HERE",
+      "vid": "E5QPnqluN4Q",
       "related_recipes": ["pickled onions","Bowl-d & Beautiful Salad Shells"],
       "ingredients": [
         "2 Tostada Bowls (see linked recipe) or thick corn tortilla chips",
-        "2 eggs",
-        "1-2 tablespoons butter",
+        "4 eggs",
+        "1-2 tablespoons butter (to fry eggs)",
         "1 (15-ounce) can black beans, rinsed and drained",
         "1/4 cup broth or hydrated bullion",
         "1/4 teaspoon chili powder",
@@ -2721,7 +2721,6 @@
         "1/4 cup crumbled Cotija cheese",
         "1/4 cup chopped fresh cilantro",
         "Lime wedges (for garnish)"
-
       ],
       "steps": [
         {
@@ -2741,7 +2740,7 @@
           "instruction": "Layer portions of the Beans, pickled onions, cojita cheese, eggs, avocado and cilantro in warm tostada bowls or over thick warm corn chips."
         }
       ],
-      "notes": "A chill brunch you can make in a crunch!"
+      "notes": "A chill brunch in a crunch!"
     }
   ]
 }
