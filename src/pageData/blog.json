@@ -2205,6 +2205,88 @@
           ]
         }
       ]
+    },
+    {
+      "entry_subject": "A Year of Arillian Farm: The Story Behind the Content",
+      "entry_date": "Aug 14, 2025",
+      "pic_file": "year-in-review-cover.png",
+      "entry_number": 28,
+      "feature_section_1": {
+        "caption": "A year of growing, building, and learning on the farm. It's a journey of soil and spirit.",
+        "pic": "assets/blog/year-in-review-cover.png"
+      },
+      "sections": [
+        {
+          "pics": ["past-vs-present.png"],
+          "paragraphs": [
+            {
+              "text": "It's been a year of steady content creation, gardening, cooking, and keeping my phone handy to capture funny farm moments. It’s also been a year of trying to convince myself that it’s all meaningful and worthwhile, even if no one else out there is following along with my journey."
+            },
+            {
+              "text": "When I launched Arillian Farm on YouTube and arillianfarm.com, I was stepping into a new rhythm of life. After years of thankless 12-hour days as a software developer, it took me a while to fully reclaim my brain and train myself to create and complete tasks for myself instead of exhausting myself with other people's demands and expectations."
+            },
+            {
+              "text": "As my mind began to clear, I started to feel energized and excited about having the opportunity to put my energy towards things that I truly wanted to do—meaningful things. I’ve always loved the idea of building things, growing things, and caring for animals. When I was a child, my mom read me the Little House on the Prairie books, and my dad showed me Swiss Family Robinson and the classic Dr. Doolittle movies. I was captivated by the idea of creating a home from nothing but trees and building a happy family farm from the ground up and surviving whatever nature threw at you."
+            },
+            {
+              "text": "When I got my bachelors in Environmental Studies, I dreamed of a sustainable life, one where I could grow things, care for animals, and feel a deep connection to my food chain. I even kicked around a few ideas for a community-based business called “Outside In,” a space for indoor gardening, organic cooking classes, and bicycle-powered washing machines, but I eventually realized it would require me to get bogged down in the mire of general small business ownership logistics."
+            }
+          ]
+        },
+        {
+          "pics": ["desk-to-garden.png"],
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "From Software to Soil",
+              "h4": true
+            },
+            {
+              "text": "When people ask what I do for a living, I struggle with the answer. It was nice when I could tell people I was a software developer or a project manager. People seemed impressed by that, but also didn’t press me for details. Now I feel like I need to justify my life to everyone every time they ask about my job—because I’m from a culture where not having a job is just inherently shameful. However, I like to hope that my rhythm of life—caring for my properties, sharing the bounty of my efforts, and helping others thrive—is its own kind of meaningful work."
+            },
+            {
+              "text": "I feel like I’ve found a uniquely modern approach to embracing a simple life centered around my core values: my love for working hard, seeing things grow, and being a contributing part of my community. My friends and family mean the world to me. When I was working in software and managing my rental property and trying to care for our pets, I felt pulled in too many different directions to be fully present in any aspect of my life. Working from home started to make me feel like I should always be working, but at the same time, gears were always grinding in the back of my mind about what I wasn’t doing for my pets or my friends while I worked."
+            }
+          ]
+        },
+        {
+          "pics": ["chickens-and-peas.png", "garden-meditation.png"],
+          "paragraphs": [
+            {
+              "text": "Finding Joy in the Details",
+              "h4": true
+            },
+            {
+              "text": "There have been weeks where I felt uninspired, wondering if there was a point in writing an article or recipe, knowing how unlikely it would be for anyone else to lay eyes on it. In those moments, I reminded myself that my blog entries, recipes, and YouTube content are part of a personal time capsule for Arthur and me."
+            },
+            {
+              "text": "Keeping an eye out for content is also a positive meditation, a hunt for little silly moments to smile about. The self-imposed deadlines and flow of new repairs and projects fill up my day and challenge me—it's holistic exercise for my mind, body, and spirit. My life is a great experiment, blending what I learned about sustainability from my Environmental Studies degree with the analytical tools I picked up as a software developer. I love the mix of old and new—using construction scissors and a manual edger on my lawn, but also querying AI for planting advice and recipe ideas."
+            },
+            {
+              "text": "It feels right to me. I love to grow things and care for my animals. It gives me a soulful giggle to rip a peapod off a vine and toss it to the chickens, watching them chase each other to gobble it up. The garden project with Arthur’s ex-wife, Carrie, has helped us build a positive, symbiotic relationship, where shared harvests and hard work have replaced coldness with appreciation. My 12-year-old niece, Cali, has even taken an interest in gardening, and her texts with questions give me hope."
+            }
+          ]
+        },
+        {
+          "pics": ["sunrise-farm.png"],
+          "right_side_pic": true,
+          "paragraphs": [
+            {
+              "text": "A Dream for the Future",
+              "h4": true
+            },
+            {
+              "text": "I love the idea that I might inspire others, just as Laura Ingalls Wilder inspired me, to work hard and find joy in the funny little things that make us smile. In a world so caught up in global politics and constant noise, I want to be a voice that encourages people to pay attention to the little bits of lovely right around them."
+            },
+            {
+              "text": "The past year has been a mix of struggle and success, of loneliness and connection. It’s a process of working hard, paying attention, and sharing the journey, even when it feels like a quiet, small effort in a big, loud world. My hope is that my authentic, productive rhythm of life—and the bounty it produces—might just be 'what I do for a living.'"
+            },
+            {
+              "text": "Here’s to another year of growing things and cultivating a life I love."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

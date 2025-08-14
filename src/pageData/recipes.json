@@ -2741,6 +2741,59 @@
         }
       ],
       "notes": "A chill brunch in a crunch!"
+    },
+    {
+      "name": "Air Fryer Angel Food Unicorn Cake",
+      "header_pic": "angelfood-unicorn.png",
+      "pub_date": "8/15/25",
+      "servings": "1 cake (3-6 servings)",
+      "vid": "",
+      "related_recipes": [],
+      "ingredients": [
+        "1/2 cup cake flour (or substitute: 1/2 cup all-purpose flour minus 1 Tbsp, plus 1 Tbsp cornstarch)",
+        "3/4 cup granulated sugar -divided",
+        "1/2 cup egg whites (from about 3-4 large eggs), at room temperature",
+        "1 teaspoon lemon juice",
+        "1/2 teaspoon vanilla extract",
+        "1/4 teaspoon salt",
+        "(optional) 2-4 cups fresh or frozen fruit (sprinkled with sugar if tart)",
+        "(optional) Unicorn Cake Toppers"
+      ],
+      "steps": [
+        {
+          "pic": "angelfood-ingredients.png",
+          "instruction": "Whisk together the cake flour (or cornstarch + all-purpose flour) and 1/4 cup of the sugar until light and airy."
+        },
+        {
+          "pic": "angelfood-whip-egg-whites.png",
+          "instruction": "In a clean bowl, beat room-temp egg whites on medium speed until foamy. Add the lemon juice and salt. Increase speed to high and whip until soft peaks form."
+        },
+        {
+          "pic": "angelfood-fold-sugar.png",
+          "instruction": "Add the remaining 1/2 cup of sugar 1 tablespoon at a time while continuing to mix. Beat until a stiff meringue forms that will hold firm peaks then gently fold in vanilla."
+        },
+        {
+          "pic": "angelfood-fold-flour.png",
+          "instruction": "Sprinkle about 1/3 of the flour/sugar mixture over the meringue and gently fold in with a spatula. Repeat with the remaining flour in two more additions. NOTE - Don't overmix or the batter will deflate."
+        },
+        {
+          "pic": "angelfood-in-pan.png",
+          "instruction": "Pour the batter into an --ungreased-- loaf pan (If you're making a unicorn cake, you'll need another small circular pan) and smooth the top. Air fry at 325°F (165°C) for 25-30 minutes --until the top is golden and springy."
+        },
+        {
+          "pic": "angelfood-cool-upside-down.png",
+          "instruction": "To prevent collapse: cool the cake upside down on a wire rack or by balancing the pan edges on cans. Once completely cool, run a knife around the edges to release."
+        },
+        {
+          "pic": "angelfood-served.png",
+          "instruction": "Serve with fresh or frozen (sugared) fruit and/or whipped cream or by itself."
+        },
+        {
+          "pic": "angelfood-unicorn.png",
+          "instruction": "To make a unicorn stack round mini cake on top of loaf cake and top with fruit and whipped cream and unicorn cake toppers to style."
+        }
+      ],
+      "notes": "A Heavenly Way to Celebrate Year Uno of Arillian Farm."
     }
   ]
 }

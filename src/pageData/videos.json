@@ -1716,28 +1716,48 @@
     },{
       "youtubeID": "TQMU9safTko",
       "title": "\uD83D\uDC14\uD83D\uDCD4\uD83D\uDC23 Diary of a Broody Momma Hen - Broodzilla’s 3 week old chicks",
-      "albums": ["new","chickens"],
+      "albums": ["chickens"],
       "release_date": "8/8/25"
     },{
       "youtubeID": "GqrFiFt_tmU",
       "title": "\uD83C\uDF44\uD83E\uDDC0\uD83D\uDC69\u200D\uD83C\uDF73 Cheesy Air Fried Mushroom Caps",
-      "albums": ["new","cooking","dogs"],
+      "albums": ["cooking","dogs"],
       "release_date": "8/8/25"
     },{
       "youtubeID": "Ft-7aKH8w6I",
       "title": "\uD83E\uDD75 \uD83E\uDDCA \uD83D\uDD27 Summertime Homeowner Struggles - Meh Monday \uD83D\uDE11",
-      "albums": ["new"],
+      "albums": [],
       "release_date": "8/8/25"
     },{
       "youtubeID": "9TDr3r7-T2g",
       "title": "\uD83D\uDC25➡️⬅️\uD83D\uDC25Couple of Gridlocked Chickens going nowhere \uD83E\uDD23",
-      "albums": ["new", "chickens"],
+      "albums": ["chickens"],
       "release_date": "8/8/25"
     },{
       "youtubeID": "Pii-fY9HZL0",
       "title": "\uD83D\uDC36\uD83E\uDD13\uD83E\uDD16 Huey Ka-Bluey Showing Off His Better-than-AI Kinesthetics",
-      "albums": ["new", "dogs"],
+      "albums": ["dogs"],
       "release_date": "8/8/25"
+    },{
+      "youtubeID": "xdMP8elZonc",
+      "title": "\uD83D\uDC14\uD83D\uDCD4\uD83D\uDC23 Diary of a Broody Momma Hen - Broodzilla’s 4 Week Old Chicks",
+      "albums": ["new","chickens"],
+      "release_date": "8/15/25"
+    },{
+      "youtubeID": "OiJu3Dak6FI",
+      "title": "Totes, McGoats- the GOATS of Party Crashing | meh \uD83D\uDE11",
+      "albums": ["new", "chickens", "goats"],
+      "release_date": "8/15/25"
+    },{
+      "youtubeID": "FYvgCJQV8m0",
+      "title": "\uD83C\uDF3D\uD83C\uDF2E\uD83D\uDC36 Air Fryer Elote Tostada Bowl \uD83D\uDE0B",
+      "albums": ["new", "cooking"],
+      "release_date": "8/15/25"
+    },{
+      "youtubeID": "7JsVjwdbDqQ",
+      "title": "\uD83D\uDC69\u200D\uD83C\uDF3E Bringing the HOSE out For Fall Planting like...",
+      "albums": ["new"],
+      "release_date": "8/15/25"
     }
   ]
 }
