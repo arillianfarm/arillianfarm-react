@@ -208,6 +208,9 @@
         <loc>https://arillianfarm.com/blog/?articleId=the-legend-of-uncle-pete</loc>
     </url>
     <url>
+        <loc>https://arillianfarm.com/blog/?articleId=a-year-of-arillian-farm-the-story-behind-the-content</loc>
+    </url>
+    <url>
         <loc>https://arillianfarm.com/recipes/?articleId=baked-eggs-and-asparagus</loc>
     </url>
     <url>
@@ -422,5 +425,8 @@
     </url>
     <url>
         <loc>https://arillianfarm.com/recipes/?articleId=brunch-and-chill-chilaquiles-bowl</loc>
+    </url>
+    <url>
+        <loc>https://arillianfarm.com/recipes/?articleId=air-fryer-angel-food-unicorn-cake</loc>
     </url>
 </urlset>
