@@ -2683,27 +2683,9 @@
       ],
       "tools": [
         "Google Sheets (or a similar spreadsheet app)",
-        "free garden layout website (like Gardena)",
-        "gloves",
-        "Pick Axe",
-        "shovels",
-        "rakes",
-        "wheelbarrow",
-        "drip irrigation kit",
-        "level"
+        "free garden layout website (like Gardena)"
       ],
-      "materials": [
-        "wood chips",
-        "fruit trees",
-        "succulents",
-        "desert flower seeds",
-        "Vegetable seeds",
-        "perennial herb plants",
-        "3-5 gallon pots or buckets",
-        "potting mix",
-        "pavers",
-        "sand"
-      ],
+      "materials": [],
       "phases": [
         {
           "pic": "foodscape_garden_back_garden_success.png",
@@ -2761,6 +2743,87 @@
             },
             {
               "text": "We have a shared vision and a path forward. The next step is to actually move some earth, lay some drip line and pavers, plants some plants and transform this wasteland of a front yard into a beautiful garden."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Diary of a Garden Nerd: Starting Plants for Fall Desert Foodscape",
+      "pub_date": "08/20/25",
+      "header_pic": "indoor_grow_room_starts.png",
+      "about": "Maximize the short Arizona fall growing season by starting plants indoors to beat the heat.",
+      "categories": [
+        "gardening",
+        "DIY",
+        "homesteading",
+        "desert gardening",
+        "foodscaping",
+        "planting"
+      ],
+      "tools": [
+        "indoor grow light",
+        "trays to start plant boxes on",
+        "small hand trowel",
+        "pruners"
+      ],
+      "materials": [
+        "seeds (artichoke, marigold, beets, barley, misc vegetables)",
+        "succulent pups",
+        "plant cuttings (mint, basil)",
+        "potting soil",
+        "cardboard Soda Boxes",
+        "3-5 gallon pots/buckets"
+      ],
+      "phases": [
+        {
+          "pic": "foodscape_garden_indoor_nursery.png",
+          "paragraphs": [
+            {
+              "text": "The Right Place at the Right Time with the Right Light",
+              "h4": true
+            },
+            {
+              "text": "The Arizona desert gives us a pretty tight window for fall planting. The temperatures don't usually drop below 100 degrees until mid-October, but then we have to worry about winter frost in January and February. To extend the season, I decided to start most of my plants indoors in early August. Fortunately, we have a 'Arizona' room that I was able to enclose and insulate and even more fortunate, Arthur used to design LED agro lights for a living, so we happen to have a large commercial grade grow light for our nursery."
+            },{
+              "text": "As I was setting up my indoor nursery / grow room I started a 'thread' with Google Gemini about my foodscape, so I could build a searchable knowledgebase about the project. I gave Gemini a list of plants we wanted to grow and had gemini generate a spreadsheet listing planting and harvesting information e.g. whether each plant should be started from seed or cutting, how to prepare for planting --soaking certain seeds / drying succulents to form a cuticle and dipping cuttings in rooting hormone after harvesting-- and whether to start indoors or sew directly / when."
+            }
+          ]
+        },
+        {
+          "pic": "foodscape_garden_succulent_prep.png",
+          "paragraphs": [
+            {
+              "text": "Sourcing and Prepping Plants and Seeds:",
+              "h4": true
+            },
+            {
+              "text": "Using old LaCroix boxes, filled with home-made soil (a mixture of compost, sand, perlite and coco coir --for some plants) and seeds I'd saved from last year's garden, I started 20 (pre-soaked) artichoke seeds, a half dozen basil, mint cuttings (dipped in rooting compound and soaked in water for a couple weeks), and a variety of vegetables. To Pretty-up the landscape a bit, I pulled some cactus and succulent pups from our backyard along with a few form my dad's place. I also started 8 boxes of marigolds so I can mix in a pop of color."
+            },
+            {
+              "text": "I also bought a few plants from a nursery that I've struggled to grow from seed: oregano, rosemary, and lemongrass. Fortunately, the oregano and lemongrass pots had multiple plants inside, so I was able to divide and replant them into 3-gallon nursery pots, turning one purchased plant into three!"
+            }
+
+          ]
+        },
+        {
+          "pic": "foodscape_garden_plant_care.png",
+          "paragraphs": [
+            {
+              "text": "Conditioning for Transplanting",
+              "h4": true
+            },
+            {
+              "text": "It’s not just about the plants; the yard needs prep, too. An AI suggested we get a 'chip drop' of wood chips about two months before planting. The wood chips will be our base layer, spreading over the existing lawn to help suppress weeds and break down into rich soil. This is a task we're doing while the plants are still growing indoors."
+            },
+            {
+              "text": "Once the chips are spread, we’ll set up a 32-head drip irrigation system to ensure the plants get consistent water directly to their roots. This is a crucial step for a desert garden to be successful."
+            },
+            {
+              "text": "Once the indoor starts are big enough to be less appealing to sparrows and other pests, I’ll begin to move them outdoors for an increasing number of hours each day. This process, called 'hardening off,' helps them adjust to the sun and wind before they are permanently planted."
+            },
+            {
+              "text": "We'll plant our perennial herbs, flowers, and succulents into beds bordered by river rock or weed guard. For seasonal vegetables like beets and other herbs, we’ll plant them in 3-gallon pots that will be buried in the yard. This allows for easy rotation in future seasons."
             }
           ]
         }

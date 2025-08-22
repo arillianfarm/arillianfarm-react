@@ -2794,6 +2794,45 @@
         }
       ],
       "notes": "A Heavenly Way to Celebrate Year Uno of Arillian Farm."
+    },
+    {
+      "name": "Herb-bed Homestead Compound Butter",
+      "header_pic": "compound-butter-soften.png",
+      "pub_date": "8/22/25",
+      "servings": "1/2 cup",
+      "vid": "NFe-eoGEzTk",
+      "related_recipes": ["Pasta Dough", "Cheesy Potatovals", "San Francisco Style Sourdough Bread", "Traditional Sourdough Bread"],
+      "ingredients": [
+        "1 stick (1/2 cup) softened, unsalted butter ",
+        "1-2 tablespoons fresh rosemary, finely chopped",
+        "1-2 tablespoons fresh oregano, finely chopped",
+        "1 tsp (Fresh Ground) pepper",
+        "1-2 cloves garlic, minced (optional)",
+        "1/2 tsp grated lemon zest or 1 teaspoon lemon juice (optional)"
+      ],
+      "steps": [
+        {
+          "pic": "compound-butter-soften.png",
+          "instruction": "Ensure butter is softened, but not melted."
+        },
+        {
+          "pic": "compound-butter-mix.png",
+          "instruction": " Mince together fresh rosemary, oregano, garlic, fresh ground pepper and lemon juice. Unwrap the butter and set aside the wrapper (to use for future storage).  Use your knife to spread and blend the soft butter and minced herbs on your cutting board --like they blend toppings at Cold Stones Creamery-- until evenly combined."
+        },
+        {
+          "pic": "compound-butter-shape.png",
+          "instruction": "Scrape and press the butter mixture into silicone molds and put butter wrapper over the back or use a piece of plastic wrap or parchment paper to shape into a log and roll it up tightly, twisting the ends to seal."
+        },
+        {
+          "pic": "compound-butter-chill.png",
+          "instruction": "Refrigerate until firm (at least 1 hour), or store in the freezer for longer-term use."
+        },
+        {
+          "pic": "compound-butter-served.png",
+          "instruction": " Great on warm bread, roasted vegetables, rice popcorn or as a dipping sauce for artichokes or anything else that needs a zest of savory flavor."
+        }
+      ],
+      "notes": "Preserve Some Herbs and Spread Some Savory Flavor!"
     }
   ]
 }

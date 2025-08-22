@@ -90,41 +90,6 @@
         }
       ],
       "notes": "Hasta Lasagna Don't Get Any On Ya"
-    },
-    {
-      "name": "Herb-bed Homestead Compound Butter",
-      "header_pic": "herbed-compound-butter.png",
-      "pub_date": "8/22/25",
-      "servings": "1/2 cup",
-      "vid": "",
-      "related_recipes": ["Pasta Dough", "Cheesy Potatovals", "San Francisco Style Sourdough Bread", "Traditional Sourdough Bread"],
-      "ingredients": [
-        "1 stick (1/2 cup) softened, unsalted butter ",
-        "1-2 tablespoons fresh rosemary, finely chopped",
-        "1-2 tablespoons fresh oregano, finely chopped",
-        "1 tsp Fresh Ground pepper",
-        "1-2 cloves garlic, minced (optional)",
-        "1 teaspoon lemon juice (optional)"
-      ],
-      "steps": [
-        {
-          "pic": "compound-butter-soften.png",
-          "instruction": "Ensure butter is softened to room temperature, but not melted. Finely chop the fresh rosemary and oregano."
-        },
-        {
-          "pic": "compound-butter-mix.png",
-          "instruction": "Unwrap the butter and set aside the wrapper (to use for future storage). In a bowl with a fork or using a knife on a cutting board, combine the softened butter, chopped herbs, and any optional ingredients (like garlic or lemon juice) until evenly combined."
-        },
-        {
-          "pic": "compound-butter-shape.png",
-          "instruction": "Scrape the butter mixture onto a piece of plastic wrap or parchment paper. Shape it into a log and roll it up tightly, twisting the ends to seal."
-        },
-        {
-          "pic": "compound-butter-chill.png",
-          "instruction": "Refrigerate until firm (at least one hour), or store in the freezer for longer-term use. Slice and serve as needed. Great on warm bread, roasted potatoes or root vegetables or as a dipping sauce for steamed or grilled artichokes."
-        }
-      ],
-      "notes": "Preserve Some Herbs and Spread Some Savory Flavor!"
     }
   ]
 }

@@ -1741,23 +1741,43 @@
     },{
       "youtubeID": "xdMP8elZonc",
       "title": "\uD83D\uDC14\uD83D\uDCD4\uD83D\uDC23 Diary of a Broody Momma Hen - Broodzilla’s 4 Week Old Chicks",
-      "albums": ["new","chickens"],
+      "albums": ["chickens"],
       "release_date": "8/15/25"
     },{
       "youtubeID": "OiJu3Dak6FI",
       "title": "Totes, McGoats- the GOATS of Party Crashing | meh \uD83D\uDE11",
-      "albums": ["new", "chickens", "goats"],
+      "albums": ["chickens", "goats"],
       "release_date": "8/15/25"
     },{
       "youtubeID": "FYvgCJQV8m0",
       "title": "\uD83C\uDF3D\uD83C\uDF2E\uD83D\uDC36 Air Fryer Elote Tostada Bowl \uD83D\uDE0B",
-      "albums": ["new", "cooking"],
+      "albums": [],
       "release_date": "8/15/25"
     },{
       "youtubeID": "7JsVjwdbDqQ",
       "title": "\uD83D\uDC69\u200D\uD83C\uDF3E Bringing the HOSE out For Fall Planting like...",
-      "albums": ["new"],
+      "albums": [],
       "release_date": "8/15/25"
+    },{
+      "youtubeID": "WDBPGxcrZj8",
+      "title": "\uD83D\uDC14\uD83D\uDCD4\uD83D\uDC23 Diary of a Broody Momma Hen - Broodzilla’s 5 Week Old Chicks",
+      "albums": ["new", "chickens"],
+      "release_date": "8/22/25"
+    },{
+      "youtubeID": "E5QPnqluN4Q",
+      "title": "\uD83C\uDF73\uD83C\uDF2E\uD83D\uDC36 Chiliquiles Tostada Bowls - A Quick Brunch in a Crunch!",
+      "albums": ["new", "cooking"],
+      "release_date": "8/22/25"
+    },{
+      "youtubeID": "FR2aaZurzXA",
+      "title": "⚒️\uD83E\uDD26\u200D♀️DIY fail | \uD83D\uDE11 Meh Monday",
+      "albums": ["new"],
+      "release_date": "8/22/25"
+    },{
+      "youtubeID": "jpyKJF7zD-s",
+      "title": "\uD83D\uDC36\uD83E\uDD64\uD83D\uDC36 Huey Ka-Bluey & Xena are Each Other's Soda Pop! \uD83E\uDEE7",
+      "albums": ["new", "dogs"],
+      "release_date": "8/22/25"
     }
   ]
 }
