@@ -366,14 +366,13 @@ const RecipesView = () => {
         <div className="container border2px br20 text-white">
             <div className="row">
                 <div className="col-sm-12">
-                    <h2 className="text-white">Recipes</h2>
+                    <h2 className="text-white"></h2>
                 </div>
             </div>
             <div className="row">
                 <>
                     {featuredRecipeColumn}
                     {recipeListColumn}
-
                 </>
             </div>
         </div>
