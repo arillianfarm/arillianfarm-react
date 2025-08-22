@@ -2713,7 +2713,7 @@
           "pic": "foodscape_garden_layout_plan.png",
           "paragraphs": [
         {
-          "text": "I do love a good spreadsheet, but plotting a garden diagram made me absolutely giddy. It allowed me to really visualize the space and try out different layouts of plants and pavers and things until I could see a vivid mental picture a beautiful, productive desert food garden. Gemini suggested a few free garden planning websites to design a virtual layout for our foodscape. The one we found easiest to use and share was Gardena's My-Garden Planner."
+          "text": "I love a good spreadsheet, but plotting a garden diagram made me absolutely giddy. It allowed me to really visualize the space and try out different layouts of plants and pavers and things until I could see a vivid mental picture a beautiful, productive desert food garden. Gemini suggested a few free garden planning websites to design a virtual layout for our foodscape. The one we found easiest to use and share was Gardena's My-Garden Planner."
         }
           ]
         },
@@ -2723,6 +2723,9 @@
             {
               "text": "Step 3 - Brass Taxes: Sourcing and Budgeting",
               "h4": true
+            },
+            {
+              "text": "To maximize the success for each plant we plan to put in the ground, I started a 'thread' with Google Gemini about our food-landscape project (so I could build an easily searchable knowledge base). After giving Gemini a list of plants we wanted to grow, I had Gemmi generate a spreadsheet listing planting and harvesting information including whether each plant should be started from seed or cutting, how to prepare for planting: which seeds to pre-soak before planting, how long to dry succulents to form a callus before planting, which herbs to start from cuttings and whether to start indoors or sew directly outside and when."
             },
             {
               "text": "We're going to start planting after the summer heat has died down (in mid-late October), so in the last couple weeks, I've been saving seeds from herbs and vegetables in my home garden and setting up a grow space at my house to start those seeds indoors. I've also been gleefully poking around my succulent pots and pulling up succulent 'pups' to start forming a 'cuticle on them' and in anticipation of adding them to our Desert Foodscape."
@@ -2749,10 +2752,10 @@
       ]
     },
     {
-      "name": "Diary of a Garden Nerd: Starting Plants for Fall Desert Foodscape",
+      "name": "Diary of a Garden Nerd: Starting Plants for our Fall Desert Foodscape",
       "pub_date": "08/20/25",
-      "header_pic": "indoor_grow_room_starts.png",
-      "about": "Maximize the short Arizona fall growing season by starting plants indoors to beat the heat.",
+      "header_pic": "foodscape_garden_succulents.png",
+      "about": "It's a race against the Arizona sun! Learn how we get a head start on our fall foodscape by starting plants indoors to beat the heat.",
       "categories": [
         "gardening",
         "DIY",
@@ -2771,9 +2774,9 @@
         "seeds (artichoke, marigold, beets, barley, misc vegetables)",
         "succulent pups",
         "plant cuttings (mint, basil)",
-        "potting soil",
+        "pre-mixed potting soil OR compost, sand, perlite, coco coir to make soil",
         "cardboard Soda Boxes",
-        "3-5 gallon pots/buckets"
+        "3-5 gallon nursery pots (or buckets with drain holes)"
       ],
       "phases": [
         {
@@ -2784,46 +2787,47 @@
               "h4": true
             },
             {
-              "text": "The Arizona desert gives us a pretty tight window for fall planting. The temperatures don't usually drop below 100 degrees until mid-October, but then we have to worry about winter frost in January and February. To extend the season, I decided to start most of my plants indoors in early August. Fortunately, we have a 'Arizona' room that I was able to enclose and insulate and even more fortunate, Arthur used to design LED agro lights for a living, so we happen to have a large commercial grade grow light for our nursery."
-            },{
-              "text": "As I was setting up my indoor nursery / grow room I started a 'thread' with Google Gemini about my foodscape, so I could build a searchable knowledgebase about the project. I gave Gemini a list of plants we wanted to grow and had gemini generate a spreadsheet listing planting and harvesting information e.g. whether each plant should be started from seed or cutting, how to prepare for planting --soaking certain seeds / drying succulents to form a cuticle and dipping cuttings in rooting hormone after harvesting-- and whether to start indoors or sew directly / when."
+              "text": "The Arizona desert gives a tight window for fall planting. The temperatures don't usually drop below 100F until mid-October, but by January there's winter frost to worry about. To extend the season long enough to ensure a hearty harvest, I started most of our plants indoors in early August."
+            },
+            {
+              "text": "We are fortunate enough to have an 'Arizona Room' (a thinly enclosed patio) that I was able to insulate. Even more fortunately, Arthur's previous job was designing LED agro lights, so we happen to have a large commercial-grade grow light in our makeshift grow room."
             }
+
           ]
         },
         {
-          "pic": "foodscape_garden_succulent_prep.png",
+          "pic": "dirt_and_cuttings.png",
           "paragraphs": [
             {
-              "text": "Sourcing and Prepping Plants and Seeds:",
+              "text": "Getting the Propagation Party Started: Sourcing Plants and Tucking Them in For a Dirt Nap:",
               "h4": true
             },
             {
-              "text": "Using old LaCroix boxes, filled with home-made soil (a mixture of compost, sand, perlite and coco coir --for some plants) and seeds I'd saved from last year's garden, I started 20 (pre-soaked) artichoke seeds, a half dozen basil, mint cuttings (dipped in rooting compound and soaked in water for a couple weeks), and a variety of vegetables. To Pretty-up the landscape a bit, I pulled some cactus and succulent pups from our backyard along with a few form my dad's place. I also started 8 boxes of marigolds so I can mix in a pop of color."
+              "text": "Following Google Gemini's advice (an AI), I mixed up some homemade garden soils (a blend of compost, sand, perlite, and —for some plants— coco coir). I filled some old cut-in-half LaCroix boxes and 3-gallon nursery pots with my soil and seeded them with 20 pre-soaked artichoke seeds, a half dozen basil and mint cuttings from our yard (dipped in rooting compound and soaked in water for a couple weeks), a variety of saved and store-bought vegetable seeds and some marigolds for a pest-controlling pop of color."
             },
             {
-              "text": "I also bought a few plants from a nursery that I've struggled to grow from seed: oregano, rosemary, and lemongrass. Fortunately, the oregano and lemongrass pots had multiple plants inside, so I was able to divide and replant them into 3-gallon nursery pots, turning one purchased plant into three!"
+              "text": "The plan is to plant our perennial herbs and flowers (started in LaCroix boxes) in beds with a weed border, while succulents will be planted into beds topped with river rock (that were not being used well in our backyard). I'm going to keep the seasonal vegetables and herbs in the 3-gallon nursery pots where I started them. We'll bury the pot up to its neck and cover it with woodchips. This will create a weed and water barrier as well as allowing for easy rotation in future seasons."
+            },
+            {
+              "text": "To Pretty-up the landscape a bit (and because we live in the desert), I also pulled a variety of cactus and succulent pups from our backyard and a few from my dad's place."
+            },
+            {
+              "text": "There are a few herbs that I've always struggled to grow from seed, so I broke down and bought oregano, rosemary, and lemongrass from Home Depot. Fortunately, the oregano and lemongrass I purchased had multiple plants in each pot, so I was able to triple up our starting supply by replanting each into its own 3-gallon nursery pot!"
             }
-
           ]
         },
         {
           "pic": "foodscape_garden_plant_care.png",
           "paragraphs": [
             {
-              "text": "Conditioning for Transplanting",
+              "text": "Training for Transplanting",
               "h4": true
             },
             {
-              "text": "It’s not just about the plants; the yard needs prep, too. An AI suggested we get a 'chip drop' of wood chips about two months before planting. The wood chips will be our base layer, spreading over the existing lawn to help suppress weeds and break down into rich soil. This is a task we're doing while the plants are still growing indoors."
+              "text": "I've begun taking the indoor 'starts' --that are big enough to be less appealing to sparrows and other pests-- on field trips outdoors. As we get closer to planting time I'll increase the number of hours each day. This process, called 'hardening off,' helps nursery plants adjust to the sun and wind before they go to their forever home."
             },
             {
-              "text": "Once the chips are spread, we’ll set up a 32-head drip irrigation system to ensure the plants get consistent water directly to their roots. This is a crucial step for a desert garden to be successful."
-            },
-            {
-              "text": "Once the indoor starts are big enough to be less appealing to sparrows and other pests, I’ll begin to move them outdoors for an increasing number of hours each day. This process, called 'hardening off,' helps them adjust to the sun and wind before they are permanently planted."
-            },
-            {
-              "text": "We'll plant our perennial herbs, flowers, and succulents into beds bordered by river rock or weed guard. For seasonal vegetables like beets and other herbs, we’ll plant them in 3-gallon pots that will be buried in the yard. This allows for easy rotation in future seasons."
+              "text": "By October, when the sun has stopped trying to kill us all and the yard is prepped, our plant babies should be ready to grow and thrive! "
             }
           ]
         }

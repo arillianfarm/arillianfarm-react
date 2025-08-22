@@ -331,6 +331,9 @@ const RecipesView = () => {
         <div className={`col-sm-12 ${!isSmallView ? 'col-lg-3' : ''}`}
              style={{ borderRight: !isSmallView ? '2px solid white' : '' }}>
             <div className="row cursPoint">
+                <div className="col-sm-12">
+                    <h2 className="text-white">Recipe List</h2>
+                </div>
                 {/* The list will always render now, no collapse condition */}
                 {(!loading && !error && recipes && recipes.length) &&
                     recipes.map((recipe) => (
@@ -367,24 +370,11 @@ const RecipesView = () => {
                 </div>
             </div>
             <div className="row">
-                {isSmallView ? (
-                    // On small screens, show Featured Recipe first (col-sm-12), then Recipe List (col-sm-12)
-                    <>
+                <>
+                    {featuredRecipeColumn}
+                    {recipeListColumn}
 
-                            <div className="col-sm-12">
-                                {featuredRecipeColumn}
-                            </div>
-                            <div className="col-sm-12">
-
-                                 { recipeListColumn}
-                            </div>
-                    </>
-                ) : (
-                    <>
-                        {recipeListColumn}
-                        {featuredRecipeColumn}
-                    </>
-                )}
+                </>
             </div>
         </div>
     );
