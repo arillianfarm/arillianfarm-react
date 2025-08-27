@@ -2207,10 +2207,10 @@
       ]
     },
     {
+      "entry_number": 28,
       "entry_subject": "A Year of Arillian Farm: The Story Behind the Content",
       "entry_date": "Aug 14, 2025",
       "pic_file": "year-in-review-cover.png",
-      "entry_number": 28,
       "feature_section_1": {
         "caption": "A year of growing, building, and learning on the farm. It's a journey of soil and spirit.",
         "pic": "assets/blog/year-in-review-cover.png"
@@ -2282,6 +2282,133 @@
             },
             {
               "text": "Here’s to the start of another year of growing things, cultivating and sharing the life I love."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry_subject": "Split Dog Pack: Huey Ka-Bluey, Pajama and Managing Inter-Dog Aggression",
+      "entry_date": "Aug 27, 2025",
+      "pic_file": "muzzle-stare-down.png",
+      "entry_number": 29,
+      "feature_section_1": {
+        "caption": "A new rhythm of life: Living with a split dog pack.",
+        "pic": "assets/blog/muzzle-stare-down.png"
+      },
+      "sections": [
+        {
+          "vid": "Vuf_kD8F6cA",
+          "pics": ["huey-pajama-sleep.png"],
+          "paragraphs": [
+            {
+              "text": "Fast Friends",
+              "h4": true
+            },
+            {
+              "text": "Huey Ka-Bluey and Pajama were best friends when Huey was a puppy. Huey just loved PJ and wanted to play all day, but Pajama is more of a chill on a pile of toys kinda dog, so Huey could be a lot for him and Pajama got pretty snippy. By the time Huey was 18 months old, Pajama’s aggression was getting pointed and one day, after a particularly hard nip from Pajama, Huey Ka-Bluey finally exploded."
+            }
+          ]
+      },
+        {
+          "pics": ["pajama-angry-on-leash.png"],
+          "right_side_pic": true,
+          "paragraphs": [
+            {"text": "Hard Lessons",
+              "h4": true
+            },
+            {
+              "text": "The vet bill from their first major fight and the scars on my left knee (which I'd put between them to end the fight) weren’t nearly as devastating as the reality that these once-best friends had come to hate each other. I’d heard about **sibling rivalry in dogs**, but I never thought any of our dogs would turn on each other."
+            },
+            {
+              "text": "My heart ached as we struggled to decide what to do. We talked briefly about re-homing one of them—but we love them both. Plus, they’d both proven they could be maliciously aggressive, so even with training, it seemed like **living with aggressive dogs** was an unfair burden to pass on to another family."
+            },
+            {
+              "text": "I felt guilty because we’d obviously let their behavior get too rough and didn't pay enough attention to the **inter-dog aggression** that was building. We also dragged our feet on neutering Huey, which we got done immediately. I don’t know if it would’ve helped if we’d neutered him sooner, but it definitely didn’t seem to make any difference after the hate switch had been flipped in his and Pajama’s brains. They couldn’t look at each other without becoming incensed."
+            }
+          ]
+        },
+        {
+          "pics": [ "huey-staring-in-muzzle.png", "muzzle-stare-down.png"],
+          "paragraphs": [
+            {
+              "text": "Distancing and Muzzle training",
+              "h4": true
+            },
+            {
+              "text": "We wanted them to stay exposed to each other, so we mounted leashes at opposite corners of our living room. Not only was that a tripping hazard, but I also worried that a leash would come unhooked, and we’d have another bad fight, so we moved on to muzzles."
+            },
+            {
+              "text": "Muzzling them felt like cutting off their hands. They hated it. They couldn’t pick anything up and they were bothered by the feel of it on their faces. It took forever to teach them how to eat treats with the muzzle on and even longer to get them to stop trying to pry them off. The more we did **muzzle training**, the more they seemed to resent each other. Even though we got to a point where they behaved around one another with the muzzles on, I worried they would never behave with them off. And they both just absolutely haaaated being muzzled."
+            }
+          ]
+        },
+        {
+          "pics": [],
+          "vid": "Zn2SpMPG6Dg",
+          "paragraphs": [
+            {
+              "text": "Finding Peace Through Separation",
+              "h4": true
+            },
+            {
+              "text": "The only solution was to keep them completely separate. Since I work from home, I just rotate one into the bedroom and the other out in the rest of the house with me. I also rotate Xena so that each dog gets some focused playtime. We feed the dogs locked in their crates, take them on outings and walks separately, and keep them shut in separate bedrooms when they sleep, using their crate as a temporary holding cell during rotations."
+            },
+            {
+              "text": "There have been a couple of slip-ups in the rotation that led to a fight, but Arthur and I are getting well-practiced at **breaking them up**. Honestly, though, all three dogs seem to be living their best life now. Pajama enjoys having exclusive playtime with Xena and not having to compete for attention from Arthur and me, and Huey has been just about the happiest dog I’ve ever seen every single day of his life—you just can’t get him down."
+            }
+          ]
+        },
+        {
+          "pics": [],
+          "vid": "xmJe_OilIIY",
+          "paragraphs": [
+            {
+              "text": "A Silver Lining",
+              "h4": true
+            },
+            {
+              "text": "Arthur and I have learned our lesson about not getting ahead of curbing **dog aggression** early on (when a new pup is first introduced to the pack). I wouldn’t wish this situation on anyone. It requires constant attention and vigilance, makes getting dog sitters difficult, and it’s stressful and dangerous for us all whenever there is a near slip-up or worse. The one silver lining is that we do get extra cuddles and excitement every time there’s a changing of the dogs."
+            }
+          ]
+        },
+        {
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": "Tips on How to Break Up a Dog Fight",
+              "h4": true
+            },
+            {
+              "text": "The most important thing to remember is that in the heat of a **dog fight**, a dog cannot differentiate between you and the dog they are fighting. **Never, ever use your hands or get your face in the middle of a dog fight.** Dog bites are devastating and can be life-threatening. The only thing on your dogs' minds is doing as much damage to their foe as possible. Unfortunately, you are a soft, fleshy target in the middle of the maelstrom. Here are some of the safest methods we’ve learned for breaking up a fight:"
+            },
+            {
+              "text": "The Wheelbarrow Method:",
+              "h4": true
+            },
+            {
+              "text": "The most recommended strategy. Get behind one of the dogs and grab both of their back legs. Lift the legs as if you're holding a wheelbarrow and back away quickly. This will force the dog to stop fighting and struggle to keep its balance. This method is especially effective if you have another person to grab the other dog. If you are alone, focus on getting the more aggressive dog off the other."
+            },
+            {
+              "text": "Loud Noises:",
+              "h4": true
+            },
+            {
+              "text": "A sudden, loud, and startling noise can be a great first line of defense. Slam a door, clap your hands loudly, or bang two pot lids together. This can briefly stun the dogs and give you a window to separate them."
+            },
+            {
+              "text": "Blankets or Towels:",
+              "h4": true
+            },
+            {
+              "text": "Throwing a heavy blanket or towel over the fighting dogs can confuse them and make it difficult for them to see their opponent. This can give you a precious few seconds to pull them apart."
+            },
+            {
+              "text": "Hose or Water Bucket:",
+              "h4": true
+            },
+            {
+              "text": "A blast of cold water from a hose or a bucket can be an effective way to break a dog fight, especially outdoors. The surprise and discomfort can be a strong enough distraction to make them disengage."
             }
           ]
         }
