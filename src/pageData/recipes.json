@@ -2833,6 +2833,49 @@
         }
       ],
       "notes": "Preserve Some Herbs and Spread Some Savory Flavor!"
+    },
+    {
+      "name": "French Fry Salad",
+      "header_pic": "french-fry-salad-served.png",
+      "pub_date": "8/29/25",
+      "servings": "2 servings",
+      "vid": "[ADD VIDEO LINK WHEN DONE]",
+      "related_recipes": ["Cheesy Potatovals", "Yeehaw Coleslaw"],
+      "ingredients": [
+        "1 tsp (olive) oil",
+        "1 large potato or several small ones",
+        "Freshly ground black pepper to taste",
+        "1/2 cup cabbage -diced or shredded",
+        "1 carrot -shredded",
+        "1/4 - 1/2 avocado diced (optional)",
+        "1/4 cup onion -shredded",
+        "1-2 tablespoons mayonnaise",
+        "1-2 tablespoons (full-fat) Greek yogurt",
+        "1 tablespoons vinegar",
+        "1/2 tablespoon prepared horseradish (optional)",
+        "1/2 tablespoon granulated sugar (or to taste)",
+        "1/2 tablespoon Dijon mustard",
+        "1 tablespoon jalapeno juice (optional)"
+      ],
+      "steps": [
+        {
+          "pic": "french-fry-salad-prep-fries.png",
+          "instruction": "Slice potato(es) into 1/4 inch rounds, toss (or spray) with oil, and sprinkle with pepper. Airfry 15 minutes at 385F"
+        },
+        {
+          "pic": "french-fry-salad-dressing.png",
+          "instruction": "In a bowl or large tupperware, whisk (or shake-blend) until evenly combined: mayonnaise, greek yogurt, vinegar, horseradish, granulated sugar, mustard and jalapeno juice."
+        },
+        {
+          "pic": "french-fry-salad-mix.png",
+          "instruction": "Toss chopped cabbage, avocado, shredded carrots, and diced onion in dressing and set aside while fries finish cooking."
+        },
+        {
+          "pic": "french-fry-salad-served.png",
+          "instruction": "Add fries to Salad and grab your fork."
+        }
+      ],
+      "notes": "Magical Transformation Where Guilty Pleasure Meets Healthy ish Vibes!"
     }
   ]
 }
