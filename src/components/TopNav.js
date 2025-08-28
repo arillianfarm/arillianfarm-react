@@ -13,13 +13,13 @@ function TopNav() {
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/videos" className={({ isActive }) => (isActive ? 'active' : '')}>
-                            VIDEOS
+                        <NavLink to="/recipes" className={({ isActive }) => (isActive ? 'active' : '')}>
+                            RECIPES
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/recipes" className={({ isActive }) => (isActive ? 'active' : '')}>
-                            RECIPES
+                        <NavLink to="/projects" className={({ isActive }) => (isActive ? 'active' : '')}>
+                            DIY PROJECTS
                         </NavLink>
                     </li>
                     <li>
@@ -43,8 +43,8 @@ function TopNav() {
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/projects" className={({ isActive }) => (isActive ? 'active' : '')}>
-                            DIY PROJECTS
+                        <NavLink to="/videos" className={({ isActive }) => (isActive ? 'active' : '')}>
+                            VIDEOS
                         </NavLink>
                     </li>
                     <li>
