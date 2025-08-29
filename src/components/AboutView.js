@@ -62,7 +62,7 @@ function AboutView() {
                             When it’s too hot to tinker around outdoors, I spend a lot of time writing humorous and/or thought-provoking{' '}
                             <Link to="/books/">books</Link>
                             and{' '}
-                            <Link to="/blog/">blog entries</Link>. Recently, I also started cataloging our favorite{' '}
+                            <Link to="/blog/">blog entries</Link>. Recently, I've Been Cooking Like Crazy and ' cataloging new and favorite{' '}
                             <Link to="/recipes/">recipes.</Link>
                         </p>
                     </h5>
@@ -72,10 +72,10 @@ function AboutView() {
                 </div>
                 <div className="col-xs-12 col-lg-9 mx-auto mb-2">
                     <h5>
-                        He’s an electrical engineer who loves to “work on things” –especially cars, audio and lighting and especially audio and lighting for cars.
+                        He’s an electrical engineer who loves to “work on things” –particularly cars, audio and lighting and especially audio and lighting for cars.
                     </h5>
                     <p>
-                        Sometimes Arthur and I work on <Link to="/projects/">DIY projects</Link> together - Like transforming a tough shed into a divided goat and chicken barn, building a catio at my rental property in Tempe, or making a little fishpond / chicken wading pool for our chickens.
+                        Sometimes Arthur and I work on <Link to="/projects/">DIY projects</Link> together - Like transforming a tough shed into a divided goat and chicken barn, building a catio at my rental property in Tempe, or making a little fishpond / chicken wading pool for our chickens (and sometimes I do some crafting with trash and upcycle empty LaCroix boxes into planters and egg cartons).
                     </p>
                     <h4>
                         If you’ve enjoyed wandering through our little corner of the web and want to help support my lumber and hardware habit, click a couple bucks our way on our{' '}
@@ -90,7 +90,7 @@ function AboutView() {
                         >
                             Buy some Merch
                         </a>{' '}
-                        or tell a friend or check out videos of our critters on our{' '}
+                        or tell a friend or check out videos of our dog pack: Pajama Dog, Huey Kabluey and Xena Dog, goats: Totes and McGoats and Broodzilla, Scout, Aya and the rest of Our Colorful Chicken Flock on our{' '}
                         <a
                             href="https://www.youtube.com/channel/UC7meaKCW2UsPMQOSeHV5lKQ"
                             target="_blank"
