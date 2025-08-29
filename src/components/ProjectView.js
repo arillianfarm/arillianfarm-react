@@ -149,6 +149,7 @@ const ProjectPhases = ({ featuredProject }) => {
                                 className="video-box mr-3"
                                 height="auto"
                                 autoPlay={false}
+                                allow="compute-pressure"
                                 src={getIframeSrcForYouTube(section.vid)}
                                 title={section.label || `Phase ${index + 1} Video`}
                             />

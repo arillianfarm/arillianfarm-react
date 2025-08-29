@@ -32,7 +32,9 @@ const YouTubeShortContent = ({ short, isSmallView }) => {
                                 src={getIframeSrcForYouTube(short.videoId)}
                                 title={`${short.title} YouTube Short`}
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allow="compute-pressure"
                                 allowFullScreen
+
                             />
                         </div>
                     )}

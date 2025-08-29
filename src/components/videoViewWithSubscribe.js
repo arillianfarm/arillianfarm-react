@@ -197,6 +197,7 @@ const VideoView = () => {
                                         height={isSmallView ? '300' : '500'}
                                         width={isSmallView ? '300' : '500'}
                                         src={iframeSrc} // Use the iframe source (embed URL)
+                                        allow="compute-pressure"
                                         title={video.title || 'Untitled Video'} // Ensure title exists
                                         allowFullScreen
                                         // Consider adding recommended allow attributes for better compatibility

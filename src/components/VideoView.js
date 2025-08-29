@@ -147,6 +147,7 @@ const VideoView = () => {
                                             height={isSmallView ? '300' : '500'}
                                             width={isSmallView ? '300' : '500'}
                                             src={iframeSrc}
+                                            allow="compute-pressure"
                                             title={video.title || 'Untitled Video'}
                                             allowFullScreen
                                         ></iframe>

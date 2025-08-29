@@ -32,6 +32,7 @@ const RecipeIngredients = ({ ingredients, servings, headerPic, isSmallView, head
                                     className="video-box mr-3"
                                     height="auto"
                                     autoPlay={false}
+                                    allow="compute-pressure"
                                     src={getIframeSrcForYouTube(headerVid)}
                                     title={`${headerTitle} Video`}
                                 />

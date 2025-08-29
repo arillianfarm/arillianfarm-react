@@ -127,6 +127,7 @@ const BooksView = () => {
                                     src={`${process.env.PUBLIC_URL}/assets/books/hyperspearFullBook.pdf`}
                                     style={{ width: '100%', height: '800px', border: 'none', borderRadius: '0.5rem' }}
                                     title="Hyperspear Full Novella PDF"
+                                    allow="compute-pressure"
                                     loading="lazy"
                                 >
                                     <p className="text-muted">Your browser does not support PDFs. You can <a href={`${process.env.PUBLIC_URL}/assets/books/hyperspearFullBook.pdf`} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-600">download the PDF here</a>.</p>

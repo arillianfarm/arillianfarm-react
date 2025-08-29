@@ -188,6 +188,7 @@ const BlogView = () => {
                                                 width="300"
                                                 autoPlay="0"
                                                 style={{ float: section.right_side_pic ? 'right' : 'left' }}
+                                                allow="compute-pressure"
                                                 src={getIframeSrcForYouTube(section.vid)}>
                                             </iframe>
 
