@@ -270,7 +270,7 @@
     },{
       "youtubeID": "H2uxOXKWN5E",
       "title": "funny farm animal sounds- Broodzilla, our broody Buff Orpington Hen growls and ruffles her feathers",
-      "albums": ["chickens", "animals"],
+      "albums": ["chickens", "animals", "broodzilla"],
       "release_date": "11/1/24"
     },{
       "youtubeID": "Q3iw_eSl5uk",
@@ -565,7 +565,7 @@
     },{
       "youtubeID": "OwXeqhF14Go",
       "title": "Dirty Birdy Enjoying a Dust Bath Broodzilla, Buff Orpington Hen ",
-      "albums": ["chickens","animals"],
+      "albums": ["chickens","animals","broodzilla"],
       "release_date": "12/27/24"
     },{
       "youtubeID": "pcuPsfQeXSk",
@@ -665,7 +665,7 @@
     },{
       "youtubeID": "Pw61KjmrFXA",
       "title": "Arizona Skies Vibes",
-      "albums": ["animals"],
+      "albums": ["animals", "sky"],
       "release_date": "1/17/24"
     },{
       "youtubeID": "pJSX7chL3vg",
@@ -760,7 +760,7 @@
     },{
       "youtubeID": "DBQBOpY8ElU",
       "title": "Meh Monday!",
-      "albums": ["wildlife","animals"],
+      "albums": ["wildlife","animals", "meh monday"],
       "release_date": "1/31/25"
     },{
       "youtubeID": "f7HBggHUWnc",
@@ -790,7 +790,7 @@
     },{
       "youtubeID": "9mOW4sTQFGQ",
       "title": "We've Got Those Sky High Temps, But Oh Those Arizona Skies",
-      "albums": ["wildlife","animals"],
+      "albums": ["wildlife","animals", "sky"],
       "release_date": "2/7/25"
     },{
       "youtubeID": "qCB7oyhsNhs",
@@ -845,7 +845,7 @@
     },{
       "youtubeID": "3Nq40RjZD5I",
       "title": "Meh Monday Tried Filming Huey Ka-Bluey Grabbing My Hat, but he Ripped off My glasses instead -Fail!",
-      "albums": ["dogs","animals"],
+      "albums": ["dogs","animals", "meh monday"],
       "release_date": "2/14/25"
     },{
       "youtubeID": "kQUHHkRbS6o",
@@ -915,7 +915,7 @@
     },{
       "youtubeID": "SF1lCOeAv9o",
       "title": "Chicken Momma Drama -Broodzilla Gonna Brood!",
-      "albums": ["chickens","animals"],
+      "albums": ["chickens","animals", "broodzilla"],
       "release_date": "2/21/25"
     },{
       "youtubeID": "frS9v1RUxe8",
@@ -940,7 +940,7 @@
     },{
       "youtubeID": "bD8CAEKfgiA",
       "title": "Meh Monday - When Your Brain Has Its Own Agenda",
-      "albums": ["dogs","animals"],
+      "albums": ["dogs","animals", "meh monday"],
       "release_date": "2/28/25"
     },{
       "youtubeID": "iELwOGO--7E",
@@ -975,7 +975,7 @@
     },{
       "youtubeID": "rXrqJA4-NC0",
       "title": "Running amok ruins our hammock - Meh Monday",
-      "albums": ["dogs","animals"],
+      "albums": ["dogs","animals", "meh monday"],
       "release_date": "3/7/25"
     },{
       "youtubeID": "Uc0QXFAzoBY",
@@ -1050,7 +1050,7 @@
     },{
       "youtubeID": "Pajama Plays Too Ruff For This Tough Dog Toy — Meh Monday",
       "title": "k-PtZIlezlI",
-      "albums": ["dogs"],
+      "albums": ["dogs", "meh monday"],
       "release_date": "3/21/25"
     },{
       "youtubeID": "I3tG2t1--yE",
@@ -1120,7 +1120,7 @@
     },{
       "youtubeID": "P1SMOgI1tas",
       "title": "Chicken treats our garden like her personal salad bar - Meh Monday",
-      "albums": ["chickens"],
+      "albums": ["chickens", "meh monday"],
       "release_date": "4/4/25"
     },{
       "youtubeID": "qnylxFBs2Fs",
@@ -1170,7 +1170,7 @@
     },{
       "youtubeID": "5GsjLlQ8uQg",
       "title": "Trying to Leave a Paws-itive Impression After Vet Visit - meh Monday",
-      "albums": ["dogs"],
+      "albums": ["dogs", "meh monday"],
       "release_date": "4/11/25"
     },{
       "youtubeID": "QH-uwCmJAtE",
@@ -1210,7 +1210,7 @@
     },{
       "youtubeID": "NZRtZpf1ShM",
       "title": "Nesting Dove Makes Alarming Discovery About Her New Home - Meh Monday",
-      "albums": ["wildlife"],
+      "albums": ["wildlife", "meh monday"],
       "release_date": "4/18/25"
     },{
       "youtubeID": "33I8hF4ZHBw",
@@ -1250,7 +1250,7 @@
     },{
       "youtubeID": "MZSqNLo6rGE",
       "title": "We got pigeon problems in our barnyard - Meh Monday",
-      "albums": [ "chickens"],
+      "albums": [ "chickens", "meh monday"],
       "release_date": "4/25/25"
     },{
       "youtubeID": "uwcyZ9WK3J0",
@@ -1290,7 +1290,7 @@
     },{
       "youtubeID": "iuVTqvjQj74",
       "title": "Eating Roses is a Full Contact Sport for Totes & McGoats - Meh Monday",
-      "albums": ["goats"],
+      "albums": ["goats", "meh monday"],
       "release_date": "5/2/25"
     },{
       "youtubeID": "_ZPVkLCslEA",
@@ -1350,7 +1350,7 @@
     },{
       "youtubeID": "XpQYNoiCj6k",
       "title": "When You Just Want Some Privacy - Meh Monday",
-      "albums": ["chickens"],
+      "albums": ["chickens", "meh monday"],
       "release_date": "5/9/25"
     },{
       "youtubeID": "AcYzX17gsN0",
@@ -1365,12 +1365,12 @@
     },{
       "youtubeID": "zdED90lfNlo",
       "title": "Making a Seed Bouquet that Smells like Salad Dressing, Next Year’s Garden",
-      "albums": ["diy", "gardening"],
+      "albums": ["diy", "garden"],
       "release_date": "5/9/25"
     },{
       "youtubeID": "seTcj-TweCw",
       "title": "POV - You got the Last Slice, but Your Siblings are Vultures - Meh Monday",
-      "albums": ["chickens"],
+      "albums": ["chickens", "meh monday"],
       "release_date": "5/16/25"
     },{
       "youtubeID": "VJmOlIPh3Hs",
@@ -1401,12 +1401,12 @@
     },{
       "youtubeID": "-UkBiu4Vnc4",
       "title": "When Life Hands You Roses, Make Rose Water!",
-      "albums": ["gardening", "cooking"],
+      "albums": ["garden", "cooking"],
       "release_date": "5/23/25"
     },{
       "youtubeID": "s02JeP6c9KY",
       "title": "\uD83D\uDC36\uD83E\uDD29 \uD83E\uDEE0POV- you want it so bad you can taste it... then you totally choke - \uD83D\uDE11 Meh Monday",
-      "albums": ["dogs"],
+      "albums": ["dogs", "meh monday"],
       "release_date": "5/23/25"
     },{
       "youtubeID": "VhaaW1BlFfU",
@@ -1421,22 +1421,22 @@
     },{
       "youtubeID": "XnqMYgX_Dag",
       "title": "\uD83D\uDC14Cold Brood \uD83E\uDD76- a Freeze-Out Fail Leads to a Larger Flock #broodzilla",
-      "albums": ["chickens"],
+      "albums": ["chickens", "broodzilla"],
       "release_date": "5/23/25"
     },{
       "youtubeID": "iWMNaOignaU",
       "title": "\uD83D\uDC13❤️\uD83D\uDC23 BroodZilla Meets Her Brood - Giving Newborn Chicks to a Broody Hen to Raise",
-      "albums": ["chickens"],
+      "albums": ["chickens", "broodzilla"],
       "release_date": "5/23/25"
     },{
       "youtubeID": "ebUKGc5PaMk",
       "title": "\uD83E\uDD66\uD83C\uDF89\uD83E\uDD6A Broccoli Micro Greens: Nutritious Silly String for Your Sandwiches",
-      "albums": ["cooking", "gardening"],
+      "albums": ["cooking", "garden"],
       "release_date": "5/23/25"
     },{
       "youtubeID": "JEDZ-6Yifn8",
       "title": "\uD83D\uDE12\uD83D\uDE98\uD83D\uDC23 Broodzilla Rollin’ Through Her Brooding Crate W/ Her New Brood",
-      "albums": ["chickens"],
+      "albums": ["chickens", "broodzilla"],
       "release_date": "5/30/25"
     },{
       "youtubeID": "0gbAkUY9uoA",
@@ -1451,7 +1451,7 @@
     },{
       "youtubeID": "tBagWAPtwe0",
       "title": "\uD83D\uDCA9\uD83D\uDE35\u200D\uD83D\uDCAB When the Poo Roulette Wheel Keeps Hitting Your Number - Meh Monday \uD83D\uDE11",
-      "albums": ["dogs"],
+      "albums": ["dogs", "meh monday"],
       "release_date": "5/30/25"
     },{
       "youtubeID": "0nvq65GYgZU",
@@ -1471,17 +1471,17 @@
     },{
       "youtubeID": "7iEFQLF_j9s",
       "title": "\uD83D\uDC23\uD83E\uDDF2 I can barely catch a chick, but Broodzilla is a Chick Magnet! Meh Monday \uD83D\uDE11",
-      "albums": ["chickens"],
+      "albums": ["chickens","broodzilla", "meh monday"],
       "release_date": "6/06/25"
     },{
       "youtubeID": "Xp4kzri2ScM",
       "title": "\uD83C\uDF45\uD83C\uDF3F\uD83C\uDF5D Garden Fresh Artichoke, Tomato Basil Pasta - from Backyard to Plate",
-      "albums": ["cooking", "gardening"],
+      "albums": ["cooking", "garden"],
       "release_date": "6/06/25"
     },{
       "youtubeID": "vgY_PDcCF80",
       "title": "\uD83D\uDC23\uD83D\uDC25\uD83D\uDC13Baby Chicks Riding Broodzilla Like a Pony at the Petting Zoo",
-      "albums": ["chickens"],
+      "albums": ["chickens","broodzilla"],
       "release_date": "6/06/25"
     },{
       "youtubeID": "xVeBx8Kr_Mc",
@@ -1491,7 +1491,7 @@
     },{
       "youtubeID": "0UbxlNlZL2E",
       "title": "\uD83E\uDE9E\uD83D\uDCA5\uD83D\uDC13Broodzilla Fighting w/ the Hen in the Mirror",
-      "albums": ["chickens"],
+      "albums": ["chickens","broodzilla"],
       "release_date": "6/13/25"
     },{
       "youtubeID": "mBbUO6VEPqA",
@@ -1511,7 +1511,7 @@
     },{
       "youtubeID": "culJFXVT4Hc",
       "title": "\uD83D\uDC23‼️\uD83D\uDC40 Broodzilla Teaches her Brood About Stranger Danger - Meh Monday \uD83D\uDE11",
-      "albums": ["chickens"],
+      "albums": ["chickens","broodzilla", "meh monday"],
       "release_date": "6/13/25"
     },{
       "youtubeID": "9uR08vAdyNk",
@@ -1541,7 +1541,7 @@
     },{
       "youtubeID": "tmB5bxMUhkM",
       "title": "\uD83D\uDC75\uD83E\uDD32 POV - Gettin those Grandma Hands - \uD83D\uDE11 Meh Monday",
-      "albums": [],
+      "albums": ["meh monday"],
       "release_date": "6/20/25"
     },{
       "youtubeID": "yYfMGe_rhDM",
@@ -1571,7 +1571,7 @@
     },{
       "youtubeID": "ppgu80FtKeQ",
       "title": "✈️ \uD83D\uDC36\uD83D\uDC10\uD83D\uDC14\uD83E\uDEB4 POV - Vacation Anxiety is Real - Meh Monday \uD83D\uDE11",
-      "albums": ["chickens", "goats", "dogs"],
+      "albums": ["chickens", "goats", "dogs", "meh monday"],
       "release_date": "7/4/25"
     },{
       "youtubeID": "J7Od4KUFbmE",
@@ -1596,22 +1596,22 @@
     },{
       "youtubeID": "ezgtyKTqqcI",
       "title": "\uD83D\uDC23\uD83D\uDEA7\uD83D\uDC10 When A-Fence is no defense for the GOATs of destruction - \uD83D\uDE11meh Monday",
-      "albums": ["goats"],
+      "albums": ["goats", "meh monday"],
       "release_date": "7/4/25"
     },{
       "youtubeID": "bVR4a8oNuI4",
       "title": "\uD83D\uDC13⚔️\uD83D\uDC23 Don’t Mess With a Momma Hen! Broodzilla's Brutal Brood Intro",
-      "albums": ["chickens"],
+      "albums": ["chickens","broodzilla"],
       "release_date": "7/4/25"
     },{
       "youtubeID": "bVR4a8oNuI4",
       "title": "\uD83D\uDC13⚔️\uD83D\uDC23 Don’t Mess With a Momma Hen! Broodzilla's Brutal Brood Intro",
-      "albums": ["chickens"],
+      "albums": ["chickens","broodzilla"],
       "release_date": "7/4/25"
     },{
       "youtubeID": "pPU634NWrPE",
       "title": "\uD83E\uDD85\uD83D\uDC13 “Free Bird\" Freedom Flight: Morning Coop Escape!",
-      "albums": ["chickens"],
+      "albums": ["chickens","broodzilla"],
       "release_date": "7/4/25"
     },{
       "youtubeID": "T0eba2PPfxo",
@@ -1626,7 +1626,7 @@
     },{
       "youtubeID": "1AY4dRc2U4U",
       "title": "\uD83E\uDEE0\uD83D\uDC14\uD83D\uDC10 AZ Summer Struggles: Our Pets Get It - Meh Monday \uD83D\uDE11",
-      "albums": ["chickens", "goats"],
+      "albums": ["chickens", "goats", "meh monday"],
       "release_date": "7/11/25"
     },{
       "youtubeID": "rELHC9serHI",
@@ -1641,7 +1641,7 @@
     },{
       "youtubeID": "ywNgftxBr24",
       "title": "\uD83C\uDFA3\uD83D\uDC13Mosquito Fish Feast w/ a Side of Family Ponding!",
-      "albums": ["chickens"],
+      "albums": ["chickens","broodzilla"],
       "release_date": "7/18/25"
     },{
       "youtubeID": "6kv-UKFQIkc",
@@ -1651,7 +1651,7 @@
     },{
       "youtubeID": "hb8ZGAIFk2E",
       "title": "\uD83E\uDD63⚙️\uD83E\uDD2F Mixer Mishap - Stand Mixer Couldn't Stand Up to My Bagel Dough | Meh Monday \uD83D\uDE11",
-      "albums": ["cooking"],
+      "albums": ["cooking", "meh monday"],
       "release_date": "7/18/25"
     },{
       "youtubeID": "G1nZ5BLo2wU",
@@ -1666,7 +1666,7 @@
     },{
       "youtubeID": "UWYdjbnVhuk",
       "title": "\uD83D\uDC14\uD83D\uDCD4\uD83D\uDC23 Diary of a Broody Momma Hen - Broodzilla’s 1 Week Old Chicks",
-      "albums": ["chickens"],
+      "albums": ["chickens","broodzilla"],
       "release_date": "7/25/25"
     },{
       "youtubeID": "I6_rV6sfYPU",
@@ -1676,12 +1676,12 @@
     },{
       "youtubeID": "tytqM5d-d9w",
       "title": "\uD83E\uDD71\uD83D\uDC15 When you want a nap, but your dog has other plans | Meh Monday \uD83D\uDE11",
-      "albums": ["dogs"],
+      "albums": ["dogs", "meh monday"],
       "release_date": "7/25/25"
     },{
       "youtubeID": "xdJigkwkJNM",
       "title": "\uD83E\uDEB7\uD83E\uDD2F\uD83E\uDEB7 Our Water Lily has Split Personalities",
-      "albums": ["gardening"],
+      "albums": ["garden"],
       "release_date": "7/25/25"
     },{
       "youtubeID": "Mp8MC2w3qSA",
@@ -1696,12 +1696,12 @@
     },{
       "youtubeID": "n5ta_FcbCKw",
       "title": "\uD83D\uDCA8\uD83E\uDD40✨Life is Like a Box of Artichoke Seeds... \uD83C\uDF43",
-      "albums": ["gardening"],
+      "albums": ["garden"],
       "release_date": "8/1/25"
     },{
       "youtubeID": "MX3M1tVPhDQ",
       "title": "\uD83E\uDEF3 \uD83D\uDC61 When You're Just Waiting for the Other Shoe to Drop | Meh Monday \uD83D\uDE11",
-      "albums": [],
+      "albums": ["meh monday"],
       "release_date": "8/1/25"
     },{
       "youtubeID": "wSXyx9CNtKk",
@@ -1711,12 +1711,12 @@
     },{
       "youtubeID": "y5F1e-K74x4",
       "title": "\uD83D\uDC14\uD83D\uDCD4\uD83D\uDC23 Diary of a Broody Momma Hen - Broodzilla’s 2 Week Old Chicks",
-      "albums": ["chickens"],
+      "albums": ["chickens","broodzilla"],
       "release_date": "8/1/25"
     },{
       "youtubeID": "TQMU9safTko",
       "title": "\uD83D\uDC14\uD83D\uDCD4\uD83D\uDC23 Diary of a Broody Momma Hen - Broodzilla’s 3 week old chicks",
-      "albums": ["chickens"],
+      "albums": ["chickens","broodzilla"],
       "release_date": "8/8/25"
     },{
       "youtubeID": "GqrFiFt_tmU",
@@ -1726,7 +1726,7 @@
     },{
       "youtubeID": "Ft-7aKH8w6I",
       "title": "\uD83E\uDD75 \uD83E\uDDCA \uD83D\uDD27 Summertime Homeowner Struggles - Meh Monday \uD83D\uDE11",
-      "albums": [],
+      "albums": ["meh monday"],
       "release_date": "8/8/25"
     },{
       "youtubeID": "9TDr3r7-T2g",
@@ -1741,7 +1741,7 @@
     },{
       "youtubeID": "xdMP8elZonc",
       "title": "\uD83D\uDC14\uD83D\uDCD4\uD83D\uDC23 Diary of a Broody Momma Hen - Broodzilla’s 4 Week Old Chicks",
-      "albums": ["chickens"],
+      "albums": ["chickens","broodzilla"],
       "release_date": "8/15/25"
     },{
       "youtubeID": "OiJu3Dak6FI",
@@ -1761,7 +1761,7 @@
     },{
       "youtubeID": "WDBPGxcrZj8",
       "title": "\uD83D\uDC14\uD83D\uDCD4\uD83D\uDC23 Diary of a Broody Momma Hen - Broodzilla’s 5 Week Old Chicks",
-      "albums": ["chickens"],
+      "albums": ["chickens","broodzilla"],
       "release_date": "8/22/25"
     },{
       "youtubeID": "E5QPnqluN4Q",
@@ -1771,7 +1771,7 @@
     },{
       "youtubeID": "FR2aaZurzXA",
       "title": "⚒️\uD83E\uDD26\u200D♀️DIY fail | \uD83D\uDE11 Meh Monday",
-      "albums": [],
+      "albums": ["meh monday"],
       "release_date": "8/22/25"
     },{
       "youtubeID": "jpyKJF7zD-s",
@@ -1781,7 +1781,7 @@
     },{
       "youtubeID": "jjchOwWDVmA",
       "title": "\uD83D\uDC14\uD83D\uDCD4\uD83D\uDC23 Diary of a Broody Momma Hen - Broodzilla’s 6 Week Old Chicks",
-      "albums": ["new", "chickens"],
+      "albums": ["new", "chickens","broodzilla"],
       "release_date": "8/29/25"
     },{
       "youtubeID": "NFe-eoGEzTk",
@@ -1791,7 +1791,7 @@
     },{
       "youtubeID": "vPOolbh9Lf8",
       "title": "\uD83D\uDCF3⚡\uD83D\uDC10 Goat 2 phones | Meh Monday \uD83D\uDE11",
-      "albums": ["new", "goats"],
+      "albums": ["new", "goats", "meh monday"],
       "release_date": "8/29/25"
     },{
       "youtubeID": "L33naUXXMTY",
@@ -1801,7 +1801,7 @@
     },{
       "youtubeID": "0tpayHJ6F2o",
       "title": "\uD83D\uDC23\uD83D\uDEC1\uD83D\uDE36\u200D\uD83C\uDF2B️ Our Chicken Flock Growing up like a Buncha Teenage Dirtbags \uD83E\uDD18",
-      "albums": ["new", "chickens"],
+      "albums": ["new", "chickens","broodzilla"],
       "release_date": "8/29/25"
     }
   ]
