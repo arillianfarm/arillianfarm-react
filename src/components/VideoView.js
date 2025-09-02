@@ -108,7 +108,7 @@ const VideoView = () => {
             </Helmet>
             <div className="video-view">
                 <div className="row text-center">
-                    <div className="col-xs-12">
+                    <div className="col-sm-12">
                         <h4 className="text-white">Video Albums</h4>
                         <AlbumHeader
                             albumType="videos"

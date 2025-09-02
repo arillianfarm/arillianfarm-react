@@ -4,12 +4,12 @@ import { titleCaps, applyAlbumFilter } from '../utils';
 
 const albumCovers = [
     { name: "new", pic:`${process.env.PUBLIC_URL}/assets/headerPictures/android-chrome-192x192.png` },
-    { name: "broodzilla", pic:`${process.env.PUBLIC_URL}/assets/headerPictures/broodzilla.png` },
-    { name: "meh monday", pic:`${process.env.PUBLIC_URL}/assets/headerPictures/meh-monday.png` },
-    { name: "cooking", pic:`${process.env.PUBLIC_URL}/assets/headerPictures/cooking2.png` },
+    { name: "broodzilla", hide_pic_view: true, pic:`${process.env.PUBLIC_URL}/assets/headerPictures/broodzilla.png` },
+    { name: "meh monday", hide_pic_view: true, pic:`${process.env.PUBLIC_URL}/assets/headerPictures/meh-monday.png` },
+    { name: "cooking", hide_pic_view: true, pic:`${process.env.PUBLIC_URL}/assets/headerPictures/cooking2.png` },
+    { name: "garden", pic:`${process.env.PUBLIC_URL}/assets/headerPictures/arti-android-chrome-192x192.png` },
     { name: "chickens", pic:`${process.env.PUBLIC_URL}/favicons/android-chrome-192x192.png` },
     { name: "dogs", pic:`${process.env.PUBLIC_URL}/assets/headerPictures/xena-android-chrome-192x192.png` },
-    { name: "garden", pic:`${process.env.PUBLIC_URL}/assets/headerPictures/arti-android-chrome-192x192.png` },
     { name: "goats", pic:`${process.env.PUBLIC_URL}/assets/headerPictures/tandmg-android-chrome-192x192.png` },
     { name: "sky", pic:`${process.env.PUBLIC_URL}/assets/android-chrome-192x192.png` },
     { name: "wildlife", pic:`${process.env.PUBLIC_URL}/assets/headerPictures/pic-android-chrome-192x192.png` }
@@ -22,7 +22,7 @@ const AlbumHeader = ({ currentAlbum, albumType = 'videos' , onAlbumSelect, unfil
             <div className="row text-center small-hide">
                 <div
                     className={`mx-auto ${
-                        albumType === 'videos' ? 'col-lg-6' : 'col-lg-9'
+                        albumType === 'videos' ? 'col-lg-12' : 'col-lg-9'
                     }`}
                     style={{ display: 'flex' }}
                 >
@@ -34,7 +34,7 @@ const AlbumHeader = ({ currentAlbum, albumType = 'videos' , onAlbumSelect, unfil
                             }`}
                             onClick={() => onAlbumSelect(album.name)}
                             style={{ padding: '10px' }}
-                            hidden={albumType !== 'pictures' && album.hide_video_view}
+                            hidden={(albumType !== 'pictures' && album.hide_video_view)||(albumType == 'pictures' && album.hide_pic_view)}
                         >
                       <span>
                             <img className="br20" src={album.pic} height="100em" alt={album.name} />
@@ -54,7 +54,7 @@ const AlbumHeader = ({ currentAlbum, albumType = 'videos' , onAlbumSelect, unfil
                             }`}
                             onClick={() => onAlbumSelect(album.name)}
                             style={{ padding: '10px' }}
-                            hidden={albumType !== 'pictures' && album.hide_video_view}
+                            hidden={(albumType !== 'pictures' && album.hide_video_view)|| (albumType == 'pictures' && album.hide_pic_view)}
                         >
                       <span style={{ height: '65px', width: '65px', display: 'inline-block' }}>
                             <img className="br20" src={album.pic} height="60px" width="60px" alt={album.name} />
