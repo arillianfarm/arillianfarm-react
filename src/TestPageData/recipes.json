@@ -90,6 +90,38 @@
         }
       ],
       "notes": "Hasta Lasagna Don't Get Any On Ya"
+    },
+    {
+      "name": "Elite Gourmet EBM8103B Bread Maker Sourdough French Bread",
+      "header_pic": "sourdough-french-done.png",
+      "pub_date": "9/12/25",
+      "servings": "1 medium loaf (approx 10-12 slices of bread)",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "3/4 + 1.5 tablespoons warm water",
+        "1 tablespoon oil",
+        "1 tsp salt",
+        "1 tablespoon granulated sugar",
+        "2.25 cups flour (optional blend: 3/4 cup bread flour + 1.5 cups white flour)",
+        "1/2 cup sourdough starter",
+        "1/2 tsp bread maker (instant) yeast"
+      ],
+      "steps": [
+        {
+          "pic": "",
+          "instruction": "NOTE - this recipe is for a medium sized bread loaf in an Elite Gourmet EBM8103B Bread Maker. I honed this recipe over time starting with 100% bread flour and 100% sourdough starter which resulted in a very dense short loaf of bread. After some experimentation with different ratios of all purpose flour and bread maker yeast : bread flour and sour dough starter, I found this recipe yielded the best combination of: rise, crusty-crust, and chew."
+        },
+        {
+          "pic": "Elite-Gourmet-EBM8103B-Bread-Maker.png",
+          "instruction": "Add each ingredient in the order listed and select 'french bread' (number 4 on my bread maker)."
+        },
+        {
+          "pic": "sourdough-french-done.png",
+          "instruction": "Press start and in about four hours, you'll be enjoying some delicious sourdough french bread!"
+        }
+      ],
+      "notes": "Sourdough Flavor With Bread Maker Ease"
     }
   ]
 }

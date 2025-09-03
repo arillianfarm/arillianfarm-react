@@ -1781,28 +1781,63 @@
     },{
       "youtubeID": "jjchOwWDVmA",
       "title": "\uD83D\uDC14\uD83D\uDCD4\uD83D\uDC23 Diary of a Broody Momma Hen - Broodzilla’s 6 Week Old Chicks",
-      "albums": ["new", "chickens","broodzilla"],
+      "albums": ["chickens","broodzilla"],
       "release_date": "8/29/25"
     },{
       "youtubeID": "NFe-eoGEzTk",
       "title": "\uD83E\uDDC8\uD83E\uDDC4\uD83C\uDF3F Garden Fresh Herb, Garlic, Lemon, Pepper Compound Butter",
-      "albums": ["new", "cooking"],
+      "albums": ["cooking"],
       "release_date": "8/29/25"
     },{
       "youtubeID": "vPOolbh9Lf8",
       "title": "\uD83D\uDCF3⚡\uD83D\uDC10 Goat 2 phones | Meh Monday \uD83D\uDE11",
-      "albums": ["new", "goats", "meh monday"],
+      "albums": ["goats", "meh monday"],
       "release_date": "8/29/25"
     },{
       "youtubeID": "L33naUXXMTY",
       "title": "\uD83C\uDF5F\uD83E\uDD57 Air Fryer French Fry Salad \uD83D\uDE0B",
-      "albums": ["new", "cooking"],
+      "albums": ["cooking"],
       "release_date": "8/29/25"
     },{
       "youtubeID": "0tpayHJ6F2o",
       "title": "\uD83D\uDC23\uD83D\uDEC1\uD83D\uDE36\u200D\uD83C\uDF2B️ Our Chicken Flock Growing up like a Buncha Teenage Dirtbags \uD83E\uDD18",
-      "albums": ["new", "chickens","broodzilla"],
+      "albums": ["chickens","broodzilla"],
       "release_date": "8/29/25"
+    },{
+      "youtubeID": "Bwt52XafBo0",
+      "title": "\uD83D\uDC36\uD83E\uDD7A Just Give Me a Reason... to Not Eat Dry Kibble - Pajama Dog",
+      "albums": ["new", "dogs"],
+      "release_date": "9/5/25"
+    },{
+      "youtubeID": "uEZynZBttOI/",
+      "title": "\uD83D\uDC68\u200D\uD83D\uDD27\uD83E\uDDCA\uD83D\uDCA8 Broken AC Condenser Fan Motor Hot Fix",
+      "albums": ["new", "diy"],
+      "release_date": "9/5/25"
+    },{
+      "youtubeID": "U0un9g4T8vw",
+      "title": "\uD83D\uDEAB\uD83D\uDCA7\uD83D\uDC00 Oh Rats! There's a Hole in Our Rain Barrel | Meh Monday \uD83D\uDE11",
+      "albums": ["new", "meh monday"],
+      "release_date": "9/5/25"
+    },{
+      "youtubeID": "btT4PHZCswI",
+      "title": "\uD83C\uDF31\uD83E\uDEBE\uD83E\uDEA2 Crafting with Trash: Stick & Twine Potted Vine Trellis",
+      "albums": ["new", "garden"],
+      "release_date": "9/5/25"
+    },{
+      "youtubeID": "FY61CcLYIKA",
+      "title": "\uD83D\uDC14\uD83D\uDCD4\uD83D\uDC23 Broodzilla’s Brood 3-days-old to 3-months-old in 30 seconds",
+      "albums": ["new", "chickens"],
+      "release_date": "9/5/25"
+    },{
+      "youtubeID": "TCIBxx-PeM4",
+      "title": "\uD83E\uDDAD\uD83E\uDD4E\uD83D\uDC36 Pajama Dog Training to be a Seal",
+      "albums": ["new", "dogs"],
+      "release_date": "9/5/25"
+    },{
+      "youtubeID": "uwx7ezUjM8I",
+      "title": "\uD83D\uDC3E\uD83D\uDC36 Huey Ka-Bluey and Xena are the Paw-fect pair ❤️",
+      "albums": ["new", "dogs"],
+      "release_date": "9/5/25"
     }
   ]
 }

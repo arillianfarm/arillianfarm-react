@@ -2876,6 +2876,54 @@
         }
       ],
       "notes": "Magical Transformation Where Guilty Pleasure Meets Healthy ish Vibes!"
+    },
+    {
+      "name": "Bullwinkle J. Mousse",
+      "header_pic": "chocolate-mousse-finished.png",
+      "pub_date": "9/5/25",
+      "servings": "4 servings",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "3 large eggs, separated (you'll use yolk and whites)",
+        "1/4 cup granulated sugar",
+        "1/2 cup unsweetened cocoa powder",
+        "1/4 cup strong, hot coffee or espresso --Very Hot",
+        "1 cup heavy whipping cream --Chilled",
+        "1 tsp vanilla extract (optional)",
+        "Pinch of salt",
+        "1/4 cup (un-ripe) pomegranate seeds"
+      ],
+      "steps": [
+        {
+          "pic": "mousse-pasteurize-eggs.png",
+          "instruction": "For Unpasteurized Eggs (since raw eggs are used): Place eggs in a saucepan and cover with water. Heat water to 140°F and cook for 3.5 minutes. Cool in ice water immediately. "
+        },{
+          "pic": "",
+          "instruction": "Chill a large mixing bowl or stand mixer bowl and beater(s) in the freezer."
+        },
+        {
+          "pic": "mousse-chocolate-base.png",
+          "instruction": "Meanwhile, in a (non-chilled) medium bowl, whisk egg yolks and sugar until pale and frothy. In a separate bowl, whisk cocoa powder and hot coffee into a smooth paste then stir in vanilla. Whisk to combine the cocoa and egg yolk mixtures until smooth. set aside to cool at room temperature."
+        },
+        {
+          "pic": "mousse-whip-cream.png",
+          "instruction": "In the chilled bowl, whip heavy cream (with an electric mixer on medium-high speed) until it holds stiff peaks. Refrigerate."
+        },
+        {
+          "pic": "mousse-whip-egg-whites.png",
+          "instruction": "In a separate clean (chilled) bowl, whip egg whites with a pinch of salt until they form stiff, glossy peaks."
+        },
+        {
+          "pic": "mousse-fold-everything.png",
+          "instruction": "Gently fold 1/3 of the whipped cream into the cooled chocolate base. Then, fold in the remaining cream. Finally, carefully fold the whipped egg whites --and pomegranate seeds if you're using them-- into the mixture until just combined, DON'T OVER-MIX!"
+        },
+        {
+          "pic": "chocolate-mousse-finished.png",
+          "instruction": "Spoon the mousse into serving glasses. Cover and chill for at least 4 hours, or preferably overnight, until set."
+        }
+      ],
+      "notes": "Mountie up for this Bowl-d Chocolate Adventure."
     }
   ]
 }
