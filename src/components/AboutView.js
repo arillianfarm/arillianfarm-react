@@ -102,7 +102,7 @@ function AboutView() {
                 </div>
                 <div className="col-xs-12 col-lg-9 mx-auto mb-5">
                     <b className="mb-5">
-                        As of 9-10-24 we have some extra seeds for the fall.{' '}
+                        As of 9-4-25 we have some extra seeds for the fall.{' '}
                         <a href="mailto:arillianfarm@gmail.com">Email</a> if you would like me to mail some.
                     </b>
                 </div>

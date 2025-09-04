@@ -137,8 +137,9 @@ const VideoView = () => {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        {titleCaps(video.title || 'Untitled Video')}
+                                        <h3>{titleCaps(video.title || 'Untitled Video')}
                                         <i className="fa fa-external-link"></i>
+                                        </h3>
                                     </a>
                                     <div className="col-xs-12">
                                         <iframe

@@ -240,7 +240,7 @@
     },{
       "youtubeID": "0YLFGs2w99Q",
       "title": "Do You Have To Be A Prime Member To Get Packing Materials Airdropped In Your Yard?  #sky-ro-foam",
-      "albums": [],
+      "albums": ["sky"],
       "release_date": "10/25/24"
     },{
       "youtubeID": "fKByX2yv89Q",
@@ -840,7 +840,7 @@
     },{
       "youtubeID": "FWNFQUf_uXI",
       "title": "Enjoying a gorgeous sunrise with a beautiful friend",
-      "albums": ["wildlife","animals"],
+      "albums": ["wildlife","animals", "sky"],
       "release_date": "2/14/25"
     },{
       "youtubeID": "3Nq40RjZD5I",
@@ -900,7 +900,7 @@
     },{
       "youtubeID": "3usVaxhJHGI",
       "title": "woke up lookin for the broccoli",
-      "albums": ["wildlife","animals"],
+      "albums": ["wildlife","animals", "sky"],
       "release_date": "2/21/25"
     },{
       "youtubeID": "TFH0coqUIRo",
@@ -985,7 +985,7 @@
     },{
       "youtubeID": "j0FlluXsGLY",
       "title": "Does Anyone Else See the Faces Birds Carved in Our Saguaro Cactus?",
-      "albums": [],
+      "albums": ["sky"],
       "release_date": "3/7/25"
     },{
       "youtubeID": "hOS0sH3xRLA",
@@ -1040,7 +1040,7 @@
     },{
       "youtubeID": "v4wkBPvmpAc",
       "title": " Go Find Your Pot O' Gold and Dig In!",
-      "albums": [ "wildlife"],
+      "albums": [ "wildlife", "sky"],
       "release_date": "3/21/25"
     },{
       "youtubeID": "G9Fr-s3cWYo",
@@ -1048,8 +1048,8 @@
       "albums": ["dogs"],
       "release_date": "3/21/25"
     },{
-      "youtubeID": "Pajama Plays Too Ruff For This Tough Dog Toy — Meh Monday",
-      "title": "k-PtZIlezlI",
+      "youtubeID": "k-PtZIlezlI",
+      "title": "Pajama Plays Too Ruff For This Tough Dog Toy — Meh Monday",
       "albums": ["dogs", "meh monday"],
       "release_date": "3/21/25"
     },{
@@ -1313,11 +1313,6 @@
       "albums": ["diy"],
       "release_date": "5/2/25"
     },{
-      "youtubeID": "zojC0xmuJps",
-      "title": " Arthur Brings his Subwoofer When We Leave our Other Woofers at Home",
-      "albums": ["diy"],
-      "release_date": "5/2/25"
-    },{
       "youtubeID": "7KOTOChjB4I",
       "title": "Chickens can be Chicken about Trying New Things",
       "albums": ["chickens"],
@@ -1516,7 +1511,7 @@
     },{
       "youtubeID": "9uR08vAdyNk",
       "title": "\uD83C\uDF3B\uD83D\uDC1D Have a bee-utiful day!",
-      "albums": ["wildlife"],
+      "albums": ["wildlife", "garden", "sky"],
       "release_date": "6/13/25"
     },{
       "youtubeID": "7b3sPOE7TiA",
