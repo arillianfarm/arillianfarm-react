@@ -127,6 +127,9 @@
         <loc>https://arillianfarm.com/projects/?articleId=diary-of-a-garden-nerd-starting-plants-for-our-fall-desert-foodscape</loc>
     </url>
     <url>
+        <loc>https://arillianfarm.com/projects/?articleId=diary-of-a-garden-nerd-wood-chips-and-shovel-dips</loc>
+    </url>
+    <url>
         <loc>https://arillianfarm.com/blog/?articleId=do-folks-even-read-blogs</loc>
     </url>
     <url>
@@ -440,5 +443,8 @@
     </url>
     <url>
         <loc>https://arillianfarm.com/recipes/?articleId=french-fry-salad</loc>
+    </url>
+    <url>
+        <loc>https://arillianfarm.com/recipes/?articleId=bullwinkle-j-mousse</loc>
     </url>
 </urlset>

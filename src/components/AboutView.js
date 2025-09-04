@@ -90,7 +90,7 @@ function AboutView() {
                         >
                             Buy some Merch
                         </a>{' '}
-                        or tell a friend or check out videos of our dog pack: Pajama Dog, Huey Kabluey and Xena Dog, goats: Totes and McGoats and Broodzilla, Scout, Aya and the rest of Our Colorful Chicken Flock on our{' '}
+                        or tell a friend or check out videos of our dog pack: Pajama Dog, Huey Ka-Bluey and Xena Dog, goats: Totes and McGoats and Broodzilla, Scout, Aya and the rest of Our Colorful Chicken Flock on our{' '}
                         <a
                             href="https://www.youtube.com/channel/UC7meaKCW2UsPMQOSeHV5lKQ"
                             target="_blank"
