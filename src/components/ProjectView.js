@@ -270,9 +270,9 @@ const ProjectView = () => {
                 <h5 className="mb-0">
                     <div className="row blog-header align-items-center"> {/* Keep align-items-center */}
                         <div className="col-xs-12 col-lg-8 text-center"> {/* Adjusted colspan */}
-                            <h3>
+                            <h2>
                                 {titleCaps(item.name)}
-                            </h3>
+                            </h2>
                         </div>
                         <div className="col-xs-12 col-lg-4 text-right"> {/* Container for button and date on small screens */}
                             <div className="row align-items-center">

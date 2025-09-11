@@ -119,7 +119,7 @@ const BooksView = () => {
 
                 <div className="row mt-5">
                     <div className="col-xs-12 text-center">
-                        <h3 className="text-white mb-3">Read the Full Novella of Hyperspear: </h3>
+                        <h2 className="text-white mb-3">Read the Full Novella of Hyperspear: </h2>
                         {!isSmallView && (
                             <div className="bg-gray-800 p-4 rounded-lg shadow-lg">
                             {/* Novella PDF */}

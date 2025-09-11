@@ -155,7 +155,7 @@ const FeaturedRecipe = ({ recipe, assembleAndCopy, isSmallView, handleRelatedRec
                             </button>
                         </div>
                         <div className="col-sm-12 col-lg-8 text-center">
-                            <h3>{titleCaps(recipe.name)}</h3>
+                            <h2>{titleCaps(recipe.name)}</h2>
                         </div>
                         <div className="col-sm-12 small-hide">
                             {recipe.notes && <h5>{titleCaps(recipe.notes)}</h5>}

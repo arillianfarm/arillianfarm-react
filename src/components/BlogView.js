@@ -127,7 +127,7 @@ const BlogView = () => {
                 <hr />
                 <div className="row">
                     <div className="col-xs-12 text-center">
-                        <h3 className="text-white">{titleCaps(entry.entry_subject)}</h3>
+                        <h2 className="text-white">{titleCaps(entry.entry_subject)}</h2>
                     </div>
                     {entry.pic_file && entry.link && (
                         <div className="row mb-2 mt-2">

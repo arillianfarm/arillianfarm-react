@@ -1801,38 +1801,63 @@
     },{
       "youtubeID": "Bwt52XafBo0",
       "title": "\uD83D\uDC36\uD83E\uDD7A Just Give Me a Reason... to Not Eat Dry Kibble - Pajama Dog",
-      "albums": ["new", "dogs"],
+      "albums": ["dogs"],
       "release_date": "9/5/25"
     },{
       "youtubeID": "uEZynZBttOI/",
       "title": "\uD83D\uDC68\u200D\uD83D\uDD27\uD83E\uDDCA\uD83D\uDCA8 Broken AC Condenser Fan Motor Hot Fix",
-      "albums": ["new", "diy"],
+      "albums": ["diy"],
       "release_date": "9/5/25"
     },{
       "youtubeID": "U0un9g4T8vw",
       "title": "\uD83D\uDEAB\uD83D\uDCA7\uD83D\uDC00 Oh Rats! There's a Hole in Our Rain Barrel | Meh Monday \uD83D\uDE11",
-      "albums": ["new", "meh monday"],
+      "albums": ["meh monday"],
       "release_date": "9/5/25"
     },{
       "youtubeID": "btT4PHZCswI",
       "title": "\uD83C\uDF31\uD83E\uDEBE\uD83E\uDEA2 Crafting with Trash: Stick & Twine Potted Vine Trellis",
-      "albums": ["new", "garden"],
+      "albums": ["garden"],
       "release_date": "9/5/25"
     },{
       "youtubeID": "FY61CcLYIKA",
       "title": "\uD83D\uDC14\uD83D\uDCD4\uD83D\uDC23 Broodzilla’s Brood 3-days-old to 3-months-old in 30 seconds",
-      "albums": ["new", "chickens"],
+      "albums": ["chickens"],
       "release_date": "9/5/25"
     },{
       "youtubeID": "TCIBxx-PeM4",
       "title": "\uD83E\uDDAD\uD83E\uDD4E\uD83D\uDC36 Pajama Dog Training to be a Seal",
-      "albums": ["new", "dogs"],
+      "albums": ["dogs"],
       "release_date": "9/5/25"
     },{
       "youtubeID": "uwx7ezUjM8I",
       "title": "\uD83D\uDC3E\uD83D\uDC36 Huey Ka-Bluey and Xena are the Paw-fect pair ❤️",
-      "albums": ["new", "dogs"],
+      "albums": ["dogs"],
       "release_date": "9/5/25"
+    },{
+      "youtubeID": "",
+      "title": "",
+      "albums": ["new", ""],
+      "release_date": "9/12/25"
+    },{
+      "youtubeID": "",
+      "title": "",
+      "albums": ["new", ""],
+      "release_date": "9/12/25"
+    },{
+      "youtubeID": "",
+      "title": "",
+      "albums": ["new", ""],
+      "release_date": "9/12/25"
+    },{
+      "youtubeID": "",
+      "title": "",
+      "albums": ["new", ""],
+      "release_date": "9/12/25"
+    },{
+      "youtubeID": "",
+      "title": "",
+      "albums": ["new", ""],
+      "release_date": "9/12/25"
     }
   ]
 }
