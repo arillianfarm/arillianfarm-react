@@ -2910,6 +2910,94 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Garden Glamping for Hens: DIY Collapsable Chicken Tractor",
+      "pub_date": "09/19/25",
+      "header_pic": "chicken_plow_header.png",
+      "about": "The flock that weeds together succeeds together",
+      "categories": [
+        "gardening",
+        "DIY",
+        "homesteading",
+        "landscaping"
+      ],
+      "tools": [
+        "Heavy Duty Scissors",
+        "(electric) miter saw",
+        "4x corner clamps",
+        "8-12x jumbo binder clips (3-inches)",
+        "water bowl",
+        "2-3 (hungry) chickens"
+      ],
+      "materials": [
+        "an old 2-4 person tent",
+        "3 or 4x 1/2 inch boards (cut to fit tent)"
+      ],
+      "phases": [
+        {
+          "paragraphs": [
+            {
+              "text": "Getting In-Tent",
+              "h4": true
+            },{
+              "text": "Lows are in the high 70s and the wood chips base for our desert foodscape continues to sprout grass, so I've decided to get our hens to do some weeding for us."
+            },{
+              "text": "To form a shade canopy and the exterior frame of this 'chicken tractor', I used a 20 year old 2-person Ikea tent (which had gotten pretty grubby when I'd used it as a brooder when our hens were just baby chicks a few years back)."
+            },{
+              "text": "After assembling the tent, I used heavy scissors to cut the bottom out."
+            }
+          ]
+        },
+        {
+          "pic": "cut-boards-for-frame.png",
+          "paragraphs": [
+            {
+              "text": "Frame Job",
+              "h4": true
+            },{
+              "text": "After measuring the interior of the tent, I used an electric miter saw to cut my 1/2-inch boards to fit."
+            },{
+              "text": " Note - If you are buying 8x4x1/2 inch boards, and your tent is 4 ft wide or less, you will only need 3 boards otherwise you will need 4."
+            }
+          ]
+        },
+        {
+          "pic": "wood-tent-frame.png",
+          "paragraphs": [
+            {
+              "text": "Assemble Interior Frame",
+              "h4": true
+            },{
+              "text": "To keep the 'chicken tractor' portable, I decided to use corner clamps to hold together the frame (so that the frame can be easily transported in my car)."
+            }
+          ]
+        },{
+          "pic": "clamp-wood-boards-for-frame.png",
+          "paragraphs": [
+            {
+              "text": "Clip Clip Hooray!",
+              "h4": true
+            },{
+              "text": "Using binder clips, (two on each side) I clipped the outside of the tent to the wood frame."
+            },{
+              "text": "With the wood frame clipped in place, my lil 'chicken tractor' is heavy and rigid enough to stop chickens from climbing under, but not so heavy that I can't stick my arm in the door and walk it along (an inch or so above the ground) to relocate it to the next weedy spot."
+            }
+          ]
+        },{
+          "vid": "iRWRhteJw44",
+          "paragraphs": [{
+            "text": "The Flock That Weeds Together Succeeds Together!",
+            "h4": true
+          },
+            {
+              "text": "I have a collapsable dog crate to transport 2-3 of our hens in the car and get them into to the 'chicken tractor'."
+            },{
+              "text": "Once I set the tent in place and put in a tray of cool water, I toss out some treats (to make sure my hens are excited about being in the tractor) and off they go to snack away on weeds inside their shaded chicken tractor."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

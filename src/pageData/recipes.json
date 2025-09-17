@@ -2956,6 +2956,58 @@
         }
       ],
       "notes": "Sourdough Flavor With Bread Maker Ease"
+    },
+    {
+      "name": "Fluffy Crisp Air Fried Sweet Potato Muffin Cakes",
+      "header_pic": "sweet-potato-pancakes-finished.png",
+      "pub_date": "9/19/25",
+      "servings": "4-6 muffin cakes",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "1 cup mashed sweet potato (about 1 large sweet potato or 2 small ones)",
+        "1 large egg",
+        "1/4 cup heavy whipping cream",
+        "2 tablespoons brown sugar",
+        "1 teaspoon vanilla extract",
+        "1 cup all-purpose flour",
+        "1 teaspoon baking powder",
+        "1/2 teaspoon ground cinnamon",
+        "Pinch of salt",
+        "oil or non-stick cooking spray",
+        "Optional Toppings: Goat cheese and honey or butter and syrup"
+      ],
+      "steps": [
+        {
+          "pic": "sweet-potato-pancakes-prep-potato.png",
+          "instruction": "Cook sweet potato(es) in microwave, air fry or steam then let cool slightly and mash. (or use canned sweet potatoes)."
+        },
+        {
+          "pic": "sweet-potato-pancakes-wet-mix.png",
+          "instruction": "In a medium bowl, whisk together the mashed sweet potato, egg, heavy cream, sugar, and vanilla extract until well combined and smooth."
+        },
+        {
+          "pic": "",
+          "instruction": "In a separate bowl, whisk together the flour, baking powder, cinnamon, and salt."
+        },
+        {
+          "pic": "sweet-potato-pancakes-batter.png",
+          "instruction": "Pour the dry ingredients into the wet ingredients and mix with a spoon until just combined. The batter will be thick."
+        },
+        {
+          "pic": "sweet-potato-pancakes-air-fryer-basket.png",
+          "instruction": "Lightly oil air fryer basket with non-stick cooking spray and shape spoonfuls of batter into pancakes in the basket. Air fry at 350°F for 5-7 minutes, flip with a spatula and cook for another 3-5 minutes until golden brown --OR-- oil a pan and fry in batches on the stove (flipping when they start to bubble)  ."
+        },
+        {
+          "pic": "sweet-potato-pancakes-cooking.png",
+          "instruction": "Mold the batter into flat pancakes and lay in the air fryer basket (leaving space between each). Air fry for 7 minutes, then flip and air fry for 7 more minutes"
+        },
+        {
+          "pic": "sweet-potato-pancakes-finished.png",
+          "instruction": "They're great as fat pancakes Served with butter and syrup, but they're even better (IMHO) as muffins topped with some goat cheese, honey and a sprinkle of brown sugar."
+        }
+      ],
+      "notes": "Eat 'em like a muffin or Pancake"
     }
   ]
 }
