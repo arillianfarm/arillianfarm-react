@@ -1861,18 +1861,33 @@
     },{
       "youtubeID": "uZXM4GyEBu8",
       "title": "⛲️\uD83D\uDC56Scraping Bottom for a Laugh \uD83D\uDE1D",
-      "albums": ["new"],
+      "albums": [],
       "release_date": "9/19/25"
     },{
       "youtubeID": "1ojXe9k62kc",
       "title": "\uD83D\uDC14\uD83E\uDD2C POV - Karen Before Her Morning Coffee | Meh Monday \uD83D\uDE11",
-      "albums": ["new", "chickens", "meh monday"],
+      "albums": ["chickens", "meh monday"],
       "release_date": "9/19/25"
     },{
       "youtubeID": "0j0H20W4l3Q",
       "title": "\uD83C\uDF1E\uD83D\uDD25\uD83C\uDF35 Welcome to the Lake of Fire: Arizona Summer Vibes",
-      "albums": ["new", "chickens", "meh monday"],
+      "albums": ["chickens", "meh monday"],
       "release_date": "9/19/25"
+    },{
+      "youtubeID": "iRWRhteJw44",
+      "title": "\uD83D\uDC14\uD83D\uDE9C Crafting with Trash:  Portable Chicken Tractor",
+      "albums": ["new","chickens", "diy"],
+      "release_date": "9/25/25"
+    },{
+      "youtubeID": "Zu7L-WSCz1o",
+      "title": "\uD83E\uDDF8\uD83E\uDDE2\uD83D\uDC15\u200D\uD83E\uDDBA Bad Dog Training | Meh Monday \uD83D\uDE11",
+      "albums": ["new","dogs", "meh monday"],
+      "release_date": "9/25/25"
+    },{
+      "youtubeID": "h3-LJ1rYFRc",
+      "title": "\uD83E\uDEF0\uD83D\uDC26Shooing Pigeons like I'm in Westside Story",
+      "albums": ["new"],
+      "release_date": "9/25/25"
     }
   ]
 }
