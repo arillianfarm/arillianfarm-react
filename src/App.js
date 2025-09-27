@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import RecipesView from './components/RecipesView';
 import VideoView from './components/VideoView';
 import ProjectView from './components/ProjectView';
@@ -20,14 +20,27 @@ import TermsOfService from "./pages/TermsOfService";
 import NotFoundPage from './pages/NotFoundPage';
 import RedirectHandler from './RedirectHandler';
 import { HelmetProvider } from 'react-helmet-async';
+// Define the paths where the TopNav should be hidden
+const hiddenNavPaths = [
+    '/apply',
+    '/rent-1110-mill-ave' // Hides nav on the landing page
+];
 
-function App() {
+
+// Define the main content component that uses location
+function AppContent() {
+    const location = useLocation();
+
+    // Check if the current path starts with any of the hidden paths
+    // This handles both base paths and paths with query strings (e.g., /apply?formId=1)
+    const hideNav = hiddenNavPaths.some(path => location.pathname.startsWith(path));
 
     return (
         <HelmetProvider>
-        <BrowserRouter basename="/" >
             <RedirectHandler />
-            <TopNav />
+            {/* Conditional Rendering of TopNav */}
+            {!hideNav && <TopNav />}
+
             <div className="content-wrapper">
                 <Routes>
                     <Route path="/videos" element={<VideoView />} />
@@ -52,9 +65,19 @@ function App() {
                 </Routes>
             </div>
             <Footer />
-        </BrowserRouter>
-    </HelmetProvider>
+        </HelmetProvider>
     );
 }
+
+// This is the main exported component, which wraps AppContent in the Router
+function App() {
+    return (
+        <BrowserRouter basename="/" >
+            <AppContent />
+        </BrowserRouter>
+    );
+}
+
+
 
 export default App;

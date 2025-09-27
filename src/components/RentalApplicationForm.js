@@ -21,9 +21,9 @@ const RentalApplicationForm = () => { // Removed rentalPrice prop
         // 1. Compare to STRING '1'
         // 2. Return a FORMATTED STRING to avoid the Firebase error.
         if (rateId === '1') {
-            return '$2,100.00 /month'; // Friends & Family rate
+            return '$2,100.00'; // Friends & Family rate
         } else {
-            return '$2,500.00 /month'; // Market rate (default)
+            return '$2,500.00'; // Market rate (default)
         }
     }, [location.search]);
 
@@ -39,6 +39,7 @@ const RentalApplicationForm = () => { // Removed rentalPrice prop
         hasPets: 'No',
         petDescription: '',
         numVehicles: '',
+        seekLeaseStartDate: '',
         // Current Residence
         residenceType: 'Apartment',
         residenceAddress: '',
@@ -143,7 +144,7 @@ const RentalApplicationForm = () => { // Removed rentalPrice prop
             // Success: clear form and show thank you
             setFormData({
                 fullName: '', ssn: '', dob: '', phone: '', email: '', photoIdType: 'Driver’s License',
-                idNumber: '', hasPets: 'No', petDescription: '', numVehicles: '', residenceType: 'Apartment',
+                idNumber: '', hasPets: 'No', petDescription: '', numVehicles: '', seekLeaseStartDate: '', residenceType: 'Apartment',
                 residenceAddress: '', monthlyRent: '', leaseStart: '', leaseEnd: '', reasonForMoving: '',
                 companyName: '', employerAddress: '', title: '', monthlyIncome: '', startDate: '', consent: false,
             });
@@ -183,7 +184,8 @@ const RentalApplicationForm = () => { // Removed rentalPrice prop
                         <div className="card-body">
                             <p><strong>Property Address:</strong> {propertyInfo.address}</p>
                             <p><strong>Beds/Baths:</strong> {propertyInfo.beds} / {propertyInfo.baths} ({propertyInfo.sqft} SF)</p>
-                            <p><strong>Monthly Rent:</strong> {rentalPrice}</p>
+                            <p><strong>Monthly Rent:</strong> {rentalPrice}/month</p>
+                            <p><strong>Deposit:</strong> {rentalPrice}</p>
                             <p><strong>Lease Start Date:</strong> {propertyInfo.leaseStart}</p>
                             <p><strong>Pets/Smoking/Vaping:</strong> Pets: {propertyInfo.petsAllowed} | Smoking: {propertyInfo.smokingAllowed} | Vaping: {propertyInfo.vapingAllowed}</p>
                             <p><strong>Parking:</strong> {propertyInfo.parking}</p>
@@ -209,6 +211,7 @@ const RentalApplicationForm = () => { // Removed rentalPrice prop
                             <div className="col-md-8"><label htmlFor="petDescription" className="form-label">Pet Description</label><input type="text" className="form-control" id="petDescription" name="petDescription" value={formData.petDescription} onChange={handleChange} placeholder="Breed, weight, age, etc." /></div>
                         )}
                         <div className="col-md-4"><label htmlFor="numVehicles" className="form-label"># Vehicles to park*</label><input type="number" className="form-control" id="numVehicles" name="numVehicles" value={formData.numVehicles} onChange={handleChange} required min="0" max="3" /></div>
+                        <div className="col-md-4"><label htmlFor="seekLeaseStartDate" className="form-label">Desired Lease Start Date</label><input type="date"  className="form-control" id="seekLeaseStartDate" name="seekLeaseStartDate" value={formData.seekLeaseStartDate} onChange={handleChange} required min="0" max="3" /></div>
                     </div>
 
                     {/* Current Residence (rest remains the same) */}

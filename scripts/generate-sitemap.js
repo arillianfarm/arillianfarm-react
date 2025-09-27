@@ -43,6 +43,7 @@ const staticUrls = [
     `${BASE_URL}/about`,
     `${BASE_URL}/books`,
     `${BASE_URL}/pictures`,
+    `${BASE_URL}/rent-1110-mill-ave`,
     `${BASE_URL}/privacy-policy`,
     `${BASE_URL}/terms-of-service`
 ];

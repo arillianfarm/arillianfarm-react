@@ -47,7 +47,7 @@ const Rent1110 = () => {
     return (
         <div className="container p-4 my-5">
             <header className="text-center mb-5">
-                <h1 className="display-4">House For Rent: 1110 S Mill Ave, Tempe, AZ</h1>
+                <h1 className="display-4 text-white">House For Rent: 1110 S Mill Ave, Tempe, AZ</h1>
                 <p className="lead">Prime Location Directly Across from ASU!</p>
             </header>
 
