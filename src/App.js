@@ -8,6 +8,8 @@ import BooksView from './components/BooksView';
 import AboutView from './components/AboutView';
 import PicturesView from './components/PicturesView';
 import FarmSitting from './components/FarmSitting';
+import Rent1110 from './components/Rent1110';
+import ApplicationPage from './components/RentalApplicationForm';
 import TopNav from './components/TopNav';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -41,6 +43,9 @@ function App() {
                     <Route path="/privacy-policy" element={<PrivacyPolicy />} />
                     <Route path="/terms-of-service" element={<TermsOfService />} />
                     <Route path="/farm-sitting" element={<FarmSitting />} />
+                    <Route path="/rent-1110-mill-ave" element={<Rent1110 />} />
+                    <Route path="/apply" element={<ApplicationPage />} />
+
                     <Route path="/" element={<VideoView />} />
                     {/* Catch-all route for 404 */}
                     <Route path="*" element={<NotFoundPage />} />
