@@ -86,7 +86,7 @@ const Rent1110 = () => {
                             >
                                 Go To Rental Application
                             </Link>
-                            <p className="mt-2 text-center small text-muted">A separate new landing page will open.</p>
+                            <p className="mt-2 text-center small text-muted">A separate landing page will open.</p>
                         </div>
                     </div>
                 </div>
