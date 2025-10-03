@@ -3080,6 +3080,44 @@
         }
       ],
       "notes": "Savory Sweet and an Adorable Treat"
+    },
+    {
+      "name": "Something to Guac about Guacamole",
+      "header_pic": "guac-served.png",
+      "pub_date": "10/2/25",
+      "servings": "4-6 servings",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "3-4 avocados",
+        "1 bunch cilantro",
+        "1 tomato diced",
+        "1/4 cup finely diced onion",
+        "1 clove garlic (pressed or minced)",
+        "0-2 jalapenos (de-seeded and minced)",
+        "1 tablespoon lemon or lime juice",
+        "1/2 tsp (freshly) ground black pepper",
+        "1/8 tsp salt"
+      ],
+      "steps": [
+        {
+          "pic": "prep-avacado-for-guac.png",
+          "instruction": "Peel and remove pit from avocados and add to a medium - large bowl."
+        },
+        {
+          "pic": "guac-ingreidents-in-bowl.png",
+          "instruction": "Pluck cilantro leaves from stems and add the leaves and the remaining ingredients to the bowl."
+        },
+        {
+          "pic": "guac-smash.png",
+          "instruction": "Using a fork or potato masher, mash the avocados and mix with the rest of the ingredients"
+        },
+        {
+          "pic": "guac-served.png",
+          "instruction": "Enjoy with chips, on toast or in a sandwich."
+        }
+      ],
+      "notes": "Chips turn and guac at this beautiful dip"
     }
   ]
 }

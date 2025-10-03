@@ -40,6 +40,16 @@ const RentalApplicationForm = () => { // Removed rentalPrice prop
         petDescription: '',
         numVehicles: '',
         seekLeaseStartDate: '',
+        // --- NEW OCCUPANTS SECTION ---
+        occupant2Name: '',
+        occupant2Dob: '',
+        occupant2Ssn: '',
+        occupant2Phone: '',
+        occupant3Name: '',
+        occupant3Dob: '',
+        occupant3Ssn: '',
+        occupant3Phone: '',
+        // -----------------------------
         // Current Residence
         residenceType: 'Apartment',
         residenceAddress: '',
@@ -53,6 +63,9 @@ const RentalApplicationForm = () => { // Removed rentalPrice prop
         title: '',
         monthlyIncome: '',
         startDate: '',
+        // --- NEW NOTES SECTION ---
+        additionalNotes: '',
+        // -------------------------
         // Consent
         consent: false,
     });
@@ -144,10 +157,19 @@ const RentalApplicationForm = () => { // Removed rentalPrice prop
             // Success: clear form and show thank you
             setFormData({
                 fullName: '', ssn: '', dob: '', phone: '', email: '', photoIdType: 'Driver’s License',
-                idNumber: '', hasPets: 'No', petDescription: '', numVehicles: '', seekLeaseStartDate: '', residenceType: 'Apartment',
-                residenceAddress: '', monthlyRent: '', leaseStart: '', leaseEnd: '', reasonForMoving: '',
-                companyName: '', employerAddress: '', title: '', monthlyIncome: '', startDate: '', consent: false,
+                idNumber: '', hasPets: 'No', petDescription: '', numVehicles: '', seekLeaseStartDate: '',
+                // New Occupant Fields
+                occupant2Name: '', occupant2Dob: '', occupant2Ssn: '', occupant2Phone: '',
+                occupant3Name: '', occupant3Dob: '', occupant3Ssn: '', occupant3Phone: '',
+                // End New Occupant Fields
+                residenceType: 'Apartment', residenceAddress: '', monthlyRent: '', leaseStart: '', leaseEnd: '', reasonForMoving: '',
+                companyName: '', employerAddress: '', title: '', monthlyIncome: '', startDate: '',
+                // New Notes Field
+                additionalNotes: '',
+                consent: false,
             });
+            setIsSubmitted(true); // Show thank you message
+// ...
             setIsSubmitted(true); // Show thank you message
 
         } catch (err) {
@@ -199,7 +221,7 @@ const RentalApplicationForm = () => { // Removed rentalPrice prop
                     <div className="row g-3">
                         <div className="col-md-6"><label htmlFor="fullName" className="form-label">Full Name*</label><input type="text" className="form-control" id="fullName" name="fullName" value={formData.fullName} onChange={handleChange} required /></div>
                         <div className="col-md-6"><label htmlFor="ssn" className="form-label">SSN*</label><input type="text" className="form-control" id="ssn" name="ssn" value={formData.ssn} onChange={handleChange} required /></div>
-                        <div className="col-md-6"><label htmlFor="dob" className="form-label">Date of Birth*</label><input type="date" className="form-control" id="dob" name="dob" value={formData.dob} onChange={handleChange} required /></div>
+                        <div className="col-md-6"><label htmlFor="dob" className="form-label">Date of Birth (MM/DD/YYYY)*</label><input type="text" className="form-control" id="dob" name="dob" value={formData.dob} onChange={handleChange} required placeholder="MM/DD/YYYY" inputMode="numeric" pattern="\d{1,2}/\d{1,2}/\d{4}" /></div>
                         <div className="col-md-6"><label htmlFor="phone" className="form-label">Phone Number*</label><input type="tel" className="form-control" id="phone" name="phone" value={formData.phone} onChange={handleChange} required /></div>
                         <div className="col-12"><label htmlFor="email" className="form-label">Email*</label><input type="email" className="form-control" id="email" name="email" value={formData.email} onChange={handleChange} required /></div>
 
@@ -233,6 +255,45 @@ const RentalApplicationForm = () => { // Removed rentalPrice prop
                         <div className="col-md-6"><label htmlFor="title" className="form-label">Title / Occupation*</label><input type="text" className="form-control" id="title" name="title" value={formData.title} onChange={handleChange} required /></div>
                         <div className="col-md-3"><label htmlFor="monthlyIncome" className="form-label">Monthly Income ($)*</label><input type="number" className="form-control" id="monthlyIncome" name="monthlyIncome" value={formData.monthlyIncome} onChange={handleChange} required /></div>
                         <div className="col-md-3"><label htmlFor="startDate" className="form-label">Start Date*</label><input type="date" className="form-control" id="startDate" name="startDate" value={formData.startDate} onChange={handleChange} required /></div>
+                    </div>
+
+                    {/* Other Occupants */}
+                    <h3 className="mt-5 mb-3 border-bottom pb-2">OTHER OCCUPANTS (Excluding Applicant)</h3>
+                    <p className="fst-italic">Please list any additional adults (18+) who will occupy the property. Minors do not need to be listed.</p>
+
+                    {/* Occupant 2 */}
+                    <h4 className="mt-4 mb-3 text-muted">Occupant 2 (Optional)</h4>
+                    <div className="row g-3 border rounded p-3 bg-white">
+                        <div className="col-md-6"><label htmlFor="occupant2Name" className="form-label">Full Name</label><input type="text" className="form-control" id="occupant2Name" name="occupant2Name" value={formData.occupant2Name} onChange={handleChange} /></div>
+                        <div className="col-md-6"><label htmlFor="occupant2Ssn" className="form-label">SSN</label><input type="text" className="form-control" id="occupant2Ssn" name="occupant2Ssn" value={formData.occupant2Ssn} onChange={handleChange} /></div>
+                        <div className="col-md-6"><label htmlFor="occupant2Dob" className="form-label">Date of Birth (MM/DD/YYYY)</label><input type="text" className="form-control" id="occupant2Dob" name="occupant2Dob" value={formData.occupant2Dob} onChange={handleChange} placeholder="MM/DD/YYYY" inputMode="numeric" pattern="\d{1,2}/\d{1,2}/\d{4}" /></div>
+                        <div className="col-md-6"><label htmlFor="occupant2Phone" className="form-label">Phone Number</label><input type="tel" className="form-control" id="occupant2Phone" name="occupant2Phone" value={formData.occupant2Phone} onChange={handleChange} /></div>
+                    </div>
+
+                    {/* Occupant 3 */}
+                    <h4 className="mt-4 mb-3 text-muted">Occupant 3 (Optional)</h4>
+                    <div className="row g-3 border rounded p-3 bg-white">
+                        <div className="col-md-6"><label htmlFor="occupant3Name" className="form-label">Full Name</label><input type="text" className="form-control" id="occupant3Name" name="occupant3Name" value={formData.occupant3Name} onChange={handleChange} /></div>
+                        <div className="col-md-6"><label htmlFor="occupant3Ssn" className="form-label">SSN</label><input type="text" className="form-control" id="occupant3Ssn" name="occupant3Ssn" value={formData.occupant3Ssn} onChange={handleChange} /></div>
+                        <div className="col-md-6"><label htmlFor="occupant3Dob" className="form-label">Date of Birth (MM/DD/YYYY)</label><input type="text" className="form-control" id="occupant3Dob" name="occupant3Dob" value={formData.occupant3Dob} onChange={handleChange} placeholder="MM/DD/YYYY" inputMode="numeric" pattern="\d{1,2}/\d{1,2}/\d{4}" /></div>
+                        <div className="col-md-6"><label htmlFor="occupant3Phone" className="form-label">Phone Number</label><input type="tel" className="form-control" id="occupant3Phone" name="occupant3Phone" value={formData.occupant3Phone} onChange={handleChange} /></div>
+                    </div>
+
+                    {/* Additional Notes / Special Requests */}
+                    <h3 className="mt-5 mb-3 border-bottom pb-2">ADDITIONAL NOTES / SPECIAL REQUESTS</h3>
+                    <div className="row g-3 mb-4">
+                        <div className="col-12">
+                            <label htmlFor="additionalNotes" className="form-label">Notes</label>
+                            <textarea
+                                className="form-control"
+                                id="additionalNotes"
+                                name="additionalNotes"
+                                rows="3"
+                                value={formData.additionalNotes}
+                                onChange={handleChange}
+                                placeholder="E.g., Preferred move-in time, or any other information relevant to your tenancy."
+                            ></textarea>
+                        </div>
                     </div>
 
                     {/* Consent & Acknowledgement (rest remains the same) */}

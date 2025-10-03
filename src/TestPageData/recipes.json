@@ -90,6 +90,41 @@
         }
       ],
       "notes": "Hasta Lasagna Don't Get Any On Ya"
+    },
+    {
+      "name": "Seven Layers of Christmas Dip",
+      "header_pic": "seven-layers-of-christmas-dip-served.png",
+      "pub_date": "12/05/25",
+      "servings": "10-12 servings",
+      "vid": null,
+      "related_recipes": ["bean dip", "guacamole"],
+      "ingredients": [
+        "3-4 cups bean dip",
+        "3-4 cups guacamole",
+        "15-23 oz (approx 2-3 cups) nacho cheese",
+        "14 oz sour cream",
+        "6 oz shredded mozzarella cheese",
+        "1/2 cup chopped tomatoes"
+      ],
+      "steps": [
+        {
+          "pic": "apple-nachos-cut-apples.png",
+          "instruction": "Wash and dry the apples. Carefully slice each apple crosswise into 1/4 inch thick discs --discard slices that contain seeds or core."
+        },
+        {
+          "pic": "caramel-sauce-finished.png",
+          "instruction": "Prepare your caramel sauce. If using a jarred sauce, warm it slightly in the microwave or on the stove top to a pourable consistency. If using homemade, make sure it is ready for dipping, drizzling."
+        },
+        {
+          "pic": "apple-nachos-arrange-platter.png",
+          "instruction": "Lay the apple discs in a single layer and, using dabs of goat cheese as adhesive, add nuts and dates to create funny faces. ( e.g. use date slices and nuts for eyes, noses and mouths or beaks etc)."
+        },
+        {
+          "pic": "apple-nachos-add-toppings.png",
+          "instruction": "Arrange the apples around a cup of caramel dip and/or drizzle the caramel sauce over the apple discs."
+        }
+      ],
+      "notes": "Savory Sweet and an Adorable Treat"
     }
   ]
 }

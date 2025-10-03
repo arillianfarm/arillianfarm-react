@@ -64,7 +64,7 @@ const Rent1110 = () => {
                         </div>
 
                         <div className="col-md-5">
-                            <h2 className="text-success">Current Monthly Rent:</h2>
+                            <h2 className="text-success">Monthly Rent:</h2>
                             <p className="display-3 fw-bold text-success mb-4">{rentalPrice}</p>
 
                             <h3 className="mb-3">Key Features:</h3>

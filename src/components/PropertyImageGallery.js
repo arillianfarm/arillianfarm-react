@@ -3,23 +3,23 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 // Define all property images and their captions
 const images = [
-    { src: '/assets/millRental/mill-exterior-1.png', caption: 'Back Patio' },
     { src: '/assets/millRental/mill-exterior-2.png', caption: 'Front of House' },
     { src: '/assets/millRental/mill-exterior-3.png', caption: 'Front Porch' },
-    { src: '/assets/millRental/mill-exterior-4.png', caption: 'Side of House' },
-    { src: '/assets/millRental/mill-exterior-5.png', caption: 'Patio Shared With Back House' },
     { src: '/assets/millRental/mill-exterior-6.png', caption: 'View From Front Yard' },
-    { src: '/assets/millRental/mill-exterior-7.png', caption: 'Driveway' },
     { src: '/assets/millRental/mill-exterior-8.png', caption: 'Back of House' },
+    { src: '/assets/millRental/mill-exterior-1.png', caption: 'Back Patio' },
+    { src: '/assets/millRental/mill-exterior-5.png', caption: 'Patio Shared With Back House' },
+    { src: '/assets/millRental/mill-exterior-7.png', caption: 'Driveway' },
+    { src: '/assets/millRental/mill-exterior-4.png', caption: 'Side of House' },
     { src: '/assets/millRental/mill-interior-1.png', caption: 'Kitchen' },
-    { src: '/assets/millRental/mill-interior-2.png', caption: 'Washer Drier Unit' },
-    { src: '/assets/millRental/mill-interior-3.png', caption: 'Bedroom 2' },
     { src: '/assets/millRental/mill-interior-4.png', caption: 'Kitchen, Living Room' },
-    { src: '/assets/millRental/mill-interior-5.png', caption: 'Bedroom 3' },
     { src: '/assets/millRental/mill-interior-6.png', caption: 'Main Bedroom' },
     { src: '/assets/millRental/mill-interior-7.png', caption: 'Private Bath for Main Bedroom' },
-    { src: '/assets/millRental/mill-interior-8.png', caption: 'Shared Bathroom' },
+    { src: '/assets/millRental/mill-interior-3.png', caption: 'Bedroom 2' },
     { src: '/assets/millRental/mill-interior-9.png', caption: 'Bedroom 2' },
+    { src: '/assets/millRental/mill-interior-5.png', caption: 'Bedroom 3' },
+    { src: '/assets/millRental/mill-interior-8.png', caption: 'Shared Bathroom' },
+    { src: '/assets/millRental/mill-interior-2.png', caption: 'Washer Drier Unit' },
     { src: '/assets/millRental/mill-layout.png', caption: 'Floor Plan' },
 ];
 
