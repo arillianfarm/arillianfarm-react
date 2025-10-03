@@ -3003,7 +3003,7 @@
     {
       "name": "Diary of a Garden Nerd: Coming in for a Bumpy Planting",
       "pub_date": "10/03/25",
-      "header_pic": "fall_planting_success.png",
+      "header_pic": "plants-planted.png",
       "about": "The final stage of the desert foodscape: A hard-won victory over root rot, fungus gnats, rats, and mold, culminating in the triumphant transplanting of all the survivor plants.",
       "categories": [
         "gardening",
@@ -3027,6 +3027,7 @@
       ],
       "phases": [
         {
+          "pic": "root-rot-plants.png",
           "paragraphs": [
             {
               "text": "The Nursery Nightmare 😱",
@@ -3039,11 +3040,12 @@
               "text": "It was devastating. My beautiful, two-month-old artichoke seedlings, which I had been meticulously protecting from predators like birds, were now losing a battle with fungus. To save what plants I could (and drive the flies out of our house), I had to shut down the indoor nursery and move everything outside full time."
             },
             {
-              "text": "The late afternoon temperatures were still hitting triple digits, so it was a serious shock to my poor plant babies’ systems. About half of the plants managed to survive —until a **starving rat** cruised through one night and ate my marigolds down to the roots, decapitated several of my promising sunflowers, and snacked on several young artichokes. It was a pretty disappointing few days, but I shoved some new seeds in the pots and hoped for the best."
+              "text": "The late afternoon temperatures were still hitting triple digits, so it was a serious shock to my poor plant babies’ systems. About half of the plants managed to survive —until a **starving rat** cruised through one night and ate my marigolds down to the roots, decapitated several of my promising sunflowers, and snacked on half my young artichokes. It was a pretty disappointing few days, but I shoved some new seeds in the pots and hoped for the best."
             }
           ]
         },
         {
+          "pic": "grass-growth.png",
           "paragraphs": [
             {
               "text": "The Moldy Mulch & The Mask Strategy 😷",
@@ -3053,15 +3055,17 @@
               "text": "Meanwhile at the garden site, the wood chips were decomposing and holding onto the moisture from summer monsoon storms. The grass we’d hoped to bury and suffocate with the wood chips was rapidly climbing up from the edges of the yard, over our beautiful (exhaustively raked) pile of wood chips. Meanwhile, below the chip pile, **the fungus among us was thriving.**"
             },
             {
-              "text": "The combination of the thick layer of wood chips and the humidity of monsoon season created a perfect environment for fungal growth. Go-getter that I am, as soon as I saw the grass, I grabbed my weed wacker and **went after it.** Unfortunately, I kicked up a lot of dust, debris, and obviously fungus spores in the process, and I ended up with a cough and a fever — **twice before my dumb ass bought a 12-pack of N-95 masks and started wearing them on site.**"
+              "text": "The combination of the thick layer of wood chips and the humidity of monsoon season created a perfect environment for fungal growth. Go-getter that I am, as soon as I saw the grass, I grabbed my weed wacker and **went after it.** Unfortunately, I kicked up a lot of dust, debris, and obviously fungus spores in the process, and I ended up with a cough and a fever — **twice before my dumb ass bought a 12-pack of N-95 masks and started wearing them on site.**  Despite the setbacks, enough plants (and I) made it to planting day to fulfill the vision I’d had for the garden!"
             },
             {
-              "text": "**PSA - I was dumb. Don’t be like me!** If you're tackling a large mulching project, especially in a damp climate, **WEAR A MASK OR RESPIRATOR!** Despite the setbacks, enough plants (and I) made it to planting day to fulfill the vision I’d had for the garden!"
+              "text": "**PSA - I was dumb. Don’t be like me!** If you're tackling a large mulching project, especially in a damp climate, **WEAR A MASK OR RESPIRATOR!**"
             }
           ]
         },
         {
+          "pic": "plants-planted.png",
           "paragraphs": [
+
             {
               "text": "The Great Transplant 🪴",
               "h4": true
@@ -3070,7 +3074,7 @@
               "text": "By the first week of October, all the high temperatures in the ten-day forecast were below 100°F, but frost would be possible by January, so it was go time! In spite of the rot, the pests, and the mold— my plants made it to their forever home."
             },
             {
-              "text": "There is still some minor cleanup. I need to add a couple of splitters to the drip line to reach every last plant and then bury the tubing under the wood chips, and the plants have to survive the heat of the decomposing wood chips. But for now, the tough, little survivors of my **\"Nursery Nightmare\" are in the ground (and I am not).** I’m enjoying optimistic visions of a thriving desert foodscape. The light at the end of the tunnel looks exactly like everything I've been dreaming of."
+              "text": "There is still some minor cleanup. I need to add a couple of splitters to the drip line to reach every last plant and then bury the tubing under the wood chips, and the plants have to survive the heat of the decomposing wood chips. But for now, the tough, little survivors of my \"Nursery Nightmare\" are in the ground (and I am not). For now, I’m enjoying optimistic visions of a thriving desert foodscape. The light at the end of the tunnel looks exactly like the vision I've been dreaming of for months."
             }
           ]
         }
