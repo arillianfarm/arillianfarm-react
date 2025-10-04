@@ -41,7 +41,7 @@ const Rent1110 = () => {
         { icon: '🚶', text: '**Light rail, restaurants, and shopping** within walking distance.' },
         { icon: '🐾', text: '**Pets allowed** (upon approval).' },
         { icon: '🛏️', text: 'Spacious **3 Bed / 2 Bath** House.' },
-        { icon: '📅', text: 'Available starting **11/01/2025**.' },
+        { icon: '📅', text: 'Available starting **11/05/2025**.' },
     ];
 
     return (

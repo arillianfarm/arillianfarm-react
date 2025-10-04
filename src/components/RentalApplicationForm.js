@@ -92,7 +92,7 @@ const RentalApplicationForm = () => { // Removed rentalPrice prop
         baths: 2,
         sqft: 1401,
         leaseType: 'Fixed term',
-        leaseStart: '11/01/2025 or ASAP',
+        leaseStart: '11/05/2025 or ASAP',
         petsAllowed: 'YES',
         smokingAllowed: 'OUTSIDE ONLY',
         vapingAllowed: 'YES',
