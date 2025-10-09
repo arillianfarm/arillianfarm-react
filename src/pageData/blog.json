@@ -2591,6 +2591,68 @@
           ]
         }
       ]
+    },
+    {
+      "entry_subject": "Listing a Rental House in the Age of Algorithms",
+      "entry_date": "Oct 10, 2025",
+      "pic_file": "my-mill-ad.png",
+      "entry_number": 32,
+      "feature_section_1": {
+        "caption": "Fighting algorithms to find a good tenant in the post-pandemic market."
+      },
+      "sections": [
+        {
+          "vid": "Fv82mVnKU2o",
+          "paragraphs": [
+            {
+              "text": "When I put my house up for rent in 2016 (when Arthur and I moved to Arillian Farm in Mesa) it was a different world. Back then, when I put an ad on Craigslist for a three-bedroom house directly across from ASU, I instantly received over a dozen emails and texts from interested renters. I showed the house to my top three, and within a week, three excited young ASU students had signed a lease and kept re-signing for almost a decade."
+            },
+            {
+              "text": "Now though, in this post-pandemic, post-AI world, fewer folks are choosing to invest in traditional college, and those who are seem to mostly attend online classes, so the pool of potential renters may have shrank. However, the privacy and seclusion of a single-family home may have more value than ever to many modern, socially distant humans. Unfortunately, I’m not marketing to people anymore, I’m marketing to an algorithm: Zillow’s algorithm. A cold corporate sorting machine where the right metrics matter far more than good old fashioned charm."
+            }
+          ]
+        },
+        {
+          "pics": ["my-mill-ad.png"],
+          "paragraphs": [
+            {
+              "text": "Stubborn pragmatist that I am, I decided to get around Zillow with my own DIY tech. I created a Google Ad for my home, complete with a special landing page and an application form on my website. My ad featured a photo slideshow with a peppy voice-over about all the home’s charming features. I thought, this’ll be great—I’ll drive traffic to my website, find new tenants and I’ll feel good because I did it in the hands on tech-DIY way that I love."
+            },
+            {
+              "text": "Unfortunately, with my budget of $5.00 a day, I couldn’t afford to get a single pair of eyeballs on my ad in the first five days. I know from my experience advertising my YouTube channel that American eyeballs are particularly expensive for advertisers, so I wasn’t too surprised or discouraged. I immediately took to the apps. I knew person-to-person forums like Craigslist took a hit during the pandemic, so I wasn’t surprised that I got no interest from listing there, but I was shocked that my listing on Zillow got only 10 views the first day."
+            }
+          ]
+        },
+        {
+          "pics": ["zillow-mis-info.png"],
+          "paragraphs": [
+            {
+              "text": "That’s when it really struck me how at the mercy of algorithms everything is. I fed Zillow my home info and it chewed up my home and digested it without even stopping to savor the flavor. Then it told me my house sucks: I don’t have a 3-D tour, my description didn’t have enough words, I don’t have enough amenities, and, obviously, I should be paying for “Zillow Premium.” Nothing is personal anymore."
+            },
+            {
+              "text": "To add insult to injury, when I 'claimed ownership of my home,' Zillow took away the thumbnail picture of my cute little house and replaced it with an ugly, gray, generic-looking apartment complex. (After filing a request with a robot via their chat service and a lengthy back and forth with a customer service rep, I was told I just have to wait until Google refreshes its Zillow thumbnail data for my house)."
+            }
+          ]
+        },
+        {
+          "pics": [
+            "1110-mill-back-view.png"
+          ],
+          "right_side_pic": true,
+
+          "paragraphs": [
+            {
+              "text": "The true value of my home can’t easily be explained to an algorithm. I don’t have the amenity list Zillow requires, and there’s no way for me to add in **raised garden beds**, a **fire pit in the shared court yard**, or **a flock of wild parrots that lives in the trees**, so my listing gets buried where no one sees it. These types of things would appeal to many human renters, but they aren’t something I can share in a meaningful way on Zillow, but as several people told me 'you have to list on Zillow'."
+            },
+            {
+              "text": "I ended up paying Zillow $35.00 for the premium membership, but I still have zero 'leads', zero 'potential' applicants, zero 'tour requests' and zero faith in Zillow."
+            },
+            {
+              "text": "However, the best solutions are often the simplest ones and I am very fortunate to have a wonderful community of family and friends. By stepping away from the digital noise and chatting with my homies, I (have hopefully) found some reliable renters who I know will love living in the home as much as Arthur and I did. Zillow got their $35.00, but my community provided the actual solution. The biggest lesson learned? **In a world dominated by tech, real connections are invaluable.**"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

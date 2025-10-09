@@ -18,16 +18,16 @@ const Rent1110 = () => {
 
         // Determine price based on query string:
         // '1' for $2,100.00 /month (Friends/Family)
-        // anything else (null, etc.) for $2,500.00 /month (Market Rate)
+        // anything else (null, etc.) for $2,350.00 /month (Market Rate)
 
-        let price = '$2,500.00 /month'; // Default to Market Rate
+        let price = '$2,350.00 /month'; // Default to Market Rate
         let linkQuery = ''; // Default application link query
 
         if (rateId === '1') {
             price = '$2,100.00 /month'; // Set Friends/Family rate
             linkQuery = '?formId=1'; // Application link gets the query string
         }
-        // Note: For the market rate ($2,500.00), the linkQuery remains empty ("")
+        // Note: For the market rate ($2,350.00), the linkQuery remains empty ("")
         // for subtlety, as requested.
 
         return {

@@ -23,7 +23,7 @@ const RentalApplicationForm = () => { // Removed rentalPrice prop
         if (rateId === '1') {
             return '$2,100.00'; // Friends & Family rate
         } else {
-            return '$2,500.00'; // Market rate (default)
+            return '$2,350.00'; // Market rate (default)
         }
     }, [location.search]);
 

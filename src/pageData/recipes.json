@@ -3084,7 +3084,7 @@
     {
       "name": "Something to Guac about Guacamole",
       "header_pic": "guac-served.png",
-      "pub_date": "10/2/25",
+      "pub_date": "10/3/25",
       "servings": "4-6 servings",
       "vid": null,
       "related_recipes": [],
@@ -3118,6 +3118,43 @@
         }
       ],
       "notes": "Chips turn and guac at this beautiful dip"
+    },
+    {
+      "name": "Fajita Burrito Tostada Bowl",
+      "header_pic": "fajita-burrito-tostada-bowl-served.png",
+      "pub_date": "10/10/25",
+      "servings": "2-4 servings",
+      "vid": null,
+      "related_recipes": ["Bowl-d & Beautiful Salad Shells"],
+      "ingredients": [
+        "2-4 tortillas",
+        "2 cups cooked rice",
+        "2 tablespoons butter (divided)",
+        "1/4 cup bell pepper and/or jalapeno - finely diced",
+        "1/4 cup onion - diced",
+        "1/4 cup crimini mushrooms - chopped",
+        "(optional) 1/2 cup fresh cabbage - chopped",
+        "1/2 tsp (fresh) ground black pepper",
+        "Soy sauce (to taste)",
+        "1 tablespoon lemon or lime juice",
+        "1 can black beans -rinsed and drained",
+        "1/2 cup shredded cheese",
+        "1/2 avocado (sliced)",
+        "1/4 cup (full fat) greek yogurt or sour cream"
+      ],
+      "steps": [
+        {
+          "pic": "fajita-burrito-tostada-bowl-grilled-veggies.png",
+          "instruction": "Melt 1 tablespoon butter in a large (cast iron) skillet over medium-high heat. Add chopped pepper, onion, mushrooms,cabbage, black pepper and soy sauce. Stir fry until veggies start to char."
+        },{
+          "pic": "fajita-burrito-tostada-bowl-add-beans.png",
+          "instruction": "Stir in lemon juice and black beans and cook covered for another 3-5 minutes."
+        },{
+          "pic": "fajita-burrito-tostada-bowl-served.png",
+          "instruction": "In a tostada bowl, layer, rice, shredded cheese, grilled veggies/ beans, more shredded cheese, and top with yogurt (or sour cream) and avocado slices."
+        }
+      ],
+      "notes": "Ole"
     }
   ]
 }
