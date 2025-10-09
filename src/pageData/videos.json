@@ -1891,18 +1891,33 @@
     },{
       "youtubeID": "btlNzFSbW18",
       "title": "\uD83C\uDF4B\uD83E\uDDCA If the Juice is Worth the Squeeze it's Worth a Freeze!",
-      "albums": ["new", "cooking"],
+      "albums": ["cooking"],
       "release_date": "10/3/25"
     },{
       "youtubeID": "GvRnmaWHi34",
       "title": "\uD83C\uDFCE️\uD83D\uDCA5\uD83C\uDFCE️ That Infinite Rat Race | Meh Monday \uD83D\uDE11",
-      "albums": ["new", "meh monday"],
+      "albums": ["meh monday"],
       "release_date": "10/3/25"
     },{
       "youtubeID": "IElvVaMde68",
       "title": "\uD83D\uDD0A\uD83D\uDC14\uD83E\uDD96Broodzilla's Broody Moods",
-      "albums": ["new", "chickens", "broodzilla"],
+      "albums": [ "chickens", "broodzilla"],
       "release_date": "10/3/25"
+    },{
+      "youtubeID": "_V-KrxHaqxw",
+      "title": "\uD83D\uDC36\uD83E\uDD6A Summer's Over, Pajama Brunch Season is OFFICIALLY Back",
+      "albums": ["new", "dogs"],
+      "release_date": "10/10/25"
+    },{
+      "youtubeID": "Tfmt1j7NqKU",
+      "title": "\uD83D\uDC14\uD83E\uDD1B\uD83D\uDE0E POV - Tryna Sit at the Cool Lunch Table | Meh Monday \uD83D\uDE11",
+      "albums": ["new", "chickens", "meh monday"],
+      "release_date": "10/10/25"
+    },{
+      "youtubeID": "K07smdLVxIY",
+      "title": "\uD83D\uDC14\uD83D\uDC69\u200D\uD83D\uDE80 One Giant Leap For Chicken Kind",
+      "albums": ["new", "chickens"],
+      "release_date": "10/10/25"
     }
   ]
 }
