@@ -235,6 +235,9 @@
         <loc>https://arillianfarm.com/blog/?articleId=it-takes-all-kinds-embracing-the-diverse-forms-of-diversity</loc>
     </url>
     <url>
+        <loc>https://arillianfarm.com/blog/?articleId=listing-a-rental-house-in-the-age-of-algorithms</loc>
+    </url>
+    <url>
         <loc>https://arillianfarm.com/recipes/?articleId=baked-eggs-and-asparagus</loc>
     </url>
     <url>
@@ -476,5 +479,8 @@
     </url>
     <url>
         <loc>https://arillianfarm.com/recipes/?articleId=something-to-guac-about-guacamole</loc>
+    </url>
+    <url>
+        <loc>https://arillianfarm.com/recipes/?articleId=fajita-burrito-tostada-bowl</loc>
     </url>
 </urlset>

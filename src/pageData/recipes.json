@@ -3155,6 +3155,59 @@
         }
       ],
       "notes": "Ole"
+    },
+    {
+      "name": "Vine & Dandy Dolmades",
+      "header_pic": "dolmades-finished-platter.png",
+      "pub_date": "10/3/25",
+      "servings": "30-40 dolmades",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "40-50 fresh, unblemished grape leaves",
+        "1 cup medium-grain white rice (rinsed)",
+        "1 large onion, finely minced",
+        "1/2 cup extra virgin olive oil (divided)",
+        "1/2 cup fresh parsley, finely chopped",
+        "1/4 cup fresh dill, finely chopped",
+        "2 tablespoons fresh mint, finely chopped (optional)",
+        "1/2 teaspoon salt",
+        "1/4 teaspoon black pepper",
+        "Juice of 1 large lemon (for the filling)",
+        "1 cup water or vegetable broth (or hydrated bollion)",
+        "Juice of 1-2 large lemons (for cooking and serving)"
+      ],
+      "steps": [
+        {
+          "pic": "dolmades-blanch-leaves.png",
+          "instruction": "Bring a large pot of water to a boil. Blanch the fresh grape leaves for about 3 minutes until soft and pliable. Immediately transfer them to an ice bath, then drain and pat dry."
+        },
+        {
+          "pic": "dolmades-saute-onion-rice.png",
+          "instruction": "Heat 1/4 cup of olive oil in a skillet over medium heat. Sauté the minced onion until translucent (5-7 minutes). Add the rinsed rice and sauté for 1 minute, stirring constantly."
+        },
+        {
+          "pic": "dolmades-filling-mixed.png",
+          "instruction": "Remove the skillet from heat. Stir in the parsley, dill, mint, salt, pepper, and the juice of 1 lemon. Mix well to create the filling."
+        },
+        {
+          "pic": "dolmades-rolling-process.png",
+          "instruction": "Lay a leaf flat, shiny side down. Place 1-1.5 teaspoons of filling near the base. Fold the sides over the filling, then tightly roll from the bottom upward into a cigar shape."
+        },
+        {
+          "pic": "dolmades-pot-layering.png",
+          "instruction": "Line the bottom of a heavy pot with any extra/torn leaves. Arrange the dolmades snugly in layers, seam-side down. Drizzle with the remaining 1/4 cup of olive oil and the juice of 1 lemon."
+        },
+        {
+          "pic": "dolmades-cooking-simmer.png",
+          "instruction": "Pour water/broth over the dolmades until just covered. Place a heatproof plate on top to keep them submerged. Cover the pot, bring to a simmer, then reduce heat to low and cook for 45 minutes to 1 hour, until rice is tender."
+        },
+        {
+          "pic": "dolmades-finished-platter.png",
+          "instruction": "Remove from heat and let them cool completely in the pot. Serve at room temperature or chilled, drizzled with the juice of the last lemon and serve with with a dollop of Greek yogurt or hummus."
+        }
+      ],
+      "notes": "Give yourself a tum of yum."
     }
   ]
 }
