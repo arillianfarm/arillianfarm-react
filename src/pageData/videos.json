@@ -1906,16 +1906,34 @@
     },{
       "youtubeID": "_V-KrxHaqxw",
       "title": "\uD83D\uDC36\uD83E\uDD6A Summer's Over, Pajama Brunch Season is OFFICIALLY Back",
-      "albums": ["new", "dogs"],
+      "albums": ["dogs"],
       "release_date": "10/10/25"
     },{
       "youtubeID": "Tfmt1j7NqKU",
       "title": "\uD83D\uDC14\uD83E\uDD1B\uD83D\uDE0E POV - Tryna Sit at the Cool Lunch Table | Meh Monday \uD83D\uDE11",
-      "albums": ["new", "chickens", "meh monday"],
+      "albums": ["chickens", "meh monday"],
       "release_date": "10/10/25"
     },{
       "youtubeID": "K07smdLVxIY",
       "title": "\uD83D\uDC14\uD83D\uDC69\u200D\uD83D\uDE80 One Giant Leap For Chicken Kind",
+      "albums": ["chickens"],
+      "release_date": "10/10/25"
+    },
+    {
+      "youtubeID": "iYkvg6AWM9Q",
+      "title": "\uD83D\uDC36❤️\uD83D\uDC36\uD83C\uDFB6 Huey Ka-Bluey and Xena are Birds of a Feather",
+      "albums": ["new", "dogs"],
+      "release_date": "10/10/25"
+    },
+    {
+      "youtubeID": "8k2w7uD7DeE",
+      "title": "\uD83C\uDF83 \uD83D\uDC15Dog Spook Fail - Meh Monday \uD83D\uDE11",
+      "albums": ["new", "dogs", "meh monday"],
+      "release_date": "10/10/25"
+    },
+    {
+      "youtubeID": "p3e2S4EJrfc",
+      "title": "\uD83C\uDF83\uD83D\uDC13☀️Tryna Train our Chickens to Carve Pumpkins",
       "albums": ["new", "chickens"],
       "release_date": "10/10/25"
     }

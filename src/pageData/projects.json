@@ -3081,9 +3081,9 @@
       ]
     },
     {
-      "name": "From Free Salad Bar to Trashy Sanctuary: How a Wire Can Saved My Seedlings",
+      "name": "From Free Salad Bar to Trashy Plant Sanctuary: How a Wire Trash Can Saved My Seedlings",
       "pub_date": "10/17/25",
-      "header_pic": "trash-cans-on-plants-wide.png",
+      "header_pic": "dropping-those-beets.png",
       "about": "After years of losing young plants to everything from rats and squirrels to sparrows, I finally found the simplest, cheapest, and most durable solution: using upside-down wire trash cans as protective domes.",
       "categories": [
         "gardening",
@@ -3094,26 +3094,35 @@
         "critter control"
       ],
       "tools": [
-        "Tin snips (for context)",
-        "Gloves (for context)",
+        "Tin snips",
+        "Gloves",
         "Patience (the rarest tool)"
       ],
       "materials": [
-        "Wire trash cans (galvanized)",
-        "Hardware cloth (failed attempt)",
+        "Wire trash cans",
+        "Hardware cloth (optional)",
         "Landscape netting (failed attempt)",
         "Grow lights (failed attempt)"
       ],
       "phases": [
         {
-          "pic": "indoor-nursery-setup.png",
+          "pic": "",
           "paragraphs": [
             {
-              "text": "Try Trying Again: The Nursery Nightmare 🤦‍♀️",
+              "text": "Try Trying Again: ",
               "h4": true
             },
             {
               "text": "I normally love cute little creatures, but with them tearing up my garden, I’ve been starting to relate a lot more to farmer McGregor from Peter Rabbit than I’d like. Fortunately, I think my angry farmer days are done. Here’s a look back at the methods I’ve tried to protect my plants."
+            }
+          ]
+        },
+        {
+          "pic": "indoor-nursery-setup.png",
+          "paragraphs": [
+            {
+              "text": "The Nursery Nightmare [FAIL]",
+              "h4": true
             },
             {
               "text": "Starting plants indoors seemed like the most logical approach: grow them to a resilient size before exposure. This method **works okay for some plants**, but trying to maintain a perfect nursery environment in our poorly insulated \"Arizona Room\" (which is more of a glorified sun porch) was a constant battle. It was hard to maintain the ideal balance of moisture and heat. Some plants drowned, others withered and bugs still got to the plants. Overall, between the setup and the cost of running supplemental grow lights, I’d say it’s **not really worth it**."
@@ -3121,10 +3130,10 @@
           ]
         },
         {
-          "pic": "sparrow-tangled-netting.png",
+          "pic": "chewed-netting.png",
           "paragraphs": [
             {
-              "text": "Landscape Netting and Row Covers: Gruesome and Gaping",
+              "text": "Landscape Netting and Row Covers: Gruesome and Gaping [FAIL]",
               "h4": true
             },
             {
@@ -3133,29 +3142,29 @@
           ]
         },
         {
-          "pic": "hardware-cloth-cage-close.png",
+          "pic": "hardware-cloth-cages.png",
           "paragraphs": [
             {
-              "text": "DIY Plant Cages: Effective but Time-Consuming and Painful",
+              "text": "DIY Plant Cages [Effective but Time-Consuming and Painful]",
               "h4": true
             },
             {
               "text": "My next big effort involved galvanized hardware cloth (a sturdy half inch wire mesh that can be bought from a hardware store) which I used to fabricate custom cages. I cut and bent the mesh into rectangles of various sizes (stitching the sides and tops together with some of the wire that had been used to bind the hardware cloth."
             },
             {
-              "text": "This worked **pretty well**! Nothing was chewing through that solid wire nor was any creature getting hurt by it. The main downside was making the cages was incredibly **time-consuming**—cutting and bending the sharp wire for dozens of plants was tedious and required **tin snips, gloves and patience** (and my gloves weren’t thick enough, so I still ended up with punctures and cuts all over my hands). A roll of 2 ft. x 25 ft. 19-Gauge Hardware Cloth was about **$55.00 after taxes** made about a dozen cages."
+              "text": "This worked **pretty well**! Nothing chewed through that solid wire nor was any creature hurt by it. The main downside was making the cages was incredibly **time-consuming** cutting and bending the sharp wire for dozens of cages was tedious and required **tin snips, gloves and patience** (and my gloves weren’t thick enough, so I still ended up with punctures and cuts all over my hands). A roll of 2 ft. x 25 ft. 19-Gauge Hardware Cloth was about **$55.00 after taxes** made about a dozen cages."
             }
           ]
         },
         {
-          "pic": "trash-can-plant-dome.png",
+          "pic": "trash-can-plant-domes.png",
           "paragraphs": [
             {
-              "text": "One person's trash can is another person’s treasure chest",
+              "text": "One person's trash can is another person’s treasure chest [Winner]",
               "h4": true
             },
             {
-              "text": "A friend stumbled across a brilliant, simple idea on social media: **using upside down wire trash cans as protective plant domes.**"
+              "text": "Shortly after I built my DIY plant cages, a friend stumbled across a brilliant, simple idea on social media: **using upside down wire trash cans as protective plant domes.**"
             },
             {
               "text": "Why the Wire Can Triumphs:",
@@ -3172,7 +3181,11 @@
             },
             {
               "text": "4. **Critter-Proof:** The wire is thick and sturdy enough that squirrels and rats can’t chew through it, and the cans are heavy enough that birds can’t easily knock them over."
-            },
+            }
+          ]
+        },{
+          "pic": "dropping-those-beets.png",
+          "paragraphs": [
             {
               "text": "Flipping wire cans upside down over young plants provides instant protection from everything from roving rats to persistent sparrows without blocking sunlight or hindering water and air flow and they can be used year after year. I don’t want to count my crop before harvest, but it looks like we may finally be getting back to **dropping some phat beets** on Arillian Farm."
             }
