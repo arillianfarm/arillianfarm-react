@@ -72,9 +72,9 @@ const ListItem = ({ item, isSelected, onItemClick, titleKey, thumbnailKey, descr
                                 alt={item[titleKey]}
                             />
                         )}
-                        <div className="row">
+                        <div className="row text-white">
                             {descriptionKey && item[descriptionKey] && (
-                                <p>{typeof descriptionKey === 'function' ? descriptionKey(item) : trunc(item[descriptionKey])}</p>
+                                <p className="text-white">{typeof descriptionKey === 'function' ? descriptionKey(item) : trunc(item[descriptionKey])}</p>
                             )}
                             <div className="col-xs-12 mt-4 mb-2 text-white cursPoint text-right pull-right button-group" style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end' }}>
                                 {thumbnailPrefix === '/assets/recipes/' && (

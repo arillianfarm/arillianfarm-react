@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { isPreRendering } from '../App'; // <-- NEW: Import the utility
 import ListItem from './ListItem';
 import {useLocation, useNavigate} from 'react-router-dom';
 import {titleCaps, getSlug, setLinkWithQueryString, getIframeSrcForYouTube} from '../utils';
@@ -206,16 +207,38 @@ const RecipesView = () => {
         setLoading(true);
         setFeaturedRecipe(null);
         try {
+            // const processedRecipes = [...recipeData.data].reverse();
+            // setRecipes(processedRecipes);
+            //
+            // const params = new URLSearchParams(location.search);
+            // const idFromQuery = params.get('articleId');
+            //
+            // let initialFeaturedRecipe = null;
+            // if (idFromQuery) {
+            //     initialFeaturedRecipe = processedRecipes.find(recipe => getSlug(recipe.name) === idFromQuery);
+            // }
             const processedRecipes = [...recipeData.data].reverse();
-            setRecipes(processedRecipes);
+            setRecipes(processedRecipes); // CRUCIAL: This exposes the links for react-snap
 
-            const params = new URLSearchParams(location.search);
-            const idFromQuery = params.get('articleId');
+            let initialFeaturedRecipe = processedRecipes[0]; // Default to the first recipe
 
-            let initialFeaturedRecipe = null;
-            if (idFromQuery) {
-                initialFeaturedRecipe = processedRecipes.find(recipe => getSlug(recipe.name) === idFromQuery);
+            // --- REACT-SNAP OPTIMIZATION ---
+            // Only attempt to find a specific recipe from the URL if we are NOT pre-rendering.
+            // This prevents issues with complex URL/Location parsing in a headless environment.
+            if (!isPreRendering()) {
+                const params = new URLSearchParams(location.search);
+                const idFromQuery = params.get('articleId');
+
+                if (idFromQuery) {
+                    const foundRecipe = processedRecipes.find(recipe => getSlug(recipe.name) === idFromQuery);
+                    if (foundRecipe) {
+                        initialFeaturedRecipe = foundRecipe;
+                    }
+                }
+            } else {
+                console.log("RecipesView: Pre-rendering mode active. Skipping complex URL parsing to speed up snapshot.");
             }
+            // --- END OPTIMIZATION --
 
             setFeaturedRecipe(initialFeaturedRecipe || processedRecipes[0]);
             // Removed setCollapseNav(true) as there's no more collapse action

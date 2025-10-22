@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { isPreRendering } from '../App';
 import ListItem from './ListItem';
 import Comments from './Comments';
 import {
@@ -8,29 +9,36 @@ import {
     getSlug,
     setLinkWithQueryString
 } from '../utils';
-import {useLocation, useParams} from 'react-router-dom';
+import {useLocation, useNavigate, useParams} from 'react-router-dom';
 import projectData from '../pageData/projects.json';
 import { Helmet } from 'react-helmet-async';
 
 
+// Helper component to render tools and materials safely
 const ProjectToolsMaterials = ({ featuredProject }) => {
-    if (!featuredProject || (!featuredProject.tools?.length && !featuredProject.materials?.length)) {
+    // Replace optional chaining with safe checks
+    const hasTools = featuredProject && featuredProject.tools && featuredProject.tools.length > 0;
+    const hasMaterials = featuredProject && featuredProject.materials && featuredProject.materials.length > 0;
+
+    if (!hasTools && !hasMaterials) {
         return null;
     }
 
     return (
         <div className="row">
-            {featuredProject.tools?.length && (
+            {hasTools && (
                 <div className="col-xs-12 col-lg-6">
                     <h3>Tools</h3>
                     <ol style={{ fontWeight: 'bold' }} className="text-white">
-                        {featuredProject.tools.map((tool, index) => (
+                        {/* FIX: Use (|| []) to guard against null/undefined before calling .map() */}
+                        { (featuredProject.tools || []).map((tool, index) => (
                             <li key={`tool-${index}`}>
                                 <h4>{tool}</h4>
                             </li>
                         ))}
                     </ol>
-                    {featuredProject.tool_pics?.map((toolPic, index) => (
+                    {/* Replace optional chaining: featuredProject.tool_pics?.map */}
+                    {featuredProject.tool_pics && featuredProject.tool_pics.map((toolPic, index) => (
                         toolPic && (
                             <div key={`toolPic-${index}`} className="col-xs-12 col-lg-4">
                                 <p>{toolPic.name}</p>
@@ -61,20 +69,22 @@ const ProjectToolsMaterials = ({ featuredProject }) => {
                 </div>
             )}
 
-            {featuredProject.materials?.length && (
+            {hasMaterials && (
                 <div className="col-xs-12 col-lg-6">
                     <div className="row">
                         <div className="col-xs-12">
                             <h3>Materials</h3>
                             <ol style={{ fontWeight: 'bold' }} className="text-white">
-                                {featuredProject.materials.map((mat, index) => (
+                                {/* FIX: Use (|| []) to guard against null/undefined before calling .map() */}
+                                { (featuredProject.materials || []).map((mat, index) => (
                                     <li key={`material-${index}`}>
                                         <h4>{mat}</h4>
                                     </li>
                                 ))}
                             </ol>
                         </div>
-                        {featuredProject.materials_pics?.map((matPic, index) => (
+                        {/* Replace optional chaining: featuredProject.materials_pics?.map */}
+                        {featuredProject.materials_pics && featuredProject.materials_pics.map((matPic, index) => (
                             matPic && (
                                 <div key={`matPic-${index}`} className="col-xs-12 col-lg-4">
                                     <p>{matPic.name}</p>
@@ -109,8 +119,10 @@ const ProjectToolsMaterials = ({ featuredProject }) => {
     );
 };
 
+// Helper component to render project phases safely
 const ProjectPhases = ({ featuredProject }) => {
-    if (!featuredProject || !featuredProject.phases?.length) {
+    // Replace optional chaining with safe checks
+    if (!featuredProject || !featuredProject.phases || !featuredProject.phases.length) {
         return null;
     }
 
@@ -154,7 +166,8 @@ const ProjectPhases = ({ featuredProject }) => {
                                 title={section.label || `Phase ${index + 1} Video`}
                             />
                         )}
-                        {section.paragraphs?.map((p, index) => (
+                        {/* Replace optional chaining: section.paragraphs?.map */}
+                        {section.paragraphs && section.paragraphs.map((p, index) => (
                             <div key={`paragraph-${index}`} className="mt-5" style={{ marginLeft: '25px' }}>
                                 {!p.bold && !p.h2 && !p.h3 && !p.h4 && <p>{p.text}</p>}
                                 {p.bold && <b>{p.text}</b>}
@@ -181,31 +194,43 @@ const ProjectView = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const location = useLocation();
+    const navigate = useNavigate();
 
     useEffect(() => {
-        setLoading(true); // We'll set this to false immediately
+        setLoading(true);
         try {
+            // Ensure projects are copied and reversed before setting state
             const processedProjects = [... projectData.data].reverse();
-            setProjects(processedProjects);
+            setProjects(processedProjects); // CRUCIAL: Exposes all links to the crawler
 
-            const params = new URLSearchParams(location.search);
-            const idFromQuery = params.get('articleId');
+            let initialFeaturedProject = processedProjects[0]; // Default to the first project
 
-            let initialFeaturedProject = null;
-            if (idFromQuery) {
-                initialFeaturedProject = processedProjects.find(proj =>{
-                    let projName = getSlug(proj.name);
-                    return projName === idFromQuery
-                })
+            // Only attempt to find a specific project from the URL if we are NOT pre-rendering.
+            if (!isPreRendering()) {
+                const params = new URLSearchParams(location.search);
+                const idFromQuery = params.get('articleId');
+
+                if (idFromQuery) {
+                    const foundProject = processedProjects.find(proj =>{
+                        // Ensure proj.name is safely accessed before passing to getSlug
+                        let projName = getSlug(proj.name || '');
+                        return projName === idFromQuery
+                    });
+                    if (foundProject) {
+                        initialFeaturedProject = foundProject;
+                    }
+                }
+            } else {
+                console.log("ProjectView: Pre-rendering mode active. Skipping complex URL parsing to speed up snapshot.");
             }
 
-            setFeaturedProject(initialFeaturedProject || processedProjects[0]);
-            setError(null); // Clear any previous errors
+            setFeaturedProject(initialFeaturedProject);
+            setError(null);
         } catch (e) {
             setError(e);
             console.error("Error processing projects:", e);
             setFeaturedProject(null);
-            setProjects([]); // Clear projects on error
+            setProjects([]);
         } finally {
             setLoading(false);
         }
@@ -222,14 +247,26 @@ const ProjectView = () => {
         return () => {
             window.removeEventListener('resize', handleResize);
         };
-    }, []); // Empty dependency array means this effect runs only on mount and cleanup on unmount
+    }, []);
 
     const handleProjectClick = (project) => {
-        let path = setLinkWithQueryString('projects', project.name)
-        window.history.pushState({}, '', path);
-        if (isSmallView) {
-            setCollapseNav(true); // Collapse the navigation on mobile
+        // Ensure project.name is safely accessed
+        const path = setLinkWithQueryString('projects', project.name || '');
+
+        const url = new URL(path);
+        let pathForNavigate = url.pathname + url.search + url.hash;
+
+        if (!pathForNavigate.startsWith('/')) {
+            pathForNavigate = '/' + pathForNavigate;
         }
+
+        navigate(pathForNavigate);
+
+        if (isSmallView) {
+            setCollapseNav(true);
+        }
+
+        window.scrollTo(0, 0);
     };
 
     const renderMainContent = (item) => {
@@ -245,42 +282,43 @@ const ProjectView = () => {
             return <div>Error loading projects: {error.message}</div>;
         }
 
-        const projectSlug = getSlug(item.name);
+        const projectSlug = getSlug(item.name || ''); // Safe slug generation
         const pageTitle = item && item.name ? `${item.name} - Arillian Farm DIY Projects` : 'See What We Are Working on in The Funny Farm In Our Backyard at Arillian Farm';
-        const pageDescription = item && item.about && item.about ? item.about : 'From Catios to Raised Garden Beds or Epoxy Resin Gift Ideas We Get Up to It All at Arillian Farm.';
+        const pageDescription = item && item.about ? item.about : 'From Catios to Raised Garden Beds or Epoxy Resin Gift Ideas We Get Up to It All at Arillian Farm.';
 
 
         return (
-        <>
+            <>
                 <Helmet>
                     <title>{pageTitle}</title>
                     <meta name="description" content={pageDescription} />
                     {/* add other meta tags here too */}
                 </Helmet>
-            <div key={projectSlug} className="col-xs-12 col-lg-9" id={getSlug(item.name)}>
-                <div className="col-xs-12 mt-3 text-center">
-                    <h6 className="text-danger">
-                        <b>This is </b>
-                        {!isSmallView &&
-                            <b> a chronicle of projects Arthur and I worked on...</b>
-                        }
-                        <b>not a recommendation of how anyone should do anything.</b>
-                    </h6>
-                </div>
-                <h5 className="mb-0">
-                    <div className="row blog-header align-items-center"> {/* Keep align-items-center */}
-                        <div className="col-xs-12 col-lg-8 text-center"> {/* Adjusted colspan */}
-                            <h2>
-                                {titleCaps(item.name)}
-                            </h2>
-                        </div>
-                        <div className="col-xs-12 col-lg-4 text-right"> {/* Container for button and date on small screens */}
-                            <div className="row align-items-center">
-                                <div className="col-xs-6 text-left" >
+                {/* Ensure item.name is protected when generating the ID */}
+                <div key={projectSlug} className="col-xs-12 col-lg-9" id={getSlug(item.name || '')}>
+                    <div className="col-xs-12 mt-3 text-center">
+                        <h6 className="text-danger">
+                            <b>This is </b>
+                            {!isSmallView &&
+                                <b> a chronicle of projects Arthur and I worked on...</b>
+                            }
+                            <b>not a recommendation of how anyone should do anything.</b>
+                        </h6>
+                    </div>
+                    <h5 className="mb-0">
+                        <div className="row blog-header align-items-center">
+                            <div className="col-xs-12 col-lg-8 text-center">
+                                <h2>
+                                    {titleCaps(item.name)}
+                                </h2>
+                            </div>
+                            <div className="col-xs-12 col-lg-4 text-right">
+                                <div className="row align-items-center">
+                                    <div className="col-xs-6 text-left" >
                                     <span className="mx-2 ">
                                         <button className="btn btn-info btn-xs mb-2" onClick={(event) => {
                                             event.stopPropagation();
-                                            const link = setLinkWithQueryString('projects', item.name);
+                                            const link = setLinkWithQueryString('projects', item.name || '');
                                             navigator.clipboard.writeText(link)
                                                 .then(() => console.log('Link copied to clipboard ' + link))
                                                 .catch(err => console.error('Failed to copy link: ', err));
@@ -288,8 +326,8 @@ const ProjectView = () => {
                                             <i className="fa fa-link"></i> <b>Link</b>
                                         </button>
                                     </span>
-                                </div>
-                                <div className="col-xs-6 text-right" >
+                                    </div>
+                                    <div className="col-xs-6 text-right" >
                                         {!isSmallView &&
                                             <span className="my-0">
                                                 <p className="">{item.pub_date}</p>
@@ -300,46 +338,47 @@ const ProjectView = () => {
                                                 <p className="">{item.pub_date}</p>
                                             </span>
                                         }
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </h5>
-                <hr />
-                <div className="row">
-                    <div className="col-xs-12 text-center mb-5 mt-5">
-                        {item.header_pic && (
-                            <img className="br20" src={`${process.env.PUBLIC_URL}/assets/projects/${item.header_pic}`} style={{ height: '20em' }} alt={item.name} />
-                        )}
-                        {item.link && !item.header_pic && (
-                            <h3><a href={item.link} target="_blank" rel="noopener noreferrer">[LINK]</a></h3>
-                        )}
-                        {item.link && item.header_pic && (
-                            <a href={item.link} target="_blank" rel="noopener noreferrer">
-                                <img className="br20" src={`${process.env.PUBLIC_URL}/assets/projects/${item.header_pic}`} style={{ height: '20em', marginLeft: '3em' }} alt={item.name} />
-                            </a>
-                        )}
-                    </div>
-                    {item.about && (
-                        <div className="col-xs-12 mt-3 text-center">
-                            <h4 className="text-white">{item.about}</h4>
+                    </h5>
+                    <hr />
+                    <div className="row">
+                        <div className="col-xs-12 text-center mb-5 mt-5">
+                            {item.header_pic && (
+                                <img className="br20" src={`${process.env.PUBLIC_URL}/assets/projects/${item.header_pic}`} style={{ height: '20em' }} alt={item.name} />
+                            )}
+                            {item.link && !item.header_pic && (
+                                <h3><a href={item.link} target="_blank" rel="noopener noreferrer">[LINK]</a></h3>
+                            )}
+                            {item.link && item.header_pic && (
+                                <a href={item.link} target="_blank" rel="noopener noreferrer">
+                                    <img className="br20" src={`${process.env.PUBLIC_URL}/assets/projects/${item.header_pic}`} style={{ height: '20em', marginLeft: '3em' }} alt={item.name} />
+                                </a>
+                            )}
                         </div>
-                    )}
-                    <hr/>
-                    <ProjectToolsMaterials featuredProject={item} />
-                    <hr/>
-                    <ProjectPhases featuredProject={item} />
-                    <hr/>
-                    <div className="col-sm-12 mt-3">
-                        <Comments
-                            article_name={featuredProject?.name}
-                            article_type="project"
-                            pub_date={featuredProject?.pub_date}
-                        />
+                        {item.about && (
+                            <div className="col-xs-12 mt-3 text-center">
+                                <h4 className="text-white">{item.about}</h4>
+                            </div>
+                        )}
+                        <hr/>
+                        <ProjectToolsMaterials featuredProject={item} />
+                        <hr/>
+                        <ProjectPhases featuredProject={item} />
+                        <hr/>
+                        <div className="col-sm-12 mt-3">
+                            {/* Ensure article props are defined for pre-rendering stability. */}
+                            <Comments
+                                article_name={featuredProject && featuredProject.name}
+                                article_type="project"
+                                pub_date={featuredProject && featuredProject.pub_date}
+                            />
+                        </div>
                     </div>
                 </div>
-            </div>
-        </>
+            </>
         );
     };
 
@@ -370,20 +409,20 @@ const ProjectView = () => {
                                 )}
                             </h3>
                         </div>
-                            {(projects && projects.length && !loading && !error && (!collapseNav || !isSmallView)) &&
-                                projects.map((project) => (
-                                    <ListItem
-                                        key={project.name}
-                                        item={project}
-                                        isSelected={featuredProject && project.name === featuredProject.name}
-                                        onItemClick={handleProjectClick}
-                                        titleKey="name"
-                                        thumbnailKey="header_pic"
-                                        descriptionKey="about"
-                                        thumbnailPrefix="/assets/projects/"
-                                        pageBase="projects"
-                                    />
-                                ))}
+                        {(projects && projects.length && !loading && !error && (!collapseNav || !isSmallView)) &&
+                            projects.map((project) => (
+                                <ListItem
+                                    key={project.name || crypto.randomUUID()}
+                                    item={project}
+                                    isSelected={featuredProject && project.name === featuredProject.name}
+                                    onItemClick={handleProjectClick}
+                                    titleKey="name"
+                                    thumbnailKey="header_pic"
+                                    descriptionKey="about"
+                                    thumbnailPrefix="/assets/projects/"
+                                    pageBase="projects"
+                                />
+                            ))}
                     </div>
                 </div>
                 <div className="col-xs-12 col-lg-9">
