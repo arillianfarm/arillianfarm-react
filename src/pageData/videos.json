@@ -1922,20 +1922,38 @@
     {
       "youtubeID": "iYkvg6AWM9Q",
       "title": "\uD83D\uDC36❤️\uD83D\uDC36\uD83C\uDFB6 Huey Ka-Bluey and Xena are Birds of a Feather",
-      "albums": ["new", "dogs"],
+      "albums": ["dogs"],
       "release_date": "10/10/25"
     },
     {
       "youtubeID": "8k2w7uD7DeE",
       "title": "\uD83C\uDF83 \uD83D\uDC15Dog Spook Fail - Meh Monday \uD83D\uDE11",
-      "albums": ["new", "dogs", "meh monday"],
+      "albums": ["dogs", "meh monday"],
       "release_date": "10/10/25"
     },
     {
       "youtubeID": "p3e2S4EJrfc",
       "title": "\uD83C\uDF83\uD83D\uDC13☀️Tryna Train our Chickens to Carve Pumpkins",
-      "albums": ["new", "chickens"],
+      "albums": ["chickens"],
       "release_date": "10/10/25"
+    },
+    {
+      "youtubeID": "legwS_TXFag",
+      "title": "\uD83E\uDD4E\uD83D\uDC15\u200D\uD83E\uDDBA\uD83C\uDFB6 Pajama Jamming out like he's naughty by nature",
+      "albums": ["new", "dogs"],
+      "release_date": "10/24/25"
+    },
+    {
+      "youtubeID": "OpxU1V72DEA",
+      "title": "\uD83C\uDF83\uD83D\uDC13Chickens Pumpkin Carving Fail- Act Like They Saw The Headless Horseman - Meh Monday",
+      "albums": ["new", "chickens", "meh monday"],
+      "release_date": "10/24/25"
+    },
+    {
+      "youtubeID": "T_bu2fZFLQE",
+      "title": "\uD83D\uDC36\uD83E\uDE82 Huey Ka-Bluey Off the Couch and Into the Great Wide Open",
+      "albums": ["new", "dogs"],
+      "release_date": "10/24/25"
     }
   ]
 }

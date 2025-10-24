@@ -3208,6 +3208,27 @@
         }
       ],
       "notes": "Leaves you satisfied."
+    },
+    {
+      "name": "Fall Harvest Yogurt",
+      "header_pic": "fall-harvest-yogurt-ingredients.png",
+      "pub_date": "9/26/25",
+      "servings": "1 serving",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "1/4 cup pomegranate seeds",
+        "1/4 cup Chopped Pecans",
+        "2 tablespoons honey",
+        "1/2 cup Greek Yogurt"
+      ],
+      "steps": [
+        {
+          "pic": "fall-harvest-yogurt-served.png",
+          "instruction": "Mix all ingredients and enjoy."
+        }
+      ],
+      "notes": "A Power Packed Way to Start Your Day!"
     }
   ]
 }
