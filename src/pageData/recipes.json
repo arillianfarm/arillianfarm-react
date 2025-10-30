@@ -3229,6 +3229,63 @@
         }
       ],
       "notes": "A Power Packed Way to Start Your Day!"
+    },
+    {
+      "name": "Sage Squash Tart Fry",
+      "header_pic": "butternut-tart-ingredients.png",
+      "pub_date": "10/31/25",
+      "servings": "6-8 servings",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "1 sheet refrigerated puff pastry (or your favorite homemade crust)",
+        "1 1/2 cups butternut squash, peeled and diced into 1/2-inch cubes",
+        "1 tablespoon olive oil",
+        "1/2 tsp salt, divided",
+        "1/4 tsp black pepper, divided",
+        "1/2 cup yellow onion, thinly sliced",
+        "1 tsp finely chopped fresh sage leaves or dried sage",
+        "4 oz (about 1/2 cup) soft goat cheese, crumbled",
+        "1/4 cup heavy whipping cream",
+        "1 large egg",
+        "1/4 cup grated Parmesan cheese (optional)",
+        "1/4 cup pecan halves, toasted",
+        "1/4 cup fresh pomegranate seeds (arils)"
+      ],
+      "steps": [
+        {
+          "pic": "butternut-tart-airfry-prep.png",
+          "instruction": "Toss the diced butternut squash and sliced onion with 1 tablespoon of olive oil, 1/4 tsp salt, and 1/8 tsp of pepper and sage leaves."
+        },
+        {
+          "pic": "butternut-tart-airfry-cook.png",
+          "instruction": "Air fry the squash and onions at 385F for 15-18 minutes total, shaking the basket halfway through. The vegetables should be tender and lightly caramelized."
+        },
+        {
+          "pic": "butternut-tart-blind-bake.png",
+          "instruction": "Line a 9-inch tart pan, loaf pan or pie tin with puff pastry. Air fry at 365F for 10 minutes with pie weights."
+        },{
+          "pic":"",
+          "instruction": "If pecans are un-toasted you can air fry them for 5-9 minutes at 365F. (If you have room in your air fryer you can pop them in alonside the cooking pastry crust or tart (just remember to remove them when they are golden brown)."
+        },
+        {
+          "pic": "butternut-tart-custard.png",
+          "instruction": "meanwhile, in a small bowl whisk together the heavy cream, egg, remaining salt and pepper, and the grated Parmesan cheese (if using) to create the custard base."
+        },
+        {
+          "pic": "butternut-tart-assemble.png",
+          "instruction": "Spread the squash and onion mixture evenly over the partially baked crust. Pour the cream-egg mixture over and top with crumbled goat cheese evenly scattered over the filling."
+        },
+        {
+          "pic": "butternut-tart-bake.png",
+          "instruction": "Bake at 365°F for 20 minutes, or until the filling is set and a knife inserted near the center comes out clean."
+        },
+        {
+          "pic": "butternut-tart-garnish.png",
+          "instruction": "Let the tart cool for 15-20 minutes. Just before serving, sprinkle generously with the toasted pecan halves and fresh pomegranate seeds for a festive, crunchy finish. Pairs well with cranberry sauce or gravy!"
+        }
+      ],
+      "notes": "Tastes like a Whole Holiday Meal Wrapped in a Pillowy Puff Pastry!"
     }
   ]
 }

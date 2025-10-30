@@ -3192,7 +3192,113 @@
           ]
         }
       ]
+    },
+    {
+      "name": "From Smack Down to Blinged Out: Encapsulating a Scorpion in Epoxy Resin",
+      "pub_date": "10/31/25",
+      "header_pic": "wearing-scorpion-necklace.png",
+      "about": "This is What Happens to Scorpions Who Pick a Fight With My Feet—a quick and dirty DIY guide to turning a painful memory into a tacky trophy necklace using fast-setting epoxy.",
+      "categories": [
+        "epoxy",
+        "jewelry",
+        "art",
+        "DIY",
+        "failures",
+        "critter control",
+        "Halloween"
+      ],
+      "safety_notes": [
+        "Ensure the scorpion is deceased and inert before handling.",
+        "Wear gloves when handling epoxy resin.",
+        "Work in a well-ventilated area."
+      ],
+      "tools": [
+        "Gloves",
+        "Silicone mold (for jewelry/pendant)",
+        "Epoxy mixing tools/cups",
+        "Small hammer (for installing hardware)",
+        "Image-generating AI (optional)",
+        "Printer (optional)"
+      ],
+      "materials": [
+        "2-part quick-setting epoxy resin mix (Gorilla Glue style)",
+        "Dead scorpion",
+        "Cartoon graphic (optional)",
+        "Small metal bracket or jewelry bail"
+      ],
+      "phases": [
+        {
+          "pic": "scorpion-in-mold.png",
+          "paragraphs": [
+            {
+              "text": "Inspiration Strikes! \uD83E\uDDB6 🦂",
+              "h4": true
+            },
+            {
+              "text": "As I was walking through my living room this morning wondering what I should write my DIY article about, I felt a jolt of excitement—A scorpion had stung my toe! So obviously I decided to encapsulate it in epoxy in some artistic way and use that as my DIY topic."
+            },
+            {
+              "text": "Safety Notes:",
+              "h4": true
+            },{
+              "text": "Ensure the scorpion is deceased and inert before handling, Wear gloves when handling epoxy resin, Work in a well-ventilated area."
+            }
+          ]
+        },
+        {
+          "pic": "horrified-woman-print.png",
+          "paragraphs": [
+            {
+              "text": "Getting Graphic",
+              "h4": true
+            },
+            {
+              "text": "I thought it would be funny/apt to name my little scorpion art piece 'That moment when you get stung by a scorpion for the first time' and then have Gemini (Google's AI) create a cartoon image of a horrified woman to alongside the scorpion 'cause I screamed my head off when I felt a hot jolt of pain in my foot, then caught sight of the scorpion under my foot."
+            }
+          ]
+        },
+        {
+          "pic": "mixing-and-layering-epoxy.png",
+          "paragraphs": [
+            {
+              "text": "Squeeze the Fun Out of It",
+              "h4": true
+            },
+            {
+              "text": "Mixing up the Gorilla Glue epoxy was fast and easy, it comes in a two-chamber syringe, so you just apply even pressure and squeeze it out into a mixing vessel then stir for 20 seconds. The little kit even comes with a stirring stick and the epoxy can stirred together in the plastic part of its packaging --PRO TIP - Wear a mask and/ or work in a well ventilated area!"
+            }
+          ]
+        },
+        {
+          "pic": "scorpion-layout.png",
+          "paragraphs": [
+            {
+              "text": "The Challenge of Quick-Set Epoxy & Layout Mistakes",
+              "h4": true
+            },
+            {
+              "text": "I don't have any other epoxy projects on the horizon, so I decided to just use a small quick-drying epoxy kit from a hardware store instead of the crafting epoxy I normally use. If I had it to do over again, I'd spring for the crafting stuff. The Gorilla Glue version that I bought was hard to get bubbles out of and wasn't really intended to be poured as thick as I needed to fill my mold, but it was quick and easy."
+            },
+            {
+              "text": "Truth be told, I also messed up my layout. I should have put some epoxy down, then the scorpion, then more epoxy, then the best side of my 2-sided cartoon print and then more epoxy, so that the scorpion was featured on the smooth bottom of the mold. But what I did was put epoxy down, then the bad side of the print, then the scorpion. Unfortunately, the scorpion side is uneven and the scorpion's body is slightly exposed in a couple places - meh \ud83d\ude11"
+            }
+          ]
+        },
+        {
+          "pic": "wearing-scorpion-necklace.png",
+          "paragraphs": [
+            {
+              "text": "Final Assembly: The Medal of Honor",
+              "h4": true
+            },
+            {
+              "text": "The necklace was set enough to handle and remove from the mold within half an hour, but was still somewhat supple. I couldn't find my necklace eyelits to screw into it, but I had a small metal bracket that I was able to install with a small hammer... and now I have a big tacky scorpion necklace to wear like a medal of honor—for my bravery and triumph over this poor tiny arachnid."
+            }
+          ]
+        }
+      ]
     }
+
 
   ]
 }
