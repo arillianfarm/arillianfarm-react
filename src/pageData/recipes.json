@@ -3286,6 +3286,34 @@
         }
       ],
       "notes": "Tastes like a Whole Holiday Meal Wrapped in a Pillowy Puff Pastry!"
+    },
+    {
+      "name": "Yogurt Jello Fluff Mousse",
+      "header_pic": "jello-fluff-served.png",
+      "pub_date": "11/7/25",
+      "servings": "4 servings",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "1 3oz Box of Gelatin",
+        "1 Cup Boiling Water",
+        "1 Cup Plain or Vanilla Greek Yogurt"
+      ],
+      "steps": [
+        {
+          "pic": "jello-fluff-ingredients.png",
+          "instruction": "In a medium bowl, whisk gelatin into 1 cup boiling water, stirring until completely dissolved (about 2 minutes)  --the set aside to cool down to room temperature (about 10-15 minutes)."
+        },
+        {
+          "pic": "jello-fluff-mixing.png",
+          "instruction": "When the dissolved gelatin is cool, whisk (or use a hand mixer to stir) greek yogurt until smooth and complete combined."
+        },
+        {
+          "pic": "jello-fluff-chillin.png",
+          "instruction": "Pour into serving dishes and refrigerate until fully set (about 2 hours)."
+        }
+      ],
+      "notes": "An Easy Sweet Protein Treat!"
     }
   ]
 }

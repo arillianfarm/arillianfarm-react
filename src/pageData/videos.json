@@ -1958,20 +1958,32 @@
     {
       "youtubeID": "tqzwIlairNs",
       "title": "\uD83C\uDF83\uD83D\uDC13\uD83D\uDCAA Have a Happy Clucking Halloween",
-      "albums": ["new", "chickens"],
+      "albums": ["chickens"],
       "release_date": "10/31/25"
     },
     {
       "youtubeID": "s1zPzppEfE8",
       "title": "\uD83D\uDC36\uD83C\uDF69 the Doughnut Cone of Double Shame | Meh \uD83D\uDE11",
-      "albums": ["new", "dogs", "meh monday"],
+      "albums": ["dogs", "meh monday"],
       "release_date": "10/31/25"
     },
     {
       "youtubeID": "PmRrsKdrxiA",
       "title": "\uD83E\uDD9F\uD83D\uDC13 Hungry Hungry Chick-Os",
-      "albums": ["new", "chickens"],
+      "albums": ["chickens"],
       "release_date": "10/31/25"
+    },
+    {
+      "youtubeID": "g1ofleMn9XY",
+      "title": "\uD83D\uDC36\uD83D\uDC45 Whatcha Gonna Do With All That Tongue?",
+      "albums": ["new", "dogs"],
+      "release_date": "11/7/25"
+    },
+    {
+      "youtubeID": "oqtdOO0xF-I",
+      "title": "\uD83D\uDE23\uD83E\uDD4A\uD83C\uDF3E I fought the lawn and the lawn won| Meh Monday \uD83D\uDE11",
+      "albums": ["new", "meh monday"],
+      "release_date": "11/7/25"
     }
   ]
 }
