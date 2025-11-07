@@ -3289,7 +3289,7 @@
     },
     {
       "name": "Yogurt Jello Fluff Mousse",
-      "header_pic": "jello-fluff-served.png",
+      "header_pic": "jello-mousse-served.png",
       "pub_date": "11/7/25",
       "servings": "4 servings",
       "vid": null,
@@ -3301,15 +3301,15 @@
       ],
       "steps": [
         {
-          "pic": "jello-fluff-ingredients.png",
+          "pic": "jello-mousse-dissolve.png",
           "instruction": "In a medium bowl, whisk gelatin into 1 cup boiling water, stirring until completely dissolved (about 2 minutes)  --the set aside to cool down to room temperature (about 10-15 minutes)."
         },
         {
-          "pic": "jello-fluff-mixing.png",
-          "instruction": "When the dissolved gelatin is cool, whisk (or use a hand mixer to stir) greek yogurt until smooth and complete combined."
+          "pic": "jello-mousse-add-yogurt.png",
+          "instruction": "When the dissolved gelatin is cool, whisk in (or use a hand mixer to stir in) greek yogurt until smooth and complete combined."
         },
         {
-          "pic": "jello-fluff-chillin.png",
+          "pic": "jello-mousse-chill.png",
           "instruction": "Pour into serving dishes and refrigerate until fully set (about 2 hours)."
         }
       ],
