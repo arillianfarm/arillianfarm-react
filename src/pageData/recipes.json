@@ -3297,7 +3297,8 @@
       "ingredients": [
         "1 3oz Box of Gelatin",
         "1 Cup Boiling Water",
-        "1 Cup Plain or Vanilla Greek Yogurt"
+        "1 Cup Plain or Vanilla Greek Yogurt",
+        "optional - 1/4 cup fresh pomegranate seeds (arils) or other fruit"
       ],
       "steps": [
         {
@@ -3310,10 +3311,59 @@
         },
         {
           "pic": "jello-mousse-chill.png",
-          "instruction": "Pour into serving dishes and refrigerate until fully set (about 2 hours)."
+          "instruction": "Pour into serving dishes, if using pomegranate or other fruit, mix it in, and then refrigerate until fully set (about 2 hours)."
         }
       ],
       "notes": "An Easy Sweet Protein Treat!"
+    },
+    {
+      "name": "Seven Layers of Christmas Dip",
+      "header_pic": "feliz-guacamole-served.png",
+      "pub_date": "11/14/25",
+      "servings": "10-12 servings",
+      "vid": null,
+      "related_recipes": ["Something to Guac about Guacamole"],
+      "ingredients": [
+        "3-4 cups prepared bean dip (two 16 oz cans if using store bought dip) ",
+        "2 cups sour cream (or plain Greek yogurt)",
+        "2 cups shredded cheddar cheese (or mixed Mexican blend)",
+        "2 cups (fresh or jarred) salsa",
+        "1 1/2 cups shredded white cheese (Mozzarella, Monterey, white cheddar etc)",
+        "2 cups prepared guacamole",
+        "1/2 cup chopped bell pepper - various colors",
+        "6-8 cherry tomatoes, halved or quartered"
+      ],
+      "steps": [
+        {
+          "pic": "feliz-guacamole-beans.png",
+          "instruction": "Layer 1 (The Base): Spread the refried bean dip evenly across the bottom of a 9x13-inch clear glass casserole dish. Chill for 10 minutes to set."
+        },
+        {
+          "pic": "feliz-guacamole-sourcream.png",
+          "instruction": "Layer 2: Mix the sour cream (or Greek yogurt) . Carefully spoon and spread this mixture over the bean layer, being careful not to disturb the bean dip below."
+        },
+        {
+          "pic": "feliz-guacamole-cheddar-cheese.png",
+          "instruction": "Layer 3: Sprinkle the shredded cheddar cheese evenly over the sour cream mixture."
+        },
+        {
+          "pic": "feliz-guacamole-salsa.png",
+          "instruction": "Layer 4: Carefully spoon salsa over the cheddar cheese layer. Gently tilt the dish or use the back of a spoon to spread it edge-to-edge."
+        },
+        {
+          "pic": "feliz-guacamole-white-cheese.png",
+          "instruction": "Layer 5 (The Snow): Sprinkle the shredded white cheese (Mozzarella, etc.) evenly over the salsa. This layer should cover the entire dip and act as a snowy base."
+        },
+        {
+          "pic": "feliz-guacamole-start-tree.png",
+          "instruction": "Layer 6 (The Tree): Prepare the guacamole. Spoon globs of guacamole (or use a piping bag or a zip-top bag with the corner snipped off) to carefully create a Christmas tree shape onto the center of the white cheese layer. Make the base wide and the top tapered."
+        },
+        {
+          "pic": "feliz-guacamole-served.png",
+          "instruction": "Layer 7 (The Ornaments): Decorate the guacamole tree by placing the chopped bell peppers and cherry tomato pieces on top as ornaments and optionally place the yellow pepper star at the top of the tree. Cover and chill for at least 1 hour before serving with tortilla chips. PRO TIP:  To keep the guacamole looking its freshest, assemble the final two layers no more than 2 hours before serving. Use a clear dish to show off those beautiful Christmas colors!"
+        }
+      ],
+      "notes": "This festive dip is the perfect centerpiece for any holiday party."
     }
   ]
 }

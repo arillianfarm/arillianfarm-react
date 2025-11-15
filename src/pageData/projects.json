@@ -3297,8 +3297,139 @@
           ]
         }
       ]
+    },
+    {
+      "name": "The Hardwork of Prepping Hardwood Floors for Tile",
+      "pub_date": "11/14/25",
+      "header_pic": "hardie-board-layout.png",
+      "about": "My plan to simply swap carpet for tile in my rental turned into a weeks long fiasco.",
+      "categories": [
+        "renovation",
+        "DIY",
+        "flooring",
+        "home maintenance",
+        "termites",
+        "failures"
+      ],
+      "tools": [
+        "Tile nippers (optional)",
+        "Shop Vacuum and/or broom with dust pan (to clean dust as you set the hardie board)",
+        "Flat bar/pry bar",
+        "Circular saw (for cutting cement board)",
+        "pencil (for marking cement board to cut)",
+        "t-square (for marking cement board to cut)",
+        "Calipers (for marking cement board to cut)",
+        "4 saw horses or 3 plastic arm chairs (for cutting cement board)",
+        "Eye protection",
+        "N-95 respirator mask",
+        "Drill/Driver",
+        "1/4 inch Notched trowel"
+      ],
+      "materials": [
+        "Cement backer board (Hardie Board)",
+        "Backer board screws",
+        "Backer board seam tape",
+        "Modified Thinset mortar"
+      ],
+      "phases": [
+        {
+          "pic": "carpet-come-up.png",
+          "paragraphs": [
+            {
+              "text": "Ordering First and Asking Questions Later - A Lesson in Poor Floor Planning \uD83E\uDD26",
+              "h4": true
+            },
+            {
+              "text": "I've had some extra time between tenants in my rental house (because a tree fell through the roof during a 'microburst' last month and my roofer has been arguing with my insurance about whether or not to replace all the 100-year-old planks in the roof with plywood or just 'patch the shattered planks where necessary'). The lack of progress on the roof and water-damaged bedroom (where the tree branch fell through the roof) has left me feeling more and more helpless and stressed as we approach the December 1st move in date for my new tenants (friends of mine). So I decided to take advantage of the down time and ditch the dingy old carpet and lay down tile. Of course, in classic Jillian style, I was so excited about the decision that I immediately ordered 45 boxes of porcelain tile --Before I got to the dirty work of ripping up the carpet and tack strips. What I found underneath was some mostly lovely hardwood floors --that were being consumed by termites."
+            }
+          ]
+        },{
+          "pic": "wood-floor-termite.png",
+          "paragraphs": [
+            {
+              "text": "A Bug In The Operation - Termite Troubles",
+              "h4": true
+            },{
+              "text": "At the moment I saw the termite droppings, my reaction was something like 'F M L', but after a few deep breaths I realized that they'd been munching away under the carpet for who knows how long --and if I hadn't decided to update the flooring, the situation could have been much worse. I immediately paused my work (I read doing construction around termites can drive them deeper into your house) and called a pest control company to treat the area and put traps around my property (something I normally might have handled myself, but with my tenant move in looming, I had to just throw money at it)."
+            }
+          ]
+        },
+        {
+          "pic": "hardie-board-cut-arthur.png",
+          "paragraphs": [
+            {
+              "text": "The Backer Board Bombshell - You Can't Lay Ceramic Tile Directly Over Hardwood Floors",
+              "h4": true
+            },
+            {
+              "text": "The second unexpected hitch in my tile plan came when I was talking to Arthur about my grand flooring update and he was like 'I don't think you can just put tile over hardwood because the boards expand and contract'. I told him he was wrong. The thinset (which I'd already bought) said it adheres well to wood, concrete and most surfaces but when I Googled it, the search engine actually sided with Arthur -- thus a new construction material entered my life **cement backer board**, or Hardie Board."
+            },
+            {
+              "text": "Suddenly my simple floor update had become a major renovation. It was going to be a tight timeline to install 800 sq feet of tile now I basically had to do twice the work."
+            }
+          ]
+        },{
+          "pic": "hardie-board-layout.png",
+          "paragraphs": [
+            {
+              "text": "A Giant Game of Tetris - Planning our Cement Board Layout",
+              "h4": true
+            },
+            {
+              "text": "Arthur and I spent two days just cutting and laying out a couple dozen sheets of the heavy, awkard cement board, cutting out notches for doorways and cutting a square for the crawlspace access in the living room before I could even begin spreading thinset and adhering each board (one at a time) to the wood floor."
+            },{
+              "text": "PRO TIP - Arthur was able to hold a shop vac hose over our Matrix Drill Circular Saw while he cut. We wore masks also, but the vacuum really helped to keep nasty dust out of the yard."
+            }
+          ]
+        },
+        {
+          "pic": "mix-thinset.png",
+          "paragraphs": [
+            {
+              "text": "Mixing Thinset - A Dark Art",
+              "h4": true
+            },
+            {
+              "text": "Not only is powdered thinset carcinogenic when inhaled, the wet form is also horrible for skin and hard on tools. Don't try to mix an entire 50 lb bag of thinset at once. It never turns out right. Always add water to the bucket first but start with 2 quarts and then scoop in more and more thinset, mixing each scoop as you go until its the consistency of smooth, thick peanutbutter- The first time I laid floor tile (about ten years ago at Arthur's house) we found we needed a corded drill to mix the thinset because our battery operated drill didn't have enough power. Half way through the job we still burned out the drill because the thinset is so heavy and hard to stir. Since then I've been mixing it by hand in smaller batches, but getting thinset on your arms and hands is horribly painful. It's caustic and abrasive and it bonds to your skin and eats away at it, so definitely try to avoid any direct exposure to the thinset."
+            }
+          ]
+        },{
+          "pic": "jillian-working-thinset.png",
+          "paragraphs": [
+            {
+              "text": "A Hardie Hard Workout and a Chemical Peel All At Once - The Joys of Working with Cement Board ",
+              "h4": true
+            },
+            {
+              "text": "Arthur was only able to help me on the weekend, so I was on my own (wearing a short sleeved shirt like a dumbass who doesn't care about her arm skin) when it came time to mix up the thinset and secure the Hardie Board to the floor.  My back and arms ache from pick up the boards to cut, place and secure them and my poor exposed arms ended up with painful chemical burns, but I got about 800 sq ft of Hardie board set and screwed down in about twenty hours, over the course of 2 1/2 days --adding almost an entire work week to the floor project., but I'm finally ready to start tiling. \uD83D\uDE29"
+            }
+          ]
+        },
+        {
+          "pic": "hardie-board-screws.png",
+          "paragraphs": [
+            {
+              "text": "Flooring It - Procedure for Installing Concrete Backer Board over Hardwood",
+              "h4": true
+            },
+            {
+              "text": "1 - Layout cement board, cutting perimeter pieces precisely with a circular saw with a diamond tipped or carbide tipped blade (designed to cut fiber cement)so there's a 1/8 inch gap between Hardie boards and a 1/4 inch gap between the wall and the Hardie boards."
+            },
+            {
+              "text": "SAFETY NOTE - You must where a respirator mask N95 or better. Cutting cement board generates a lot of carcinogenic silica dust. "
+            },
+            {
+              "text": "2 - Adhere cement boards to floor with thinset - Using a polymer-modified thinset and a 1/4 inch notched trowel, use the flat edges of the trowel to spread enough thinset to lay one cement board (or partial cement board) at a time. Then drag the notched side of the trowel through the smooth thinset at a 45degree angle in one direction, perpendicular to the layout of the wood floor boards and then set the hardie board in place on top of the thinset --adjusting it so that edges are spaced appropriately."
+            },{
+              "text": "3 - Every 8 inches or so across the Hardie board, while the thinset is still wet, drive cement board screws into each cement board so the head of the screw is just below the surface of the cement board. SAFETY NOTE - YOU SHOULD WEAR A MASK IN CASE THE DRILL KICKS UP DUST"
+            },
+            {
+              "text": "4 - When all the Hardie boards are set and screwed in place, use cement board tape to tape each seam between boards and then spread thinset over the tape and into the gaps between cement boards."
+            }
+          ]
+        }
+      ]
     }
-
 
   ]
 }
