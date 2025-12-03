@@ -1,5 +1,5 @@
+// src/index.js (Second Revised Version)
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -7,14 +7,27 @@ import reportWebVitals from './reportWebVitals';
 const redirectPath = sessionStorage.redirect;
 delete sessionStorage.redirect;
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+const rootElement = document.getElementById('root');
+const AppWithInitialPath = (
     <React.StrictMode>
         <App initialPath={redirectPath} />
     </React.StrictMode>
 );
 
-// to start measuring performance, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+if (process.env.NODE_ENV === 'production') {
+    const { hydrateRoot } = require('react-dom/client');
+    const { snapshot } = require('react-snapshot');
+    const ReactDOM = require('react-dom');
+
+    if (rootElement.hasChildNodes()) {
+        hydrateRoot(rootElement, AppWithInitialPath);
+    } else {
+        snapshot(AppWithInitialPath);
+    }
+} else {
+    const { createRoot } = require('react-dom/client');
+    const root = createRoot(rootElement);
+    root.render(AppWithInitialPath);
+}
+
 reportWebVitals();

@@ -3364,6 +3364,43 @@
         }
       ],
       "notes": "This festive dip is the perfect centerpiece for any holiday party."
+    },
+    {
+      "name": "Fall into Freshness Sandwich",
+      "header_pic": "fall-fresh-sandwich-served.png",
+      "pub_date": "11/21/25",
+      "servings": "1 serving",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "1 tablespoon butter (cubed)",
+        "1/4 tsp (fresh ground) black pepper",
+        "2 slices (fresh sourdough) bread",
+        "3-4 Crimini mushrooms (sliced)",
+        "1/4 a zucchini (sliced)",
+        "(optional) Sliced onions",
+        "(optional) baby bell peppers (sliced)",
+        "1-2 slices mozzarella cheese or 1/4 cup shredded mozzarella",
+        "a handful of (fresh) arugala",
+        "1 tablespoon mayonnaise",
+        "(optional) 1 squirt dijan mustard",
+        "(optional) drizzle of balsalmic vinegar"
+      ],
+      "steps": [
+        {
+          "pic": "fall-fresh-sandwich-ingredients.png",
+          "instruction": "Mix the sliced veggies and butter in a air-fryable dish and airfry at 385 for 15 minutes."
+        },
+        {
+          "pic": "fall-fresh-sandwich-layout.png",
+          "instruction": "spread mustard and mayo on one slice of bread and top with arugala the drizzle with balalmic vinegar. Top the other slice of bread with mozzarella and airfry at 385 for 2 minutes (add to air fryer when veggies when are almost done)."
+        },
+        {
+          "pic": "fall-fresh-sandwich-served.png",
+          "instruction": "Add air fried veggies between the bread and enjoy!"
+        }
+      ],
+      "notes": "A Simple and Satisfying Sammich."
     }
   ]
 }
