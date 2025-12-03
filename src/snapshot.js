@@ -1,14 +1,11 @@
-// This is necessary because modern dependencies rely on this browser API.
-if (typeof TextEncoder === 'undefined') {
-    global.TextEncoder = require('util').TextEncoder;
-}
-
 // snapshot.js
+
 module.exports = {
     // The `routes` array is mandatory for react-snapshot
-    // It specifies which paths (in addition to the default '/' and any static routes)
+    // It specifies which paths (in addition to the default '/')
     // should be visited and pre-rendered.
     routes: [
+        '/', // Ensure the root path is included
         '/videos',
         '/recipes',
         '/projects',
@@ -21,11 +18,8 @@ module.exports = {
         '/farm-sitting',
         '/rent-1110-mill-ave',
         '/apply',
-        // --- Add specific dynamic paths here ---
-        // EXAMPLE: If your book 'unFETTERed' is a project/blog post, list the final URL:
-        // '/blog/unfettered-memoir',
-        // '/recipes/my-favorite-veggie-burger',
-        // -------------------------------------
+        // Add all your dynamic article and recipe paths here:
+        // E.g., '/recipes/classic-lasagna', '/blog/my-favorite-chicken'
     ],
     // The default base path is '/', which is correct for your setup.
 };
