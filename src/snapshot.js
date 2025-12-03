@@ -1,3 +1,8 @@
+// This is necessary because modern dependencies rely on this browser API.
+if (typeof TextEncoder === 'undefined') {
+    global.TextEncoder = require('util').TextEncoder;
+}
+
 // snapshot.js
 module.exports = {
     // The `routes` array is mandatory for react-snapshot
