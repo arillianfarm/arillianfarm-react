@@ -1,27 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicons/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+            name="Arillian Farm"
+            content="That Bountiful Backyard Funny Farm Life"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicons/apple-touch-icon.png">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
     <title>Arillian Farm</title>
     <script type="text/javascript">
-        // Get the full original requested path (pathname + search + hash)
-        var fullPath = window.location.pathname + window.location.search + window.location.hash;
+        (function() {
+            // Check if the URL contains a hashbang (#!), which indicates an old Angular URL
+            if (window.location.hash && window.location.hash.startsWith('#!')) {
+                // Extract the path after the hashbang
+                const oldHashPath = window.location.hash.substring(2); // e.g., gets "videos", "main"
 
-        // Store the full path in sessionStorage
-        sessionStorage.setItem('redirectPath', fullPath);
+                let newPath = ''; // Initialize the target new path
 
-        // Redirect to the root of your application relative to the origin
-        // This should be your GitHub Pages URL + your repository name
-        var repoBasePath = "/";
-        var redirectTarget = window.location.origin + repoBasePath;
+                //Redirect old hashbang paths (from angular version of site) to their corresponding new clean URLs
+                if (oldHashPath === 'videos') {
+                    newPath = '/videos'; // Example: Redirect to your new video route
+                } else if (oldHashPath === 'main') {
+                    newPath = '/'; // Example: Redirect to your new homepage
+                } else if (oldHashPath === 'recipes'){
+                    newPath = '/recipes'
+                } else if (oldHashPath === 'blog'){
+                    newPath = '/blog'
+                } else if (oldHashPath === 'projects'){
+                    newPath = '/projects'
+                }else if (oldHashPath === 'books'){
+                    newPath = '/books'
+                }else if (oldHashPath === 'about'){
+                    newPath = '/about'
+                }else if (oldHashPath === 'pictures'){
+                    newPath = '/pictures'
+                }
 
-        console.log("404 Redirect - Storing path:", fullPath); // Add console log here
-        console.log("404 Redirect - Redirecting to:", redirectTarget); // Add console log here
 
-        // Perform the redirect
-        window.location.replace(redirectTarget);
+
+                // If a new path is found for the old hashbang, perform the redirect
+                if (newPath) {
+                    // Use window.location.replace() to prevent adding the old URL to browser history
+                    window.location.replace(window.location.origin + newPath);
+                    return; // Stop further script execution as we are redirecting
+                }
+            }
+
+            // Your existing 404.html script logic would go here if this were a combined file,
+            // but for hashbangs, this script needs to be in index.html or your main app load.
+            // (Your existing 404.html correctly handles actual 404 file paths.)
+        })();
     </script>
+
 </head>
 <body>
+<noscript>You need to enable JavaScript to run this app.</noscript>
+<div id="root"></div>
+<!--
+  This HTML file is a template.
+  If you open it directly in the browser, you will see an empty page.
+
+  You can add webfonts, meta tags, or analytics to this file.
+  The build step will place the bundled scripts into the <body> tag.
+
+  To begin the development, run `npm start` or `yarn start`.
+  To create a production bundle, use `npm run build` or `yarn build`.
+-->
 </body>
 </html>
