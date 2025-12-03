@@ -34,7 +34,7 @@
     "predeploy": "npm run generate-sitemap && npm run build",
     "deploy": "gh-pages -d build",
     "generate-sitemap": "node scripts/generate-sitemap.js",
-    "snapshot-fix": "node polyfill-util.js && react-snapshot --config=snapshot.js",
+    "snapshot-fix": "react-snapshot",
     "copy-404": "copyfiles build/index.html build/404.html -f"
   },
   "eslintConfig": {

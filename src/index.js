@@ -1,3 +1,22 @@
+/* eslint-disable import/first */
+// This section contains a necessary polyfill and must execute before imports
+// to function correctly in the react-snapshot (JSDOM) environment.
+if (typeof window.TextEncoder === 'undefined' && typeof require === 'function') {
+    try {
+        const { TextEncoder, TextDecoder } = require('util');
+        if (typeof window.TextEncoder === 'undefined') {
+            window.TextEncoder = TextEncoder;
+        }
+        if (typeof window.TextDecoder === 'undefined') {
+            window.TextDecoder = TextDecoder;
+        }
+    } catch (e) {
+        // Fails silently if 'util' isn't available.
+    }
+}
+/* eslint-enable import/first */
+
+// --- Imports START here ---
 import React from 'react';
 // Standard React 18 imports for client-side rendering/hydration
 import { createRoot, hydrateRoot } from 'react-dom/client';
