@@ -1988,14 +1988,39 @@
     {
       "youtubeID": "28i8S1Lol4g",
       "title": "\uD83D\uDC36 \uD83D\uDE12\uD83D\uDC36When She just Won't Let You Join in Her Reindeer Games | \uD83D\uDE11 Meh Monday",
-      "albums": ["new", "dogs", "meh monday"],
-      "release_date": "11/14/25"
+      "albums": ["dogs", "meh monday"],
+      "release_date": "12/5/25"
     },
     {
       "youtubeID": "tTtbjXR-u6o",
       "title": "\uD83D\uDC10\uD83E\uDD57\uD83D\uDC14 Barnyard Breakfast is What I Got #throwbackfursday",
+      "albums": ["chickens"],
+      "release_date": "12/5/25"
+    },{
+      "youtubeID": "tTtbjXR-u6o",
+      "title": "\uD83D\uDC10\uD83E\uDD57\uD83D\uDC14 Barnyard Breakfast is What I Got #throwbackfursday",
       "albums": ["new", "chickens","meh monday"],
-      "release_date": "11/14/25"
+      "release_date": "12/5/25"
+    },{
+      "youtubeID": "7WLCwMdaVlA",
+      "title": "\uD83E\uDDF1\uD83D\uDCAAYou wanna Get Tiled? I'll Show You Tiled!",
+      "albums": ["new", "diy"],
+      "release_date": "12/5/25"
+    },{
+      "youtubeID": "9ma_xl0Sl3g",
+      "title": "\uD83C\uDF84\uD83E\uDD16 Ode to Our Odd Christmas Trees",
+      "albums": ["new", "diy"],
+      "release_date": "12/5/25"
+    },{
+      "youtubeID": "DG1akUMBcsE",
+      "title": "\uD83D\uDC15\uD83E\uDD76 Huey Ka-Bluey is a Blanket Yanker | Meh Monday \uD83D\uDE11",
+      "albums": ["new", "dogs","meh monday"],
+      "release_date": "12/5/25"
+    },{
+      "youtubeID": "-hE-eFKACKI",
+      "title": "\uD83D\uDC36\uD83E\uDD4E Huey Ka-Bluey's Throwing Spot",
+      "albums": ["new", "dogs"],
+      "release_date": "12/5/25"
     }
   ]
 }
