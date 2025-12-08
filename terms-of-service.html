@@ -1,0 +1,254 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><link rel="icon" href="/favicons/favicon.ico"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#000000"><meta name="Arillian Farm" content="That Bountiful Backyard Funny Farm Life"><link rel="apple-touch-icon" href="/favicons/apple-touch-icon.png"><link rel="manifest" href="/manifest.json"><title>Arillian Farm</title><script type="text/javascript">!function(){if(window.location.hash&&window.location.hash.startsWith("#!")){const o=window.location.hash.substring(2);let i="";if("videos"===o?i="/videos":"main"===o?i="/":"recipes"===o?i="/recipes":"blog"===o?i="/blog":"projects"===o?i="/projects":"books"===o?i="/books":"about"===o?i="/about":"pictures"===o&&(i="/pictures"),i)window.location.replace(window.location.origin+i)}}()</script><script defer="defer" src="/static/js/main.c1380313.js"></script><link href="/static/css/main.051b9e0b.css" rel="stylesheet"><style type="text/css">.react-input-emoji--container {
+  color: #4b4b4b;
+  text-rendering: optimizeLegibility;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 21px;
+  margin: 5px 10px;
+  box-sizing: border-box;
+  flex: 1 1 auto;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  min-height: 20px;
+  min-width: 0;
+  outline: none;
+  width: inherit;
+  will-change: width;
+  vertical-align: baseline;
+  border: 1px solid #eaeaea;
+  margin-right: 0;
+}
+
+.react-input-emoji--wrapper {
+  display: flex;
+  overflow: hidden;
+  flex: 1;
+  position: relative;
+  padding-right: 0;
+  vertical-align: baseline;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.react-input-emoji--input {
+  font-weight: 400;
+  max-height: 100px;
+  min-height: 20px;
+  outline: none;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  z-index: 1;
+  width: 100%;
+  user-select: text;
+  padding: 9px 12px 11px;
+  text-align: left;
+}
+
+.react-input-emoji--input img {
+  vertical-align: middle;
+  width: 18px !important;
+  height: 18px !important;
+  display: inline !important;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.react-input-emoji--overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+
+.react-input-emoji--placeholder {
+  color: #a0a0a0;
+  pointer-events: none;
+  position: absolute;
+  user-select: none;
+  z-index: 2;
+  left: 16px;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  width: calc(100% - 22px);
+}
+
+.react-input-emoji--button {
+  position: relative;
+  display: block;
+  text-align: center;
+  padding: 0 10px;
+  overflow: hidden;
+  transition: color 0.1s ease-out;
+  margin: 0;
+  box-shadow: none;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.react-input-emoji--button svg {
+  fill: #858585;
+}
+
+.react-input-emoji--button__show svg {
+  fill: #128b7e;
+}
+
+.react-emoji {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.react-emoji-picker--container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.react-emoji-picker--wrapper {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 435px;
+  width: 352px;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.react-emoji-picker {
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: slidein 0.1s ease-in-out;
+}
+
+.react-emoji-picker__show {
+  top: 0;
+}
+
+.react-input-emoji--mention--container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.react-input-emoji--mention--list {
+  background-color: #fafafa;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+
+.react-input-emoji--mention--item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 10px;
+  background-color: transparent;
+  width: 100%;
+  margin: 0;
+  border: 0;
+}
+
+.react-input-emoji--mention--item__selected {
+  background-color: #eeeeee;
+}
+
+.react-input-emoji--mention--item--img {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+
+.react-input-emoji--mention--item--name {
+  font-size: 16px;
+  color: #333;
+}
+
+.react-input-emoji--mention--item--name__selected {
+  color: green;
+}
+
+.react-input-emoji--mention--text {
+  color: #039be5;
+}
+
+.react-input-emoji--mention--loading {
+  background-color: #fafafa;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.react-input-emoji--mention--loading--spinner,
+.react-input-emoji--mention--loading--spinner::after {
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+}
+
+.react-input-emoji--mention--loading--spinner {
+  margin: 1px auto;
+  font-size: 2px;
+  position: relative;
+  text-indent: -9999em;
+  border-top: 1.1em solid rgba(0, 0, 0, 0.1);
+  border-right: 1.1em solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1.1em solid rgba(0, 0, 0, 0.1);
+  border-left: 1.1em solid rgba(0, 0, 0, 0.4);
+  transform: translateZ(0);
+  animation: load8 1.1s infinite linear;
+}
+
+@keyframes load8 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes slidein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+</style></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"><header class="main-header"><nav class="main-nav"><ul><li><a class="" href="/" data-discover="true">ARILLIAN FARM</a></li><li><a class="" href="/recipes" data-discover="true">RECIPES</a></li><li><a class="" href="/projects" data-discover="true">DIY PROJECTS</a></li><li><a class="" href="/pictures" data-discover="true">PICTURES</a></li><li><a href="https://www.zazzle.com/collections/fall_2024-119118606070157890" target="_blank" rel="noopener noreferrer" class="merch-NavLink">MERCH</a></li><li><a class="" href="/books" data-discover="true">BOOKS</a></li><li><a class="" href="/videos" data-discover="true">VIDEOS</a></li><li><a class="" href="/blog" data-discover="true">BLOG</a></li><li><a class="" href="/about" data-discover="true">ABOUT</a></li></ul></nav></header><div class="content-wrapper"><div class="privacy-policy-page"><h1 class="legal-header">Privacy Policy for Arillian Farm</h1><h4>Terms of Service for Arillian Farm Last Updated: April 13, 2025 Welcome to Arillian Farm (the "Site," "we," "us," or "our") located at arillianfarm.com. By accessing or using our Site, you (the "User" or "you") agree to be bound by these Terms of Service (the "Terms"). Please read these Terms carefully before using our Site. 1. Acceptance of Terms By accessing or using the Site, you acknowledge that you have read, understood, and agree to be bound by these Terms. If you do not agree to these Terms, you should not access or use the Site. 2. Description of Service Arillian Farm is a website that provides content related to [mention the main topics of Arillian Farm, e.g., recipes, videos, pictures, DIY projects, blog posts, information about books, etc.]. We may update, modify, suspend, or discontinue any part of the Site at any time without notice. 3. User Conduct You agree to use the Site only for lawful purposes and in a manner that does not infringe the rights of, restrict, or inhibit anyone else's use and enjoyment of the Site. Prohibited conduct includes, but is not limited to: * Posting or transmitting any content that is unlawful, harmful, threatening, abusive, harassing, defamatory, vulgar, obscene, libelous, invasive of another's privacy, hateful, or racially, ethnically, or otherwise objectionable. * Impersonating any person or entity or falsely stating or otherwise misrepresenting your affiliation with a person or entity. * Interfering with or disrupting the operation of the Site or the servers or networks used to make the Site available. * Attempting to gain unauthorized access to any portion of the Site or any systems or networks connected to the Site. * Engaging in any form of spamming or unsolicited advertising. * Collecting or storing personal data about other users without their express consent. 4. User Content If you post, upload, input, provide, or submit any content to the Site (collectively, "User Content"), you grant us a non-exclusive, worldwide, royalty-free, perpetual, irrevocable, and fully sublicensable right to use, reproduce, modify, adapt, publish, translate, create derivative works from, distribute, and display such User Content in any media. You represent and warrant that you own or otherwise control all of the rights to the User Content that you submit and that the User Content is accurate, not misleading, and does not violate these Terms or the rights of any third party. We have the right, but not the obligation, to monitor, edit, or remove any User Content that we believe violates these Terms or is otherwise objectionable. 5. Intellectual Property The content, features, and functionality offered on the Site, including but not limited to text, graphics, logos, images, videos, and software, are owned by Arillian Farm or its licensors and are protected by copyright, trademark, and other intellectual property laws. You may access and view the content on the Site for your personal, non-commercial use only. You may not modify, reproduce, distribute, create derivative works of, publicly display, or in any way exploit any of the content on the Site without the prior written consent of Arillian Farm. 6. Links to Third-Party Websites The Site may contain links to third-party websites that are not owned or controlled by Arillian Farm. We have no control over, and assume no responsibility for, the content, privacy policies, or practices of any third-party websites. You acknowledge and agree that Arillian Farm shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with the use of or reliance on any content, goods, or services available on or through any third-party websites. 7. Disclaimer of Warranties THE SITE IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, OR COURSE OF PERFORMANCE. ARILLIAN FARM DOES NOT WARRANT THAT THE SITE WILL BE UNINTERRUPTED, ERROR-FREE, SECURE, OR FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS. 8. Limitation of Liability TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL ARILLIAN FARM, ITS AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, SUPPLIERS, OR LICENSORS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF PROFITS, DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES) ARISING OUT OF OR RELATING TO YOUR ACCESS TO OR USE OF, OR INABILITY TO ACCESS OR USE, THE SITE. 9. Indemnification You agree to indemnify, defend, and hold harmless Arillian Farm, its affiliates, officers, directors, employees, agents, suppliers, and licensors from and against any and all claims, liabilities, damages, losses, costs, expenses, or fees (including reasonable attorneys' fees) arising out of or relating to your User Content, your use of the Site, your breach of these Terms, or your violation of any rights of another party. 10. Governing Law These Terms shall be governed by and construed in accordance with the laws of the State of [Your State/Jurisdiction], without regard to its conflict of law provisions. 11. Changes to These Terms We may revise these Terms at any time without notice. By continuing to access or use the Site after any revisions become effective, you agree to be bound by the revised Terms. It is your responsibility to review these Terms periodically. 12. Contact Us If you have any questions about these Terms of Service, please contact us at: arillianfarm@gmail.com</h4></div></div><footer class="main-footer"><p>© <!-- -->2025<!-- --> Arillian Farm. All Rights Reserved.</p><p><a href="/privacy-policy" data-discover="true">Privacy Policy</a> | <a href="/terms-of-service" data-discover="true">Terms of Service</a></p></footer></div></body></html>
