@@ -3401,6 +3401,57 @@
         }
       ],
       "notes": "A Simple and Satisfying Sammich."
+    },{
+      "name": "Zucchini Nut Bread",
+      "header_pic": "zucchini-bread-cool.png",
+      "pub_date": "12/3/25",
+      "servings": "18-24 muffins or 1 Standard Loaf + 4 Mini Loaves",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "2 cups all-purpose flour",
+        "1 1/2 teaspoons baking soda",
+        "1/2 teaspoon salt",
+        "2 teaspoons ground cinnamon",
+        "2 large eggs",
+        "2/3 cup vegetable oil (or canola oil)",
+        "2/3 cup granulated white sugar",
+        "2/3 cup packed light brown sugar",
+        "2 teaspoons vanilla extract",
+        "1 1/3 cups grated zucchini (do not squeeze)",
+        "2/3 cup chopped pecans, walnuts, or chocolate chips (optional)"
+      ],
+      "steps": [
+        {
+          "pic": "zucchini-bread-prep.png",
+          "instruction": "Line Cupcake Pans with Wrappers or Grease and flour one standard loaf pan and four mini loaf pans."
+        },
+        {
+          "pic": "",
+          "instruction": "In a large bowl, whisk together the flour, baking soda, salt, cinnamon."
+        },
+        {
+          "pic": "zucchini-bread-dry-mix.png",
+          "instruction": "In a separate medium bowl, beat the eggs well. Add the oil, both sugars, and vanilla extract. Beat until smooth."
+        },
+        {
+          "pic": "zucchini-bread-fold-zucchini.png",
+          "instruction": "Pour the wet mixture into the dry ingredients and stir until just combined. Gently fold in the grated zucchini (do not squeeze moisture out) and any optional additions like nuts or chocolate chips."
+        },
+        {
+          "pic": "",
+          "instruction": "Divide the batter evenly among your standard and mini loaf pans, filling them about 2/3 to 3/4 full."
+        },
+        {
+          "pic": "zucchini-bread-bake-staggered.png",
+          "instruction": "Arrange the pans in the air fryer basket for optimal air circulation. Air fry Muffins for 15-20 minutes, the mini loaves for 25–35 minutes, standard loaf for 40–50 minutes, testing with a toothpick for doneness."
+        },
+        {
+          "pic": "zucchini-bread-cool.png",
+          "instruction": "Let the loaves cool in the pans for 10-15 minutes, then turn them out onto a wire rack to cool completely."
+        }
+      ],
+      "notes": "A Sweet Fibery Treat"
     }
   ]
 }

@@ -1,6 +1,7 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+// Import 'isSupported' along with 'getAnalytics'
+import { getAnalytics, isSupported } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
@@ -17,19 +18,30 @@ const firebaseConfig = {
 let app;
 let analytics;
 let db;
-let firebaseInitialized = false; // Add a flag to track successful initialization
+let firebaseInitialized = false;
 
 try {
+    // 1. Initialize the main app instance
     app = initializeApp(firebaseConfig);
-    analytics = getAnalytics(app); // Note: Analytics might still log warnings if the key is invalid but won't crash here.
     db = getFirestore(app);
-    firebaseInitialized = true; // Set flag to true if initialization is successful
-    console.log("Firebase initialized successfully."); // Confirm success
+
+    // 2. Use a self-executing async function (or IIFE) for the conditional check
+    (async () => {
+        // Only initialize analytics if the current environment supports it (e.g., skips JSDOM/react-snapshot)
+        if (await isSupported()) {
+            analytics = getAnalytics(app);
+            // console.log("Firebase Analytics initialized."); // Optional log
+        } else {
+            analytics = null; // Ensure 'analytics' is explicitly null if not supported
+            // console.log("Firebase Analytics skipped (environment not supported)."); // Optional log
+        }
+    })();
+
+    firebaseInitialized = true;
+    console.log("Firebase initialized successfully.");
 } catch (error) {
     console.error("Firebase initialization failed:", error);
-    // You can also set a global state or flag here if you have a state management system
-    // For now, we'll just log and let the undefined variables handle downstream gracefully
-    app = null; // Set to null or undefined to indicate failure
+    app = null;
     analytics = null;
     db = null;
     firebaseInitialized = false;

@@ -3429,7 +3429,89 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Crafting with Trash: Toilet Roll 12 Days of Christmas Advent Calendar",
+      "pub_date": "12/05/25",
+      "header_pic": "advent-tree-final-look.png",
+      "about": "Turn Your Trash Into a Holiday Treasure Trove",
+      "categories": [
+        "DIY",
+        "crafting",
+        "holiday",
+        "Christmas",
+        "recycling",
+        "kids crafts"
+      ],
+      "safety_notes": [
+        "Ensure all contents placed inside the tubes are age-appropriate and non-toxic, especially for small children.",
+        "Use a low-temperature glue gun if children are helping with the assembly."
+      ],
+      "tools": [
+        "Scissors",
+        "Hot glue gun and glue sticks",
+        "Tape (masking or clear)",
+        "a marker to number the days"
+      ],
+      "materials": [
+        "12 Cardboard toilet paper tubes",
+        "One piece of sturdy cardboard (e.g., from a soda or cereal box)",
+        "Green wrapping paper or construction paper (for the tree)",
+        "Dark colored wrapping paper or construction paper (for the trunk)",
+        "Assorted small treats (candy, stickers, mini puzzles etc)"
+      ],
+      "phases": [
+        {
+          "pic": "toilet-roll-cutting-and-folding.png",
+          "paragraphs": [
+            {
+              "text": "Gathering the Goods: Prepping and Sealing the Toilet Rolls",
+              "h4": true
+            },
+            {
+              "text": "I decided to make a 12-days of Christmas Advent Calendar because I lost a month of my life to tiling the floor of my rental house, so I'm running behind on Christmas crafting and I missed the boat on making a 24 or 25 day advent calendar. The last 12 days are where things get exciting anyway."
+            },{
+              "text": "The tubes from toilet paper rolls seem the perfect size to hide holiday trinkets (and I happen to save all my toilet tubes for crafting), so I decided to arrange them in a tree shape and glue them to a cardboard base (to either set on a table or hang on the wall).  My original thought was to use wrapping paper to cover the cardboard tubes, but I realized I don't have any Christmas paper, so I found some colored construction paper to use instead."
+            }
+          ]
+        },
+        {
+          "pic": "tubes-glued-to-cardboard.png",
+          "paragraphs": [
+            {
+              "text": "From Toilet Tube to Treasure Tree:: Building the Tree Structure",
+              "h4": true
+            },
+            {
+              "text": "Once I had my materials, I arranged the 12 tubes on the cardboard (cut up soda box) in a Christmas tree shape, cutting four small slits around one end of the tube and then folding the flaps inwards like you’d seal a cereal box and then using a couple dots of hot glue to secure the sealed end of the tube to the cardboard (pro tip - I pushed and held the tubes down on the cardboard with my scissors to promote a good bond)."
+            }
+          ]
+        },
+        {
+          "pic": "tubes-filled-and-closed.png",
+          "paragraphs": [
+            {
+              "text": "Adding the Magic: Filling and Covering the Calendar",
+              "h4": true
+            },
+            {
+              "text": "Now for the fun part: filling! I used a mix of candy, stickers, and little metal brain teaser puzzles. Once filled, you need to seal the top opening. I would have used green wrapping paper if I had any, but  instead I used construction paper, cutting small squares of green and black paper (Green for the tree and blac for the trunk --because I didn't have brown paper), I taped the squares over the open end of the tubes. (So each days gift will be revealed when the paper is punched or pulled off)."
+            }
+          ]
+        },
+        {
+          "pic": "advent-tree-final-look.png",
+          "paragraphs": [
+            {
+              "text": "Phase 4: The Ugly (But Potential Great!) Tree Calendar",
+              "h4": true
+            },
+            {
+              "text": "My first attempt (the 'ugly tree') looks like it was made by four two year olds and not one forty two year old, but who doesn't love a good rough-around-the-edges craft at Christmas. For the next revision, I plan to use wrapping paper or paint the tubes for a smoother look, but the structure is 100% sound. The final step is to number the 'doors' from 1 to 12. Believe in the process—this easy, (ugly) upcycled craft will bring you joy for the 12 days of christmas!"
+            }
+          ]
+        }
+      ]
     }
-
   ]
 }
