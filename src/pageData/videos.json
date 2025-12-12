@@ -1999,33 +1999,43 @@
     },{
       "youtubeID": "Y_DkoT_2-mg",
       "title": "\uD83D\uDC79\uD83D\uDC36 Xena Dog Giving Off Those Pre-teen with a Predator Head Vibes",
-      "albums": ["new","dogs"],
+      "albums": ["dogs"],
       "release_date": "12/5/25"
     },{
       "youtubeID": "iL_VOM5h_dE",
       "title": "\uD83E\uDDD1\u200D\uD83C\uDF84\uD83D\uDC13Putting Santa Hats on Chickens -Fail | Meh Monday \uD83D\uDE11",
-      "albums": ["new","chickens","meh monday"],
+      "albums": ["chickens","meh monday"],
       "release_date": "12/5/25"
     },{
       "youtubeID": "7WLCwMdaVlA",
       "title": "\uD83E\uDDF1\uD83D\uDCAAYou wanna Get Tiled? I'll Show You Tiled!",
-      "albums": ["new", "diy"],
+      "albums": ["diy"],
       "release_date": "12/5/25"
     },{
       "youtubeID": "9ma_xl0Sl3g",
       "title": "\uD83C\uDF84\uD83E\uDD16 Ode to Our Odd Christmas Trees",
-      "albums": ["new", "diy"],
+      "albums": [ "diy"],
       "release_date": "12/5/25"
     },{
       "youtubeID": "DG1akUMBcsE",
       "title": "\uD83D\uDC15\uD83E\uDD76 Huey Ka-Bluey is a Blanket Yanker | Meh Monday \uD83D\uDE11",
-      "albums": ["new", "dogs","meh monday"],
+      "albums": ["dogs","meh monday"],
       "release_date": "12/5/25"
     },{
       "youtubeID": "-hE-eFKACKI",
       "title": "\uD83D\uDC36\uD83E\uDD4E Huey Ka-Bluey's Throwing Spot",
-      "albums": ["new", "dogs"],
+      "albums": ["dogs"],
       "release_date": "12/5/25"
+    },{
+      "youtubeID": "BJz1900ntXY",
+      "title": "\uD83D\uDC10\uD83D\uDC13\uD83E\uDD20\uD83D\uDD0A Totes Saddle was Just Waiting For the Right Chicken to Come Along",
+      "albums": ["new", "chickens"],
+      "release_date": "12/12/25"
+    },{
+      "youtubeID": "YVbXpUJ2UKk",
+      "title": "\uD83C\uDFC8\uD83D\uDC36\uD83C\uDF85 Huey Ka-Bluey Being all Gretchen Weiner About Fetch | Meh Monday \uD83D\uDE11",
+      "albums": ["new", "dogs", "meh monday"],
+      "release_date": "12/12/25"
     }
   ]
 }

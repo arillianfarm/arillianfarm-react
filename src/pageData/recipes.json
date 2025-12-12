@@ -3452,6 +3452,51 @@
         }
       ],
       "notes": "A Sweet Fibery Treat"
+    },
+    {
+      "name": "Pepped up Goat Cheese Omelette",
+      "header_pic": "omelette-goat-cheese-basil.png",
+      "pub_date": "12/12/25",
+      "servings": "1",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "2 large fresh eggs",
+        "2 teaspoons heavy cream",
+        "2-3 small baby bell peppers (or 1/4 large bell pepper), thinly sliced",
+        "1/4 cup soft goat cheese, crumbled",
+        "1 tablespoon fresh basil, chiffonade (thinly sliced)",
+        "1 teaspoon butter or oil for sautéing peppers",
+        "1/2 tablespoon butter for cooking omelette",
+        "Salt and freshly ground black pepper to taste"
+      ],
+      "steps": [
+        {
+          "pic": "omelette-peppers-saute.png",
+          "instruction": "Thinly slice the baby bell pepper. In a non-stick skillet, melt 1 teaspoon of butter or oil over medium heat. Add the peppers and a pinch of salt and pepper (if desired). Sauté until soft and lightly caramelized (5-7 minutes). Remove peppers and set aside. Wipe the pan clean."
+        },
+        {
+          "pic": "",
+          "instruction": "In a bowl, whisk the eggs, heavy cream, salt, and pepper vigorously until the mixture is light, frothy, and uniform in color."
+        },
+        {
+          "pic": "",
+          "instruction": "Return the skillet to medium-high heat. Melt the remaining 1/2 tablespoon of butter, swirling the pan until it foams."
+        },
+        {
+          "pic": "omelette-eggs-whisk.png",
+          "instruction": "Pour the egg mixture into the hot pan. Immediately use a spatula to gently pull the cooked egg from the edges toward the center, allowing the uncooked egg to flow underneath. Continue until the top surface is mostly set but still wet and shiny."
+        },
+        {
+          "pic": "omelette-fillings-add.png",
+          "instruction": "Sprinkle the sautéed bell peppers, crumbled goat cheese, and fresh basil over one half of the omelette. Cook for about 30 seconds to warm the filling."
+        },
+        {
+          "pic": "omelette-fold-serve.png",
+          "instruction": "Use the spatula to fold the unfilled side over the filling. Cook for another minute until the cheese is soft. Slide onto a plate and serve immediately."
+        }
+      ],
+      "notes": "Omelette You in On A Breakfast Secret \uD83E\uDD2B."
     }
   ]
 }

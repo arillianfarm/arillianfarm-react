@@ -148,12 +148,9 @@
         <loc>https://arillianfarm.com/projects/?articleId=the-hardwork-of-prepping-hardwood-floors-for-tile</loc>
     </url>
     <url>
-<<<<<<< HEAD
-=======
         <loc>https://arillianfarm.com/projects/?articleId=crafting-with-trash-toilet-roll-12-days-of-christmas-advent-calendar</loc>
     </url>
     <url>
->>>>>>> eight30
         <loc>https://arillianfarm.com/blog/?articleId=do-folks-even-read-blogs</loc>
     </url>
     <url>
@@ -260,6 +257,9 @@
     </url>
     <url>
         <loc>https://arillianfarm.com/blog/?articleId=from-too-much-time-to-too-much-tile-on-my-hands</loc>
+    </url>
+    <url>
+        <loc>https://arillianfarm.com/blog/?articleId=the-gift-of-knowing-and-being-known</loc>
     </url>
     <url>
         <loc>https://arillianfarm.com/recipes/?articleId=baked-eggs-and-asparagus</loc>
@@ -523,10 +523,12 @@
         <loc>https://arillianfarm.com/recipes/?articleId=seven-layers-of-christmas-dip</loc>
     </url>
     <url>
-<<<<<<< HEAD
         <loc>https://arillianfarm.com/recipes/?articleId=fall-into-freshness-sandwich</loc>
-=======
+    </url>
+    <url>
         <loc>https://arillianfarm.com/recipes/?articleId=zucchini-nut-bread</loc>
->>>>>>> eight30
+    </url>
+    <url>
+        <loc>https://arillianfarm.com/recipes/?articleId=pepped-up-goat-cheese-omelette</loc>
     </url>
 </urlset>
