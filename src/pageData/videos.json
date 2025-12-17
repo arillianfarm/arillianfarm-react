@@ -2029,13 +2029,23 @@
     },{
       "youtubeID": "BJz1900ntXY",
       "title": "\uD83D\uDC10\uD83D\uDC13\uD83E\uDD20\uD83D\uDD0A Totes Saddle was Just Waiting For the Right Chicken to Come Along",
-      "albums": ["new", "chickens"],
+      "albums": ["chickens"],
       "release_date": "12/12/25"
     },{
       "youtubeID": "YVbXpUJ2UKk",
       "title": "\uD83C\uDFC8\uD83D\uDC36\uD83C\uDF85 Huey Ka-Bluey Being all Gretchen Weiner About Fetch | Meh Monday \uD83D\uDE11",
-      "albums": ["new", "dogs", "meh monday"],
+      "albums": [ "dogs", "meh monday"],
       "release_date": "12/12/25"
+    },{
+      "youtubeID": "K-pgYF1uWi4",
+      "title": "\uD83D\uDE98\uD83D\uDC14\uD83D\uDE98 Playing Chicken like a Couple of Waymos | Meh Monday \uD83D\uDE11",
+      "albums": ["new", "chickens", "meh monday"],
+      "release_date": "12/19/25"
+    },{
+      "youtubeID": "7E0njgCEIzc",
+      "title": "\uD83C\uDF7F\uD83D\uDC36☔ Dogs Catching Popcorn Rain in Slow Motion",
+      "albums": ["new", "dogs"],
+      "release_date": "12/19/25"
     }
   ]
 }

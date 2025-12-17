@@ -3512,6 +3512,85 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Operation No-Leak: How to Unclog a Freezer Drain Line",
+      "pub_date": "12/19/25",
+      "header_pic": "clogged-freezer-drain-hero.png",
+      "about": "Stop the Soggy Bottom: A Step-by-Step Guide to Fixing a Leaky Freezer",
+      "categories": [
+        "DIY",
+        "home maintenance",
+        "appliances",
+        "life hacks",
+        "landlord chronicles"
+      ],
+      "safety_notes": [
+        "Always unplug the refrigerator before removing panels or using liquids near electrical components.",
+        "Do not use sharp metal objects like knives to chip away ice, as you can puncture the evaporator coils.",
+        "If using a hair dryer, keep it away from standing water to avoid electrical shock."
+      ],
+      "tools": [
+        "Screwdriver (usually Phillips or a 1/4 inch nut driver)",
+        "Turkey baster or large syringe",
+        "Hair dryer",
+        "Small plumbing snake or a long zip tie"
+      ],
+      "materials": [
+        "Hot water (not boiling, just very hot tap water)",
+        "Baking soda (about 1 tablespoon)",
+        "Old towels (plenty of them!)"
+      ],
+      "phases": [
+        {
+          "pic": "ice-buildup-freezer-floor.png",
+          "paragraphs": [
+            {
+              "text": "The Diagnosis: Why is There a Lake in My Crisper Drawer?",
+              "h4": true
+            },
+            {
+              "text": "Just when I thought I was done with the 'heavy lifting' after spending a month tiling the floors at my rental house, I got the call: 'The freezer is leaking.' If you see water pooling under your vegetable drawers or a sheet of ice forming on the floor of your freezer, you likely have a clogged defrost drain. Normally, when your fridge goes through its defrost cycle, the melted ice flows down a tube into a pan at the bottom to evaporate. When that tube clogs with debris or ice, the water has nowhere to go but... everywhere else."
+            }
+          ]
+        },
+        {
+          "pic": "removing-back-panel.png",
+          "paragraphs": [
+            {
+              "text": "Phase 1: Getting to the Guts of the Machine",
+              "h4": true
+            },
+            {
+              "text": "After unplugging the unit (safety first!), I cleared out the frozen peas and veggie burgers to get to the back panel. Most freezers have a plastic or metal plate held in by a few screws. Once I popped those off, I revealed the evaporator coils and the tiny, frozen-shut drain hole at the bottom. It was completely encased in an ice block—no wonder the water was backing up!"
+            }
+          ]
+        },
+        {
+          "pic": "hair-dryer-defrosting.png",
+          "paragraphs": [
+            {
+              "text": "Phase 2: The Great Thaw",
+              "h4": true
+            },
+            {
+              "text": "This is where patience (and a hair dryer) comes in. I used the hair dryer on a low setting to melt the ice block covering the drain. Pro tip: Don't get too close to the plastic walls or you might warp them. Once the hole was visible, I used a long zip tie to gently poke through the initial sludge. It’s a bit gross, but strangely satisfying to see the blockage start to give way."
+            }
+          ]
+        },
+        {
+          "pic": "turkey-baster-flush.png",
+          "paragraphs": [
+            {
+              "text": "Phase 3: The Baking Soda Blast and Flush",
+              "h4": true
+            },
+            {
+              "text": "To make sure the line was actually clean and wouldn't just re-freeze, I mixed a tablespoon of baking soda with hot water. Using a turkey baster, I squirted the solution directly into the drain hole. I kept at it until I heard that glorious 'gurgle' sound of water hitting the drain pan at the bottom. I checked the pan behind the bottom kickplate to make sure it was flowing through. A quick wipe down, screws back in, and 'Operation No-Leak' was a success. Now, back to my own farm and away from rental house repairs for at least a few days!"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

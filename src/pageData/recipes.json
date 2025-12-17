@@ -3497,6 +3497,59 @@
         }
       ],
       "notes": "Omelette You in On A Breakfast Secret \uD83E\uDD2B."
+    },
+    {
+      "name": "Sweet & Spicy Baby Bell Pepper Jelly",
+      "header_pic": "baby-bell-pepper-jelly-served.png",
+      "pub_date": "12/19/25",
+      "servings": "1 1/2 - 2 half-pint jars",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "8 -12 oz baby bell peppers",
+        "1-3 jalapeño(s)",
+        "1/4 cup apple cider vinegar (5% acidity)",
+        "1/2 cup granulated sugar",
+        "1 tablespoon low-sugar or no-sugar needed powdered pectin",
+        "2 tablespoons water (to help dissolve pectin)"
+      ],
+      "steps": [
+        {
+          "pic": "peppers-in-blender.png",
+          "instruction": "Remove any stems and seeds from Jalapeno(s) and baby bell peppers and Puree in a blender."
+        },{
+          "pic": "",
+          "instruction": "In a small bowl, whisk the low-sugar pectin with the sugar water until thoroughly combined (to prevent clumping)."
+        },{
+          "pic": "pepper-puree-vinegar.png",
+          "instruction": "Combine pepper puree and apple cider vinegar in a small stainless steel pot."
+        },
+
+        {
+          "pic": "heat-jelly.png",
+          "instruction": "Place the pot over high heat and,  stirring constantly to prevent scorching, bring the puree mixture to a full rolling boil (a boil that cannot be stirred down)."
+        },
+        {
+          "pic": "adding-pectin-sugar.png",
+          "instruction": "Immediately stir in the pectin and sugar mixture. Return the pot to a full rolling boil and,,continuing to stir vigorously, boil hard for exactly 1 minute."
+        },
+        {
+          "pic": "",
+          "instruction": "Remove the pot from the heat and skim off any foam that has risen to the surface with a spoon."
+        },
+        {
+          "pic": "filling-jars.png",
+          "instruction": "Ladle the hot jelly into clean, sterilized jars, leaving at least 1/4-inch of headspace at the top. Wipe the rims with a clean, damp cloth and secure the lids and bands fingertip-tight."
+        },
+        {
+          "pic": "",
+          "instruction": "For Refrigerator Jelly: Let the jars cool on the counter until they reach room temperature, then store in the fridge for up to 4 weeks. For Canning: Process in a boiling water bath for 10 minutes, then let sit undisturbed for 24 hours to seal."
+        },{
+          "pic": "baby-bell-pepper-jelly-served.png",
+          "instruction":"Pairs Nicely with Cornbread, Grilled Cheese Scones Etc"
+        }
+      ],
+      "notes": "It's my Jam"
     }
   ]
 }
