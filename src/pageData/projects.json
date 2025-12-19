@@ -3514,79 +3514,73 @@
       ]
     },
     {
-      "name": "Operation No-Leak: How to Unclog a Freezer Drain Line",
+      "name": "Diary of a Garden Nerd: Grass Roots Are Hard to Kill",
       "pub_date": "12/19/25",
-      "header_pic": "clogged-freezer-drain-hero.png",
-      "about": "Stop the Soggy Bottom: A Step-by-Step Guide to Fixing a Leaky Freezer",
+      "header_pic": "grassy-wood-chips.png",
+      "about": "The Challenge of Growing What you Want and Not What you Don't",
       "categories": [
         "DIY",
         "home maintenance",
-        "appliances",
         "life hacks",
         "landlord chronicles"
       ],
-      "safety_notes": [
-        "Always unplug the refrigerator before removing panels or using liquids near electrical components.",
-        "Do not use sharp metal objects like knives to chip away ice, as you can puncture the evaporator coils.",
-        "If using a hair dryer, keep it away from standing water to avoid electrical shock."
-      ],
+      "safety_notes": [],
       "tools": [
-        "Screwdriver (usually Phillips or a 1/4 inch nut driver)",
-        "Turkey baster or large syringe",
-        "Hair dryer",
-        "Small plumbing snake or a long zip tie"
+        "Pump Sprayer"
       ],
       "materials": [
-        "Hot water (not boiling, just very hot tap water)",
-        "Baking soda (about 1 tablespoon)",
-        "Old towels (plenty of them!)"
+        "1 Gallon White Vinegar (the more concentrated the better)",
+        "1 Cup Salt",
+        "1 tablespoon Dish Soap"
       ],
       "phases": [
         {
-          "pic": "ice-buildup-freezer-floor.png",
+          "vid": "oqtdOO0xF-I",
           "paragraphs": [
             {
-              "text": "The Diagnosis: Why is There a Lake in My Crisper Drawer?",
+              "text": "Grass Roots Run Deep",
               "h4": true
             },
             {
-              "text": "Just when I thought I was done with the 'heavy lifting' after spending a month tiling the floors at my rental house, I got the call: 'The freezer is leaking.' If you see water pooling under your vegetable drawers or a sheet of ice forming on the floor of your freezer, you likely have a clogged defrost drain. Normally, when your fridge goes through its defrost cycle, the melted ice flows down a tube into a pan at the bottom to evaporate. When that tube clogs with debris or ice, the water has nowhere to go but... everywhere else."
+              "text": "It's been about three months the wood chip delivery for the foodscape I built with my friend and I had thought the lawn would give up and die off if I kept wacking the grass as it showed up and as the daylight hours and temp dropped. Unfortunately we've had unseasonably warm temperatures this fall and a few unusually proflic storms, so the lawn has been raging on."
             }
           ]
         },
         {
-          "pic": "removing-back-panel.png",
+          "pic": "diy-weedkiller-spray-ingredients.png",
           "paragraphs": [
             {
-              "text": "Phase 1: Getting to the Guts of the Machine",
+              "text": "Reacting with Chemicals: Making a DIY Weed Killer Using Vinegar, Salt and Dishsoap",
               "h4": true
             },
             {
-              "text": "After unplugging the unit (safety first!), I cleared out the frozen peas and veggie burgers to get to the back panel. Most freezers have a plastic or metal plate held in by a few screws. Once I popped those off, I revealed the evaporator coils and the tiny, frozen-shut drain hole at the bottom. It was completely encased in an ice block—no wonder the water was backing up!"
+              "text": "Originally I wanted the garden to be fully organic with no use of any chemical whatsoever, but I found a recipe online to make a simple DIY weedkiller and I decided it was time to bust out the old pump sprayer: "
+            },{
+              "text": "DIY WEED KILLER: In a pump sprayer, mix 1 gallon vinegar, 1 cup salt, 1 tablespoon dish soap and spray on undesired grass and weeds NOTE - THIS SPRAY WILL KILL ANY PLANT YOU SPRAY IT ON AND MAY BUILD UP IN THE SOIL TO MAKE FUTURE GROWTH HARDER"
             }
           ]
         },
         {
-          "pic": "hair-dryer-defrosting.png",
+          "pic": "spraying-diy-weedkiller.png",
           "paragraphs": [
             {
-              "text": "Phase 2: The Great Thaw",
+              "text": "The Mounting Resistance: Repeatedly Spraying to Lower Soil Fertility  \uD83D\uDE2C \uD83E\uDD1E",
               "h4": true
             },
             {
-              "text": "This is where patience (and a hair dryer) comes in. I used the hair dryer on a low setting to melt the ice block covering the drain. Pro tip: Don't get too close to the plastic walls or you might warp them. Once the hole was visible, I used a long zip tie to gently poke through the initial sludge. It’s a bit gross, but strangely satisfying to see the blockage start to give way."
+              "text": "I've been consistently spraying the edge of the wood chips and patches where grass has been cropping up every other week for the last two months in hopes that the soil will become too brackish and acidic to support new growth. The grass has slowed its roll lately, but its hard to tell if the shorter daylight hours and drier weather caused the reduced growth or if my DIY spray is actually working. Time will tell I guess."
             }
           ]
         },
         {
-          "pic": "turkey-baster-flush.png",
+          "pic": "foodscape-jungle.png",
           "paragraphs": [
             {
-              "text": "Phase 3: The Baking Soda Blast and Flush",
+              "text": "The Spoils of Labor: Enjoying the beauty and Bounty of our Garden",
               "h4": true
             },
             {
-              "text": "To make sure the line was actually clean and wouldn't just re-freeze, I mixed a tablespoon of baking soda with hot water. Using a turkey baster, I squirted the solution directly into the drain hole. I kept at it until I heard that glorious 'gurgle' sound of water hitting the drain pan at the bottom. I checked the pan behind the bottom kickplate to make sure it was flowing through. A quick wipe down, screws back in, and 'Operation No-Leak' was a success. Now, back to my own farm and away from rental house repairs for at least a few days!"
+              "text": "The good news is the garden plants have been thriving with volunteer pumpkins and tomatoes absolutely loving the fresh soil from the decomposing wood chips every bit as much as the grass."
             }
           ]
         }

@@ -3424,7 +3424,7 @@
       "steps": [
         {
           "pic": "zucchini-bread-prep.png",
-          "instruction": "Line Cupcake Pans with Wrappers or Grease and flour one standard loaf pan and four mini loaf pans."
+          "instruction": "If baking in an oven, preheat oven to 325F and line Cupcake Pans with Wrappers or Grease and flour one standard loaf pan and four mini loaf pans."
         },
         {
           "pic": "",
@@ -3444,7 +3444,7 @@
         },
         {
           "pic": "zucchini-bread-bake-staggered.png",
-          "instruction": "Arrange the pans in the air fryer basket for optimal air circulation. Air fry Muffins for 15-20 minutes, the mini loaves for 25–35 minutes, standard loaf for 40–50 minutes, testing with a toothpick for doneness."
+          "instruction": "If Baking: Bake standard loaves for 50-60 min, mini loafs for 35-40 min and muffins for 20-25 min. If air frying: Arrange the pans in the air fryer basket for optimal air circulation. Air fry Muffins for 15-20 minutes, the mini loaves for 25–35 minutes, standard loaf for 40–50 minutes, testing with a toothpick for doneness."
         },
         {
           "pic": "zucchini-bread-cool.png",
