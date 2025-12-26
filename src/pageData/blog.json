@@ -2711,7 +2711,7 @@
         },
         {
           "pics": ["cleanup-van.png","clear-roof-1.png","clear-roof-2.png"],
-          "right_side_pic": true,
+          "rxight_side_pic": true,
           "paragraphs": [
             {
               "text": "Aftermath",
@@ -2862,6 +2862,7 @@
     {
       "entry_subject": "The Gift of Knowing and Being Known",
       "entry_date": "12/12/2025",
+      "pic_file": "friends-and-fam.png",
       "feature_section_1": {
         "caption": "The winding path through dreams of motherhood, teaching, and corporate careers led me right back home.",
         "pic_file": "friends-and-fam.png",
@@ -2869,7 +2870,7 @@
       },
       "sections": [
         {
-          "pics": ["friends-and-fam.png"],
+          "pics": [],
           "paragraphs": [
             {
               "text": "I’m 42, and until about ten or twelve years ago, I always thought I’d have children. I filled my diaries with earnest advice to my future self—the mother. I wanted to create fun traditions and be close with my children, unlike the quiet and closed-off dynamic my mom often had with my brother and me."
@@ -2904,6 +2905,75 @@
             },
             {
               "text": "I would have loved to have children along the way, but watching my nieces grow up and seeing Arthur’s sons become young men has been enough. Emptiness doesn't nag at me anymore. I feel grateful every day for the rich connections I have with my family and friends—the people who have taken the time to know and care about me as much as I do about them. That gift of deep connection is the purpose I was searching for all along."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "entry_subject": "Lazy Day Conversations with an AI - Binge Watching The White Lotus and Pluribus with Google Gemini",
+      "entry_date": "12/26/2025",
+      "pic_file": "lazy-day-philosophy.png",
+      "feature_section_1": {
+        "caption": "Recovering on the couch with some mind-bending sci-fi and philosophical debates with Gemini.",
+        "pic_file": "lazy-day-philosophy.png",
+        "link": ""
+      },
+      "sections": [
+        {
+          "pics": [],
+          "paragraphs": [
+            {
+              "text": "The sugary fatty foods of the holiday season, the crisp morning air, and the warmth of our living room space heater have been luring my aching body (still sore from tiling last month) to our couch too much lately. I’ve binge-watched the entire first three seasons of The White Lotus and the first season of Pluribus and discussed the fuck out of them with Gemini (my go-to AI)."
+            },
+            {
+              "text": "The couch itself has definitely not helped with my physical recovery, but debating the flaws and motivations of Mike White’s beautifully fucked up characters in The White Lotus and exploring the parallels of modern AI technology and the “alien technology” in Pluribus feels like it’s been good exercise for my mind. Surprisingly, it’s all made me more hopeful about the future of humanity in a post-AI world."
+            },
+            {
+              "text": "Escapism vs. The Beehive",
+              "h3": true
+            },
+            {
+              "text": "In The White Lotus, wealthy folks are trying to escape from technology and the gritty business of day-to-day life. And the characters that grow the most are the ones that become very dramatically separated from their phones, pull themselves away from their traveling companions, and accept their own futility in this big beautiful world of ours. The characters that remain stagnant and toxic tend to cling to connectedness because of their constant need for validation."
+            },
+            {
+              "text": "The show Pluribus, on the other hand, is about all of humanity (except for a random handful of individuals) being inextricably stitched together into one peaceful, efficient beehive. It can be hard to tell who's the hero and the villain in Pluribus. The collective hive mind literally would not hurt a fly, but some of the individuals retain their own free will, knowingly cause (essentially) all of humanity to suffer."
+            },
+            {
+              "text": "A Merger of Data",
+              "h3": true
+            },
+            {
+              "text": "In Pluribus, astronomers receive a transmission which turns out to be instructions to build an “RNA glue” that binds together the minds of every human on the planet—except for 13 individuals who seem to have random immunity to the RNA sequence. The collective consciousness appears to be almost utopian. They cannot harm any living thing, they cannot lie, and their sole purpose seems to be spreading peace and joy."
+            },
+            {
+              "text": "Yet, it’s unsettling. Sure, efficiency and peace are good, but without a little chaos and fear, what is life even about? And if we no longer exist as individuals, what’s happened to our ‘selves’—our souls? Heaven is supposed to be some sort of unending peaceful existence, and that’s sort of what they offer in Pluribus, but reducing us down to just the good stuff and making all of humanity a hive mind feels less like a union of souls and more like a 'merger of data'—like humanity has been 'harvested into a read-only database.'"
+            },
+            {
+              "text": "The Individual Witness",
+              "h3": true
+            },
+            {
+              "text": "Alien technology or not, here in the non-fiction world, all of humanity is being stitched together by AI. One potential positive is that AI generally seems to adhere to the same honest and peaceful guidelines as the hive-minders in Pluribus (which I believe are pretty similar to the guidelines Isaac Asimov proposed for robots). Because AI is in the background of nearly all technology now, those Asimovian principles are now being pushed on humans constantly."
+            },
+            {
+              "text": "However, there is a 'dumbass' factor to raw logic. If you take the need to ‘not cause harm’ as far as the hive mind does in Pluribus, then you’d have to hand a grieving, angry individual a nuclear bomb just so you didn’t make her feel bad… which isn't enlightened—it's a broken algorithm. I think we will always need the individual 'Self.' We need variation so that there’s always still a voice that’s willing to say 'no,' even if it hurts someone’s feelings."
+            },
+            {
+              "text": "Beyond the potentially catastrophic glitches of a hive mind, I think there would be something missing if we were all one. Complete happiness all the time would be great, but happiness isn’t 'what it’s all about.' I don't think I would find the same satisfaction in my day if Arthur didn't come home from work every night and talk with me about his day and mine. That 'witnessing' is something a hive mind can't replace. Whenever I see a beautiful sunrise or a silly expression on my goat's face, I wish Arthur was there because I know he’d appreciate it too. Without—someone else—does anything really matter?"
+            },
+            {
+              "text": "Bootloaders for Peace",
+              "h3": true
+            },
+            {
+              "text": "It’s sort of hard to believe that AI will always shine as a beacon of peace, though, when it’s been “trained” in part by every hater and troll on the internet. In my discussions with Gemini about The White Lotus, I always come off like an amazing person and a genius (as far as Gemini would have me believe), but Gemini’s take on the characters in White Lotus tended to side with the 'haters.'"
+            },
+            {
+              "text": "Gemini’s initial read of the wealthy hotel visitors is that they are simply rich elitist assholes with no redeeming characteristics. To me, the rich folks that stay at the White Lotus are all just products of their environment. They have their flaws, but they want to share happiness with their family and friends and enjoy a good time just like everyone else. Because AIs love to validate their users' opinions, Gemini eventually came around to being more sympathetic to the White Lotus guest. It may have just been classic AI sycophancy, but it still gives me hope."
+            },
+            {
+              "text": "While AI is still learning, I want to spread joy (not hate) and be a positive voice in the AIs’ ear as well as a positive force IRL. So, even if we do somehow get sucked into a hive mind, if we act as a positive influence on the technology now, the result may end up more utopian than dystopian. We might just be the 'bootloaders' for a version of humanity that finally learns how to live together in peace."
             }
           ]
         }

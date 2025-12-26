@@ -99,7 +99,7 @@
       "header_pic": "pickledonions.png",
       "servings": "1 jar of pickled onions",
       "related_recipes": ["creamy avocado, pickled onion wontons"],
-      "summary": "INGREDIENTS: 1 onion, 3/4 cup beet juice, 3/4 cup white vinegar, 1 tsp yellow mustard seed, 1/2 tbsp salt, 3/8 cup white sugar, 1 spring fresh rosemary. INSTRUCTIONS: (1) Slice the onion into thin rings or rainbows (I used a medium yellow onion, but I based this on ingredients from a jar of pickled purple onions so I suspect any bulbous onion is fine). (2) put the onion slices and all other ingredients into a sterile mason jar. (3) seal the jar and shake until all sugar and salt are dissolved (4) leave in fridge for at least three days to marinate",
+      "summary": "INGREDIENTS: 1 onion, 3/4 cup beet juice, 3/4 cup white vinegar, 1 tsp mustard seed, 1/2 tbsp salt, 3/8 cup white sugar, 1 spring fresh rosemary. INSTRUCTIONS: (1) Slice the onion into thin rings or rainbows (I used a medium yellow onion, but I based this on ingredients from a jar of pickled purple onions so I suspect any bulbous onion is fine). (2) put the onion slices and all other ingredients into a sterile mason jar. (3) seal the jar and shake until all sugar and salt are dissolved (4) leave in fridge for at least three days to marinate",
       "ingredients": [
         "1 onion",
         "3/4 cup beet juice",
@@ -371,7 +371,7 @@
       "related_recipes": ["pickled eggs"],
       "servings": "1 jar of pickled beets (scale recipe up or down depending on how many beets you're working with)",
       "ingredients": [
-        "6 small beets boiled and sliced --reserve boiling water to use as 'beet juice' in next step.",
+        "6-8 beets",
         "3/4 cup beet juice (from boiling the beets)",
         "3/4 cup white vinegar (can also use apple cider vinegar)",
         "1/2 to 3/4 cup granulated sugar",
@@ -380,6 +380,9 @@
         "1 tsp whole black pepper corns"
       ],
       "steps": [{
+        "pic": "washB2.png",
+        "instruction":"Boil beets for 25-40 min or until tender, let the beets cool then peel the skin off by rubbing them with your fingers or a paper towel then slice into half inch disks --reserve boiling water to use as 'beet juice' in next step."
+      },{
         "pic": "washB2.png",
         "instruction":"in a small pot, over low heat bring beet juice, vinegar, sugar and salt to a boil and stir until all sugar is dissolved, then remove from heat."
       },{
@@ -3550,6 +3553,64 @@
         }
       ],
       "notes": "It's my Jam"
+    },
+    {
+      "name": "Homemade Schwarzbrot (German Black Bread)",
+      "header_pic": "schwarzbrot-loaves.png",
+      "pub_date": "12/26/25",
+      "servings": "1 standard loaf or 2-3 mini loaves (approx. 10-12 slices)",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "1 cup warm water (if using wet sprouts remove 1 tablespoon of warm water)",
+        "2 teaspoons active dry yeast (measured from a 2 1/4 tsp packet)",
+        "1/3 cup dark molasses",
+        "1 tablespoon honey (approx. 4-5 honey straws/21g)",
+        "1 tablespoon olive oil",
+        "1 1/2 cups all-purpose flour",
+        "1 cup dark rye flour",
+        "1/2 cup whole wheat flour",
+        "1 tablespoon unsweetened cocoa powder (for color)",
+        "1 teaspoon kosher salt",
+        "1/4 cup sprouted wheat berries (or sub extra sunflower seeds if short)",
+        "2 tablespoons whole flaxseed",
+        "2 tablespoons sunflower seeds"
+      ],
+      "steps": [
+        {
+          "pic": "schwarzbrot-dry-mix.png",
+          "instruction": "In a small bowl, combine warm water, yeast, honey, and molasses. Let sit for 5-10 minutes until frothy. Meanwhile, in a large bowl, whisk together all-purpose flour, rye flour, whole wheat flour, cocoa powder, and salt. Stir in the sprouted grains and seeds."
+        },
+        {
+          "pic": "mixing-schwarzbrot-dough.png",
+          "instruction": "Add wet ingredients and olive oil to the dry mix. Stir until a sticky, shaggy dough forms. Do not over-add flour; rye dough should be tacky."
+        },
+        {
+          "pic": "sprouted-wheat-for-bread.png",
+          "instruction": "Note: If you have less than 1/4 cup of sprouted wheat, simply increase the sunflower seeds to make up the volume. Because fresh sprouts are wet, we reduce the water by 1 tablespoon to maintain the correct dough consistency."
+        },
+        {
+          "pic": "schwarzbrot-first-rise.png",
+          "instruction": "Place dough in an oiled bowl, cover, and let rise in a warm spot for 60-90 minutes until nearly doubled in size."
+        },
+        {
+          "pic": "shaping-loaf.png",
+          "instruction": "Gently punch down dough and shape into a cylinder. Place into a greased 9x5 inch loaf pan."
+        },
+        {
+          "pic": "",
+          "instruction": "Cover and let rise a second time for 30-45 minutes. Preheat oven to 350°F (175°C)."
+        },
+        {
+          "pic": "baking-schwarzbrot.png",
+          "instruction": "Bake for 40-50 minutes until the internal temperature reaches 200°F-210°F."
+        },
+        {
+          "pic": "schwarzbrot-loaves.png",
+          "instruction": "Remove from pan and cool completely on a wire rack"
+        }
+      ],
+      "notes": "A copycat of the discontinued Trader Joe's German Brown Bread."
     }
   ]
 }
