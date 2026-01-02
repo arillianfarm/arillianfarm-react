@@ -3611,6 +3611,43 @@
         }
       ],
       "notes": "A copycat of the discontinued Trader Joe's German Brown Bread."
+    },{
+      "name": "Garden Fresh Herb Vinaigrette",
+      "header_pic": "garden-herb-vinaigrette-served.png",
+      "pub_date": "12/26/25",
+      "servings": "Approx. 1 cup (enough for 8-10 servings)",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "1/2 cup extra virgin olive oil",
+        "1/4 cup lemon juice (juice from about 1 lemon)",
+        "1 tablespoon (freshly grated) lemon zest (zest from about 3 lemons)",
+        "2 tablespoons white vinegar",
+        "1 tablespoon granulated sugar",
+        "3 cloves garlic, minced",
+        "1 teaspoon fresh cracked pepper",
+        "2 tablespoons minced fresh oregano &/or basil",
+        "1/2 teaspoon salt"
+      ],
+      "steps": [
+        {
+          "pic": "herbs-prep.png",
+          "instruction": "Finely mince your fresh sage, oregano, and basil from the garden."
+        },
+        {
+          "pic": "",
+          "instruction": "Combine the lemon juice, vinegar, sugar, garlic, pepper, and salt in a clean pickle jar. Shake until the sugar is mostly dissolved."
+        },
+        {
+          "pic": "jar-mix.png",
+          "instruction": "Add the olive oil, secure the lid tightly, and shake vigorously until the mixture emulsifies and looks slightly creamy."
+        },
+        {
+          "pic": "garden-herb-vinaigrette-shaken.png",
+          "instruction": "Store in the fridge. If it solidifies, let it sit at room temperature for 10 minutes before use."
+        }
+      ],
+      "notes": "The Best Zest in the West."
     }
   ]
 }
