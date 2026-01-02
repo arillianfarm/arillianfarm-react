@@ -3585,6 +3585,95 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Rescue Protocol: What to Do When You Find a Fallen Baby Bird",
+      "pub_date": "01/02/26",
+      "header_pic": "squab-warming.png",
+      "about": "A technical guide on identifying, warming, and reuniting fallen squabs with their parents.",
+      "categories": [
+        "DIY",
+        "wildlife rescue",
+        "life hacks",
+        "farm life"
+      ],
+      "safety_notes": [
+        "NEVER feed a bird that is cold to the touch; it cannot digest food and may develop 'sour crop.'",
+        "DO NOT drop water into a baby pigeon's beak as they drink by suction and can easily aspirate.",
+        "Always check for a heat source safety; ensure the bird can move away from a heating pad to avoid overheating."
+      ],
+      "tools": [
+        "Heating pad or rice sock",
+        "Small cardboard box",
+        "Plastic syringe (no needle) and rubber glove (for emergency feeding only)",
+        "Zip ties (for replacement nests)"
+      ],
+      "materials": [
+        "Soft towels or paper towels",
+        "Small basket or berry carton (for replacement nests)",
+        "Kaytee Exact Baby Bird Food (emergency backup only)"
+      ],
+      "phases": [
+        {
+          "vid": "",
+          "paragraphs": [
+            {
+              "text": "Step 1: Identify and Assess",
+              "h4": true
+            },
+            {
+              "text": "First, determine the age and species. A baby pigeon (squab) looks like a prehistoric creature with yellow fuzz and a large beak. If the bird is 'gaping' (opening its mouth), it is likely begging for food or stressed. If it was out all night, it will be cold and weak. Check the immediate area for a nest or parents before moving it."
+            }
+          ]
+        },
+        {
+          "pic": "squab-warming.png",
+          "paragraphs": [
+            {
+              "text": "Step 2: The Critical Warming Period",
+              "h4": true
+            },
+            {
+              "text": "If you cannot immediately return the bird to its nest, warmth is more important than food. Place the bird in a box with a heating pad set to LOW under only half of the container. This allows the bird to self-regulate its temperature. A cold bird cannot digest food; you must wait 30-60 minutes until the bird feels warm (like a warm potato) before proceeding with food or a reunion."
+            }
+          ]
+        },
+        {
+          "pic": "",
+          "paragraphs": [
+            {
+              "text": "Step 3: Reunion or Replacement Nest",
+              "h4": true
+            },
+            {
+              "text": "The 'human scent' myth is false—parents will take a baby back! Locate the nest in rafters or eaves and place the warm bird back inside. If the nest is unreachable, secure a small basket (a replacement nest) as close to the original spot as possible. Watch from a distance for 2 hours to see if the parents return to brood or feed."
+            }
+          ]
+        },
+        {
+          "pic": "",
+          "paragraphs": [
+            {
+              "text": "Step 4: Emergency Contacts",
+              "h4": true
+            },
+            {
+              "text": "If the parents do not return or the bird is injured, the next best thing to do is lookup a local wildlife rehabilitator and bring the bird there."
+            }
+          ]
+        },{
+          "pic": "",
+          "paragraphs": [
+            {
+              "text": "Last Resort: Emergency Feeding",
+              "h4": true
+            },
+            {
+              "text": "If you cannot quickly get the bird to a rehab, you can feed the bird with 'Kaytee Exact Baby Bird Food'. Pigeons feed differently than songbirds; they stick their beaks into the parent's throat to suckle. To mimic this, fill a 10ml needle-less syringe with warm formula. Stretch a piece of a rubber glove over the nozzle end and secure it with a rubber band. Cut a small slit or hole in the glove. Gently guide the squab’s beak into the hole. Once it feels the warm formula, it will begin to 'pump' its head and suck the food out of the syringe. Stop immediately if the bird pulls away or if you see fluid coming out of its nostrils to prevent drowning (aspiration)."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

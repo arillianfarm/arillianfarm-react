@@ -2049,23 +2049,33 @@
     },{
       "youtubeID": "I4jDaLpGwZA",
       "title": "\uD83D\uDC15\uD83E\uDDF8\uD83C\uDF32 It's Beginning to Look a Lot Like Puppy Christmas 2025",
-      "albums": ["new", "dogs"],
+      "albums": ["dogs"],
       "release_date": "12/26/25"
     },{
       "youtubeID": "rzgYSD6VmY4",
       "title": "\uD83D\uDC10\uD83D\uDCAD\uD83E\uDD8C McGoats Trying to Bring That Big Deer Energy for Christmas",
-      "albums": ["new", "goats"],
+      "albums": ["goats"],
       "release_date": "12/26/25"
     },{
       "youtubeID": "h-b7Cd81CwA",
       "title": "\uD83D\uDC14\uD83D\uDC8D Our Ayam Cemani Hen, Aya Livin that First Class Life",
-      "albums": ["new", "chickens"],
+      "albums": [ "chickens"],
       "release_date": "12/26/25"
     },{
       "youtubeID": "rQwbdiw8WOU",
       "title": "\uD83D\uDC36\uD83D\uDE19\uD83D\uDC42 Puppy Love Can Be Ruff  \uD83E\uDD23",
-      "albums": ["new", "dogs"],
+      "albums": [ "dogs"],
       "release_date": "12/26/25"
+    },{
+      "youtubeID": "c0Nlqxm9peA",
+      "title": "\uD83C\uDF84\uD83D\uDC15\uD83C\uDF32 Bye Bye Holiday Cheer | \uD83D\uDE11 Meh Monday",
+      "albums": ["new", "dogs"],
+      "release_date": "1/2/26"
+    },{
+      "youtubeID": "uc7CzTXyfGI",
+      "title": "\uD83C\uDF31\uD83D\uDC69\u200D\uD83C\uDF73\uD83D\uDE0B Backyard... more like snack yard!",
+      "albums": ["new", "cooking"],
+      "release_date": "1/2/26"
     }
   ]
 }
