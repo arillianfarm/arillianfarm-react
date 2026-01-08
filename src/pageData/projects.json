@@ -3674,6 +3674,103 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Them's The Brakes Kid: A Quick Tutorial About How to Change Brake Pads",
+      "pub_date": "01/09/26",
+      "header_pic": "replace-tire.png",
+      "about": "A step-by-step guide to changing front brake pads on a car featuring a hands-on tutorial for beginners (on a 2002 Suzuki XL7) .",
+      "categories": [
+        "Automotive",
+        "DIY",
+        "Maintenance"
+      ],
+      "safety_notes": [
+        "Always set the parking brake and block the tires before lifting the vehicle.",
+        "Never work under a car supported only by a hydraulic jack; always use jack stands.",
+        "Ensure bolts are torqued to your specific vehicle's manufacturer specifications."
+      ],
+      "tools": [
+        "Hydraulic floor jack",
+        "Jack stands",
+        "Breaker bar",
+        "Impact wrench",
+        "Socket set",
+        "C-clamp",
+        "Wheel blocks/chocks"
+      ],
+      "materials": [
+        "New brake pads (matching your vehicle make/model)"
+      ],
+      "phases": [
+        {
+          "vid": "c3kKhinvGXI",
+          "paragraphs": [
+            {
+              "text": "Preparation and Lifting",
+              "h4": true
+            },
+            {
+              "text": "Begin by setting the parking brake and blocking (or chocking) the tires to prevent the car from rolling. Position your hydraulic jack under the designated 'jack point' and raise the vehicle until the wheel is just barely off the ground. Loosen the lug nuts with a breaker bar or impact wrench before jacking the car high enough to fully remove the wheel. Secure the vehicle with jack stands for safety."
+            },{
+              "text": "SAFETY TIP - DO NOT PUT ANY PART OF YOUR BODY UNDER THE CAR WHILE WORKING ON THE BRAKES",
+              "h4": true
+            }
+          ]
+        },
+        {
+          "pic": "caliper-removal.png",
+          "paragraphs": [
+            {
+              "text": "Removing the Old Pads",
+              "h4": true
+            },
+            {
+              "text": "Locate and loosen the two bolts on the back of the wheel hub that hold the caliper in place. Carefully set the caliper aside (do not let it hang by the brake line). Slide the old brake pads out of their clips."
+            }
+          ]
+        },
+        {
+          "pic": "pad-installation.png",
+          "paragraphs": [
+            {
+              "text": "Installing New Pads",
+              "h4": true
+            },
+            {
+              "text": "Not all brake pads are identical so compare your old pads with the new ones to ensure a proper match, then slide the new pads into the clips. (replace any spring clips that may have popped out or come loose) Use a C-clamp to slowly compress the caliper piston back to its seated position so it fits over the new, thicker pads. Reattach the caliper and torque the bolts back to spec. Finally, replace the wheel and tighten the lug nuts in a star pattern."
+            }
+          ]
+        },
+        {
+          "pic": "compress-caliper.png",
+          "paragraphs": [
+            {
+              "text": "Replacing Caliper",
+              "h4": true
+            },
+            {
+              "text": "Use a C-clamp to slowly compress the caliper piston back to its seated position so it fits over the new, thicker pads. (Turn wrench about quater turns pausing in between turns to check for wetness) Reattach the caliper and torque the bolts back to spec (you can look up the torque spec for the make and model of your car online)."
+            },
+            {
+              "text": "SAFETY TIP - GO SLOW AND LOOK FOR ANY FLUID LEAKING FROM THE BRAKE LINES --IF YOU NOTICE ANY LEAKING OR WETNESS AT ALL YOU WILL NEED TO REPLACE THE LINES THIS IS IMPERATIVE FOR SAFETY",
+              "h4": true
+            }
+          ]
+        },
+        {
+          "pic": "replace-tire.png",
+          "paragraphs": [
+            {
+              "text": "Reattach and Tighten Wheel",
+              "h4": true
+            },
+            {
+              "text": "Replace the wheel and tighten the lug nuts in a star pattern."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

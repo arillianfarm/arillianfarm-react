@@ -3648,6 +3648,53 @@
         }
       ],
       "notes": "The Best Zest in the West."
+    },
+    {
+      "name": "Stir Fry to Get By",
+      "header_pic": "thai-basil-eggplant-served.png",
+      "pub_date": "01/09/26",
+      "servings": "2-3 servings",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "2 tablespoons soy sauce",
+        "1 tablespoon of water",
+        "2 tablespoon brown sugar",
+        "1/2 block tofu(desired consistency), pressed and cubed",
+        "2-3 garden eggplants (soft from age or dehydrated with salt), cubed",
+        "1 medium zucchini, sliced",
+        "Handful of baby corn and baby bell peppers, sliced",
+        "2 stalks lemongrass, outer layers removed",
+        "4 cloves garlic, minced",
+        "1-inch piece fresh ginger, minced",
+        "1 tablespoon lemon juice",
+        "1 teaspoon chili flakes (add more for congestion!)",
+        "1/2 cup fresh mint and lemon basil leaves",
+        "2 tablespoons neutral oil"
+      ],
+      "steps": [
+        {
+          "pic": "thai-basil-eggplant-ingredients.png",
+          "instruction": "In a small container, mix the soy sauce, water and brown sugar."
+        },
+        {
+          "pic": "aromatics-saute.png",
+          "instruction": "Add oil to the pan. Sauté the smashed lemongrass, minced garlic, and ginger for 30 seconds until fragrant."
+        },
+        {
+          "pic": "",
+          "instruction": "Add the eggplant, zucchini, and baby corn. Stir-fry for 4-5 minutes. If the soft eggplant soaks up all the oil, add a splash of water to keep it moving."
+        },
+        {
+          "pic": "sauce-glaze.png",
+          "instruction": "Add the baby bell peppers, fried tofu, soy sauce, sugar, and chili. Toss for 2 minutes until the sauce reduces and glazes everything."
+        },
+        {
+          "pic": "veggie-toss.png",
+          "instruction": "Turn off the heat. Stir in the lemon juice and a generous handful of fresh mint and lemon basil until just wilted --remove the lemongrass as you stir in the basil."
+        }
+      ],
+      "notes": "Lemongrass & chili heat are natural decongestants"
     }
   ]
 }

@@ -2069,13 +2069,38 @@
     },{
       "youtubeID": "c0Nlqxm9peA",
       "title": "\uD83C\uDF84\uD83D\uDC15\uD83C\uDF32 Bye Bye Holiday Cheer | \uD83D\uDE11 Meh Monday",
-      "albums": ["new", "dogs"],
+      "albums": [ "dogs"],
       "release_date": "1/2/26"
     },{
       "youtubeID": "uc7CzTXyfGI",
       "title": "\uD83C\uDF31\uD83D\uDC69\u200D\uD83C\uDF73\uD83D\uDE0B Backyard... more like snack yard!",
-      "albums": ["new", "cooking"],
+      "albums": ["cooking"],
       "release_date": "1/2/26"
+    },{
+      "youtubeID": "c0Nlqxm9peA",
+      "title": "\uD83C\uDF84\uD83D\uDC15\uD83C\uDF32 Bye Bye Holiday Cheer | \uD83D\uDE11 Meh Monday",
+      "albums": ["dogs"],
+      "release_date": "1/2/26"
+    },{
+      "youtubeID": "uc7CzTXyfGI",
+      "title": "\uD83C\uDF31\uD83D\uDC69\u200D\uD83C\uDF73\uD83D\uDE0B Backyard... more like snack yard!",
+      "albums": ["cooking"],
+      "release_date": "1/2/26"
+    },{
+      "youtubeID": "RqmMUx2rpjs",
+      "title": "Pumpkin Peckin’ Like it’s 1979",
+      "albums": ["new", "chickens"],
+      "release_date": "1/9/26"
+    },{
+      "youtubeID": "Se2rYznHxpo",
+      "title": "\uD83D\uDC15\uD83E\uDD68 It's Ruff Being a Cute Lil Snack | Meh Monday \uD83D\uDE11",
+      "albums": ["new", "dogs","meh monday"],
+      "release_date": "1/9/26"
+    },{
+      "youtubeID": "2UQUW0WM1E4",
+      "title": "\uD83D\uDC10\uD83C\uDF7D️\uD83D\uDC14 When your Date Asks To Try a Bite of Your Meal",
+      "albums": ["new", "goats", "chickens" ],
+      "release_date": "1/9/26"
     }
   ]
 }
