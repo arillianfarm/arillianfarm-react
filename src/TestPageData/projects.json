@@ -333,4 +333,60 @@
       }]
     }
   ]
+},
+{
+"name": "Diagnosing and Treating Copper Deficiency & Barber Pole Worms in Goats",
+"pub_date": "01/12/26",
+"header_pic": "goat-health-header.png",
+"about": "A comprehensive guide for Nigerian Dwarf goat owners on identifying copper deficiency and parasitic infections, performing field tests, and administering treatments.",
+"categories": ["Homesteading", "Goat Care", "Animal Health"],
+"safety_notes": [
+"Never double-dose copper boluses; copper toxicity can be fatal.",
+"Always ensure the goat's head is level during drenching to prevent aspiration pneumonia.",
+"Consult a veterinarian if the goat's condition does not improve within 48 hours."
+],
+"tools": ["Soft measuring tape", "Oral drench syringe", "Balling gun (optional)", "Stethoscope (optional)"],
+"materials": ["Safe-Guard (Fenbendazole) dewormer", "Copper oxide wire particle boluses (4g)", "Large marshmallows", "Creamy peanut butter", "Baking soda"],
+"phases": [
+{
+"pic": "eyelid-test-famacha.png",
+"vid": "",
+"paragraphs": [
+{ "text": "Phase 1: Diagnosis and The Eyelid Test", "h4": true },
+{ "text": "Identify symptoms like 'fish-tail' hair loss, lethargy, and diarrhea. Use the 'Cover, Push, Pull, Pop' method to check the inner lower eyelid. Deep pink/red is healthy; pale pink or white indicates dangerous anemia from Barber Pole worms." }
+]
+},
+{
+"pic": "weighing-nigerian-dwarf.png",
+"vid": "",
+"paragraphs": [
+{ "text": "Phase 2: Estimating Weight for Accurate Dosing", "h4": true },
+{ "text": "For Nigerian Dwarfs, use the formula (Girth x Girth x Length) / 300 to find the weight in pounds. Accurate weight is vital to avoid under-dosing, which leads to dewormer resistance." }
+]
+},
+{
+"pic": "administering-dewormer.png",
+"vid": "http://www.youtube.com/watch?v=qQ8AxD_YyLo",
+"paragraphs": [
+{ "text": "Phase 3: Administering the Dewormer", "h4": true },
+{ "text": "Draw the Safe-Guard dose (typically 1mL per 10lbs for goats). Slide the syringe into the side of the mouth behind the 'bars' of the teeth. Slowly depress the plunger toward the back of the tongue, letting the goat swallow naturally." }
+]
+},
+{
+"pic": "copper-marshmallow-treat.png",
+"vid": "",
+"paragraphs": [
+{ "text": "Phase 4: Administering Copper Boluses", "h4": true },
+{ "text": "Hide the copper capsule inside a peanut butter-filled marshmallow. Give a 'blank' treat first, then the medicated one, followed by a final treat to ensure they swallow the bolus whole without spitting out the copper wires." }
+]
+},
+{
+"pic": "rumen-monitoring-poop.png",
+"vid": "",
+"paragraphs": [
+{ "text": "Phase 5: Monitoring and Recovery", "h4": true },
+{ "text": "Check for rumen 'gurgles' on the left flank 30-60 minutes after eating. Monitor poop consistency for the return of firm berries. Re-check the eyelid color in 7-10 days to ensure the anemia is reversing." }
+]
+}
+]
 }

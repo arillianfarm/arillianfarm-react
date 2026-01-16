@@ -92,39 +92,48 @@
       "notes": "Hasta Lasagna Don't Get Any On Ya"
     },
     {
-      "name": "Seven Layers of Christmas Dip",
-      "header_pic": "seven-layers-of-christmas-dip-served.png",
-      "pub_date": "12/05/25",
-      "servings": "10-12 servings",
+      "name": "Crispy Air-Fried Cornstarch Tofu",
+      "header_pic": "air-fry-tofu-main.png",
+      "pub_date": "01/16/26",
+      "servings": "2-3",
       "vid": null,
-      "related_recipes": ["bean dip", "guacamole"],
+      "related_recipes": [],
       "ingredients": [
-        "3-4 cups bean dip",
-        "3-4 cups guacamole",
-        "15-23 oz (approx 2-3 cups) nacho cheese",
-        "14 oz sour cream",
-        "6 oz shredded mozzarella cheese",
-        "1/2 cup chopped tomatoes"
+        "1 block extra-firm tofu",
+        "2 tbsp cornstarch",
+        "1 tbsp olive oil (or oil spray)",
+        "1 tbsp soy sauce",
+        "1-2 cloves garlic",
+        "1/2 tsp onion powder",
+        "1/2 tsp fresh cracked pepper",
+        "Salt and pepper to taste"
       ],
       "steps": [
         {
-          "pic": "apple-nachos-cut-apples.png",
-          "instruction": "Wash and dry the apples. Carefully slice each apple crosswise into 1/4 inch thick discs --discard slices that contain seeds or core."
+          "pic": "pressing-tofu.png",
+          "instruction": "Press the extra-firm tofu for at least 20-30 minutes using a tofu press or heavy books to remove excess moisture."
         },
         {
-          "pic": "caramel-sauce-finished.png",
-          "instruction": "Prepare your caramel sauce. If using a jarred sauce, warm it slightly in the microwave or on the stove top to a pourable consistency. If using homemade, make sure it is ready for dipping, drizzling."
+          "pic": "marinade.png.png",
+          "instruction": "While you're pressing the tofu mince garlic and mix with soy sauce."
         },
         {
-          "pic": "apple-nachos-arrange-platter.png",
-          "instruction": "Lay the apple discs in a single layer and, using dabs of goat cheese as adhesive, add nuts and dates to create funny faces. ( e.g. use date slices and nuts for eyes, noses and mouths or beaks etc)."
+          "pic": "prepping-tofu.png",
+          "instruction": "Tear the tofu into bite-sized chunks or slice; the advantage of tearing is that the jagged edges create more surface area for maximum crunch."
         },
         {
-          "pic": "apple-nachos-add-toppings.png",
-          "instruction": "Arrange the apples around a cup of caramel dip and/or drizzle the caramel sauce over the apple discs."
+          "pic": "tossing-tofu",
+          "instruction": "in a shallow bowl mix cornstarch, pepper, and onion powder"
+        },
+        {
+          "pic": "coating-tofu.png",
+          "instruction": "Toss the tofu in a bowl with soy sauce and garlic, then either spray or toss in oil before dipping in the conrstrarch mix -- continue tossing until evenly coated and powdery"
+        },
+        {
+          "pic": "air-frying-tofu.png",
+          "instruction": "Arrange pieces in a single layer in the air fryer basket. Cook at 400°F for 12-15 minutes (until crisp and brown) -- shaking the basket halfway through."
         }
-      ],
-      "notes": "Savory Sweet and an Adorable Treat"
+      ]
     }
   ]
 }

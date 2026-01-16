@@ -2089,18 +2089,38 @@
     },{
       "youtubeID": "RqmMUx2rpjs",
       "title": "Pumpkin Peckin’ Like it’s 1979",
-      "albums": ["new", "chickens"],
+      "albums": ["chickens"],
       "release_date": "1/9/26"
     },{
       "youtubeID": "Se2rYznHxpo",
       "title": "\uD83D\uDC15\uD83E\uDD68 It's Ruff Being a Cute Lil Snack | Meh Monday \uD83D\uDE11",
-      "albums": ["new", "dogs","meh monday"],
+      "albums": ["dogs","meh monday"],
       "release_date": "1/9/26"
     },{
       "youtubeID": "2UQUW0WM1E4",
       "title": "\uD83D\uDC10\uD83C\uDF7D️\uD83D\uDC14 When your Date Asks To Try a Bite of Your Meal",
-      "albums": ["new", "goats", "chickens" ],
+      "albums": [ "goats", "chickens" ],
       "release_date": "1/9/26"
+    },{
+      "youtubeID": "3cawvHnkN28",
+      "title": "\uD83D\uDC15\uD83D\uDC85\uD83D\uDE2C POV - Watching These NFL Post Season Games!",
+      "albums": ["new", "dogs" ],
+      "release_date": "1/16/26"
+    },{
+      "youtubeID": "kKm7bWVt3Gc",
+      "title": "\uD83E\uDDF8\uD83D\uDC40\uD83D\uDC36 Crafting With Trash Life Hack - Making a Dog Toy Centipede",
+      "albums": ["new", "dogs" ],
+      "release_date": "1/16/26"
+    },{
+      "youtubeID": "Nd5ynHEVAtA",
+      "title": "\uD83D\uDC26\uD83E\uDD85\uD83D\uDD0A A Cooper's Hawk Stalking the Barnyard Flock",
+      "albums": ["new", "chickens", "wildlife" ],
+      "release_date": "1/16/26"
+    },{
+      "youtubeID": "S4lBAbt0t5U",
+      "title": "11 years of Arillian \uD83E\uDEF6",
+      "albums": ["new" ],
+      "release_date": "1/16/26"
     }
   ]
 }

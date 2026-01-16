@@ -1736,7 +1736,8 @@
         "1 tsp Soy Sauce",
         "1 Tablespoon Corn Starch",
         "1/2 tsp Ground Black Pepper",
-        "1/2 tsp Chili Powder or paprika",
+        "1/2 tsp Chili Powder or paprika (optional)",
+        "1/2 tsp onion Powder (optional)",
         "1 Tsp Sesame Oil (or whatever oil you have on hand)"
       ],
       "steps": [
@@ -1745,7 +1746,7 @@
           "instruction": "Press tofu to drain excess water. My method is to wrap with a paper towel and put a heavy cookbook on top for 10 minutes, then remove wet paper towel, re-wrap with a dry one, flip the tofu over and put the book on top for another 10 minutes."
         },{
           "pic": "ftofu3.png",
-          "instruction": "Cut tofu into approx 1 inch cubes and, in a large mixing bowl, drizzle soy sauce over tofu cubes and mix to coat all cubes."
+          "instruction": "Cut or rip tofu into approx 1 inch chunks and (note ripping instead of cutting makes for crispier tofu), in a large mixing bowl, drizzle soy sauce over tofu cubes and mix to coat all cubes."
         },{
           "pic": "ftofu4.png",
           "instruction": "In a separate (small) bowl, whisk together dry ingredients then evenly coat the tofu with the dry ingredients before drizzling or spraying the oil over the coated tofu. Then remix until oil is evenly distributed."
@@ -3627,7 +3628,8 @@
         "3 cloves garlic, minced",
         "1 teaspoon fresh cracked pepper",
         "2 tablespoons minced fresh oregano &/or basil",
-        "1/2 teaspoon salt"
+        "1/2 teaspoon salt",
+        "1/2 cup greek yogurt (Optional for a creamier tangier dressing)"
       ],
       "steps": [
         {
@@ -3640,7 +3642,7 @@
         },
         {
           "pic": "jar-mix.png",
-          "instruction": "Add the olive oil, secure the lid tightly, and shake vigorously until the mixture emulsifies and looks slightly creamy."
+          "instruction": "Add the olive oil, secure the lid tightly, and shake vigorously until the mixture emulsifies and looks slightly creamy. Add greek yogurt if you're using it."
         },
         {
           "pic": "garden-herb-vinaigrette-shaken.png",
@@ -3687,7 +3689,7 @@
         },
         {
           "pic": "sauce-glaze.png",
-          "instruction": "Add the baby bell peppers, fried tofu, soy sauce, sugar, and chili. Toss for 2 minutes until the sauce reduces and glazes everything."
+          "instruction": "Add the baby bell peppers, tofu, soy sauce, sugar, and chili. Toss for 2 minutes until the sauce reduces and glazes everything."
         },
         {
           "pic": "veggie-toss.png",
@@ -3695,6 +3697,58 @@
         }
       ],
       "notes": "Lemongrass & chili heat are natural decongestants"
+    },
+    {
+      "name": "Buckwheat Noodles with Peanut Sauce & Broccoli",
+      "header_pic": "soba-peanut-broccoli-served.png",
+      "pub_date": "01/16/26",
+      "servings": "2-3 servings",
+      "vid": null,
+      "related_recipes": ["Air Fried Crispy Tofu"],
+      "ingredients": [
+        "6-8 oz dry buckwheat (soba) noodles",
+        "2-3 cups broccoli florets",
+        "1/4 cup fresh cilantro, chopped",
+        "1/4 cup creamy peanut butter",
+        "2 tbsp soy sauce",
+        "1 tbsp lemon or lime juice",
+        "1 tsp honey or maple syrup",
+        "1/2 tsp sriracha",
+        "1 tsp toasted sesame oil",
+        "1/4 cup hot reserved soba water (Sobayu)",
+        "1/4 cup crushed (unsalted) peanuts (optional)"
+      ],
+      "steps": [
+        {
+          "pic": "boiling-noodles-broccoli.png",
+          "instruction": "Bring a pot of water to a boil. Add dry buckwheat noodles and cook according to package directions (usually about 5-7 minutes). Stir noodles with a fork to separate them. In the last 2 minutes of cooking, add the broccoli florets to the same pot to blanch them."
+        },
+        {
+          "pic": "",
+          "instruction": "PRO-TIP: Set aside some of the pasta water to thin out the peanut sauce. Sobayu (buckwheat water) is rich in Vitamin B; using it in the sauce adds nutrition and helps the dressing stick to the noodles!"
+        },
+        {
+          "pic": "",
+          "instruction": "Drain the noodles and broccoli, then rinse briefly under cool water"
+        },
+        {
+          "pic": "mixing-soba-peanut-sauce.png",
+          "instruction": "In a medium bowl, whisk together peanut butter, soy sauce, your choice of lemon or lime juice, sweetener, sriracha, and sesame oil."
+        },
+        {
+          "pic": "peanut-sauce-drizzle.png",
+          "instruction": "Add warm Sobayu (buckwheat water) one tablespoon at a time until the sauce reaches a drizzling consistency."
+        },
+        {
+          "pic": "combining-dish.png",
+          "instruction": "Toss the noodles and broccoli with the peanut sauce until well coated --reserve some extra sauce to drizzle over tofu."
+        },
+        {
+          "pic": "soba-peanut-broccoli-served.png",
+          "instruction": "Serve warm or chilled, topped with crispy air-fried tofu drizzled with peanut sauce and garnished with cilantro and/or crushed peanuts. Great as a hot dinner or a cold lunch!"
+        }
+      ],
+      "notes": "These Noods are Buckwheat Gone Buck Wild!"
     }
   ]
 }
