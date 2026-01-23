@@ -109,6 +109,31 @@ const ProjectToolsMaterials = ({ featuredProject }) => {
     );
 };
 
+const ProjectSafetyNotes = ({ featuredProject }) => {
+    if (!featuredProject || !featuredProject.safety_notes?.length) {
+        return null;
+    }
+
+    return (
+        <div className="row mb-4 mt-2">
+            <div className="col-xs-12">
+                <div className="p-3 br20" style={{ border: '2px solid #ff4d4d', backgroundColor: 'rgba(255, 77, 77, 0.1)' }}>
+                    <h3 className="text-danger">
+                        <i className="fa fa-exclamation-triangle mr-2"></i> Safety Notes
+                    </h3>
+                    <ul className="text-white" style={{ fontSize: '1.1em' }}>
+                        {featuredProject.safety_notes.map((note, index) => (
+                            <li key={`safety-${index}`} className="mb-2">
+                                {note}
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    );
+};
+
 const ProjectPhases = ({ featuredProject }) => {
     if (!featuredProject || !featuredProject.phases?.length) {
         return null;
@@ -264,7 +289,7 @@ const ProjectView = () => {
                         {!isSmallView &&
                             <b> a chronicle of projects Arthur and I worked on...</b>
                         }
-                        <b>not a recommendation of how anyone should do anything.</b>
+                        <b>not necessarily a recommendation of how anyone should do anything.</b>
                     </h6>
                 </div>
                 <h5 className="mb-0">
@@ -327,6 +352,8 @@ const ProjectView = () => {
                     )}
                     <hr/>
                     <ProjectToolsMaterials featuredProject={item} />
+                    <hr/>
+                    <ProjectSafetyNotes featuredProject={item} />
                     <hr/>
                     <ProjectPhases featuredProject={item} />
                     <hr/>

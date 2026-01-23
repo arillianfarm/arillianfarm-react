@@ -3708,14 +3708,15 @@
       "ingredients": [
         "6-8 oz dry buckwheat (soba) noodles",
         "2-3 cups broccoli florets",
-        "1/4 cup fresh cilantro, chopped",
         "1/4 cup creamy peanut butter",
         "2 tbsp soy sauce",
+        "1 clove garic - minced",
         "1 tbsp lemon or lime juice",
         "1 tsp honey or maple syrup",
         "1/2 tsp sriracha",
         "1 tsp toasted sesame oil",
         "1/4 cup hot reserved soba water (Sobayu)",
+        "1/4 cup fresh cilantro, chopped",
         "1/4 cup crushed (unsalted) peanuts (optional)"
       ],
       "steps": [
@@ -3733,7 +3734,7 @@
         },
         {
           "pic": "mixing-soba-peanut-sauce.png",
-          "instruction": "In a medium bowl, whisk together peanut butter, soy sauce, your choice of lemon or lime juice, sweetener, sriracha, and sesame oil."
+          "instruction": "In a medium bowl, whisk together peanut butter, garlic, soy sauce, your choice of lemon or lime juice, sweetener, sriracha, and sesame oil."
         },
         {
           "pic": "peanut-sauce-drizzle.png",
@@ -3749,6 +3750,52 @@
         }
       ],
       "notes": "These Noods are Buckwheat Gone Buck Wild!"
+    },
+    {
+      "name": "Air-Fried Baby Bell & Goat Cheese Pasta",
+      "header_pic": "pepper-pasta-done.png",
+      "pub_date": "01/19/26",
+      "servings": "4",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "12 oz of your favorite fresh or dry pasta (cooked according to instructions)",
+        "8-12 baby bell peppers or or 2 sweet peppers or 1-2 large bell peppers)",
+        "4 oz goat cheese, crumbled",
+        "2-3 cloves garlic, minced",
+        "1/4-1/2 cup heavy cream thinned with pasta water as desired",
+        "2 tbsp olive oil (divided)",
+        "1/2 tsp red pepper flakes",
+        "Fresh basil for garnish",
+        "Salt and (fresh ground) pepper to taste"
+      ],
+      "steps": [
+        {
+          "pic": "pasta-water.png",
+          "instruction": "boil pasta to desired chewiness --as you cook sauce or before."
+        },
+        {
+          "pic": "air-fry-peppers.png",
+          "instruction": "De-seed or toss whole baby bells in 1 tbsp olive oil. Air fry at 400°F for 10-12 minutes, shaking halfway, until skins are blistered and starting to char."
+        },
+        {
+          "pic": "blend-pepper-sauce.png",
+          "instruction": "Let peppers cool slightly, (if you did not de-seed, pull off the stems), and mince with a knife or in a blender, adding a splash of pasta water or cream until smooth."
+        },
+        {
+          "pic": "sauté-garlic.png",
+          "instruction": "Sauté minced garlic and red pepper flakes in the remaining 1 tablespoon of olive oil over medium heat until fragrant."
+        },
+        {
+          "pic": "combine-pepper-sauce.png",
+          "instruction": "Add the minced peppers and cream to the pan. Simmer, then whisk in 3 oz of goat cheese (thinning with pasta water if needed) until the sauce is velvety."
+        },
+        {
+          "pic": "pepper-pasta-done.png",
+          "instruction": "Toss with cooked pasta. Top with remaining goat cheese and fresh basil before serving."
+        }
+      ],
+      "notes": "Creamy Comfort Pasta"
     }
   ]
 }
