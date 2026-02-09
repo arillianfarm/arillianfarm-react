@@ -2124,23 +2124,63 @@
     },{
       "youtubeID": "iaxjwGblieA",
       "title": "\uD83D\uDC36\uD83C\uDFC8 POV Seahawks Vs 49ers",
-      "albums": ["new", "dogs" ],
+      "albums": ["dogs" ],
       "release_date": "1/23/26"
     },{
       "youtubeID": "FahrLrc1emc",
       "title": "\uD83C\uDF04\uD83C\uDFDC️✈️ January Skies and Ocean Eyes",
-      "albums": ["new", "time lapse", "sky"],
+      "albums": ["time lapse", "sky"],
       "release_date": "1/23/26"
     },{
       "youtubeID": "I7qQ_Qbv1j0",
       "title": "\uD83D\uDC36\uD83D\uDC3D\uD83D\uDE22 Let Me Out, Set Me Free | \uD83D\uDE11 Meh Monday",
-      "albums": ["new" , "meh monday", "dogs"],
+      "albums": ["meh monday", "dogs"],
       "release_date": "1/23/26"
     },{
       "youtubeID": "DuS5txY_vxM",
       "title": "\uD83D\uDC10\uD83E\uDD18\uD83D\uDE1D GOATS of Headbanging",
-      "albums": ["new", "goats" ],
+      "albums": ["goats" ],
       "release_date": "1/23/26"
+    },{
+      "youtubeID": "7u822acGStQ",
+      "title": "🐶😳 Huey Ka-Bluey Brings The Mac Attack",
+      "albums": ["dogs" ],
+      "release_date": "1/30/26"
+    },{
+      "youtubeID": "xANYHIb5UrU",
+      "title": "\uD83D\uDC36\uD83C\uDFC8 Waiting For Kickoff Like...",
+      "albums": ["dogs" ],
+      "release_date": "1/30/26"
+    },{
+      "youtubeID": "A9LWfFGG4ME",
+      "title": "\uD83D\uDC36\uD83D\uDE12\uD83D\uDC36 P O V - Those Neighbors Who Are All Up In Your Business | Meh Monday \uD83D\uDE11",
+      "albums": [ "dogs", "meh monday" ],
+      "release_date": "1/30/26"
+    },{
+      "youtubeID": "rwptLpJAbWY",
+      "title": "\uD83E\uDDE9 \uD83E\uDD14 Puzzling!",
+      "albums": [ ],
+      "release_date": "1/30/26"
+    },{
+      "youtubeID": "TWW_djPcl4M",
+      "title": "\uD83C\uDF45\uD83D\uDC9A\uD83D\uDC69\u200D\uD83C\uDF73 Air Fried Green Roma Tomatoes",
+      "albums": ["new", "cooking" ],
+      "release_date": "2/7/26"
+    },{
+      "youtubeID": "8AjgPpecSUs",
+      "title": "\uD83D\uDC10\uD83E\uDEA2\uD83E\uDD70 Totes is Ready to Tie the Knot",
+      "albums": ["new", "goats" ],
+      "release_date": "2/7/26"
+    },{
+      "youtubeID": "7bE2Zh15dYQ",
+      "title": "\uD83D\uDC14\uD83D\uDC23\uD83D\uDC14 When you can’t agree on how to raise your kids | meh Monday \uD83D\uDE11",
+      "albums": ["new", "chickens", "meh monday" ],
+      "release_date": "2/7/26"
+    },{
+      "youtubeID": "P-4OglLwthw",
+      "title": "\uD83D\uDC10\uD83C\uDF3E\uD83D\uDC10Totes, McGoats Feeling those Hay Day Vibes",
+      "albums": ["new", "goats" ],
+      "release_date": "2/7/26"
     }
   ]
 }

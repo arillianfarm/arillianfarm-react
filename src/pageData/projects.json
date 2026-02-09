@@ -3880,6 +3880,104 @@
           ]
         }
       ]
+    },
+    {
+      "name": "When Life’s Got You Stumped… Just Keep Digging",
+      "pub_date": "02/07/26",
+      "header_pic": "stump-to-planter-hero.png",
+      "about": "Turning unsightly stumps into head-turning landscape features",
+      "categories": ["Homesteading", "DIY", "Water Gardens", "Landscaping"],
+      "safety_notes": [
+        "Use a GFCI-protected outlet when using corded tools near water.",
+        "Take breaks and be very careful not to injury your back when digging or lifting heavy stumps."
+      ],
+      "tools": ["High-torque corded drill", "1-inch Ship Auger bit", "Nursery digging spade", "Spud bar", "Level"],
+      "materials": [
+        "Ferti-lome Stump & Brush Vegetation Killer",
+        "6-mil Contractor Trash Bags (continuous roll)",
+        "Yukon Concrete Retaining Wall Blocks",
+        "Pond liner (for the Chandler project)",
+        "succulents, seeds and/or young plants for planter"
+      ],
+      "phases": [
+        {
+          "pic": "chandler-stump-to-water-garden.png",
+          "vid": "",
+          "paragraphs": [
+            { "text": "Digging Deeper", "h4": true },
+            { "text": "In order to make use of some of the luscious, productive dirt in the backyard of Arthur’s rental house, I decided to dig up an old tree stump and build a water garden. This was the 'brute force' approach: After a dozen or so 1-2 hour digging sessions, I finally got that gratifying 'timber' feeling of tipping the stump over. Once removed, the cavity became the perfect base for a lil' backyard pond. (See my water garden article for more details about planning and building a DIY backyard pond)" }
+          ]
+        },{
+          "pic": "chandler-stump-dig-1.png",
+          "vid": "",
+          "paragraphs": [
+            { "text": "", "h4": true }
+          ]
+        },{
+          "pic": "chandler-stump-dig-2.png",
+          "vid": "",
+          "paragraphs": [
+            { "text": "", "h4": true }
+          ]
+        },{
+          "pic": "chandler-stump-dig-3.png",
+          "vid": "",
+          "paragraphs": [
+            { "text": "", "h4": true }
+          ]
+        },{
+          "pic": "chandler-stump-dig-4a.png",
+          "vid": "",
+          "paragraphs": [
+            { "text": "", "h4": true }
+          ]
+        },{
+          "pic": "chandler-stump-dig-4.png",
+          "vid": "",
+          "paragraphs": [
+            { "text": "", "h4": true }
+          ]
+        },{
+          "pic": "chandler-stump-dig-5.png",
+          "vid": "",
+          "paragraphs": [
+            { "text": "", "h4": true }
+          ]
+        },
+        {
+          "pic": "tempe-drilling-1.png",
+          "vid": "",
+          "paragraphs": [
+            { "text": "Burying My Problems ", "h4": true },
+            { "text": "After two massive 'Lead' trees (Leucaena leucocephala) fell on my rental houses in Tempe, AZ, I removed the fall-prone species from my property and found myself swimming in stumps. Instead of digging my way out of the problem, I decided to build a raised garden bed around the largest cluster of stumps and bury them. However, Leucaena leucocephala are survivors and I've witnessed them quickly re-grow from stumps. After consulting with Gemini (Google's AI) I decided to use a 1/2-inch auger bit, to drill 10-inch deep holes into the stumps cambium layer and immediately filled the holes with Ferti-lome brush killer, hoping to reach the root system." }
+          ]
+        },
+        {
+          "pic": "tempe-drilling.png",
+          "vid": "",
+          "paragraphs": [
+           {
+              "text": "NOTE - The stump killer should be poured into the hole as soon as possible, so for maximum efficacy immediately pour stump killer in to each hole after its drilled (instead of waiting to pour it in several holes at once). "
+            }
+          ]
+        },
+        {
+          "pic": "contractor-bag-seal.png",
+          "vid": "",
+          "paragraphs": [
+            { "text": "Sealing the Fate of Invasive Trees", "h4": true },
+            { "text": "After leaving the stumps uncovered for several days, I used a continuous roll of contractor trash bags to create a light-proof seal over the Tempe cluster. (Gemini recommended using a black tarp that's 4-6 mil or thicker --using the roll of contractor bags worked perfectly. Leaving the bags uncut provided a double-layer barrier that prevented 'suckers' from finding a path to the surface.)" }
+          ]
+        },
+        {
+          "pic": "yukon-wall-finish.png",
+          "vid": "",
+          "paragraphs": [
+            { "text": "Letting the Cycle of Life Continue", "h4": true },
+            { "text": "To finish the project, I built a circular wall around the stump cluster using Yukon Concrete blocks from home depot and an old irrigation berm as a natural edge. This allowed me to bury the treated stumps under a thick layer of mulch, compost, and dirt which helps maintain the moisture needed for fungi and bacteria to break down the wood while also creating a productive environment for shallow-rooting plants like strawberries and succulents." }
+          ]
+        }
+      ]
     }
   ]
 }

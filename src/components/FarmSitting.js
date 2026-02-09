@@ -5,7 +5,7 @@ import { getAuth, signInAnonymously } from "firebase/auth";
 
 // Import your comprehensive tasks JSON data
 import FARM_TASKS_DATA from '../pageData/farm-sitting.json';
-import Comments from "./Comments";
+//import Comments from "./Comments";
 
 // Helper function to create YouTube links with optional start times
 const createYouTubeLink = (videoId, startTime) => {
@@ -336,15 +336,15 @@ const FarmSitting = () => {
                         ))}
                         </tbody>
                     </table>
-                    <div className="row">
-                        <div className="col-sm-12 mt-3 text-center">
-                            <Comments
-                                article_name="farm-sitting"
-                                article_type="farm-sitting"
-                                pub_date="June 20, 2025"
-                            />
-                        </div>
-                    </div>
+                    {/*<div className="row">*/}
+                    {/*    <div className="col-sm-12 mt-3 text-center">*/}
+                    {/*        <Comments*/}
+                    {/*            article_name="farm-sitting"*/}
+                    {/*            article_type="farm-sitting"*/}
+                    {/*            pub_date="June 20, 2025"*/}
+                    {/*        />*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
                     <p>
                         All Farm Sitting Videos Can be found at: <a href="https://www.youtube.com/playlist?list=PL_Sq2KUIY7_R4mAzZqGhCKnOqkAA659Jd" target="_blank" rel="noopener noreferrer">Farm Sitting Playlist</a>
                     </p>

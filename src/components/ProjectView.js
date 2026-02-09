@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ListItem from './ListItem';
-import Comments from './Comments';
+//import Comments from './Comments';
 import {
     getIframeSrcForYouTube,
     titleCaps,
@@ -357,13 +357,13 @@ const ProjectView = () => {
                     <hr/>
                     <ProjectPhases featuredProject={item} />
                     <hr/>
-                    <div className="col-sm-12 mt-3">
-                        <Comments
-                            article_name={featuredProject?.name}
-                            article_type="project"
-                            pub_date={featuredProject?.pub_date}
-                        />
-                    </div>
+                    {/*<div className="col-sm-12 mt-3">*/}
+                    {/*    <Comments*/}
+                    {/*        article_name={featuredProject?.name}*/}
+                    {/*        article_type="project"*/}
+                    {/*        pub_date={featuredProject?.pub_date}*/}
+                    {/*    />*/}
+                    {/*</div>*/}
                 </div>
             </div>
         </>

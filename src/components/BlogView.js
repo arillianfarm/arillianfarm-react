@@ -4,7 +4,7 @@ import {useLocation, useParams} from 'react-router-dom';
 import { calculateAlbumContainerSize, getIframeSrcForYouTube, titleCaps, trunc, applyAlbumFilter, getSlug, setLinkWithQueryString } from '../utils';
 import blogData from '../pageData/blog.json';
 import { Helmet } from 'react-helmet-async';
-import Comments from "./Comments";
+//import Comments from "./Comments";
 
 
 const BlogView = () => {
@@ -233,16 +233,16 @@ const BlogView = () => {
                 </div>
             </div>
             <div className="col-sm-12">
-                <div className="row">
-                    <hr/>
-                    <div className="col-sm-12 mt-3 text-center">
-                        <Comments
-                            article_name={featuredBlogEntry?.entry_subject}
-                            article_type="blog"
-                            pub_date={featuredBlogEntry?.entry_date}
-                        />
-                    </div>
-                </div>
+                {/*<div className="row">*/}
+                {/*    <hr/>*/}
+                {/*    <div className="col-sm-12 mt-3 text-center">*/}
+                {/*        <Comments*/}
+                {/*            article_name={featuredBlogEntry?.entry_subject}*/}
+                {/*            article_type="blog"*/}
+                {/*            pub_date={featuredBlogEntry?.entry_date}*/}
+                {/*        />*/}
+                {/*    </div>*/}
+                {/*</div>*/}
             </div>
     </>
         );

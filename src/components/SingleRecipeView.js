@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { titleCaps, getSlug, setLinkWithQueryString, getIframeSrcForYouTube } from '../utils';
 import { Helmet } from 'react-helmet-async';
 import recipeData from '../pageData/recipes.json';
-import Comments from "./Comments"; // Your existing Comments component
+// import Comments from "./Comments"; // Your existing Comments component
 
 // Re-using RecipeIngredients, RecipeSteps, RelatedRecipes components (no changes needed)
 const RecipeIngredients = ({ ingredients, servings, headerPic, isSmallView, headerVid, headerTitle }) => {
@@ -313,15 +313,15 @@ const SingleRecipeView = () => {
                     <RelatedRecipes
                         relatedRecipes={recipe.related_recipes}
                         onRecipeClick={handleRelatedRecipeClick} />
-                    <div className="row">
-                        <div className="col-sm-12 mt-3 text-center">
-                            <Comments
-                                article_name={recipe?.name}
-                                article_type="project"
-                                pub_date={recipe?.pub_date}
-                            />
-                        </div>
-                    </div>
+                    {/*<div className="row">*/}
+                    {/*    <div className="col-sm-12 mt-3 text-center">*/}
+                    {/*        <Comments*/}
+                    {/*            article_name={recipe?.name}*/}
+                    {/*            article_type="project"*/}
+                    {/*            pub_date={recipe?.pub_date}*/}
+                    {/*        />*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
                 </div>
             </div>
         </div>

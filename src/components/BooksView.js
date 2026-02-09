@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import { Helmet } from 'react-helmet-async'; // Corrected import for Helmet
-import Comments from "./Comments";
+//import Comments from "./Comments";
 import HyperspearNovella from "./HyperspearNovella";
 
 const BooksView = () => {
@@ -145,15 +145,15 @@ const BooksView = () => {
                     </div>
                 </div>
 
-                <div className="row">
-                    <div className="col-sm-12 mt-3">
-                        <Comments
-                            article_name="Hyperspear and unFETTERed"
-                            article_type="book"
-                            pub_date="12-2-2024"
-                        />
-                    </div>
-                </div>
+                {/*<div className="row">*/}
+                {/*    <div className="col-sm-12 mt-3">*/}
+                {/*        <Comments*/}
+                {/*            article_name="Hyperspear and unFETTERed"*/}
+                {/*            article_type="book"*/}
+                {/*            pub_date="12-2-2024"*/}
+                {/*        />*/}
+                {/*    </div>*/}
+                {/*</div>*/}
             </div>
         </>
     );

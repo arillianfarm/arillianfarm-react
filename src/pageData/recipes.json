@@ -3628,8 +3628,7 @@
         "3 cloves garlic, minced",
         "1 teaspoon fresh cracked pepper",
         "2 tablespoons minced fresh oregano &/or basil",
-        "1/2 teaspoon salt",
-        "1/2 cup greek yogurt (Optional for a creamier tangier dressing)"
+        "1/2 teaspoon salt"
       ],
       "steps": [
         {
@@ -3642,7 +3641,7 @@
         },
         {
           "pic": "jar-mix.png",
-          "instruction": "Add the olive oil, secure the lid tightly, and shake vigorously until the mixture emulsifies and looks slightly creamy. Add greek yogurt if you're using it."
+          "instruction": "Add the olive oil, secure the lid tightly, and shake vigorously until the mixture emulsifies and looks slightly creamy."
         },
         {
           "pic": "garden-herb-vinaigrette-shaken.png",
@@ -3796,6 +3795,138 @@
         }
       ],
       "notes": "Creamy Comfort Pasta"
+    },
+    {
+      "name": "Lemon Herb Greek Yogurt Dip",
+      "header_pic": "lemon-herb-yogurt-dip-served.png",
+      "pub_date": "01/30/26",
+      "servings": "Approx. 1 cup",
+      "vid": null,
+      "related_recipes": ["Air Fried Green Tomatoes"],
+      "ingredients": [
+        "3/4 cup plain (full fat) Greek yogurt",
+        "2 tablespoons fresh lemon juice",
+        "1 teaspoon lemon zest",
+        "0-1 teaspoon sugar (to balance the tartness)",
+        "2 cloves garlic,finely minced or pressed to a paste",
+        "2 tablespoons fresh garden herbs (basil, oregano, sage --or whatever's fresh in your garden), minced",
+        "1/4 teaspoon salt",
+        "1/2 teaspoon (fresh ground) pepper"
+      ],
+      "steps": [
+        {
+          "pic": "",
+          "instruction": "In a medium-sized bowl, whisk the yogurt to smooth out any lumps."
+        },
+        {
+          "pic": "yogurt-prep.png",
+          "instruction": "Whisk in lemon juice, zest, garlic, salt, sugar, herbs and pepper until the lemon juice is fully incorporated into the yogurt."
+        },
+        {
+          "pic": "dip-rest.png",
+          "instruction": "Chill in the refrigerator for 20-30 minutes. This is crucial for the garlic flavor to mellow and distribute evenly."
+        },
+        {
+          "pic": "lemon-herb-yogurt-dip-served.png",
+          "instruction": "Great as a dip for veggies, (air) fried foods or as a creamy dressing for salad."
+        }
+      ],
+      "notes": "A Dip with Some Protein and a Bright Pop of Flavor"
+    },
+    {
+      "name": "Sourdough Romas - Air Fried Green Tomatoes",
+      "header_pic": "air-fried-green-tomatoes-served.png",
+      "pub_date": "01/30/26",
+      "servings": "2-4",
+      "vid": null,
+      "related_recipes": ["lemon herb greek yogurt dip"],
+      "ingredients": [
+        "3-5 firm green Roma tomatoes, sliced 1/4 inch thick",
+        "1/2 cup all-purpose flour",
+        "1 egg",
+        "1/4 cup milk or 3 tablespoons heavy whipping cream and 1 tablespoon water",
+        "1/2 cup breadcrumbs (made from stale sourdough)",
+        "1/2 cup cornmeal",
+        "(optional) 1/2 cup dry or minced parmesan cheese",
+        "1 teaspoon (smoked) paprika",
+        "1/2 teaspoon salt",
+        "1/2 teaspoon (fresh ground) pepper",
+        "Oil in a mister (olive or avocado oil)"
+      ],
+      "steps": [
+        {
+          "pic": "blend-bread-cubes.png",
+          "instruction": "If you have some semi-stale - stale sourdough (at least 3-5 day old) sourdough bread on hand you can make it into bread crumbs by slicing it into 1 inch cubes and pulsing the bread cubes in a blender until rough breadcrumbs form."
+        },{
+          "pic": "salt-prep-romas.png",
+          "instruction": "To ensure the breading sticks, remove excess moisture from tomato slices by Laying them on paper towels and lightly salt. Let sit for 5 minutes, then pat dry."
+        },
+        {
+          "pic": "",
+          "instruction": "To prepare for dredging, fill a small bowl with flour, in a second small bowl whisk the egg, and milk (or cream and water) together until smooth and in a third bowl combine sourdough crumbs, cornmeal, (parmesan) and smoked paprika, salt, and pepper."
+        },
+        {
+          "pic": "green-tomatoes-dredging-process.png",
+          "instruction": "Coat each tomato slice in flour (shake off excess), dip in the egg mixture, then press firmly into the sourdough mix, flipping and pressing until well coated."
+        },
+        {
+          "pic": "air-fry-green-tomatoes.png",
+          "instruction": "Place coated tomato slices on the tray of an air fryer and spray all generously with oil. Air fry for 5 minutes, flip, spray again, and fry for another 5 minutes until crispy and golden brown."
+        },
+        {
+          "pic": "air-fried-green-tomatoes-served.png",
+          "instruction": "Serve alongside your favorite creamy dipping sauce."
+        },
+        {
+          "pic": "",
+          "instruction": "NOTE - If you want to freeze for later cooking, freeze the tomatoes after they're breaded, but before they're oiled or cooked. When it's time to reheat, Do not thaw them. lay the frozen tomatoes directly on the air fryer rack, spray them with oil, and cook for 7-8 minutes per side (after flipping, spray the second side with oil)."
+        }
+      ],
+      "notes": "Crunch, Zing, Yum!"
+    },
+    {
+      "name": "Coconut Lentil Soup with Roasted Cherry Tomatoes",
+      "header_pic": "lentil-soup-served.png",
+      "pub_date": "02/06/26",
+      "servings": "4",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "1 cup dry yellow lentils, rinsed and rocks removed",
+        "2 cups softening cherry tomatoes",
+        "(optional) 4-10 baby bell peppers roughly chopped",
+        "1 can (13.5 oz) full-fat coconut milk",
+        "1/4 - 1/2 cup diced (yellow) onion",
+        "3 cloves garlic, minced",
+        "1 tbsp fresh ginger, grated",
+        "1 tbsp olive or coconut oil",
+        "3 cups vegetable broth (1 1/2 bollion cubes hydrated in 3 cups water)",
+        "1 tsp turmeric",
+        "1 tsp cumin",
+        "1 tsp (fres ground) black pepper",
+        "1/2 tsp (smoked) paprika",
+        "Salt to taste",
+        "Fresh cilantro leaves and lemon or lime wedges"
+      ],
+      "steps": [
+        {
+          "pic": "roasting-tomatoes-for-soup.png",
+          "instruction": "Air fry cherry tomatoes (and bell peppers) with a drizzle of oil for 12-18 minutes (until they burst and blister)."
+        },
+        {
+          "pic": "",
+          "instruction": "Heat oil in a medium-large pot, sauté onion, garlic, and ginger until fragrant then add spices."
+        },
+        {
+          "pic": "simmer-lentil-soup.png",
+          "instruction": "Add yellow lentils, broth, and the roasted tomatoes (plus their juices). Simmer for 20 minutes until the lentils are soft and yellow."
+        },
+        {
+          "pic": "lentil-soup-served.png",
+          "instruction": "Stir in coconut milk and simmer for 5 more minutes. Serve with a pinch of fresh cilantro leaves and a squeeze of lemon or lime juice mixed in to each serving (and a dollop of greek yogurt for extra creaminess and protein)"
+        }
+      ],
+      "notes": "Creamy Coconut Comfort."
     }
   ]
 }
