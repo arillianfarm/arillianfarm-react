@@ -3927,6 +3927,39 @@
         }
       ],
       "notes": "Creamy Coconut Comfort."
+    },
+    {
+      "name": "Air-Fried Volunteer Tomato Coulis",
+      "header_pic": "volunteer-salsa-done.png",
+      "pub_date": "02/13/26",
+      "servings": "Makes 1-2 jars",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "2-3 cups mixed tomatoes (green to red)",
+        "1 medium white onion, quartered",
+        "4 cloves garlic, peeled",
+        "3 tbsp fresh oregano, chopped",
+        "1 tsp red pepper flakes",
+        "1 tbsp olive oil",
+        "1/2 lime, juiced",
+        "Salt to taste"
+      ],
+      "steps": [
+        {
+          "pic": "prep-veg.png",
+          "instruction": "Toss tomatoes, onion, garlic, and red pepper flakes in olive oil until well coated."
+        },
+        {
+          "pic": "air-fryer-basket-1.png",
+          "instruction": "Place vegetables in air fryer basket at 400°F for 8-12 minutes until charred and softened."
+        },
+        {
+          "pic": "blending-salsa.png",
+          "instruction": "Transfer roasted mix to a food processor. Add fresh oregano and lime juice. Pulse to desired consistency. Serve with chips or bread"
+        }
+      ],
+      "notes": "Using under-ripe 'volunteer' tomatoes adds a unique tang"
     }
   ]
 }

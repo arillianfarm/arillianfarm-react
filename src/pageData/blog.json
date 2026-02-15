@@ -3169,7 +3169,42 @@
             }]
             }
           ]
+        },
+    {
+      "entry_subject": "Being that Garden Hoe",
+      "entry_date": "02/15/2026",
+      "pic_file": "giant-tomato.png",
+      "feature_section_1": {
+        "caption": "The 'weeds' in question: A foodscape caught in a crossfire.",
+        "pic_file": "giant-tomato.png",
+        "link": ""
+      },
+      "sections": [
+        {
+          "pics": ["giant-tomato.png", "wacked-front-yard.png"],
+          "paragraphs": [
+            { "text": "Well I lost a garden this week. The city sent a final notice to Arthur that the ‘weeds’ in the yard of his rental house (the wood chip foodscape) were too tall. I was startled by the news because the foodscape had seemed pretty tame the last time I’d seen it—but admittedly I hadn’t been by the front of the house in weeks because I’d been trying to focus on finally finishing the water garden in the backyard." },
+            { "text": "The Breakdown of Communication", "h3": true },
+            {
+              "text": "I especially didn’t take the news well the way it was delivered by Arthur’s brother (who lives at the house with the foodscape). His brother had been over at our house to watch the super bowl and I asked if he’d save me a trip and put a hose clamp on the pond pump I’d just installed in the water garden there. He said he didn’t want to get involved and accidentally mess something up. (I was pretty frustrated by that because it would save me an hour of round trip drive time for a simple task.)"
+            },
+            {
+              "text": "The next morning he texted Arthur and I: “The city sent a final notice about the front yard… you can come grab the notice off the front door when you come work on the pond pump.” I was livid. Not only was he not willing to spend five minutes of his time helping me with a project at his house, but he also couldn’t be bothered to even send me a pic of the notice about the yard –which he clearly expected me to handle."
+            },
+            {
+              "text": "I’ve been sweating and busting my hump maintaining the yard there for the better part of three years –initially because Arthur’s brother was struggling to keep it maintained enough to keep the city off his back –and also because I wanted to take advantage of the awesome soil there and grow some food for our critters and I."
+            },
+            { "text": "The Breaking Point", "h3": true },
+            { "text": "Two hours into the exhausting and grim task of pulling out beautifully massive tomato plants and whacking away at the tall grass, I was thirsty (My water bottle had run out during hour one), tired and aggravated. So when Arthur's brother walked out the front door, I was incensed."},
+            {
+              "text": "I know it’s not cool to bitch someone out in their front yard. I truly wish I could have swallowed my indignation and just walked away, but sometimes I suck and this was one of those times."
+            },
+            {"text": "I marched over to him as he walked to his car and lit him up about how he wasn’t being a team player and I was just trying to be helpful and he was making it hard to want to help him. He kept telling me that the foodscape wasn’t his project and I kept getting more and more frustrated. I tried to make him understand that I'm not willing to work on something that makes me feel bad, so if he wants to not do landscaping himself, he may need to occasionally offer some help with a project that he didn’t start." },
+            { "text": "Anyway, I’m no longer welcome there now. It’s not a great feeling, but it had been feeling worse and worse to go do work there, so this was probably coming one way or the other. I’m glad the water garden is finished and I hope I did enough to keep the city is off Arthur's back for a while, but it still feels like a gargantuan-tomato-plant-sized failure." }
+          ]
         }
+      ]
+    }
 
   ]
 }
