@@ -3960,6 +3960,46 @@
         }
       ],
       "notes": "Using under-ripe 'volunteer' tomatoes adds a unique tang"
+    },
+    {
+      "name": "Air Fried Apple Pecan Layered Tart",
+      "header_pic": "air-fried-apple-pecan-layers-served.png",
+      "pub_date": "02/20/26",
+      "servings": "2-4 servings",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "2/3 (of a tri folded) sheet frozen puff pastry (thawed slightly or broken into pieces)",
+        "4 oz goat cheese (room temperature)",
+        "2-3 tbsp honey (divided)",
+        "2 Gala apples (thinly sliced)",
+        "1-2 tbsp butter (melted)",
+        "ground cinnamon (to sprinkle on each layer)",
+        "1/4 cup pecan pieces"
+      ],
+      "steps": [
+        {
+          "pic": "pastry-base-prep.png",
+          "instruction": "Divide the 2/3 puff pastry sheet into four sections. Mix the goat cheese with 1 tbsp of honey and (while the pastry sheet is still stiff from being frozen) spread the mixture evenly onto each pastry section."
+        },
+        {
+          "pic": "first-layer-goat-cheese-apple-tart.png",
+          "instruction": "Place two of the goat-cheese-coated pastry sections into the bottom of a small, air-fryer-safe baking dish. Top with half of the sliced Gala apples, half of the melted butter, and a sprinkle of cinnamon."
+        },
+        {
+          "pic": "second-layer-goat-cheese-apple-tart.png",
+          "instruction": "Place the remaining two (goat-cheese coated) pastry sections on top. Layer with the rest of the apples, the remaining butter, more cinnamon, and the pecan pieces."
+        },
+        {
+          "pic": "air-fry-goat-cheese-apple-tart.png",
+          "instruction": "Air fry uncovered at 375°F (190°C) for 15 minutes until the pastry is cooked through and the apples and pecans are toasted."
+        },
+        {
+          "pic": "air-fried-apple-pecan-layers-served.png",
+          "instruction": "Drizzle the remaining honey over the hot tart layers before serving."
+        }
+      ],
+      "notes": "The GOAT of cheesy apple tarts."
     }
   ]
 }

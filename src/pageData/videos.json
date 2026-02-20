@@ -2184,13 +2184,23 @@
     },{
       "youtubeID": "HtIop4uIv1c",
       "title": "\uD83D\uDCF7\uD83D\uDC14”Got a Feeling Somebody’s Watching Me” | Meh Monday \uD83D\uDE11",
-      "albums": ["new", "chickens", "meh monday" ],
+      "albums": ["chickens", "meh monday" ],
       "release_date": "2/15/26"
     },{
       "youtubeID": "Woz6cS6YclA",
       "title": "\uD83D\uDC36\uD83E\uDDE3\uD83E\uDD70 When U Can't Wait To Show Off That New Outfit",
-      "albums": ["new", "dogs" ],
+      "albums": ["dogs" ],
       "release_date": "2/15/26"
+    },{
+      "youtubeID": "GihCq5DM_cU",
+      "title": "\uD83D\uDC36\uD83E\uDEA2\uD83D\uDC36 Hide and Seek Tug O War",
+      "albums": ["new", "dogs" ],
+      "release_date": "2/20/26"
+    },{
+      "youtubeID": "TNlf00KLuFc",
+      "title": "\uD83D\uDC10\uD83C\uDF7D️\uD83D\uDC14 Totes Over Sharing | \uD83D\uDE11 Meh Monday",
+      "albums": ["new", "goats", "chickens", "meh monday"],
+      "release_date": "2/20/26"
     }
   ]
 }

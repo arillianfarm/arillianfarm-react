@@ -3978,6 +3978,95 @@
           ]
         }
       ]
+    },
+    {
+      "name": "DIY Kobmbucha - Brewing, Bottling, Harvesting and Restarting Kobmbucha",
+      "pub_date": "02/20/26",
+      "header_pic": "kombucha-bottling-process.png",
+      "about": "A comprehensive guide to 'flip'—harvesting kombucha, flavoring it for carbonation, and immediately starting your next batch using the same vessels.",
+      "categories": ["homesteading", "fermentation", "vegetarian", "DIY"],
+      "safety_notes": [
+        "Always ensure your hands and tools are rinsed with vinegar to avoid introducing unwanted bacteria.",
+        "Do not put your SCOBY in the fridge; keep it at room temperature to maintain its health.",
+        "Ensure the new tea is below 80°F before adding the SCOBY to prevent heat-kill."
+      ],
+      "tools": ["2 Glass Pickle Jars (80oz)", "Airtight Swing-top Bottles", "Funnel", "Zester or Microplane", "Fine-mesh Strainer", "kitchen scissors or knife (optional)"],
+      "materials": ["12 Black &/OR Green Tea Bags ", "1.25 cups White Sugar", "Fresh Ginger", "Lemons (Juice and Zest)", "140oz Filtered Water"],
+      "phases": [
+        {
+          "pic": "sourcing-a-scoby.png",
+          "vid": "",
+          "paragraphs": [
+            { "text": "Sourcing Supplies", "h4": true },
+            {
+              "text": "A SCOBY (Symbiotic Culture of Bacteria and Yeast) is a slippery puck of life that you need to brew Kombucha. I've heard (from Google Gemini AI) that you can grow your own SCOBY using a bottle of store-bought kombucha or you may be able to find someone giving away or selling SCOBY from an online community. I was very excited to start this project though, so I bought a SCOBY online (for $15.00) from www.thekombuchashop.com . That site also sells jars for brewing and other accessories, but it was cheaper for me to buy two 80-oz jars of pickles from walmart and cut my SCOBY in half to brew two batches."
+            },{
+              "text": "Note- To sterilize the jars and remove the pickle smell, (after I moved the pickles to smaller jars) I washed the pickle jars in my dishwasher."
+            }
+          ]
+        },
+        {
+          "pic": "brewing-new-tea.png",
+          "vid": "",
+          "paragraphs": [
+            { "text": "Starting the Tea Base", "h4": true },
+            { "text": "The day my SCOBY was scheduled to arrive, I boiled 40 oz of water and steeped 12 tea bags (I used 6 green tea and 6 black tea bags) for 10 minutes. After removing the tea bags I stirred in 1.25 cups of granulated white sugar until dissolved and then divided the sweetened tea evenly between my two 80-oz jars and added the remaining cool filtered water to fill the jars almost to the top then set the jars aside to cool." }
+          ]
+        },
+        {
+          "pic": "adding-scoby.png",
+          "vid": "",
+          "paragraphs": [
+            { "text": "Livening it Up", "h4": true },
+            { "text": "When my SCOBY arrived, I doused my hands and a kitchen scissors with vinegar and cut open the pouch the SCOBY was shipped in. I poured about half of the 'starter liquid' (that the SCOBY was submerged in during shipping) into each jar, and then (did my best to) cut the SCOBY in half horizonally, placing one half of the SCOBY puck into each of my jars of room-temperature diluted sweet tea. This is your 'starter liquid' for the next batch." }
+          ]
+        },{
+          "pic": "fermenting-kombucha.png",
+          "vid": "",
+          "paragraphs": [
+            { "text": "Fermenting the deal", "h4": true },
+            { "text": "To protect the brewing Kombucha from contaminants while still allowing it to breathe, I grabbed a couple of tshirts --fresh out of the drier-- and used rubber bands to secure them over the opening at the top of the brewing jars. It's recommended to brew the jars at a temperature of 75F-85F for 7-14 days in a dark place, so I set the jars in a corner cabinet under our kitchen counter and waited for the magic to happen." }
+          ]
+        },{
+          "pic": "checking-on-scoby.png",
+          "vid": "",
+          "paragraphs": [
+            { "text": "Checking In", "h4": true },
+            { "text": "I left the brewing Kombucha alone for the first week (not wishing to introduce contaminants) and then checked in on it on day seven. When I removed the t-shirts that were capping the jars, I saw that a new SCOBY puck was forming in each of the jars, but the new SCOBY were less than a quarter of an inch thick and looked odd to me. I showed a picture to Gemini (AI) and was told that my batch did not seem to be moldy or contaminated, so, I poked a clean straw under the SCOBY and had a little sip. It tasted sweet and a bit earthy, but it didn't have the vinegar tang I was used to from store-bought Kombucha. Our kitchen hasn't been above 72F lately, so I moved the jars to an upper cabinet and checked back after another week. It was starting to get a bit of faint vinegaryness, but still didn't have the tartness I wanted, so I gave it another 3 days, re-tasted and BOOM there was that familiar Kombocha tartness." },
+            {
+              "text": "NOTE- If there's no tartness after 18-20 days, you may need to start over."
+            }
+          ]
+        },
+        {
+          "pic": "",
+          "vid": "",
+          "paragraphs": [
+            { "text": "Out with The Old in With the New", "h4": true },
+            { "text": "I poured 2-3 cups of the brewed kombucha into a clean bowl to use as starter liquid for the next batch and with vinegar-cleaned hands, I remove the SCOBYs from the brew jars and placed them into the starter liquid. (This protects the SCOBY and keeps the bacteria active while you bottle the rest.)" }
+          ]
+        },
+        {
+          "pic": "kombucha-bottling-process.png",
+          "vid": "",
+          "paragraphs": [
+            { "text": "Flavoring and Bottling (F2)", "h4": true },
+            { "text": "I'd been saving the bottles from the store-bought Kombucha I've been drinking lately, so I sterilized ten bottles and lids to use for my homebrew kombucha then to each jar, I added 1 tsp minced ginger, 1 tsp lemon juice, 1/2 tsp lemon zest, and 1/2 tsp of sugar. Using a funnel, I poured with the remaining kombucha into the jars, leaving 1 inch of headspace before tightly sealing the jars and storing them in my brewing cupboard for 4 days (for the second fermentation)." },
+            {
+              "text": "NOTE- I read that making ginger lemonade is an easy beginner recipe for flavored Kombucha, but there are lots of recipes online for other fun interesting kombucha brews."
+            }
+          ]
+        },
+
+        {
+          "pic": "restarting-kambucha-batch.png",
+          "vid": "",
+          "paragraphs": [
+            { "text": "The Immediate Restart", "h4": true },
+            { "text": "Once the ginger lemonade Kombucha was off to the cabinet, I made a new batch of diluted green and black sweet tea, poured the cooled sweet tea mixture into my original jars, divide the saved SCOBYs and starter liquid back into the brew jars, re-covered them with fresh clean t-shirts (secured with rubber bands) and my next batch has officially begun!" }
+          ]
+        }
+      ]
     }
   ]
 }
