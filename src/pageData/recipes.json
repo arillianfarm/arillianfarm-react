@@ -4000,6 +4000,40 @@
         }
       ],
       "notes": "The GOAT of cheesy apple tarts."
+    },{
+      "name": "Air Fryer Lemon Rosemary Potatoes",
+      "header_pic": "adding-lemons.png",
+      "pub_date": "02/27/26",
+      "servings": "4-6 servings",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "4 large potatoes, scrubbed",
+        "3 tbsp olive oil",
+        "2 tbsp fresh rosemary, chopped",
+        "1/2 - 1 lemon (sliced into thin half-moons)",
+        "1 tsp salt",
+        "1/2 tsp cracked black pepper"
+      ],
+      "steps": [
+        {
+          "pic": "potato-soak.png",
+          "instruction": "Cut Russets into 3/4-inch cubes. Soak in cold water for 15 minutes to remove surface starch, then pat completely dry with a (lint-free) towel."
+        },
+        {
+          "pic": "",
+          "instruction": "Toss the dried potatoes with olive oil, salt, pepper, and half of the rosemary. DO NOT ADD LEMONS YET."
+        },
+        {
+          "pic": "air-fryer-basket.png",
+          "instruction": "Air fry (directly in frier basket) at 400F for 15 minutes, shaking the basket halfway through."
+        },
+        {
+          "pic": "adding-lemons.png",
+          "instruction": "Add the lemon slices and the remaining rosemary and give them a shake. Cook for another 5-7 minutes until the potatoes are deep gold and lemons are slightly charred."
+        }
+      ],
+      "notes": "When Life Hands You Lemons ¯\\\\(ツ)/¯."
     }
   ]
 }

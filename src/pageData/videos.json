@@ -2194,13 +2194,23 @@
     },{
       "youtubeID": "GihCq5DM_cU",
       "title": "\uD83D\uDC36\uD83E\uDEA2\uD83D\uDC36 Hide and Seek Tug O War",
-      "albums": ["new", "dogs" ],
+      "albums": ["dogs" ],
       "release_date": "2/20/26"
     },{
       "youtubeID": "TNlf00KLuFc",
       "title": "\uD83D\uDC10\uD83C\uDF7D️\uD83D\uDC14 Totes Over Sharing | \uD83D\uDE11 Meh Monday",
-      "albums": ["new", "goats", "chickens", "meh monday"],
+      "albums": ["goats", "chickens", "meh monday"],
       "release_date": "2/20/26"
+    },{
+      "youtubeID": "X5qs9H0eWI8",
+      "title": "\uD83D\uDC36\uD83C\uDF4B\uD83E\uDD22 When the Juice isn't worth the squeeze| meh Monday \uD83D\uDE11",
+      "albums": ["new", "dogs", "meh monday"],
+      "release_date": "2/27/26"
+    },{
+      "youtubeID": "KPtn3a6fUn4",
+      "title": "\uD83D\uDC10\uD83E\uDEDB\uD83D\uDE03 Putting the Peas in Hap-pea-ness",
+      "albums": ["new", "goats"],
+      "release_date": "2/27/26"
     }
   ]
 }

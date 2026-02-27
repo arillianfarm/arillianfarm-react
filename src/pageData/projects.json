@@ -3990,8 +3990,8 @@
         "Do not put your SCOBY in the fridge; keep it at room temperature to maintain its health.",
         "Ensure the new tea is below 80°F before adding the SCOBY to prevent heat-kill."
       ],
-      "tools": ["2 Glass Pickle Jars (80oz)", "Airtight Swing-top Bottles", "Funnel", "Zester or Microplane", "Fine-mesh Strainer", "kitchen scissors or knife (optional)"],
-      "materials": ["12 Black &/OR Green Tea Bags ", "1.25 cups White Sugar", "Fresh Ginger", "Lemons (Juice and Zest)", "140oz Filtered Water"],
+      "tools": ["2 (80oz) Glass Pickle Jars", "Airtight Bottles (Swing-top if possible)", "Funnel", "Zester or Microplane", "breathable, but tight woven cloth or paper e.g. t-shirt, pillow case, coffee filters, or paper towels (to cover jars) ", "kitchen scissors or knife (optional)"],
+      "materials": ["12 Black &/OR Green Tea Bags ", "1.25 cups White Sugar", "Fresh Ginger", "Lemons (Juice and Zest)", "140oz Filtered Water", "SCOBY and starter fluid"],
       "phases": [
         {
           "pic": "sourcing-a-scoby.png",
@@ -4010,7 +4010,7 @@
           "vid": "",
           "paragraphs": [
             { "text": "Starting the Tea Base", "h4": true },
-            { "text": "The day my SCOBY was scheduled to arrive, I boiled 40 oz of water and steeped 12 tea bags (I used 6 green tea and 6 black tea bags) for 10 minutes. After removing the tea bags I stirred in 1.25 cups of granulated white sugar until dissolved and then divided the sweetened tea evenly between my two 80-oz jars and added the remaining cool filtered water to fill the jars almost to the top then set the jars aside to cool." }
+            { "text": "The day my SCOBY was scheduled to arrive in the mail, I boiled 40 oz of water and steeped 12 tea bags (I used 6 green tea and 6 black tea bags) for 10 minutes. After removing the tea bags I stirred in 1.25 cups of granulated white sugar until dissolved and then divided the sweetened tea evenly between my two 80-oz jars and added the remaining cool filtered water to fill the jars almost to the top then set the jars aside to cool." }
           ]
         },
         {
@@ -4025,7 +4025,7 @@
           "vid": "",
           "paragraphs": [
             { "text": "Fermenting the deal", "h4": true },
-            { "text": "To protect the brewing Kombucha from contaminants while still allowing it to breathe, I grabbed a couple of tshirts --fresh out of the drier-- and used rubber bands to secure them over the opening at the top of the brewing jars. It's recommended to brew the jars at a temperature of 75F-85F for 7-14 days in a dark place, so I set the jars in a corner cabinet under our kitchen counter and waited for the magic to happen." }
+            { "text": "To protect the brewing Kombucha from contaminants from bugs and debris contaminating the batch (while still allowing it to breathe) I grabbed a couple of --freshly washed-- t-shirts out of the drier and used rubber bands to secure them over the opening at the top of the brewing jars. (If you don't want to use tshirts you can use another breathable, but tight woven cloth or paper like a pillow case, coffee filters, or paper towels etc). It's recommended to brew the jars at a temperature of 75F-85F for 7-14 days in a dark place, so I set the jars in a cabinet under our kitchen counter and waited for the magic to happen." }
           ]
         },{
           "pic": "checking-on-scoby.png",
@@ -4034,7 +4034,7 @@
             { "text": "Checking In", "h4": true },
             { "text": "I left the brewing Kombucha alone for the first week (not wishing to introduce contaminants) and then checked in on it on day seven. When I removed the t-shirts that were capping the jars, I saw that a new SCOBY puck was forming in each of the jars, but the new SCOBY were less than a quarter of an inch thick and looked odd to me. I showed a picture to Gemini (AI) and was told that my batch did not seem to be moldy or contaminated, so, I poked a clean straw under the SCOBY and had a little sip. It tasted sweet and a bit earthy, but it didn't have the vinegar tang I was used to from store-bought Kombucha. Our kitchen hasn't been above 72F lately, so I moved the jars to an upper cabinet and checked back after another week. It was starting to get a bit of faint vinegaryness, but still didn't have the tartness I wanted, so I gave it another 3 days, re-tasted and BOOM there was that familiar Kombocha tartness." },
             {
-              "text": "NOTE- If there's no tartness after 18-20 days, you may need to start over."
+              "text": "NOTE- If there's no tartness after 18-20 days, you may need to scrap it and start over."
             }
           ]
         },
@@ -4043,7 +4043,7 @@
           "vid": "",
           "paragraphs": [
             { "text": "Out with The Old in With the New", "h4": true },
-            { "text": "I poured 2-3 cups of the brewed kombucha into a clean bowl to use as starter liquid for the next batch and with vinegar-cleaned hands, I remove the SCOBYs from the brew jars and placed them into the starter liquid. (This protects the SCOBY and keeps the bacteria active while you bottle the rest.)" }
+            { "text": "I poured 2-3 cups of the brewed kombucha into a clean bowl to use as starter liquid for the next batch. Then, with vinegar-cleaned hands, I remove the SCOBYs from the brew jars and placed them into the starter liquid. (This protects the SCOBY and keeps the bacteria active while you bottle the rest.)" }
           ]
         },
         {
@@ -4051,7 +4051,7 @@
           "vid": "",
           "paragraphs": [
             { "text": "Flavoring and Bottling (F2)", "h4": true },
-            { "text": "I'd been saving the bottles from the store-bought Kombucha I've been drinking lately, so I sterilized ten bottles and lids to use for my homebrew kombucha then to each jar, I added 1 tsp minced ginger, 1 tsp lemon juice, 1/2 tsp lemon zest, and 1/2 tsp of sugar. Using a funnel, I poured with the remaining kombucha into the jars, leaving 1 inch of headspace before tightly sealing the jars and storing them in my brewing cupboard for 4 days (for the second fermentation)." },
+            { "text": "I'd been saving the bottles from the store-bought Kombucha I've been drinking lately, so I sterilized ten bottles and lids to use for my homebrew kombucha --Gemini (AI) recomends using pop-top bottles. I added 1 tsp minced ginger, 1 tsp lemon juice, 1/2 tsp lemon zest, and 1/2 tsp of sugar to each bottle. Using a funnel, I poured with the remaining kombucha into the jars, leaving 1 inch of headspace before tightly sealing the jars and storing them in my brewing cupboard for 4 days (for the second fermentation)." },
             {
               "text": "NOTE- I read that making ginger lemonade is an easy beginner recipe for flavored Kombucha, but there are lots of recipes online for other fun interesting kombucha brews."
             }
@@ -4063,7 +4063,9 @@
           "vid": "",
           "paragraphs": [
             { "text": "The Immediate Restart", "h4": true },
-            { "text": "Once the ginger lemonade Kombucha was off to the cabinet, I made a new batch of diluted green and black sweet tea, poured the cooled sweet tea mixture into my original jars, divide the saved SCOBYs and starter liquid back into the brew jars, re-covered them with fresh clean t-shirts (secured with rubber bands) and my next batch has officially begun!" }
+            { "text": "Once the ginger lemonade Kombucha was off to the cabinet, I made a new batch of diluted green and black sweet tea, poured the cooled sweet tea mixture into my original jars, divide the saved SCOBYs and starter liquid back into the brew jars, re-covered them with fresh clean t-shirts (secured with rubber bands) and my next batch has officially begun!" },{
+              "text": "NOTE - The finished Kombucha should be good in the fridge for at least a month. Also when you drink it, you might want to strain it into a glass to avoid an overload of ginger pulp and lemon zest."
+            }
           ]
         }
       ]
