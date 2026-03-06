@@ -87,7 +87,8 @@
           }]
         }
       ]
-    },    {
+    },
+    {
       "name": "(Sort of) Making a Straw Hat/ Easter Basket ¯\\_(ツ)_/¯",
       "pub_date": "4/18/25",
       "header_pic": "arfarmlogo.png",
@@ -331,9 +332,7 @@
           }
         ]
       }]
-    }
-  ]
-},
+    },
 {
 "name": "Diagnosing and Treating Copper Deficiency & Barber Pole Worms in Goats",
 "pub_date": "01/12/26",
@@ -389,4 +388,63 @@
 ]
 }
 ]
-}
+},
+    {
+      "name": "Ditching the Middleman: How I Fired Prerender.io and Boosted My Site's SEO for Free",
+      "pub_date": "03/06/26",
+      "header_pic": "seo-migration-header.png",
+      "about": "When my free trial of prerender.io expired, I decided it was time to enlist the help of my go-to AI, Gemini and move ArillianFarm.com to a totally free, automated static snapshot workflow.",
+      "categories": ["Web Dev", "SEO", "React", "DIY"],
+      "safety_notes": [
+        "Double-check your .env files! You don't want your private API keys hanging out in a public GitHub repo.",
+        "Be patient with Cloudflare propagation—it's fast, but refreshing your browser 50 times in ten seconds won't make it faster (ask me how I know)."
+      ],
+      "tools": ["MacBook Pro", "npm (no yarn here!)", "Google Search Console", "Cloudflare Dashboard"],
+      "materials": ["react-snapshot", "canvas (the npm package)", "Firebase JS SDK"],
+      "phases": [
+        {
+          "pic": "firebase-async-check.png",
+          "vid": "",
+          "paragraphs": [
+            { "text": "Phase 1: Firebase and the Build-Time Blues", "h4": true },
+            { "text": "When I first tried to build my site for static snapshots, it crashed because Firebase Analytics was looking for a browser environment that doesn't exist during the build process." },
+            { "text": "The fix was simple: I used an 'isSupported()' check within an async function in my firebase.js. Now, my analytics only fire up when a real human (or a goat with a smartphone) visits the site, not when my MacBook is just trying to compile the code. **Note: If your build is failing with 'IndexedDB' errors, this is likely your culprit!**" }
+          ]
+        },
+        {
+          "pic": "canvas-npm-install.png",
+          "vid": "",
+          "paragraphs": [
+            { "text": "Phase 2: The Canvas Catastrophe", "h4": true },
+            { "text": "Even after fixing Firebase, my terminal was screaming at me about 'HTMLCanvasElement not implemented.' It turns out the snapshot tool needs a way to 'draw' the page in its digital brain. After a quick chat with Gemini (AI), I found out I just needed to run 'npm install canvas'." },
+            { "text": "Since I work off a MacBook Pro, I had to make sure my Xcode tools were up to date first, but once that package was in, the 'npm run build' command finally went through with that beautiful 'Compiled successfully' message!" }
+          ]
+        },
+        {
+          "pic": "cloudflare-worker-none.png",
+          "vid": "",
+          "paragraphs": [
+            { "text": "Phase 3: Breaking Up with the Worker", "h4": true },
+            { "text": "This was the scary part—actually cutting the cord with Prerender.io. I went into my Cloudflare dashboard, found the Worker that was proxying my traffic to their service, and switched the route to 'None.' It felt like sending my site out into the wild without training wheels." },
+            { "text": "I immediately went to the 'Caching' tab and hit 'Purge Everything.' You HAVE to do this, otherwise, Cloudflare might keep serving the old Prerendered versions of your pages instead of your shiny new static files." }
+          ]
+        },
+        {
+          "pic": "gsc-live-test-success.png",
+          "vid": "",
+          "paragraphs": [
+            { "text": "Phase 4: The Proof is in the Pudding (and GSC)", "h4": true },
+            { "text": "To make sure I hadn't just invisible-ized my entire website, I headed over to Google Search Console. I plugged in the URL for my 'Fall into Freshness' sandwich recipe and hit 'Test Live URL.' When I saw 'URL is available to Google' and could see the actual text of my recipe in the HTML tab, I knew it worked!" },
+            { "text": "Since I couldn't find a 'cancel' button on the Prerender website (shady, right?), I canceled the automatic payment through PayPal to be safe. **Pro-tip: If you can't find the 'unsubscribe' button, your payment provider usually has your back.**" }
+          ]
+        },
+        {
+          "pic": "final-victory-lap.png",
+          "vid": "",
+          "paragraphs": [
+            { "text": "Don't Be Afraid to DIY Your Tech!", "h4": true },
+            { "text": "At the end of the day, moving to static snapshots saved me money and made my site feel a lot more robust. Just like brewing your own kombucha or filming your goats, there's a certain 'street cred' that comes from knowing you built it yourself without relying on overpriced subscriptions!" }
+          ]
+        }
+      ]
+    }]}

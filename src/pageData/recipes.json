@@ -4000,7 +4000,8 @@
         }
       ],
       "notes": "The GOAT of cheesy apple tarts."
-    },{
+    },
+    {
       "name": "Air Fryer Lemon Rosemary Potatoes",
       "header_pic": "adding-lemons.png",
       "pub_date": "02/27/26",
@@ -4034,6 +4035,56 @@
         }
       ],
       "notes": "When Life Hands You Lemons ¯\\\\(ツ)/¯."
+    },
+    {
+      "name": "Air Fryer Black Bean Taquitos",
+      "header_pic": "taquitos-served.png",
+      "pub_date": "03/02/26",
+      "servings": "14-18 taquitos",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "2 (15 oz) cans black beans, rinsed and drained",
+        "14-18 corn tortillas",
+        "1 tsp cumin",
+        "1 tsp chili powder",
+        "1/2 tsp garlic powder or 3 cloves fresh garlic finely minced",
+        "1 cup shredded cheese",
+        "1 tbsp lime or lemon juice",
+        "Cooking oil to spray (avocado or olive oil)",
+        "Salt and pepper to taste"
+      ],
+      "steps": [
+        {
+          "pic": "bean-filling-prep.png",
+          "instruction": "In a bowl, mash half the beans. Mix in the remaining beans, cumin, chili powder, garlic powder, lemon juice, and cheese. Season with salt and pepper."
+        },
+        {
+          "pic": "microwave-tortillas.png",
+          "instruction": "Wrap tortillas in a damp paper towel and microwave for 60 seconds until very pliable. This will prevent cracking during rolling."
+        },
+        {
+          "pic": "roll-beans-in.png",
+          "instruction": "spoon a strip of black beans onto one end of each tortilla then roll the tortilla up around the beans."
+        },
+        {
+          "pic": "air-fry-taquitos.png",
+          "instruction": "Place rolled taquitos in the air fryer basket in a single layer, seam-side down. Spray lightly with oil. Air fry at 400°F for 4 minutes, flip each taquito and re-spraying halfway through then air fry for another 4-5 minutes (until golden and crisp)."
+        },
+        {
+          "pic": "taquitos-served.png",
+          "instruction": "Serve with greek yogurt and or salsa / sour cream for dipping."
+        },
+        {
+          "pic": "freezing-prep.png",
+          "instruction": "NOTE- You can make extra and keep the left overs fresh for up to 3 months by letting the cooked taquitos cool completely, placing them on a metal tray in the freezer for 1 hour, then transferring them to a freezer-safe bag."
+        },
+        {
+          "pic": "reheating-taquitos.png",
+          "instruction": "To reheat from frozen: Air fry at 375°F for 5-7 minutes until heated through and crisp. No need to thaw!"
+        }
+      ],
+      "notes": "The easy, filling snack you've BEAN waiting for!"
     }
   ]
 }

@@ -2204,13 +2204,33 @@
     },{
       "youtubeID": "X5qs9H0eWI8",
       "title": "\uD83D\uDC36\uD83C\uDF4B\uD83E\uDD22 When the Juice isn't worth the squeeze| meh Monday \uD83D\uDE11",
-      "albums": ["new", "dogs", "meh monday"],
+      "albums": ["dogs", "meh monday"],
       "release_date": "2/27/26"
     },{
       "youtubeID": "KPtn3a6fUn4",
       "title": "\uD83D\uDC10\uD83E\uDEDB\uD83D\uDE03 Putting the Peas in Hap-pea-ness",
-      "albums": ["new", "goats"],
+      "albums": ["goats"],
       "release_date": "2/27/26"
+    },{
+      "youtubeID": "Q7dozM1fAuI",
+      "title": "\uD83C\uDF16\uD83C\uDF13 \uD83E\uDD29Time Lapse of Lunar Eclipse this Morning",
+      "albums": ["new", "sky"],
+      "release_date": "3/6/26"
+    },{
+      "youtubeID": "Gw-ytL8eZ5Y",
+      "title": "\uD83D\uDC10\uD83D\uDCA5\uD83D\uDC10Rutty Buddies Totes, McGoats Butt Heads during Rut",
+      "albums": ["new", "goats"],
+      "release_date": "3/6/26"
+    },{
+      "youtubeID": "XduI35NbCpI",
+      "title": "\uD83C\uDF3E\uD83D\uDC14\uD83C\uDFAF Catching the Treat Doesn't Always Mean You Get to Eat it | Meh Monday \uD83D\uDE11",
+      "albums": ["new", "chickens"],
+      "release_date": "3/6/26"
+    },{
+      "youtubeID": "RIBBpM6SdOQ",
+      "title": "\uD83C\uDF31\uD83E\uDEB4\uD83C\uDF31Guess Who’s Back: Our kitchen Garden Plants That Came Back From Last Year",
+      "albums": ["new", "garden"],
+      "release_date": "3/6/26"
     }
   ]
 }

@@ -4069,6 +4069,44 @@
           ]
         }
       ]
+    },
+    { "name": "Frankensteining Dog Toys",
+      "pub_date": "03/06/26",
+      "header_pic": "frankensteined-dog-toys.png",
+      "about": "Sew Together Old Dog Toys to create New Dog Joys",
+      "categories": ["pets"],
+      "safety_notes": [
+        "Always supervise your dog during play with DIY toys.",
+        "Ensure all knots are tied tightly to prevent small parts from becoming a choking hazard.",
+        "Check the toy regularly for wear and tear, and discard if it becomes damaged."
+      ],
+      "tools": ["Screwdriver or knife (for poking holes)", "Scissors"],
+      "materials": ["Old rubber or plush dog toys", "Durable rope or cord"],
+      "phases": [
+        {
+          "pic": "frankensteined-dog-toys.png",
+          "paragraphs": [
+            { "text": "Step 1: Prep the Toys", "h4": true },
+            { "text": "Select a variety of old dog toys that are still structurally sound. Using a screwdriver or a similar tool, carefully poke holes through the center or sides of each toy where you want the rope to pass through." }
+          ]
+        },
+        {
+          "pic": "",
+          "vid": "kKm7bWVt3Gc",
+          "paragraphs": [
+            { "text": "Step 2: String the Centipede", "h4": true },
+            { "text": "Thread a long, durable rope through the holes you created in each toy (I use bailing twine from our goats hay). You can mix and match different textures—like rubber balls and plushies—to keep it interesting for your dog." }
+          ]
+        },
+        {
+          "pic": "",
+          "vid": "G9Fr-s3cWYo",
+          "paragraphs": [
+            { "text": "Step 3: Secure the Ends", "h4": true },
+            { "text": "Once all the toys are on the rope, tie large, secure knots at both ends to keep everything in place. You can also tie knots between the individual toys to prevent them from sliding around. Trim any excess rope, and your centipede toy is ready for playtime!" }
+          ]
+        }
+      ]
     }
   ]
 }
