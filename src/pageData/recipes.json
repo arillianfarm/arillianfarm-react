@@ -4085,6 +4085,52 @@
         }
       ],
       "notes": "The easy, filling snack you've BEAN waiting for!"
+    },
+    {
+      "name": "French Onion Orzo with Mushrooms",
+      "header_pic": "french-onion-orzo-done.png",
+      "pub_date": "03/12/26",
+      "servings": "2-3",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "2.5 tablespoons unsalted butter (divided)",
+        "1 large yellow onion, thinly sliced",
+        "8 ounces sliced mushrooms (cremini or similar) ",
+        "3 cups vegetable broth (or hydrated bouillon cubes)",
+        "1 tablespoon balsamic vinegar",
+        "1 cup dried orzo pasta",
+        "1 teaspoon soy sauce",
+        "1/4 teaspoon (fresh ground) black pepper",
+        "2-3 ounces Gruyère (or similar... I used mozarella and muenster) cheese"
+      ],
+      "steps": [
+        {
+          "pic": "caramelize-onions-for-orzo.png",
+          "instruction": "Melt 2 tablespoons butter in an oven-safe pot or Dutch Oven over medium heat. Add onions, stirring to coat with butter and cook, covered, for 5 minutes over medium heat."
+        },
+        {
+          "pic": "",
+          "instruction": "Stir and turn down heat then cook for another 15-20 minutes until onions are jammy and deep brown."
+        },
+        {
+          "pic": "add-mushrooms-to-orzo.png",
+          "instruction": "Make a well in the middle of the onions and add remaining 1/2 tablespoon butter, black pepper and mushrooms."
+        },
+        {
+          "pic": "deglaze-orzo.png",
+          "instruction": "Deglaze the pan with 1/2 cup broth and balsamic vinegar, scraping up the browned bits."
+        },
+        {
+          "pic": "simmer-orzo.png",
+          "instruction": "Stir in remaining (2.5 cups) broth, soy sauce and orzo. Bring to a boil, then simmer (covered) for 10-12 minutes until orzo is tender."
+        },
+        {
+          "pic": "bake-cheese-for-orzo.png",
+          "instruction": "When the orzo is cooked, either uncover and top with cheese, then broil the whole pot in the oven for 3-5 minutes until cheese is golden and bubbly --OR-- transfer to serving dishes, top with cheese and air fry for 3-5 minutes at 365 or broil for 3-5 minutes."
+        }
+      ],
+      "notes": "Orzo for Surzo."
     }
   ]
 }
