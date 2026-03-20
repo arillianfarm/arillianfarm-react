@@ -172,6 +172,9 @@
         <loc>https://arillianfarm.com/projects/?articleId=frankensteining-dog-toys</loc>
     </url>
     <url>
+        <loc>https://arillianfarm.com/projects/?articleId=making-a-garden-for-our-chickens-that-gets-watered-with-pond-runoff</loc>
+    </url>
+    <url>
         <loc>https://arillianfarm.com/blog/?articleId=do-folks-even-read-blogs</loc>
     </url>
     <url>
@@ -614,5 +617,8 @@
     </url>
     <url>
         <loc>https://arillianfarm.com/recipes/?articleId=french-onion-orzo-with-mushrooms</loc>
+    </url>
+    <url>
+        <loc>https://arillianfarm.com/recipes/?articleId=homemade-frozen-lemonade</loc>
     </url>
 </urlset>
