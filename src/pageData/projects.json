@@ -2342,7 +2342,7 @@
       "name": "Quick Build: Making a Temporary Brooder for Broodzilla to Raise her Brood",
       "pub_date": "May 30, 2025",
       "header_pic": "brooder-done.png",
-      "about": "When we surprised Broodzilla with baby chicks, I had to whip up an emergency DIY brooder on the fly! Learn how to build a temporary, safe chick brooder using scrap wood and construction fabric, keeping your new fluff balls cozy and safe from the flock.",
+      "about": "When we surprised Broodzilla with baby chicks, I had to whip up an emergency DIY brooder on the fly! Learn how to build a temporary, safe chick brooder using scrap wood and hardware cloth, keeping your new fluff balls cozy and safe from the flock.",
       "categories": ["chickens", "construction", "DIY"],
       "tools": [
        "Tape Measure",
@@ -2351,7 +2351,7 @@
         "Drill w/ Screw driver attachment"
       ],
       "materials": [
-        "Construction Fabric",
+        "Hardware Cloth",
         "2x4 and/or scrap wood",
         "Washers",
         "Construction Screws",
@@ -2385,7 +2385,7 @@
               "text": "DIY On-the-Fly Building Our Chick Brooder:",
               "h4": true
             },{
-              "text": "I used construction fabric to enclose the space because its tight weave is perfect for keeping even small chicks contained. For the most part, I was able to pin the fabric directly to the existing coop frame using 1-inch construction screws and washers. For the bottom in a couple of places, I laid down 4x4s, wedging them in place as best I could to provide a secure point for screws. I also cut a 2x4 to frame one side of the 'entry gate'."
+              "text": "I used hardware cloth to enclose the space because its tight weave is perfect for keeping even small chicks contained. For the most part, I was able to pin the fabric directly to the existing coop frame using 1-inch construction screws and washers. For the bottom in a couple of places, I laid down 4x4s, wedging them in place as best I could to provide a secure point for screws. I also cut a 2x4 to frame one side of the 'entry gate'."
             },{
               "text": "I re-purposed the grate from a broken box fan as the door, which put a smile on my face 'cause I'm a big fan of resurrect trash! Mounting our 'door' was quick and easy: I just drilled a couple of 2 1/2-inch screws partially into the 2x4s and hung the fan grate on them. Then, a well-placed brick against the bottom held it securely in place."
             },
@@ -4104,6 +4104,63 @@
           "paragraphs": [
             { "text": "Step 3: Secure the Ends", "h4": true },
             { "text": "Once all the toys are on the rope, tie large, secure knots at both ends to keep everything in place. You can also tie knots between the individual toys to prevent them from sliding around. Trim any excess rope, and your centipede toy is ready for playtime!" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Making a Garden for our Chickens (that gets watered with pond runoff)",
+      "pub_date": "03/20/26",
+      "header_pic": "alluvial-plain-for-chickens.png",
+      "about": "An Alluvial Plain For Our Hens",
+      "categories": ["pets", "gardening"],
+      "safety_notes": [
+        "Wear Gloves and Be Careful Not To Snag Your Clothes on the Hardware Cloth while Cutting it."
+      ],
+      "tools": ["Tin Snips, Drill with Screw Bit, (electric) Miter Saw"],
+      "materials": ["Hardware Cloth (or similar galvanized wire mesh)", "Deck Screws", "Washers (to thread over the screws and hold down the Hardware Cloth", "Soil", "Seeds"],
+      "phases": [
+        {
+          "pic": "chicken-garden-first-try.png",
+          "paragraphs": [
+            { "text": "Learning from Papa YouTube", "h4": true },
+            { "text": "When I was getting ready to get back to having a backyard chicken flock (a few years ago), I thought it would be cool to plant a garden in the outdoor part of my chicken coop full of plants chickens love to eat. They went absolutely crazy for the garden the first day I let them into their coop. Actually, they loved it to death... Within the first week of moving into their coop they reduced it to dust." },
+            {
+              "text": "It seemed obvious at that point that chickens and gardens just can't co-exist. And then papa YouTube came through with a DIY fix for me to try! A short hit my youtube feed that showed a guy using hardware cloth screwed to 2x4s to make a frame that protected the roots and base of a patch of grass from his chicken's talons, while still allowing them to graze."
+            }
+          ]
+        },
+        {
+          "pic": "assembling-chicken-garden-frame.png",
+          "paragraphs": [
+            { "text": "Brass Tacks", "h4": true },
+            { "text": "Using a tape measure and miter saw, I cut some scrap 2x4s and 2x6s to make a wooden frame."},
+            {
+              "text": "Then I measured a length of Hardware Cloth to fit over the frame. After I gloved up and cut the Hardware Cloth (with tin snips), I used washers threaded onto deck screws to secure the hardware cloth to the frame boards which loosely secured the frame together. I didn't feel like I needed my frame to be super secure since its meant to lie flat on the ground."
+            }
+          ]
+        },
+        {
+          "pic": "chicken-garden-2.png",
+          "paragraphs": [
+            { "text": "An Alluvial Plain for Chickens", "h4": true },
+            {
+              "text": "The spot I selected for my chickens garden is enclosed within the fencing of their outdoor coop area and right next to the little pond I made in my barnyard. (Originally I was going to have the pond hook around and flow partially into the outdoor coop, but I mis-measured and it ended up that my pond liner could not go that far). That miscalculation created a little alluvial plain situation in the coop though."
+            },
+            {
+              "text": "After adding some compost and leveling the soil on the chickens' flood plain, I sprinkled some seeds, covered them with more compost and set the Hardware Cloth on top. The next day when I topped off the barnyard pond, some overflow water flowed into the chicken garden area and watered the seeds."
+            }
+          ]
+        },
+        {
+          "pic": "alluvial-plain-for-chickens.png",
+          "paragraphs": [
+            {
+              "text": "Much to the delight of my flock, within a couple weeks grass, sunflowers, peas, wheat and lettuce were starting to poke through the Hardware Cloth"
+            },
+            {
+              "text": "It's early days so I don't know how often I'll have to re-seed or if the plants will survive the summer heat, but so far our hens are enjoying their salad bar!"
+            }
           ]
         }
       ]

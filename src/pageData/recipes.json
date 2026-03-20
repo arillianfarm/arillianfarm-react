@@ -4131,6 +4131,43 @@
         }
       ],
       "notes": "Orzo for Surzo."
+    },
+    {
+      "name": "Homemade Frozen Lemonade",
+      "header_pic": "frozen-lemonade-served.png",
+      "pub_date": "03/20/26",
+      "servings": "about 1.5 cups",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "1 cup (fresh squeezed) lemon juice (approx. 4-5 lemons)",
+        "1 cup white sugar",
+        "1 tablespoon fresh lemon zest (optional)",
+        "Pinch of salt (optional to brighten flavors)"
+      ],
+      "steps": [
+        {
+          "pic": "zesting-lemons.png",
+          "instruction": "Zest the lemons, then juice them into a mixing bowl or directly into your freezer-safe container (I used a washed-out yogurt pint)."
+        },
+        {
+          "pic": "mixing-frozen-lemonade.png",
+          "instruction": "Whisk vigorously until the sugar is completely dissolved and the liquid is clear then stir in the zest if using. (If you can ensure your container will remain tightly sealed, you can just shake to combine the sugar and lemon juice)."
+        },
+        {
+          "pic": "frozen-sorbet-cubes.png",
+          "instruction": "Freeze for at least 4-6 hours, then you can enjoy a scoop as a frozen lemonade dessert."
+        },
+        {
+          "pic": "dissolving-frozen-lemonade.png",
+          "instruction": "OR Using a spoon or cookie scoop, add 2 tablespoons of frozen lemonade to 1 cup of water for instant lemonade, or drop into iced tea for a perfectly chilled Arnold Palmer!"
+        },
+        {
+          "pic": "frozen-lemonade-life-lesson.png",
+          "instruction": "Life Lesson- Originally I wanted to make cute mint lemonade ice cubes, but because of the 1:1 sugar-to-juice ratio, they remained soft and couldn't be stored outside of the ice cube tray, so making a half pint of scoopable 'frozen lemonade' worked out better."
+        }
+      ],
+      "notes": "Zestfully Keen"
     }
   ]
 }
