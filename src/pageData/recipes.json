@@ -4168,6 +4168,96 @@
         }
       ],
       "notes": "Zestfully Keen"
+    },
+    {
+      "name": "Arroz Rojo with Fried Eggs",
+      "header_pic": "arroz-rojo-farm-egg.png",
+      "pub_date": "03/23/26",
+      "servings": "4",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "1 cup long-grain white rice",
+        "2 cups vegetable broth (or hydrated veggie bouillon)",
+        "1 cup fresh cherry tomatoes",
+        "1/2 cup frozen corn",
+        "1/2 small onion, chopped",
+        "2 cloves garlic, minced",
+        "2 tbsp vegetable oil",
+        "4 fresh eggs",
+        "1-2 tbsp unsalted butter (to fry eggs)",
+        "1/2 tsp (fresh ground) black pepper",
+        "Fresh cilantro for garnish"
+      ],
+      "steps": [
+        {
+          "pic": "prep-base-arroz-rojo.png",
+          "instruction": "Place the cherry tomatoes, onion, and garlic in a blender. Pulse until you have a smooth red puree (recaudo)."
+        },
+        {
+          "pic": "toast-rice-arroz-rojo.png",
+          "instruction": "Heat oil in a heavy skillet over medium heat. Add the dry rice and sauté, stirring frequently,approx 5-8 minutes (until the grains turn a pale golden brown and smells nutty)."
+        },
+        {
+          "pic": "simmer-rice-arroz-rojo.png",
+          "instruction": "Pour the tomato puree over the toasted rice and cook for 2 minutes until slightly thickened. Stir in the vegetable broth and pepper and bring to a boil, then reduce heat to low, cover, and simmer for 15-20 minutes, stirring the frozen corn in when rice is cooked."
+        },
+        {
+          "pic": "arroz-rojo-farm-egg.png",
+          "instruction": "Set the rice aside and fry the eggs in a separate pan until the whites are set but the yolks remain runny. Serve the egg on top of a large scoop of rice sprinkled with fresh cilantro."
+        }
+      ],
+      "notes": "A Nice Rice for Any Time"
+    },
+    {
+      "name": "Halve a Heart Air Fritters",
+      "header_pic": "ricotta-air-fryer-artichokes.png",
+      "pub_date": "04/03/26",
+      "servings": "2-4",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "1-2 large artichokes (or 4-5 small ones)",
+        "1 large lemon, divided",
+        "1/4 cup ricotta cheese",
+        "1 tsp (freshly ground) black pepper",
+        "1 tsp soy sauce",
+        "2 cloves garlic, minced",
+        "Olive oil to spray or brush",
+        "Bread crumbs (for topping)",
+        "Cold water (for prep bowl)"
+      ],
+      "steps": [
+        {
+          "pic": "prep-artichokes.png",
+          "instruction": "To prevent the artichokes browning, fill a bowl with cold water and squeeze the juice of half a large lemon into it and place the articokes in the lemon water during prep. To prep the arthichokes, cut off the tops of the artichokes and (use sissors or a knife to) trim the sharp points from the leaves. Cut in half and scoop out the 'choke' using a grapefruit spoon or paring knife."
+        },
+        {
+          "pic": "steaming-artichoke-halves.png",
+          "instruction": "Steam the halved artichokes for 15 minutes until tender then remove from the steamer and let them cool until you can handle them."
+        },
+        {
+          "pic": "artichoke-ricotta-mixture.png",
+          "instruction": "Meanwhile, Add the ricotta cheese to a small bowl, squeeze the remaining lemon juice into the bowl, add soy sauce, black pepper, and minced garlic then stir with a fork or spoon until well combined."
+        },
+        {
+          "pic": "stuffing-artichokes.png",
+          "instruction": "Spray or brush both sides of the cooled artichoke halves with olive oil. Spoon the ricotta mixture generously into the center of each artichoke half."
+        },
+        {
+          "pic": "artichoke-air-fryer-phase-1.png",
+          "instruction": "Air fryer the stuffed artichokes at 350°F for 4 minutes."
+        },
+        {
+          "pic": "artichoke-air-fryer-phase-2.png",
+          "instruction": "Open the air fryer, sprinkle bread crumbs over the ricotta filling, and respray (the top side only) with olive oil. Air fry for another 4-6 minutes until the crumbs are golden brown."
+        },
+        {
+          "pic": "ricotta-air-fryer-artichokes-served.png",
+          "instruction": "Eat by peeling outer leaves to dip into the warm ricotta center, or scrape the tender heart and filling together for a delicious sandwich spread!"
+        }
+      ],
+      "notes": "A Heartwarming Snack"
     }
   ]
 }
