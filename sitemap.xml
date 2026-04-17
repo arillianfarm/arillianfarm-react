@@ -313,6 +313,9 @@
         <loc>https://arillianfarm.com/blog/?articleId=tiles-travels-and-taking-control</loc>
     </url>
     <url>
+        <loc>https://arillianfarm.com/blog/?articleId=feathers-failures-and-the-fort-knox-flip</loc>
+    </url>
+    <url>
         <loc>https://arillianfarm.com/recipes/?articleId=baked-eggs-and-asparagus</loc>
     </url>
     <url>
@@ -635,5 +638,8 @@
     </url>
     <url>
         <loc>https://arillianfarm.com/recipes/?articleId=air-fried-garden-gatherings-pasta-sauce</loc>
+    </url>
+    <url>
+        <loc>https://arillianfarm.com/recipes/?articleId=air-fried-avocado-tacos</loc>
     </url>
 </urlset>
