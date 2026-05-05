@@ -1922,7 +1922,7 @@
               "h4": true
             },
             {
-              "text": "When the barrels are full, you can add mosquito fish to control mosquito larva (Note- You should have a pond or tank to store fish in when the barrels are not full so you can move them back and forth as needed during teh rainy season."
+              "text": "When the barrels are full, you can add mosquito fish to control mosquito larva (Note- You should have a pond or tank to store fish in when the barrels are not full so you can move them back and forth as needed during the rainy season."
             }
           ]
         }
@@ -4161,6 +4161,88 @@
             {
               "text": "It's early days so I don't know how often I'll have to re-seed or if the plants will survive the summer heat, but so far our hens are enjoying their salad bar!"
             }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bracing For Summer: Building a Cool Dugout for our Desert Chickens",
+      "pub_date": "04/10/26",
+      "header_pic": "bracing-for-summer.png",
+      "about": "How I turned a muddy goat platform into a permanent, structured cooling station for my chickens to escape the summer heat.",
+      "categories": ["Homesteading", "Chickens", "DIY Projects"],
+      "safety_notes": [
+        "Ensure the wooden platform is fully supported by cement blocks before allowing animals near it.",
+        "Check for any sharp edges on the blocks or platform that could injure the birds."
+      ],
+      "tools": ["Shovel", "Hand trowel"],
+      "materials": ["Cement blocks", "Existing wooden platform", "Water/Hose"],
+      "phases": [
+        {
+          "pic": "bracing-for-summer.png",
+          "paragraphs": [
+            { "text": "Phase 1: Observation", "h4": true },
+            { "text": "Our chickens subliminally commissioned me to build them a dugout in our barnyard. I noticed they were constantly hanging around our goats' wooden platform, scratching up the cool mud (wet from me dragging the hose around to fill water buckets) and lying in the shade by the base. As summer approaches, I always try to look for natural ways to help our flock keep cool, so I decided to lean into the vibe the chickens were cultivating and make the space more accessible and permanent." }
+          ]
+        },
+        {
+          "vid": "Gjf_blTiSqg",
+          "paragraphs": [
+            { "text": "Phase 2: Excavation and Reinforcement", "h4": true },
+            { "text": "Using a shovel and a garden hoe, I dug out the area under the wooden box to create a deep enough hollow for several chickens to fit comfortably. To prevent the platform from sagging and stop dirt from filling the new hole, I placed cement blocks at the corners to provide a solid, structural foundation." }
+          ]
+        },
+        {
+          "pic": "to-the-chicken-cave.png",
+          "vid": "",
+          "paragraphs": [
+            { "text": "Wallowing in Success", "h4": true },
+            { "text": "I filled the hole with water to get some evaporative cooling going and as soon as the water had seeped into the ground, the chickens immediately moved in. I think this new dugout will be a great addition to our summer cooling strategy. It stays significantly cooler than the surrounding ground, and the overhead cover provides shade and a sense of security for our flock. It’s a simple, low-cost way to keep the flock comfortable during the peak of summer without relying on electricity or ice." }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Building a Predator Defense for a Mixed Barnyard",
+      "pub_date": "04/24/26",
+      "header_pic": "fortress-pole-hero.png",
+      "about": "How to mount a motion-activated sprinkler to a permanent structure and use a dedicated timer for precision predator defense that won't terrorize your livestock.",
+      "categories": ["Homesteading", "DIY", "Pet Safety"],
+      "safety_notes": [
+        "Ensure all electrical connections on timers are weather-protected.",
+        "Test the 'arc' of the sprinkler manually to ensure it clears all structures."
+      ],
+      "tools": ["Flat-head screwdriver", "Step stool", "Scissors", "an extra pair of hands"],
+      "materials": [
+        "Motion-activated sprinkler",
+        "4x Hose clamps (Large enough to daisy-chain)",
+        "Scrap wood block (Spacer)",
+        "t-post or other post (to mount sprinkler)",
+        "Old rubber bike grip or inner tube (Shim)",
+        "Programmable digital hose timer",
+        "Heavy-duty garden hose"
+      ],
+      "phases": [
+        {
+          "pic": "sprinkler-system-1.png",
+          "paragraphs": [
+            { "text": "A Mildly Offensive Defense", "h4": true },
+            { "text": "After a recent cat-attack in our chicken coop, I wanted to create a defense system that would reliably deter predators (if I forgot to close the chicken coop etc) while not getting destroyed by our goats. My go to AI recommended a perimeter defense sprinkler - basically a powerful sprinkler controlled by a light sensor. I liked the idea, but I could tell the recommended setup would not work with our scratch-happy goats around. The solution for us was to use an existing post from an RV cover to mount the sprinkler. However, a livestock fence post (t post) would probably have worked as well." }
+          ]
+        },
+        {
+          "pic": "sprinkler-clamp-assembly.png",
+          "paragraphs": [
+            { "text": "Securing the Security System", "h4": true },
+            { "text": "To keep the sprinkler from sliding down the smooth metal RV pole, I wedged a rubber bike grip beside the scrap wood --that I was using as a spacer to allow the sprinkler head enough clearance to rotate without hitting the pole." },
+            { "text": "To secure the sprinkler setup to our RV pole, I connected two sets of two hose clamps together (at the top and bottom of the scrap wood piece) creating loops large enough to envelop our square pole and the sprinkler, tightening them down with a screwdriver. Note - a second pair of hands would have been nice for this part of the job, but I was able to get by alone." }
+          ]
+        },
+        {
+          "pic": "sprinkler-precision-timing.png",
+          "paragraphs": [
+            { "text": "Dialing it In", "h4": true },
+            { "text": "The built in day/night mode was not working reliably for the sprinkler I bought, so I Install a digital hose timer at the faucet that was feeding the sprinkler and set the sprinkler sensor to 'Always On' (letting the timer dictate the exact minutes the system receives water). To fool-proof the system from letting this fool (me) forget to swap out the batteries, I set up a delivery subscription to receive some fresh AAs (to power the sprinkler sensor) every three months." }
           ]
         }
       ]

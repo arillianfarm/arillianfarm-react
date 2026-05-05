@@ -99,7 +99,7 @@
       "header_pic": "pickledonions.png",
       "servings": "1 jar of pickled onions",
       "related_recipes": ["creamy avocado, pickled onion wontons"],
-      "summary": "INGREDIENTS: 1 onion, 3/4 cup beet juice, 3/4 cup white vinegar, 1 tsp mustard seed, 1/2 tbsp salt, 3/8 cup white sugar, 1 spring fresh rosemary. INSTRUCTIONS: (1) Slice the onion into thin rings or rainbows (I used a medium yellow onion, but I based this on ingredients from a jar of pickled purple onions so I suspect any bulbous onion is fine). (2) put the onion slices and all other ingredients into a sterile mason jar. (3) seal the jar and shake until all sugar and salt are dissolved (4) leave in fridge for at least three days to marinate",
+      "summary": "INGREDIENTS: 1 onion, 3/4 cup beet juice, 3/4 cup white vinegar, 1 tsp mustard seed, 1/2 tbsp salt, 3/8 cup white sugar, 1 sprig fresh rosemary. INSTRUCTIONS: (1) Slice the onion into thin rings or rainbows (I used a medium yellow onion, but I based this on ingredients from a jar of pickled purple onions so I suspect any bulbous onion is fine). (2) put the onion slices and all other ingredients into a sterile mason jar. (3) seal the jar and shake until all sugar and salt are dissolved (4) leave in fridge for at least three days to marinate",
       "ingredients": [
         "1 onion",
         "3/4 cup beet juice",
@@ -4258,6 +4258,167 @@
         }
       ],
       "notes": "A Heartwarming Snack"
+    },
+    {
+      "name": "Air Fried Garden Gatherings Pasta Sauce",
+      "header_pic": "add-oregano-to-sauce.png",
+      "pub_date": "04/10/26",
+      "servings": "2-4",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "4 cups cherry tomatoes",
+        "2 small artichokes, trimmed and quartered",
+        "1 rib of celery, diced",
+        "1 small white onion, chopped",
+        "4 cloves garlic, smashed (or minced)",
+        "2-3 tbsp fresh oregano, chopped",
+        "2 tbsp olive oil",
+        "Salt, to taste",
+        "Ground black pepper, to taste",
+        "Crushed red pepper, to taste"
+      ],
+      "steps": [
+        {
+          "pic": "prep-veg-for-sauce.png",
+          "instruction": "Trim the artichokes down to the tender hearts, quarter or eighth them, and toss (or spray) with olive oil. Place in a loaf pan with the whole cherry tomatoes, diced celery, chopped onion, and garlic."
+        },
+        {
+          "pic": "season-roast.png",
+          "instruction": "Spray or drizzle olive oil and season with salt, black pepper, red pepper, and half of the oregano. Roast in the air fryer at 375°F for 20-25 minutes, stirring halfway through (with a fork to burst any whole tomatoes)."
+        },
+        {
+          "pic": "add-oregano-to-sauce.png",
+          "instruction": "Remove from the air fryer and stir in the remaining fresh oregano."
+        },
+        {
+          "pic": "saucy-dog.png",
+          "instruction": "Toss with your favorite pasta or let cool and jar it/ store in fridge to use within the next 4-5 days."
+        }
+      ],
+      "notes": "The Air Fryer Makes Tomatoes Pop!"
+    },
+    {
+      "name": "Air Fried Avocado Tacos",
+      "header_pic": "fried-avocado-tacos-ole.png",
+      "pub_date": "04/17/26",
+      "servings": "4-8",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "1.5 - 2 large avocados (firm but slightly ripe)",
+        "2 cups panko or coarse bread crumbs",
+        "1/2 cup all-purpose flour",
+        "2 eggs, beaten",
+        "1 tsp ground cumin",
+        "1 tsp (fresh ground) black pepper",
+        "1/2 tsp salt",
+        "8-16 corn tortillas or to make from scratch 2 cups Masa Harina + 1.5 cups water",
+        "1 cup shredded green cabbage",
+        "1/2 cup pickled red onions",
+        "1/4 cup crumbled Cotija or Queso Fresco cheese",
+        "1/4 cup fresh cilantro leaves",
+        "1-2 limes, cut into wedges"
+      ],
+      "steps": [
+        {
+          "pic": "",
+          "instruction": "mix cabbage and pickled onions, and set aside"
+        },
+        {
+          "pic": "tortilla-prep.png",
+          "instruction": "If making tortillas from scratch, mix Masa Harina, water, and a pinch of salt by hand until the dough feels like Play-Doh. Divide into about 18 golf-ball-sized rounds, press using a tortilla press lined with plastic (note you can make plastic liners by cutting a grocery bag), and cook on a hot skillet for 45-60 seconds per side, keeping finished tortillas warm in a towel. If using store-bought tortillas, wrap in damp paper towels and microwave for 45 seconds when ready to assemble tacos."
+        },
+        {
+          "pic": "taco-breading-station.png",
+          "instruction": "Slice avocados into wedges (6-8 per avocado) then Set up a breading station: one bowl with flour + salt + cumin + pepper; one bowl with beaten eggs; and one bowl with breadcrumbs."
+        },
+        {
+          "pic": "",
+          "instruction": "Dredge each avocado wedge in the seasoned flour, dip in the egg, and then press firmly into the sourdough crumbs until fully coated."
+        },
+        {
+          "pic": "",
+          "instruction": "NOTE - I use stale sourdough crumbs instead of panko. They add a tangy crunch and hold up better than panko in the air fryer."
+        },
+        {
+          "pic": "taco-air-fryer-step.png",
+          "instruction": "Place wedges in the air fryer in a single layer. Lightly spray with oil and cook at 400°F for 8-10 minutes, flipping and re-spraying with oil halfway, until the crust is golden and crunchy."
+        },
+
+        {
+          "pic": "air-fried-taco-assembly.png",
+          "instruction": "Assemble by placing a bed of cabbage and onions on 1-2 warm tortillas, adding an avocado wedge, and topping with crumbled cheese, cilantro, and a squeeze of lime."
+        }
+      ],
+      "notes": "A Tangy AvoCuddle For you Tum Tum!"
+    },
+    {
+      "name": "B.L.A.M.O. (bread lettuce avocado mayo) Toast Points",
+      "header_pic": "blamo-toast-final.png",
+      "pub_date": "04/24/26",
+      "servings": "2-4",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "1/2-1 cup Cherry tomatoes, halved",
+        "1/4 of a heart of romain (or preffered lettuce), chopped",
+        "1/2 ripe avocado, cubed",
+        "1-2 tablespoons Mayonnaise",
+        "pinch of Salt",
+        "2-3 Bread slices (cut into quarters)",
+        "Olive oil spray"
+      ],
+      "steps": [
+        {
+          "pic": "blamo-toast-prep-tomatoes.png",
+          "instruction": "Slice cherry tomatoes and sprinkle salt over them then set aside (the salt brings out the tang of the tomatoes)."
+        },
+        {
+          "pic": "blamo-toast-air-fryer-toast.png",
+          "instruction": "Quarter the bread, spray with a light coating of olive oil, and air fry for 5 minutes until golden and crisp."
+        },
+        {
+          "pic": "blamo-toast-mix-ingredients.png",
+          "instruction": "In a measuring cup or bowl, combine the salted tomatoes, chopped lettuce, cubed avocado, and mayonnaise. Mix until well incorporated."
+        },
+        {
+          "pic": "blamo-toast-final.png",
+          "instruction": "Place a generous dollop of the mixture onto each toasted corner and serve immediately."
+        }
+      ],
+      "notes": "You'll be delighted you opened your face for this open faced sandwich!"
+    },
+    {
+      "name": "Hot Honey & Goat Cheese Stuffed Dates",
+      "header_pic": "stuffed-dates-prep.png",
+      "pub_date": "05/01/26",
+      "servings": "3-4 servings",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "8 Medjool dates",
+        "3-4 oz soft goat cheese (chèvre)",
+        "16 toasted whole almonds",
+        "1/4 cup honey",
+        "1 jalapeno sliced thinly (optional - de-seed for milder heat)",
+        "Pinch of salt"
+      ],
+      "steps": [
+        {
+          "pic": "honey-infusion.png",
+          "instruction": "In a small saucepan over low heat, combine honey, salt and the thinly sliced jalapeno. Let steep for 5-7 minutes until warm and aromatic, then remove from heat."
+        },
+        {
+          "pic": "stuffing-dates.png",
+          "instruction": "Cut the dates in half lengthwise and stuff each date half with about a teaspoon of goat cheese, press one toasted almond into the center then top with a sliver of jalapeno from the honey."
+        },
+        {
+          "pic": "stuffed-dates-done.png",
+          "instruction": "Drizzle the stuffed date halves with honey and airfry for 5-7 minutes (until the jalapeno slice begins to wither and caramelize)"
+        }
+      ],
+      "notes": "Hot & Gooey Sock it To Me!"
     }
   ]
 }

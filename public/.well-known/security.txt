@@ -1,0 +1,5 @@
+# Our security policy
+Contact: mailto:arillianfarm@gmail.com
+
+# Expected language for reports
+Preferred-Languages: en
