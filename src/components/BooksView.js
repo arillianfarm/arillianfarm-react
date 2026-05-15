@@ -50,7 +50,7 @@ const BooksView = () => {
         console.log(`Set next display page for ${book}`);
     };
 
-    const pageTitle = 'Author and Farm LARPer Jillian Fetter Invites you to enter the Hyperspear and or get unFETTERed with her';
+    const pageTitle = 'Author, Software Developer and Farm LARPer Jillian Fetter Invites you to enter the Hyperspear and or get unFETTERed with her';
     const pageDescription = 'If you like litRPG check out Hyperspear and if youre a fan of quarter life crisis memoirs you might like unFETTERed by Jillian Fetter';
 
     return (

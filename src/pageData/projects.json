@@ -4246,6 +4246,64 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Limping a haggard watersack along for a second summer",
+      "pub_date": "05/08/26",
+      "header_pic": "water-sack-full.png",
+      "about": "Limping a haggard watersack along through one more season.",
+      "categories": ["Homesteading", "DIY", "Pet Safety"],
+      "safety_notes": [
+        "Ensure all electrical connections are weather-protected."
+      ],
+      "tools": ["Flat-head screwdriver"],
+      "materials": [
+        "Shoe Goo or Silicone Caulk",
+        "Painters Tape",
+        "Pool Patches",
+        "Hose clamps",
+        "Replacement Pool Parts as needed (motor, hoses etc)"
+      ],
+      "phases": [
+        {
+          "pic": "pool-repair-1.png",
+          "paragraphs": [
+            { "text": "Assessing the Damage", "h4": true },
+            { "text": "A water sack, or ✌️above ground pool✌️ as some folks call it, is basically a giant vinyl bag with an inflatable ring or metal frame to hold it up. Between the dogs, the gravel, thorny plants and chlorine, they don't last long for us. 2-3 years (at the most) and getting a full second or third season takes work. This year, in addition to the normal dog-claw punctures on the side walls and gravel poke through leaks on the bottom of the pool, a rat chewed off an important part of our pump casing, so we had to find a suitable replacement."}
+          ]
+        },{
+          "pic": "pool-repair-0.png",
+          "paragraphs": [
+            { "text": "Prepping The Pool Area", "h4": true },
+            { "text": "Bottom-of-the-pool leaks are rarely a big deal. The calcification from our hard water and the pool chemicals, along with the layer of cardboard I put down under the pool and the weight of the water bearing down on the bottom holes, helps to naturally stop those leaks within a few days."}
+          ]
+        },{
+          "pic": "pool-repair-2.png",
+          "paragraphs": [
+            { "text": "Patching Dry Leaks", "h4": true },
+            { "text": "If there are big holes that are noticeable before the pool is filled --or in the inflatable ring of an inflatable ring pool--, we usually patch those with adhesive vinyl pool patches on both sides of the hole or by spreading shoe goo (or silicone caulk) on the hole with painters tape on the outside."}
+          ]
+        },{
+          "pic": "pool-repair-3.png",
+          "paragraphs": [
+            { "text": "Patching Wet Leaks", "h4": true },
+            { "text": "If a hole springs up after the pool is filled, you can try a vinyl patch, but if you can't get the area dry enough to make it stick, squeeze a glob of silicone caulk or shoe goo onto the outside of the hole and quickly tape over it with painters tape."}
+          ]
+        },{
+          "pic": "pool-repair-4.png",
+          "paragraphs": [
+            { "text": "Replacing The Motor", "h4": true },
+            { "text": "For our 16 ft diameter x 48 inch pool, the recommended motor capacity is 1000 Gallons Per Hour. It wasn't hard to find an affordable replacement pump on Amazon (about $60.00), but unfortunately the hoses that came with the pump were slightly smaller than the hoses that originally came with the pool. So the night after we filled the pool, the hoses (and the plastic hose clamps that came with them), popped off the pool and let half the water out." }
+          ]
+        },{
+          "pic": "pool-repair-5.png",
+          "paragraphs": [
+            {
+              "text": "Replacing the plastic hose clamps with metal (automotive) hose clamps seems to have resolved that issue though."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
