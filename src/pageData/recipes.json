@@ -4480,14 +4480,13 @@
       "vid": null,
       "related_recipes": [],
       "ingredients": [
-        "2 cups dried black bush beans",
-        "3-4 cloves garlic (to simmer with beans)",
+        "2 cups dried black beans",
+        "3-4 cloves garlic (optional to simmer with beans)",
         "1-2 green onions (optional to simmer with beans)",
         "1 ear of fresh corn",
-        "1/2 cup bell peppers or baby bell peppers - chopped",
-        "1/2 cup fresh cilantro, stems removed",
-        "1 avocado, cubed",
-        "1/2 of a cucumber diced (optional)",
+        "1/2 cup bell peppers or baby bell pepper (sliced into strips or rings)",
+        "1 large bunch of fresh cilantro (should yield about 1/2 cup of leaves)",
+        "1/2 of a cucumber - diced",
         "3 tbsp extra virgin olive oil",
         "Juice of 2 large limes (or 1.5 large lemons)",
         "1 tsp ground cumin",
@@ -4495,8 +4494,9 @@
         "1/4 cup cherry tomatoes sliced in halves or quarters (optional)",
         "1/4 - 1 jalapeno finely diced (optional)",
         "1/2 tsp smoked paprika",
-        "1/2 tsp Salt (divided)",
-        "1/2 tsp (freshly ground) black pepper (divided)"
+        "3/4 tsp Salt (divided)",
+        "1/2 tsp (freshly ground) black pepper (divided)",
+        "1 avocado, cubed"
       ],
       "steps": [
         {
@@ -4505,27 +4505,27 @@
         },
         {
           "pic": "simmering-b-beans.png",
-          "instruction": "Drain and rinse the soaked beans. Smash and peel garlic, Chop most of the green off the onions and plunk the garlic and onions into a pot with 1/4 tsp salt and the beans. Then add enough fresh water to cover the beans by 2 inches. Bring to a boil, then reduce heat and simmer for 90-120 minutes (until beans are tender but firm). Drain and let cool."
+          "instruction": "Drain and rinse the soaked beans. Smash and peel garlic, Chop most of the green off the onions and plunk the garlic and onions into a pot with 1/4 tsp salt and the beans. Add enough fresh water to cover the beans by 2 inches. Bring to a boil, then reduce heat and simmer for 90-120 minutes (until beans are tender but firm). Drain and let cool."
         },
         {
           "pic": "air-fryer-corn.png",
-          "instruction": "Peel back husk and silk on the ear of corn and lightly coat with butter or oil and some black pepper. Wrap the corn husk back around the corn and air fryer  at 400\u00b0F for 12-15 minutes (turning halfway through. (Corn kernels should be charred and tender). Let the corn cool (and move onto the next step) before slicing the kernels off the cob."
+          "instruction": "Peel back husk and silk on the ear of corn and lightly coat with butter or oil (and some black pepper and/or paprika if desired). Wrap the corn husk back around the corn and air fryer  at 400\u00b0F for 12-15 minutes, turning halfway through. (Corn kernels should be charred and tender). Set the corn aside to cool."
         },
         {
           "pic": "",
-          "instruction": "In a large mixing bowl, whisk together the olive oil, lime or lemon juice, honey or sugar, tomatoes, paprika, cumin, and the remaining salt + pepper and set aside to marinate."
+          "instruction": "In a large mixing bowl, whisk together the olive oil, lime or lemon juice, honey or sugar, paprika, cumin, 1/4 tsp salt and 1/4 tsp pepper and tomatoes, jalapeno (if using them). Set aside to let flavors marinate."
         },
         {
           "pic": "bb-corn-salad-chopping-veg.png",
-          "instruction": "Slice the baby bell peppers into thin rings, dice the red onion, and chop cilantro."
+          "instruction": "When the corn is cool enough to handle, slice the kernels off the cob and strip the cilantro leaves off their stems, dice cucumber and cut the (baby) bell peppers into strips or thin rings."
         },
         {
           "pic": "mixing-bb-corn-salad.png",
-          "instruction": "Add the cooled beans, charred corn kernels (sliced off the cob), peppers, onion, and cilantro to the dressing bowl. Toss to coat."
+          "instruction": "Add the cooled beans, charred corn kernels, bell peppers, cucumber and cilantro to the dressing bowl. Toss to coat."
         },
         {
           "pic": "black-bean-corn-salad-done.png",
-          "instruction": "For the best flavor, let the salad sit in the fridge for an hour before gently folding in the avocado so the beans can fully absorb the lime and cumin dressing. Serve cold"
+          "instruction": "For the best flavor, let the salad sit in the fridge for an hour before gently folding in the avocado (so the beans can fully absorb the lime and cumin dressing and the avocado won't go brown). Serve cold"
         }
       ],
       "notes": "The Spring Harvest Salad You've Bean Dreaming of "

@@ -4304,6 +4304,71 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Co-Authoring with Code: How I'm Using AI to Muscle Through a Sci-Fi Novella",
+      "pub_date": "05/22/26",
+      "header_pic": "ai-writing-collaboration.png",
+      "about": "A peek behind the curtain at how I use structured AI brainstorming to smash writer's block, refine character voices, and keep my sanity while drafting a sci-fi book.",
+      "categories": ["DIY", "Writing", "Lifestyle"],
+      "safety_notes": [
+        "Remember to periodically roll your shoulders back and tuck your chin to prevent that 'computer hunch'."
+      ],
+      "tools": [
+        "Google Docs",
+        "Google Gemini (LLM)"
+      ],
+      "materials": [
+        "imagination",
+        "Caffeine, snacks and whatever else you need to stay fueled and stay behind your keyboard "
+      ],
+      "phases": [
+        {
+          "pic": "phase1-sandbox-setup.png",
+          "paragraphs": [
+            { "text": "Finding your Muse or Assembling Your Toolbox - Setting up a Narrative Framework", "h4": true },
+            {
+              "text": "Writing processes are personal. Some authors like to put their fingers to the keyboard and just see where they wander --let the 'muse' work through them. I've tried that and TBH the muse was pretty shy with me and the cursor on the blank page was kind of daunting. The 'I'm an idea guy' folks (nowadays) just give an AI a kernel of an concept and let it do everything. I myself am a plotter. I like to know where something is going before I bother to really dive in to it, so I start with an idea and then I assemble a 'box of tools' to help turn the idea into (what I hope is) art."
+            },
+            {
+              "text": "The tools I'm using for my current project (a sequel to my LitRPG novella, Hyperspear) are: my own brain, Google Docs (my writing space) and Google Gemini LLM (My AI writing partner, editor and technical advisor). Besides the fact that its free, the thing that I love most about Google docs is the Document Tabs feature. This feature creates a side nav bar with quick links to isolated documents within my project. I have several document tabs for background information like character bios (so I can keep my characters' personalities and physical appearances consistent), and a list of resources that my characters have access to in their various worlds. I also have are for each chapter I plan to have in my finished work."},
+            {"text":" I only have four chapters entirely drafted at this point, but I also have document tabs for chapters I haven't started started drafting. This is where I record high-level plot points, philosophical ideas that I want to embed and bits of dialogue for specific points in the story --as they come to me. Starting with a collection of ideas that I can drag around and weave into a cohesive chapter, removes the cursor on a blank page problem because I only go to the document pages when I already have something to say and then when its time to revisit the document, instead of starting from scratch, I just have to connect ideas and flesh them out. So I guess maybe the muse does speak to me, just on her own schedule."
+            }]
+        },
+        {
+          "pic": "phase2-pacing-prose.png",
+          "paragraphs": [
+            { "text": "Getting A Second Opinion - Spiffing things up with an LLM", "h4": true },
+            {
+              "text": "Ever since I went to coding boot-camp a decade ago, I've been surrounded by a lot of guys that like good sci-fi and complain endlessly about technically inaccurate sci-fi. To appeas them, I try to run every technical detail --from the spin on a wrench as it falls to the ground to the celestial coordinates of the Alpha Centauri System Boundary. Besides appreciating the sci-fi street cred that Gemini is (hopefully) giving me."},
+            { "text":"LLMs are also really good at grammar. I've struggled my whole to understand the right place to put a comma and an em dash, but TBH I'd really rather offload that struggle onto an LLM and focus on the creative work, so now I just punctuate the way it 'feels right to me' and leave it to my editor 'Gemini' to make it grammatically correct when I'm done."
+            },
+            {
+              "text": "I also like to start a new Gemini chat, paste a  "
+            },
+            { "text": "Shifting between different character perspectives can be a drag if they all end up sounding like the author. To fix this, we isolated individual scenes and stress-tested the imagery against each character's core philosophy. For instance, if a character views the world through cold game mechanics, her prose should feel sharp and jagged. If another character is grounded in domestic life, she should focus on everyday textures like the hiss of a hot steam iron. During editing, I ruthlessly snip out any extra sentences where the character's direct action can do the heavy lifting for me." }
+          ]
+        },
+        {
+          "pic": "phase3-historical-metaphor.png",
+          "paragraphs": [
+            { "text": "Reading between the lines - Editing with an LLM without losing your voice", "h4": true },
+            {
+              "text": "Gemini has an option to allow users to create a 'notebook' instead of just a chat thread. You can link the notebook to documents in google drive, websites, local files or just paste text (from upto 50 sources) "
+            },
+            { "text": "To give the digital world some real intellectual weight without slowing down the action, my boyfriend Arthur recommended looking into famous twentieth-century behavioral studies. We wove a reference to John Calhoun's Universe 25 mouse experiment right into a kitchen table conversation. The trick was explaining the 'behavioral sink' simply enough so that casual readers get the terrifying implications of a utopia gone wrong, while history buffs catch the intentional easter egg. It seems to have resolved the problem of making the simulation's societal rot feel visceral and real." }
+          ]
+        },
+        {
+          "pic": "phase3-historical-metaphor.png",
+          "paragraphs": [
+            { "text": "Print Hard Copies", "h4": true },
+            {
+              "text": "Its nice to have things in the cloud, but cost-free storage is limited and every once in a while even Google has outages, so I always print each chapter as soon as I have a finished draft. Also, cloud documents handy, but there's something nice about feeling the heft in your hands of the pages you wrote."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
