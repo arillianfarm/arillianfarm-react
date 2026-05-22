@@ -4529,6 +4529,33 @@
         }
       ],
       "notes": "The Spring Harvest Salad You've Bean Dreaming of "
+    },{
+      "name": "Air-Fried Bijou Goat Cheese & Strawberry Rhubarb Crostini",
+      "header_pic": "bijou-strawberry-rhubarb-crostini.png",
+      "pub_date": "05/22/26",
+      "servings": "2-4 servings",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "1 French Baguette, sliced into ovals or rounds",
+        "Murray's Cave Aged Vermont Creamery Bijou (or similar soft-ripened goat cheese)",
+        "Strawberry rhubarb preserves (or just strawberry jam)"
+      ],
+      "steps": [
+        {
+          "pic": "step-slice-spread.png",
+          "instruction": "Slice the fresh baguette into rounds. Spread a generous layer of the soft-ripened Bijou goat cheese onto each slice."
+        },
+        {
+          "pic": "step-add-preserves.png",
+          "instruction": "Top the cheese layer on each slice with a dollop of strawberry rhubarb preserves."
+        },
+        {
+          "pic": "bijou-strawberry-rhubarb-crostini.png",
+          "instruction": "Arrange the prepared slices in a single layer in your air fryer basket. Air fry at 385°F for 7 minutes until the bread is crisp and the cheese is beautifully warm and melted."
+        }
+      ],
+      "notes": "The bright, earthy tang of this soft-ripened goat cheese pairs flawlessly with the sweet-tart punch of strawberry rhubarb preserves!"
     }
   ]
 }
