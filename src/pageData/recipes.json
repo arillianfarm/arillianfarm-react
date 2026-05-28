@@ -4529,7 +4529,8 @@
         }
       ],
       "notes": "The Spring Harvest Salad You've Bean Dreaming of "
-    },{
+    },
+    {
       "name": "Air-Fried Bijou Goat Cheese & Strawberry Rhubarb Crostini",
       "header_pic": "bijou-strawberry-rhubarb-crostini.png",
       "pub_date": "05/22/26",
@@ -4556,6 +4557,53 @@
         }
       ],
       "notes": "The bright, earthy tang of this soft-ripened goat cheese pairs flawlessly with the sweet-tart punch of strawberry rhubarb preserves!"
+    },
+    {
+      "name": "Garden Fresh Cherry Tomato & Eggplant Ratatouille",
+      "header_pic": "cherry-tomato-ratatouille-done.png",
+      "pub_date": "05/29/26",
+      "servings": "4",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "2-3 cups of diced eggplant (1 large eggplant or several small ones diced into 1 inch cubes)",
+        "6-10 fresh baby bell peppers, stemmed and cut into bite-sized pieces or thick rings",
+        "2 cups cherry tomatoes (left whole)",
+        "1 medium zucchini or yellow squash, diced into 1-inch cubes",
+        "1 cup chopped onion",
+        "4 cloves garlic, minced",
+        "3 tablespoons extra virgin olive oil --divided",
+        "1 tablespoon fresh oregano or 1 tsp dried oregano",
+        "1/4 cup fresh basil leaves, torn",
+        "Salt and freshly cracked black pepper to taste"
+      ],
+      "steps": [
+        {
+          "pic": "ratatouille-step-1.png",
+          "instruction": "Heat 1.5 tablespoons of olive oil in a large, heavy-bottomed pot or Dutch oven over medium-high heat. Add the diced eggplant and a pinch of salt. Cook, stirring frequently, for about 6-8 minutes until the eggplant starts to soften and turn golden brown. Remove the eggplant from the pot and set it aside on a plate."
+        },
+        {
+          "pic": "ratatouille-step-2.png",
+          "instruction": "Reduce heat to medium. Add the remaining olive oil to the pot. Stir in the chopped onion and baby bell pepper rings. Sauté for about 5 minutes until the onions are translucent and the peppers begin to soften. Add the zucchini and minced garlic, cooking for another 2 minutes until fragrant."
+        },
+        {
+          "pic": "ratatouille-step-3.png",
+          "instruction": "Add the whole cherry tomatoes, dried oregano --if using dried oregano-- and another pinch of salt and pepper to the pot. Stir well, cover with a lid, and let the mixture cook for about 6-8 minutes. The cherry tomatoes will begin to blister, soften, and burst, releasing their natural juices to form a rich, sweet sauce base."
+        },
+        {
+          "pic": "ratatouille-step-4.png",
+          "instruction": "Return the cooked eggplant, fresh oregano --if using fresh oregano-- back to the pot and gently stir everything together to combine. Turn the heat down to low, cover, and let the ratatouille simmer for 15-20 minutes. The vegetables should be incredibly tender, and the flavors beautifully melded."
+        },
+        {
+          "pic": "ratatouille-step-5.png",
+          "instruction": "Remove the pot from the heat. Stir in the fresh torn basil leaves and adjust the seasoning with extra salt and pepper if needed."
+        },
+        {
+          "pic": "cherry-tomato-ratatouille-done.png",
+          "instruction": "Serve hot, warm, or at room temperature. It pairs perfectly with crusty sourdough bread, rice, or tossed with pasta. Leftover ratatouille actually tastes better the next day!"
+        }
+      ],
+      "notes": "A versatile sauce Or a stand alone side"
     }
   ]
 }

@@ -318,7 +318,7 @@
       "albums": ["dogs","animals"],
       "release_date": "11/9/24"
     },{
-      "youtubeID": "CR97Ez9tZCU",
+      "youtubeID": "GL0YQ9dwzMQ",
       "title": "Converting Gas Mini Bike to Electric (Coleman CC 100 X) Less Fumes, More Zooms",
       "albums": ["new", "diy"],
       "release_date": "11/11/24"
@@ -2294,8 +2294,13 @@
     },{
       "youtubeID": "0JtH0jlmTR0",
       "title": "\uD83C\uDF2D Hot Diggity Dog What You Do to Me \uD83D\uDE0D (funny dogs memes)",
-      "albums": ["new","dogs"],
+      "albums": ["dogs"],
       "release_date": "4/17/25"
+    },{
+      "youtubeID": "-dyy-HSMgxY",
+      "title": "\uD83D\uDC36\uD83D\uDE98Pajama Ridin' Through The Town",
+      "albums": ["new","dogs"],
+      "release_date": "5/28/26"
     }
   ]
 }
