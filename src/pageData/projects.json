@@ -4371,6 +4371,61 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Propagating a Water Lily Using Reclaimed Pond Muck",
+      "pub_date": "06/04/26",
+      "header_pic": "transplanting-lily.png",
+      "about": "Give a water lily rhizome a head start in nutrient-rich pond muck before transplanting it into a new pond.",
+      "categories": ["Gardening", "Ponds", "DIY"],
+      "safety_notes": [
+        "Wash your hands thoroughly after handling wild pond muck and organic debris.",
+        "Be careful on slippery rocks when lifting heavy, water-logged planting bags out of/ into the pond."
+      ],
+      "tools": ["Pond plant mesh bag", "Paper coffee filter or piece of burlap", "Garden trowel or scoop (optional)"],
+      "materials": ["gloves","hardy water lily rhizome", "Accumulated pond muck/soil", "Pea gravel or small river rocks"],
+      "phases": [
+        {
+          "pic": "harvesting-muck.png",
+          "vid": "",
+          "paragraphs": [
+            { "text": "Harvesting the Reclaimed Soil", "h4": true },
+            { "text": "We end up with a lot of barnyard debris in our little pond. Over the years its started to build up into a nice soil that our water lily loves. Earlier this year, I had tried to plant a water lily in the pond I made at friend's house, but it died shortly after sporuting leaves. For my second attempt, I'm using some of our home grown nutrient-rich pond sludge (instead of soil from amazon) and I'm letting the plant grow in an existing pond before transplanting to the new water garden. PRO TIP - The pond muck is highly fertile, so it acts as a perfect natural fertilizer for the new water lily." }
+          ]
+        },
+        {
+          "pic": "bagging-rhizome.png",
+          "vid": "",
+          "paragraphs": [
+            { "text": "Bagging and Planting", "h4": true },
+            { "text": "To prevent the fine muck from escaping and clouding the water, line the inside of a mesh pond plant bag with a paper coffee filter or a piece of burlap. Using a trowel or gloves transfer the built up soil from the bottom of the pond to the planter bag. Plant the store-bought rhizome at a 45-degree angle, ensuring the growing tips or 'eyes' point upward and remain slightly exposed above the soil line. Top the soil with a layer of pea gravel to hold everything in place." }
+          ]
+        },
+        {
+          "pic": "harvesting-rhizome.png",
+          "vid": "",
+          "paragraphs": [
+            { "text": "(optional) Harvesting a Rhizome Division", "h4": true },
+            { "text": "If you have a healthy plant that's been growing for several years, and you don't want to buy a new plant, you can easily harvest a clone from an established lily. Reach into the pond and locate the thick, horizontal root system. Find a natural joint where a side branch or 'pup' with visible growth buds has formed and cut the bud away from the main root system. Or, if you don't want to use a knife you can gently bend the joint until it snaps cleanly off—much like breaking a piece of fresh ginger. Ensure your harvested section is 3 to 5 inches long with at least one healthy bud before planting it into the prepared muck bag." }
+          ]
+        },
+        {
+          "pic": "shallow-nursery.png",
+          "vid": "",
+          "paragraphs": [
+            { "text": "The Shallow Nursery Period", "h4": true },
+            { "text": "Create a 'nursery' for the new plant, by placing the bag in a shallow depth. This allows the warm sun to stimulate rapid growth. Submerge the planting bag on a pond shelf where there are about 3 to 6 inches of water over the top of the bag. Within 4 to 7 days, you should see tiny leaf spikes emerge and start growing toward the surface." }
+          ]
+        },
+        {
+          "pic": "transplanting-lily.png",
+          "vid": "",
+          "paragraphs": [
+            { "text": " Transferring to the New Pond", "h4": true },
+            { "text": "Once the plant has established a strong root system and has 4 to 5 mature lily pads floating flat on the surface (typically 4 to 5 weeks), it is ready to move.  To protect it from hungry snails and sudden depth changes, prop the bag up on bricks so the existing leaves comfortably reach the surface, gradually lowering it as the stems grow longer." }
+          ]
+        }
+      ]
     }
   ]
 }

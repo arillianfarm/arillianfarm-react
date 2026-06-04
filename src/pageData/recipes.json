@@ -4604,6 +4604,54 @@
         }
       ],
       "notes": "A versatile sauce Or a stand alone side"
+    },
+    {
+      "name": "Sourdough and Yogurt Pancakes with Jalapeno Blackberry Syrup",
+      "header_pic": "sourdough-yogurt-pancakes-plated-dish.png",
+      "pub_date": "06/04/26",
+      "servings": "2 servings",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "1/2 cup sourdough starter (discard or active)",
+        "1/2 cup all-purpose flour",
+        "1/4 cup plain Greek yogurt",
+        "1/4 cup water (or milk)",
+        "1/4 tsp baking soda",
+        "1 pinch of salt",
+        "1/4 cup blackberry jam",
+        "1/4 cup pickled jalapeños (finely chopped)",
+        "1 tsp jalapeño pickle juice",
+        "1 tsp butter",
+        "Butter and/or oil for the griddle"
+      ],
+      "steps": [
+        {
+          "pic": "sourdough-yogurt-pancakes-syrup-prep.png",
+          "instruction": "To make the syrup: Combine the blackberry jam, finely chopped pickled jalapeños, and jalapeño juice (I just shook things together in the jam jar). Pour the jam mixture into a small saucepan over medium-low heat and stir frequently for 2-3 minutes until the jam melts into a smooth, glossy syrup. Then, stir in 1 tsp of butter, remove from heat, and set aside (I just poured it back in the jam jar)."
+        },
+        {
+          "pic": "sourdough-yogurt-pancakes-batter-mix.png",
+          "instruction": "While you prep the batter, heat a lightly greased griddle or skillet over medium heat. While the griddle heats, in a small-medium mixing bowl, mix the Greek yogurt and water until smooth. Add the sourdough starter and all-purpose flour, stirring until just combined into a thick batter."
+        },
+        {
+          "pic": "sourdough-yogurt-pancakes-batter-activate.png",
+          "instruction": "Sprinkle the baking soda and a pinch of salt evenly over the batter. Gently fold the leavening into the mix. The batter will immediately begin to foam, grow in volume, and become airy. Do not over-mix to preserve the bubbles."
+        },
+        {
+          "pic": "sourdough-yogurt-pancakes-cooking-pancakes.png",
+          "instruction": " Pour the batter onto the hot surface. Cook until bubbles form and begin to pop on the surface, then flip and cook until the underside is golden brown."
+        },
+        {
+          "pic": "",
+          "instruction": "Stack the warm pancakes on a plate and generous drizzle the warm jalapeño blackberry syrup over the top before serving."
+        },
+        {
+          "pic": "sourdough-yogurt-pancakes-plated-dish.png",
+          "instruction": "The natural acidity of the Greek yogurt supercharges the baking soda, creating a puffy, fluffy pancake that perfectly balances the sweet heat of the scrap-built syrup!"
+        }
+      ],
+      "notes": "Protein-packed pancakes paired with some sweet heat!"
     }
   ]
 }
