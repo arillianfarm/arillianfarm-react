@@ -4654,43 +4654,42 @@
       "notes": "Protein-packed pancakes paired with some sweet heat!"
     },{
       "name": "Sorta Torta with Sourdough Avocado and Egg",
-      "header_pic": "sourdough-egg-avocado-torta.png",
-      "pub_date": "08/17/26",
-      "servings": "2 servings",
+      "header_pic": "sorta-torta-plated.png",
+      "pub_date": "08/21/26",
+      "servings": "1 sandwich",
       "vid": null,
       "related_recipes": [],
       "ingredients": [
-        "1 can (15 oz) pinto beans, undrained",
-        "1 tbsp olive oil or butter",
+        "1 can (15 oz) pinto beans (drained with liquid reserved)",
+        "1 tbsp olive oil",
         "1/2 tsp ground cumin",
-        "1/2 tsp garlic powder",
-        "1/4 tsp dried oregano",
-        "Salt and freshly ground black pepper to taste",
-        "4 thick slices fresh sourdough bread (or 2 sourdough rolls, split)",
-        "2 tbsp butter (for toasting)",
-        "4 large eggs",
-        "1 ripe avocado, sliced or mashed",
-        "1/2 cup panela cheese or queso fresco, sliced or crumbled",
-        "2 tbsp mayonnaise or Mexican crema",
-        "1/2 cup pickled jalapeños or serrano slices",
-        "Fresh cilantro and sliced red onion (optional, for garnish)"
+        "1/2 tsp garlic powder (or 1 clove finely minced)",
+        "1/4 tsp dried oregano (or 1 small sprig of fresh oregano finely chopped)",
+        "Salt and (freshly ground) black pepper to taste",
+        "2 slices fresh sourdough bread (toasted)",
+        "1 tbsp butter",
+        "1-2 large eggs",
+        "1/4 of a ripe avocado (sliced)",
+        "1/4 cup queso fresco (crumbled)",
+        "1 tbsp mayonnaise",
+        "Pickled Onion, Cilantro (optional)"
       ],
       "steps": [
         {
-          "pic": "seasoned-pinto-bean-spread.png",
-          "instruction": "Heat oil or butter in a skillet over medium heat. Add the canned pinto beans with a splash of their liquid, along with cumin, garlic powder, oregano, salt, and pepper. Simmer for 3–5 minutes until heated through, then mash thoroughly with a potato masher or the back of a fork until thick and spreadable."
+          "pic": "sorta-torta-bean-spread.png",
+          "instruction": "Heat oil in a skillet over medium heat. Add cumin, garlic (powder), oregano, salt, and pepper along with the canned pinto beans with 2-6 tablespoons of their liquid (add more or less depending on how thick you want the bean spread to be). Simmer for 3–5 minutes until heated through, then mash thoroughly with the back of a fork until desired consistency is reached."
         },
         {
-          "pic": "toasted-sourdough-bread.png",
-          "instruction": "Melt 1 tablespoon of butter on a flat-top griddle or skillet over medium heat. Place the sourdough slices cut-side down and toast until golden brown and crispy on the edges. Remove and set aside."
+          "pic": "sorta-torta-egg.png",
+          "instruction": "Melt the butter in a small pan and fry the egg(s) to your preferred doneness."
         },
         {
-          "pic": "fried-eggs-and-cheese.png",
-          "instruction": "In the same skillet, melt the remaining butter. Fry the eggs to your preferred doneness (over-medium works wonderfully so the yolk is rich but not overly runny). In the last minute of cooking, place the sliced panela cheese in the skillet to warm through and lightly brown."
+          "pic": "sorta-torta-assembly.png",
+          "instruction": "Assemble the tortas: Spread a generous layer of warm seasoned pinto beans on the bottom sourdough slice. Top with fried egg, queso fresco, sliced avocado, and pickled onions. Spread mayonnaise or crema on the top slice before adding on top. Press down gently to pop egg yolk then serve immediately."
         },
         {
-          "pic": "assembling-egg-avocado-torta.png",
-          "instruction": "Assemble the tortas: Spread a generous layer of warm seasoned pinto beans on the bottom sourdough slices. Top each with fried eggs, warm panela cheese, sliced avocado, and pickled jalapeños. Spread mayonnaise or crema on the top sourdough slices, place on top, press down gently, and serve immediately."
+          "pic": "sorta-torta-plated.png",
+          "instruction": "Assemble the tortas: Spread a generous layer of warm seasoned pinto beans on the bottom sourdough slice. Top with fried egg, queso fresco, sliced avocado, and pickled onions. Spread mayonnaise or crema on the top slice before adding on top. Press down gently to pop egg yolk then serve immediately."
         }
       ],
       "notes": "Like a Mexican Torta ... sorta"
