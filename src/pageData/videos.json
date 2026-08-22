@@ -2299,8 +2299,43 @@
     },{
       "youtubeID": "-dyy-HSMgxY",
       "title": "\uD83D\uDC36\uD83D\uDE98Pajama Ridin' Through The Town",
-      "albums": ["new","dogs"],
+      "albums": ["dogs"],
       "release_date": "5/28/26"
+    },{
+      "youtubeID": "E3UMq-pe0jY",
+      "title": "\uD83C\uDF3B♥\uFE0F Everyone Loves Sunflowers!",
+      "albums": ["goats", "chickens"],
+      "release_date": "6/12/26"
+    },{
+      "youtubeID": "-oZrIxS9QvM",
+      "title": "\uD83C\uDF3B\uD83D\uDE4B\u200D♀\uFE0F Fun with Flowers - living out my artichoke flower fantasies like a total dork",
+      "albums": ["gardening"],
+      "release_date": "5/28/26"
+    },{
+      "youtubeID": "-jvnrd9unL4",
+      "title": "\uD83C\uDFA4\uD83D\uDC69\u200D\uD83C\uDFA4 My first open mic Pt 1 | Mic Drop Mania Chandler | 7-8-26",
+      "albums": ["wildlife"],
+      "release_date": "7/8/26"
+    },{
+      "youtubeID": "v6FA79AvVJY",
+      "title": "\uD83C\uDFA4\uD83D\uDC69\u200D\uD83C\uDFA4 My first open mic Pt 2 | Mic Drop Mania Chandler | 7-8-26",
+      "albums": ["wildlife"],
+      "release_date": "7/8/26"
+    },{
+      "youtubeID": "GuBVQanGKlE",
+      "title": "\uD83C\uDF31\uD83C\uDF89 Nature's Fidget Poppers!",
+      "albums": ["new","wildlife"],
+      "release_date": "7/22/26"
+    },{
+      "youtubeID": "YVUmJqjOx3A",
+      "title": "\uD83D\uDC13\uD83D\uDC13\uD83D\uDC13 Waiting Line",
+      "albums": ["new","chickens"],
+      "release_date": "6/28/26"
+    },{
+      "youtubeID": "S8O8hpqhi8E",
+      "title": "⛅\uD83C\uDF24\uFE0F⛅ Philososkiesing",
+      "albums": ["new","skies"],
+      "release_date": "8/15/26"
     }
   ]
 }

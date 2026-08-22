@@ -4652,7 +4652,323 @@
         }
       ],
       "notes": "Protein-packed pancakes paired with some sweet heat!"
-    },{
+    },
+    {
+      "name": "Garlic Herb Sourdough Crackers with Green Onion Yogurt Dip",
+      "header_pic": "sourdough-crackers-and-dip.png",
+      "pub_date": "06/11/26",
+      "servings": "4 to 6 servings",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "1/2 cup (120g) Sourdough starter (discard)",
+        "1/2 cup (60g) Bread flour",
+        "1/4 cup (30g) Whole wheat flour",
+        "1/4 cup (30g) Rye flour",
+        "2.5 tbsp Unsalted butter, softened",
+        "1/2 tsp Fine sea salt (plus coarse salt for topping)",
+        "1 tbsp Olive oil (to spray or brush)",
+        "1/2 cup Plain Greek yogurt",
+        "2 to 3 tbsp Fresh green onion tops, sliced thin",
+        "1 small clove Fresh garlic, grated",
+        "1/4 tsp onion powder",
+        "1 to 2 tbsp fresh oregano, finely minced",
+        "1/2 tsp Dried rosemary, crushed",
+        "2 to 3 tbsp Colby Jack cheese, finely grated",
+        "1 splash Lemon juice",
+        "Fresh ground black pepper"
+      ],
+      "steps": [
+        {
+          "pic": "step0.png"
+        },
+        {
+          "pic": "step1-base-dough.png",
+          "instruction": "Base Dough Preparation: In a bowl, whisk together the flours (1/2 cup bread flour, 1/4 cup whole wheat, 1/4 cup rye) and 1/2 tsp fine sea salt. Rub the 2.5 tbsp of softened butter into the flour blend with your fingers until crumbly. Stir in the 1/2 cup of sourdough discard, mixing until it just begins to form a dough."
+        },
+        {
+          "pic": "step2-split-flavors.png",
+          "instruction": "Divide and Flavor: Divide the dough evenly into two portions. For the Herb & Cheese Half, knead in the minced fresh oregano, half of the grated fresh garlic, and the finely grated Colby Jack cheese. For the Cheese-less Rosemary Half, knead in the crushed dried rosemary and the remaining grated fresh garlic. Shape both into flat discs."
+        },
+        {
+          "pic": "step3-chill-dough.png",
+          "instruction": "Chill Dough: Wrap each flavored dough disc tightly in plastic and place in the refrigerator for at least 30 minutes to relax the gluten network, making it easier to roll without snapping back."
+        },
+        {
+          "pic": "step5-make-dip.png",
+          "instruction": "Prepare the Green Onion Dip: While the cracker dough chills, combine 1/2 cup Greek yogurt, the sliced green onion tops, 1/4 tsp onion powder, a pinch of salt and pepper to taste, and a splash of lemon juice in a small bowl. Cover and refrigerate for 20 minutes to let the flavors meld before serving alongside the cooled crackers."
+        },
+        {
+          "pic": "step4-roll-bake.png",
+          "instruction": "Roll, Score, and Bake: Preheat your oven to 350°F. Roll each disc out directly onto separate sheets of parchment paper until paper-thin. Brush lightly with olive oil, sprinkle with coarse salt, score into cracker squares with a pizza cutter, and prick each square with a fork. Bake on baking sheets for 15 to 20 minutes until golden brown and crispy."
+        }
+      ],
+      "notes": "This recipe makes 2 different flavors of cracker: garlic, herb and cheese and rosemary, garlic. PRO-TIP: If the outer edges of the dough crisp up and brown faster during baking, snap them off and return the center crackers to the oven for an extra 2 to 3 minutes."
+    },
+    {
+      "name": "Air Fryer Sage Butter & Goat Cheese Spaghetti Squash",
+      "header_pic": "air-fryer-sage-spaghetti-squash.png",
+      "pub_date": "06/18/26",
+      "servings": "2 servings",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "1 medium spaghetti squash",
+        "2 tbsp butter",
+        "1-2 tablespoons fresh sage leaves, coarsely chopped",
+        "1-2 cloves garlic, minced",
+        "2-3 oz goat cheese, crumbled",
+        "(optional) 1/4 cup parmesan cheese, freshly grated",
+        "Freshly ground black pepper, to taste",
+        "A pinch of red pepper flakes",
+        "Sea salt, to taste"
+      ],
+      "steps": [
+        {
+          "pic": "squash-prep.png",
+          "instruction": "Prep the Squash: Pierce the spaghetti squash a few times with a fork. Microwave for 1 to 2 minutes to slightly soften the skin, then carefully slice it in half lengthwise. Scoop out and discard the seeds and stringy pulp."
+        },
+        {
+          "pic": "sage-butter-seasoning.png",
+          "instruction": "Season: Melt the butter and mix with sage, garlic, crushed red pepper, and some black pepper. Spread the sage butter generously over the inside flesh of both squash halves."
+        },
+        {
+          "pic": "air-fryer-cooking.png",
+          "instruction": "Air Fry: Place the seasoned squash halves cut-side down in the air fryer basket (or in an air-fryable dish). Air fry at 375°F for 20 minutes (until the thickest part can be easily pierced with a fork)."
+        },
+        {
+          "pic": "fluff-and-melt.png",
+          "instruction": "Fluff & Mix: Carefully flip the squash halves right-side up. Use a fork to scrape and fluff the inner flesh into classic noodle-like strands. While steaming hot, crumble the fresh goat cheese into the strands and toss gently to create a rich, creamy sage sauce right inside the squash shell."
+        },
+        {
+          "pic": "air-fryer-sage-spaghetti-squash.png",
+          "instruction": "Melt & Serve: Top with grated parmesan cheese, (more) fresh ground black pepper, and a pinch of red pepper flakes. Return to the air fryer for 2-3 more minutes (until the cheese and squash start to turn golden brown). Serve hot straight from the squash boat!"
+        }
+      ],
+      "notes": "So flavorful you almost don't miss the noodles... almost."
+    },
+    {
+      "name": "Cram Jam A La Mode",
+      "header_pic": "cram-jam-a-la-mode.png",
+      "pub_date": "06/25/26",
+      "servings": "1 serving",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "A handful of Broken Frozen Pie Crust Bits",
+        "Blackberry Jam (or jam of your choice)",
+        "1 tablespoon Butter melted",
+        "1-2 Scoops of Vanilla Ice Cream"
+      ],
+      "steps": [
+        {
+          "pic": "cram-jam-a-la-mode-prep-1.png",
+          "instruction": "Assemble Crust Base: Cram a bunch of broken frozen pie crust bits into a small air-fryer safe pan."
+        },
+        {
+          "pic": "cram-jam-a-la-mode-prep-2.png",
+          "instruction": "Layer Jam & Butter: Scoop and spread jam over the top of the crust, then pour melted butter on top."
+        },
+        {
+          "pic": "cram-jam-a-la-mode-prep-3.png",
+          "instruction": "Air Fry: Air fry at 385°F for 10-12 minutes (until jam is bubbly)."
+        },
+        {
+          "pic": "cram-jam-a-la-mode.png",
+          "instruction": "Top & Serve: Top with a scoop or two of Ice Cream then cram that jam in your pie hole."
+        }
+      ],
+      "notes": "I-SCREAM for broken pie crusts."
+    },
+    {
+      "name": "Creamy Leftover Rice Pudding",
+      "header_pic": "creamy-rice-pudding.png",
+      "pub_date": "07/02/26",
+      "servings": "2-3 servings",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "2 cups cooked rice (leftover)",
+        "1 cup heavy whipping cream",
+        "1 cup water (to thin the cream)",
+        "1 tbsp coconut oil",
+        "1/4 cup sugar (or maple syrup / honey)",
+        "1 tsp vanilla extract",
+        "1 pinch of salt",
+        "Optional: A dash of cinnamon or nutmeg"
+      ],
+      "steps": [
+        {
+          "pic": "rice-pudding-step1.png",
+          "instruction": "Simmer Liquids: In a medium saucepan, whisk together the heavy whipping cream, water, sugar, and a pinch of salt. Bring to a gentle simmer over medium heat."
+        },
+        {
+          "pic": "rice-pudding-step2.png",
+          "instruction": "Add Rice: Stir in the cooked leftover rice and coconut oil, breaking up any clumps. Turn heat to low and simmer gently for 8-10 minutes, stirring frequently."
+        },
+        {
+          "pic": "creamy-rice-pudding.png",
+          "instruction": "Flavor & Thicken: Remove from heat. Stir in the vanilla extract and cinnamon if desired. Let cool slightly to allow the pudding to thicken fully before serving."
+        }
+      ],
+      "notes": "A quick and delicious way to turn leftover rice into a rich dessert."
+    },
+    {
+      "name": "Christa's Cucumber Mint Agua Fresca",
+      "header_pic": "serve-agua-fresca.png",
+      "pub_date": "07/09/26",
+      "servings": "6-8 servings",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "3 English cucumbers, peeled and chunked",
+        "Juice of 2 large limes",
+        "3/4 cup white sugar",
+        "2 sprigs of fresh mint",
+        "6.5 cups water (divided)"
+      ],
+      "steps": [
+        {
+          "pic": "blend-base.png",
+          "instruction": "Prep Blender: Add the peeled and chunked cucumbers, lime juice, white sugar, and mint sprigs to the blender."
+        },
+        {
+          "pic": "blend-smooth.png",
+          "instruction": "Blend Smooth: Pulse the blender a few times to break up the large chunks, then pour in about 1/2 cup of the water. Blend on high speed for about a minute until completely smooth."
+        },
+        {
+          "pic": "mix-pitcher.png",
+          "instruction": "Mix & Dilute: Pour the blended mixture into a large pitcher. Stir in the remaining 6 cups of water until well combined."
+        },
+        {
+          "pic": "serve-agua-fresca.png",
+          "instruction": "Serve Chilled: Serve chilled over plenty of ice! Give it a quick stir before pouring if it sits for a bit."
+        }
+      ],
+      "notes": "Keeps you chill on a hot day 😎"
+    },
+    {
+      "name": "Muenster, Egg and Avocado Breakfast Sandwiches",
+      "header_pic": "egg-cross-sammy-3.png",
+      "pub_date": "07/16/26",
+      "servings": "3 servings",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "3 fresh croissants",
+        "6 large eggs",
+        "1-2 tbsp butter",
+        "3 slices Muenster cheese",
+        "1 fresh avocado, sliced"
+      ],
+      "steps": [
+        {
+          "pic": "",
+          "instruction": "Toast Croissants: Slice the 3 croissants in half like hamburger buns. Place them face up in a toaster oven and toast for 5 to 7 minutes until all sides are beautifully golden and crisp."
+        },
+        {
+          "pic": "egg-cross-sammy-1.png",
+          "instruction": "Prep Toppings: While the croissants are toasting, slice your fresh avocado and set aside a slice of Muenster cheese for each sandwich."
+        },
+        {
+          "pic": "egg-cross-sammy-2.png",
+          "instruction": "Fry Eggs: Melt butter in a large skillet over medium-low heat. Fry the 6 eggs (2 per sandwich) until the whites are set and start to jelly up, but the yolks remain perfectly warm and runny."
+        },
+        {
+          "pic": "egg-cross-sammy-3.png",
+          "instruction": "Assemble: Assemble the sandwiches by placing two warm fried eggs onto the bottom half of each toasted croissant. Immediately top the warm eggs with a slice of Muenster cheese so it begins to melt, and arrange a few fresh avocado slices on the top bun."
+        },
+        {
+          "pic": "egg-cross-sammy-4.png",
+          "instruction": "Press & Serve: Close the croissant sandwiches, press down gently so the warm yolk runs slightly and marries with the cheese, and serve immediately while hot."
+        }
+      ],
+      "notes": "This sando is good, I'm not yolking!"
+    },
+    {
+      "name": "Banana Sourdough Pancakes",
+      "header_pic": "sourdough-banana-pancakes.png",
+      "pub_date": "07/23/26",
+      "servings": "1 serving",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "1/2 cup active sourdough starter/discard",
+        "1/2 banana",
+        "1-2 tbsp butter (for greasing griddle and topping finished pancake)",
+        "Chopped pecans (optional)",
+        "Syrup"
+      ],
+      "steps": [
+        {
+          "pic": "banana-s-dough-1.png",
+          "instruction": "Prep Banana: Chop banana into small cubes."
+        },
+        {
+          "pic": "banana-s-dough-2.png",
+          "instruction": "Pour Batter: Pour 1/2 cup active (bubbling) sourdough starter onto a hot, greased griddle or flat cast iron pan."
+        },
+        {
+          "pic": "banana-s-dough-3.png",
+          "instruction": "Add Mix-ins: Add the banana chunks into the cooking batter (and pecans if you are using them)."
+        },
+        {
+          "pic": "",
+          "instruction": "Cook & Flip: Cook each side of the pancake until golden brown, using a spatula to flip as necessary."
+        },
+        {
+          "pic": "sourdough-banana-pancakes.png",
+          "instruction": "Serve: Serve topped with butter and syrup."
+        }
+      ],
+      "notes": "Add some zing to your morning!"
+    },
+    {
+      "name": "Feisty Fajita Pasta Salad",
+      "header_pic": "fajita-fiesta-pasta.png",
+      "pub_date": "07/30/26",
+      "servings": "6-8 servings",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "1 (12 oz) box bow tie pasta",
+        "1-2 tbsp butter (to sauté vegetables)",
+        "1/4 yellow or purple onion, sliced into strips",
+        "1 red bell pepper, sliced into strips",
+        "6-8 Crimini mushrooms, sliced",
+        "(optional) 1 ear of corn, kernels cut off the cob",
+        "1/4 cup crumbled queso fresco",
+        "Juice from 1 lime",
+        "1/2 packet spicy taco or fajita seasoning",
+        "1/4 cup sour cream",
+        "1/4 cup Greek yogurt",
+        "1/4 cup chimichurri or salsa",
+        "1 small (2.25 oz) can sliced black olives",
+        "1 large tomato, diced",
+        "1/2 - 1 avocado, diced",
+        "1/4 cup fresh cilantro leaves"
+      ],
+      "steps": [
+        {
+          "pic": "fajita-fiesta-pasta-1.png",
+          "instruction": "Cook Pasta & Sauté Veggies: Add pasta to boiling water and cook for 11 minutes (or to preferred tenderness). While the pasta boils, melt butter in a large skillet over medium heat and sauté the onions, mushrooms, bell pepper, and corn (if using) until they start to soften and caramelize. Squeeze lime juice over the veggies, stir in the spicy taco/fajita seasoning, and continue to cook and stir until evenly coated."
+        },
+        {
+          "pic": "fajita-fiesta-pasta-2.png",
+          "instruction": "Prep Dressing: Set veggies aside to cool. Drain cooked pasta and set aside. Meanwhile, whisk together the Greek yogurt, sour cream, and chimichurri (or salsa) in a small bowl."
+        },
+        {
+          "pic": "fajita-fiesta-pasta-3.png",
+          "instruction": "Toss Pasta: Cool pasta in the fridge (or leave warm, according to preference), then toss the pasta in the creamy yogurt and sour cream dressing along with the sautéed veggies and sliced black olives."
+        },
+        {
+          "pic": "fajita-fiesta-pasta.png",
+          "instruction": "Top & Serve: Serve topped with crumbled queso fresco, fresh cilantro leaves, diced avocado, and diced tomato."
+        }
+      ],
+      "notes": "Pasta luego!"
+    },
+    {
       "name": "Sorta Torta with Sourdough Avocado and Egg",
       "header_pic": "sorta-torta-plated.png",
       "pub_date": "08/21/26",

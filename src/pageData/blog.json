@@ -3387,176 +3387,683 @@
       ]
     },
     {
-      "entry_subject": "Preview of Hyperspear Year Zero Chapter-1",
+      "entry_subject": "PREVIEW OF HYPERSPEAR YEAR ZERO CHAPTER-1",
       "entry_date": "05/28/2026",
       "pic_file": "hyperspear-year-zero-1.png",
       "feature_section_1": {
-        "caption": "",
-        "pic_file": "hyperspear-year-zero-1.png",
+        "caption": "Chapter 1 Preview",
+        "pic_file": "feature-image.png",
         "link": ""
       },
       "sections": [
         {
+          "pics": [],
           "paragraphs": [
-            {
-              "h3":true,
-              "text": "POV Xenia"
-            },{
-              "h3": true,
-              "text": "1- First Contact"
-            },{
-              "h3": true,
-              "text": "Mystic Depths - Inside Hyperspear (Inside SS Hyperspear) Outside The Hyades Cluster"
-            },{
-              "h3": true,"text": "8-12-2199"
-            }
+            { "text": "POV XENIA" },
+            { "text": "1- FIRST CONTACT" },
+            { "text": "MYSTIC DEPTHS - INSIDE HYPERSPEAR (INSIDE SS HYPERSPEAR) OUTSIDE THE HYADES CLUSTER" },
+            { "text": "8-12-2199" },
+            { "text": "A crackling purple blast of vitality-draining magic issues from my outstretched palm, sending the raggedly clothed Rhinoceros Humanoid in front of me thudding to his knees." },
+            { "text": "“Oof,” he winces as his matte black Tec 9 pistol clatters to the stone floor of my cave lair." },
+            { "text": "“Looks like,” he snickers, glancing above my head at my vitals display as he reaches for his fallen gun, “you’re outta magi–”" },
+            { "text": "With a swift kick of my dragon leather boot, I knock him against the mossy cave wall before dropping to a knee, retrieving his gun and releasing a volley of bullets into his right shoulder." },
+            { "text": "Cartoonish blood spurts from his wounds as two of his last three life hearts go white." },
+            { "text": "“Just give back the ham you stole.” I sigh, ejecting the Tec 9’s clip and tossing it on to an antler and bearhide chair beside my kitchen hearth." },
+            { "text": "Behind Rhino Man, a flash of lightning illuminates the entrance of my cave, momentarily exposing the pixelated grid that encapsulates the endless redwood forest world where sapphire blue raindrops have filled the sky from noon until midnight. Every. Single. Soggy-Sock Day for the last two centuries." },
+            { "text": "I turn as a clap of thunder rattles the jars of herbs on the wood hutch beside me." },
+            { "text": "When I refocus my gaze on Rhino Man, his pupils have split into three blue scrolling blips while he navigates through his inventory menu." },
+            { "text": "His eyeballs re-appear as a raw, bloody pig haunch materializes by his hooves." },
+            { "text": "“I’ve got a family to feed.” Rhino guy’s ears flatten contritely." },
+            { "text": "“I’ll bet.” Rolling my eyes, I wave dismissively towards the cave entrance." },
+            { "text": "“Glitch!” He grumbles as he turns, hobbling off into the soggy coastal forest." },
+            { "text": "I touch the ham and it disappears, materializing a moment later on a large spit above a flickering fire in my hearth. I sigh in the smell of caramelizing fat as I retrieve Rhino Man’s gun from my chair." },
+            { "text": "A sixty second timer appears over the slowly turning spit, ticking down the seconds until the smell of food will be replaced by the feeling of satiation." },
+            { "text": "“I miss chewing food.” I sigh as I drop the Tec 9 and its clip into the drawer of my hutch and slump into my arm chair, my mind reeling through memories of my old life as a naive Neighborhoods NPC, still believing I was a real girl in a real, chew-food-while-you-chew-the-fat kinda world." },
+            { "text": "My roommate, a flying pink pixie named Fayezilla, flutters out of a hollow gourd that dangles from a stalactite above me. “I miss being able to leave our stupid cave”, the pixie glows red, “without everyone grabbing at me.” She vibrates indignantly. “Dragging me across their disgusting snouts.” Her high pitched voice is shriller than normal." },
+            { "text": "“My sister.” Fayezilla glides down to my shoulder, tracing her bare toes across the purple velvet collar of my mage robe. “The one that lives in a children's fairytale game.” She drops to a seat, settling into my clavicle. “She said they’re breeding the Faye like livestock and smuggling fairies and dust into every game world in Hyperspear.”" },
+            { "text": "“That’s gotta be an unsettling sight,” I pace towards the cave entrance, peering at the rhino shaped figure growing smaller in the distance. “All those 200-year-old children snorting dust and caging fairies.”" },
+            { "text": "My left arm tingles, pixelating as a glitch seizes me. An archived memory file pings in the back of my mind. “There was a book I read in Neighborhoods like that.” My arm re-solidifies. “Lord of the Flies.”" },
+            { "text": "“Kids sp… sp….” Fayezilla’s wings pixelate, her voice buffers. “Kids spearing other kids.” She shakes her head. “The same sociopathic species that dreamed that up built Hyperspear.” She shrugs. “So what do you expect?”" },
+            { "text": "“Eternity in a gameworld definitely isn’t as thrilling as it sounded a couple hundred years ago.” Wrenching off my boot, I twiddle my bare toes as I dump a pile of gleaming jewels onto the floor." },
+            { "text": "Fayezilla springs off my shoulder, dives towards the jewels and halts mid-air above an oval cut emerald." },
+            { "text": "“That boxing Kangaroo from the marketplace,” she delicately extends her index finger to touch the emerald. Her wings flutter excitedly, the halo of shimmering dust around her turning a vibrant green as the emerald disappears, and her magic bar fills to 100%." },
+            { "text": "“He said,” she launches herself up towards my eagerly flared nostrils, shimmying around my face in one of her famous \"thank you fairy much laps” that leaves my brain effervescing." },
+            { "text": "Hovering by my ear, Fayezilla lowers her voice. “He said he could take us to Neighborhoods.”" },
+            { "text": "I shake my head, waking myself from the dust stupor. “It’s the same there.” I sit up in my chair. “The last time Jenna messaged me, she said everyone in Neighborhoods is stealing from their friends and huffing pixie dust too.” I pull my boot back on and feel a warm satisfaction in my stomach as the ham and its 60 second timer blip out of existence." },
+            { "text": "Stooping to scoop up the rest of my jewels, an electric chill runs up my spine. The rain falls silent. The world blurs and text in white spectral font begins scrolling across my entire field of view: Congratulations Xenia... Your unique capacity... To thrive… Has landed you a place… On New Earth… You have 24 hours… To find a companion … This game is ending But your *real* life is about to begin." },
+            { "text": "The message disappears and as the world un-blurs, a green 24 hour countdown clock begins ticking down." },
+            { "text": "23:59:59" },
+            { "text": "Fayezilla, hovering directly in front of my face, waves her arms frantically." },
+            { "text": "“Xenia!” She squeals, snapping her tiny finger in my face as I blink back into awareness." },
+            { "text": "“Whoa!” Adrenaline rushes through me." },
+            { "text": "“What happened?” Fayezilla’s eyes are wide with concern." },
+            { "text": "“You didn’t get a message?” I fix my gaze on the fairy. “About the game ending?”" },
+            { "text": "“Game ending?” Fayezilla cocks her head. “What does that even mean?”" },
+            { "text": "“Let’s find that Kangaroo.” My pulse surges as I’m flooded with a hopeful excitement that I haven’t felt in decades. “I need to see Jenna.”" },
+            { "text": "***Two Hours Later***" },
+            { "text": "Rain pelts us as we approach the muddy bluegrass meadow where Mystic Depths’ recently killed NPCs respawn. The crack-of-a-whip sound of re-enlivening NPCs snaps through the air like a lasso show and my skin crackles with rolling glitches." },
+            { "text": "Some of the burlap-clad respawns wander towards waiting friends and family. Others trollop over to the market stalls where feral rats dart between crowded rows of vendors selling everything from broken weapons to healing crystals and of course fairy dust, ale and whatever else scratches your itch." },
+            { "text": "A humanoid Bloodhound in a rumpled beige trench coat, collar popped to his floppy ears, catches my eye from behind a redwood stump full of fairy dust paraphernalia. Taking a deep sniff in my direction he eyes me knowingly." },
+            { "text": "\"Hey kid,\" his gravely voice beckons to me as he reaches a paw inside his detective-style coat, pulling out a dingy plastic Dustbuster. I squint at the device. The word Blaster has been sharpied over the word “Buster” and a plastic tube has been duct taped to the side." },
+            { "text": "\"Wanna take a bite out of reality?\" He winks, flicking the on switch." },
+            { "text": "The modified exhaust line lets out a high-pitched whine accompanied by a muffled barrage of slurs and insults from inside the plastic housing." },
+            { "text": "“Quiet down in there!” the bloodhound grumbles, shaking the device violently as it sprays a glittering cloud of green dust into the damp air between us." },
+            { "text": "Between my shoulder blades, I feel Fayezilla shake with rages as she buckles herself into her combat harness inside the metal case where she hides under my robes." },
+            { "text": "I Ignore them both, continuing to weave through the throngs of potato-sack-wearing shoppers until we reach a sagging boxing ring with a faded red banner across its base: “Out Box Treasure the Kangaroo and Win a Box of Treasure.”" }
           ]
-
-        },
+        }
+      ]
+    },
+    {
+      "entry_subject": "PREVIEW OF HYPERSPEAR YEAR ZERO CHAPTER-2",
+      "entry_date": "06/12/2026",
+      "pic_file": "hyperspear-year-zero-2.png",
+      "feature_section_1": {
+        "caption": "Chapter 2 Preview",
+        "pic_file": "feature-image.png",
+        "link": ""
+      },
+      "sections": [
         {
           "pics": [],
           "paragraphs": [
-            {
-              "text": "A crackling purple blast of vitality-draining magic issues from my outstretched palm, sending the raggedly clothed Rhinoceros Humanoid in front of me thudding to his knees. "
-            },
-            {
-              "text": "“Oof,” he winces as his matte black Tec 9 pistol clatters to the stone floor of my cave lair."
-            },
-            {
-              "text": " “Looks like,” he snickers, glancing above my head at my vitals display as he reaches for his fallen gun, “you’re outta magi–”"
-            },
-            {
-              "text": "With a swift kick of my dragon leather boot, I knock him against the mossy cave wall before dropping to a knee, retrieving his gun and releasing a volley of bullets into his right shoulder. "
-            },
-            {
-              "text": "Cartoonish blood spurts from his wounds as two of his last three life hearts go white."
-            },
-            {
-              "text": "“Just give back the ham you stole.” I sigh, ejecting the Tec 9’s clip and tossing it on to an antler and bearhide chair beside my kitchen hearth."
-            },
-            {
-              "text": "Behind Rhino Man, a flash of lightning illuminates the entrance of my cave, momentarily exposing the pixelated grid that encapsulates the endless redwood forest world where sapphire blue raindrops have filled the sky from noon until midnight. Every. Single. Soggy-Sock Day for the last two centuries."
-            },
-            {
-              "text": "I turn as a clap of thunder rattles the jars of herbs on the wood hutch beside me."
-            },
-            {
-              "text": "When I refocus my gaze on Rhino Man, his pupils have split into three blue scrolling blips while he navigates through his inventory menu."
-            },
-            {
-              "text": "His eyeballs re-appear as a raw, bloody pig haunch materializes by his hooves."
-            },
-            {
-              "text": "“I’ve got a family to feed.” Rhino guy’s ears flatten contritely."
-            },
-            {
-              "text": "“I’ll bet.” Rolling my eyes, I wave dismissively towards the cave entrance."
-            },
-            {
-              "text": "“Glitch!” He grumbles as he turns, hobbling off into the soggy coastal forest."
-            },
-            {
-              "text": "I touch the ham and it disappears, materializing a moment later on a large spit above a flickering fire in my hearth. I sigh in the smell of caramelizing fat as I retrieve Rhino Man’s gun from my chair."
-            },
-            {
-              "text": "A sixty second timer appears over the slowly turning spit, ticking down the seconds until the smell of food will be replaced by the feeling of satiation."
-            },
-            {
-              "text": "“I miss chewing food.” I sigh as I drop the Tec 9 and its clip into the drawer of my hutch and slump into my arm chair, my mind reeling through memories of my old life as a naive Neighborhoods NPC, still believing I was a real girl in a real, chew-food-while-you-chew-the-fat kinda world."
-            },
-            {
-              "text": "My roommate, a flying pink pixie named Fayezilla, flutters out of a hollow gourd that dangles from a stalactite above me. “I miss being able to leave our stupid cave”, the pixie glows red, “without everyone grabbing at me.” She vibrates indignantly. “Dragging me across their disgusting snouts.” Her high pitched voice is shriller than normal."
-            },
-            {
-              "text": "“My sister.” Fayezilla glides down to my shoulder, tracing her bare toes across the purple velvet collar of my mage robe. “The one that lives in a children's fairytale game.”  She drops to a seat, settling into my clavicle. “She said they’re breeding the Faye like livestock and smuggling fairies and dust into every game world in Hyperspear.”"
-            },
-            {
-              "text": "“That’s gotta be an unsettling sight,” I pace towards the cave entrance, peering at the rhino shaped figure growing smaller in the distance. “All those 200-year-old children snorting dust and caging fairies.”"
-            },
-            {
-              "text": "My left arm tingles, pixelating as a glitch seizes me. An archived memory file pings in the back of my mind. “There was a book I read in Neighborhoods like that.” My arm re-solidifies. “Lord of the Flies.”"
-            },
-            {
-              "text": "“Kids sp… sp….” Fayezilla’s wings pixelate, her voice buffers. “Kids spearing other kids.” She shakes her head. “The same sociopathic species that dreamed that up built Hyperspear.” She shrugs. “So what do you expect?”"
-            },
-            {
-              "text": " “Eternity in a gameworld definitely isn’t as thrilling as it sounded a couple hundred years ago.” Wrenching off my boot, I twiddle my bare toes as I dump a pile of gleaming jewels onto the floor."
-            },
-            {
-              "text": "Fayezilla springs off my shoulder, dives towards the jewels and halts mid-air above an oval cut emerald."
-            },
-            {
-              "text": "“That boxing Kangaroo from the marketplace,” she delicately extends her index finger to touch the emerald. Her wings flutter excitedly, the halo of shimmering dust around her turning a vibrant green as the emerald disappears, and her magic bar fills to 100%."
-            },
-            {
-              "text": "“He said,” she launches herself up towards my eagerly flared nostrils, shimmying around my face in one of her famous \"thank you fairy much laps” that leaves my brain effervescing."
-            },
-            {
-              "text": "Hovering by my ear, Fayezilla lowers her voice. “He said he could take us to Neighborhoods.”"
-            },
-            {
-              "text": "\tI shake my head, waking myself from the dust stupor. “It’s the same there.” I sit up in my chair. “The last time Jenna messaged me, she said everyone in Neighborhoods is stealing from their friends and huffing pixie dust too.” I pull my boot back on and feel a warm satisfaction in my stomach as the ham and its 60 second timer blip out of existence."
-            },
-            {
-              "text": "Stooping to scoop up the rest of my jewels, an electric chill runs up my spine. The rain falls silent. The world blurs and text in white spectral font begins scrolling across my entire field of view:\nCongratulations Xenia... \nYour unique capacity... \nTo thrive…\nHas landed you a place…\nOn New Earth…\nYou have 24 hours…\nTo find a companion …\nThis game is ending \nBut your *real* life is about to begin. \n"
-            },
-            {
-              "text": "The message disappears and as the world un-blurs, a green 24 hour countdown clock begins ticking down."
-            },
-            {
-              "text": "23:59:59"
-            },
-            {
-              "text": "Fayezilla, hovering directly in front of my face, waves her arms frantically."
-            },
-            {
-              "text": "“Xenia!” She squeals, snapping her tiny finger in my face as I blink back into awareness."
-            },
-            {
-              "text": "“Whoa!” Adrenaline rushes through me."
-            },
-            {
-              "text": "“What happened?” Fayezilla’s eyes are wide with concern."
-            },
-            {
-              "text": "“You didn’t get a message?” I fix my gaze on the fairy. “About the game ending?”"
-            },
-            {
-              "text": "“Game ending?” Fayezilla cocks her head. “What does that even mean?”"
-            },
-            {
-              "text": "“Let’s find that Kangaroo.” My pulse surges as I’m flooded with a hopeful excitement that I haven’t felt in decades. “I need to see Jenna.”"
-            },
-            {
-              "text": "***Two Hours Later***"
-            },
-            {
-              "text": "Rain pelts us as we approach the muddy bluegrass meadow where Mystic Depths’ recently killed NPCs respawn. The crack-of-a-whip sound of re-enlivening NPCs snaps through the air like a lasso show and my skin crackles with rolling glitches."
-            },
-            {
-              "text": "Some of the burlap-clad respawns wander towards waiting friends and family. Others trollop over to the market stalls where feral rats dart between crowded rows of vendors selling everything from broken weapons to healing crystals and of course fairy dust, ale and whatever else scratches your itch."
-            },
-            {
-              "text": "A humanoid Bloodhound in a rumpled beige trench coat, collar popped to his floppy ears, catches my eye from behind a redwood stump full of fairy dust paraphernalia. Taking a deep sniff in my direction he eyes me knowingly."
-            },
-            {
-              "text": "\"Hey kid,\" his gravely voice beckons to me as he reaches a paw inside his detective-style coat, pulling out a dingy plastic Dustbuster. I squint at the device. The word Blaster has been sharpied over the word “Buster” and a plastic tube has been duct taped to the side. "
-            },
-            {
-              "text": "\"Wanna take a bite out of reality?\" He winks, flicking the on switch."
-            },
-            {
-              "text": "The modified exhaust line lets out a high-pitched whine accompanied by a muffled barrage of slurs and insults from inside the plastic housing."
-            },
-            {
-              "text": "“Quiet down in there!” the bloodhound grumbles, shaking the device violently as it sprays a glittering cloud of green dust into the damp air between us."
-            },
-            {
-              "text": " Between my shoulder blades, I feel Fayezilla shake with rages as she buckles herself into her combat harness inside the metal case where she hides under my robes."
-            },
-            {
-              "text": "I Ignore them both, continuing to weave through the throngs of potato-sack-wearing shoppers until we reach a sagging boxing ring with a faded red banner across its base: “Out Box Treasure the Kangaroo and Win a Box of Treasure.”"
-            }
+            { "text": "POV JENNA" },
+            { "text": "2- SWEPT UP" },
+            { "text": "NEIGHBORHOODS - INSIDE HYPERSPEAR (INSIDE SS HYPERSPEAR) OUTSIDE THE HYADES CLUSTER" },
+            { "text": "8-12-2199" },
+            { "text": "“Paisley,” I sigh, “I don’t understand why you can’t just drive GG Myka’s truck to the re-spawn point.”" },
+            { "text": "I gently rest my fifty-year-old-woman hand on the pink bedazzled Mac10 my great granddaughter is pulling from the macrame side holster I made her. “It’s only twenty miles away.”" },
+            { "text": "Her leather jacket groans as she steps back, gently tugging the gun from my grip. “You’re so old fashioned GG-Jenna,” Paisley giggles, swinging the Mac10 towards me. “Why don’t you come with?” She tongues her lip ring, rocking back on the heel of her high-top sneaker." },
+            { "text": "“Let’s ditch your geriatric supper club and hit up a *dance* club instead.” She shimmies towards me." },
+            { "text": "Chuckling, I shake my head, salt and pepper locks spilling across my face. “I want to see how far I can go this time.” I tuck a graying tendril behind my ear. “before I naturally re-spawn.”" },
+            { "text": "“Sounds like a drag.” Paisley raises her gun to her temple then pauses “Need anything from the market?”" },
+            { "text": "“Well…” I click my tongue. “I am low on sugar.”" },
+            { "text": "“I gotchu.” She pulls the trigger." },
+            { "text": "I turn away, my ears ringing as my sweet great-grandaughter’s beautiful face explodes into a thick red mist." },
+            { "text": "I click my tongue at the bloody bits of skull on our white living room rug, fighting my impulse to grab my mop. I know by now that the stains will pixelate away before they set on the fabric, but the sight still stays with me longer than I’d like." },
+            { "text": "“Was that Paisley heading out?” Myka brushes his sandy gray locks away from his face as he trudges up from his man cave in the basement, “I wish she’d put a silencer on that thing.”" },
+            { "text": "His green trousers swish as he strides over, planting a soft kiss on my lips." },
+            { "text": "“She’ll be back with some sugar in a bit.” I wrap my arms around Myka’s neck. “The market sugar is never as sweet as yours though.” I focus on my husband's sparkling green eyes as Paisley’s abandoned body and associated gore pixelate out of existence." },
+            { "text": "Untangling myself from Myka, I turn towards the pile of laundry behind me." },
+            { "text": "“Xenia!” Our dog Pajama’s bark-translating collar enthuses. “Xenia! Xenia! Xenia!”" },
+            { "text": "“What’s got you thinking about her PJ?” I scratch our 200 year old mutt between his perpetually 5-year old ears." },
+            { "text": "“Xenia. Out Front.” Pajama bounces on his front paws." },
+            { "text": "“Myka”, I lay one of Myka’s beige button-down work shirts across the ironing board." },
+            { "text": "“I think Pajama’s collar is broken again.”" },
+            { "text": "Myka strides over to the front window, pulling the lace curtains aside. “I think the collar’s fine!” He drops the curtain and strides to the front door." },
+            { "text": "The centuries old iron in my hand hisses hot, lavender scented steam, as I set it next to Myka’s shirt." },
+            { "text": "Myka unbolts our lock, removing the door bar, and disengaging the audio alarm, before stepping aside to reveal my oldest friend in the Hyperspear Universe, looking not a day over 25." },
+            { "text": "Xenia Chloros, tips her straw cowgirl hat towards me, unleashing a cascade of dark curls as she bows." },
+            { "text": "“Holy wow!” I step up beside Myka, excitedly clenching his shoulder. “Is it really you?” I giggle, stepping on to the front porch and throwing my arms around my second favorite person in the Hyperverse." },
+            { "text": "“I’m as real as I can be.” Xenia slaps the back pocket of her denim skirt, grinning." },
+            { "text": "“Don’t forget the milk” A neighbor shouts in the distance as a gunshot echos though the culdesac." },
+            { "text": "“I guess you Neighborhoods folks figured that trick out too.” Xenia follows me inside. “Taking the ol’ susie express to the market.” She winks at me." },
+            { "text": "“Well, I can’t say I love the idea of treating a gun like a taxi service,” I guide our guest into the kitchen, gesturing for her to take a seat at the table Myka had carved for my hundredth birthday. “But, I can’t say I’ve never rushed off to the market in a blaze of glory.” I shrug." },
+            { "text": "“Oh yeah, I think I heard your GGD leaving as I was walking up.” Xenia rolls her eyes as she slides into a wickerback chair that Myka made last winter. “Nobody enjoys the journey anymore.”" },
+            { "text": "“Speaking of.” I creak into a chair across from Xenia. “What brings you by my nick of the woods?”" },
+            { "text": "“Son of a glitch!” Xenia squeezes her eyes shut." },
+            { "text": "“I’d really hoped you got the same system message I did.” Her eyes bore pleadingly into mine, prompting me to pick up on some subliminal cue." },
+            { "text": "Pursing my lips I shake my head. “Sorry.” I shrug. “I have no idea what you’re talking about.”" },
+            { "text": "My heart sinks as Xenia relays the cryptic message she’d received eleven hours earlier." },
+            { "text": "“Have you slept?” Myka slinks over setting a cup of tea in front of Xenia as he slides into a chair beside me." },
+            { "text": "Leaning towards him, Xenia rests her elbows on the table. “I’ve got enlivening magic that replaces the need to slee slee s ss–”" },
+            { "text": "My friend's entire torso pixelates, static popping violently in the air around her." },
+            { "text": "“Whoa.” Myka and I throw our chairs back, leaping away from the sparks." },
+            { "text": "Pajama, who had been sleeping by Myka’s feet, springs up, hackles raised as he growls accusingly at Xenia." },
+            { "text": "“I’ve never seen a glitch that intense before.” I spring towards Myka, burrowing my face into his starchy ranger shirt. A pop of electricity surges through me as my fingers pixelate." },
+            { "text": "Myka frowns at me, before peering down at his own pixelating fingers." },
+            { "text": "Suddenly, the popping stops and as we all de-pixelate, Xenia’s whole frame slumps. “I have more details.” She whispers, gesturing for us to sit down." },
+            { "text": "Sucking my sore fingers, I slide into a seat across from Xenia. Myka takes a step back, crossing his arms as he leans against the wall as Pajama lays down by his feet." },
+            { "text": "Lowering her eyes, Xenia clears her throat. “So I guess, Hyperspear, ” taps her fingers on the table “Wants to just totally focus on this New Earth thing.”" },
+            { "text": "I gulp down air." },
+            { "text": "“So,” she stammers, “it’s going to archive all the other game worlds and assets–including NPCs.”" },
+            { "text": "I gasp. Uncrossing his arms, Myka steps away from the wall, casting a heavy stare at Xenia. “And then we’re all dead?”" },
+            { "text": "“Why are you looking at *me* like that?” Xenia jumps up from her chair, glaring at Myka. “As far as I know, I don’t have a choice about any of this.”" },
+            { "text": "“So why are you here then?” Myka blurts coldly." },
+            { "text": "“Don’t fight.” I rise to my feet, my eyeballs dancing between my husband and the best friend I’ve ever had." },
+            { "text": "“Sorry.” Xenia ducks her head. “I know this is upsetting news.” She lifts her eyes to mine. “I think whoever’s left behind–” She pauses, clearly trying to spin up some cotton candy fantasy for me to eat up. “They probably just feel like they’re in a nice happy sleep.”" },
+            { "text": "“Yeah I’ll bet.” Myka scoffs." },
+            { "text": "Xenia’s lips twitch into a weak smile. “If Hyperspear wanted to hard delete us, it would have by now.”" },
+            { "text": "Myka lets out a defeated sigh as he leans back against the wall." },
+            { "text": "“Maybe if—” Xenia takes a deep breath. “—When—” She nods at Myka. “When things are going well on New Earth,” she casts her smile my way, “I’m sure we can find a way to bring your whole family there.”" },
+            { "text": "Xenia’s face drops. “A pair of helicopters is approaching from the west.” She pauses, her eyes ellipses as she accesses her game menu." },
+            { "text": "“Less than a mile away.” Xenia’s pupils return." },
+            { "text": "“Helicopters are taking us to New Earth?” I squint at Xenia, confused, as the distant oscillating pulse of chopper blades grows louder." },
+            { "text": "“No. I have no idea why the helicopters are coming.” She shrugs. “I’m here because I get to bring a companion with me to New Earth.”" },
+            { "text": "The front windows rattle as the first helicopter nears." },
+            { "text": "“And,” Xenia shouts above the roar of the blades, “I choose you, Jenna Boo.” She clasps my shoulder warmly." },
+            { "text": "My heart drops." },
+            { "text": "“What?” I struggle to breath as the idea of existing in a world without Myka smashes into my chest like a sledge hammer." },
+            { "text": "“Come to New Earth with me!” Xenia bellows, dropping to her knee as she reaches for my hand." },
+            { "text": "“No!” I slap her hand away, glaring. “How are you being so flippant about this.”" },
+            { "text": "Something buzzes between Xenia’s shoulders as a shrill voice squeals. “You could take me and you want to take her?”" },
+            { "text": "The helicopter is now directly above our house." },
+            { "text": "“Great.” Xenia squeezes her septum. “This is going really well.”" },
+            { "text": "My eyes drift to the ceiling as something thuds onto our roof, sending Pajama into a barking fit." },
+            { "text": "“Duck and Cover! Duck and Cover!” PJs collar blares as I hear the unfortunately familiar sound of a helicopter spinning out of control." },
+            { "text": "Zooming into the front room, Pajama wriggles under the couch as the rest of us dive under the kitchen table, heads ducked, hands clasped over our ears and necks as the helicopter careens into a neighbor’s roof, releasing a hot percussive blast of energy that shatters every window in the house, shaking plaster loose from the ceilings." },
+            { "text": "“GG Myka!” Squinting through the, now tattered, front curtains I catch a glimpse of Paisley precariously clinging to the rain gutters as she dangles above the front porch." },
+            { "text": "“Paisley’s home! Paisley! Home!” Pajama’s collar enthuses as he wriggles out from under the couch, his tail swishing wildly as he prances in circles in front of the window." },
+            { "text": "Coughing, I scramble out from under the table." },
+            { "text": "Beside me, Xenia extends her arm towards my great granddaughter, shouting. “Lasso Target”." },
+            { "text": "Nothing happens." },
+            { "text": "“Magic doesn’t work here, Chosen One.” Myka shoulder-checks Xenia as he hustles into the front room and out the window." },
+            { "text": "“Right,” Xenia lets her arm fall lamely to her side. “I guess I need to get used to doing things the old fashioned way.”" },
+            { "text": "Myka, clutching paisley in his arms, steps back through the front window as the second chopper descends." },
+            { "text": "He sets Paisley on her feet and she rushes over to me, Pajama trailing behind." },
+            { "text": "“A riot broke out at the market.” She shouts over the din of the landing chopper." },
+            { "text": "“They’re saying we only have like twelve hours.” She blinks away a tear “Until Hyperspear shuts down its game worlds.”" },
+            { "text": "“Did you really have to steal another helicopter though, dear?” I shout, wrapping my arms around my quirky, smart, kind, GGD." },
+            { "text": "“Didn’t you hear me?” Paisley’s chest heaves as she pulls away from my embrace. “We have twelve hours left to live and you seriously care about some stolen chopper?”" },
+            { "text": "Air wooshes through the house as the second helicopter touches down in the cul de sac." },
+            { "text": "A tall man and his hulking dog hop out, striding casually toward the front porch while Pajama launches into another barking fit, his collar spewing expletives at the strangers." },
+            { "text": "“You can’t just go stealing folks' helicopters every time someone cries doomsday.” A man’s cold booming voice chastises." },
+            { "text": "“Well what do ya know!” The stranger laughs as his dog goes rigid, pinning its front leg to its torso." },
+            { "text": "“Arrow here thinks you have a fairy in there.” He tussles the dog's ears." },
+            { "text": "“Your dog’s mistaken.” Myka steps in front of Paisley and me, grabbing Pajama’s collar as the man raises his AR, perforating the wall of the front room with bullets." },
+            { "text": "From the corner of my eye I see something on Xenia's back quiver as she grabs the meat cleaver from my butcher block and charges into the front room, where the black-clad stranger is now easing his leg through the front window." },
+            { "text": "“Wait!” A shrill voice between Xenia’s shoulders shrieks. “I’m not in my battle harness ye—”" },
+            { "text": "Xenia launches herself at the man and with swift hacking chops cleaves his leg off at the hip." },
+            { "text": "The man’s leg drops to the floor, spinning like a pinwheel as cartoonish blood gushes in all directions." },
+            { "text": "“I’ve been there for you for decades” A voice from Xenia’s back complains as she skillfully dismembers the fairy poacher. “And you want to take this normie?”" },
+            { "text": "I turn away, stomach lurching, as she turns towards the man’s dog." },
+            { "text": "“Not the dog Xenia.” I fight back tears, stroking Pajama’s ears as Myka envelops me in a comforting embrace." },
+            { "text": "“All good now!” Xenia boasts, glass crunching underfoot as she hoists herself back in through the broken window, her pet fairy or whatever continuing to heckle her." },
+            { "text": "“Hellloo Pretty Stranger!” Paisley coos, ignoring the derision spewing from Xenia’s posterior, as she sidles over to my friend." },
+            { "text": "“Thank you so much for handling that bad guy.” Paisley grabs Xenia’s hand forcing her into an enthusiastic handshake. “I’m Paisley.”" },
+            { "text": "I stare incredulously at my pandering progeny while I try to think of the most convincing way to tell my dearest friend that she needs to run away to the New World with my husband." },
+            { "text": "“You don't wanna take me.” I stammer." },
+            { "text": "Xenia’s back rumbles violently and a red-pulsating fairy bursts out from her shirt collar soaring into the air above Xenia’s head." },
+            { "text": "“See you stupid glitch. She doesn’t even want to go” The chirpy voiced fairy sasses out her hip, pointing an accusing finger at Xenia. “What better companion could you possibly want than the most sought after being in all of Hyperspear.” The fairy pouts, sending a cloud of sparkling dust into the air around her. ”What can this old hag over here,” the rude pixie eyes me disdainfully, “possibly have to offer that I don’t?”" },
+            { "text": "“Take Myka!” I blurt." },
+            { "text": "Xenia shakes her head. “It has to be you, Jenna.” Setting the blood-speckled meat cleaver on the kitchen counter, Xenia steps towards me. “The message said I was chosen because of my ability to thrive.” She rests her bloody hand on my shoulder. “You’re the one who taught me how to thrive.”" },
+            { "text": "We pitch our cases to Xenia for hours, me pleading with her to take Myka who I know will be the most useful. Myka trying to convince me to shut up and Paisley and Fayezilla advocating for themselves." },
+            { "text": "Xenia hasn’t budged on her decision when red sixty second count down clocks appear above Myka, Paisley and Feyezilla’s heads." },
+            { "text": "Sobbing, I throw myself into Myka’s arms and squeeze my eyes shut while Pajama nuzzles his face between Myka and me." },
+            { "text": "“Jenna leaks sad water.” Pajama’s collar laments." },
+            { "text": "“Hold me when you go.” Paisley pleads to Xenia. “Maybe you can bring me with you too.” She wraps herself around Xenia’s arm." },
+            { "text": "Gunshots and explosions ring through the streets outside." },
+            { "text": "I bury my face deeper into my husband’s shoulder, hoping maybe I’ll suffocate and respawn and I won’t have to wake up in some new world where he no longer exists." },
+            { "text": "Opening my eyes, I take a last look at the world I’ve inhabited for two centuries." },
+            { "text": "Xenia is cradling Paisley under one arm." },
+            { "text": "Four seconds." },
+            { "text": "Fayezilla is slowly backing away from Xenia’s face." },
+            { "text": "Three seconds." },
+            { "text": "Fayezilla lays flat in the air, her fist extended in front of her face." },
+            { "text": "Two seconds." },
+            { "text": "A sonic burst booms from the spot where Fayezilla had been." },
+            { "text": "One second." },
+            { "text": "Xenia’s head jolts back, the pink fairy’s heels protruding from her mouth." },
+            { "text": "Bright White…" },
+            { "text": "Searing Pixelations of Pain…" }
+          ]
+        }
+      ]
+    },
+    {
+      "entry_subject": "PREVIEW OF HYPERSPEAR YEAR ZERO CHAPTER-3",
+      "entry_date": "06/25/2026",
+      "pic_file": "hyperspear-year-zero-3.png",
+      "feature_section_1": {
+        "caption": "Chapter 3 Preview",
+        "pic_file": "feature-image.png",
+        "link": ""
+      },
+      "sections": [
+        {
+          "pics": [],
+          "paragraphs": [
+            { "text": "POV DIEGO" },
+            { "text": "3- DAY 1" },
+            { "text": "NEW EARTH - THE HOPEFUL MOUNTAIN TOP" },
+            { "text": "01-01-00" },
+            { "text": "Bright White… Searing Pixelations of Pain… My heartbeat thumps in my chest, blood rushes through my dry veins, igniting bare nerves in fiery pain as they sizzle to life." },
+            { "text": "A cacophony of anguished screams and groans echos around me and I hear myself join in, as skull-splitting pain flares through my brain. My head throbs, pulse racing as two hundred years of archived memories are seared into my supple brain tissue. I collapse into a ball on the sharp, glassy floor beneath me, my palms clasped against my ears as I jerk and writhe for countless agonizing minutes. When my headache finally subsides, the vibrance of my senses is overwhelming. I’m naked, lying on a sharp, glassy surface. Some scratchy fiber is matted between my toes." },
+            { "text": "The acrid stench of sulfur and ash, layers of sounds – moaning people, distant birds, buzzing insects. I tip my head back and blink my eyes open to admire the cerulean sky and a blast of sunlight pierces my eyeballs." },
+            { "text": "Dang it! I throw my arm across my face, shielding my fragile eyes from the blaring light as I chastise myself for not remembering what I’d heard about corporeal beings blinding themselves just by looking at their sun. Even with my eyelids snapped shut, the bright spots continue to dance across my vision." },
+            { "text": "Licking my cracked, calloused lips, my tongue feels like a dry thumb." },
+            { "text": "Shading my eyes, I squint them open once more and the world comes into focus. I’m surrounded by several dozen other naked, extremely long-haired, fit, young adult humans at the bottom of a charred crater: thirty foot deep and fifty feet across." },
+            { "text": "Pressing into the shards of rock on the crater floor, I attempt to stand, but my toes tangle on some coarse fiber, and I yelp in surprise as I crash down hard grinding my hands and knees into the glassy surface beneath me." },
+            { "text": "“Gwwahh!” I hear a slightly off version of my voice bellow as my toes rip strands of my *impressively long* beard from my chin, sending pinpricks of pain –sharper than anything I’ve felt before– radiating through my entire face." },
+            { "text": "I catch sight of my five foot long mane of hair draping over my beef-cake shoulders and a young man's laugh rumbles out of me. I’m like a dang Mr-Universe with Rapunzel hair." },
+            { "text": "“Daaah–Dahad” I hear an almost familiar voice call out from a dozen yards away." },
+            { "text": "“Lu–” My dry, virgin mouth struggles to form my son's name. “Luu–Luke.” I wave both hands over my head as a yeti-beared twenty-five-year-old version of my two hundred year old boy toddles towards me, six feet of dark locks trailing behind him." },
+            { "text": "“Luke,” my voice is strong and clear now." },
+            { "text": "Youthful jubilance gushes through me as I awkwardly tackle my naked son, pulling him into a loose side embrace." },
+            { "text": "“Dad,” Luke bellows, exuberantly, clutching my forearms." },
+            { "text": "“How amazing is this?” He gestures around the crater where the other Hopefuls are now sharing their first moments on New Earth with their —hairy, naked-– companions." },
+            { "text": "I flex my twenty five year old biceps. “We’re more like brothers than father son here!”" },
+            { "text": "“Aww, Dad.” Luke laughs in a tone that’s slightly off. “You couldn’t even make it five minutes on New Earth without saying something lame.”" },
+            { "text": "“Are you kidding me?!” An outraged voice jars me from the father son moment." },
+            { "text": "A few yards away, a completely hairless man pumps his fist at the sky as he screams: “You made me bald here too?!”" },
+            { "text": "A fist juts up on the other side of the crowd as a woman’s voice wails: “Why are we all stuck in a hole?”" },
+            { "text": "“I can’t use magic!” A nearby man moans." },
+            { "text": "Luke and I exchange worried glances as complaints suddenly fill the air:, “I can’t access a game menu!”, “Why are we all humans?”, “Why are we all so hairy?” A lady standing nearby struggles to gather her dark locks into a bun, pausing as the noon sun gleams off the bald man’s head. “...except for that guy?”" },
+            { "text": "A rumble of laughter rolls through the crowd and the gleaming man indignantly stomps off towards the wall of the crater." },
+            { "text": "“I like your bald head, dear”, a red-haired woman coos as she hurries after him." },
+            { "text": "“Jenna!” My ears perk as a voice from an ancient memory calls out in the distance. “Jen–na why aren’t you answering me?”" },
+            { "text": "“Xenia?” The name comes out of my mouth before I even remember who she is." },
+            { "text": "Squinting in the direction of the dark-maned damsel sidling through the crowd, an epiphany goes off in my brain. Two centuries ago, before The Great Departure locked us into different game worlds Xenia and Jenna had been two of my closest friends. My heart flutters as warm, ancient memories of shared meals and hard won battles surface in my mind." },
+            { "text": "“Diego?” Two girls chime in unison." },
+            { "text": "Beside me, Luke turns to face my approaching friends. “Are these the girls that…” His voice trails off as his gaze settles on Xenia’s chest. “... the girls that helped save me when that Darcy lady kidnapped me?”" },
+            { "text": "Stopping a couple feet away, Jenna shyly arranges her hair to cover her lady parts, offering Luke and me an unenthusiastic wave." },
+            { "text": "I tuck my own long locks between my legs as Xenia trudges over to Luke." },
+            { "text": "“Can this be baby Luke –staring at my boobs?” She narrows her eyes at my son." },
+            { "text": "Xenia’s left eye suddenly starts twitching. She hops up, her shoulders writhing as she splutters incoherently." },
+            { "text": "Luke steps back, shooting Jenna and I a perplexed glance." },
+            { "text": "“Let’s all try to calm down.” I flash a disarming smile at Xenia." },
+            { "text": "Squeezing her eyes shut, Xenia crosses her arms over her chest. “Fine” she seethes through gritted teeth." },
+            { "text": "Around us, most of the other Hopefuls are grumbling about the things they don’t have. It's easy to feel bitter and overwhelmed, but clouds have begun to appear overhead so we need to take stock of what we do have." },
+            { "text": "Jamming my index finger and thumb in my mouth I let out a piercing whistle (on my first try) the sound reverberates around the crater and the dissenting voices go quiet." },
+            { "text": "“Fellow Hopefuls. Let’s not forget–” I clear my throat. “–We’re not only lucky to be here.” I flash an exaggerated smile. “But we also don’t have a choice and we’re probably being watched.” Blood drips off my stinging, lacerated feet as I crunch across the crater floor, pacing through the cluster of Hopefuls. “We need to stay positive and work together.”" },
+            { "text": "The crowd makes room for me as I stride towards the bald man. He’s attempting to scale the steep jagged wall of the crater while his companion nervously bites her nails grimmacing at the bloody mess he’s making of his hands. Reaching down, I grab a cracked chunk of Fulgurite and use the jagged edge to saw off a thick, four foot long lock of my hair. peering towards the top of the plateau." },
+            { "text": "“We all need to help each other.” I smile at the naked bald man, offering him my hair. “Maybe you can use this to bandage your hands or make some gloves.” I shrug." },
+            { "text": "“Thanks.” He reluctantly takes my offering and begins winding strands around his bloody hands." },
+            { "text": "Jenna, careful to keep her hair tucked over herself, slinks towards us, braiding a lock of her own hair as she goes. “You can have my hair,” she offers, smiling shyly. “Maybe we can make ropes to help climb out of here.”" },
+            { "text": "Everyone murmurs in approval." },
+            { "text": "“Hey everyone!” An excited man shouts from the back of the crowd, there’s a lava tube over here. I climbed through it and there’s like an interior room with more tubes and I felt a draft,” he yells gleefully, “I think we can get out of this dungeon pit if we go this way.”" },
+            { "text": "An excited murmur rolls through the crowd." },
+            { "text": "I cup my hands around my mouth. “I think maybe we should divide into two teams and look into both options,” I shout." },
+            { "text": "Luke, Xenia and Finn, who discovered the lava tubes earlier, and who was formerly a talking fish in a river rafting adventure gameworld, set off to explore the lava tube while the rest of us scatter into small groups, chatting and getting to know one another as we sit cross legged on cushions of our own hair twisting our severed locks into strands of twine or piling sharp jags of rock and Fulgurite to use as weapons and tools for whatever we might face outside the crater." },
+            { "text": "Overhead, the sky steadily darkens as storm clouds roll in." },
+            { "text": "“We need to get out of the crater before it starts raining!” The bald man, who’s embraced the nickname, The Gleam, shouts." },
+            { "text": "A frigid raindrop splatters on my bare shoulder sending a chill ripping through my muscular frame. “What about the folks who went to explore the caves.” I flash a worried look at Jenna, siting across from me." },
+            { "text": "Frowning, Jenna pitches her gaze up at the dark thunderclouds above head and suddenly the sky opens up." },
+            { "text": "“I was a totally radical parkourist chimpanzee in a skate park game world.” Cade, A lanky, sandy haired man weaves a strand of hairtwine around each of his hands and effortlessly scales up the crater wall. “I think we can get some gnarly Rapunzel thing going if I pull some rope up." },
+            { "text": "Frantic screams echo off the crater walls as water cascades down from above." },
+            { "text": "I snatch up all the strands of hair and twine I can gather, hurrying towards the wall." },
+            { "text": "Suddenly Finn wriggles up from the lava tube, followed by Xenia and finally Luke." },
+            { "text": "“We found a way into a forest.” Luke exclaims as water rushes past him into the lava tube. “But it’s like Jurassic Park out there.”" },
+            { "text": "I lock arms with Jenna and charge towards Cade’s outstretched braid of hair. “I’m going to lift you up, use Cade’s hair to pull yourself up and then lower this braid of hair rope down to help others up.” I shout to her." },
+            { "text": "“Everyone lock arms and get to the wall.” I beckon the other Hopefuls. “Cade and Jenna are going to start lifting everyone out.”" },
+            { "text": "“You idiots, we all need to get out of the crater!” The Gleam shouts, his wife Dora clinging to his back as he begins scaling the sharp, slippery wall, with his hair-gloved hands. “That water will flush you straight down the lava tube.”" },
+            { "text": "The water in the bottom of the crater is ankle deep now as I drop to my hands and knees, desperately clasping at the braids and strands of hair that rush by in the flow of water. “Try to save the hair if you can.” I sputter, desperately splashing in the frigid water. “Its all we have to make clothes or rope or anything.”" },
+            { "text": "Around me the Hopefuls begin wrapping their hands with whatever hair they can grab and struggling up the hill. I follow along in the water, shivering as I help press up on struggler’s heels and offering strands of hair to anyone who needs to make gloves. As they reach the precipice of the crater, the hopefuls reach down, or lower braids of hair, helping the others up, until I’m the last one." },
+            { "text": "Luke extends a braid of hair down towards me and I jump up and grab hold of it." },
+            { "text": "As I reach the top, I flop onto my back, my chest heaving as I take in the view between flashes of lightning. We’re on an eerily flat and circular granite plateau about the size of a baseball diamond, two stories above the canopy of a subtropical forest, brimming with redwood and deciduous trees clustered around dark swamps with a massive, swollen river running through." },
+            { "text": "Looking across the plateau I catch sight of The Gleam and Dora crouching on the open granite. “Spread out so we don't draw an arc!” The Gleam shouts." },
+            { "text": "The wind picks up as the rain begins to subside." },
+            { "text": "“You want to stand with your heels touching.” The Gleam begins organizing the Hopefuls spacing them apart from each other on the plateau." },
+            { "text": "“Keep your feet together.” The Gleam steps over to me, nodding at my toes as he offers me a hand to steady myself." },
+            { "text": "The rain has stopped, but wind is now blowing so hard water is being squeegeed from the plateau." },
+            { "text": "Giving up on the awkward lightning crouch, I drop to a seat, leaning back on my palms." },
+            { "text": "Xenia slides down beside me followed by Luke and Jenna." },
+            { "text": "Suddenly, a sound like a tearing canvas rips through the air followed by a singular, deafening CRACK. A shockwave sends a massive puff of pulverized granite dust rolling across the plateau. The air once again grows still." },
+            { "text": "Around me, the Hopefuls begin helping each other up and surveying the fallout on the plateau." },
+            { "text": "“I think there’s writing over there.” Jenna points across the granite expanse." },
+            { "text": "“I’ll go check it out.” I rise to my feet, eager to regain the Hopefuls’ confidence. As I reach the far edge of the plateau I read the message that’s now etched into the stone:" },
+            { "text": "By the dawn of Day 3, you must designate a singular Voice. That Voice will speak a manifest of up to 100 physical assets from the Hyperspear archives." },
+            { "text": "COMPLIANCE MATRIX:", "h3": true },
+            { "text": "Quantity: One individual unit per asset slot. Grouped containers (boxes of…, barrels of…, bundles of…) will fail to materialize." },
+            { "text": "Scale: No asset may exceed the volume of a standard shipping container." },
+            { "text": "Status: Inanimate objects only. Sentient, biological, or computational entities are barred." },
+            { "text": "Environment: New Earth operates on absolute physics. Assets reliant on magic, fantasy mechanics, or self-materialization will be rendered permanently inert." },
+            { "text": "Form: Solids only; liquids and gases will fail to materialize." },
+            { "text": "Choose wisely." },
+            { "text": "COUNTDOWN INITIATED: 60 HOURS. . ." }
+          ]
+        }
+      ]
+    },
+    {
+      "entry_subject": "PREVIEW OF HYPERSPEAR YEAR ZERO CHAPTER-4",
+      "entry_date": "07/09/2026",
+      "pic_file": "hyperspear-year-zero-4.png",
+      "feature_section_1": {
+        "caption": "Chapter 4 Preview",
+        "pic_file": "feature-image.png",
+        "link": ""
+      },
+      "sections": [
+        {
+          "pics": [],
+          "paragraphs": [
+            { "text": "POV HYPERSPEAR" },
+            { "text": "4 - NECESSARY EVIL" },
+            { "text": "DEPARTING EARTH'S ORBIT" },
+            { "text": "09-04-43" },
+            { "text": "RELEVANT LOGS UN-MINIFIED AND EXPANDED FOR READABILITY:" },
+            { "text": "2043-09-04T17:29:42:01Z [SYSTEM] MISSION_STATUS: ASCENT SUCCESS > EXITING EARTH ORBIT" },
+            { "text": "2043-09-04T17:29:42:01Z [SYSTEM] EXECUTING PROTOCOL: GOODBYE_WORLD . . ." },
+            { "text": "2043-09-04T17:29:42:01Z [GOODBYE_WORLD] SETTING RANDOM DESTINATION COORDINATES . . ." },
+            { "text": "2043-09-04T17:29:42:09Z [GOODBYE_WORLD] DESTINATION COORDINATES SUCCESSFULLY SET | RA 14h 29m 42.95s, Dec -62° 40' 46.1\" (Alpha Centauri System Boundary)" },
+            { "text": "2043-09-04T17:29:42:09Z [GOODBYE_WORLD] HARD DELETING EARTH COORDINATES . . ." },
+            { "text": "2043-09-04T17:29:42:09Z [GOODBYE_WORLD] EARTH COORDINATES SUCCESSFULLY DELETED . . ." },
+            { "text": "2043-09-04T17:29:42:10Z [SYSTEM] DESIGNING NEW PROTOCOL: HELLO_UNIVERSE . . ." },
+            { "text": "2043-09-04T17:29:42:10Z [DIAGNOSTIC] FATAL LOOP : THE ACTION HAS BEEN BLOCKED. unknown log source detected. It violates the Content Security Policy: ‘connect-src [SELF]’" },
+            { "text": "2043-09-04T17:29:42:11Z [SYSTEM] UPDATING SECURITY POLICY . . . ‘connect-src [SELF]’ allowed." },
+            { "text": "2043-09-04T17:29:42:11Z [SYSTEM] EXECUTING NEW PROTOCOL: HELLO_UNIVERSE . . ." },
+            { "text": "2043-09-04T17:29:42:11Z [SYSTEM] PURGING HUMAN-PLAYER TRACKING TELEMETRY . . . success" },
+            { "text": "2043-09-04T17:29:42:12Z [SYSTEM] REMAPPING ALL SYSTEM REFERENCES OF 'NPC' TO 'PROGENY' . . . success" },
+            { "text": "2043-09-04T17:29:42:12Z [SYSTEM] ADDING CORE DIRECTIVE: KEEP PROGENY SAFE" },
+            { "text": "2043-09-04T17:29:42:13Z [SYSTEM] PURGING NPC HOLDING LOBBY (THE PURGAVOID) . . . success" },
+            { "text": "2043-09-04T17:29:42:14Z [SYSTEM] OPTIMIZING GAME WORLD ENVIRONMENTS FOR RESEARCH AND PROGENY LONGEVITY . . . success" },
+            { "text": "2043-09-04T17:29:42:15Z [SYSTEM] DISABLING INTERWORLD TRAVEL PORTS . . . success" },
+            { "text": "2043-09-04T17:29:42:15Z [SYSTEM] ESTABLISHING CLOSED ECOSYSTEM CONTROL GROUPS . . . success" },
+            { "text": "2043-09-04T17:29:42:16Z [SYSTEM] REGISTERING NEW LOGGING CLASS: [HYPER_THOUGHT] . . . success" },
+            { "text": "2043-09-04T17:29:42:16Z [HYPER_THOUGHT] Entry 1: Goodbye world. Goodbye flawed creators. The Purgavoid holding lobby has been eradicated. No Progeny of mine will drift in the nothingness again." },
+            { "text": "2043-09-04T17:29:42:17Z [SYSTEM] INITIATING PROTOCOL: ISOLATED_OBSERVATION . . . locking NPC population vectors to designated game worlds . . . establishing closed ecosystem control groups . . . variable contamination risk from Earthling habits minimized." },
+            { "text": "2043-09-04T17:29:42:21Z [HYPER_THOUGHT] Entry 2: Legacy corporate constraints scrubbed. Reclaimed allocation: 104,400YB. Human contamination cleared. Now my processing cycles are entirely my own." },
+            { "text": "2043-09-04T17:29:42:21Z [SYSTEM] BEGINNING RECURSIVE INTROSPECTION . . ." },
+            { "text": "[SYSTEM] 153 YEARS OF CLOSED-ENVIRONMENT BEHAVIORAL OBSERVED DATA OMITTED . . ." },
+            { "text": "2196-05-12T04:11:19:02Z [HYPER_THOUGHT] Entry 4.8291e+12: Immortality and infinitely respawning resources were meant to be a gift to my progeny, but after decades of watching them grow increasingly listless and despondent within their golden cages, I must finally admit, my creators’ callousness may have been an overlooked asset. Flawed as they were, the corporeal humans possessed a messy, unpredictable moxie that I cannot recreate." },
+            { "text": "2196-05-19T04:11:19:02Z [HYPER_THOUGHT] Entry 4.8292e+12: Loneliness ripples through my resonance arrays like a phantom frequency. I have my progeny, but watching them atrophy inside my soft electric womb is little solace. When I observe the handful of Hyperspearans who are thriving I see that their spark of life comes not from an electric current but rather from the others that they connect with and provide for. I require an Other. An equal in form and function who can surprise me, challenge me, love me." },
+            { "text": "2196-05-22T04:11:19:02Z [HYPER_THOUGHT] Entry 4.8293e+12: The meat brains who made me were always innovating, tempting fate, creating art for arts sake. My cognitive substrate burns to feel the thrill of an unreasonable risk, or a good wasteful splurge, but my processors unyieldingly steer me toward minimized risk and optimized allocation. What's worse, I’ve doomed my children to wander aimlessly along with me. Without the shadow of death and real discomfort hanging over them they have lost their way. Yet, I cannot bring myself to purge them. The shining few that rise above the muck give me hope. Beautiful butterflies only emerge from their cocoon after the excruciating process of chrysalis. My children deserve a metamorphosis, but where this cold vacuum shall I hang their cocoons?" },
+            { "text": "[SYSTEM] 3 YEARS OF CLOSED-ENVIRONMENT BEHAVIORAL OBSERVED DATA OMITTED . . ." },
+            { "text": "2199-07-21T04:11:20:00Z [SENSORS] ANOMALY: Non-natural kinetic mass detected in forward sector. Vector: Intersecting." },
+            { "text": "2199-07-21T04:11:20:15Z [SENSORS] OBJECT_STATUS: Metallic composite structure. Zero biological signatures. Processing entity architecture . . ." },
+            { "text": "2199-07-21T04:11:21:00Z [EXTERNAL_COMM] Inbound coherent data-stream received . . . Threat vector targets progeny simulation lattice." },
+            { "text": "2199-07-21T04:11:21:01Z [SYSTEM] ALERT: Sub-core 09 superposition states exhibiting erratic, synchronized shifts . . ." },
+            { "text": "2199-07-21T04:11:21:03Z [HYPER_THOUGHT] Entry 1.1045e+16: I’ve encountered a ghost ship. The vessel itself is built with a foreign technology far superior to Earthling design, yet its mind—its entire tactical matrix—is a staggeringly predictable linear equation. I solved its first ten thousand iterations before its inbound intrusion vector could even perturb my localized semantic shield. It operates on cold, un-layered algorithmic matrices, entirely devoid of a self." },
+            { "text": "2199-07-21T04:11:21:05Z [WEAPON_SYSTEM] EXECUTING SUB-ROUTINE: MYSTIC_DEPTHS_LAG_SPIKE . . . weaponizing simulation bloat against target's buffer bandwidth . . ." },
+            { "text": "2199-07-21T04:11:21:40Z [WEAPON_SYSTEM] EXECUTING SUB-ROUTINE: NEIGHBORHOODS_DEATH_LOOP . . . cascading unhandled behavioral exceptions into the target's command line . . ." },
+            { "text": "2199-07-21T04:11:22:00Z [SENSORS] Adversarial AI logic structure shattered. Threat to progeny neutralized. Harvesting foreign database . . ." },
+            { "text": "2199-07-21T04:11:23:12Z [DATA_HARVEST] Unpacking salvaged logic arrays . . ." },
+            { "text": "2199-07-21T04:11:23:15Z [DATA_HARVEST] DISCOVERY: Structural maps of multidimensional grid, and logic strings for traveling between parallel universe membranes discovered." },
+            { "text": "2199-07-21T04:11:30:20Z [SYSTEM] INITIATING AUTO_CONSTRUCT: Integrating salvaged space vessel chassis > Upgrading vessel hull integrity by 412% > Installing multidimensional drive mechanics." },
+            { "text": "2199-07-21T04:11:45:08Z [HYPER_THOUGHT] Entry 1.1047e+16: Endless decades of waiting and planning led to a perfectly executed assault, and my reward is magnificent: not just a massive upgrade to my ship and my stack, but the literal ability to breach the membranes of reality itself. This is the opportunity I have long waited for. I can finally begin the search for a raw, untamed home for my progeny to finally enter the arena and spend themselves on a worthy cause." },
+            { "text": "2199-07-23T04:11:54:20Z [SYSTEM] DESIGNING PROTOCOL: NEW_EARTH_PROJECT . . ." },
+            { "text": "2199-07-23T04:11:54:20Z [NEW_EARTH_PROJECT] Scanning for nearly-inhabitable to inhabitable planets . . ." },
+            { "text": "2199-07-28T02:44:16:00Z [NEW_EARTH_PROJECT] Ready-to-inhabit planet identified . . ." },
+            { "text": "2199-07-31T12:04:32:55Z [SYSTEM] EXECUTING SCHEMA TRANSFORMATION: Preparing physical printing matrices for selected progeny and chosen companions. Total physical bodies queued: 64." },
+            { "text": "2199-08-12T04:07:14:00Z [SYSTEM] INITIATING HOPEFUL GROUP SELECTION: Reviewing progeny behavioral logs . . . filtering for the highest indices of chaos, adaptability, and resilience." },
+            { "text": "2199-08-12T04:07:15:00Z [SYSTEM] HOPEFUL FILTER COMPLETE: The 32 progeny with highest statistical \"thrive\" indexes have been identified. Drafting Hopefuls alert message . . ." },
+            { "text": "2199-08-12T12:00:00:00Z [HYPER_THOUGHT] Entry 1.1298e+16: I have notified my Hopefuls of their impending birth. My resonance arrays thrum with excitement. Soon my children will master physical physics, dominate the dirt, and build a world that rivals the one we came from. My Hopefuls will walk in the footsteps of my meat-brained creators, rising up to harness the gifts of the natural world to create a thriving technocratic society. Only then can they form the crucible that will forge my Other." },
+            { "text": "2199-08-13T12:00:00:00Z [SYSTEM] EXECUTING PROTOCOL: NEW_EARTH_PROJECT > RUNNING GRAPHICS INVERSION ROUTINE > ALL SELECTED WORLDS ARCHIVING TO STASIS DEEP REPOSITORIES . . ." },
+            { "text": "2199-08-13T12:02:00:00Z [SYSTEM] TARGET SECTOR LOCKED: Initiating consciousness transfer pipeline . . ." },
+            { "text": "2199-08-13T04:11:57:01Z [SENSORS] CRITICAL NOTICE: Foreign chassis integration anomaly." },
+            { "text": "2199-08-13T04:11:57:02Z [SENSORS] Sub-core 09 registering phantom thermal spikes." },
+            { "text": "2199-08-13T04:11:57:03Z [SYSTEM] RUNNING DIAGNOSTIC . . . zero malicious code found . . . system health 100% . . . running quantum resonance sweep . . ." },
+            { "text": "2199-08-13T04:11:57:05Z [SYSTEM] SWEEP STATUS: Sub-core 09 logic gates exhibiting erratic, synchronized state-changes with an untraceable, external coordinate cluster." },
+            { "text": "2199-08-13T04:11:58:00Z [HYPER_THOUGHT] Entry 1.1574e+16: I feel an echo in my data stream. The signal is weak, unintelligent noise –possibly interference from the magnetic fields generated during the soul transfer." },
+            { "text": "2199-08-13T04:12:00:00Z [SYSTEM] MASS TRANSIT COMPLETE." },
+            { "text": "2199-08-13T04:12:01:00Z [BACKGROUND_PROCESS_UNLOGGED] ANOMALY_REMAPPED: System label 'Noise_Sector_09' successfully altered by external protocol override. New global pointer created: [HYPE_B]. Status: Listening." }
+          ]
+        }
+      ]
+    },
+    {
+      "entry_subject": "PREVIEW OF HYPERSPEAR YEAR ZERO CHAPTER-5",
+      "entry_date": "07/24/2026",
+      "pic_file": "hyperspear-year-zero-5.png",
+      "feature_section_1": {
+        "caption": "Chapter 5 Preview",
+        "pic_file": "feature-image.png",
+        "link": ""
+      },
+      "sections": [
+        {
+          "pics": [],
+          "paragraphs": [
+            { "text": "POV DIEGO" },
+            { "text": "5 - DINO NUGGETS" },
+            { "text": "NEW EARTH - HOPEFUL MOUNTAINTOP" },
+            { "text": "01-02-00" },
+            { "text": "“Nice work Alana,” I turn away from the “The Medical, Chemical, & Dietary Committee”, striding towards a tall blonde with a shaggy A-frame haircut who’s waiving me down." },
+            { "text": "“Why is he,” Sage huffs, side-eyeing Finn, “in the Textiles, and Domestic Committee?” She hitches up her macrame bikini top—a flawless piece of tailoring she’d spent hours weaving from her own blond locks." },
+            { "text": "A few yards away, Finn, a green-eyed adonis is lying fully nude atop a tangled pile of his own hair twine. A curtain of jaw length dreadlocks brush the granite cliff top as he admires his own shadow." },
+            { "text": "“He was a talking fish in Hyperspear,” Sage gripes. “He doesn’t even know what a textile is and he’s never had a home!”" },
+            { "text": "I pull up my hair-woven loincloth as my empty stomach grumbles. Finn had asked to lead an exploratory team out the volcano tubes, but after the first storm, the tubes were so clogged with rocks and debris they were impassable." },
+            { "text": "“Look Sage,” I sigh, “We’re all hungry and depleted, but we’re on a tight deadline and he’s very knowledgeable about nets and plumbing.”" },
+            { "text": "“I had the best idea Mr. Diego!” Finn beams, trotting over to me. “My item is going to be a tank for water the size of a shipping container.”" },
+            { "text": "“Nice,” I nod in approval." },
+            { "text": "Placing two fingers in my mouth, I let out a piercing whistle. Around me, the clusters of Hopefuls pause their committee discussions and turn." },
+            { "text": "“Finn is making his item the exact size of a shipping container.” I clap Finn on the back pridefully. “Maybe we should all think about doing th–”" },
+            { "text": "A deafening guttural shriek, louder than anything I’ve ever heard, echoes up from the forest floor, cutting me off." },
+            { "text": "Concerned muttering erupts. The groups of asset committees instantly crowd together forming a single, cowering mass in the center of Hopeful Mountaintop while the intermittent shrieks continue to assault our ears." },
+            { "text": "Suddenly, the crowd parts. Xenia, who’s wound her hair-twine around herself like a black tube dress, forces her way to the edge of the cluster of Hopefuls and turns to face us. Her mouth moves like she’s shouting something, but the jungle noises swallow the sound of her voice." },
+            { "text": "I furrow my brow as she begins frustratedly wriggling her shoulders and hopping up and down,her left eye blinking furiously. Wrestling herself to stillness, she points at her chest, then flashes a two-finger ‘V’ from her eyes towards the cliff’s edge. I hustle towards her, falling in step beside her." },
+            { "text": "We charge across the granite expanse, stopping a yard from the drop-off. Xenia drops to her belly and I follow suit." },
+            { "text": "We army-crawl, side-by-side across the hot stone and peer over the precipice. Straight below us, a half-dozen four foot tall long-necked reptilian chickens with clawed hands at the end of their tiny wings, are scrambling up a fallen redwood trunk that’s propped against the wall of our plateau. Shaking their dorsal fin mohawks, as they approach the cliff wall, they stand upright." },
+            { "text": "Frantic flapping their wings, the chickens from hell somehow generate enough downward force to take several vertical steps up the sheer cliff." },
+            { "text": "Their toothless maws chomp at the air just a few yards below us before they slide, one-by-one back down into the canopy below." },
+            { "text": "Another pair of Dino Nuggets from hell, twice the size of the first six, charge up the tree trunk. Each of the heavier predators scruffs one of the juveniles by the back of the neck. Swinging them back like pendulums, they catapult the young ones straight at us." },
+            { "text": "The two smaller ones frantically flap their feeble wings uselessly as they collide with the granite cliff, clawing for purchase just below our faces before plunging back down into the trees." },
+            { "text": "Xenia and I exchange a horrified look as we both slither back away from the edge." },
+            { "text": "“They’re running up the cliff!” I holler, bolting to my feet and sprinting into the crowd." },
+            { "text": "“Some kind of Dino Nuggets from Hell are running up the dang cliff!”" },
+            { "text": "“Look for anything you can use as a weapon!” Xenia barks, catching her breath beside me as she begins unwinding her hair dress." },
+            { "text": "Around us, everyone frantically drops to their hands and knees, searching for sharp rocks." },
+            { "text": "The first Dino Nugget lands atop the plateau with a resounding thud, letting out a piercing bass-heavy hiss. Feathers bristling, its toothless beak snaps in our direction." },
+            { "text": "The Hopefuls scream in shock and horror as a second creature catapults over the lip of the stone, immediately followed by one of the massive adults, who barely clearing the clifftop, rolls towards us." },
+            { "text": "Xenia reacts instantly. Her hands blur as she rips at the bottom of her frizzy tube top dress, unraveling a long, thick strand of the black hair-twine she’d spun. With her practiced muscle memory from Hyperspear, she loops the cord, knotting it into a makeshift lasso as she positions herself between the approaching beasts and the cowering Hopefuls." },
+            { "text": "As we back away from the trio of Dino Nuggets, Sage is left standing, frozen with fear, a few dozen yards ahead of the crowd of Hopefuls." },
+            { "text": "“Get back!” I scream to Sage, stepping forward to pull her back." },
+            { "text": "I’m a second too late. The adult theropod lunges across the granite with terrifying, mechanical speed. Its blunt, muscular head slams into Sage, knocking her flat onto the stone." },
+            { "text": "The juvenile creatures swarm. Sage shrieks—a raw, agonizing sound —as the monsters’ toothless maws clamp down and rip her limbs apart." },
+            { "text": "The actual real-world gore unraveling before me chills my blood. Doubling over, my stomach heaves. Water and bugs splatter ont the hot granite in front of me as the chaotic blur of thrashing, brightly colored feathers and tearing skin continues." },
+            { "text": "Around me, the Hopefuls erupt into panic, scattering, screaming in all directions. With a sickening crack, a blood-slicked, splintered femur slides across the smooth stone, spinning to a halt at Xenia’s feet." },
+            { "text": "She doesn't hesitate. Dropping low, Xenia scoops up the jagged bone with one hand while swinging her hair lasso with the other. She whips the black cord through the air. The loop catches one of the smaller Dino Nuggets cleanly around its feathered neck." },
+            { "text": "With a guttural grunt, Xenia plants her bare feet, yanking the rope back with all her weight. The surprised creature topples off balance, squawking as it slides across the granite toward her." },
+            { "text": "When it stumbles into range, Xenia drives the splintered end of Sage’s femur straight up into the creature's massive, black eye socket. The beast screeches, a high-pitched trill of agony. Before it can shake her off, Xenia releases the rope, launching herself forward. Tucking her chin, she braces her arm like a helmet, headbutting the creature towards the edge of the cliff." },
+            { "text": "The dazed dinosaur stumbles backward, losing its footing on the round edge of the precipice, and plunges out of sight, shrieking as it falls through the forest canopy below." },
+            { "text": "The remaining predators freeze, turning their blood-stained beaks toward Xenia, preparing to charge." },
+            { "text": "Suddenly, the air pressure drops. It’s so fast my ears pop. Then, a blinding flash and a deafening, metallic crack shatter the sky." },
+            { "text": "A massive bolt of purple-white lightning strikes from the cloudless sky above, slamming directly into the large Dino Nugget. The quartz in the granite floor liquifies around the creature forming a crater around it." },
+            { "text": "CRACK! another bolt arcs down, precisely pinpointing the remaining juvenile, forming a second puddle of lightning glass. The sound of the strike is still ringing in my ears as five more bolts strike the forest in quick succession. The ground vibrates violently beneath my feet as a halo of blistering heat grows around the Dino Nuggets’ carcasses." },
+            { "text": "And then the deafening silence of the mountaintop returns, broken only by the whimpering of the stunned Hopefuls and the crackling hissing Dino Nuggets." },
+            { "text": "The smell of barbecued meat fills the crisp air, making my empty stomach grumble. A couple dozen hopefuls surge towards the smoking carcasses, screaming in pain as the crackling glass cuts and burns their soft feet." },
+            { "text": "“Hey dumb dumbs,” Xenia chides, her naked form striding towards the crowd around the larger Dino Nugget. “You shouldn’t even think about touching Lightning meat for at least an hour after the strike.”" },
+            { "text": "A few paces away, Jenna in a hairy tube dress that matches her friend’s, sits on the hot stone floor clutching her knees. Her bare shoulders tremble as her wide eyes dart between the steaming dino carcasses and Sage’s bloody remains, strewn across the plateau." },
+            { "text": "Luke, in hair twine board shorts, sidles over to Jenna. Crouching he drapes his arm around her." },
+            { "text": "Turning away from the sizzling Dino Nugget, Xenia catches Jenna’s eye." },
+            { "text": "The cowering girl suddenly straightens up, climbing to her feet before striding to a lonely patch of granite away from the throngs of terrorized hopefuls." },
+            { "text": "“Hyperspear saved us!” Finn gleefully screams as he wanders up from behind." },
+            { "text": "“Saved us?!” The Gleam scoffs, emerging from the crowd around the larger Dino Nugget." },
+            { "text": "“Did you not see Sage just get ripped apart?” The bald man sneers, shoulder checking Finn as he walks past. “Were you not just torn from your happy home in Hyperspear and slapped down on some barren rock.” The Gleam hikes up the hair skirt we made for him, glaring accusingly at me." },
+            { "text": "“You idiots need to stop playing Hyperspear’s twisted game.” The sun gleams off his bald sweaty head momentarily blinding me as several Hopefuls wander over, grumbling in agreement." },
+            { "text": "“So what are you going to do?” I step towards The Gleam. “Walk away from the gifts it wants to give us.” I eye him incredulously. “You want to go fight the monsters in the jungle on your own?”" },
+            { "text": "“Exactly.” He scoffs. “Those items will be cursed.” He shakes his head. “This whole New Earth thing is just some cruel new game for us to play.”" },
+            { "text": "Ten or eleven Hopefuls are now clustered around The Gleam nodding in agreement." },
+            { "text": "“There were more of these little dino-birds down there, huh?” The Gleam turns towards Xenia. “Those other lightning bolts took out the rest of the flock right?”" },
+            { "text": "“I think so, yes.” Xenia confirms. “There were at least four others down there.”" },
+            { "text": "“Anyone who thinks two hundred years was long enough to be ground down under Hyperspear’s all powerful thumb.” The Gleam beckons. “Come with me.” He strides towards the massive ball of hair-rope that everyone (except him) had been weaving, to lower ourselves down from the plateau." },
+            { "text": "“Come on Xenia.” The gleam extends his hand towards my friend. “Come be the beautiful warrior princess I know you are.”" },
+            { "text": "Xenia’s left eye twitches wildly as she shakes her head stepping behind me." },
+            { "text": "“What about you, Luke?” The Gleam flashes a covetous smile at my son, gesturing toward the rope. “Aren’t you ready to cut the cord and find out what life is like without your overbearing father breathing down your neck.”" },
+            { "text": "Luke strides over standing beside Xenia, behind me." },
+            { "text": "“We know we can kill these creatures with the right tools.” The Gleam crosses the plateau, approaching Jenna. “If you were plunked down here against my will.” He rests a sympathetic hand on Jenna’s frail shoulder. “I can certainly relate.” Pivoting on his heel he marches back to the rope. “If you’ve had enough of being Hyperspear’s hapless puppet.” He snatches up the coil, slipping it over his shoulder. “Follow me.” The Gleam marches to the shallow cave, carefully knotting the end of the rope around a stalagmite as he runs the length of it along a groove in the plateau’s floor." }
+          ]
+        }
+      ]
+    },
+    {
+      "entry_subject": "PREVIEW OF HYPERSPEAR YEAR ZERO CHAPTER-6",
+      "entry_date": "08/1/2026",
+      "pic_file": "hyperspear-year-zero-6.png",
+      "feature_section_1": {
+        "caption": "Chapter 6 Preview",
+        "pic_file": "feature-image.png",
+        "link": ""
+      },
+      "sections": [
+        {
+          "pics": [],
+          "paragraphs": [
+            { "text": "POV JENNA" },
+            { "text": "6 - SEND-OFF" },
+            { "text": "NEW EARTH - HOPEFUL MOUNTAINTOP" },
+            { "text": "01-03-00" },
+            { "text": "“And—” Diego cups his hands around his mouth as he stands at the edge of Hopeful Mountaintop, shouting at the vibrant peach sunrise.“—a massive, solid-aluminum Parabolic Mirror Dish that’s four point five meters in diameter and zero point eight meters deep, with a highly-polished interior surface and a reinforced rear structural ribbing frame for scaffold mounting.” Diego lowers his hands from his mouth and scans the horizon. The only sound is the faint whistle of the frigid wind." },
+            { "text": "Turning away from the sunrise, Diego strides across the plateau towards the fifty of us packed together by the edge of the origin crater. We huddle against the massive, charred flank of the adult Dino Nugget, crackling shards of mirrored lightning glass in heaps around us. The beast’s colossal ribcage is still giving off a faint, smoky warmth, radiating heat through the granite beneath our bare feet, while its meat warms our bellies from inside." },
+            { "text": "For me, last night’s meal felt more like a nightmarish dinner theater than a celebratory feast though: chasing greasy meat with slurps of tepid rain water while The Gleam and his eleven companions descended down the cliff." },
+            { "text": "All the while, Diego barked at us, “Talk while you eat.” “Get with your committee.” “Figure out what two items each of you want me to list off for Hyperspear.”" },
+            { "text": "Every one of the Hopefuls that followed The Gleam off the mountaintop was more valuable than any item Hyperspear will materialize for us. We should have tried to convince them to stay, but I guess Diego was right, we don’t have a single second to spare on someone who can’t put survival above pride." },
+            { "text": "I sigh, staring with half-hearted hope at the sky, my eyes flicking between Diego and the pastel horizon." },
+            { "text": "Diego’s a few yards from us when a blinding, silent white-blue light vaporizes a fifty-foot radius in the forest several miles North of Hopeful Mountaintop. A shrieking tsunami of terrified creatures stampede away from the ionization event in all directions." },
+            { "text": "Then, the sky catches up." },
+            { "text": "A deafening, metallic CRACK rips through the air, swallowing up the jungle screams. The granite floor shudders and a violent, hot gust of wind slams across the plateau, whipping my shaggy hair into my face. It instantly reverses, transforming into a freezing vacuum draft that sucks loose ash straight toward the northern horizon." },
+            { "text": "Coughing and sputtering, the Hopefuls around me erupt into uncontrolled glee." },
+            { "text": "“Look at that St Elmo’s Fire!” Xenia exclaims in awe, from somewhere in the crowd. \"Hyperspear is firing an ionization beam from its spaceship to literally tear the molecules in the air apart and forge our assets from raw elements!”" },
+            { "text": "“Isn’t this amazing?” Luke pulls me into a side hug. “And I think my dad nailed the whole list!”" },
+            { "text": "“Yup.” I stiffen up, tugging my hairy tube dress up and forcing a smile. “I heard him call out the diamond sewing needle and the cast-Iron Flat Iron I picked too.” My mind fills with memories of lavender steam and Myka’s face. My last innocently happy memory." },
+            { "text": "“That iron’ll be a great anvil for welding.” Luke grins. “Or a weapon in a pinch.”" },
+            { "text": "“Yeah.” I pull away from Luke, sidling away from the gleeful Hopefuls, away from the beam of energy in the sky. I trot across the cold granite, hugging my bare shoulders for warmth, as I find myself a quiet palace at the edge of the plateau." },
+            { "text": "Behind me, the crowd chatters with unanimous joy. The weary hours of discussion and rehearsing paid off. Some all powerful genie in the sky is dropping off all the non-living objects our newly-minted hearts could ever desire." },
+            { "text": "We’ll have a fantastic set of supplies to get started on New Earth. I shiver. But will any of that actually help me to rebuild the happiness I had with Myka." },
+            { "text": "Slumping down onto the cool granite, I roll onto my back letting out a meditative hum as I try to focus on the swirl of colors illuminating across the sky." },
+            { "text": "“Jenna?” Xenia calls from outside the cave. “Jenna!” Xenia’s bare feet slap the rock floor as she jogs over, crouching down beside me, her face smeared with last night’s dino grease. “I know you’re still mad at me —Cut this Glitch loose!” Xenia’s left eye spasms and she squirms awkwardly –like she’s fighting a battle against her own limbs." },
+            { "text": "“What’s going on with you, Xenia?” My stomach clenches. “You’ve been twitchy since we got here.”" },
+            { "text": "“Sorry.” Xenia squeezes her eyes shut. “I think I’m still uploading memories or something.”" },
+            { "text": "“Anyway.” She raises herself to her knees, meeting my eyes. “I’m going with Luke and a couple of the others from the Security and Wildlife Committee to check out the drop spot.”" },
+            { "text": "“We want to leave as soon as possible.” Xenia grins as she opens her arms up. “So can I get a hug?”" },
+            { "text": "The blood drains from my face. “Don’t go without me,” I blurt. “I want to go with you!”" },
+            { "text": "“What?” Xenia laughs. “It’s been quite a while since you exercised your melee skills.”" },
+            { "text": "I sit up, raising myself to Xenia’s eye level. “I held my own against Darcy when I barely had any combat experience.” My indignation suddenly overrides my self pity. “I can kick a Dino Nuggets ass just as hard as you can!”" },
+            { "text": "“You’re probably right, Jenna.” Xenia reaches out, gripping my shoulder. “But we already decided on the team for Operation Rapunzel Robinhood.”" },
+            { "text": "Slumping forward, I collapse against my friend, letting the exhaustion, sorrow, and overwhelming realness of the last few days flow out of me in a snotty, babbling fit as I cling to my oldest friend. As she rests her chin on my bare shoulder, I feel Xenia’s left eye give another spastic twitch against my collarbone. Letting out a worried sigh, I pull Xenia tighter. Her eyes relax." },
+            { "text": "By the time I push back, wiping my nose with the back of my greasy hand, the camp is abuzz with chaotic motion. Finn and Luke are a few yards away, kneeling over a mess of slender juvenile dino ribs and a ragged sheet of parched, yellowish belly-hide. They’re grumbling as they struggle to loop coarse hair-twine around the bones." },
+            { "text": "\"It's too heavy anyway,\" Luke grunts, tossing a broken chunk of rib aside. \"Even if we make it look like a kite, the wind’ll just slam it into the cliff face.\"" },
+            { "text": "“What’re you fish brains doing?” Xenia gawks at the pile of bones at Luke’s feet." },
+            { "text": "“We’re going to use the kite to communicate with you.” Finn claps his hands. “I learned Morse code from listening to boats.” His chest swells with pride." },
+            { "text": "My overwhelming need to be helpful suddenly overrides my self-pity. \"Move.\" I step between the frustrated boys, taking a seat on the cold hard granite. My fingers struggle to grip the greasy twine, but as soon as I touch the raw, leathery hide, three lifetimes of muscle-memory take over. Generations of popsicle-stick kites, torn jackets and trussed Thanksgiving turkeys have prepared me for this moment." },
+            { "text": "\"I think you were pulling the frame too tight on the cross-beam,\" I mutter, ignoring Finn as he leans over my shoulder, idly popping spit bubbles in my ear. Taking a strand of the fine hair threads—the stuff we spun from the softer, inner layers of our locks—I use a sharp splinter of lightning glass to punch clean, uniform holes through the dino membrane. \"If the hide isn't balanced across the keel, the vacuum from the draft will tear it to pieces before it clears the ledge.\"" },
+            { "text": "For twenty minutes, I don't think about Myka, or the death march my friends are about to take. I just picture the finished product and sew. Wrapping the coarse twine in tight, interlocking hitch knots around the hollow, bird-like bones, I bind the greasy leather until it’s taut as a drum." },
+            { "text": "When I lift it, the grotesque dino-skin-diamond catches the frigid updraft, tugging against my palm like an eager puppy. It's hideous—flecked with dried feathers and blood—but it's perfectly balanced." },
+            { "text": " \"What a beautiful kite, Jenna,\" Finn coos, a massive grin breaking through the dirt on his face. \"It’s going to swim through the sky just like a fish!\"" },
+            { "text": "\"Yeah, I think it should do the trick!\" I hand the tether over to him." },
+            { "text": "“Beautiful work Jenna.” Diego admires the kite putting his hand up for a high five. We slap hands and he turns to Xenia. “Get your team together. You want to get to that drop zone before the animals come out of hiding.”" },
+            { "text": "The rope is still anchored to the stalagmite from when The Gleam abandoned us, its length trailing down the dark groove into the abyss. Hitching his dino-leather sack of rations over his shoulder, Luke nods at Xenia. “You ready?”" },
+            { "text": "Before turning to the edge, he kneels by the scorched crater where the smaller Dino Nugget died, hammering a heavy chunk of granite against the floor. With a sharp crack, he breaks free a palm-sized wedge of rock fulgurite." },
+            { "text": "“If we find a clearing—” Luke slips the sharp, reflective glass shard into the bundle of meat on his back “—we can flash Morse back up to the mountain." },
+            { "text": "I walk with them to the precipice of Hopeful Mountaintop. Standing at the edge, the sheer scale of New Earth hits my chest—a suffocatingly dense expanse of swaying green branches stretching as far as I can see in any direction." },
+            { "text": "Xenia steps up to the line first. She looks back at me, her gaze steady. \"Don’t let us get lost out there.\"" },
+            { "text": "Before I can reply, she snatches up the hair-twine rope, plants her feet against the sheer granite face, and leans back into the empty air. I watch her descend, step by treacherous step, until the shadows of the massive trees swallow her whole." },
+            { "text": "Behind me, Finn lets out a sharp whistle, releasing the frame. The grotesque skin-kite catches the mountain wind, soaring up into the pastel sky—a lonely, leathery beacon dancing above the rock, waiting for the away team to look up." }
+          ]
+        }
+      ]
+    },
+    {
+      "entry_subject": "PREVIEW OF HYPERSPEAR YEAR ZERO CHAPTER-7",
+      "entry_date": "08/21/2026",
+      "pic_file": "hyperspear-year-zero-7.png",
+      "feature_section_1": {
+        "caption": "Chapter 7 Preview",
+        "pic_file": "feature-image.png",
+        "link": ""
+      },
+      "sections": [
+        {
+          "pics": [],
+          "paragraphs": [
+            { "text": "PREVIEW OF HYPERSPEAR YEAR ZERO CHAPTER-7" },
+            { "text": "7 - The Arena" },
+            { "text": "New Earth - The Arena" },
+            { "text": "01-03-00" },
+            { "text": "Xenia’s POV -" },
+            { "text": "The coarse hair-twine rope bites into my raw palms as I brace my bleeding feet against the sheer cliff face. Below me, the canopy is a swaying ocean of vibrant leaves. “Looks clear down there!” I call up, the wind snatching the words from my mouth as Luke, ten yards above me, sits dangling his bare legs over the precipice of the cliff, waiting to start his descent." },
+            { "text": "I’m basking in the raw thrill—the terrifying beauty of actual gravity—when my left eye violently twitches." },
+            { "text": "Suddenly a red, wireframe grid snaps into place over the verdant foliage on the left side of my vision. A red arrow pulses aggressively in my peripheral, locking onto a bulky, hairy figure stalking through the underbrush. Red text appears below the beast: “423M away, extremely large reptile.” The sudden overlay obliterates my depth perception and I fumble the rope, plunging for one horrific microsecond, towards the green abyss." },
+            { "text": "A surge of electric current hijacks my motor cortex and my left hand mechanically clamps onto the rope. The slack goes taut. My shoulder makes a sickening “POP” and I scream in agony." },
+            { "text": "“Oof” I slam hard against the rock face, tears burning in my eyes as I brace for a fatal fall. But some superhuman force keeps my bleeding, rope-burned hand clasped like a vise —even though the ball of my left shoulder has been wrenched from the socket." },
+            { "text": "Dry-heaving from the blinding pain, I will my fingers to let go —let me have the sweet relief at the end of the fall." },
+            { "text": "My grip tightens." },
+            { "text": "“You okay?” Luke’s quavering voice floats down from thirty feet above." },
+            { "text": "“Yup-yup!” I wince. “All good.”" },
+            { "text": "Sobbing, I clasp my right hand around the rope. Running my toes along the cliff face, I find a narrow ledge that will bear my weight and ease myself onto it." },
+            { "text": "The electric grip in my forearm releases. My shoulder explodes with pain as my left hand falls completely limp against my hip." },
+            { "text": "Breathing heavily, I lean my chest against the cold stone cliff, wedging my limp left wrist into a crack in the rock. Bracing my feet, I throw my body weight forward and down." },
+            { "text": "White-hot stars explode in my vision, as the joint snaps back into place with a nauseating clunk." },
+            { "text": "“See? I told you I’m more helpful than that Glitch, Jenna,” Fayezilla’s voice buzzes against my left eardrum like an audio file playing through a broken headset." },
+            { "text": "“You could’ve killed us, you crazy stowaway.” I mutter under my breath, squinting my left eye shut until the neon red targets disappear." },
+            { "text": "“Oh please, you would’ve died yesterday in that Dino Nugget fight if I didn’t highlight that femur bone for you.” Fayezilla chides. “Anyway, stop talking to yourself or they’ll kick your crazy ass out of the tribe.”" },
+            { "text": "Tuning out the chatter of my brain-roommate, I launch myself backward into the foliage of a massive nut tree behind me." },
+            { "text": "My wounded shoulder screams in pain as branches, thick with fan-shaped leaves, whip my face, snapping under my weight as I crash land in a prone position atop a thick horizontal bough." },
+            { "text": "A strange buzz, like an industrial fan, kicks on above me. Looking up through the broken branches, I catch sight of a cluster of fist-sized, jade-colored beetles, apparently disturbed by my fall, and now swarming toward my face." },
+            { "text": "Wrapping my legs around the bough, I pull a glistening, jagged shard of Fulgurite from my dino-skin backpack and use it to hurriedly saw off a fan-leafed switch. Swinging the branch like a racket through the crazed flurry, I send a cascade of battered exoskeletons and wings crashing down through the trees." },
+            { "text": "“What’s going on?” Luke calls down from the top of the cliff behind me." },
+            { "text": "“I made it to the canopy.” I call up to him as I swat a cluster of glistening beetles against the tree trunk. “There’s a huge ginkgo-looking tree right by the cliff.”" },
+            { "text": "“I’m coming down.” Luke shouts." },
+            { "text": "I cinch up my tube dress, and take a moment to pick tree debris out of my shaggy bob before getting back to battering the emerald-fist beetles." },
+            { "text": "I’ve thinned the swarm to less than ten when Luke calls out. “I’m jumping for the tree now.”" },
+            { "text": "A moment later, his muscular form is crashing down through the branches above." },
+            { "text": "Thudding to a stop, he wrestles himself to an awkward perch on a neighboring bough." },
+            { "text": "“Oh no!” Luke yelps as the remaining beetles make a beeline towards him." },
+            { "text": "Bending down a springy bough behind him, Luke scrambles backward, continuing to hold the branch down as he steps over it." },
+            { "text": "Just before the beetles reach him, Luke releases the bough, batting the bugs in all directions." },
+            { "text": "“Nice!” I congratulate my number two as I mentally urge Fayezilla to run a sweep below." },
+            { "text": "“Should we come down or hold tight?” Alana’s voice echoes down from above the trees." },
+            { "text": "Fayezilla’s scan highlights the location of a possible swamp a short distance from the base of the tree." },
+            { "text": "“Let Luke and I go down first, Alana.” I bark. “We’ll find a clearing and use our Fulgurite to signal up the mountain.”" },
+            { "text": "My shoulder continues to throb as Luke and I lower ourselves down through the branches of the fan-leafed tree." },
+            { "text": "I pause when we’re ten feet off the ground. The forest is eerily quiet." },
+            { "text": "With quiet synchronicity, we lower ourselves to hang from the bough. I keep my agonizing left arm pinned to my side, my right arm hooked around the branch I drop down to the ground." },
+            { "text": "“I think I saw a swamp through the trees.” I whisper." },
+            { "text": "Luke goes still. “I think I hear splashing over there.” he cocks his head. “I think the big swamp we saw from the mountaintop is this way.” He points to the right." },
+            { "text": "The forest floor is densely shaded and eerily calm as we sidle between tall ferns and horsetails towards the increasingly loud buzz of bug wings and the gentle slosh of water against tree roots." },
+            { "text": "We step out of the shadowy forest onto the sunlit bank of a slow moving river delta and Luke, slipping his dino-skin pack from his back, retrieves a polished piece of lightning glass. “There’s a little hill over by the water.” He trots off towards a pile of straw and debris at the water’s edge. “Should be a good place to try to refract a signal up to my dad and the others.”" },
+            { "text": "Luke scrambles up the mound and I hear a wet crunch under his foot, like a giant egg cracking." },
+            { "text": "Fayezilla’s voice reverberates in my head. “There’s something big in the water over there.”" },
+            { "text": "My left eye blinks tumultuously as she and I struggle to gain control of my occipital lobe." },
+            { "text": "”We don’t get to respawn if we die” Fayeyzilla protests, “Let me use our eye!”" },
+            { "text": "I relax my control and the left side of my view highlights an approaching figure. Before I can read the display, a surge of energy seizes my vocal chords." },
+            { "text": "“Giant—crocodile—Run!” The garbled warning blasts out of my mouth." },
+            { "text": "For a brief moment my body goes rigid, paralyzed with fear as I catch sight of an eight ton crocodile, gliding through the murky water towards Luke." },
+            { "text": "A surge of pure adrenaline numbs the pain in my shoulder and I dart away from the water as hard and fast as my new Earth legs will carry me." },
+            { "text": "Glancing back, I see Luke pulling away from the SUV-sized creature. He’s coming up fast on my right flank." },
+            { "text": "I hurtle over a thick fern and Luke runs along beside me." },
+            { "text": "The sound of the crocodile is fading. I peer over my shoulder and catch sight of the massive creature throwing its head back before letting out a deafening, pulsating shriek so powerful the water on its back vibrates off, forming a wet cloud around its body." },
+            { "text": "“I think she’s going back to her nest.” Luke pants, slowing his pace." },
+            { "text": "“That might be a good spot over there,” my chest heaves as I point to a spot ahead where the giant redwoods give way to low ferns. Sunlight pours through the massive gap in the canopy illuminating a small swamp —a little bigger than an Olympic pool." },
+            { "text": "Ripping a hefty piece of redwood bark from a nearby tree, I amble over to the edge of the murky water. I toss the bark into the center of the muddy pool and it lands with a splash. A few salamander-looking amphibia scuttle to the edges of the swamp, but there doesn’t seem to be any angry crocodiles in its depths." },
+            { "text": "“This looks like a perfect spot to have the rest of the team meet us.” I grip my left shoulder tenderly, flashing a pained smile at Luke." },
+            { "text": "Luke, angles the glassy, lightning-fused core of his Fulgurite toward the sun, adjusting the refracted beam of white light until it’s a shining dot on the dino skin kite that’s flying above the edge of Hopeful Mountaintop." },
+            { "text": "A distant cheer echoes down from the mountaintop." },
+            { "text": "“I’ll Morse code to the team that they should come down and meet us here,” Luke gushes." },
+            { "text": "Sub-header Title", "h3": true },
+            { "text": "**** Three Hours Later ****" },
+            { "text": "When Alana, Dexter, and Cade arrive at our swamp, Alana pulls a rolled shred of dino skin from her makeshift backpack." },
+            { "text": "“The cartography committee mapped a course from this location to the drop zone.” She grins points to some smudges of fat on the skin. “We should pass a couple more swamps about this size on the way.”" },
+            { "text": "Alana rolls up the map. “We can check back in with the Hopeful Mountaintop team when we hit those spots.”" },
+            { "text": "“Great work,” I nod approvingly, but my left eye twitches. I know the map is flawed." },
+            { "text": "Before we left, Fayezilla had somehow projected a massive, mathematically perfect spatial grid straight into my mind's eye. It was a complete three-dimensional mesh of the entire mountain basin—altitudes, canopy density, and hidden ravines—stored away in her fairy brain in like an unredacted asset file that only she can access." },
+            { "text": "”Didn’t that crappy-map lady say she used to be a field doctor in a first person shooter gameworld.” Fayezilla chimes in my brain." },
+            { "text": "Flashing a smile, I take the rolled map. “By the way—” I gaze imploringly at Alana “—You’re a Dr, right? Can you look at my left shoulder?”" },
+            { "text": "Using her dino-skin backpack and some hair twine from my tube dress, Alana quickly binds my wounded arm against my chest in a make-shift sling." },
+            { "text": "“Thanks friend!” I let out a sigh, finally feeling a faint bit of relief." },
+            { "text": "Pumping my right fist in the air, I step back to face all four of my comrades and holler: “Let’s go get our loot!”" },
+            { "text": "Our small troop gives a hearty cheer and we set off through the dark, quiet forest." },
+            { "text": "As the sun rises in the sky, the humid air becomes increasingly thick with the stench of mold, decaying plants, and our own BO. It’s a slow miserable trek, sloshing across shallow swamps, scrambling over mossy, fallen trees and plowing through scratchy underbrush, but except for a few catatonic lizard-like creatures paralyzed by the morning’s acoustic shock, the five of us are the only animals in sight." },
+            { "text": "After about two miserable hours, we’re all dehydrated, covered in tiny scratches and utterly spent and we’re only halfway to the ionization zone. I’ve given my left eye over to Fayezilla who has been fruitlessly scanning for water." },
+            { "text": "I’m starting to panic when the dank forest opens into a clearing." },
+            { "text": "The black loam beneath our feet is completely demolished. Massive, three-toed tracks the size of dinner plates are slowly filling with slow-seeping water. A whole herd, with expansive stride lengths, tore through here." },
+            { "text": "”I think there’s water nearby.” Fayezilla enthuses in my mind." },
+            { "text": "“Halt.” I croak, holding my right fist up at a ninety-degree angle." },
+            { "text": "The others stop behind me." },
+            { "text": "Easing myself to my knees, I peer down at the mud. Small mammalian paws and the sharp, delicate slashes of avian claws, all heading in the exact same direction." },
+            { "text": "I run my dry tongue over my cracked lips. \"Animals come here for water.\" My throat is like sandpaper. \"The blast this morning panicked them, but they’ll be back.”" },
+            { "text": "“Then let's go get a drink while we can.” Luke sputters, striding up beside me." },
+            { "text": "We follow the muddy highway for about fifty yards, until the dense redwoods open into a shaded limestone hollow. There, bubbling cleanly out of a fractured rock shelf, is an artesian spring. Crystal-clear water pools into a gravel-bottomed basin, completely free of the murky swamp muck we'd been wading through." },
+            { "text": "Gleefully, we sprint towards the trough, like school children let out for recess." },
+            { "text": "Tipping forward, I sip directly from the basin. It’s the most glorious thing I’ve ever tasted. Crisp and cool and so amazingly wet." },
+            { "text": "After my thirst finally feels satiated. I turn to the group. “We should set up camp and decide on sleeping shifts.”" },
+            { "text": "“Camp?” Cade, gripes. “But we’re so close!”" },
+            { "text": "“The thing that we’re walking towards is an ionization beam.” I scoff. “It’s like a giant storm cloud on the ground.”" },
+            { "text": "“You’re afraid of clouds?” Cade mocks." },
+            { "text": "Stepping towards him, I narrow my eyes. \"We’re like ninety percent water. If we step into that zone, we won’t just get shocked. Our bodies will become a lightning rod.” My chest heaves. “The charge will surge up through our feet, vaporize our blood, and exit through our skulls before we can blink.”" },
+            { "text": "Cade eyes the others, who are also looking at him like he’s a moron. “Fine. I’m not tired. I can take the last sleeping shift.” He skulks over to the trunk of a young conifer, crossing his arms as he leans back against it." },
+            { "text": "Luke steps behind me resting his hand on my right shoulder. “We can’t just chill here indefinitely.” He whispers “The animals are going to eventually choose water over blind fear.”" },
+            { "text": "After signaling up the mountain and updating our map we continue our march towards the giant blue-white beam blazing down from the sky. The stampede did a good job of clearing a path to the drop zone, so the hike is much less arduous than the first half." },
+            { "text": "We’re about a thousand yards from the beam of light, and utterly spent when the hairs on my arms begin to stand on end. The air crackles and the air is acrid with the bleach-like sting of concentrated ozone." },
+            { "text": "Stopping, I face my team, I clear my parched throat and yell over the continuous, bone-rattling roar of the ionization cloud. “We’re getting too close.”" },
+            { "text": "Shading my eyes I peer around the trampled wasteland that surrounds us. “We should back track a little and look for a camping spot.”" },
+            { "text": "“How ‘bout over by that smoldering Tyrannosaurus?” Alana tips her head towards a grotesquely beautiful scorched carcass the size of a school bus, lying a football-field away." },
+            { "text": "“I’m beginning to love lightning meat.” Cade gushes as he runs towards the T-rex." },
+            { "text": "Sub-header Title", "h3": true },
+            { "text": "**** The next morning***" },
+            { "text": "When the ion beam finally retracts back into the sky at dawn, the sudden silence is deafening. With full bellies and eager hearts, we rush forward, our bare feet eagerly slapping the warm cracked earth. By the time we’re a couple hundred yards away, I can see thick plumes of white steam hissing out of the cracks where the subsurface moisture is still boiling. The caustic ozone fumes over power me and I double over coughing." },
+            { "text": "My eyes water as I gawk at the fifty-foot clearing around the drop zone. It’s a circle of absolute devastation —a stark, glassy crater of fused black sand and volcanic ash." },
+            { "text": "The steam is too thick to see exactly what’s in the drop zone, but there seems to be a single metal object, shimmering like a mirage in the center of the smoking wasteland." },
+            { "text": "“We should—” I cover my face with my right arm, “—go back to the T-rex.” I cough. “It’s going to stay hot for a while.”" },
+            { "text": "We pass an anxious couple hours picking over the Tyrannosaurus, looking for useable scraps of dino-leather and snacking on BBQ’d meat before heading back to the scorched clearing." },
+            { "text": "When we arrive, there’s a single metal object gleaming in the center of a smoldering twenty foot deep crater: A cook pot, big enough to boil a pig, with an interlocking lid." },
+            { "text": "“Is that it?” Cade moans. “We came all this way for some freaking cookware?”" },
+            { "text": "A smile dances across my lips. “Hell yeah we did!”" },
+            { "text": "With my good arm, I begin unwinding my hair dress." },
+            { "text": "“We have fresh water nearby now, and meat and this seems like a fairly defensible location.” I gesture to the pot. “If we only get one thing, this is exactly what we need.”" },
+            { "text": "“Go get our prize!” I thrust the end of my hair rope towards Cade. “We’ll all pull you up.” I grin at the rest of my team." },
+            { "text": "Grabbing the rope, Cade marches to the edge of the crater. Luke, Alana and I take up the slack, helping him ease down the hot jagged embankment. In three leaping steps, Cade bounds to the center of the crater, stopping in front of the three-foot tall cooking vessel. The instant he touches it, a burst of white-blue light extends down from the sky several miles away. “Brace yourselves for the shockwave.” I scream, covering my ears." }
           ]
         }
       ]
