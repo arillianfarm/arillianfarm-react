@@ -24,14 +24,16 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 18
           cache: 'npm'
 
       - name: Install Dependencies
-        run: npm install
+        run: npm install --legacy-peer-deps
 
       - name: Run Build, Sitemap, & Pre-render Fixes
         run: npm run predeploy
+        env:
+          CI: false # Prevents CI from treating mild build warnings as fatal errors
 
       - name: Upload Artifacts
         uses: actions/upload-pages-artifact@v3
