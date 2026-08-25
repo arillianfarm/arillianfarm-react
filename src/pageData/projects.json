@@ -3,7 +3,7 @@
   {
     "name": "Catio",
     "pub_date": "8/9/24",
-    "header_pic": "catioDone.png",
+    "header_pic": "catioDone.webp",
     "categories": ["construction", "pets", "tempe"],
     "about": "Last year, my best friend and her girlfriend along with their three cats moved into one of the units in the two rental houses I own on a 9000 sq ft lot in Tempe, AZ. I wanted to make sure their cats had space to get fresh air and get away from each other if needed (as they blended their cat families) —and I love woodworking, so I decided to build a catio for them.",
     "tools": [
@@ -29,58 +29,58 @@
     "materials_pics": [
       {
         "name": "2-D L Brackets",
-        "pic": "2dl.png"
+        "pic": "2dl.webp"
       },{
         "name": "3-D L Brackets",
-        "pic": "3dl.png"
+        "pic": "3dl.webp"
       }
     ],
     "slides_only": false,
     "phases": [
       {
-        "pic": "catioA.png",
+        "pic": "catioA.webp",
         "label": "Planning",
         "paragraphs": [{
           "text": "Planning: I was very excited to see the cats reaction to the catio, so as soon as my friend signed her lease, I completely rushed everything.I did a google search for “enclosed porch catio”, got some results that looked like what I had been envisioning, skimmed through a couple blogs and articles, grabbed the dimensions of the back patio off of the house’s blueprints (from when I had this house built a couple years back) and I made a really rough sketch of a design that sort of mimicked some of the things I had seen other people do… and then I went to home depot and bought a bunch of hardware based on my initial whim."
         }]
       },
       {
-        "pic": "catioB.png",
+        "pic": "catioB.webp",
         "label": "Build a frame",
         "paragraphs": [{
           "text": "First, using metal L braces, 2.5” deck screws, and pressure treated 2x4(x8)s and 2x6(x8) (that I had left over from a couple previous projects) we built a wood frame that outlined the patio windows and sliding door.  (note we used the impact drill head for building the frame… the only time we used the hammer attachment was to anchor to a masonry wall of the house)."
         }]
       },
       {
-        "pic": "catioC.png",
+        "pic": "catioC.webp",
         "label": "Make frame into stable boxes",
         "paragraphs": [{
           "text": "Using the initial frame as a template, we built a matching frame for the outside panel of the catio and then cut 2x4s/2x6s to span the depth of the catio enclosure. Using deck screws, we fastened the overhead boards across the top of the two frame panels."
         }]
       },
       {
-        "pic": "catioD.png",
+        "pic": "catioD.webp",
         "label": "Add a gate",
         "paragraphs": [{
           "text": "Once we had the outer frame together, we made a simple a entry gate with a height and width 2” smaller than the surrounding frame. I had wanted to keep the whole structure “floating” so it could easily be removed if my friend moved out and a new tenant did not want the catio, but every time we opened the gate, the whole structure moved, so we anchored the gate-side of the catio frame to a masonry wall of the house using a (3d) L bracket and concrete screws."
         }]
       },
       {
-        "pic": "catioAlmostDone.png",
+        "pic": "catioAlmostDone.webp",
         "label": "Enclose the frame",
         "paragraphs": [{
           "text": "To enclose the catio, we stretched rolls of fencer wire across the outside of the frame, pulling it taut and pinning the wire mesh in place with heavy duty 14mm staples as we unrolled it across the frame. We ended up just short of wire for the longest side, so we used a bit of regular chicken wire across the top corner)"
         }]
       },
       {
-        "pic": "catioE.png",
+        "pic": "catioE.webp",
         "label": "Build the cat lounge",
         "paragraphs": [{
           "text": "We used a bunch of tongue and groove ceiling board, 2x4s and 2x6 scraps to make a bench, a small staircase and a perch for the cats and then I stapled scraps of carpet on to make it more comfy for them."
         }]
       },
       {
-        "pic": "catioDone.png",
+        "pic": "catioDone.webp",
         "label": "Enjoy",
         "paragraphs": [{
           "text": "It’s been about a year since initial construction and so far the cats and cat moms indicate that its been working out purrrfectly."
@@ -90,7 +90,7 @@
   },
   {
       "name": "Making Garden soil",
-      "header_pic": "soil3.png",
+      "header_pic": "soil3.webp",
       "pub_date": "8/16/24",
       "featured": false,
       "categories": ["garden"],
@@ -111,7 +111,7 @@
       "slides_only": true,
       "phases": [
         {
-          "pic": "soil1.png",
+          "pic": "soil1.webp",
           "label": "Gather materials",
           "paragraphs": [
             {
@@ -126,7 +126,7 @@
               "text": "Stir materials together like you're folding egg whites into batter."
             }
           ]},{
-          "pic": "soilDone.png",
+          "pic": "soilDone.webp",
           "label": "Disperse and Use Soil in Garden Beds or for Potting",
           "paragraphs": [
             {
@@ -138,7 +138,7 @@
   {
     "name": "Raised Garden Beds",
     "pub_date": "8/23/24",
-    "header_pic": "rbTurnsoil.png",
+    "header_pic": "rbTurnsoil.webp",
     "featured": false,
     "categories": ["garden"],
     "about": "Concrete planter wall blocks make setting up decent looking garden beds easy",
@@ -163,7 +163,7 @@
     "phases": [
       {
         "label": "Prep and Planning",
-        "pic": "rb2.png",
+        "pic": "rb2.webp",
         "paragraphs": [
           {
             "text": "Gather materials and pick a location for the garden bed that's out of the flow of traffic in the yard, but with good sun exposure. If necessary cut lumber to fit to the desired size for the garden bed."
@@ -171,35 +171,35 @@
         ]},
       {
         "label": "Setup the Perimeter walls",
-        "pic": "rb3.png",
+        "pic": "rb3.webp",
         "paragraphs": [
           {
             "text": "Scrape a level path between the corner blocks for each edge of the garden."
           }]
       },{
         "label": "Remove Loose Dirt and Debris from Garden Bed",
-        "pic": "rb5.png",
+        "pic": "rb5.webp",
         "paragraphs": [
           {
             "text": "When 3 side walls are placed, rake out any loose gravel or dirt from within the perimeter of the bed."
           }]
       },{
         "label": "Loosen Existing Dirt",
-        "pic": "rb6.png",
+        "pic": "rb6.webp",
         "paragraphs": [
           {
             "text":  "Using the pickax, shovel and/or hand tiller, loosen the soil 3-6 inches below the bottom level of the garden walls."
           }]
       },{
         "label": "Soak Overnight if Necessary",
-        "pic": "rb7.png",
+        "pic": "rb7.webp",
         "paragraphs": [
           {
             "text":  "It may be necessary to soak the bed overnight and come back to work with the damp soil the next day."
           }]
       },{
         "label": "Fill with Soil",
-        "pic": "gbed6.png",
+        "pic": "gbed6.webp",
         "paragraphs": [
           {
             "text":  "After the bed is dug down, add garden soil, perlite and compost and shovel/rake to mix with the loose dirt and you should be ready for planting!"
@@ -213,7 +213,7 @@
   {
       "name": "Growing Basil From Cuttings",
       "pub_date": "8/30/24",
-      "header_pic": "basil5.png",
+      "header_pic": "basil5.webp",
       "featured": false,
       "categories": ["plants","garden", "grow light"],
       "about": "Use cuttings from Pho or from a larger basil plant to grow a new clone",
@@ -222,7 +222,7 @@
       "slides_only": false,
       "phases": [
         {
-          "pic": "basil1.png",
+          "pic": "basil1.webp",
           "label": "Selecting Cuttings",
           "paragraphs": [
             {
@@ -230,21 +230,21 @@
           ]
         },
         {
-          "pic": "basilB.png",
+          "pic": "basilB.webp",
           "label": "Cut at 45 degree angle",
           "paragraphs": [{
             "text": "If the root does not come off cleanly at the node (at about a 45 degree angle)."
           }]
         },
         {
-          "pic": "basilC.png",
+          "pic": "basilC.webp",
           "label": "To speed-up rooting",
           "paragraphs": [{
             "text": "You can dip the cutting in water then in rooting powder (follow manufacturors instructions for safe handling and disposal of rooting powder!)."
           }]
         },
         {
-          "pic": "basil2.png",
+          "pic": "basil2.webp",
           "label": "Set In Well Lit Area",
           "paragraphs": [{
             "text": "Set cutting(s) in a jar that is about 1/4 -1/2 full of water try to keep the leaves out of the water (by draping them over the edge of the jar) and place in a window or under a florescent light or 'grow light'. It should take about 3-10 days for roots to develop. (Note - you can clone other herbs and other herb-like plants in a similar way)"
@@ -261,7 +261,7 @@
     },
   {
     "name": "Water Garden / Mosquito Fish pond",
-    "header_pic": "pondPopulated.png",
+    "header_pic": "pondPopulated.webp",
     "pub_date": "9/6/24",
     "featured": false,
     "categories": ["garden"],
@@ -288,30 +288,30 @@
     "slides_only": true,
     "phases": [
       {
-        "pic": "pond1.png",
+        "pic": "pond1.webp",
         "label": "Find 'The Spot'",
         "paragraphs": [{
           "text": "Find a source of river rocks and a suitable place for the pond. (Somewhere near an outlet for the waterfall pump and near a garden hose, but with no buried pipes or electrical conduit underneath it and ideally the pond should be in partial shade). Once you've found the spot, limber up, 'cause making a pond is like a month long, full body fitness bootcamp."
         }]
       },{
-        "pic": "dig1.png",
+        "pic": "dig1.webp",
         "label": "Start Digging, Soak Hole and Repeat",
         "paragraphs": [{
           "text": "Dig... and soak...and dig"
         }]},{
-        "pic": "pond5.png",
+        "pic": "pond5.webp",
         "label": "Carve out shelves",
         "paragraphs": [{
           "text": "Eventually you'll want to start carving a shelf or two around the perimeter of the pond --to set river rocks and planter baskets which will hold the pond liner in place --and to allow for chickens to wade in the shallows. (The angle of the shelves should be no more than 90 degrees --if it's sloping down, everything you try to set on it will fall off once you put the tarp down)."
         }]
       },{
-        "pic": "pond6.png",
+        "pic": "pond6.webp",
         "label": "Line pond the pond hole",
         "paragraphs": [{
           "text": "To create a clay-like layer under the pond liner, line the pond hole with pieces of cardboard, soak and stomp down the cardboard so that it fits the shape of the pond and then put down the pond liner (I forgot to take a pic of the pond liner. I also dug a deeper ditch than my pond liner could accommodate so I had to dam up part of my hole at the last minute, but it's been holding fine for almost a year now.)"
         }]
       },{
-        "pic": "pond7.png",
+        "pic": "pond7.webp",
         "label": "Place river rocks, fill with water and hope for no leaks",
         "paragraphs": [{
           "text": "Put the pond liner over the wet cardboard and set large river rocks on it to hold the pond liner in place around the contours of the shelves you dug."
@@ -324,7 +324,7 @@
           "text": "I bought a dozen 'mosquito fish' from a seller on Amazon and I had a couple hundred fish within about three months of filling the pond. I also bought a water lily rhizome, a pond plant basket and soil from Amazon and planted the water lily in the deepest part of the pond away from the pump and waterfall. Note - chickens eat certain types of water lilies."
         }]},
       {
-          "pic": "pondPopulated.png",
+          "pic": "pondPopulated.webp",
           "label": "Maintenance",
           "paragraphs": [{
             "text": "I have a leak somewhere in the upper level of my pond, so I put about a bathtub worth of water in each morning. (As it happens, the water draining and fresh water filling also helps to flush out hot water, fish waste and other murk in the water). I also, use my hose to spray the algae on the top of the water to one side, skim it off, and scoop out as much blown-in hay as I can from the shallows of the pond every morning to try to keep the nitrogen and amonia levels suitable for fish and plants."
@@ -335,7 +335,7 @@
   {
       "name":  "Subway Tile",
       "pub_date": "9/13/24",
-      "header_pic": "subsDone.png",
+      "header_pic": "subsDone.webp",
       "featured": false,
       "categories": ["construction", "finishing work"],
       "about": "While doing finishing work at my Tempe house, I found a pretty good/time-consuming way to nicely set subway tile.",
@@ -368,38 +368,38 @@
       "materials_pics": [
         {
           "name": "Tile Mesh",
-          "pic": "meshForSubTiles.png"
+          "pic": "meshForSubTiles.webp"
         }
       ],
       "phases": [
         {
-          "pic": "tileStrips.png",
+          "pic": "tileStrips.webp",
           "paragraphs": [{
             "text": "To make sure my tiles were inline, I used spacers and a t-square (with a ruler) to set and glue tiles on sheets of mosaic mesh (in a tessellating pattern where the end of one row of tiles was offset by 50% from the previous and following row). Pro-tip Gluing tiles is actually a pretty relaxing activity to keep your hands busy while you're streaming your favorite whatever."
           }]
         },{
-          "pic": "tilesHighlights.png",
+          "pic": "tilesHighlights.webp",
           "paragraphs": [
             {
               "text": "Following the manufacture's instructions to get ratio of dry thinset to water, I used my hand to mix the water with the thinset in a 5 gallon bucket (and then got a new glove when I was done. A drill with a mixing attachment also works well as long as you keep the drill attachment clean). After troweling thin set over a small section, I placed preset sheets of tiles on the wall (such that one sheet interlocked with the next, checking to keep them level across the wall before starting another row on top)."
             }
           ]
         },{
-          "pic": "subBath3.png",
+          "pic": "subBath3.webp",
           "paragraphs": [
             {
               "text": "I left any areas where tiles needed to be cut for edges, corners, etc open until I had set all the full mesh tile sections I could and then came back and measured and cut tiles to fill in the gaps."
             }
           ]
         },{
-          "pic": "subBath4.png",
+          "pic": "subBath4.webp",
           "paragraphs": [
             {
               "text": "Once all the tiles were cut and set, I grouted. Note- do not mix too much grout at once especially in a hot room. It gets hard to work with fast."
             }
           ]
         },{
-          "pic": "subsDone.png",
+          "pic": "subsDone.webp",
           "paragraphs": [
             {
               "text": "A few days after finishing each room, I sealed all the grout."
@@ -412,7 +412,7 @@
   {
     "name":  "Dealing with Ceilings",
     "pub_date": "9/20/24",
-    "header_pic": "cielStart.png",
+    "header_pic": "cielStart.webp",
     "featured": false,
     "categories": ["construction", "finishing work"],
     "about": "Thermal expansion being what it is, drywall ceilings don't seem to do well in Arizona, so Arthur and I did a couple of 'surprise upgrades' to the patio ceiling at our house in Mesa (where we now have a two-tone exposed beam ceiling) and the front patio of my rental house in Tempe (which now has a tongue and groove wood ceiling). In addition to those unaticipated upgrades, we also finished the ceiling in the main room of the new 'additional dwelling unit' at my rental property by installing a 'ship lap' ceiling.",
@@ -442,7 +442,7 @@
     "slides_only": true,
     "phases": [
       {
-        "pic": "tempPatDon.png",
+        "pic": "tempPatDon.webp",
         "paragraphs": [
           {
             "h4": true,
@@ -462,7 +462,7 @@
           }
         ]
       },{
-        "pic": "tempCeilStart.png",
+        "pic": "tempCeilStart.webp",
         "paragraphs": [
           {
             "h4": true,
@@ -472,21 +472,21 @@
           }
         ]
       },{
-        "pic": "tempCeilArt.png",
+        "pic": "tempCeilArt.webp",
         "paragraphs": [
           {
             "text": "Since this ceiling was much larger than the patio, we couldn't just lay the beams across a frame, for most of the boards, I had to walk up a ladder with one end of a board while Arthur climbed up the scaffolding and we both had to awkwardly hold it in place handing the nail gun back and forth until it was held in place. PRO TIP - All boards must be cut such that they start and end at a ceiling joist (otheriwse the ends will droop)!"
           }
         ]
       },{
-        "pic": "tempeCeilSealed.png",
+        "pic": "tempeCeilSealed.webp",
         "paragraphs": [
           {
             "text": "I brushed on two coats of polyurethane to protect the wood."
           }
         ]
       },{
-        "pic": "mesaRoof3.png",
+        "pic": "mesaRoof3.webp",
         "paragraphs": [
           {
             "h4": true,
@@ -498,7 +498,7 @@
           }
         ]
       },{
-        "pic": "mesaCielDone.png",
+        "pic": "mesaCielDone.webp",
         "paragraphs": [
           {
             "text": "I decided to paint the beams brown to match the trim of our house and the underside of the roof planks white, to give a cottagey two-tone effect."
@@ -510,7 +510,7 @@
     {
       "name": "Wood Tile Floors",
       "pub_date": "9/27/24",
-      "header_pic": "tilingdirty.png",
+      "header_pic": "tilingdirty.webp",
       "about": "Wear your grubbies, tiling is messy business!",
       "featured": false,
       "categories": ["construction"],
@@ -539,7 +539,7 @@
       ],
       "phases": [
         {
-          "pic": "startingLiv.png",
+          "pic": "startingLiv.webp",
           "paragraphs": [
             {
               "h4": true,
@@ -552,7 +552,7 @@
             }
           ]
         },{
-          "pic": "startingBed.png",
+          "pic": "startingBed.webp",
 
           "paragraphs": [
             {
@@ -565,7 +565,7 @@
 
           ]
         },{
-          "pic": "grouty.png",
+          "pic": "grouty.webp",
           "paragraphs": [
             {
               "h4": true,
@@ -576,7 +576,7 @@
             }
           ]
         },{
-          "pic": "dogDone.png",
+          "pic": "dogDone.webp",
           "paragraphs": [
             {
               "h4": true,
@@ -592,7 +592,7 @@
     {
       "name": "Built-in Storage Bench",
       "pub_date": "10/4/24",
-      "header_pic": "sBenchDone.png",
+      "header_pic": "sBenchDone.webp",
       "about": "We needed some extra long term storage and also more seating at our dining table, so installing a storage bench/ window seat in our Bay Window was a quick, easy solution!",
       "featured": false,
       "categories": ["construction", "storage"],
@@ -609,7 +609,7 @@
       "tool_pics": [
         {
           "name": "Pocket Hole Drill Kit",
-          "pic": "pocketHoleDrillKit.png"
+          "pic": "pocketHoleDrillKit.webp"
         }
       ],
       "materials": [
@@ -625,7 +625,7 @@
       ],
       "phases": [
         {
-          "pic": "kitchenWindowStart.png",
+          "pic": "kitchenWindowStart.webp",
           "paragraphs": [
             {
               "h4": true,
@@ -640,7 +640,7 @@
             }
           ]
         },{
-          "pic": "sBenchFrame.png",
+          "pic": "sBenchFrame.webp",
 
           "paragraphs": [
             {
@@ -663,7 +663,7 @@
             }
           ]
         },{
-          "pic": "sBenchPainted.png",
+          "pic": "sBenchPainted.webp",
           "paragraphs": [
             {
               "h4": true,
@@ -677,7 +677,7 @@
             }
           ]
         },{
-          "pic": "sBenchOpen.png",
+          "pic": "sBenchOpen.webp",
           "paragraphs": [
             {
               "h4": true,
@@ -692,7 +692,7 @@
     {
       "name": "Pipe Furniture",
       "pub_date": "10/11/24",
-      "header_pic": "pipeFurnitureDone.png",
+      "header_pic": "pipeFurnitureDone.webp",
       "about": "I knew I wanted to use iron pipes to do open shelves in my new rental unit, so I bought a lot of pipes and had plenty left over to make some fun furniture pieces for our house too",
       "featured": false,
       "categories": ["furniture"],
@@ -714,7 +714,7 @@
       ],
       "phases": [
         {
-          "pic": "pipeFurn1.png",
+          "pic": "pipeFurn1.webp",
           "paragraphs": [
             {"text": "Planning",
               "h4": true
@@ -726,7 +726,7 @@
             }
           ]
         },{
-          "pic": "pipeFurn2.png",
+          "pic": "pipeFurn2.webp",
           "paragraphs": [
             {"text": "Rough Assembly",
               "h4": true
@@ -739,7 +739,7 @@
             }
           ]
         },{
-          "pic": "pipeFurnitureDone.png",
+          "pic": "pipeFurnitureDone.webp",
           "paragraphs": [
             {"text": "Finishing",
               "h4": true
@@ -761,7 +761,7 @@
     {
       "name": "Concreting Over Corian or Laminate Counter Tops",
       "pub_date": "10/25/24",
-      "header_pic": "kitchenAB.png",
+      "header_pic": "kitchenAB.webp",
       "about": "Four years ago, I re-did our bathroom (Corian) counters and sink this way and they've been holding up great so I decided to give it a try in the kitchen too",
       "featured": false,
       "categories": ["finishing work"],
@@ -786,7 +786,7 @@
       ],
       "phases": [
         {
-          "pic": "kitchStart.png",
+          "pic": "kitchStart.webp",
           "paragraphs": [
             {
               "text": "               .",
@@ -820,7 +820,7 @@
             }
           ]
         },{
-          "pic": "kitchencoat1B.png",
+          "pic": "kitchencoat1B.webp",
           "right_side_pic": true,
           "paragraphs": [
             {"text": "Apply Concrete Underlayment",
@@ -843,7 +843,7 @@
             }
           ]
         },{
-          "pic": "kitchenCoatedB.png",
+          "pic": "kitchenCoatedB.webp",
           "paragraphs": [
             {"text": "Seal Countertop",
               "h4": true
@@ -863,7 +863,7 @@
 
           ]
         },{
-          "pic": "kitchenDone2.png",
+          "pic": "kitchenDone2.webp",
           "paragraphs": [
             {"text": "Wait for the sealer to dry and voilà",
               "h4": true
@@ -875,7 +875,7 @@
     },
     {
       "name": "Converting Mini Bike From Gas To Electric",
-      "header_pic": "minibikedone.png",
+      "header_pic": "minibikedone.webp",
       "pub_date": "11/8/24",
       "categories": ["Vehicles"],
       "about": "More Zooms With Less Fumes",
@@ -987,7 +987,7 @@
     {
       "name":  "Arillian Christmas Trees",
       "pub_date": "11/22/24",
-      "header_pic": "xmasTree1.png",
+      "header_pic": "xmasTree1.webp",
       "categories": ["recreation"],
       "about": "Arthur and I try to keep our tree fresh for the holidays.",
       "tools": [
@@ -1000,7 +1000,7 @@
       ],
       "phases": [
         {
-          "pic": "xmasTree1.png",
+          "pic": "xmasTree1.webp",
           "paragraphs": [{
             "text": "When Arthur and I lived (in my now rental house) in Tempe, we made a 'Portal' Christmas tree."
           },{
@@ -1010,14 +1010,14 @@
           }]
         },{
           "right_side_pic": true,
-          "pic": "xmasTree2.png",
+          "pic": "xmasTree2.webp",
           "paragraphs": [
             {
               "text": "The first year we lived in Mesa, I had gotten a major pay bump after starting my first software development job and renting out my Tempe house, and our front-room had high ceilings, so I bought a huge Christmas Tree."
             }
           ]
         },{
-          "pic": "xmasTree3.png",
+          "pic": "xmasTree3.webp",
           "paragraphs": [
             {
               "text": "I was raised on movies where folks go into a forest and cut down their own tree and bring it home and then a chipmonk or something pops our and reaks havoc, so when I found out you could cut trees down in the forest not too far from our house, I got a pass to cut our own tree..."
@@ -1026,7 +1026,7 @@
             }
           ]
         },{
-          "pic": "xmasTree4.png",
+          "pic": "xmasTree4.webp",
           "right_side_pic": true,
           "paragraphs": [
             {
@@ -1034,14 +1034,14 @@
             }
           ]
         },{
-          "pic": "xmasTree5.png",
+          "pic": "xmasTree5.webp",
           "paragraphs": [
             {
               "text": "We bought a welder a few years back and decided a good learning project would be to weld a christmas tree out of scrap metal we had around."
             }
           ]
         },{
-          "pic": "xmasTree6.png",
+          "pic": "xmasTree6.webp",
           "right_side_pic": true,
           "paragraphs": [
             {
@@ -1049,14 +1049,14 @@
             }
           ]
         },{
-          "pic": "xmasTree7.png",
+          "pic": "xmasTree7.webp",
           "paragraphs": [
             {
               "text": "And then we hung a tree net from the ceiling, attached it to the metal tree, lit the topo chico bottles the same way as before and filled the net with balloons."
             }
           ]
         },{
-          "pic": "xmasTree8.png",
+          "pic": "xmasTree8.webp",
           "right_side_pic": true,
           "paragraphs": [
             {
@@ -1075,7 +1075,7 @@
     }, {
       "name":  "Rube Goldberg Machine X-mas Tree",
       "pub_date": "12/6/24",
-      "header_pic": "rgTreeStart.png",
+      "header_pic": "rgTreeStart.webp",
       "categories": ["recreation"],
       "about": "We Used Arthur's Sons' Toys to Make a Delightfully Inefficient Mechanism to Turn on Our Tree Lights This Year",
        "tools": ["various"],
@@ -1086,34 +1086,34 @@
       ],
       "phases": [
         {
-          "pic": "rgTreeStart.png",
+          "pic": "rgTreeStart.webp",
           "paragraphs": [
             {"text": "First, we used a matchbox car set to make a track through our winter village."}
           ]
         },{
           "right_side_pic": true,
-          "pic": "rgTree2.png",
+          "pic": "rgTree2.webp",
           "paragraphs": [
             {"text": "At the end of the track, the matchbox car runs into a bucket with a string tied to the handle, knocking it off a platform."}
           ]
         },{
-          "pic": "rgTree3.png",
+          "pic": "rgTree3.webp",
           "paragraphs": [
             {"text": "When the bucket falls, the string around its handle tugs on the end of a binder clip, where a golf ball is tenuously perched. The golf ball then falls down a duct"}
           ]
         },{
-          "pic": "rgTree4.png",
+          "pic": "rgTree4.webp",
           "right_side_pic": true,
           "paragraphs": [
             {"text": "The ball shoots out the bottom of the duct and runs down a series of ramps down around the tree before rolling down a wrapping paper tube."}
           ]
         },{
-          "pic": "rgTree5.png",
+          "pic": "rgTree5.webp",
           "paragraphs": [
             {"text": "The wrapping paper tube is taped to another piece of Matchbox car track which has a mechanism to launch a second matchbox car --which has a fishing line duct taped to its roof. The other end of the line is tied to a release lever for a toy Thomas Train. (Arthur drilled a hole in that lever so we could tie the string securly). When the golf ball rolls down the rolling paper tube and down the matchbox track it triggers the Matchbox car to lurch forward, pulling the train release. The Thomas train then goes around the Christmas tree."}
           ]
         },{
-          "pic": "rgTree6.png",
+          "pic": "rgTree6.webp",
           "right_side_pic": true,
           "paragraphs": [
             {"text": "The train track terminates at a small drop off that dumps the train onto the paddle of a mouse trap. When the train runs off the track onto the paddle, the trap flips another matchbox track mechanism that has a bolt taped to it like a hammer head. The heavy bolt falls onto the switch of a power strip"}
@@ -1131,7 +1131,7 @@
     {
       "name": "Carrom Boards",
       "pub_date": "12/13/24",
-      "header_pic": "carromdone.png",
+      "header_pic": "carromdone.webp",
       "about": "A fun game table game to play with friends and family and a great way to use some wood scraps",
       "categories": ["gift ideas"],
       "tools": [
@@ -1151,7 +1151,7 @@
       ],
       "phases": [
         {
-          "pic": "carromA.png",
+          "pic": "carromA.webp",
           "paragraphs": [
             {
               "text": "When my brother and I were in elementary school, there were carrom boards we loved to play with at recess. I thought it would be fun for him to play those games with my nieces, so I recreated a couple of the boards for my brother's Christmas present last year."},
@@ -1161,7 +1161,7 @@
           ]
         },
         {
-          "pic": "carrom1.png",
+          "pic": "carrom1.webp",
           "paragraphs": [
             {
               "text": "I had enough leftover plywood (from another project) to make two 2-sided boards, so I decided to recreate the maze game on one board and the golf game on the other and then make up new games to go on the bottom side of each of those game boards (I made a soccer game on one and, just colored circles inside of circles for the other --thinking my brother and neices could make up their own game rules for that board."
@@ -1171,7 +1171,7 @@
           ]
         },
         {
-          "pic": "carrom2.png",
+          "pic": "carrom2.webp",
           "paragraphs": [
             {
               "text": "For the soccer game, I used an electric miter saw to cut small pieces of wood which I dyed with food coloring to represent soccer players."
@@ -1179,7 +1179,7 @@
           ]
         },
         {
-          "pic": "carrom3.png",
+          "pic": "carrom3.webp",
           "paragraphs": [
             {
               "text": "For a grassy effect on the golf course and soccer games, I dyed the board green with food coloring."
@@ -1187,27 +1187,27 @@
           ]
         },
         {
-          "pic": "carrom6.png",
+          "pic": "carrom6.webp",
           "paragraphs": [
             {
               "text": "Then I drew soccer lines on with a white paint pen and ruler (and used the inner circle of a roll of painters tape to trace circles and semi-circles for round features)."
             }]
         },
         {
-          "pic": "carrom7.png",
+          "pic": "carrom7.webp",
           "paragraphs": [
             {
               "text": "I glued the dyed wood pieces onto the board with wood glue."
             }]
         },
         {
-          "pic": "carrom8.png",
+          "pic": "carrom8.webp",
           "paragraphs": [
             {
               "text": "I added a piece of trim around the edge to allow for bank shots and to keep the wooden game puck from constantly flying off the table."
             }]},
         {
-          "pic": "carrom4.png",
+          "pic": "carrom4.webp",
           "paragraphs": [
             {
               "text": "For the 'golf course', I glued down cut pieces as obstacles and used paint pens to mark the 'holes' and add additional obstacles. I made wooden pucks by sawing discs off the ends of a closet dowel I had and I died those with food coloring as well."
@@ -1215,19 +1215,19 @@
           ]
         },
             {
-          "pic": "carrom9.png",
+          "pic": "carrom9.webp",
           "paragraphs": [
             {
               "text": "I bought a pack of 1/2 inch x 12 inch white wood pieces from the trim wood section of Home Depot. Using those, I laid out a small laberynth and glued those in place with wood glue. Then I used paint markers to add shoots and ladder style bonuses and traps to the labrynth"
             }]},
             {
-          "pic": "carromD1.png",
+          "pic": "carromD1.webp",
           "paragraphs": [
             {
               "text": "After I had all the boards painted and wooden features glued, I varnished each board to protect the paint and help the wooden pucks slide easier"
             }]},
             {
-          "pic": "carromD2.png",
+          "pic": "carromD2.webp",
           "paragraphs": [
             {
               "text": ""
@@ -1237,7 +1237,7 @@
     {
       "name": "Resin and Rock Chess Board",
       "pub_date": "12/20/24",
-      "header_pic": "chessDone.png",
+      "header_pic": "chessDone.webp",
       "about": "Epoxy is a fun and versatile medium for crafting",
       "categories": ["gift ideas"],
       "tools": [
@@ -1257,7 +1257,7 @@
       ],
       "phases": [
         {
-          "pic": "chess2.png",
+          "pic": "chess2.webp",
           "paragraphs": [
             {
               "text": "Find a level workspace, lay down a piece of cardboard, plastic or cloth under the chess board mold and begin laying out stones, seeds etc, in each square of the mold, alternating dark and light in a checkerboard fashion."
@@ -1267,7 +1267,7 @@
           ]
         },
         {
-          "pic": "chess2b.png",
+          "pic": "chess2b.webp",
           "paragraphs": [
             {
               "text": "When you are satisfied with the board layout, follow instructions on epoxy resin kit to make about 1 cup of resin for the chess board. When fully mixed and activated, pour resin over the gravel etc in your board frame"
@@ -1276,7 +1276,7 @@
           ]
         },
         {
-          "pic": "chess4.png",
+          "pic": "chess4.webp",
           "paragraphs": [
             {
               "text": "While the board hardens, begin filling the molds for the chess pieces."
@@ -1287,7 +1287,7 @@
           ]
         },
         {
-          "pic": "chessDone.png",
+          "pic": "chessDone.webp",
           "paragraphs": [
             {
               "text": "Once the board is fully hardened and no longer tacky, miter cut quarter round and use super glue to glue it in place around the board."
@@ -1297,7 +1297,7 @@
     {
       "name": "8ft x 8 ft Paver Patio",
       "pub_date": "1/10/25",
-      "header_pic": "pavPat4.png",
+      "header_pic": "pavPat4.webp",
       "about": "",
       "categories": ["construction","farm"],
       "tools": [
@@ -1318,7 +1318,7 @@
       ],
       "phases": [
         {
-          "pic": "pavPat1.png",
+          "pic": "pavPat1.webp",
           "paragraphs": [
             {
               "text": "Using a tape measure, stake out a 8.6ft x 8.6ft square. Then run rope or twine around the stakes to mark the perimeter of your patio."
@@ -1334,7 +1334,7 @@
           ]
         },
         {
-          "pic": "pavPat2.png",
+          "pic": "pavPat2.webp",
           "paragraphs": [
             {
               "text": "Distribute bags of gravel around patio area, break the bags open with a shovel (discard bags) and use a shovel to distribute the gravel around the patio area. Use rake to roughly level the gravel, then tamp down until gravel is evenly pact. Place a straight 2x4 on one edge of the gravel and hold a level on top of it screed the patio with the 2x4 until level."
@@ -1348,7 +1348,7 @@
               "text": "Distribute 8 bags of sand around patio area (reserving 2 bags to use as joint sand), break the bags open with a shovel (discard bags) and use a shovel to distribute the sand around the patio area. Use rake to roughly level the sand, then use a 2x4 (and hold a level on top) to 'screed' the sand."
             }]},
         {
-          "pic": "pavPat3.png",
+          "pic": "pavPat3.webp",
           "paragraphs": [
             {
               "text": "Carefully place the pavers on the screeded sand bedin a grid pattern then use tamp to level the paver stones."
@@ -1356,7 +1356,7 @@
           ]
         },
         {
-          "pic": "pavPat4.png",
+          "pic": "pavPat4.webp",
           "paragraphs": [
             {
               "text": "Puncture the remaining sand bags and shake evenly over the top of the tamped pavers the, using a push broom, spread the sand around the paver patio until all paving stones are locked in place."
@@ -1368,7 +1368,7 @@
     {
       "name": "Desktop Zen Garden (with secret storage spot)",
       "pub_date": "1/24/25",
-      "header_pic": "sandBoxDone.png",
+      "header_pic": "sandBoxDone.webp",
       "about": "Cute Gift Idea",
       "categories": ["gift ideas"],
       "tools": [
@@ -1392,7 +1392,7 @@
       ],
       "phases": [
         {
-          "pic": "sandbox1.png",
+          "pic": "sandbox1.webp",
           "paragraphs": [
             {
               "text": "Using a Tape Measure and an Electric Miter Saw or Circular Saw, Cut an 8-12 inch square or rectangle for the  base. NOTE - If you are making storage underneath the width of the rectangle should be approx the same as the length of a popsicle stick"
@@ -1402,7 +1402,7 @@
               "text": "While the top portion is drying, cut off two identical pieces from the square dowel --each should be the same length as the base (or slightly less if you're short on dowel)."
             }
           ]},{
-          "pic": "sandBox2.png",
+          "pic": "sandBox2.webp",
           "paragraphs": [
             {
               "text": "For the 'secret storage compartment' (or greeting card holder), Use a Chisel or Flathead Screw Driver and a Hammer to gouge out slots for the popsicle sticks in the square dowels, (each dowel should have three slots carved out directly across from the opposite base side)."
@@ -1412,7 +1412,7 @@
               "text": "Put glue on both sides of the free end of each popsicle stick, then glue the second leg to the base, while fitting each popsicle stick into place"
             }
           ]},{
-          "pic": "sandbox3.png",
+          "pic": "sandbox3.webp",
           "paragraphs": [
             {
               "text": "To make a Rake For The Garden, use a pipe cutter to cut 1-2 inches off the end off of a Wooden Chop Stick and cut three small dowels off of Wooden BBQ Skewer"
@@ -1420,7 +1420,7 @@
               "text": "To make the broom head, use wood glue to glue the small dowels onto the small portion of the chopstick. When the glue on the broomhead is dry, glue it to the longer end of the chopstick."
             }
           ]},{
-          "pic": "sandBoxDone.png",
+          "pic": "sandBoxDone.webp",
           "paragraphs": [
             {
               "text": "When the glue on the feet is dry, fill with sand, place a few rocks inside and bing bang boom you're in business!"
@@ -1431,7 +1431,7 @@
     {
       "name": "Growing Artichokes From Seed",
       "pub_date": "2/7/25",
-      "header_pic": "scoutNchokes.png",
+      "header_pic": "scoutNchokes.webp",
       "about": "Artichokes are Beautiful Delicious Plants that add Flare to any Backyard Garden",
       "categories": ["gardening"],
       "tools": [
@@ -1448,32 +1448,32 @@
       ],
       "phases": [
         {
-          "pic": "choke1.png",
+          "pic": "choke1.webp",
           "paragraphs": [
             {
               "text": "I start my seeds in cut-in-half LaCroix boxes filled with dirt"
             }
           ]},
         {
-          "pic": "choke2.png",
+          "pic": "choke2.webp",
           "paragraphs": [
             {
               "text": "I let a few smaller artichokes go to flower every year 1-because they're pretty and 2-so I can gather some seeds to plant for the next year."
             }
           ]},{
-          "pic": "choke3.png",
+          "pic": "choke3.webp",
           "paragraphs": [
             {
               "text": "Arthur used to design agricultural grow lights, so I start spring seeds indoors in late December."
             }
           ]},{
-          "pic": "choke4.png",
+          "pic": "choke4.webp",
           "paragraphs": [
             {
               "text": "I also started some seeds outside in late October. (I had to cover them with a blanket a couple times because of frost, but they were ready to go into the ground in early Feb)"
             }
           ]},{
-          "pic": "choke5.png",
+          "pic": "choke5.webp",
           "paragraphs": [
             {
               "text": "NOTE - The soil should be dry when you plant your artichoke so that it will not fall away when you move it."
@@ -1482,19 +1482,19 @@
               "text": "When ready to plant, I dig a hole that is a little bit deeper and wider than the plant box"
             }
           ]},{
-          "pic": "choke6.png",
+          "pic": "choke6.webp",
           "paragraphs": [
             {
               "text": "After setting the plant box in the hole, I rip away the cardboard and then fill in compost around it, leaving a bit of a trench around the plant for watering."
             }
           ]},{
-          "pic": "choke7.png",
+          "pic": "choke7.webp",
           "paragraphs": [
             {
               "text": "Soak the newly planted Artichoke with 1-2 gallons of water. Then water in a similar manner 1-2 times per week thereafter"
             }
           ]},{
-          "pic": "choke8.png",
+          "pic": "choke8.webp",
           "paragraphs": [
             {
               "text": "NOTE- soaking the artichoke with a couple gallons of water once a week is better than giving it drip water every day. It helps develop a deep tap root so that the Artichoke plant will re-grow and bloom (like a bulb) for several years."
@@ -1510,7 +1510,7 @@
     {
       "name": "Converting a Tough Shed into a Goat/ Chicken Barn",
       "pub_date": "2/21/25",
-      "header_pic": "coopFullFront.png",
+      "header_pic": "coopFullFront.webp",
       "about": "",
       "categories": [],
       "tools": [
@@ -1537,7 +1537,7 @@
       ],
       "phases": [
         {
-          "pic": "coopFullFront.png",
+          "pic": "coopFullFront.webp",
           "paragraphs": [
             {
               "text": "The Barnyard",
@@ -1549,7 +1549,7 @@
               "text": "Since the sheds were near to the North wall of our property, I only had to enclose two small gaps, run some chicken wire overhead between the sheds and the north and west corner of our property and put in a gate in order to create a secure space for them."
             }
           ]},{
-          "pic": "coopOut1.png",
+          "pic": "coopOut1.webp",
           "paragraphs": [
             {
               "text": "Ice House",
@@ -1558,9 +1558,9 @@
               "text": "I set up an 'ice house' in an area that is almost always shaded -- between the She Shed and the Barn. If it's over 100F out, I'll bring a few pint of solid ice and stack it in the back of their little outside house. (I also add a pint of ice to each water bucket twice a day in the summer) "
             }
           ]},{
-          "pic": "barnPre.png"
+          "pic": "barnPre.webp"
         },{
-          "pic": "coopInFull.png",
+          "pic": "coopInFull.webp",
           "paragraphs": [
             {
               "text": "Dividing the Barn",
@@ -1573,7 +1573,7 @@
               "text": "Once the frame was up, I used fence boards and construction screws (with washers) to pin the livestock taut against the bottom frame (from the goat side) -- For the top part I used chicken wire and staples. Eventually I added chicken wire all around the bottom of the barn because the goats were eating the drywall and young chickens were finding their way out at night."
             }
           ]},{
-          "pic": "coopOut2in.png",
+          "pic": "coopOut2in.webp",
           "paragraphs": [
             {
               "text": "In Out Access",
@@ -1586,7 +1586,7 @@
               "text": "To keep the goats from reeking havok, I set ciner blocks on the chicken coop side of the barn dor and stack them in a way that the goats will topple them (or climb into a water bucket) if they try to get into the chicken side. They learned pretty quickly to stop going in there."
             }
           ]},{
-          "pic": "nestegg.png",
+          "pic": "nestegg.webp",
           "paragraphs": [
             {
               "text": "Nesting Boxes",
@@ -1595,7 +1595,7 @@
               "text": "I set up three nesting boxes, one above the back portal and two under chicken ladders -- the one above the back portal is the most popular."
             }
           ]},{
-          "pic": "coopFan.png",
+          "pic": "coopFan.webp",
           "paragraphs": [
             {
               "text": "Ventilation",
@@ -1604,7 +1604,7 @@
               "text": "All the animals are big FANS of ventilation, so besides keeping the door open, I also use clip on fans (clipped to the rafters or set on the middle shelf) to keep air flowing."
             }
           ]},{
-          "pic": "coopIn1.png",
+          "pic": "coopIn1.webp",
           "paragraphs": [
             {
               "text": "Cooping Upwards",
@@ -1624,7 +1624,7 @@
     {
       "name": "She Shed",
       "pub_date": "3/7/25",
-      "header_pic": "ssbdone2.png",
+      "header_pic": "ssbdone2.webp",
       "about": "A lot of Well-Worth-it work went into this cute lil getaway spot",
       "categories": ["construction"],
       "tools": [
@@ -1665,7 +1665,7 @@
       ],
       "phases": [
         {
-          "pic": "ssb2.png",
+          "pic": "ssb2.webp",
           "paragraphs": [
             {
               "text": "Insulation and Drywall and Framing",
@@ -1686,7 +1686,7 @@
             }
           ]
         },{
-          "pic": "ssbdone.png",
+          "pic": "ssbdone.webp",
           "right_side_pic": true,
           "paragraphs": [
             {
@@ -1700,7 +1700,7 @@
             }
           ]
         },{
-          "pic": "ssbdone2.png",
+          "pic": "ssbdone2.webp",
           "paragraphs": [
             {
               "text": "",
@@ -1711,7 +1711,7 @@
             }
           ]
         },{
-          "pic": "sswalldone.png",
+          "pic": "sswalldone.webp",
           "right_side_pic": true,
           "paragraphs": [
             {
@@ -1726,7 +1726,7 @@
           ]
         },
         {
-          "pic": "sshide.png",
+          "pic": "sshide.webp",
           "paragraphs": [
             {
               "text": "Secret Compartments",
@@ -1737,7 +1737,7 @@
             }
           ]
         },{
-          "pic": "ssparty2.png",
+          "pic": "ssparty2.webp",
           "right_side_pic": true,
           "paragraphs": [
             {
@@ -1746,7 +1746,7 @@
             }
           ]
         },{
-          "pic": "ssparty3.png",
+          "pic": "ssparty3.webp",
           "paragraphs": [
             {
               "h4": true,
@@ -1755,7 +1755,7 @@
           ]
         },
         {
-          "pic": "ssparty1.png",
+          "pic": "ssparty1.webp",
           "right_side_pic": true,
           "paragraphs": [
             {
@@ -1770,7 +1770,7 @@
       "name": "Rain Gutters w/ Water Collection Barrel",
       "pub_date": "3/21/25",
       "featured": true,
-      "header_pic": "rbarrel.png",
+      "header_pic": "rbarrel.webp",
       "about": "Don't let all your spring rain go down the drain",
       "categories": ["construction","gardening"],
       "tools": [
@@ -1843,7 +1843,7 @@
             }
           ]
         },{
-          "pic": "gbend.png",
+          "pic": "gbend.webp",
           "paragraphs": [
             {
               "text": "Installing the Brackets",
@@ -1857,7 +1857,7 @@
             }
           ]
         },{
-          "pic": "gutA.png",
+          "pic": "gutA.webp",
           "paragraphs": [
             {
               "text": "Assembling the Gutters",
@@ -1873,7 +1873,7 @@
             }
           ]
         },{
-          "pic": "gut1.png",
+          "pic": "gut1.webp",
           "paragraphs": [
             {
               "text": "Mounting the Gutters",
@@ -1888,7 +1888,7 @@
             }
           ]
         },{
-          "pic": "rbarrel.png",
+          "pic": "rbarrel.webp",
           "paragraphs": [
             {
               "text": "Installing Downspouts",
@@ -1901,7 +1901,7 @@
             }
           ]
         },{
-          "pic": "gutT.png",
+          "pic": "gutT.webp",
           "paragraphs": [
             {
               "text": "Seal All Joints",
@@ -1931,7 +1931,7 @@
     {
       "name": "Cultivating Culinary Artichokes",
       "pub_date": "4/4/25",
-      "header_pic": "achokebundle.png",
+      "header_pic": "achokebundle.webp",
       "about": "Harness some Farmyard Flower Power",
       "categories": ["gardening"],
       "tools": [
@@ -1965,7 +1965,7 @@
           }
         ]
       },{
-        "pic": "achokey.png",
+        "pic": "achokey.webp",
         "paragraphs": [
           {
             "text": "Cultivating Chokes Big Enough to Scrape Flower Meat with Your Teeth",
@@ -1981,7 +1981,7 @@
           }
         ]
       },{
-          "pic": "smallchoke.png",
+          "pic": "smallchoke.webp",
         "right_side_pic": true,
           "paragraphs": [
             {
@@ -2013,7 +2013,7 @@
     {
       "name": "(Sort of) Making a Straw Hat/ Easter Basket",
       "pub_date": "4/18/25",
-      "header_pic": "ebasketdone.png",
+      "header_pic": "ebasketdone.webp",
       "about": "Go Against the Grain with Straw Crafting",
       "categories": ["gardening", "straw"],
       "tools": [
@@ -2024,7 +2024,7 @@
         "Twine (From Hay Bales)"
       ],
       "phases": [{
-        "pic": "ebasketcut.png",
+        "pic": "ebasketcut.webp",
         "paragraphs": [
           {
             "text": "Growing and Harvesting Straw Craft Supplies",
@@ -2042,7 +2042,7 @@
           }
         ]
       },{
-        "pic": "ebasketsoak.png",
+        "pic": "ebasketsoak.webp",
         "right_side_pic": true,
         "paragraphs": [
           {
@@ -2050,14 +2050,14 @@
           }
         ]
       },{
-        "pic": "ebasketwrap.png",
+        "pic": "ebasketwrap.webp",
         "paragraphs": [
         {
           "text": "After it's bath, I wrapped my straw in a damp towel, pulling only a few strands out at a time -- to keep it from drying out while I worked with it."
         }
         ]
       },{
-        "pic": "ebasketbraid.png",
+        "pic": "ebasketbraid.webp",
         "right_side_pic": true,
         "paragraphs": [
           {
@@ -2069,7 +2069,7 @@
           }
         ]
       },{
-          "pic": "ebasketframe.png",
+          "pic": "ebasketframe.webp",
           "paragraphs": [
             {
               "text": "Frame Job",
@@ -2082,7 +2082,7 @@
             }
           ]
         },{
-          "pic": "ebasketshape.png",
+          "pic": "ebasketshape.webp",
           "right_side_pic": true,
           "paragraphs": [
             {
@@ -2090,7 +2090,7 @@
             }
           ]
         },{
-          "pic": "ebaskethatfail2.png",
+          "pic": "ebaskethatfail2.webp",
           "paragraphs": [
             {
               "text": "After some more random braiding and weaving, what I ended up with was almost certainly not a hat. Arthur thought it looked like a basket from a history museum..."
@@ -2104,7 +2104,7 @@
             }
           ]
         },{
-          "pic": "ebaskethandle.png",
+          "pic": "ebaskethandle.webp",
           "right_side_pic": true,
           "paragraphs": [
             {
@@ -2112,14 +2112,14 @@
             }
           ]
         },{
-          "pic": "ebasketdone.png",
+          "pic": "ebasketdone.webp",
           "paragraphs": [
             {
               "text": "Eventually I ended up with something that actually resembled an Easter basket."
             }
           ]
         },{
-          "pic": "ebasketmulch.png",
+          "pic": "ebasketmulch.webp",
           "right_side_pic": true,
           "paragraphs": [
             {
@@ -2144,7 +2144,7 @@
     {
       "name": "DIY Seed Bouquet from Kitchen Garden Trimmings",
       "pub_date": "May 9, 2025",
-      "header_pic": "seed-bouquet-done.png",
+      "header_pic": "seed-bouquet-done.webp",
       "about": "Turn bolted garden greens into next year's harvest with a beautiful seed bouquet.",
       "categories": ["Gardening", "Seed Saving", "DIY"],
       "tools": [
@@ -2157,7 +2157,7 @@
       "phases": [
         {
           "label": "Timing the Harvest",
-          "pic": "seeds-forming.png",
+          "pic": "seeds-forming.webp",
           "paragraphs": [
             {
               "text": "Seed saving starts with patience!",
@@ -2171,7 +2171,7 @@
           ]
         },
         {
-          "pic": "snipped-plants.png",
+          "pic": "snipped-plants.webp",
           "paragraphs": [
             {
               "text": "Taking Cuttings From Common Plants",
@@ -2205,7 +2205,7 @@
         },
         {
           "label": "Bundling and Drying",
-          "pic": "bouquet-drying.png",
+          "pic": "bouquet-drying.webp",
           "paragraphs": [
             {
               "text": "Bundling the dried stalks .",
@@ -2250,7 +2250,7 @@
     {
       "name": "Sprouting Broccoli Micro Greens at Home",
       "pub_date": "May 13, 2025",
-      "header_pic": "bsproutDone.png",
+      "header_pic": "bsproutDone.webp",
       "about": "Broccoli Micro Greens: Nutritious Silly String for Your Sandwich.",
       "categories": ["Gardening", "Seed Saving", "DIY"],
       "tools": [
@@ -2268,7 +2268,7 @@
       "phases": [
         {
           "label": "",
-          "pic": "bsproutPods.png",
+          "pic": "bsproutPods.webp",
           "paragraphs": [
             {
               "text": "Prepare Seeds:",
@@ -2283,7 +2283,7 @@
           ]
         }, {
           "label": "",
-          "pic": "bsproutSoak.png",
+          "pic": "bsproutSoak.webp",
           "paragraphs": [
             {
               "text": "Soak Seeds:",
@@ -2294,7 +2294,7 @@
           ]
         },{
           "label": "",
-          "pic": "bsproutSprout.png",
+          "pic": "bsproutSprout.webp",
           "paragraphs": [
             {
               "text": "Rinse and Drain Seeds Until Sprouts Appear:",
@@ -2312,7 +2312,7 @@
           ]
         },{
           "label": "",
-          "pic": "bsproutFinish.png",
+          "pic": "bsproutFinish.webp",
           "paragraphs": [
             {
               "text": "Fine Tuning:",
@@ -2341,7 +2341,7 @@
     {
       "name": "Quick Build: Making a Temporary Brooder for Broodzilla to Raise her Brood",
       "pub_date": "May 30, 2025",
-      "header_pic": "brooder-done.png",
+      "header_pic": "brooder-done.webp",
       "about": "When we surprised Broodzilla with baby chicks, I had to whip up an emergency DIY brooder on the fly! Learn how to build a temporary, safe chick brooder using scrap wood and hardware cloth, keeping your new fluff balls cozy and safe from the flock.",
       "categories": ["chickens", "construction", "DIY"],
       "tools": [
@@ -2360,7 +2360,7 @@
       "phases": [
         {
           "label": "Choosing the Right Spot for Your DIY Brooder",
-          "pic": "brooder-space.png",
+          "pic": "brooder-space.webp",
           "paragraphs": [
             {
               "text": "Finding The Right Space:",
@@ -2413,7 +2413,7 @@
     {
       "name": "Unleash Your Inner Creator: A Quick-Start Guide to Making Engaging YouTube Shorts",
       "pub_date": "June 13, 2025",
-      "header_pic": "edit-shorts-with-yt-studio.png",
+      "header_pic": "edit-shorts-with-yt-studio.webp",
       "about": "How to make YouTube Shorts that Pop! This guide breaks down my process for creating engaging, short-form videos quickly, from filming on your phone to adding those unique touches that help them stand out!",
       "categories": [
         "YouTube",
@@ -2434,7 +2434,7 @@
       "phases": [
         {
           "label": "Phoning It In - Using a Cell Phone to Make YouTube Shorts",
-          "pic": "use-phone-for-filming-shorts.png",
+          "pic": "use-phone-for-filming-shorts.webp",
           "paragraphs": [
             {
               "text": "When I started YouTubing, I thought need to buy fancy editing software for my laptop to create and edit YouTube shorts – I was wrong!"
@@ -2449,7 +2449,7 @@
         },
         {
           "label": "Editing Youtube Shorts with YT Studio and Google Photos",
-          "pic": "edit-shorts-with-yt-studio.png",
+          "pic": "edit-shorts-with-yt-studio.webp",
           "right_side_pic": true,
           "paragraphs": [
             {
@@ -2538,7 +2538,7 @@
     {
       "name": "DIY Epoxy Jewelry: Glitter & Natural Objects",
       "pub_date": "07/11/25",
-      "header_pic": "epoxy_jewelry_phase5_finish_assemble.png",
+      "header_pic": "epoxy_jewelry_phase5_finish_assemble.webp",
       "about": "Preserve some tiny natural treasures and craft sparkling pendants, earrings, and more.",
       "categories": ["crafts", "jewelry", "gift ideas", "DIY", "epoxy resin"],
       "tools": [
@@ -2561,7 +2561,7 @@
       ],
       "phases": [
         {
-          "pic": "epoxy_jewelry_phase1_prep.png",
+          "pic": "epoxy_jewelry_phase1_prep.webp",
           "paragraphs": [
             {
               "text": "PREPARE YOUR WORKSPACE: Find a clean, cool, level, and well-ventilated workspace. Lay down a protective covering like parchment paper, silicone mat, or plastic sheeting. Ensure your silicone molds are clean and free of dust or debris."
@@ -2575,7 +2575,7 @@
           ]
         },
         {
-          "pic": "epoxy_jewelry_phase2_mix_pour.png",
+          "pic": "epoxy_jewelry_phase2_mix_pour.webp",
           "paragraphs": [
             {
               "text": "Wearing gloves, carefully measure and mix your 2-part epoxy resin according to the manufacturer's instructions. Accuracy is key for proper curing! Stir slowly and thoroughly for the recommended time (usually 2-3 minutes) to avoid introducing too many bubbles."
@@ -2586,7 +2586,7 @@
           ]
         },
         {
-          "pic": "epoxy_jewelry_phase3_add_elements.png",
+          "pic": "epoxy_jewelry_phase3_add_elements.webp",
           "paragraphs": [
             {
               "text": "Pour a small amount of the mixed resin into your silicone molds as a base layer. This helps 'set' some of your inclusions and prevents them from sinking entirely if they're heavy."
@@ -2600,7 +2600,7 @@
           ]
         },
         {
-          "pic": "epoxy_jewelry_phase4_layer_cure.png",
+          "pic": "epoxy_jewelry_phase4_layer_cure.webp",
           "paragraphs": [
             {
               "text": "Allow the first layer to partially cure until it's tacky but not fully hard (check your resin's instructions, often 2-4 hours). This prevents objects from floating or sinking too much in the final pour."
@@ -2614,7 +2614,7 @@
           ]
         },
         {
-          "pic": "epoxy_jewelry_phase5_finish_assemble.png",
+          "pic": "epoxy_jewelry_phase5_finish_assemble.webp",
           "paragraphs": [
             {
               "text": "Once fully cured and hard to the touch, carefully demold your resin pieces. They should pop out easily from the flexible silicone molds."
@@ -2631,7 +2631,7 @@
     }, {
       "name": "Making a Cabbage Tetherball for Backyard Chickens",
       "pub_date": "07/25/25",
-      "header_pic": "hanging_cabbage_tetherball.png",
+      "header_pic": "hanging_cabbage_tetherball.webp",
       "about": "Preserve some tiny natural treasures and craft sparkling pendants, earrings, and more.",
       "categories": ["pets"],
       "tools": [
@@ -2644,7 +2644,7 @@
       ],
       "phases": [
         {
-          "pic": "eyelit_screw_for_cabbage_tetherball.png",
+          "pic": "eyelit_screw_for_cabbage_tetherball.webp",
           "paragraphs": [
             {
               "text": "Screw an eyelet screw into the core of the cabbage."
@@ -2652,7 +2652,7 @@
           ]
         },
         {
-          "pic": "hanging_cabbage_tetherball.png",
+          "pic": "hanging_cabbage_tetherball.webp",
           "paragraphs": [
             {
               "text": "Thread twine or rope through the eyelet and hang from an overhead beam, table, coop ceiling etc in your chickens coop or barnyard area. Note - If you have a carabiner clip to tie the twine to, it may be easier to hang (instead of tying directly to the the anchor point)"
@@ -2672,7 +2672,7 @@
     {
       "name": "Diary of a Garden Nerd: Planning a Desert Flower & Foodscaped Front Garden for Fall",
       "pub_date": "08/08/25",
-      "header_pic": "foodscape_garden_layout_plan.png",
+      "header_pic": "foodscape_garden_layout_plan.webp",
       "about": "We're transforming a bleak front yard into a beautiful and productive desert foodscape for Fall 2025, blending flowers and edibles into a sustainable garden design.",
       "categories": [
         "gardening",
@@ -2689,7 +2689,7 @@
       "materials": [],
       "phases": [
         {
-          "pic": "foodscape_garden_back_garden_success.png",
+          "pic": "foodscape_garden_back_garden_success.webp",
           "paragraphs": [
             {
               "text": "Step 1 - Visualize your Dream Garden:",
@@ -2700,7 +2700,7 @@
             }
           ]
         },{
-          "pic": "foodscape_garden_spreadsheets.png",
+          "pic": "foodscape_garden_spreadsheets.webp",
           "paragraphs": [
         {
           "text": "Step 2 - Unleash Your Inner Garden-Nerd:",
@@ -2711,7 +2711,7 @@
         }
           ]
         },{
-          "pic": "foodscape_garden_layout_plan.png",
+          "pic": "foodscape_garden_layout_plan.webp",
           "paragraphs": [
         {
           "text": "I love a good spreadsheet, but plotting a garden diagram made me absolutely giddy. It allowed me to really visualize the space and try out different layouts of plants and pavers and things until I could see a vivid mental picture a beautiful, productive desert food garden. Gemini suggested a few free garden planning websites to design a virtual layout for our foodscape. The one we found easiest to use and share was Gardena's My-Garden Planner."
@@ -2719,7 +2719,7 @@
           ]
         },
         {
-          "pic": "foodscape_garden_succulents.png",
+          "pic": "foodscape_garden_succulents.webp",
           "paragraphs": [
             {
               "text": "Step 3 - Brass Taxes: Sourcing and Budgeting",
@@ -2739,7 +2739,7 @@
           ]
         },
         {
-          "pic": "foodscape_garden_scraggly_starting_space.png",
+          "pic": "foodscape_garden_scraggly_starting_space.webp",
           "paragraphs": [
             {
               "text": "Step 4 - Doing What we Kanban to Stay on Track",
@@ -2755,7 +2755,7 @@
     {
       "name": "Diary of a Garden Nerd: Starting Plants for our Fall Desert Foodscape",
       "pub_date": "08/20/25",
-      "header_pic": "foodscape_garden_succulents.png",
+      "header_pic": "foodscape_garden_succulents.webp",
       "about": "It's a race against the Arizona sun! Learn how we get a head start on our fall foodscape by starting plants indoors to beat the heat.",
       "categories": [
         "gardening",
@@ -2781,7 +2781,7 @@
       ],
       "phases": [
         {
-          "pic": "foodscape_garden_indoor_nursery.png",
+          "pic": "foodscape_garden_indoor_nursery.webp",
           "paragraphs": [
             {
               "text": "The Right Place at the Right Time with the Right Light",
@@ -2797,7 +2797,7 @@
           ]
         },
         {
-          "pic": "dirt_and_cuttings.png",
+          "pic": "dirt_and_cuttings.webp",
           "vid": "btT4PHZCswI",
           "paragraphs": [
             {
@@ -2819,7 +2819,7 @@
           ]
         },
         {
-          "pic": "foodscape_garden_plant_care.png",
+          "pic": "foodscape_garden_plant_care.webp",
           "paragraphs": [
             {
               "text": "Training for Transplanting",
@@ -2838,7 +2838,7 @@
     {
       "name": "Diary of a Garden Nerd: Wood Chips and Shovel Dips",
       "pub_date": "09/05/25",
-      "header_pic": "chip_drop_pile_header.png",
+      "header_pic": "chip_drop_pile_header.webp",
       "about": "",
       "categories": [
         "gardening",
@@ -2862,7 +2862,7 @@
       ],
       "phases": [
         {
-          "pic": "chip_drop_arrival.png",
+          "pic": "chip_drop_arrival.webp",
           "paragraphs": [
             {
               "text": "A Mountain of Wood Fit For the King of Beavers",
@@ -2880,7 +2880,7 @@
           ]
         },
         {
-          "pic": "chip_drop_shoveling.png",
+          "pic": "chip_drop_shoveling.webp",
           "vid": "EP4_MqFdMS0",
           "paragraphs": [
             {
@@ -2896,7 +2896,7 @@
           ]
         },
         {
-          "pic": "chip_drop_final_landscape.png",
+          "pic": "chip_drop_final_landscape.webp",
           "paragraphs": [
             {
               "text": "The Lawn has a Plan of its Own",
@@ -2915,7 +2915,7 @@
     {
       "name": "Garden Glamping for Hens: DIY Collapsable Chicken Tractor",
       "pub_date": "09/19/25",
-      "header_pic": "chicken_plow_header.png",
+      "header_pic": "chicken_plow_header.webp",
       "about": "The flock that weeds together succeeds together",
       "categories": [
         "gardening",
@@ -2951,7 +2951,7 @@
           ]
         },
         {
-          "pic": "cut-boards-for-frame.png",
+          "pic": "cut-boards-for-frame.webp",
           "paragraphs": [
             {
               "text": "Frame Job",
@@ -2964,7 +2964,7 @@
           ]
         },
         {
-          "pic": "wood-tent-frame.png",
+          "pic": "wood-tent-frame.webp",
           "paragraphs": [
             {
               "text": "Assemble Interior Frame",
@@ -2974,7 +2974,7 @@
             }
           ]
         },{
-          "pic": "clamp-wood-boards-for-frame.png",
+          "pic": "clamp-wood-boards-for-frame.webp",
           "paragraphs": [
             {
               "text": "Clip Clip Hooray!",
@@ -3003,7 +3003,7 @@
     {
       "name": "Diary of a Garden Nerd: Coming in for a Bumpy Planting",
       "pub_date": "10/03/25",
-      "header_pic": "plants-planted.png",
+      "header_pic": "plants-planted.webp",
       "about": "The final stage of the desert foodscape: A hard-won victory over root rot, fungus gnats, rats, and mold, culminating in the triumphant transplanting of all the survivor plants.",
       "categories": [
         "gardening",
@@ -3027,7 +3027,7 @@
       ],
       "phases": [
         {
-          "pic": "root-rot-plants.png",
+          "pic": "root-rot-plants.webp",
           "paragraphs": [
             {
               "text": "The Nursery Nightmare 😱",
@@ -3045,7 +3045,7 @@
           ]
         },
         {
-          "pic": "grass-growth.png",
+          "pic": "grass-growth.webp",
           "paragraphs": [
             {
               "text": "The Moldy Mulch & The Mask Strategy 😷",
@@ -3063,7 +3063,7 @@
           ]
         },
         {
-          "pic": "plants-planted.png",
+          "pic": "plants-planted.webp",
           "paragraphs": [
 
             {
@@ -3083,7 +3083,7 @@
     {
       "name": "From Free Salad Bar to Trashy Plant Sanctuary: How a Wire Trash Can Saved My Seedlings",
       "pub_date": "10/17/25",
-      "header_pic": "dropping-those-beets.png",
+      "header_pic": "dropping-those-beets.webp",
       "about": "After years of losing young plants to everything from rats and squirrels to sparrows, I finally found the simplest, cheapest, and most durable solution: using upside-down wire trash cans as protective domes.",
       "categories": [
         "gardening",
@@ -3118,7 +3118,7 @@
           ]
         },
         {
-          "pic": "indoor-nursery-setup.png",
+          "pic": "indoor-nursery-setup.webp",
           "paragraphs": [
             {
               "text": "The Nursery Nightmare [FAIL]",
@@ -3130,7 +3130,7 @@
           ]
         },
         {
-          "pic": "chewed-netting.png",
+          "pic": "chewed-netting.webp",
           "paragraphs": [
             {
               "text": "Landscape Netting and Row Covers: Gruesome and Gaping [FAIL]",
@@ -3142,7 +3142,7 @@
           ]
         },
         {
-          "pic": "hardware-cloth-cages.png",
+          "pic": "hardware-cloth-cages.webp",
           "paragraphs": [
             {
               "text": "DIY Plant Cages [Effective but Time-Consuming and Painful]",
@@ -3157,7 +3157,7 @@
           ]
         },
         {
-          "pic": "trash-can-plant-domes.png",
+          "pic": "trash-can-plant-domes.webp",
           "paragraphs": [
             {
               "text": "One person's trash can is another person’s treasure chest [Winner]",
@@ -3184,7 +3184,7 @@
             }
           ]
         },{
-          "pic": "dropping-those-beets.png",
+          "pic": "dropping-those-beets.webp",
           "paragraphs": [
             {
               "text": "Flipping wire cans upside down over young plants provides instant protection from everything from roving rats to persistent sparrows without blocking sunlight or hindering water and air flow and they can be used year after year. I don’t want to count my crop before harvest, but it looks like we may finally be getting back to **dropping some phat beets** on Arillian Farm."
@@ -3196,7 +3196,7 @@
     {
       "name": "From Smack Down to Blinged Out: Encapsulating a Scorpion in Epoxy Resin",
       "pub_date": "10/31/25",
-      "header_pic": "wearing-scorpion-necklace.png",
+      "header_pic": "wearing-scorpion-necklace.webp",
       "about": "This is What Happens to Scorpions Who Pick a Fight With My Feet—a quick and dirty DIY guide to turning a painful memory into a tacky trophy necklace using fast-setting epoxy.",
       "categories": [
         "epoxy",
@@ -3228,7 +3228,7 @@
       ],
       "phases": [
         {
-          "pic": "scorpion-in-mold.png",
+          "pic": "scorpion-in-mold.webp",
           "paragraphs": [
             {
               "text": "Inspiration Strikes! \uD83E\uDDB6 🦂",
@@ -3246,7 +3246,7 @@
           ]
         },
         {
-          "pic": "horrified-woman-print.png",
+          "pic": "horrified-woman-print.webp",
           "paragraphs": [
             {
               "text": "Getting Graphic",
@@ -3258,7 +3258,7 @@
           ]
         },
         {
-          "pic": "mixing-and-layering-epoxy.png",
+          "pic": "mixing-and-layering-epoxy.webp",
           "paragraphs": [
             {
               "text": "Squeeze the Fun Out of It",
@@ -3270,7 +3270,7 @@
           ]
         },
         {
-          "pic": "scorpion-layout.png",
+          "pic": "scorpion-layout.webp",
           "paragraphs": [
             {
               "text": "The Challenge of Quick-Set Epoxy & Layout Mistakes",
@@ -3285,7 +3285,7 @@
           ]
         },
         {
-          "pic": "wearing-scorpion-necklace.png",
+          "pic": "wearing-scorpion-necklace.webp",
           "paragraphs": [
             {
               "text": "Final Assembly: The Medal of Honor",
@@ -3301,7 +3301,7 @@
     {
       "name": "The Hardwork of Prepping Hardwood Floors for Tile",
       "pub_date": "11/14/25",
-      "header_pic": "hardie-board-layout.png",
+      "header_pic": "hardie-board-layout.webp",
       "about": "My plan to simply swap carpet for tile in my rental turned into a weeks long fiasco.",
       "categories": [
         "renovation",
@@ -3333,7 +3333,7 @@
       ],
       "phases": [
         {
-          "pic": "carpet-come-up.png",
+          "pic": "carpet-come-up.webp",
           "paragraphs": [
             {
               "text": "Ordering First and Asking Questions Later - A Lesson in Poor Floor Planning \uD83E\uDD26",
@@ -3344,7 +3344,7 @@
             }
           ]
         },{
-          "pic": "wood-floor-termite.png",
+          "pic": "wood-floor-termite.webp",
           "paragraphs": [
             {
               "text": "A Bug In The Operation - Termite Troubles",
@@ -3355,7 +3355,7 @@
           ]
         },
         {
-          "pic": "hardie-board-cut-arthur.png",
+          "pic": "hardie-board-cut-arthur.webp",
           "paragraphs": [
             {
               "text": "The Backer Board Bombshell - You Can't Lay Ceramic Tile Directly Over Hardwood Floors",
@@ -3369,7 +3369,7 @@
             }
           ]
         },{
-          "pic": "hardie-board-layout.png",
+          "pic": "hardie-board-layout.webp",
           "paragraphs": [
             {
               "text": "A Giant Game of Tetris - Planning our Cement Board Layout",
@@ -3383,7 +3383,7 @@
           ]
         },
         {
-          "pic": "mix-thinset.png",
+          "pic": "mix-thinset.webp",
           "paragraphs": [
             {
               "text": "Mixing Thinset - A Dark Art",
@@ -3394,7 +3394,7 @@
             }
           ]
         },{
-          "pic": "jillian-working-thinset.png",
+          "pic": "jillian-working-thinset.webp",
           "paragraphs": [
             {
               "text": "A Hardie Hard Workout and a Chemical Peel All At Once - The Joys of Working with Cement Board ",
@@ -3406,7 +3406,7 @@
           ]
         },
         {
-          "pic": "hardie-board-screws.png",
+          "pic": "hardie-board-screws.webp",
           "paragraphs": [
             {
               "text": "Flooring It - Procedure for Installing Concrete Backer Board over Hardwood",
@@ -3433,7 +3433,7 @@
     {
       "name": "Crafting with Trash: Toilet Roll 12 Days of Christmas Advent Calendar",
       "pub_date": "12/05/25",
-      "header_pic": "advent-tree-final-look.png",
+      "header_pic": "advent-tree-final-look.webp",
       "about": "Turn Your Trash Into a Holiday Treasure Trove",
       "categories": [
         "DIY",
@@ -3462,7 +3462,7 @@
       ],
       "phases": [
         {
-          "pic": "toilet-roll-cutting-and-folding.png",
+          "pic": "toilet-roll-cutting-and-folding.webp",
           "paragraphs": [
             {
               "text": "Gathering the Goods: Prepping and Sealing the Toilet Rolls",
@@ -3476,7 +3476,7 @@
           ]
         },
         {
-          "pic": "tubes-glued-to-cardboard.png",
+          "pic": "tubes-glued-to-cardboard.webp",
           "paragraphs": [
             {
               "text": "From Toilet Tube to Treasure Tree:: Building the Tree Structure",
@@ -3488,7 +3488,7 @@
           ]
         },
         {
-          "pic": "tubes-filled-and-closed.png",
+          "pic": "tubes-filled-and-closed.webp",
           "paragraphs": [
             {
               "text": "Adding the Magic: Filling and Covering the Calendar",
@@ -3500,7 +3500,7 @@
           ]
         },
         {
-          "pic": "advent-tree-final-look.png",
+          "pic": "advent-tree-final-look.webp",
           "paragraphs": [
             {
               "text": "Phase 4: The Ugly (But Potential Great!) Tree Calendar",
@@ -3516,7 +3516,7 @@
     {
       "name": "Diary of a Garden Nerd: Grass Roots Are Hard to Kill",
       "pub_date": "12/19/25",
-      "header_pic": "grassy-wood-chips.png",
+      "header_pic": "grassy-wood-chips.webp",
       "about": "The Challenge of Growing What you Want and Not What you Don't",
       "categories": [
         "DIY",
@@ -3547,7 +3547,7 @@
           ]
         },
         {
-          "pic": "diy-weedkiller-spray-ingredients.png",
+          "pic": "diy-weedkiller-spray-ingredients.webp",
           "paragraphs": [
             {
               "text": "Reacting with Chemicals: Making a DIY Weed Killer Using Vinegar, Salt and Dishsoap",
@@ -3561,7 +3561,7 @@
           ]
         },
         {
-          "pic": "spraying-diy-weedkiller.png",
+          "pic": "spraying-diy-weedkiller.webp",
           "paragraphs": [
             {
               "text": "The Mounting Resistance: Repeatedly Spraying to Lower Soil Fertility  \uD83D\uDE2C \uD83E\uDD1E",
@@ -3573,7 +3573,7 @@
           ]
         },
         {
-          "pic": "foodscape-jungle.png",
+          "pic": "foodscape-jungle.webp",
           "paragraphs": [
             {
               "text": "The Spoils of Labor: Enjoying the beauty and Bounty of our Garden",
@@ -3589,7 +3589,7 @@
     {
       "name": "Rescue Protocol: What to Do When You Find a Fallen Baby Bird",
       "pub_date": "01/02/26",
-      "header_pic": "squab-warming.png",
+      "header_pic": "squab-warming.webp",
       "about": "A technical guide on identifying, warming, and reuniting fallen squabs with their parents.",
       "categories": [
         "DIY",
@@ -3627,7 +3627,7 @@
           ]
         },
         {
-          "pic": "squab-warming.png",
+          "pic": "squab-warming.webp",
           "paragraphs": [
             {
               "text": "Step 2: The Critical Warming Period",
@@ -3678,7 +3678,7 @@
     {
       "name": "Them's The Brakes Kid: A Quick Tutorial About How to Change Brake Pads",
       "pub_date": "01/09/26",
-      "header_pic": "replace-tire.png",
+      "header_pic": "replace-tire.webp",
       "about": "A step-by-step guide to changing front brake pads on a car featuring a hands-on tutorial for beginners (on a 2002 Suzuki XL7) .",
       "categories": [
         "Automotive",
@@ -3719,7 +3719,7 @@
           ]
         },
         {
-          "pic": "caliper-removal.png",
+          "pic": "caliper-removal.webp",
           "paragraphs": [
             {
               "text": "Removing the Old Pads",
@@ -3731,7 +3731,7 @@
           ]
         },
         {
-          "pic": "pad-installation.png",
+          "pic": "pad-installation.webp",
           "paragraphs": [
             {
               "text": "Installing New Pads",
@@ -3743,7 +3743,7 @@
           ]
         },
         {
-          "pic": "compress-caliper.png",
+          "pic": "compress-caliper.webp",
           "paragraphs": [
             {
               "text": "Replacing Caliper",
@@ -3759,7 +3759,7 @@
           ]
         },
         {
-          "pic": "replace-tire.png",
+          "pic": "replace-tire.webp",
           "paragraphs": [
             {
               "text": "Reattach and Tighten Wheel",
@@ -3775,7 +3775,7 @@
     {
       "name": "Diagnosing and Treating Copper Deficiency & Barber Pole Worms in Goats",
       "pub_date": "01/23/26",
-      "header_pic": "goat-eating-marshmallow.png",
+      "header_pic": "goat-eating-marshmallow.webp",
       "about": "A comprehensive guide for Nigerian Dwarf goat owners on identifying copper deficiency and parasitic infections, performing field tests, and administering treatments.",
       "categories": ["Homesteading", "Goat Care", "Animal Health"],
       "safety_notes": [
@@ -3787,7 +3787,7 @@
       "materials": ["Safe-Guard (Fenbendazole) dewormer", "Copper oxide wire particle boluses (4g)", "Large marshmallows", "Creamy peanut butter", "Baking soda"],
       "phases": [
         {
-          "pic": "healthy-vs-unhealthy-goat-tail.png",
+          "pic": "healthy-vs-unhealthy-goat-tail.webp",
           "vid": "",
           "paragraphs": [
             { "text": "Diagnosing a Copper Deficiency in goats", "h4": true },
@@ -3795,7 +3795,7 @@
           ]
         },
         {
-          "pic": "goat-poo-diagnosis.png",
+          "pic": "goat-poo-diagnosis.webp",
           "vid": "",
           "paragraphs": [
             {
@@ -3810,7 +3810,7 @@
           ]
         },
         {
-          "pic": "eyelid-test-famacha.png",
+          "pic": "eyelid-test-famacha.webp",
           "vid": "",
           "paragraphs": [
             { "text": "The FAMACHA Test: Diagnosing Barber Pole Worms in goats", "h4": true },
@@ -3833,7 +3833,7 @@
           ]
         },
         {
-          "pic": "weighing-nigerian-dwarf.png",
+          "pic": "weighing-nigerian-dwarf.webp",
           "vid": "",
           "paragraphs": [
             { "text": "Treating Goats For Worms", "h4": true },
@@ -3848,7 +3848,7 @@
           ]
         },
         {
-          "pic": "administering-dewormer.png",
+          "pic": "administering-dewormer.webp",
           "vid": "",
           "paragraphs": [
             { "text": "Administering the Dewormer", "h4": true },
@@ -3856,7 +3856,7 @@
           ]
         },
         {
-          "pic": "copper-marshmallow-treat.png",
+          "pic": "copper-marshmallow-treat.webp",
           "vid": "",
           "paragraphs": [
             { "text": "Administering Copper Boluses to Treat Copper Deficiency", "h4": true },
@@ -3867,7 +3867,7 @@
           ]
         },
         {
-          "pic": "happy-goats.png",
+          "pic": "happy-goats.webp",
           "vid": "",
           "paragraphs": [
             { "text": "Monitoring and Recovery", "h4": true },
@@ -3884,7 +3884,7 @@
     {
       "name": "When Life’s Got You Stumped… Just Keep Digging",
       "pub_date": "02/07/26",
-      "header_pic": "stump-to-planter-hero.png",
+      "header_pic": "stump-to-planter-hero.webp",
       "about": "Turning unsightly stumps into head-turning landscape features",
       "categories": ["Homesteading", "DIY", "Water Gardens", "Landscaping"],
       "safety_notes": [
@@ -3901,51 +3901,51 @@
       ],
       "phases": [
         {
-          "pic": "chandler-stump-to-water-garden.png",
+          "pic": "chandler-stump-to-water-garden.webp",
           "vid": "",
           "paragraphs": [
             { "text": "Digging Deeper", "h4": true },
             { "text": "In order to make use of some of the luscious, productive dirt in the backyard of Arthur’s rental house, I decided to dig up an old tree stump and build a water garden. This was the 'brute force' approach: After a dozen or so 1-2 hour digging sessions, I finally got that gratifying 'timber' feeling of tipping the stump over. Once removed, the cavity became the perfect base for a lil' backyard pond. (See my water garden article for more details about planning and building a DIY backyard pond)" }
           ]
         },{
-          "pic": "chandler-stump-dig-1.png",
+          "pic": "chandler-stump-dig-1.webp",
           "vid": "",
           "paragraphs": [
             { "text": "", "h4": true }
           ]
         },{
-          "pic": "chandler-stump-dig-2.png",
+          "pic": "chandler-stump-dig-2.webp",
           "vid": "",
           "paragraphs": [
             { "text": "", "h4": true }
           ]
         },{
-          "pic": "chandler-stump-dig-3.png",
+          "pic": "chandler-stump-dig-3.webp",
           "vid": "",
           "paragraphs": [
             { "text": "", "h4": true }
           ]
         },{
-          "pic": "chandler-stump-dig-4a.png",
+          "pic": "chandler-stump-dig-4a.webp",
           "vid": "",
           "paragraphs": [
             { "text": "", "h4": true }
           ]
         },{
-          "pic": "chandler-stump-dig-4.png",
+          "pic": "chandler-stump-dig-4.webp",
           "vid": "",
           "paragraphs": [
             { "text": "", "h4": true }
           ]
         },{
-          "pic": "chandler-stump-dig-5.png",
+          "pic": "chandler-stump-dig-5.webp",
           "vid": "",
           "paragraphs": [
             { "text": "", "h4": true }
           ]
         },
         {
-          "pic": "tempe-drilling-1.png",
+          "pic": "tempe-drilling-1.webp",
           "vid": "",
           "paragraphs": [
             { "text": "Burying My Problems ", "h4": true },
@@ -3953,7 +3953,7 @@
           ]
         },
         {
-          "pic": "tempe-drilling.png",
+          "pic": "tempe-drilling.webp",
           "vid": "",
           "paragraphs": [
            {
@@ -3962,7 +3962,7 @@
           ]
         },
         {
-          "pic": "contractor-bag-seal.png",
+          "pic": "contractor-bag-seal.webp",
           "vid": "",
           "paragraphs": [
             { "text": "Sealing the Fate of Invasive Trees", "h4": true },
@@ -3970,7 +3970,7 @@
           ]
         },
         {
-          "pic": "yukon-wall-finish.png",
+          "pic": "yukon-wall-finish.webp",
           "vid": "",
           "paragraphs": [
             { "text": "Letting the Cycle of Life Continue", "h4": true },
@@ -3982,7 +3982,7 @@
     {
       "name": "DIY Kobmbucha - Brewing, Bottling, Harvesting and Restarting Kobmbucha",
       "pub_date": "02/20/26",
-      "header_pic": "kombucha-bottling-process.png",
+      "header_pic": "kombucha-bottling-process.webp",
       "about": "A comprehensive guide to 'flip'—harvesting kombucha, flavoring it for carbonation, and immediately starting your next batch using the same vessels.",
       "categories": ["homesteading", "fermentation", "vegetarian", "DIY"],
       "safety_notes": [
@@ -3994,7 +3994,7 @@
       "materials": ["12 Black &/OR Green Tea Bags ", "1.25 cups White Sugar", "Fresh Ginger", "Lemons (Juice and Zest)", "140oz Filtered Water", "SCOBY and starter fluid"],
       "phases": [
         {
-          "pic": "sourcing-a-scoby.png",
+          "pic": "sourcing-a-scoby.webp",
           "vid": "",
           "paragraphs": [
             { "text": "Sourcing Supplies", "h4": true },
@@ -4006,7 +4006,7 @@
           ]
         },
         {
-          "pic": "brewing-new-tea.png",
+          "pic": "brewing-new-tea.webp",
           "vid": "",
           "paragraphs": [
             { "text": "Starting the Tea Base", "h4": true },
@@ -4014,21 +4014,21 @@
           ]
         },
         {
-          "pic": "adding-scoby.png",
+          "pic": "adding-scoby.webp",
           "vid": "",
           "paragraphs": [
             { "text": "Livening it Up", "h4": true },
             { "text": "When my SCOBY arrived, I doused my hands and a kitchen scissors with vinegar and cut open the pouch the SCOBY was shipped in. I poured about half of the 'starter liquid' (that the SCOBY was submerged in during shipping) into each jar, and then (did my best to) cut the SCOBY in half horizonally, placing one half of the SCOBY puck into each of my jars of room-temperature diluted sweet tea. This is your 'starter liquid' for the next batch." }
           ]
         },{
-          "pic": "fermenting-kombucha.png",
+          "pic": "fermenting-kombucha.webp",
           "vid": "",
           "paragraphs": [
             { "text": "Fermenting the deal", "h4": true },
             { "text": "To protect the brewing Kombucha from contaminants from bugs and debris contaminating the batch (while still allowing it to breathe) I grabbed a couple of --freshly washed-- t-shirts out of the drier and used rubber bands to secure them over the opening at the top of the brewing jars. (If you don't want to use tshirts you can use another breathable, but tight woven cloth or paper like a pillow case, coffee filters, or paper towels etc). It's recommended to brew the jars at a temperature of 75F-85F for 7-14 days in a dark place, so I set the jars in a cabinet under our kitchen counter and waited for the magic to happen." }
           ]
         },{
-          "pic": "checking-on-scoby.png",
+          "pic": "checking-on-scoby.webp",
           "vid": "",
           "paragraphs": [
             { "text": "Checking In", "h4": true },
@@ -4047,7 +4047,7 @@
           ]
         },
         {
-          "pic": "kombucha-bottling-process.png",
+          "pic": "kombucha-bottling-process.webp",
           "vid": "",
           "paragraphs": [
             { "text": "Flavoring and Bottling (F2)", "h4": true },
@@ -4059,7 +4059,7 @@
         },
 
         {
-          "pic": "restarting-kambucha-batch.png",
+          "pic": "restarting-kambucha-batch.webp",
           "vid": "",
           "paragraphs": [
             { "text": "The Immediate Restart", "h4": true },
@@ -4072,7 +4072,7 @@
     },
     { "name": "Frankensteining Dog Toys",
       "pub_date": "03/06/26",
-      "header_pic": "frankensteined-dog-toys.png",
+      "header_pic": "frankensteined-dog-toys.webp",
       "about": "Sew Together Old Dog Toys to create New Dog Joys",
       "categories": ["pets"],
       "safety_notes": [
@@ -4084,7 +4084,7 @@
       "materials": ["Old rubber or plush dog toys", "Durable rope or cord"],
       "phases": [
         {
-          "pic": "frankensteined-dog-toys.png",
+          "pic": "frankensteined-dog-toys.webp",
           "paragraphs": [
             { "text": "Step 1: Prep the Toys", "h4": true },
             { "text": "Select a variety of old dog toys that are still structurally sound. Using a screwdriver or a similar tool, carefully poke holes through the center or sides of each toy where you want the rope to pass through." }
@@ -4111,7 +4111,7 @@
     {
       "name": "Making a Garden for our Chickens (that gets watered with pond runoff)",
       "pub_date": "03/20/26",
-      "header_pic": "alluvial-plain-for-chickens.png",
+      "header_pic": "alluvial-plain-for-chickens.webp",
       "about": "An Alluvial Plain For Our Hens",
       "categories": ["pets", "gardening"],
       "safety_notes": [
@@ -4121,7 +4121,7 @@
       "materials": ["Hardware Cloth (or similar galvanized wire mesh)", "Deck Screws", "Washers (to thread over the screws and hold down the Hardware Cloth", "Soil", "Seeds"],
       "phases": [
         {
-          "pic": "chicken-garden-first-try.png",
+          "pic": "chicken-garden-first-try.webp",
           "paragraphs": [
             { "text": "Learning from Papa YouTube", "h4": true },
             { "text": "When I was getting ready to get back to having a backyard chicken flock (a few years ago), I thought it would be cool to plant a garden in the outdoor part of my chicken coop full of plants chickens love to eat. They went absolutely crazy for the garden the first day I let them into their coop. Actually, they loved it to death... Within the first week of moving into their coop they reduced it to dust." },
@@ -4131,7 +4131,7 @@
           ]
         },
         {
-          "pic": "assembling-chicken-garden-frame.png",
+          "pic": "assembling-chicken-garden-frame.webp",
           "paragraphs": [
             { "text": "Brass Tacks", "h4": true },
             { "text": "Using a tape measure and miter saw, I cut some scrap 2x4s and 2x6s to make a wooden frame."},
@@ -4141,7 +4141,7 @@
           ]
         },
         {
-          "pic": "chicken-garden-2.png",
+          "pic": "chicken-garden-2.webp",
           "paragraphs": [
             { "text": "An Alluvial Plain for Chickens", "h4": true },
             {
@@ -4153,7 +4153,7 @@
           ]
         },
         {
-          "pic": "alluvial-plain-for-chickens.png",
+          "pic": "alluvial-plain-for-chickens.webp",
           "paragraphs": [
             {
               "text": "Much to the delight of my flock, within a couple weeks grass, sunflowers, peas, wheat and lettuce were starting to poke through the Hardware Cloth"
@@ -4168,7 +4168,7 @@
     {
       "name": "Bracing For Summer: Building a Cool Dugout for our Desert Chickens",
       "pub_date": "04/10/26",
-      "header_pic": "bracing-for-summer.png",
+      "header_pic": "bracing-for-summer.webp",
       "about": "How I turned a muddy goat platform into a permanent, structured cooling station for my chickens to escape the summer heat.",
       "categories": ["Homesteading", "Chickens", "DIY Projects"],
       "safety_notes": [
@@ -4179,7 +4179,7 @@
       "materials": ["Cement blocks", "Existing wooden platform", "Water/Hose"],
       "phases": [
         {
-          "pic": "bracing-for-summer.png",
+          "pic": "bracing-for-summer.webp",
           "paragraphs": [
             { "text": "Phase 1: Observation", "h4": true },
             { "text": "Our chickens subliminally commissioned me to build them a dugout in our barnyard. I noticed they were constantly hanging around our goats' wooden platform, scratching up the cool mud (wet from me dragging the hose around to fill water buckets) and lying in the shade by the base. As summer approaches, I always try to look for natural ways to help our flock keep cool, so I decided to lean into the vibe the chickens were cultivating and make the space more accessible and permanent." }
@@ -4193,7 +4193,7 @@
           ]
         },
         {
-          "pic": "to-the-chicken-cave.png",
+          "pic": "to-the-chicken-cave.webp",
           "vid": "",
           "paragraphs": [
             { "text": "Wallowing in Success", "h4": true },
@@ -4205,7 +4205,7 @@
     {
       "name": "Building a Predator Defense for a Mixed Barnyard",
       "pub_date": "04/24/26",
-      "header_pic": "fortress-pole-hero.png",
+      "header_pic": "fortress-pole-hero.webp",
       "about": "How to mount a motion-activated sprinkler to a permanent structure and use a dedicated timer for precision predator defense that won't terrorize your livestock.",
       "categories": ["Homesteading", "DIY", "Pet Safety"],
       "safety_notes": [
@@ -4224,14 +4224,14 @@
       ],
       "phases": [
         {
-          "pic": "sprinkler-system-1.png",
+          "pic": "sprinkler-system-1.webp",
           "paragraphs": [
             { "text": "A Mildly Offensive Defense", "h4": true },
             { "text": "After a recent cat-attack in our chicken coop, I wanted to create a defense system that would reliably deter predators (if I forgot to close the chicken coop etc) while not getting destroyed by our goats. My go to AI recommended a perimeter defense sprinkler - basically a powerful sprinkler controlled by a light sensor. I liked the idea, but I could tell the recommended setup would not work with our scratch-happy goats around. The solution for us was to use an existing post from an RV cover to mount the sprinkler. However, a livestock fence post (t post) would probably have worked as well." }
           ]
         },
         {
-          "pic": "sprinkler-clamp-assembly.png",
+          "pic": "sprinkler-clamp-assembly.webp",
           "paragraphs": [
             { "text": "Securing the Security System", "h4": true },
             { "text": "To keep the sprinkler from sliding down the smooth metal RV pole, I wedged a rubber bike grip beside the scrap wood --that I was using as a spacer to allow the sprinkler head enough clearance to rotate without hitting the pole." },
@@ -4239,7 +4239,7 @@
           ]
         },
         {
-          "pic": "sprinkler-precision-timing.png",
+          "pic": "sprinkler-precision-timing.webp",
           "paragraphs": [
             { "text": "Dialing it In", "h4": true },
             { "text": "The built in day/night mode was not working reliably for the sprinkler I bought, so I Install a digital hose timer at the faucet that was feeding the sprinkler and set the sprinkler sensor to 'Always On' (letting the timer dictate the exact minutes the system receives water). To fool-proof the system from letting this fool (me) forget to swap out the batteries, I set up a delivery subscription to receive some fresh AAs (to power the sprinkler sensor) every three months." }
@@ -4250,7 +4250,7 @@
     {
       "name": "Limping a haggard watersack along for a second summer",
       "pub_date": "05/08/26",
-      "header_pic": "water-sack-full.png",
+      "header_pic": "water-sack-full.webp",
       "about": "Limping a haggard watersack along through one more season.",
       "categories": ["Homesteading", "DIY", "Pet Safety"],
       "safety_notes": [
@@ -4266,37 +4266,37 @@
       ],
       "phases": [
         {
-          "pic": "pool-repair-1.png",
+          "pic": "pool-repair-1.webp",
           "paragraphs": [
             { "text": "Assessing the Damage", "h4": true },
             { "text": "A water sack, or ✌️above ground pool✌️ as some folks call it, is basically a giant vinyl bag with an inflatable ring or metal frame to hold it up. Between the dogs, the gravel, thorny plants and chlorine, they don't last long for us. 2-3 years (at the most) and getting a full second or third season takes work. This year, in addition to the normal dog-claw punctures on the side walls and gravel poke through leaks on the bottom of the pool, a rat chewed off an important part of our pump casing, so we had to find a suitable replacement."}
           ]
         },{
-          "pic": "pool-repair-0.png",
+          "pic": "pool-repair-0.webp",
           "paragraphs": [
             { "text": "Prepping The Pool Area", "h4": true },
             { "text": "Bottom-of-the-pool leaks are rarely a big deal. The calcification from our hard water and the pool chemicals, along with the layer of cardboard I put down under the pool and the weight of the water bearing down on the bottom holes, helps to naturally stop those leaks within a few days."}
           ]
         },{
-          "pic": "pool-repair-2.png",
+          "pic": "pool-repair-2.webp",
           "paragraphs": [
             { "text": "Patching Dry Leaks", "h4": true },
             { "text": "If there are big holes that are noticeable before the pool is filled --or in the inflatable ring of an inflatable ring pool--, we usually patch those with adhesive vinyl pool patches on both sides of the hole or by spreading shoe goo (or silicone caulk) on the hole with painters tape on the outside."}
           ]
         },{
-          "pic": "pool-repair-3.png",
+          "pic": "pool-repair-3.webp",
           "paragraphs": [
             { "text": "Patching Wet Leaks", "h4": true },
             { "text": "If a hole springs up after the pool is filled, you can try a vinyl patch, but if you can't get the area dry enough to make it stick, squeeze a glob of silicone caulk or shoe goo onto the outside of the hole and quickly tape over it with painters tape."}
           ]
         },{
-          "pic": "pool-repair-4.png",
+          "pic": "pool-repair-4.webp",
           "paragraphs": [
             { "text": "Replacing The Motor", "h4": true },
             { "text": "For our 16 ft diameter x 48 inch pool, the recommended motor capacity is 1000 Gallons Per Hour. It wasn't hard to find an affordable replacement pump on Amazon (about $60.00), but unfortunately the hoses that came with the pump were slightly smaller than the hoses that originally came with the pool. So the night after we filled the pool, the hoses (and the plastic hose clamps that came with them), popped off the pool and let half the water out." }
           ]
         },{
-          "pic": "pool-repair-5.png",
+          "pic": "pool-repair-5.webp",
           "paragraphs": [
             {
               "text": "Replacing the plastic hose clamps with metal (automotive) hose clamps seems to have resolved that issue though."
@@ -4308,7 +4308,7 @@
     {
       "name": "Co-Authoring with Code: Using an LLM as a writing partner without losing your voice",
       "pub_date": "05/22/26",
-      "header_pic": "ai-writing-collaboration.png",
+      "header_pic": "ai-writing-collaboration.webp",
       "about": "A peek behind the curtain at how I use AI to smash writer's block, ensure my sci-fi is sci-believable, and keep my voice clear while drafting a book.",
       "categories": ["DIY", "Writing", "Lifestyle"],
       "safety_notes": [
@@ -4325,7 +4325,7 @@
       ],
       "phases": [
         {
-          "pic": "phase1-sandbox-setup.png",
+          "pic": "phase1-sandbox-setup.webp",
           "paragraphs": [
             { "text": "Stocking Your Toolbox and Finding your Muse - Setting up a Narrative Framework", "h4": true },
             {
@@ -4339,7 +4339,7 @@
             }]
         },
         {
-          "pic": "phase2-pacing-prose.png",
+          "pic": "phase2-pacing-prose.webp",
           "paragraphs": [
             { "text": "A writing partner who can do it all - Using AI as a technical advisor and editor", "h4": true },
             {
@@ -4351,7 +4351,7 @@
             }]
         },
         {
-          "pic": "air-gap-ai.png",
+          "pic": "air-gap-ai.webp",
           "paragraphs": [
             { "text": "Keeping an Air Gap - Using an LLM without losing your voice", "h4": true },
             {
@@ -4362,7 +4362,7 @@
           ]
         },
         {
-          "pic": "phase3-historical-metaphor.png",
+          "pic": "phase3-historical-metaphor.webp",
           "paragraphs": [
             { "text": "Print Hard Copies", "h4": true },
             {
@@ -4375,7 +4375,7 @@
     {
       "name": "Propagating a Water Lily Using Reclaimed Pond Muck",
       "pub_date": "06/04/26",
-      "header_pic": "transplanting-lily.png",
+      "header_pic": "transplanting-lily.webp",
       "about": "Give a water lily rhizome a head start in nutrient-rich pond muck before transplanting it into a new pond.",
       "categories": ["Gardening", "Ponds", "DIY"],
       "safety_notes": [
@@ -4386,7 +4386,7 @@
       "materials": ["gloves","hardy water lily rhizome", "Accumulated pond muck/soil", "Pea gravel or small river rocks"],
       "phases": [
         {
-          "pic": "harvesting-muck.png",
+          "pic": "harvesting-muck.webp",
           "vid": "",
           "paragraphs": [
             { "text": "Harvesting the Reclaimed Soil", "h4": true },
@@ -4394,7 +4394,7 @@
           ]
         },
         {
-          "pic": "bagging-rhizome.png",
+          "pic": "bagging-rhizome.webp",
           "vid": "",
           "paragraphs": [
             { "text": "Bagging and Planting", "h4": true },
@@ -4402,7 +4402,7 @@
           ]
         },
         {
-          "pic": "harvesting-rhizome.png",
+          "pic": "harvesting-rhizome.webp",
           "vid": "",
           "paragraphs": [
             { "text": "(optional) Harvesting a Rhizome Division", "h4": true },
@@ -4410,7 +4410,7 @@
           ]
         },
         {
-          "pic": "shallow-nursery.png",
+          "pic": "shallow-nursery.webp",
           "vid": "",
           "paragraphs": [
             { "text": "The Shallow Nursery Period", "h4": true },
@@ -4418,7 +4418,7 @@
           ]
         },
         {
-          "pic": "transplanting-lily.png",
+          "pic": "transplanting-lily.webp",
           "vid": "",
           "paragraphs": [
             { "text": " Transferring to the New Pond", "h4": true },
@@ -4430,7 +4430,7 @@
     {
       "name": "BUDGET-FRIENDLY RENTAL PROPERTY WIRE FENCE INSTALLATION",
       "pub_date": "06/18/26",
-      "header_pic": "stretching-wire-mesh.png",
+      "header_pic": "stretching-wire-mesh.webp",
       "about": "When the best defence is a fence.",
       "categories": [
         "DIY",
@@ -4464,7 +4464,7 @@
       ],
       "phases": [
         {
-          "pic": "clearing-fence-line.png",
+          "pic": "clearing-fence-line.webp",
           "vid": "",
           "paragraphs": [
             {
@@ -4480,7 +4480,7 @@
           ]
         },
         {
-          "pic": "driving-t-posts.png",
+          "pic": "driving-t-posts.webp",
           "vid": "",
           "paragraphs": [
             {
@@ -4493,7 +4493,7 @@
           ]
         },
         {
-          "pic": "stretching-wire-mesh.png",
+          "pic": "stretching-wire-mesh.webp",
           "vid": "",
           "paragraphs": [
             {
@@ -4506,7 +4506,7 @@
           ]
         },
         {
-          "pic": "gate-hardware-assembly.png",
+          "pic": "gate-hardware-assembly.webp",
           "vid": "",
           "paragraphs": [
             {
@@ -4523,7 +4523,7 @@
     {
       "name": "ADDING SUPPORT TO A WOODEN RAISED GARDEN BED USING HARDWARE CLOTH",
       "pub_date": "07/02/26",
-      "header_pic": "huey-under-garden-bed.png",
+      "header_pic": "huey-under-garden-bed.webp",
       "about": "A Metal Diaper to Stop Soil Leaks. . . hopefully.",
       "categories": [
         "DIY",
@@ -4558,7 +4558,7 @@
           ]
         },
         {
-          "pic": "attaching-construction-fabric.png",
+          "pic": "attaching-construction-fabric.webp",
           "vid": "",
           "paragraphs": [
             {
@@ -4571,7 +4571,7 @@
           ]
         },
         {
-          "pic": "wiring-the-ends.png",
+          "pic": "wiring-the-ends.webp",
           "vid": "",
           "paragraphs": [
             {
@@ -4584,7 +4584,7 @@
           ]
         },
         {
-          "pic": "cutting-for-center-leg.png",
+          "pic": "cutting-for-center-leg.webp",
           "vid": "",
           "paragraphs": [
             {
@@ -4597,7 +4597,7 @@
           ]
         },
         {
-          "pic": "huey-under-garden-bed.png",
+          "pic": "huey-under-garden-bed.webp",
           "vid": "",
           "paragraphs": [
             {
@@ -4614,7 +4614,7 @@
     {
       "name": "DIY QUICK-REVEAL POSTER SCROLL",
       "pub_date": "07/17/26",
-      "header_pic": "scroll-poster-full.png",
+      "header_pic": "scroll-poster-full.webp",
       "about": "How to build a lightweight, portable, quick-reveal hanging poster scroll using simple materials—perfect for solo stage performers needing a hands-free prop setup.",
       "categories": [
         "DIY",
@@ -4651,7 +4651,7 @@
           ]
         },
         {
-          "pic": "scroll-poster-top-dowel.png",
+          "pic": "scroll-poster-top-dowel.webp",
           "vid": "",
           "paragraphs": [
             {
@@ -4664,7 +4664,7 @@
           ]
         },
         {
-          "pic": "scroll-poster-bottom-weight.png",
+          "pic": "scroll-poster-bottom-weight.webp",
           "vid": "",
           "paragraphs": [
             {
@@ -4677,7 +4677,7 @@
           ]
         },
         {
-          "pic": "scroll-poster-hook.png",
+          "pic": "scroll-poster-hook.webp",
           "vid": "",
           "paragraphs": [
             {
@@ -4690,7 +4690,7 @@
           ]
         },
         {
-          "pic": "scroll-poster-full.png",
+          "pic": "scroll-poster-full.webp",
           "vid": "",
           "paragraphs": [
             {
@@ -4703,7 +4703,7 @@
           ]
         },
         {
-          "pic": "scroll-poster-pointer.png",
+          "pic": "scroll-poster-pointer.webp",
           "vid": "",
           "paragraphs": [
             {

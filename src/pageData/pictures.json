@@ -5,7 +5,7 @@
       "caption": "Last one in the cuddle puddle's a rotten egg!",
       "albums": ["new","chickens"]
     },{
-      "file": "ayaSammy3DaysOld.png",
+      "file": "ayaSammy3DaysOld.webp",
       "imagur_id": "JzpdSKg",
       "caption": "Aya and Sammy - the day I brought them home",
       "albums": ["new","chickens", "animals"]
@@ -15,12 +15,12 @@
       "caption": "Aya found the best hiding place!",
       "albums": ["new","chickens"]
     },{
-      "file": "oddbird.png",
+      "file": "oddbird.webp",
       "imagur_id": "ocISTxW",
       "caption": "So What If I'm Kind Of An Odd Bird?",
       "albums": ["new","chickens", "animals"]
     },{
-      "file": "scoutNchokes.png",
+      "file": "scoutNchokes.webp",
       "imagur_id": "J3i787F",
       "caption": "Scout's on the fence about artichokes.",
       "albums": ["new","chickens", "animals"]
@@ -33,7 +33,7 @@
       "caption": "Hot Chicks Sun Bathing.",
       "albums": ["new","chickens", "animals"]
     },{
-      "file": "sammyStrut.png",
+      "file": "sammyStrut.webp",
       "imagur_id": "zcQkwbl",
       "caption": "Sammy Strutting in The Sun.",
       "albums": ["new","chickens", "animals"]
@@ -46,12 +46,12 @@
       "caption": "My First Ever Fresh Chicken Eggs.",
       "albums": ["new","chickens", "animals"]
     },{
-      "file": "chickensWading.png",
+      "file": "chickensWading.webp",
       "imagur_id": "Qg9jgdL",
       "caption": "Hen party at chicken beach.",
       "albums": ["new","chickens", "animals"]
     },{
-      "file": "sammyLook.png",
+      "file": "sammyLook.webp",
       "imagur_id": "PmXzs8i" ,
       "caption": "I'm an Eggcellent perch.",
       "albums": ["new","chickens", "animals"]
@@ -65,39 +65,39 @@
       "albums": ["new","chickens", "animals"]
     },
   {
-    "file": "hueyXena.png",
+    "file": "hueyXena.webp",
     "imagur_id": "n0oieiu",
     "caption": "Huey Loves Xexe bear!",
     "albums": ["new","dogs"]
   },{
-      "file": "XenaHueyPromPic.png",
+      "file": "XenaHueyPromPic.webp",
       "imagur_id": "YsNnqTe",
       "caption": "Xena and Huey Look Like They're Posing Before Their Prom",
       "albums": ["new","dogs", "animals"]
     },{
-    "file": "kitchenSupervisors.png",
+    "file": "kitchenSupervisors.webp",
     "imagur_id": "dKO6RTQ",
     "caption": "My Kitchen Supervisors",
     "albums": ["dogs"]
   }, {
-      "file": "hueyMidCatch.png",
+      "file": "hueyMidCatch.webp",
       "imagur_id": "PtDY3fE",
       "caption": "Huey's famous Whip Kick Catch",
       "albums": ["dogs", "animals"]
     },{
-      "file": "hueyKabluey.png",
+      "file": "hueyKabluey.webp",
       "imagur_id": "w9aeOqj",
       "caption": "Huey Ka-Bluey!",
       "albums": ["new","dogs", "animals"]
     },
     {
-      "file": "getOnMyLevel.png",
+      "file": "getOnMyLevel.webp",
       "imagur_id": "B2masFK",
       "caption": "Get On My Level!",
       "albums": ["dogs", "animals"]
     },
     {
-      "file": "areYouYolkingMe.png",
+      "file": "areYouYolkingMe.webp",
       "imagur_id": "18LGUcT",
       "caption": "Stop egging me on and feed me that yolk!",
       "albums": ["dogs"]
@@ -166,17 +166,17 @@
     "caption": "Bringing Totes and McGoats Home To The Farm",
     "albums": ["new","goats", "animals"]
   },{
-    "file": "bottleFeedTheKids.png",
+    "file": "bottleFeedTheKids.webp",
     "imagur_id": "D36qYZA",
     "caption": "Bottle Feeding The Kids",
     "albums": ["new","goats", "animals"]
   },{
-    "file": "bottleFeedTheKids.png",
+    "file": "bottleFeedTheKids.webp",
     "imagur_id": "re1sx27",
     "caption": "Bottle Feeding 2",
     "albums": ["new","goats", "animals"]
   },{
-      "file": "babyTotesMcGoats.png",
+      "file": "babyTotesMcGoats.webp",
       "imagur_id": "7m5eMX9",
       "caption": "Totes and McGoats When They Were Angelic Baby Kids",
       "albums": ["new","goats", "animals"]
@@ -185,7 +185,7 @@
       "caption": "Milk-drunk McGoats",
       "albums": ["new","goats", "animals"]
     },{
-    "file": "goatAirplane.png",
+    "file": "goatAirplane.webp",
     "imagur_id": "VDaGoVw",
     "caption": "McGoats on Board",
     "albums": ["new","goats", "animals"]
@@ -198,12 +198,12 @@
       "caption": "Totes And I Just Trying To Be Farmfluencers Over Here!",
       "albums": ["new","goats"]
     },{
-    "file": "trippyGoats.png",
+    "file": "trippyGoats.webp",
     "imagur_id": "T6R6nMK",
     "caption": "Totes Mc Goats!",
     "albums": ["new","goats", "animals"]
   },{
-    "file": "GOAT.png",
+    "file": "GOAT.webp",
     "imagur_id": "ASrTqH3",
     "caption": "G.O.A.T.",
     "albums": ["goats", "animals"]
@@ -243,37 +243,37 @@
       "caption": "Twisted Roots",
       "albums": ["new","garden"]
     },{
-      "file": "arsunrise1.png",
+      "file": "arsunrise1.webp",
       "imagur_id": "yf3A9W0",
       "caption": "A Beautiful Day In Our Neighborhood",
       "albums": ["new","sky"]
     },{
-      "file": "dragoncloud.png",
+      "file": "dragoncloud.webp",
       "imagur_id": "zyLVfmZ",
       "caption": "Dragon cloud",
       "albums": ["new","sky"]
     },{
-      "file": "singleRainbow.png",
+      "file": "singleRainbow.webp",
       "imagur_id":"Qkwf2WG",
       "caption": "Single Rainbow!",
       "albums": ["sky"]
     },{
-      "file": "swallowtailpoopillar.png",
+      "file": "swallowtailpoopillar.webp",
       "imagur_id":"S7PO94E",
       "caption": "Giant Swallowtail caterpillar (or Swallowpoopillar as I fondly refer to it) on my tangerine tree.",
       "albums": ["wildlife"]
     },{
-      "file": "freshFromCocoon.png",
+      "file": "freshFromCocoon.webp",
       "imagur_id":"FSVDRPg",
       "caption": "Giant Swallowtail Butterfly Fresh out of the cocoon.",
       "albums": ["wildlife"]
     },{
-      "file": "butterflysunrise.png",
+      "file": "butterflysunrise.webp",
       "imagur_id":"D39VG9t",
       "caption": "Giant Swallowtail readying for its first flight.",
       "albums": ["new","wildlife"]
     },{
-      "file": "birdPond.png",
+      "file": "birdPond.webp",
       "caption": "Pigeons Taking Flight",
       "albums": ["wildlife"]
     },{
@@ -285,152 +285,152 @@
       "caption": "That Time Bees Built A Hive In My Compost",
       "albums": ["wildlife"]
     },{
-      "file": "arthurMechanic1.png",
+      "file": "arthurMechanic1.webp",
       "caption": "Arthur Being All Mechanical",
       "imagur_id": "hXqXeyY",
       "albums": ["new"]
     },{
-      "file": "gardenbeds-1.png",
+      "file": "gardenbeds-1.webp",
       "imagur_id": "6OErr46",
       "caption": "Arillian Farm Garden Beds 1",
       "albums": ["new","garden"]
     },{
-      "file": "gardenbeds-2.png",
+      "file": "gardenbeds-2.webp",
       "imagur_id": "7JTtmXS",
       "caption": "Arillian Farm Garden Beds 2",
       "albums": ["new","garden"]
     },{
-      "file": "gardenbeds0.png",
+      "file": "gardenbeds0.webp",
       "imagur_id": "1a0aY8D",
       "caption": "Arillian Farm Garden Beds 3",
       "albums": ["new","garden"]
     },{
-      "file": "gardenBeds1.png",
+      "file": "gardenBeds1.webp",
       "imagur_id": "b9U4Vyg",
       "caption": "Arillian Farm Garden Beds 4",
       "albums": ["new","garden"]
     },{
-      "file": "gardenbeds01.png",
+      "file": "gardenbeds01.webp",
       "imagur_id": "sld8zUb",
       "caption": "Arillian Farm Garden Beds 5",
       "albums": ["new","garden"]
     },{
-      "file": "gardenbeds2a.png",
+      "file": "gardenbeds2a.webp",
       "imagur_id": "9uxSZDA",
       "caption": "Arillian Farm Garden Beds 6",
       "albums": ["new","garden"]
     },{
-      "file": "gardenbeds3.png",
+      "file": "gardenbeds3.webp",
       "imagur_id": "sld8zUb",
       "caption": "Arillian Farm Garden Beds 7",
       "albums": ["new","garden"]
     },{
-      "file": "raisedBed1.png",
+      "file": "raisedBed1.webp",
       "imagur_id": "Orev09O",
       "caption": "Arillian Farm Garden Beds 9",
       "albums": ["garden"]
     },{
-    "file": "raisedBed2.png",
+    "file": "raisedBed2.webp",
     "imagur_id": "v6cliOc",
     "caption": "Arillian Farm Garden Beds 10",
       "albums": ["garden"]
     },{
-      "file": "raisedBed3.png",
+      "file": "raisedBed3.webp",
       "imagur_id": "qnje1wT",
       "caption": "Arillian Farm Garden Beds 11",
       "albums": ["garden"]
     },{
-      "file": "raisedBed4.png",
+      "file": "raisedBed4.webp",
       "imagur_id": "E899zNi",
       "caption": "Arillian Farm Garden Beds 12",
       "albums": ["garden"]
     },{
-      "file": "raisedBed5.png",
+      "file": "raisedBed5.webp",
       "imagur_id": "oWHwUHm",
       "caption": "Arillian Farm Garden Beds 13",
       "albums": ["garden"]
     },{
-      "file": "raisedBed6.png",
+      "file": "raisedBed6.webp",
       "imagur_id": "yL2YT8u",
       "caption": "Arillian Farm Garden Beds 14",
       "albums": ["garden"]
     },{
-      "file": "raisedBed7.png",
+      "file": "raisedBed7.webp",
       "imagur_id": "tFKoDTl",
       "caption": "Arillian Farm Garden Beds 15",
       "albums": ["new","garden"]
     },{
-      "file": "wallG1.png",
+      "file": "wallG1.webp",
       "imagur_id": "ezNBoE1",
       "caption": "Arillian Farm Garden Beds 16",
       "albums": ["garden"]
     },{
-      "file": "wallG2.png",
+      "file": "wallG2.webp",
       "imagur_id": "tFOrKek",
       "caption": "Arillian Farm Garden Beds 17",
       "albums": ["garden"]
     },{
-      "file": "wallG3.png",
+      "file": "wallG3.webp",
       "imagur_id": "4HGB7ZC",
       "caption": "Arillian Farm Garden Beds 18",
       "albums": ["garden"]
     },{
-      "file": "sunf1.png",
+      "file": "sunf1.webp",
       "imagur_id": "Tx9YVEW",
       "caption": "Arillian Farm Garden Beds 19",
       "albums": ["new","garden"]
     },{
-      "file": "sunf2.png",
+      "file": "sunf2.webp",
       "imagur_id": "bXFxGD4",
       "caption": "Arillian Farm Garden Beds 20",
       "albums": ["new","garden"]
     },{
-      "file": "sunf3.png",
+      "file": "sunf3.webp",
       "imagur_id": "95NDePf",
       "caption": "Arillian Farm Garden Beds 21",
       "albums": ["new","garden"]
     },{
-      "file": "sunf4.png",
+      "file": "sunf4.webp",
       "imagur_id": "naPQt4e",
       "caption": "Arillian Farm Garden Beds 22",
       "albums": ["new","garden"]
     },{
-      "file": "sunf5.png",
+      "file": "sunf5.webp",
       "imagur_id": "foXzjEU",
       "caption": "Arillian Farm Garden Beds 23",
       "albums": ["new","garden"]
     },{
-      "file": "sunf6.png",
+      "file": "sunf6.webp",
       "imagur_id": "BAEjRHt",
       "caption": "Arillian Farm Garden Beds 24",
       "albums": ["new","garden"]
     },{
-      "file": "side1.png",
+      "file": "side1.webp",
       "imagur_id": "Fd5HPwI",
       "caption": "Arillian Farm Garden Beds 25",
       "albums": ["garden"]
     },{
-      "file": "side2.png",
+      "file": "side2.webp",
       "imagur_id": "vV4lP2z",
       "caption": "Arillian Farm Garden Beds 26",
       "albums": ["garden"]
     },{
-      "file": "side3.png",
+      "file": "side3.webp",
       "imagur_id": "jsFfKmz",
       "caption": "Arillian Farm Garden Beds 27",
       "albums": ["new","garden"]
     },{
-      "file": "TurnipYourVolume.png",
+      "file": "TurnipYourVolume.webp",
       "imagur_id": "TaTUYUL",
       "caption": "Turnip Your Volume",
       "albums": ["garden"]
     },{
-      "file": "turnUpTheBeets.png",
+      "file": "turnUpTheBeets.webp",
       "imagur_id": "40o1s0d",
       "caption": "Turn up Your Beets",
       "albums": ["garden"]
     },{
-      "file": "washingBeets.png",
+      "file": "washingBeets.webp",
       "imagur_id": "s0osEeG",
       "caption": "A lovely Beet Harvest!",
       "albums": ["garden"]
@@ -439,117 +439,117 @@
       "caption": "We all scream for Arillian Artichokes!",
       "albums": ["new","garden"]
     },{
-      "file": "chandlerFront1.png",
+      "file": "chandlerFront1.webp",
       "imagur_id": "0TYS0Ts",
       "caption": "Fixing Up The Front Yard of Arthur's Rental Property 1",
       "albums": ["new","garden"]
     },{
-      "file": "chandlerFront2.png",
+      "file": "chandlerFront2.webp",
       "imagur_id": "o8s4Njj",
       "caption": "Fixing Up The Front Yard of Arthur's Rental Property 2",
       "albums": ["new","garden"]
     },{
-      "file": "chandlerFront3.png",
+      "file": "chandlerFront3.webp",
       "imagur_id": "N76Ign3",
       "caption": "Fixing Up The Front Yard of Arthur's Rental Property 3",
       "albums": ["new","garden"]
     },{
-      "file": "chandlerFront5.png",
+      "file": "chandlerFront5.webp",
       "imagur_id": "v5N6fbG",
       "caption": "Fixing Up The Front Yard of Arthur's Rental Property 4",
       "albums": ["new","garden"]
     },{
-      "file": "chandlerFront4.png",
+      "file": "chandlerFront4.webp",
       "imagur_id": "IoNgnmj",
       "caption": "Fixing Up The Front Yard of Arthur's Rental Property 5",
       "albums": ["new","garden"]
     },{
-      "file": "chandlerGarden1.png",
+      "file": "chandlerGarden1.webp",
       "imagur_id": "lwPJL59",
       "caption": "Setting Up Garden Beds at Arthur's Rental Property 1",
       "albums": ["new","garden"]
     },{
-      "file": "chandlerGarden2.png",
+      "file": "chandlerGarden2.webp",
       "imagur_id": "plzgXuJ",
       "caption": "Setting Up Garden Beds at Arthur's Rental Property 2",
       "albums": ["new","garden"]
     },{
-      "file": "chandlerGarden3.png",
+      "file": "chandlerGarden3.webp",
       "imagur_id": "5U451zs",
       "caption": "Setting Up Garden Beds at Arthur's Rental Property 3",
       "albums": ["new","garden"]
     },{
-      "file": "chandlerGarden4.png",
+      "file": "chandlerGarden4.webp",
       "imagur_id": "5U451zs",
       "caption": "Setting Up Garden Beds at Arthur's Rental Property 4",
       "albums": ["new","garden"]
     },{
-      "file": "chandlerGarden5.png",
+      "file": "chandlerGarden5.webp",
       "imagur_id": "JSWZwT2",
       "caption": "Setting Up Garden Beds at Arthur's Rental Property 5",
       "albums": ["new","garden"]
     },{
-      "file": "chandlerGarden6.png",
+      "file": "chandlerGarden6.webp",
       "imagur_id": "30vKJg5",
       "caption": "Setting Up Garden Beds at Arthur's Rental Property 6",
       "albums": ["garden"]
     },{
-      "file": "chandlerGarden7.png",
+      "file": "chandlerGarden7.webp",
       "imagur_id": "sqRAaCh",
       "caption": "Setting Up Garden Beds at Arthur's Rental Property 7",
       "albums": ["garden"]
     },{
-      "file": "chandlerGarden8.png",
+      "file": "chandlerGarden8.webp",
       "imagur_id": "qcnitiR",
       "caption": "Setting Up Garden Beds at Arthur's Rental Property 8",
       "albums": ["new","garden"]
     },{
-      "file": "chandlerGarden9.png",
+      "file": "chandlerGarden9.webp",
       "imagur_id": "uciMPb6",
       "caption": "Setting Up Garden Beds at Arthur's Rental Property 9",
       "albums": ["new","garden"]
     },{
-      "file": "tempeA1.png",
+      "file": "tempeA1.webp",
       "imagur_id": "Z2T6LxO",
       "caption": "Garden Beds at my rental house 1",
       "albums": ["garden"]
     },{
-      "file": "tempeA2.png",
+      "file": "tempeA2.webp",
       "imagur_id": "YcC7AP5",
       "caption": "Garden Beds at my rental house 2",
       "albums": ["garden"]
     },{
-      "file": "tempeB1.png",
+      "file": "tempeB1.webp",
       "imagur_id": "v8JMoKv",
       "caption": "Garden Beds at my rental house 3",
       "albums": ["garden"]
     },{
-      "file": "tempeB2.png",
+      "file": "tempeB2.webp",
       "imagur_id": "2SNCgHX",
       "caption": "Garden Beds at my rental house 4",
       "albums": ["garden"]
     },{
-      "file": "tempeB3.png",
+      "file": "tempeB3.webp",
       "imagur_id": "fpC6sBX",
       "caption": "Garden Beds at my rental house 5",
       "albums": ["new","garden"]
     },{
-      "file": "tempeB4.png",
+      "file": "tempeB4.webp",
       "imagur_id": "yLDVu5C",
       "caption": "Garden Beds at my rental house 6",
       "albums": ["new","garden"]
     },{
-      "file": "cordae1.png",
+      "file": "cordae1.webp",
       "imagur_id": "jxF0DBe",
       "caption": "Garden Beds I helped my friend set up in her yard 1",
       "albums": ["garden"]
     },{
-      "file": "cordae2.png",
+      "file": "cordae2.webp",
       "imagur_id": "F3ANqlo",
       "caption": "Garden Beds I helped my friend set up in her yard 2",
       "albums": ["new","garden"]
     },{
-      "file": "cordae3.png",
+      "file": "cordae3.webp",
       "imagur_id": "5Bh15Uf",
       "caption": "Garden Beds I helped my friend set up in her yard 3",
       "albums": ["new","garden"]

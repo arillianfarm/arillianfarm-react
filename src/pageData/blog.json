@@ -26,10 +26,10 @@
       "entry_number": 2,
       "entry_date": "August 16, 2024",
       "entry_subject": "Yes We Kanban!",
-      "pic_file": "kanban1.png",
+      "pic_file": "kanban1.webp",
       "feature_section_1": {
         "caption": "",
-        "pic": "assets/blog/kanban1.png"
+        "pic": "assets/blog/kanban1.webp"
       },
       "feature_section_2": {
         "caption": "",
@@ -39,7 +39,7 @@
         "caption": "",
         "pic": ""
       },
-      "pic_file": "kanban1.png",
+      "pic_file": "kanban1.webp",
       "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQJC6WFdhJzehXvB2h_5yPAZsoQVBE7aT6oIhu1mrtGZ4G0hfzhyBuynwkqPvYJWYLfytprri2vwEqb/pubhtml",
       "sections": [{
         "paragraphs":[
@@ -65,20 +65,20 @@
       "entry_subject": "A day on Arillian Farm",
       "custom_blog_1": true,
       "featured_blog": false,
-      "pic_file": "chickenFeed.png",
+      "pic_file": "chickenFeed.webp",
       "feature_section_1": {
         "caption": "Buck Bugggaaak",
-        "pic": "assets/blog/chickenFeed.png"
+        "pic": "assets/blog/chickenFeed.webp"
       },
       "feature_section_2": {
         "caption": "Yummy Yummy in the tummy",
-        "pic": "breakfastTreats.png"
+        "pic": "breakfastTreats.webp"
       },
       "feature_section_3": {
         "caption": "oh lalala",
-        "pic": "happyBasilOkra.png"
+        "pic": "happyBasilOkra.webp"
       },
-      "pic_file": "arsunrise.png",
+      "pic_file": "arsunrise.webp",
       "link": null,
       "sections": [
         {
@@ -89,11 +89,11 @@
             }
           ],
           "link": null,
-          "pics": ["arsunrise.png"]
+          "pics": ["arsunrise.webp"]
         },
         {
           "bold":false,
-          "pics": ["breakfastTreats.png", "barnyardbreakfast2.png", "earlyAManimals.png"],
+          "pics": ["breakfastTreats.webp", "barnyardbreakfast2.webp", "earlyAManimals.webp"],
           "paragraphs": [
             {
               "text": "4:30AM Barnyard Breakfast! (I feed our chickens before sunrise for two reasons 1- I want them to lay early in the day because nesting in the midday heat is stressful for their bodies. (2) After sunrise a flock of pigeons and doves show up to pick through any leftovers."
@@ -109,7 +109,7 @@
             }
           ],
           "internal_links": ["recipes-sourdough", "recipes-sourdough-starter"],
-          "pics": ["feedStarter.png"]
+          "pics": ["feedStarter.webp"]
         },{
           "bold":false,
           "paragraphs": [
@@ -264,11 +264,11 @@
     {
       "entry_number": 4,
       "entry_date": "August 30, 2024",
-      "pic_file": "breadwinnerbaker.png",
+      "pic_file": "breadwinnerbaker.webp",
       "entry_subject": "From Bread winner to bread baker",
       "feature_section_1": {
         "caption": " OR From bringing home the bacon to stay at home farmer",
-        "pic": "assets/blog/breadwinnerbaker.png"
+        "pic": "assets/blog/breadwinnerbaker.webp"
       },
       "feature_section_2": {
         "caption": "",
@@ -300,7 +300,7 @@
               "text": "A few weeks after the final round of layoffs, we closed our physical office and started working from home. My new boss immediately hired three developers to work remotely from other countries (two from Ukraine and one from Nicaragua). We all worked at very different times of day, which made communication slow and difficult."
             }],
 
-          "pics": ["softwareCamp.png"]
+          "pics": ["softwareCamp.webp"]
         },{
           "bold":false,
           "paragraphs": [
@@ -316,7 +316,7 @@
           ]
         },{
           "bold":false,
-          "pics": ["NicPainting.png"],
+          "pics": ["NicPainting.webp"],
           "right_side_pic": true,
           "paragraphs": [{
             "text":"The only thing that made it bearable was that I started working my closely with my coworker in Nicaragua. He's hardworking and communicative and he knows more about certain aspects of computer science than I and vice versus, so we worked well together in that regard,"
@@ -335,7 +335,7 @@
             }]
         },{
           "bold":false,
-          "pic_file": "budget1.png",
+          "pic_file": "budget1.webp",
           "link": "https://docs.google.com/spreadsheets/d/1o5IAf3smq-RFusiekqUcnpePol36Cuo5QNgkbgEjOQc/edit?usp=sharing",
           "paragraphs": [
             {
@@ -358,11 +358,11 @@
     {
       "entry_number": 5,
       "entry_date": "Sept 6, 2024",
-      "pic_file": "smixer.png",
+      "pic_file": "smixer.webp",
       "entry_subject": "My Favorite Tools",
       "feature_section_1": {
         "caption": "1 - Stand Mixer, 2 - Electric Miter Saw, 3 - Silicone Muffin Wrappers, 4 - Matrix Drill + Attachments (Black&Decker), 5 - Wet Tile Saw, 6 - Air Fryer, 7 - Construction Bags, 8 - Painting Edger, 9 - Air Compressor + attachments, 10 - Sharpal ",
-        "pic": "assets/blog/smixer.png"
+        "pic": "assets/blog/smixer.webp"
       },
       "sections": [
         {
@@ -376,7 +376,7 @@
             }
           ]
         },{
-          "pics": ["msaw.png"],
+          "pics": ["msaw.webp"],
           "right_side_pic":true,
           "paragraphs": [
             {
@@ -387,7 +387,7 @@
             }
           ]
         },{
-          "pics": ["silcups.png"],
+          "pics": ["silcups.webp"],
           "paragraphs": [
             {
               "h4": true,
@@ -397,7 +397,7 @@
             }
           ]
         },{
-          "pics": ["matrixd.png"],
+          "pics": ["matrixd.webp"],
           "right_side_pic":true,
           "paragraphs": [
             {
@@ -408,7 +408,7 @@
             }
           ]
         },{
-          "pics": ["tsaw.png"],
+          "pics": ["tsaw.webp"],
           "paragraphs": [
             {
               "h4": true,
@@ -418,7 +418,7 @@
             }
           ]
         },{
-          "pics": ["airfrier.png"],
+          "pics": ["airfrier.webp"],
           "right_side_pic":true,
           "paragraphs": [
             {
@@ -429,7 +429,7 @@
             }
           ]
         },{
-          "pics": ["cbag.png"],
+          "pics": ["cbag.webp"],
           "paragraphs": [
             {
               "h4": true,
@@ -439,7 +439,7 @@
             }
           ]
         },{
-          "pics": ["pedger.png"],
+          "pics": ["pedger.webp"],
           "right_side_pic":true,
           "paragraphs": [
             {
@@ -450,7 +450,7 @@
             }
           ]
         },{
-          "pics": ["aircomp.png"],
+          "pics": ["aircomp.webp"],
           "paragraphs": [
             {
               "h4": true,
@@ -460,7 +460,7 @@
             }
           ]
         },{
-          "pics": ["sharpener.png"],
+          "pics": ["sharpener.webp"],
           "right_side_pic":true,
           "paragraphs": [
             {
@@ -476,16 +476,16 @@
     {
       "entry_number": 6,
       "entry_date": "Sept 13, 2024",
-      "pic_file": "wallowingChicks.png",
+      "pic_file": "wallowingChicks.webp",
       "entry_subject": "Caring For Chickens in the Summer",
       "feature_section_1": {
         "caption": "Unfortunately summers in AZ can be too much for chickens. Here's what I've gleaned from my experiences over the years.",
-        "pic": "assets/blog/wallowingChicks.png"
+        "pic": "assets/blog/wallowingChicks.webp"
       },
       "sections": [
 
         {
-          "pics": ["goatDoor.png"],
+          "pics": ["goatDoor.webp"],
           "paragraphs": [
             {
               "h4": true,
@@ -507,7 +507,7 @@
         }]
         },
         {
-          "pics": ["ice4chicks.png"],
+          "pics": ["ice4chicks.webp"],
           "paragraphs": [
             {
               "h4": true,
@@ -518,7 +518,7 @@
           ]
         },
         {
-          "pics": ["wallowingChicks.png"],
+          "pics": ["wallowingChicks.webp"],
           "right_side_pic": true,
           "paragraphs": [
             {
@@ -543,16 +543,16 @@
     },
     {
       "entry_number": 7,
-      "pic_file": "marketStrategy.png",
+      "pic_file": "marketStrategy.webp",
       "entry_date": "Sept 20, 2024",
       "entry_subject": "Preparing For Launch",
       "feature_section_1": {
         "caption": "I’ve been busting my ass setting up this site and combing through Google Photos for pictures and videos of our lil farm yard",
-        "pic": "assets/blog/marketStrategy.png"
+        "pic": "assets/blog/marketStrategy.webp"
       },
       "sections": [
         {
-          "pics": ["thisSiteBlog.png"],
+          "pics": ["thisSiteBlog.webp"],
           "right_side_pic":false,
           "paragraphs": [
             {
@@ -574,7 +574,7 @@
           ]
         },
         {
-          "pics": ["marketStrategy.png"],
+          "pics": ["marketStrategy.webp"],
           "right_side_pic":true,
           "paragraphs": [
             {
@@ -592,7 +592,7 @@
             }]
         },
         {
-          "pics": ["youtubeediting.png"],
+          "pics": ["youtubeediting.webp"],
           "right_side_pic":false,
           "paragraphs": [
             {
@@ -612,11 +612,11 @@
     {
       "entry_number": 8,
       "entry_date": "Oct 4, 2024",
-      "pic_file": "twofalls.png",
+      "pic_file": "twofalls.webp",
       "entry_subject": "Falling in love with Autumn in the desert!",
       "feature_section_1": {
         "caption": "",
-        "pic": "assets/blog/twofalls.png"
+        "pic": "assets/blog/twofalls.webp"
       },
       "feature_section_2": {
         "caption": "",
@@ -626,16 +626,16 @@
         "caption": "",
         "pic": ""
       },
-      "pic_file": "twofalls.png",
+      "pic_file": "twofalls.webp",
       "sections": [{
-        "pics": ["fallCA.png"],
+        "pics": ["fallCA.webp"],
         "paragraphs": [
           {
             "text": "Growing up in California, fall blew in with the gusty, dusty Santa Ana Winds and it brought the unfortunate end of summer vacation and return to school. I was not a fan. In California, I just wanted it to be summer all the time."
           }
         ]
       },{
-        "pics": ["fallAZ.png"],
+        "pics": ["fallAZ.webp"],
         "right_side_pic": true,
         "paragraphs": [
           {
@@ -653,10 +653,10 @@
       "entry_number": 9,
       "entry_date": "Oct 4, 2024",
       "entry_subject": "Fall Planting 2024",
-      "pic_file": "soilDone.png",
+      "pic_file": "soilDone.webp",
       "feature_section_1": {
         "caption": "",
-        "pic": "assets/blog/soilDone.png"
+        "pic": "assets/blog/soilDone.webp"
       },
       "feature_section_2": {
         "caption": "",
@@ -668,7 +668,7 @@
       },
       "sections": [
         {
-          "pics": ["soilDone.png"],
+          "pics": ["soilDone.webp"],
         "paragraphs": [
           {
             "text": "Aug 20, 2024 - Started Clearing Garden Beds and Making Soil",
@@ -679,7 +679,7 @@
           }
         ]
       },{
-        "pics": ["p828.png"],
+        "pics": ["p828.webp"],
           "right_side_pic": true,
           "paragraphs": [
           {
@@ -690,7 +690,7 @@
           }
         ]
       },{
-        "pics": ["p831.png"],
+        "pics": ["p831.webp"],
           "right_side_pic": true,
           "paragraphs": [
           {
@@ -701,7 +701,7 @@
           }
         ]
       },{
-        "pics": ["p98.png", "p981.png"],
+        "pics": ["p98.webp", "p981.webp"],
           "right_side_pic": true,
           "paragraphs": [
           {
@@ -713,7 +713,7 @@
           }
         ]
       },{
-        "pics": ["p912.png"],
+        "pics": ["p912.webp"],
           "right_side_pic": true,
           "paragraphs": [
           {
@@ -724,7 +724,7 @@
           }
         ]
       },{
-        "pics": ["p919.png","p9192.png","p9193.png","p9194.png"],
+        "pics": ["p919.webp","p9192.webp","p9193.webp","p9194.webp"],
           "right_side_pic": true,
           "paragraphs": [
           {
@@ -734,7 +734,7 @@
           }
         ]
       },{
-        "pics": ["p924.png"],
+        "pics": ["p924.webp"],
           "right_side_pic": true,
           "paragraphs": [
           {
@@ -745,7 +745,7 @@
         ]
       },
         {
-        "pics": ["p102A.png","p102B.png","p102C.png","p102D.png","p102E.png"],
+        "pics": ["p102A.webp","p102B.webp","p102C.webp","p102D.webp","p102E.webp"],
           "right_side_pic": true,
           "paragraphs": [
           {
@@ -756,7 +756,7 @@
         ]
       },
         {
-        "pics": ["pbugs1.png","pbugs2.png"],
+        "pics": ["pbugs1.webp","pbugs2.webp"],
           "right_side_pic": true,
           "paragraphs": [
           {
@@ -765,7 +765,7 @@
             "text": "...but then of course there's the critters that want to eat everything "
           }]},
         {
-        "pics": ["p1017.png","p1017B.png","p1017C.png","p1017D.png"],
+        "pics": ["p1017.webp","p1017B.webp","p1017C.webp","p1017D.webp"],
           "right_side_pic": true,
           "paragraphs": [
           {
@@ -779,10 +779,10 @@
       "entry_number": 10,
       "entry_date": "Nov 1, 2024",
       "entry_subject": "Removing Rats From The Barn/ Chicken Coop",
-      "pic_file": "rat1.png",
+      "pic_file": "rat1.webp",
       "feature_section_1": {
         "caption": "",
-        "pic": "assets/blog/rat1.png"
+        "pic": "assets/blog/rat1.webp"
       },
       "feature_section_2": {
         "caption": "",
@@ -825,10 +825,10 @@
       "entry_number": 11,
       "entry_date": "Nov 15, 2024",
       "entry_subject": "YouTube-ing",
-      "pic_file": "youtubeA.png",
+      "pic_file": "youtubeA.webp",
       "feature_section_1": {
         "caption": "",
-        "pic": "assets/blog/youtubeA.png"
+        "pic": "assets/blog/youtubeA.webp"
       },
       "feature_section_2": {
         "caption": "",
@@ -872,10 +872,10 @@
       "entry_number": 12,
       "entry_date": "Dec 6, 2024",
       "entry_subject": "Self Publishing on Amazon",
-      "pic_file": "amazonPub.png",
+      "pic_file": "amazonPub.webp",
       "feature_section_1": {
         "caption": "",
-        "pic": "assets/blog/amazonPub.png"
+        "pic": "assets/blog/amazonPub.webp"
       },
       "feature_section_2": {
         "caption": "",
@@ -887,7 +887,7 @@
       },
       "sections": [
         {
-        "pics": ["amazonPub.png"],
+        "pics": ["amazonPub.webp"],
         "paragraphs": [
           {
             "text": "After nearly a decade of writing and tinkering, I finally decided to cast Hyperspear into the Amazon this week."
@@ -914,10 +914,10 @@
       "entry_number": 13,
       "entry_date": "Jan 3, 2025",
       "entry_subject": "Looking Back at Our Dogs Favorite Toys in 2024",
-      "pic_file": "turtleToy.png",
+      "pic_file": "turtleToy.webp",
       "feature_section_1": {
         "caption": "",
-        "pic": "assets/blog/turtleToy.png"
+        "pic": "assets/blog/turtleToy.webp"
       },
       "feature_section_2": {
         "caption": "",
@@ -929,7 +929,7 @@
       },
       "sections": [
         {
-          "pic_file": "turtleToy.png",
+          "pic_file": "turtleToy.webp",
           "link": "https://www.amazon.com/YILAKO-Aggressive-Chewers-Indestructible-Non-Toxic/dp/B094FZ3PPZ?pd_rd_w=CPFjv&content-id=amzn1.sym.59910fa8-b73c-408a-aa5f-d0b4e0aa42cb&pf_rd_p=59910fa8-b73c-408a-aa5f-d0b4e0aa42cb&pf_rd_r=B3E24NTCSGG85A2R8SMV&pd_rd_wg=0v5op&pd_rd_r=40ec9c93-d4d2-4754-9001-84d6a1fd5456&pd_rd_i=B094FZ3PPZ&ref_=pd_bap_d_grid_rp_0_1_ec_pd_hp_d_atf_rp_3_i&th=1",
           "paragraphs": [
             {
@@ -944,7 +944,7 @@
         ]
       },{
           "right_side_pic": true,
-        "pic_file": "dogOsoar.png",
+        "pic_file": "dogOsoar.webp",
         "link":"https://www.amazon.com/Flying-Flyer-Rubber-Interactive-Small/dp/B098BJM7BB/ref=sr_1_4?crid=3ERB6R7DEE58F&dib=eyJ2IjoiMSJ9.QnoYoFeY25kI0rpzXJ0WiAD9hTgy8xd5C2BPvTRlXa8PeJiRI0driHCnlGdR2aZo8I5ADwpEHjDHCCSWKWKl_rOnvV0DHOHnrnPC0_7aveYgoGpWFwiSeskSKv7wQfTXH_zXlBruqOMFANwH_X0bgFxrQj63KW8SA4_v1DGiHdzIvdvVo5PI66ZN_4-MUlondSWoKl-glDQ25EzbqbBaH5ar1O4HjqqNyUnZCe5bKGHVQ2tsJpsXANYk-hGibpc4N9FJAlXiLvPy4I2-QRqwFL5hx6u_lL6YpOtpNvkufYn1bdA7y_CYJQLSWaTql7uwmHJRkcwzE6yOF8adJcNKy-S77wJtmQ97ca9m_TXQ8gY.BdqzxqkGVlCm-Kcqmkm1HVTuI8A54Cyed_uoIGaEuAg&dib_tag=se&keywords=dog%2Bo%2Bsoar&qid=1735836885&s=pet-supplies&sprefix=dog%2Bo%2Bsoar%2Cpets%2C177&sr=1-4&th=1",
         "paragraphs": [
           {
@@ -955,7 +955,7 @@
           }
         ]
       },{
-        "pic_file": "blueftball.png",
+        "pic_file": "blueftball.webp",
         "link":"https://www.amazon.com/gp/product/B086BTZM3V/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1",
         "paragraphs": [
           {
@@ -969,7 +969,7 @@
         ]
       },{
           "right_side_pic": true,
-        "pic_file": "foodBall.png",
+        "pic_file": "foodBall.webp",
         "link":"https://www.amazon.com/dp/B0CQR9741Z/ref=vp_d_fuw_pd?_encoding=UTF8&pf_rd_p=95590a51-8b9e-49a7-bb36-7db49ee510df&pf_rd_r=KHCB79Q8J6GD20FBVEY0&pd_rd_wg=7xvwE&pd_rd_i=B0CQR9741Z&pd_rd_w=UTABj&content-id=amzn1.sym.95590a51-8b9e-49a7-bb36-7db49ee510df&pd_rd_r=f8bd9966-d5d6-4838-9e77-a38cabf83bfb&th=1",
           "paragraphs": [
           {
@@ -994,10 +994,10 @@
       "entry_number": 14,
       "entry_date": "Jan 17, 2025",
       "entry_subject": "Ten Years of Arillian",
-      "pic_file": "arillian1.png",
+      "pic_file": "arillian1.webp",
       "feature_section_1": {
         "caption": "",
-        "pic": "assets/blog/arillian1.png"
+        "pic": "assets/blog/arillian1.webp"
       },
       "feature_section_2": {
         "caption": "",
@@ -1009,7 +1009,7 @@
       },
       "sections": [
         {
-          "pics": ["piDay.png"],
+          "pics": ["piDay.webp"],
           "link": "",
           "paragraphs": [
             {
@@ -1021,7 +1021,7 @@
             }
         ]
       },{
-          "pics": ["prague.png"],
+          "pics": ["prague.webp"],
           "right_side_pic": true,
           "paragraphs": [
             {
@@ -1033,7 +1033,7 @@
           }
         ]
       },{
-          "pics": ["recentUs.png"],
+          "pics": ["recentUs.webp"],
           "link": "",
           "paragraphs": [
             {
@@ -1060,10 +1060,10 @@
       "entry_number": 15,
       "entry_date": "Jan 31, 2025",
       "entry_subject": "Modding My Way Into Game Writing?",
-      "pic_file": "gemtalk.png",
+      "pic_file": "gemtalk.webp",
       "feature_section_1": {
         "caption": "",
-        "pic": "assets/blog/gemtalk.png"
+        "pic": "assets/blog/gemtalk.webp"
       },
       "feature_section_2": {
         "caption": "",
@@ -1075,7 +1075,7 @@
       },
       "sections": [
         {
-          "pics": ["gemtalk.png"],
+          "pics": ["gemtalk.webp"],
           "paragraphs": [
             {
               "text": "The other day, I was chatting with my AI pal, Google Gemini ( GG for short ), about the RPG-sized hole in my heart.",
@@ -1118,7 +1118,7 @@
           }
         ]
       },{
-          "pics": ["skymooder.png"],
+          "pics": ["skymooder.webp"],
           "link": "",
           "paragraphs": [
             {
@@ -1149,10 +1149,10 @@
       "entry_number": 16,
       "entry_date": "Feb 14, 2025",
       "entry_subject": "Springing Ahead",
-      "pic_file": "spr5.png",
+      "pic_file": "spr5.webp",
       "feature_section_1": {
         "caption": "",
-        "pic": "assets/blog/spr5.png"
+        "pic": "assets/blog/spr5.webp"
       },
       "feature_section_2": {
         "caption": "",
@@ -1164,7 +1164,7 @@
       },
       "sections": [
         {
-          "pics": [ "spr3.png","spr1.png"],
+          "pics": [ "spr3.webp","spr1.webp"],
           "paragraphs": [
             {
               "text": "Spring has sprung in Mesa, AZ, and it’s put a Bounce in my step!",
@@ -1176,7 +1176,7 @@
           ]
         },
         {
-          "pics": ["spr5.png"],
+          "pics": ["spr5.webp"],
           "paragraphs": [
             {
               "text": "Meanwhile, the garden is absolutely bursting with life.",
@@ -1195,10 +1195,10 @@
       "entry_number": 17,
       "entry_date": "Feb 28, 2025",
       "entry_subject": "I’m Just a Lil Robot Trying to Broadcast My Data - Navigating an Unofficial Autism Diagnosis",
-      "pic_file": "lilbot.png",
+      "pic_file": "lilbot.webp",
       "feature_section_1": {
         "caption": "",
-        "pic": "assets/blog/lilbot.png"
+        "pic": "assets/blog/lilbot.webp"
       },
       "feature_section_2": {
         "caption": "",
@@ -1274,10 +1274,10 @@
       "entry_number": 18,
       "entry_date": "March 14, 2025",
       "entry_subject": "LARPing in the face of the Apocalypse: Farm Life and AI Anxiety",
-      "pic_file": "cblog.png",
+      "pic_file": "cblog.webp",
       "feature_section_1": {
         "caption": "",
-        "pic": "assets/blog/cblog.png"
+        "pic": "assets/blog/cblog.webp"
       },
       "feature_section_2": {
         "caption": "",
@@ -1293,7 +1293,7 @@
           "center_pic": true,
           "paragraphs": [
           ],
-          "pics": ["cblog.png"]
+          "pics": ["cblog.webp"]
         },
         {
           "pics": [],
@@ -1346,10 +1346,10 @@
       "entry_number": 19,
       "entry_date": "April 4th, 2025",
       "entry_subject": "An Ode to Artichokes",
-      "pic_file": "ablogharvest.png",
+      "pic_file": "ablogharvest.webp",
       "feature_section_1": {
         "caption": "Artichokes remind me of me, tough, vibrant and good with a side of mayonnaise",
-        "pic": "assets/blog/ablogharvest.png"
+        "pic": "assets/blog/ablogharvest.webp"
       },
       "feature_section_2": {
         "caption": "",
@@ -1361,7 +1361,7 @@
       },
       "sections": [
         {
-          "pics": ["aplate.png"],
+          "pics": ["aplate.webp"],
           "right_side_pic": true,
           "paragraphs": [
             {
@@ -1376,7 +1376,7 @@
 
           ]
         },{
-          "pics": ["ablogFlowering.png"],
+          "pics": ["ablogFlowering.webp"],
           "paragraphs": [
             {
               "text": "It wasn't until my adult life, when I bought my first house and planted artichokes in my garden that I saw a blooming artichoke and realized what a feast for the eyes they can be!"
@@ -1387,7 +1387,7 @@
             }
           ]
         },{
-          "pics": ["drychoke.png"],
+          "pics": ["drychoke.webp"],
           "right_side_pic": true,
           "paragraphs": [
             {
@@ -1395,7 +1395,7 @@
             }
           ]
         },{
-          "pics": ["chokebat.png","chokebat2.png"],
+          "pics": ["chokebat.webp","chokebat2.webp"],
           "paragraphs": [
             {
               "text": "I've actually been trying to get an AI to generate an image for a tattoo that captures the juxtaposition of strength and delicate grace of an artichoke."
@@ -1406,7 +1406,7 @@
             }
           ]
         },{
-          "pics": ["ablogCard.png"],
+          "pics": ["ablogCard.webp"],
           "right_side_pic": true,
           "paragraphs": [
             {
@@ -1427,10 +1427,10 @@
       "entry_number": 20,
       "entry_date": "April 11th, 2025",
       "entry_subject": "The Linguistic Loop",
-      "pic_file": "hiero.png",
+      "pic_file": "hiero.webp",
       "feature_section_1": {
         "caption": " Will Words Become Pictures Again?",
-        "pic": "assets/blog/hiero.png"
+        "pic": "assets/blog/hiero.webp"
       },
       "feature_section_2": {
         "caption": "",
@@ -1442,7 +1442,7 @@
       },
       "sections": [
         {
-          "pics": ["hiero.png"],
+          "pics": ["hiero.webp"],
           "right_side_pic": true,
           "paragraphs": [
             {
@@ -1483,10 +1483,10 @@
       "entry_date": "April 25th, 2025",
       "featured_blog": true,
       "entry_subject": "Fitness Snacks",
-      "pic_file": "fitsnack1.png",
+      "pic_file": "fitsnack1.webp",
       "feature_section_1": {
         "caption": "Finding Mindful Moments for Movement",
-        "pic": "assets/blog/fitsnack1.png"
+        "pic": "assets/blog/fitsnack1.webp"
       },
       "feature_section_2": {
         "caption": "",
@@ -1498,7 +1498,7 @@
       },
       "sections": [
         {
-          "pics": ["fitsnack1.png"],
+          "pics": ["fitsnack1.webp"],
           "right_side_pic": true,
           "paragraphs": [
             {
@@ -1513,7 +1513,7 @@
             }
           ]
         },{
-          "pics": ["fitsnack2.png"],
+          "pics": ["fitsnack2.webp"],
           "paragraphs": [
             {
               "text": "Holistic with my Whole Heart",
@@ -1530,7 +1530,7 @@
           ]
         },
         {
-          "pics": ["fitsnack5.png"],
+          "pics": ["fitsnack5.webp"],
           "right_side_pic": true,
           "paragraphs": [
             {
@@ -1551,7 +1551,7 @@
             }
           ]
         },{
-          "pics": ["fitsnack3.png"],
+          "pics": ["fitsnack3.webp"],
           "paragraphs": [
             {
               "text": "Yoga and fitness snacks pair well with YouTubing and Blogging",
@@ -1566,11 +1566,11 @@
     {
       "entry_subject": "Leaping into the Now: converting a SPA website from Angular JS to React with help from Google, Gemini",
       "entry_date": "May 2, 2025",
-      "pic_file": "aiHandHold.png",
+      "pic_file": "aiHandHold.webp",
       "entry_number": 21,
       "feature_section_1": {
         "caption": "Clasping hands with My Favorite AI, Gemini, I took a Plunge into my codebase and Made it Out the other Side",
-        "pic": "assets/blog/aiHandHold.png"
+        "pic": "assets/blog/aiHandHold.webp"
       },
       "sections": [
         {
@@ -1607,7 +1607,7 @@
           ]
         },
         {
-          "pics": ["react-spin-up.png"],
+          "pics": ["react-spin-up.webp"],
           "right_side_pic": true,
           "paragraphs": [
             {
@@ -1623,7 +1623,7 @@
           ]
         },
         {
-          "pics": ["routing-diagram.png"],
+          "pics": ["routing-diagram.webp"],
           "paragraphs": [
             {
               "text": "Mapping the Roads: Setting Up Routing with `react-router-dom`",
@@ -1638,7 +1638,7 @@
           ]
         },
         {
-          "pics": ["code-comparison.png"],
+          "pics": ["code-comparison.webp"],
           "paragraphs": [
             {
               "text": "Translating the Blueprints: Architecting Components from Controllers and Directives",
@@ -1653,7 +1653,7 @@
           ]
         },
         {
-          "pics": ["json-data.png"],
+          "pics": ["json-data.webp"],
           "right_side_pic": true,
           "paragraphs": [
             {
@@ -1666,7 +1666,7 @@
           ]
         },
         {
-          "pics": ["browser-devtools.png"],
+          "pics": ["browser-devtools.webp"],
           "right_side_pic": true,
           "paragraphs": [
             {
@@ -1679,7 +1679,7 @@
           ]
         },
         {
-          "pics": ["website-comparison.png"],
+          "pics": ["website-comparison.webp"],
           "paragraphs": [
             {
               "text": "Onward and Upward",
@@ -1696,10 +1696,10 @@
       "entry_number": 22,
       "entry_date": "May 23, 2025",
       "entry_subject": "Into the Great Wide Everywhere - Crossing 1000 Subscribers on YouTube & making contents of this SPA site searchable on Google, Bing",
-      "pic_file": "into-the-great-wide-everywhere.png",
+      "pic_file": "into-the-great-wide-everywhere.webp",
       "feature_section_1": {
         "caption": "",
-        "pic": "assets/blog/into-the-great-wide-everywhere.png"
+        "pic": "assets/blog/into-the-great-wide-everywhere.webp"
       },
       "feature_section_2": {
         "caption": "",
@@ -1800,11 +1800,11 @@
       "entry_date": "June 6, 2025",
       "entry_subject": "Broodzilla and Her Black Star Chicken Brood",
       "main_video_id": "s55bv-mTiI4",
-      "pic_file": "broodzillas-brood.png",
+      "pic_file": "broodzillas-brood.webp",
       "feature_section_1": {
         "caption": "Meet Broodzilla and her new family!",
         "video_id": "s55bv-mTiI4",
-        "pic": "assets/blog/broodzillas-brood.png"
+        "pic": "assets/blog/broodzillas-brood.webp"
       },
       "feature_section_2": {
         "caption": "Growing bigger and bolder each day.",
@@ -1898,11 +1898,11 @@
       "entry_date": "June 20, 2025",
       "entry_subject": "An Arillian Farm Morning: The Dopamine Harvest",
       "main_video_id": "P5Z8q69Iy_Q",
-      "pic_file": "arillian-morning-chores.png",
+      "pic_file": "arillian-morning-chores.webp",
       "feature_section_1": {
         "caption": "Sunrise chores: where sanity meets serenity (mostly).",
         "video_id": "YOUR_YOUTUBE_SHORT_ID_HERE",
-        "pic": "assets/blog/arillian-morning-chores.png"
+        "pic": "assets/blog/arillian-morning-chores.webp"
       },
       "feature_section_2": null,
       "feature_section_3": null,
@@ -1935,17 +1935,17 @@
       "entry_date": "July 4, 2025",
       "entry_subject": "Going Going Back Back to Cali Cali",
       "main_video_id": "T0eba2PPfxo",
-      "pic_file": "sf-bay-area-skyline-driving-in.png",
+      "pic_file": "sf-bay-area-skyline-driving-in.webp",
       "feature_section_1": {
         "caption": "Relive the highlights of our Bay Area adventure!",
         "video_id": "T0eba2PPfxo",
-        "pic": "assets/blog/sf-trip-highlights-thumbnail.png"
+        "pic": "assets/blog/sf-trip-highlights-thumbnail.webp"
       },
       "feature_section_2": null,
       "feature_section_3": null,
       "sections": [
         {
-          "pics": ["redwoods.png"],
+          "pics": ["redwoods.webp"],
           "paragraphs": [
             {
               "text": "Farm LARPing gets exhausting in the desert, and my birthday, in late June, is a perfect excuse to escape the heat! This year for my birthday weekend, Arthur and I flew to my old stomping ground in the **San Francisco Bay Area** to soak up some of that perfect **California weather** and cool our heels by the beach with some warm memories and cold beers."
@@ -1958,7 +1958,7 @@
           ]
         },
         {
-          "pics":["sf-trip-highlights-thumbnail.png","harbor-breakfast.png"],
+          "pics":["sf-trip-highlights-thumbnail.webp","harbor-breakfast.webp"],
           "right_side_pic": true,
           "paragraphs": [
             {
@@ -1969,7 +1969,7 @@
             }
           ]
         },{
-          "pics": ["sf-bay-area-skyline-driving-in.png", "critical-mass.png"],
+          "pics": ["sf-bay-area-skyline-driving-in.webp", "critical-mass.webp"],
           "right_side_pic": true,
           "paragraphs": [
             {
@@ -1981,7 +1981,7 @@
 
           ]
         },{
-          "pics": [ "ai-billboard.png", "closed-lobby.png", "bay-bridge-sunrise.png", "pride-floats.png"],
+          "pics": [ "ai-billboard.webp", "closed-lobby.webp", "bay-bridge-sunrise.webp", "pride-floats.webp"],
           "paragraphs": [{
             "text": "I hadn't realized when I booked the trip, but it was **SF Pride Week** and our hotel was on the **San Francisco Pride** Parade route. When I had lived in SF a decade earlier, you could barely sidle through the rainbow-clad crowds into a bar to get a drink during Pride week, but I wouldn't even have known it was Pride if our hotel didn't send us an email about road closures. I didn’t see a single rainbow flag or Pride banner anywhere in the streets. It was bizarre"
           },{
@@ -1991,7 +1991,7 @@
           }]
         },{
           "right_side_pic": true,
-          "pics": [ "welcome-dogs.png", "welcome-goats.png"],
+          "pics": [ "welcome-dogs.webp", "welcome-goats.webp"],
           "paragraphs": [
             {
               "text": "Somehow this beautiful place (and climate!) that I had once called home suddenly made me homesick for the **sweltering desert**. From a distance all of the chores and obligations I’d wanted to escape felt like the home where I belong. And our fur/feather family gave us a greeting warmer than the 110 temp we flew home to!"
@@ -2013,10 +2013,10 @@
       "entry_date": "July 18, 2025",
       "entry_subject": "Building Offense Between Us",
       "main_video_id": null,
-      "pic_file": "offence-between-friends.png",
+      "pic_file": "offence-between-friends.webp",
       "feature_section_1": {
         "caption": "The best offence is no offense!",
-        "pic": "assets/blog/offence-between-friends.png"
+        "pic": "assets/blog/offence-between-friends.webp"
       },
       "feature_section_2": null,
       "feature_section_3": null,
@@ -2049,7 +2049,7 @@
           ]
         },
         {
-          "pics": ["happy-flipping-wednesday.png"],
+          "pics": ["happy-flipping-wednesday.webp"],
           "vid": "BHL-t4UQyxA",
           "paragraphs": [
             {
@@ -2069,7 +2069,7 @@
           ]
         },
         {
-          "pics": ["chad-calling-me-karen.png"],
+          "pics": ["chad-calling-me-karen.webp"],
           "vid": "NqPiIFNUuRY",
           "vid_caption": "Original Captions",
           "paragraphs": [
@@ -2124,13 +2124,13 @@
       "entry_date": "August 1, 2025",
       "entry_subject": "The Legend of Uncle Pete",
       "main_video_id": null,
-      "pic_file": "uncle-pete-main-hero.png",
+      "pic_file": "uncle-pete-main-hero.webp",
       "feature_section_1": null,
       "feature_section_2": null,
       "feature_section_3": null,
       "sections": [
         {
-          "pics": ["uncle-petes-fire-trucks-1.png"],
+          "pics": ["uncle-petes-fire-trucks-1.webp"],
           "paragraphs": [
             {
               "text": "If you knew my Uncle Pete, you knew a legend. He had all the usual legendary characteristics: tall, intellectually and athletically gifted, disarming and intimidating in equal measure and at the right times. But he also started his collection of fire trucks in the most legendary way a person could:"
@@ -2147,7 +2147,7 @@
           ]
         },
         {
-          "pics": ["uncle-pete-dalmatian.png", "uncle-petes-fire-trucks-3.png"],
+          "pics": ["uncle-pete-dalmatian.webp", "uncle-petes-fire-trucks-3.webp"],
           "paragraphs": [
             {
               "text": "When I visited the Van Huysens as a child, I remember what a lively, happy pack of three or four big dogs they had running up and down the grassy slope and the winding dirt driveway between their house and the fire engine barn."
@@ -2161,7 +2161,7 @@
           ]
         },
         {
-          "pics": ["uncle-pete-golf-cart-fire-trucks.png", "uncle-petes-fire-trucks-2.png"],
+          "pics": ["uncle-pete-golf-cart-fire-trucks.webp", "uncle-petes-fire-trucks-2.webp"],
           "paragraphs": [
             {
               "text": "Uncle Pete had a big heart, but he was also pragmatic and industrious. When I was nine or ten, he bought a huge SUV (a Suburban or something like that), and he drove my aunt and cousins from their house in CO to CA to visit my family and then when they got home, he sold it for a profit."
@@ -2172,7 +2172,7 @@
           ]
         },
         {
-          "pics": ["uncle-pete-main-hero.png"],
+          "pics": ["uncle-pete-main-hero.webp"],
           "paragraphs": [
             {
               "text": "Some of my very happiest childhood memories were at the Van Huysen’s: riding around with my brother and cousins, Heidi and Kristi, on the golf carts, ATVs, and snowmobiles, all other cool \"toys\" Uncle Pete bought for their family."
@@ -2183,7 +2183,7 @@
           ]
         },
         {
-          "pics": ["uncle-pete-golf-cart-parade.png"],
+          "pics": ["uncle-pete-golf-cart-parade.webp"],
           "paragraphs": [
             {
               "text": "For many years, my grandma (and one of my all-time favorite people), Momo, lived in a little apartment beside the firetruck barn. I would sleep at Momo’s sometimes and I remember Uncle Pete used to come in every morning to check on her and add wood to the little pot-belly stove by her window. It was like a sweet, comforting ritual to witness."
@@ -2210,14 +2210,14 @@
       "entry_number": 28,
       "entry_subject": "A Year of Arillian Farm: The Story Behind the Content",
       "entry_date": "Aug 14, 2025",
-      "pic_file": "year-in-review-cover.png",
+      "pic_file": "year-in-review-cover.webp",
       "feature_section_1": {
         "caption": "A year of growing, building, and learning on the farm. It's a journey of soil and spirit.",
-        "pic": "assets/blog/year-in-review-cover.png"
+        "pic": "assets/blog/year-in-review-cover.webp"
       },
       "sections": [
         {
-          "pics": ["year-in-review-past.png", "year-in-review-present.png", "year-in-review-cooking.png"],
+          "pics": ["year-in-review-past.webp", "year-in-review-present.webp", "year-in-review-cooking.webp"],
           "paragraphs": [
             {
               "text": "It's been a year of steady gardening, cooking, and keeping my phone handy to capture funny farm moments. It’s also been a year of trying to convince myself that it’s all meaningful and worthwhile, even if no one else out there is following along with my journey."
@@ -2234,7 +2234,7 @@
           ]
         },
         {
-          "pics": ["desk-to-garden.png", "huey-ball-hound.png", "chandler-garden.png"],
+          "pics": ["desk-to-garden.webp", "huey-ball-hound.webp", "chandler-garden.webp"],
           "right_side_pic": true,
           "paragraphs": [
             {
@@ -2250,7 +2250,7 @@
           ]
         },
         {
-          "pics": ["chickens-and-peas.png", "garden-meditation.png"],
+          "pics": ["chickens-and-peas.webp", "garden-meditation.webp"],
           "paragraphs": [
             {
               "text": "Finding Joy in the Details",
@@ -2270,7 +2270,7 @@
           ]
         },
         {
-          "pics": ["sunrise-farm.png"],
+          "pics": ["sunrise-farm.webp"],
           "right_side_pic": true,
           "paragraphs": [
             {
@@ -2290,16 +2290,16 @@
     {
       "entry_subject": "Split Dog Pack:Managing Inter-Dog Aggression between Huey Ka-Bluey and Pajama",
       "entry_date": "Aug 27, 2025",
-      "pic_file": "muzzle-stare-down.png",
+      "pic_file": "muzzle-stare-down.webp",
       "entry_number": 29,
       "feature_section_1": {
         "caption": "Moving to the Beat of Two Drums: Living with a split dog pack.",
-        "pic": "assets/blog/muzzle-stare-down.png"
+        "pic": "assets/blog/muzzle-stare-down.webp"
       },
       "sections": [
         {
           "vid": "Vuf_kD8F6cA",
-          "pics": ["huey-pajama-sleep.png"],
+          "pics": ["huey-pajama-sleep.webp"],
           "paragraphs": [
             {
               "text": "Fast Friends",
@@ -2311,7 +2311,7 @@
           ]
       },
         {
-          "pics": ["pajama-angry-on-leash.png"],
+          "pics": ["pajama-angry-on-leash.webp"],
           "right_side_pic": true,
           "paragraphs": [
             {"text": "Hard Lessons",
@@ -2329,7 +2329,7 @@
           ]
         },
         {
-          "pics": [ "huey-staring-in-muzzle.png", "muzzle-stare-down.png"],
+          "pics": [ "huey-staring-in-muzzle.webp", "muzzle-stare-down.webp"],
           "paragraphs": [
             {
               "text": "Distancing and Muzzle training",
@@ -2417,11 +2417,11 @@
     {
       "entry_subject": "The Art of Filling a Day : Musings of a Chill Woman in a World of Mad Men",
       "entry_date": "Sep 12, 2025",
-      "pic_file": "xena-hug.png",
+      "pic_file": "xena-hug.webp",
       "entry_number": 30,
       "feature_section_1": {
         "caption": "From Corporate America to a Happy Homestead: An Un-Mad Life.",
-        "pic": "assets/blog/xena-hug.png"
+        "pic": "assets/blog/xena-hug.webp"
       },
       "sections": [
         {
@@ -2440,7 +2440,7 @@
           ]
         },
         {
-          "pics": ["betty-madmen.png","peggy-madmen.png"],
+          "pics": ["betty-madmen.webp","peggy-madmen.webp"],
           "right_side_pic": true,
           "paragraphs": [
             {
@@ -2462,7 +2462,7 @@
           ]
         },
         {
-          "pics": ["hands-in-garden.png"],
+          "pics": ["hands-in-garden.webp"],
           "paragraphs": [
             {
               "text": "The sweet K I S S of Simple Living",
@@ -2484,7 +2484,7 @@
           ]
         },
         {
-          "pics": ["xena-hug.png"],
+          "pics": ["xena-hug.webp"],
           "paragraphs": [
             {
               "text": "The Yin and Yang of Happiness",
@@ -2508,11 +2508,11 @@
     {
       "entry_subject": "It Takes All Kinds: Embracing the Diverse Forms of Diversity",
       "entry_date": "Sept 26, 2025",
-      "pic_file": "diverse-flock.png",
+      "pic_file": "diverse-flock.webp",
       "entry_number": 31,
       "feature_section_1": {
         "caption": "Navigating a world that needs all kinds of us to thrive.",
-        "pic": "assets/blog/diverse-world-cover.png"
+        "pic": "assets/blog/diverse-world-cover.webp"
       },
       "sections": [
         {
@@ -2595,7 +2595,7 @@
     {
       "entry_subject": "Listing a Rental House in the Age of Algorithms",
       "entry_date": "Oct 10, 2025",
-      "pic_file": "my-mill-ad.png",
+      "pic_file": "my-mill-ad.webp",
       "entry_number": 32,
       "feature_section_1": {
         "caption": "Fighting algorithms to find a good tenant in the post-pandemic market."
@@ -2613,7 +2613,7 @@
           ]
         },
         {
-          "pics": ["my-mill-ad.png"],
+          "pics": ["my-mill-ad.webp"],
           "paragraphs": [
             {
               "text": "Stubborn pragmatist that I am, I decided to get around Zillow with my own DIY tech. I created a Google Ad for my home, complete with a special landing page and an application form on my website. My ad featured a photo slideshow with a peppy voice-over about all the home’s charming features. I thought, this’ll be great—I’ll drive traffic to my website, find new tenants and I’ll feel good because I did it in the hands on tech-DIY way that I love."
@@ -2624,7 +2624,7 @@
           ]
         },
         {
-          "pics": ["zillow-mis-info.png"],
+          "pics": ["zillow-mis-info.webp"],
           "paragraphs": [
             {
               "text": "That’s when it really struck me how at the mercy of algorithms everything is. I fed Zillow my home info and it chewed up my home and digested it without even stopping to savor the flavor. Then it told me my house sucks: I don’t have a 3-D tour, my description didn’t have enough words, I don’t have enough amenities, and, obviously, I should be paying for “Zillow Premium.” Nothing is personal anymore."
@@ -2636,7 +2636,7 @@
         },
         {
           "pics": [
-            "1110-mill-back-view.png"
+            "1110-mill-back-view.webp"
           ],
           "right_side_pic": true,
 
@@ -2657,15 +2657,15 @@
     {
       "entry_subject": "A Micro Disaster and A Burst of Perspective",
       "entry_date": "October 24, 2025",
-      "pic_file": "tempe-tree-fall-2.png",
+      "pic_file": "tempe-tree-fall-2.webp",
       "entry_number": 32,
       "feature_section_1": {
         "caption": "A worst-case scenario becomes a lesson in resilience.",
-        "pic": "assets/blog/microburst-tree-damage.png"
+        "pic": "assets/blog/microburst-tree-damage.webp"
       },
       "sections": [
         {
-          "pics": ["tempe-tree-fall-2.png", "tempe-tree-fall-1.png"],
+          "pics": ["tempe-tree-fall-2.webp", "tempe-tree-fall-1.webp"],
           "paragraphs": [
             {
               "text": "A Sudden Storm",
@@ -2692,7 +2692,7 @@
           ]
         },
         {
-          "pics": ["clear-roof-3.png","underside-of-roof.png"],
+          "pics": ["clear-roof-3.webp","underside-of-roof.webp"],
           "paragraphs": [
             {
               "text": "Onwards and Upwards",
@@ -2710,7 +2710,7 @@
           ]
         },
         {
-          "pics": ["cleanup-van.png","clear-roof-1.png","clear-roof-2.png"],
+          "pics": ["cleanup-van.webp","clear-roof-1.webp","clear-roof-2.webp"],
           "rxight_side_pic": true,
           "paragraphs": [
             {
@@ -2730,7 +2730,7 @@
         },
 
         {
-          "pics": ["clear-skies-in-tempe.png"],
+          "pics": ["clear-skies-in-tempe.webp"],
           "right_side_pic": true,
           "paragraphs": [
             {
@@ -2750,7 +2750,7 @@
     {
       "entry_subject": "Birthdays Go Better with Fetter",
       "entry_date": "11/07/2025",
-      "pic_file": "arillian-farm-game.png",
+      "pic_file": "arillian-farm-game.webp",
       "feature_section_1": {
         "caption": "Reflecting on family traditions, hard-to-buy-for dads, and the legacy of play.",
         "pic_file": "",
@@ -2758,7 +2758,7 @@
       },
       "sections": [
         {
-        "pics": ["dad-card-gift.png"],
+        "pics": ["dad-card-gift.webp"],
         "paragraphs": [
           {
             "text": "The Gift of Giving",
@@ -2772,7 +2772,7 @@
           }
         ]
       }, {
-          "pics": ["young-jillian-fetter.png"],
+          "pics": ["young-jillian-fetter.webp"],
           "paragraphs": [
             {
               "text": "UnFettered Fun",
@@ -2786,7 +2786,7 @@
             }
           ]},
         {
-          "pics": ["arillian-farm-game-1.png","arillian-farm-game.png"],
+          "pics": ["arillian-farm-game-1.webp","arillian-farm-game.webp"],
           "paragraphs": [
             {
               "text": "A Playful Legacy",
@@ -2820,10 +2820,10 @@
     {
       "entry_subject": "From Too Much Time to Too Much Tile on My Hands",
       "entry_date": "11/21/2025",
-      "pic_file": "tile-done.png",
+      "pic_file": "tile-done.webp",
       "feature_section_1": {
         "caption": "Three weeks of DIY tile work, termites, and insurance battles. The final push is here!",
-        "pic_file": "tile-done.png",
+        "pic_file": "tile-done.webp",
         "link": ""
       },
       "sections": [
@@ -2862,10 +2862,10 @@
     {
       "entry_subject": "The Gift of Knowing and Being Known",
       "entry_date": "12/12/2025",
-      "pic_file": "friends-and-fam.png",
+      "pic_file": "friends-and-fam.webp",
       "feature_section_1": {
         "caption": "The winding path through dreams of motherhood, teaching, and corporate careers led me right back home.",
-        "pic_file": "friends-and-fam.png",
+        "pic_file": "friends-and-fam.webp",
         "link": ""
       },
       "sections": [
@@ -2913,10 +2913,10 @@
     {
       "entry_subject": "Lazy Day Conversations with an AI - Binge Watching The White Lotus and Pluribus with Google Gemini",
       "entry_date": "12/26/2025",
-      "pic_file": "lazy-day-philosophy.png",
+      "pic_file": "lazy-day-philosophy.webp",
       "feature_section_1": {
         "caption": "Recovering on the couch with some mind-bending sci-fi and philosophical debates with Gemini.",
-        "pic_file": "lazy-day-philosophy.png",
+        "pic_file": "lazy-day-philosophy.webp",
         "link": ""
       },
       "sections": [
@@ -2982,10 +2982,10 @@
     {
       "entry_subject": "A New Year to Persevere",
       "entry_date": "01/02/2026",
-      "pic_file": "lonely-squab.png",
+      "pic_file": "lonely-squab.webp",
       "feature_section_1": {
         "caption": "A small squab found alone on New Year's Eve—a reminder of the beauty and heartbreak of farm life.",
-        "pic_file": "lonely-squab.png",
+        "pic_file": "lonely-squab.webp",
         "link": ""
       },
       "sections": [
@@ -3038,10 +3038,10 @@
     {
       "entry_subject": "An Ode to Arthur: 11 years of perfect DC coupling and we still resonate on the same frequency.",
       "entry_date": "01/16/2026",
-      "pic_file": "arthur-looking-up.png",
+      "pic_file": "arthur-looking-up.webp",
       "feature_section_1": {
         "caption": "",
-        "pic_file": "arthur-working-on-cougar.png",
+        "pic_file": "arthur-working-on-cougar.webp",
         "link": ""
       },
       "sections": [
@@ -3069,10 +3069,10 @@
     {
       "entry_subject": "Turning Dry January into a Lightly Drizzling New Life... Hopefully",
       "entry_date": "01/30/2026",
-      "pic_file": "dry-january.png",
+      "pic_file": "dry-january.webp",
       "feature_section_1": {
         "caption": "",
-        "pic_file": "dry-january.png",
+        "pic_file": "dry-january.webp",
         "link": ""
       },
       "sections": [
@@ -3095,7 +3095,7 @@
             }
           ]
         },{
-          "pics": ["healthy-cooking.png"],
+          "pics": ["healthy-cooking.webp"],
           "paragraphs": [
             {
               "text": "Week 1: Tons of Fu-- Everything!",
@@ -3114,7 +3114,7 @@
             }
           ]
         },{
-          "pics": ["healthy-habits.png"],
+          "pics": ["healthy-habits.webp"],
           "paragraphs": [
             {
               "text": "Week 2: Feeling Strong!",
@@ -3129,7 +3129,7 @@
             }
           ]
         },{
-          "pics": ["dry-anniversary.png"],
+          "pics": ["dry-anniversary.webp"],
           "paragraphs": [
             {
               "text": "Week 3: Everything's Blah, but It's Fine",
@@ -3158,7 +3158,7 @@
             }
           ]
         },{
-          "pics": ["beer-on-the-horizon.png"],
+          "pics": ["beer-on-the-horizon.webp"],
           "paragraphs": [
             {
               "text": "Destination Moderation",
@@ -3173,15 +3173,15 @@
     {
       "entry_subject": "Being that Garden Hoe",
       "entry_date": "02/15/2026",
-      "pic_file": "giant-tomato.png",
+      "pic_file": "giant-tomato.webp",
       "feature_section_1": {
         "caption": "The 'weeds' in question: A foodscape caught in a crossfire.",
-        "pic_file": "giant-tomato.png",
+        "pic_file": "giant-tomato.webp",
         "link": ""
       },
       "sections": [
         {
-          "pics": ["giant-tomato.png", "wacked-front-yard.png"],
+          "pics": ["giant-tomato.webp", "wacked-front-yard.webp"],
           "paragraphs": [
             { "text": "Well I lost a garden this week. The city sent a notice to Arthur that the ‘weeds’ in the yard of his rental house (the wood chip foodscape) were too tall. I was startled by the news because the foodscape had seemed pretty tame the last time I’d seen it—but admittedly I hadn’t been by the front of the house in weeks because I’d been trying to focus on finally finishing the water garden in the backyard." },
             { "text": "The Breakdown of Communication", "h3": true },
@@ -3208,10 +3208,10 @@
     {
       "entry_subject": "Modern Philosophers & The Funny Farm: The Funny Fodder in Our Own Backyard",
       "entry_date": "02/27/2026",
-      "pic_file": "funny-animal-moment.png",
+      "pic_file": "funny-animal-moment.webp",
       "feature_section_1": {
         "caption": "POV: When the 'talent' refuses to follow the script.",
-        "pic_file": "funny-animal-moment.png",
+        "pic_file": "funny-animal-moment.webp",
         "link": ""
       },
       "sections": [
@@ -3233,15 +3233,15 @@
     {
       "entry_subject": "Vines, Villains, and Greenfingers: Crawling Back into the dirt where I belong",
       "entry_date": "03/13/2026",
-      "pic_file": "happy-vines.png",
+      "pic_file": "happy-vines.webp",
       "feature_section_1": {
         "caption": "Back in the dirt where I belong.",
-        "pic_file": "happy-vines.png",
+        "pic_file": "happy-vines.webp",
         "link": ""
       },
       "sections": [
         {
-          "pics": ["happy-vines.png"],
+          "pics": ["happy-vines.webp"],
           "paragraphs": [
             { "text": "There’s a movie I love (based on a true story) called 'Greenfingers' with Clive Owen, where a bunch of British prisoners start a garden, win a floral contest, and find a sense of peace and purpose through the project. That movie is like my guiding light; growth through growing is what I’m all about. But, little-known-fact: gardening takes real time and effort, so it can lead to conflict. Fortunately, in spite of the melodrama over the overgrown tomatoes and hose clamps, my own story has led me right back to the landscape of Arthur’s rental house." },
             { "text": "Putting Down Roots and Growing Relationships", "h3": true },
@@ -3260,15 +3260,15 @@
     {
       "entry_subject": "Tiles, Travels, and Taking Control",
       "entry_date": "04/03/2026",
-      "pic_file": "kitchen-tiling-1.png",
+      "pic_file": "kitchen-tiling-1.webp",
       "feature_section_1": {
         "caption": "A fresh backsplash and a fresh perspective.",
-        "pic_file": "kitchen-tiling-1.png",
+        "pic_file": "kitchen-tiling-1.webp",
         "link": ""
       },
       "sections": [
         {
-          "pics": ["kitchen-tiling-progress.png"],
+          "pics": ["kitchen-tiling-progress.webp"],
           "paragraphs": [
             { "text": "Sometimes a friend doesn’t just need a phone call; they need someone to show up with a wet saw and a box of tiles. My friend in California has been feeling the weight of the world lately—she’s back in the office five days a week after a decade of flexibility, and the commute and in-office atmosphere has been absolutely draining the life out of her. Between the loss of free time and feeling like her neighbors are practically on top of her at her condo, she's been overwhelmed and deflated. She wants a house with a yard and room to breathe, but she didn't know where to even start on making her current place market-ready." },
             { "text": "The Friday Prep and Catch-Up", "h3": true },
@@ -3286,15 +3286,15 @@
     {
       "entry_subject": "Feathers, Failures, and the Fort Knox Flip",
       "entry_date": "04/16/2026",
-      "pic_file": "chicken-loss-1.png",
+      "pic_file": "chicken-loss-1.webp",
       "feature_section_1": {
         "caption": "The wide-open door that changed everything.",
-        "pic_file": "chicken-loss-1.png",
+        "pic_file": "chicken-loss-1.webp",
         "link": ""
       },
       "sections": [
         {
-          "pics": ["chicken-loss-2.png"],
+          "pics": ["chicken-loss-2.webp"],
           "paragraphs": [
             { "text": "Our chicken flock suffered a devastating blow because I was so caught up in the stupid new Keanu Reeves movie, to realize that the sun had set, but I'd left the coop door wide-open. At some point between Keanu's character realizing he'd been an obtuse jack ass to all the people who cared about him and my waking up the next morning, the pair of feral cats I've started noticing in our neighborhood snuck into the coop and literally ripped apart two of our sweet sleeping birds.  Walking into the barn to find the aftermath of a feral cat raid is a specific kind of sickness. Clumps of feathers dripping with blood, the egg shells that had been inside them ripped and smashed into the bloody mess of feathers. These cats caught me slippin' and my beautiful birds met a horrible end that they didn't deserve. I’ve lived here ten years and never saw a feral cat --until a few weeks ago when my neighbor started a feeding station. I'd become complacent and basically left a 'welcome' mat out to any nocturnal hunter that prowled by." },
             { "text": "Triage and the Mission-Mode Pivot", "h3": true },
@@ -3312,10 +3312,10 @@
     {
       "entry_subject": "Hyping Up For A Return To Hyperspear",
       "entry_date": "05/01/2026",
-      "pic_file": "hyperspear-year-0.png",
+      "pic_file": "hyperspear-year-0.webp",
       "feature_section_1": {
         "caption": "",
-        "pic_file": "hyperspear-year-0.png",
+        "pic_file": "hyperspear-year-0.webp",
         "link": ""
       },
       "sections": [
@@ -3325,7 +3325,7 @@
             {"text":"Posting on my YouTube channel has felt a bit forced and unfulfilling lately. Capturing footage and captioning it was starting to take away from the joy and intrigue of the moments I was trying to capture (especially after the cat-attack in the chicken coop last month), so for now I’m going to try to just be present in my barnyard moments and I'm focusing my creative energy into writing the sequel (that nobody asked for) to my novella Hyperspear. "}
            ]
         },{
-          "pics": ["hyperspear-year-0.png"],
+          "pics": ["hyperspear-year-0.webp"],
           "paragraphs": [
             {
               "text": "Hyperspear Year Zero Synopsis",
@@ -3341,10 +3341,10 @@
     {
       "entry_subject": "The Commodification of Peace of Mind",
       "entry_date": "05/15/2026",
-      "pic_file": "peace-of-mind-banner.png",
+      "pic_file": "peace-of-mind-banner.webp",
       "feature_section_1": {
         "caption": "Looking for anchors in a sea of data.",
-        "pic_file": "desert-horizon.png",
+        "pic_file": "desert-horizon.webp",
         "link": ""
       },
       "sections": [
@@ -3389,10 +3389,10 @@
     {
       "entry_subject": "PREVIEW OF HYPERSPEAR YEAR ZERO CHAPTER-1",
       "entry_date": "05/28/2026",
-      "pic_file": "hyperspear-year-zero-1.png",
+      "pic_file": "hyperspear-year-zero-1.webp",
       "feature_section_1": {
         "caption": "Chapter 1 Preview",
-        "pic_file": "feature-image.png",
+        "pic_file": "feature-image.webp",
         "link": ""
       },
       "sections": [
@@ -3457,10 +3457,10 @@
     {
       "entry_subject": "PREVIEW OF HYPERSPEAR YEAR ZERO CHAPTER-2",
       "entry_date": "06/12/2026",
-      "pic_file": "hyperspear-year-zero-2.png",
+      "pic_file": "hyperspear-year-zero-2.webp",
       "feature_section_1": {
         "caption": "Chapter 2 Preview",
-        "pic_file": "feature-image.png",
+        "pic_file": "feature-image.webp",
         "link": ""
       },
       "sections": [
@@ -3603,10 +3603,10 @@
     {
       "entry_subject": "PREVIEW OF HYPERSPEAR YEAR ZERO CHAPTER-3",
       "entry_date": "06/25/2026",
-      "pic_file": "hyperspear-year-zero-3.png",
+      "pic_file": "hyperspear-year-zero-3.webp",
       "feature_section_1": {
         "caption": "Chapter 3 Preview",
-        "pic_file": "feature-image.png",
+        "pic_file": "feature-image.webp",
         "link": ""
       },
       "sections": [
@@ -3708,10 +3708,10 @@
     {
       "entry_subject": "PREVIEW OF HYPERSPEAR YEAR ZERO CHAPTER-4",
       "entry_date": "07/09/2026",
-      "pic_file": "hyperspear-year-zero-4.png",
+      "pic_file": "hyperspear-year-zero-4.webp",
       "feature_section_1": {
         "caption": "Chapter 4 Preview",
-        "pic_file": "feature-image.png",
+        "pic_file": "feature-image.webp",
         "link": ""
       },
       "sections": [
@@ -3785,10 +3785,10 @@
     {
       "entry_subject": "PREVIEW OF HYPERSPEAR YEAR ZERO CHAPTER-5",
       "entry_date": "07/24/2026",
-      "pic_file": "hyperspear-year-zero-5.png",
+      "pic_file": "hyperspear-year-zero-5.webp",
       "feature_section_1": {
         "caption": "Chapter 5 Preview",
-        "pic_file": "feature-image.png",
+        "pic_file": "feature-image.webp",
         "link": ""
       },
       "sections": [
@@ -3870,10 +3870,10 @@
     {
       "entry_subject": "PREVIEW OF HYPERSPEAR YEAR ZERO CHAPTER-6",
       "entry_date": "08/1/2026",
-      "pic_file": "hyperspear-year-zero-6.png",
+      "pic_file": "hyperspear-year-zero-6.webp",
       "feature_section_1": {
         "caption": "Chapter 6 Preview",
-        "pic_file": "feature-image.png",
+        "pic_file": "feature-image.webp",
         "link": ""
       },
       "sections": [
@@ -3937,10 +3937,10 @@
     {
       "entry_subject": "PREVIEW OF HYPERSPEAR YEAR ZERO CHAPTER-7",
       "entry_date": "08/21/2026",
-      "pic_file": "hyperspear-year-zero-7.png",
+      "pic_file": "hyperspear-year-zero-7.webp",
       "feature_section_1": {
         "caption": "Chapter 7 Preview",
-        "pic_file": "feature-image.png",
+        "pic_file": "feature-image.webp",
         "link": ""
       },
       "sections": [
