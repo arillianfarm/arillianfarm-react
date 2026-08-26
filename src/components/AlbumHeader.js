@@ -4,15 +4,15 @@ import { titleCaps, applyAlbumFilter } from '../utils';
 
 const albumCovers = [
     { name: "new", pic:`${process.env.PUBLIC_URL}/assets/headerPictures/android-chrome-192x192.png` },
-    { name: "broodzilla", hide_pic_view: true, pic:`${process.env.PUBLIC_URL}/assets/headerPictures/broodzilla.png` },
-    { name: "meh monday", hide_pic_view: true, pic:`${process.env.PUBLIC_URL}/assets/headerPictures/meh-monday.png` },
-    { name: "cooking", hide_pic_view: true, pic:`${process.env.PUBLIC_URL}/assets/headerPictures/cooking2.png` },
-    { name: "garden", pic:`${process.env.PUBLIC_URL}/assets/headerPictures/arti-android-chrome-192x192.png` },
+    { name: "broodzilla", hide_pic_view: true, pic:`${process.env.PUBLIC_URL}/assets/headerPictures/broodzilla.webp` },
+    { name: "meh monday", hide_pic_view: true, pic:`${process.env.PUBLIC_URL}/assets/headerPictures/meh-monday.webp` },
+    { name: "cooking", hide_pic_view: true, pic:`${process.env.PUBLIC_URL}/assets/headerPictures/cooking2.webp` },
+    { name: "garden", pic:`${process.env.PUBLIC_URL}/assets/headerPictures/arti-android-chrome-192x192.webp` },
     { name: "chickens", pic:`${process.env.PUBLIC_URL}/favicons/android-chrome-192x192.png` },
-    { name: "dogs", pic:`${process.env.PUBLIC_URL}/assets/headerPictures/xena-android-chrome-192x192.png` },
-    { name: "goats", pic:`${process.env.PUBLIC_URL}/assets/headerPictures/tandmg-android-chrome-192x192.png` },
+    { name: "dogs", pic:`${process.env.PUBLIC_URL}/assets/headerPictures/xena-android-chrome-192x192.webp` },
+    { name: "goats", pic:`${process.env.PUBLIC_URL}/assets/headerPictures/tandmg-android-chrome-192x192.webp` },
     { name: "sky", pic:`${process.env.PUBLIC_URL}/assets/android-chrome-192x192.png` },
-    { name: "wildlife", pic:`${process.env.PUBLIC_URL}/assets/headerPictures/pic-android-chrome-192x192.png` }
+    { name: "wildlife", pic:`${process.env.PUBLIC_URL}/assets/headerPictures/pic-android-chrome-192x192.webp` }
 ];
 
 

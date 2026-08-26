@@ -2,16 +2,16 @@ import React from 'react';
 
 function HeaderPic() {
     const headerPicFiles = [
-        { name: "dogsPool.png" , small_hide: true },
-        { name: "sammyBomb.png", small_hide: true },
-        { name: "Sunflower.png", small_hide: true },
-        { name: "waterGarden.png", small_hide: true },
-        { name: "cooking.png", small_hide: true },
-        { name: "goatsLeaf.png", small_hide: true },
-        { name: "chickenSunrise.png", },
-        { name: "prettyRadish.png", small_hide: true },
-        { name: "skyChoke.png", small_hide: true },
-        { name: "weldingArthur.png" , small_hide: true },
+        { name: "dogsPool.webp" , small_hide: true },
+        { name: "sammyBomb.webp", small_hide: true },
+        { name: "Sunflower.webp", small_hide: true },
+        { name: "waterGarden.webp", small_hide: true },
+        { name: "cooking.webp", small_hide: true },
+        { name: "goatsLeaf.webp", small_hide: true },
+        { name: "chickenSunrise.webp", },
+        { name: "prettyRadish.webp", small_hide: true },
+        { name: "skyChoke.webp", small_hide: true },
+        { name: "weldingArthur.webp" , small_hide: true },
     ];
 
     return (

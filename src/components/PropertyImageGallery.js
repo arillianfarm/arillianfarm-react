@@ -3,7 +3,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 // Define all property images and their captions
 const images = [
-    { src: '/assets/millRental/mill-exterior-2.png', caption: 'Front of House' },
+    { src: '/assets/millRental/mill-exterior-2.webp', caption: 'Front of House' },
     { src: '/assets/millRental/mill-exterior-3.png', caption: 'Front Porch' },
     { src: '/assets/millRental/mill-exterior-6.png', caption: 'View From Front Yard' },
     { src: '/assets/millRental/mill-exterior-8.png', caption: 'Back of House' },

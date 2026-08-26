@@ -28,9 +28,9 @@ const BooksView = () => {
     // Note: It's generally better practice to define data like this outside the component
     // or fetch it, but for this example, we'll keep it as provided.
     const initialData = {
-        unfettered_display_pages: ["frontCoverUnfet.jpg", "backCoverUnfet.jpg", "booksignunfet.png"],
+        unfettered_display_pages: ["frontCoverUnfet.jpg", "backCoverUnfet.jpg", "booksignunfet.webp"],
         unfettered_display_page: "frontCoverUnfet.jpg",
-        hyperspear_display_pages: ["hyperCover1.png", "hyperspear2.png", "hyperspear3.png"],
+        hyperspear_display_pages: ["hyperCover1.webp", "hyperspear2.webp", "hyperspear3.webp"],
         hyperspear_display_page: "hyperCover1.png"
     };
 
