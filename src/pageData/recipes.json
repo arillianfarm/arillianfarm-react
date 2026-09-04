@@ -5009,6 +5009,39 @@
         }
       ],
       "notes": "Like a Mexican Torta ... sorta"
+    },
+    {
+      "name": "Air Fryer Fruit Cocktail Cake with Ice Cream",
+      "header_pic": "fruit-c-cake-done.webp",
+      "pub_date": "09/04/26",
+      "servings": "6",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "1 cup all-purpose flour",
+        "1 cup granulated sugar",
+        "1 tsp baking soda",
+        "1/8 tsp salt",
+        "1 egg",
+        "1 cup canned fruit cocktail (with syrup)",
+        "1/2 cup brown sugar",
+        "Vanilla ice cream (for serving)"
+      ],
+      "steps": [
+        {
+          "pic": "fruit-c-cake-1.webp",
+          "instruction": "In a mixing bowl, whisk together the all-purpose flour, granulated sugar, baking soda, and salt. Stir in the egg and fruit cocktail with its syrup until completely combined."
+        },
+        {
+          "pic": "fruit-c-cake-2.webp",
+          "instruction": "Pour the batter into a lightly greased pie tin or cake pan (that fits in your air fryer basket) and sprinkle the brown sugar evenly over the top, pressing it gently into the batter. Air fry at 300°F for 24-30 minutes, or until a toothpick inserted in the center comes out clean."
+        },
+        {
+          "pic": "fruit-c-cake-done.webp",
+          "instruction": "Serve warm topped with a scoop of vanilla ice cream."
+        }
+      ],
+      "notes": "Based on the cake Dolly Parton describes in Steel Magnolias"
     }
   ]
 }
