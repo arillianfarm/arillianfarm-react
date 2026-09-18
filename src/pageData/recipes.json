@@ -5042,6 +5042,54 @@
         }
       ],
       "notes": "Based on the cake Dolly Parton describes in Steel Magnolias"
+    },
+    {
+      "name": "French Onion Stuffed Crimini Mushroom Caps",
+      "header_pic": "french-onion-stuffed-mushrooms.webp",
+      "pub_date": "09/18/26",
+      "servings": "12-15 caps",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "1 lb Crimini mushrooms (cremini/baby bella), stems removed and reserved",
+        "1 large Yellow onion, thinly sliced",
+        "2 tbsp Unsalted butter",
+        "2 cloves Garlic, minced",
+        "1/4 cup Dry sherry (or 2 tablespoons apple cider vinegar in 1/4 cup broth)",
+        "1/2 tsp Fresh thyme leaves (or 1/4 tsp dried)",
+        "1/4 cup Vegetable broth",
+        "1/3 cup Swiss or Gruyère cheese, shredded or sliced",
+        "2 tbsp Parmesan cheese, finely grated",
+        "1/2 tsp Salt",
+        "1/4 tsp Black pepper"
+      ],
+      "steps": [
+        {
+          "pic": "",
+          "instruction": "Wipe mushroom caps clean with a damp towel. Finely chop about half of the reserved stems and set aside."
+        },
+        {
+          "pic": "",
+          "instruction": "Melt butter in a skillet over medium-low heat. Add sliced onions with a pinch of salt and cook low and slow, stirring occasionally, until deeply golden brown and caramelized (about 20–25 minutes)."
+        },
+        {
+          "pic": "make-filling.webp",
+          "instruction": "Stir chopped mushroom stems, minced garlic, and thyme into the onions; cook for 2–3 minutes. Deglaze with dry sherry and vegetable broth, simmering until liquid is fully evaporated. Season with salt and pepper."
+        },
+        {
+          "pic": "pre-bake-mushrooms.webp",
+          "instruction": "Arrange caps cavity-side up in air fryer tray. To release excess moisture before stuffing, air fry the empty mushroom caps for 3 minutes at 375°F."
+        },
+        {
+          "pic": "stuff-caps.webp",
+          "instruction": "Spoon onion mixture into each cap and top with Gruyère (or Swiss cheese) and grated Parmesan."
+        },
+        {
+          "pic": "bake-mushrooms.webp",
+          "instruction": "Air Fry for 6-7 minutes at 375°F, until mushroom caps are tender and the cheese is melted, bubbly, and golden brown."
+        }
+      ],
+      "notes": "These caps are good ---no cap!"
     }
   ]
 }
