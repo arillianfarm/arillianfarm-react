@@ -5090,6 +5090,51 @@
         }
       ],
       "notes": "These caps are good ---no cap!"
+    },
+    {
+      "name": "Condensed Milk Pecan Pie",
+      "header_pic": "pec-pie-3.webp",
+      "pub_date": "11/13/26",
+      "servings": "1 pie, 8 servings",
+      "vid": null,
+      "related_recipes": [],
+      "ingredients": [
+        "1 single 9-inch pie crust (unbaked, chilled)",
+        "2 cups pecan halves (divided: 1 cup coarsely chopped, 1 cup whole)",
+        "3 large eggs (room temperature)",
+        "½ cup light brown sugar (packed)",
+        "¾ cup  sweetened condensed milk",
+        "4 tbsp unsalted butter (melted and slightly cooled)",
+        "1 tbsp vanilla extract",
+        "½ tsp coarse kosher salt"
+      ],
+      "steps": [
+        {
+          "pic": "pec-pie-1.webp",
+          "instruction": "Preheat your oven to 350°F. Place your unbaked pie crust in a 9-inch pie dish, crimp the edges, and keep chilled in the fridge."
+        },
+        {
+          "pic": "",
+          "instruction": "Spread all 2 cups of pecans on a baking sheet and toast for 6–8 minutes until fragrant. Let cool completely. Roughly chop 1 cup and leave 1 cup whole for the top."
+        },
+        {
+          "pic": "pec-pie-4.webp",
+          "instruction": "In a large mixing bowl, whisk together the eggs, packed brown sugar, sweetened condensed milk, melted butter, vanilla and salt until fully smooth."
+        },
+        {
+          "pic": "pec-pie-5.webp",
+          "instruction": "Stir the 1 ½ cups of chopped pecans into the custard mixture. Pour into the chilled pie crust and arrange the reserved whole pecans across the top."
+        },
+        {
+          "pic": "pec-pie-2.webp",
+          "instruction": "Bake at 350°F for 40 to 50 minutes until the edges are set and the center has a subtle jiggle. Tent loosely with aluminum foil at the 20 to 25-minute mark to prevent the dairy top from over-browning."
+        },
+        {
+          "pic": "pec-pie-3.webp",
+          "instruction": "Transfer to a wire cooling rack and cool at room temperature for at least 3 to 4 hours before slicing so the creamy custard fully sets."
+        }
+      ],
+      "notes": "Yes we peCAN!"
     }
   ]
 }

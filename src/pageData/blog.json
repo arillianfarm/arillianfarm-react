@@ -3251,7 +3251,7 @@
             },
             { "text": "I was fretting in my sleep over the rift every night and woke up feeling drained —staying in bed longer and going to bed earlier most nights. After a month, I realized enough time had passed and there was more space than I cared for between me and the people and place I'd been distancing myself from. So, I grew up and reached out. I texted Arthur’s ex-wife: 'I really enjoyed working on the garden with you. We have so many overlapping people in our lives that it makes more sense to be friends, and I’d like to still help in the garden if you want me.'" },
             { "text": "Standing up and Standing down", "h3": true },
-            { "text": "She welcomed me back immediately, and the relief was euphoric. I felt like the universe was back in balance. Reflecting on it, I'd say the only difference between a hero and a villain is when, where, and how they express their outrage. I don't know which one I was in that driveway a month ago, but it felt important to say my piece." },
+            { "text": "She welcomed me back immediately, and the relief was euphoric. I felt like the universe was back in balance. Reflecting on it, I'd say the only difference between a hero and a villain is when, where, and how they assert themselves. I think I was a little of both in that driveway a month ago, but it felt important to say my piece." },
             { "text": "When I had texted Arthur’s brother originally, it felt like he was dismissing me as 'being a girl' (just having random hurt feelings) about the city's citation, so it felt necessary to express myself in person—in front of the garden I was actually sweating over. After that, I had to decide to let go of my ego and reach out. Life isn’t a straight line; we all twist and tangle together like vines while we grow." }
           ]
         }
@@ -4437,6 +4437,54 @@
           { "text": "I take a deep breath, filling my new lungs with the cool evening air, smelling woodsmoke, dirt, and human sweat. My aching knees pop as I step out from under the watchtower. My raw bloody feet crunch against the dry soil as I walk into the firelight, bruised, covered in river silt, and wrapped in the crude hair-woven garments I’d made during my river journey. Every face in the crowd snaps toward me —the inexplicable stranger in their midst." },
           { "text": "I pause at the edge of the circle, looking around at my progeny and offer them a tired, human smile and a sheepish wave. “Hi, I’m Genesis. Mind if I weigh in?”" }
         ]
+        }
+      ]
+    },
+    {
+      "entry_subject": "The Audacity of Putting Out a Self Narrated Audiobook ",
+      "entry_date": "11/13/2026",
+      "pic_file": "hyz-recording-studio.webp",
+      "feature_section_1": {
+        "caption": "",
+        "pic_file": "hyz-recording-studio.webp",
+        "link": ""
+      },
+      "sections": [
+       {
+          "pics": ["hyz-recording-studio.webp"],
+          "paragraphs": [
+            {
+              "text": "Torturing Myself with The Sound of My Own Voice",
+              "h3": true
+            },
+            {
+              "text": "I've spent a lot of the last couple months hunkered down inside our walk-in closet listening to myself read and re-read every sentence of my latest novella, Hyperspear Year Zero, until I absolutely hate every word of it. I have a new respect for voice actors. It's hard to keep your face the right distance from the mic while controlling your breath and trying to 'do voices'. Doing a POV narrative for four unique characters made me realize how limited my voice range is. I gave one character a resting bitch voice, another is too whispery and waifish, and the male narrative voice was okay, but I don't really love the idea that I'm better at doing a man's voice than a woman's. And apparently no matter what voice I try to speak in, I'm emotionless and monotone. But hey I decided it's time to stop editing and re-recording and just shove my baby out of the nest and see if it flies."
+            },
+            {
+              "text": "I actually ended up doing a lot of heavy editing as I was recording. Besides making me hate the sound of my own voice, hearing my words out loud also helped me to pick up on some weird phrasing, redundancies and other less-than-perfect bits of my book that hadn't been as obvious when I was just editing with my eyeballs. TBH I still think I over use the word 'as' and I think I rushed ahead some scenes faster than I should have, but I guess I want to stop hiding in the closet more than I want to have a flawlessly perfect book. Overwhelming myself with a massive project and then saying fuck it I'm done it is what it is, is very on brand for me though."
+            },
+            {
+              "text": "Using Audacity and Vids to Create Audiobook Chapters for YouTube",
+              "h3": true
+            },
+            {
+              "text": "Fortunately, this was a very low budget project in every way. I paid about twenty dollars for a microphone (that I could interface with headphones and a laptop that I already had) and I used Audacity, a free, easy to use audio recording software program to lay down my tracks. This was my first major audio recording project, so I kept it really simple and didn't use any plug-ins or advanced features on audacity. I just recorded myself reading every paragraph of every chapter over and over again and then went back through and spliced all the best takes together."
+            },
+            {
+              "text": "Once I had each of my chapters saved to my desktop, I used Google Vids to sew my audio together with the chapter images that I'd had had Google Gemini generate for me and I was able to just export an MP4 file from Vids directly to YouTube."
+            },
+            {
+              "text": "Check Out the Finished Product:",
+              "h3": true
+            }
+          ]
+        },{
+          "vid": "EhFX0EPI9j4",
+          "paragraphs": [
+            {
+              "text": "I'll Be Releasing New Chapters On YouTube Weekly, So Subscribe And Stay Tuned To Find Out If I got Better Or Worse As I Went Along."
+            }
+          ]
         }
       ]
     }
